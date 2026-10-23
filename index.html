@@ -18,18 +18,28 @@
     />
   </head>
   <body>
-    <a class="skip-link" href="#voyage">Aller au voyage</a>
+    <a class="skip-link" href="#etape-au-dela-du-mur">Aller au voyage</a>
+    <canvas id="world" aria-hidden="true"></canvas>
+    <div id="world-labels" aria-hidden="true"></div>
+    <div id="cut-fade" aria-hidden="true"></div>
     <main>
-      <section id="intro" class="intro">
-        <p class="label">Guide non officiel · Westeros &amp; Essos</p>
-        <h1>A Realm Divided</h1>
-      </section>
+      <section id="intro" class="intro"></section>
       <section id="voyage" aria-label="Le voyage"></section>
-      <section id="annexes" aria-label="Annexes"></section>
+      <section id="annexes" aria-label="Annexes">
+        <section id="arbre" class="annexe">
+          <h2>L’arbre des familles</h2>
+          <p>L’arbre généalogique arrive en phase 5.</p>
+        </section>
+      </section>
     </main>
-    <footer>
+    <footer class="site-footer">
       <p>Guide de fan non officiel, sans affiliation avec HBO ni George R. R. Martin.</p>
     </footer>
+    <p id="announcer" class="visually-hidden" aria-live="polite"></p>
+    <dialog id="archive" aria-labelledby="archive-title">
+      <button type="button" class="archive-close" data-close aria-label="Fermer la fiche">×</button>
+      <div class="archive-body"></div>
+    </dialog>
     <script type="module" src="/src/main.js"></script>
   </body>
 </html>

@@ -5,6 +5,8 @@ export default defineConfig({
   base: './',
   build: {
     outDir: 'dist',
+    // Three.js pèse ~150 Ko gzip à lui seul : il vit dans le bloc « world » chargé à part.
+    chunkSizeWarningLimit: 700,
     rollupOptions: {
       // lab.html (phases 1-2) reste hors du build final : seule index.html est une entrée.
       input: 'index.html',

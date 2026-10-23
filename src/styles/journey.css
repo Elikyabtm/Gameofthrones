@@ -1,0 +1,329 @@
+/* Voyage : scène fixe, étiquettes projetées, intro, articles d'étape et panneaux (§5.3, §7). */
+
+#world {
+  position: fixed;
+  inset: 0;
+  z-index: 0;
+  width: 100%;
+  height: 100%;
+}
+
+#world-labels {
+  position: fixed;
+  inset: 0;
+  z-index: 1;
+  overflow: hidden;
+  pointer-events: none;
+}
+
+/* Étiquettes HTML des cités : sans boîte ni fond (§4.5). */
+.world-label {
+  position: absolute;
+  left: 0;
+  top: 0;
+  font-family: var(--serif);
+  font-size: 17px;
+  font-weight: 500;
+  line-height: 1;
+  color: #e9e1c6;
+  text-shadow: 0 1px 8px #000c;
+  white-space: nowrap;
+  opacity: 0;
+  transition: opacity 400ms var(--ease);
+  will-change: transform;
+}
+.world-label.is-visible {
+  opacity: 1;
+}
+.world-label.is-active {
+  font-size: 22px;
+}
+
+main {
+  position: relative;
+  z-index: 2;
+}
+
+/* --- Intro --------------------------------------------------------------- */
+.intro {
+  height: 120vh;
+  display: grid;
+  align-content: start;
+  justify-items: center;
+  padding: 0 calc(var(--frame) + 16px);
+  text-align: center;
+}
+.intro-inner {
+  position: sticky;
+  top: 0;
+  display: grid;
+  justify-items: center;
+  align-content: center;
+  gap: 18px;
+  min-height: 100vh;
+  max-width: 900px;
+}
+.intro h1 {
+  font-size: clamp(56px, 9vw, 132px);
+  font-weight: 500;
+  line-height: 0.95;
+  text-shadow: 0 2px 24px #000a;
+}
+.intro-hook {
+  margin: 0;
+  max-width: 620px;
+  font-family: var(--serif);
+  font-style: italic;
+  font-size: var(--fs-lead);
+  line-height: 1.4;
+  color: var(--ink-2);
+  text-shadow: 0 1px 12px #000c;
+}
+.intro-cta {
+  margin-top: 12px;
+  padding: 12px 22px;
+  border: 1px solid var(--gold-line);
+  color: var(--ink);
+  font-size: var(--fs-small);
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  text-decoration: none;
+  background: #0a101299;
+  transition:
+    border-color 200ms var(--ease),
+    background 200ms var(--ease);
+}
+.intro-cta:hover {
+  border-color: var(--gold);
+  background: #0a1012cc;
+}
+/* Chargement de la carte : filet doré qui se remplit (jamais d'écran blanc). */
+.intro-loading {
+  width: 160px;
+  height: 1px;
+  background: var(--gold-soft);
+  overflow: hidden;
+}
+.intro-loading .bar {
+  display: block;
+  height: 100%;
+  width: 100%;
+  background: var(--gold);
+  transform-origin: left;
+  animation: loading 1.6s var(--ease) infinite;
+}
+.is-world-ready .intro-loading {
+  visibility: hidden;
+}
+@keyframes loading {
+  from {
+    transform: scaleX(0);
+  }
+  to {
+    transform: scaleX(1);
+  }
+}
+
+/* --- Étapes -------------------------------------------------------------- */
+.stop {
+  position: relative;
+  /* flow-root : la marge négative de .stop-sticky reste DANS l'article ; sinon elle fusionne
+     avec celle de l'article, qui remonte de 40 vh (et l'étape 01 démarre sous l'intro). */
+  display: flow-root;
+  height: 160vh;
+}
+
+/* Cadre collant d'un écran de haut : il démarre 40 vh avant l'article, si bien que le panneau
+   est centré dès u ≈ 0,375 (début du palier) et le reste jusqu'à la fin de l'article. */
+.stop-sticky {
+  position: sticky;
+  top: 0;
+  height: 100vh;
+  margin-top: -40vh;
+  display: flex;
+  align-items: center;
+  padding: var(--hud-top) calc(var(--frame) + 24px) var(--hud-bottom);
+  pointer-events: none;
+}
+.stop[data-side='right'] .stop-sticky {
+  justify-content: flex-end;
+}
+
+.stop-panel {
+  position: relative;
+  width: min(460px, 38vw);
+  max-height: calc(100vh - 160px);
+  overflow: auto;
+  padding: 40px 44px;
+  background: var(--panel);
+  -webkit-backdrop-filter: blur(12px);
+  backdrop-filter: blur(12px);
+  border-right: 1px solid #bba47666;
+  pointer-events: auto;
+  opacity: 0;
+  visibility: hidden;
+  scrollbar-width: thin;
+  scrollbar-color: var(--gold-line) transparent;
+}
+.stop[data-side='right'] .stop-panel {
+  border-right: 0;
+  border-left: 1px solid #bba47666;
+}
+
+.stop-region {
+  position: relative;
+  z-index: 1;
+  margin: 0 0 8px;
+  font-size: var(--fs-label);
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  color: var(--gold);
+}
+.stop-num {
+  position: absolute;
+  top: 6px;
+  right: 22px;
+  margin: 0;
+  font-family: var(--serif);
+  font-size: 120px;
+  line-height: 1;
+  color: #bba47633;
+  pointer-events: none;
+}
+.stop-panel h2 {
+  position: relative;
+  font-size: clamp(48px, 5.4vw, 88px);
+  line-height: 0.95;
+  margin-bottom: 18px;
+}
+.stop-hook {
+  font-family: var(--serif);
+  font-style: italic;
+  font-size: var(--fs-lead);
+  line-height: 1.35;
+  color: var(--ink);
+}
+.stop-figure {
+  margin: 22px 0;
+  aspect-ratio: 16 / 9;
+  overflow: hidden;
+  background: var(--bg-2);
+}
+.stop-figure img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.stop-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin: 0 0 24px;
+  padding: 0;
+  list-style: none;
+}
+.stop-links li {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+.stop-link,
+.stop-more,
+.lineage {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  min-height: 36px;
+  padding: 6px 12px;
+  border: 1px solid var(--gold-line);
+  background: transparent;
+  font-size: var(--fs-small);
+  line-height: 1.2;
+  color: var(--ink);
+  cursor: pointer;
+  transition:
+    border-color 200ms var(--ease),
+    background 200ms var(--ease);
+}
+.stop-link:hover,
+.stop-more:hover,
+.lineage:hover {
+  border-color: var(--gold);
+  background: var(--gold-soft);
+}
+.stop-link .icon {
+  flex: none;
+  fill: none;
+  stroke: var(--gold);
+  stroke-width: 1.2;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+.lineage {
+  border-style: dashed;
+  color: var(--ink-2);
+  font-size: 13px;
+}
+.stop-more {
+  color: var(--gold);
+}
+
+.stop-transition {
+  margin: 0;
+  font-family: var(--serif);
+  font-style: italic;
+  font-size: 18px;
+  line-height: 1.45;
+  color: var(--ink-3);
+}
+.stop-transition::before {
+  content: '';
+  display: block;
+  width: 40px;
+  height: 1px;
+  margin-bottom: 14px;
+  background: var(--gold-line);
+}
+
+/* Mouvement réduit : coupe de caméra masquée par un fondu noir de 300 ms (§9). */
+#cut-fade {
+  position: fixed;
+  inset: 0;
+  z-index: 3;
+  background: #000;
+  opacity: 0;
+  pointer-events: none;
+}
+
+/* --- Mobile : feuille en bas d'écran, carte visible au-dessus (§10) ------- */
+@media (max-width: 699px) {
+  .stop {
+    height: 140vh;
+  }
+  .stop-sticky,
+  .stop[data-side='right'] .stop-sticky {
+    align-items: flex-end;
+    justify-content: center;
+    padding: 0 var(--frame) calc(var(--hud-bottom) + 8px);
+  }
+  .stop-panel,
+  .stop[data-side='right'] .stop-panel {
+    width: 100%;
+    max-height: 48vh;
+    padding: 24px 22px;
+    border: 0;
+    border-top: 1px solid #bba47666;
+  }
+  .stop-num {
+    font-size: 72px;
+    top: 10px;
+    right: 16px;
+  }
+  .stop-panel h2 {
+    font-size: 40px;
+  }
+  .stop-hook {
+    font-size: 19px;
+  }
+}
