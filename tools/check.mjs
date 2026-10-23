@@ -54,6 +54,20 @@ const browser = await chromium.launch({
 });
 mkdirSync(SHOTS, { recursive: true });
 
+/**
+ * Attend qu'un prédicat évalué dans la page devienne vrai, en l'interrogeant depuis Node.
+ * (page.waitForFunction s'est révélé peu fiable quand la page rend en logiciel à ~1 i/s.)
+ */
+async function waitUntil(page, predicate, arg, timeout = 90000) {
+  const end = Date.now() + timeout;
+  while (Date.now() < end) {
+    if (await page.evaluate(predicate, arg)) return;
+    await new Promise((r) => setTimeout(r, 150));
+  }
+  const state = await page.evaluate(() => window.realm?.state);
+  throw new Error(`Délai dépassé (${timeout} ms) — état : ${JSON.stringify(state)}`);
+}
+
 // Texte visible sous 11 px (éléments ayant du texte propre, visibles, opacité non nulle).
 const smallTexts = () =>
   [...document.querySelectorAll('body *')]
@@ -88,10 +102,10 @@ try {
     const steps = await page.$$eval('.stop', (els) => els.map((a) => a.dataset.step));
     for (let i = 0; i < steps.length; i++) {
       await page.evaluate((k) => window.realm.goTo(k, { smooth: false }), i);
-      await page.waitForFunction(
+      await waitUntil(
+        page,
         (k) => window.realm.state?.index === k && window.realm.state.phase === 'palier',
         i,
-        { timeout: 60000, polling: 50 },
       );
       await page.waitForTimeout(500); // fondu des étiquettes (400 ms)
       const num = String(i + 1).padStart(2, '0');
@@ -146,27 +160,79 @@ try {
             bad.push(b.dataset.archive);
           dlg.close();
         }
-        return { total: buttons.length, bad };
+        // Chaque fiche du contenu doit être présente dans le DOM (voyage ou index).
+        const keys = new Set(buttons.map((b) => b.dataset.archive));
+        const missing = Object.entries(FICHES).flatMap(([type, list]) =>
+          list.filter((f) => !keys.has(`${type}:${f.id}`)).map((f) => `${type}:${f.id}`),
+        );
+        const total = Object.values(FICHES).reduce((n, l) => n + l.length, 0);
+        return { total: buttons.length, fiches: total, bad, missing };
       });
       check(
         result.bad.length === 0,
-        `${result.total} fiches liées s'ouvrent avec tous leurs paragraphes${
+        `${result.total} boutons de fiche (voyage + index) ouvrent la bonne fiche avec tous ses paragraphes${
           result.bad.length ? ` — en défaut : ${result.bad.join(', ')}` : ''
         }`,
       );
+      check(
+        result.missing.length === 0,
+        `les ${result.fiches} fiches sont toutes présentes dans la page${
+          result.missing.length ? ` — absentes : ${result.missing.join(', ')}` : ''
+        }`,
+      );
+    }
+
+    // Annexes : capture, texte ≥ 11 px, carte estompée, interactions de base.
+    for (const id of ['arbre', 'index', 'chronologie', 'sources']) {
+      await page.evaluate(
+        (id) => document.getElementById(id).scrollIntoView({ behavior: 'instant' }),
+        id,
+      );
+      await page.waitForTimeout(800);
+      await page.screenshot({ path: new URL(`${name}-annexe-${id}.png`, SHOTS).pathname });
+      const small = await page.evaluate(smallTexts);
+      check(
+        small.length === 0,
+        `annexe ${id} : aucun texte sous 11 px${small.length ? ' — ' + small.join(', ') : ''}`,
+      );
+    }
+    const faded = await page.evaluate(
+      () => getComputedStyle(document.getElementById('world')).opacity,
+    );
+    check(Number(faded) === 0, `dans les annexes, la carte est estompée (opacité ${faded})`);
+    if (name === 'desktop') {
+      await page.evaluate(() =>
+        document.getElementById('arbre').scrollIntoView({ behavior: 'instant' }),
+      );
+      await page.locator('#person-ned').click();
+      const asideOk = await page.locator('.tree-person').isVisible();
+      check(asideOk, 'arbre : un clic sur Eddard Stark ouvre sa fiche personnage');
+      await page.waitForTimeout(300);
+      await page.screenshot({
+        path: new URL(`${name}-annexe-arbre-selection.png`, SHOTS).pathname,
+      });
+      await page.locator('.index-search input').fill('dragon');
+      const n = await page.locator('.index-grid li:not([hidden])').count();
+      check(
+        n > 0 && n < 20,
+        `index : la recherche « dragon » filtre les fiches (${n} résultat(s))`,
+      );
+      await page.locator('.index-search input').fill('');
     }
 
     // Navigation (§11.9) : → de l'étape 03 à 04, clic sur un point de la frise.
     if (name === 'desktop') {
       const waitStep = (k) =>
-        page.waitForFunction(
+        waitUntil(
+          page,
           (k) => window.realm.state?.index === k && window.realm.state.phase === 'palier',
           k,
-          { timeout: 90000, polling: 100 },
         );
       await page.evaluate(() => window.realm.goTo(2, { smooth: false }));
       await waitStep(2);
-      await page.locator('body').press('ArrowRight');
+      // Sortir du champ de recherche de l'index : les flèches y sont volontairement ignorées.
+      await page.evaluate(() => document.activeElement?.blur());
+      await page.keyboard.press('ArrowRight');
       await waitStep(3).then(
         () => check(true, '→ fait passer de l’étape 03 à 04'),
         () => check(false, '→ ne fait pas passer de l’étape 03 à 04'),

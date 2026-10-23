@@ -7,6 +7,8 @@ import './styles/journey.css';
 import './styles/archive.css';
 import './styles/hud.css';
 import './styles/menu.css';
+import './styles/annexes.css';
+import './styles/tree.css';
 import { STEPS, TOTAL_STEPS, panelSide } from './data/journey.js';
 import { renderJourney } from './journey/render.js';
 import { createScrollDriver } from './journey/scroll.js';
@@ -16,15 +18,30 @@ import { initHud } from './journey/hud.js';
 import { initMenu } from './ui/menu.js';
 import { initAudio } from './ui/audio.js';
 import { FICHES, getFiche } from './content/index.js';
+import { renderTree } from './annexes/tree.js';
+import { renderIndex } from './annexes/index.js';
+import { renderTimeline } from './annexes/timeline.js';
+import { renderSources } from './annexes/sources.js';
 
 const reducedMotion = matchMedia('(prefers-reduced-motion: reduce)').matches;
 const articles = renderJourney();
 const panels = articles.map((a) => a.querySelector('.stop-panel'));
 initArchive();
 
-// « Voir la lignée » : l'arbre arrive en phase 5 ; en attendant, on mène à sa section.
+// Annexes : arbre, index, chronologie, sources (rendues au chargement, sous le voyage).
+const tree = renderTree(document.getElementById('arbre'));
+renderIndex(document.getElementById('index'));
+renderTimeline(document.getElementById('chronologie'));
+renderSources(document.getElementById('sources'));
+
+// « Voir la lignée » : défile jusqu'à l'arbre et le centre sur la maison.
 document.addEventListener('click', (e) => {
-  if (e.target.closest('[data-lineage]')) document.getElementById('arbre').scrollIntoView();
+  const b = e.target.closest('[data-lineage]');
+  if (!b) return;
+  document
+    .getElementById('arbre')
+    .scrollIntoView({ behavior: reducedMotion ? 'instant' : 'smooth' });
+  tree.showFamily(b.dataset.lineage);
 });
 
 const announcer = document.getElementById('announcer');

@@ -1,0 +1,271 @@
+/* Arbre généalogique. Noms ≥ 14 px, rôles ≥ 12 px (§8.1) ; en vue éloignée (zoom < 0,92),
+   noms et rôles sont masqués et les titres de famille contre-zoomés pour rester lisibles. */
+.tree-tools {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: end;
+  gap: 16px 28px;
+  margin-bottom: 16px;
+}
+.tree-zoom {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+.tree-zoom button,
+.tree-families button {
+  min-width: 44px;
+  min-height: 40px;
+  padding: 4px 12px;
+  border: 1px solid var(--gold-line);
+  background: none;
+  color: var(--ink);
+  font-size: var(--fs-small);
+  cursor: pointer;
+}
+.tree-zoom button:hover,
+.tree-families button:hover {
+  border-color: var(--gold);
+}
+.tree-scale {
+  min-width: 56px;
+  text-align: center;
+  font-size: var(--fs-small);
+  color: var(--ink-2);
+}
+.tree-toggle {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  min-height: 40px;
+  font-size: var(--fs-small);
+  color: var(--ink-2);
+  cursor: pointer;
+}
+.tree-toggle input {
+  width: 18px;
+  height: 18px;
+  accent-color: var(--gold);
+}
+.tree-families {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-bottom: 16px;
+}
+.tree-families button {
+  border-left: 3px solid var(--family);
+}
+
+.tree-wrap {
+  position: relative;
+}
+.tree-viewport {
+  height: min(72vh, 760px);
+  overflow: auto;
+  border: 1px solid var(--gold-soft);
+  background: radial-gradient(ellipse at top, #0e1719, var(--bg) 70%);
+  scrollbar-width: thin;
+  scrollbar-color: var(--gold-line) transparent;
+}
+.tree-sizer {
+  position: relative;
+}
+.tree-board {
+  position: absolute;
+  top: 0;
+  left: 0;
+  transform-origin: 0 0;
+}
+.tree-lines {
+  position: absolute;
+  inset: 0;
+  overflow: visible;
+}
+.tree-lines path {
+  fill: none;
+  stroke: #bba47655;
+  stroke-width: 1.5;
+  transition:
+    stroke 200ms,
+    opacity 200ms;
+}
+.tree-lines .union {
+  stroke: #bba47699;
+}
+.tree-lines .secret {
+  stroke: #c86a55;
+  stroke-dasharray: 6 5;
+}
+.tree-lines .special {
+  stroke-dasharray: 2 5;
+}
+.tree-lines path[data-mode='spoiler'] {
+  stroke: #9fb3c8;
+  stroke-dasharray: 8 4;
+}
+.has-selection .tree-lines path {
+  opacity: 0.18;
+}
+.has-selection .tree-lines path.is-lit {
+  opacity: 1;
+  stroke: var(--gold);
+  stroke-width: 2.5;
+}
+
+.tree-family {
+  position: absolute;
+  top: 14px;
+  margin: 0;
+  text-align: center;
+  font-family: var(--serif);
+  font-size: 26px;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+.is-far .tree-family {
+  font-size: calc(16px / var(--s));
+}
+
+.person {
+  position: absolute;
+  display: grid;
+  justify-items: center;
+  align-content: start;
+  gap: 4px;
+  width: 132px;
+  height: 168px;
+  padding: 10px 6px;
+  border: 1px solid #ffffff14;
+  border-top: 3px solid var(--family);
+  background: #0e1719f2;
+  color: var(--ink);
+  text-align: center;
+  cursor: pointer;
+  transition:
+    opacity 200ms,
+    border-color 200ms,
+    transform 200ms;
+}
+.person:hover {
+  border-color: var(--gold-line);
+  border-top-color: var(--family);
+  transform: translateY(-2px);
+}
+.person img {
+  width: 76px;
+  height: 76px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 1px solid var(--gold-line);
+}
+.person strong {
+  font-family: var(--serif);
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 1.1;
+}
+.person small {
+  font-size: 12px;
+  line-height: 1.2;
+  color: var(--ink-3);
+}
+.is-far .person strong,
+.is-far .person small {
+  visibility: hidden;
+}
+.has-selection .person {
+  opacity: 0.35;
+}
+.has-selection .person.is-related,
+.has-selection .person.is-selected {
+  opacity: 1;
+}
+.person.is-selected {
+  border-color: var(--gold);
+  box-shadow:
+    0 0 0 2px var(--gold-soft),
+    0 0 24px #bba47644;
+}
+.person.is-match {
+  outline: 2px solid var(--gold);
+  outline-offset: 3px;
+}
+
+/* Fiche personnage, à droite de l'arbre. */
+.tree-person {
+  position: absolute;
+  top: 12px;
+  right: 12px;
+  bottom: 12px;
+  width: min(340px, 86%);
+  overflow: auto;
+  padding: 24px;
+  border: 1px solid var(--gold-line);
+  background: #0a1112f2;
+  -webkit-backdrop-filter: blur(8px);
+  backdrop-filter: blur(8px);
+}
+.tree-person img {
+  width: 120px;
+  height: 120px;
+  margin: 12px 0;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 1px solid var(--gold-line);
+}
+.tree-person h3 {
+  font-size: 30px;
+  margin-bottom: 4px;
+}
+.tree-role {
+  font-size: var(--fs-small);
+  color: var(--gold);
+}
+.tree-person p {
+  font-size: 15px;
+  color: var(--ink-2);
+}
+.tree-person h4 {
+  margin: 18px 0 8px;
+}
+.tree-person ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.tree-person li {
+  display: flex;
+  justify-content: space-between;
+  gap: 8px;
+  padding: 4px 0;
+  border-bottom: 1px solid var(--gold-soft);
+  font-size: var(--fs-small);
+}
+.tree-person li button {
+  border: 0;
+  background: none;
+  padding: 2px 0;
+  color: var(--ink);
+  font-size: var(--fs-small);
+  text-align: left;
+  cursor: pointer;
+}
+.tree-person li button:hover {
+  color: var(--gold);
+}
+.tree-person li span {
+  color: var(--ink-3);
+}
+.tree-person-close {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  width: 40px;
+  height: 40px;
+  border: 1px solid var(--gold-line);
+  background: none;
+  color: var(--ink);
+  font-size: 20px;
+  cursor: pointer;
+}
