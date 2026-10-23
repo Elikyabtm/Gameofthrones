@@ -6,6 +6,7 @@ import './styles/base.css';
 import './styles/journey.css';
 import './styles/archive.css';
 import './styles/hud.css';
+import './styles/menu.css';
 import { STEPS, TOTAL_STEPS, panelSide } from './data/journey.js';
 import { renderJourney } from './journey/render.js';
 import { createScrollDriver } from './journey/scroll.js';
