@@ -1,0 +1,29 @@
+/* Jetons de design (PROJET.md §8.1). Règle absolue : aucun texte sous 11px. */
+:root {
+  --bg: #0a1012;
+  --bg-2: #0e1719;
+  --panel: #0a1112cc;
+  --ink: #ece6d2;
+  --ink-2: #c9cbbd;
+  --ink-3: #a9b3a8;
+  --gold: #bba476;
+  --gold-line: #bba47655;
+  --gold-soft: #bba47622;
+  --serif: 'Cormorant Garamond', Georgia, serif;
+  --sans: 'Manrope', system-ui, sans-serif;
+  --fs-label: 12px; /* petites capitales — jamais moins de 11px nulle part */
+  --fs-small: 14px;
+  --fs-body: 17px;
+  --fs-lead: 22px;
+  --lh-body: 1.65;
+  --frame: 24px; /* 12px sous 700px */
+  --hud-top: 64px;
+  --hud-bottom: 60px;
+  --ease: cubic-bezier(0.2, 0.7, 0.2, 1);
+}
+
+@media (max-width: 699px) {
+  :root {
+    --frame: 12px;
+  }
+}

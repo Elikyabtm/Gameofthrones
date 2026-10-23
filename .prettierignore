@@ -1,0 +1,6 @@
+reference/
+dist/
+node_modules/
+public/
+tools/shots/
+.claude/

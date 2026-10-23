@@ -1,0 +1,146 @@
+[
+  {
+    "id": "nightwatch",
+    "file": "assets/nightwatch-scene.webp",
+    "prompt": "Night's Watch rangers dressed in black wool and leather, standing in Castle Black courtyard below the immense ice Wall, ravens, cold morning",
+    "generation": "Imagegen intégré"
+  },
+  {
+    "id": "dornish",
+    "file": "assets/dornish-scene.webp",
+    "prompt": "Dornish inhabitants in shaded sandstone courtyard with water gardens in Dorne, warm ochre, flowing linen, Mediterranean and North African inspired medieval clothing",
+    "generation": "Imagegen intégré"
+  },
+  {
+    "id": "firstmen",
+    "file": "assets/firstmen-scene.webp",
+    "prompt": "First Men in ancient Westeros, small group in rough wool and bronze age leather beside a red leaf white weirwood in primeval forest, no modern objects",
+    "generation": "Imagegen intégré"
+  },
+  {
+    "id": "ironborn",
+    "file": "assets/ironborn-scene.webp",
+    "prompt": "Ironborn sailors on a weathered longship approaching the stormy Iron Islands, black grey wool and salt stained leather, sea cliffs, nautical realism",
+    "generation": "Imagegen intégré"
+  },
+  {
+    "id": "andals",
+    "file": "assets/andals-scene.webp",
+    "prompt": "Andal travellers with medieval mail armour arriving on the stony coast of the Vale, seven pointed star on simple pendant, dawn, grounded historical fantasy",
+    "generation": "Imagegen intégré"
+  },
+  {
+    "id": "ghiscari",
+    "file": "assets/ghiscari-scene.webp",
+    "prompt": "Ghiscari nobility and city inhabitants in brick plazas under massive stepped pyramids in Meereen, intricate fringed robes, copper bronze architecture, not Roman",
+    "generation": "Imagegen intégré"
+  },
+  {
+    "id": "lhazareen",
+    "file": "assets/lhazareen-scene.webp",
+    "prompt": "Peaceful Lhazareen shepherds in ochre wool clothing with sheep in rolling dry green pasture near earthen village, ancient Essos, quiet pastoral life",
+    "generation": "Imagegen intégré"
+  },
+  {
+    "id": "rhoynar",
+    "file": "assets/rhoynar-scene.webp",
+    "prompt": "Rhoynar refugees on river boats under lateen sails approaching sunlit Dorne, families and possessions, women leading expedition, human dignity",
+    "generation": "Imagegen intégré"
+  },
+  {
+    "id": "faceless",
+    "file": "assets/faceless-scene.webp",
+    "prompt": "A hooded attendant at the House of Black and White in Braavos, mysterious vaulted hall with votive candles and carved faces in wall niches, black and ivory robes",
+    "generation": "Imagegen intégré"
+  },
+  {
+    "id": "secondsons",
+    "file": "assets/secondsons-scene.webp",
+    "prompt": "Second Sons mercenary encampment in Essos, diverse rugged adult soldiers in practical mismatched medieval armour, tents, spears, warm dusty light, no uniform royal colours",
+    "generation": "Imagegen intégré"
+  },
+  {
+    "id": "goldencompany",
+    "file": "assets/goldencompany-scene.webp",
+    "prompt": "Golden Company disciplined mercenaries in golden bronze armour, long formation of spears before war camp, gilded skull finials, rich ochre and dark leather",
+    "generation": "Imagegen intégré"
+  },
+  {
+    "id": "valyrians",
+    "file": "assets/valyrians-scene.webp",
+    "prompt": "Ancient Valyrian civilisation before the Doom, silver haired aristocrats on volcanic basalt terrace overlooking grand towers and a distant dragon, luxurious austere robes",
+    "generation": "Imagegen intégré"
+  },
+  {
+    "id": "brotherhood",
+    "file": "assets/brotherhood-scene.webp",
+    "prompt": "Brotherhood Without Banners protecting rural villagers in war damaged Riverlands, rugged outlaws with worn mail and bows by forest camp, one flaming sword held safely down",
+    "generation": "Imagegen intégré"
+  },
+  {
+    "id": "kingsguard",
+    "file": "assets/kingsguard-scene.webp",
+    "prompt": "Kingsguard knight with impeccable white cloak and pale plate armour standing in stone royal corridor, warm light, full body, quiet oath-bound dignity",
+    "generation": "Imagegen intégré"
+  },
+  {
+    "id": "maesters",
+    "file": "assets/maesters-scene.webp",
+    "prompt": "Elderly maester with chain of different metal links at wooden desk, parchment books and raven in Citadel study, natural candlelight, scholarly realism",
+    "generation": "Imagegen intégré"
+  },
+  {
+    "id": "giants",
+    "file": "assets/giants-scene.webp",
+    "prompt": "A Game of Thrones giant like Wun Wun, enormously tall broad humanoid with shaggy hair and massive natural face, patched fur clothes, walking beside tiny adult free folk for clear scale, snowy pine valley",
+    "generation": "Imagegen intégré"
+  },
+  {
+    "id": "faithmilitant",
+    "file": "assets/faithmilitant-scene.webp",
+    "prompt": "Faith Militant barefoot adult zealots in rough grey robes with seven pointed star pendants, wooden staffs, outside a grand sept in King's Landing, grounded ominous atmosphere",
+    "generation": "Imagegen intégré"
+  },
+  {
+    "id": "harpy",
+    "file": "assets/harpy-scene.webp",
+    "prompt": "Sons of the Harpy clandestine figures wearing angular gold masks and dark robes in a narrow moonlit Meereen brick alley, recognisable horned gold harpy masks, no violence",
+    "generation": "Imagegen intégré"
+  },
+  {
+    "id": "thenns",
+    "file": "assets/thenns-scene.webp",
+    "prompt": "Thenn clan adults from north of the Wall, weathered faces, bronze weapons and leather winter garments, snow covered northern valley, organised distinct community",
+    "generation": "Imagegen intégré"
+  },
+  {
+    "id": "childrenforest",
+    "file": "assets/childrenforest-scene.webp",
+    "prompt": "Children of the Forest from Game of Thrones, small ancient nonhuman forest beings with bark textured mottled brown green skin and large amber eyes, woven leaves, white weirwood roots, haunting gentle woodland light, not human children",
+    "generation": "Imagegen intégré"
+  },
+  {
+    "id": "weirwood",
+    "file": "assets/weirwood-scene.webp",
+    "prompt": "A massive white bark weirwood with carved face and blood red leaves beside still pool in northern sacred godswood, autumn mist, no people",
+    "generation": "Imagegen intégré"
+  },
+  {
+    "id": "drownedgod",
+    "file": "assets/drownedgod-scene.webp",
+    "prompt": "Ironborn drowned god priest in rough seaweed trimmed grey robes standing at the edge of a churning grey sea, windswept basalt shore, ritual solemnity",
+    "generation": "Imagegen intégré"
+  },
+  {
+    "id": "sevenfaith",
+    "file": "assets/sevenfaith-scene.webp",
+    "prompt": "Interior of a majestic medieval sept in Westeros, seven devotional carved stone statues representing the seven aspects, candles and soft stained glass, no written text",
+    "generation": "Imagegen intégré"
+  },
+  {
+    "id": "redpriest",
+    "file": "assets/redpriest-scene.webp",
+    "prompt": "A red priestess of R'hllor in deep crimson layered robes contemplating a ritual brazier in ancient Essos temple at night, reflected amber firelight, restrained solemn composition",
+    "generation": "Imagegen intégré"
+  }
+]
