@@ -11,6 +11,8 @@ import { generateTextures, NORMAL_STRENGTH, paintColor, paintNormals } from './m
 import { DEFAULT_PALETTE, PALETTES } from './map/palettes.js';
 import { createTerrain } from './map/terrain.js';
 import { createSea } from './map/sea.js';
+import { createMiniatures } from './map/miniatures/index.js';
+import { createForests } from './map/forests.js';
 import { stepFrame } from './map/camera-path.js';
 import { setupFlight } from './lab-vol.js';
 
@@ -37,6 +39,8 @@ const params = {
   exposure: 1.0,
   normalStrength: NORMAL_STRENGTH,
   animateSea: !shots,
+  miniatures: true,
+  forests: true,
 };
 
 const t0 = performance.now();
@@ -51,7 +55,9 @@ const timingText =
 
 const terrain = createTerrain(map, tex, world.renderer, { lowEnd });
 const sea = createSea(map, { reducedMotion, heightTexture: terrain.material.displacementMap });
-world.scene.add(terrain, sea);
+const miniatures = createMiniatures(map, tex.fields);
+const forests = createForests(map, tex.fields);
+world.scene.add(terrain, sea, miniatures, forests);
 world.onFrame((dt) => sea.userData.update(dt));
 
 // Panneau de réglages en direct.
@@ -82,7 +88,12 @@ gui
   .name('Animer la mer')
   .onChange((on) => world.setContinuous(on));
 
+gui.add(params, 'miniatures').name('Maquettes').onChange(apply);
+gui.add(params, 'forests').name('Forêts').onChange(apply);
+
 function apply() {
+  miniatures.visible = params.miniatures;
+  forests.visible = params.forests;
   terrain.material.displacementScale = params.relief;
   terrain.material.displacementBias = -0.25 * (params.relief / 1.1);
   sea.userData.uniforms.uRelief.value.set(params.relief, terrain.material.displacementBias);

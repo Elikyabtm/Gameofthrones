@@ -51,3 +51,21 @@ export function createTerrain(map, canvases, renderer, { lowEnd = false } = {}) 
   };
   return mesh;
 }
+
+/**
+ * Hauteur monde du terrain au point de carte (x, y), lue dans le champ de relief.
+ * Avec `radius` (unités de carte), renvoie le maximum sur un petit disque d'échantillons.
+ */
+export function terrainHeightAt(fields, x, y, { radius = 0, relief = 1.1, bias = -0.25 } = {}) {
+  const { W, H, s, heights } = fields;
+  let max = -Infinity;
+  const samples = radius ? 12 : 0;
+  for (let i = 0; i <= samples; i++) {
+    const a = (i / Math.max(1, samples)) * Math.PI * 2;
+    const r = i === 0 ? 0 : radius * (i % 2 ? 1 : 0.5);
+    const px = Math.min(W - 1, Math.max(0, Math.round((x + Math.cos(a) * r) * s)));
+    const py = Math.min(H - 1, Math.max(0, Math.round((y + Math.sin(a) * r) * s)));
+    max = Math.max(max, heights[py * W + px]);
+  }
+  return (max / 255) * relief + bias;
+}

@@ -14,6 +14,7 @@ export const PALETTES = {
     hatch: '#2a2218',
     river: '#1d2a2c',
     wall: '#d9d6cc',
+    snow: '#ddd8c8',
   },
   sepia: {
     label: 'Sépia chaud (retenue)',
@@ -25,7 +26,8 @@ export const PALETTES = {
     ink: '#1c130a',
     hatch: '#2e2112',
     river: '#1f2b2a',
-    wall: '#e2dccb',
+    wall: '#eef2f0',
+    snow: '#e4dfd0',
   },
   encre: {
     label: 'Variante B — encre froide',
@@ -38,6 +40,7 @@ export const PALETTES = {
     hatch: '#22231d',
     river: '#1a2830',
     wall: '#dfe3df',
+    snow: '#dfe0d8',
   },
 };
 

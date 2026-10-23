@@ -69,6 +69,14 @@ export function paintColor(map, fields, palette = PALETTES[DEFAULT_PALETTE]) {
           lg = mix(C.land[1], C.valley[1], t);
           lb = mix(C.land[2], C.valley[2], t);
         }
+        // Neige : au-delà du Mur (y carte < ~170, bord irrégulier) et sur les hauts sommets.
+        const ym = y / s + noise((x * 0.004) / k, (y * 0.004) / k) * 22;
+        const snow = Math.max(smoothstep(178, 140, ym), smoothstep(185, 225, h));
+        if (snow > 0) {
+          lr = mix(lr, C.snow[0], snow * 0.9);
+          lg = mix(lg, C.snow[1], snow * 0.9);
+          lb = mix(lb, C.snow[2], snow * 0.9);
+        }
         r = mix(r, lr, land);
         g = mix(g, lg, land);
         b = mix(b, lb, land);
@@ -150,9 +158,10 @@ function drawLines(ctx, map, s, k, palette) {
     ctx.stroke();
   }
   if (map.wall) {
+    // Le Mur : toute l'arête en glace blanche (largeur de l'arête du relief).
     ctx.strokeStyle = palette.wall;
-    ctx.globalAlpha = 0.75;
-    ctx.lineWidth = 2.2 * k;
+    ctx.globalAlpha = 0.95;
+    ctx.lineWidth = 10 * k;
     ctx.beginPath();
     traceSmooth(ctx, map.wall.points, s);
     ctx.stroke();
