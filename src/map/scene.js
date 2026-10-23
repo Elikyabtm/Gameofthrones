@@ -73,16 +73,20 @@ export function createScene(canvas, { lowEnd = isLowEnd() } = {}) {
   let pending = false;
   let last = performance.now();
 
+  // Horloge de la scène (secondes). `timeScale` < 1 ralentit les animations (vidéos du lab).
+  let clock = 0;
   function frame(now) {
-    const dt = Math.min(0.1, (now - last) / 1000);
+    const dt = Math.min(0.1, (now - last) / 1000) * api.timeScale;
     last = now;
-    for (const cb of frameCallbacks) cb(dt, now / 1000);
+    clock += dt;
+    for (const cb of frameCallbacks) cb(dt, clock);
     renderer.render(scene, camera);
     pending = false;
     if (!continuous) renderer.setAnimationLoop(null);
   }
 
   const api = {
+    timeScale: 1,
     renderer,
     scene,
     camera,
@@ -110,6 +114,9 @@ export function createScene(canvas, { lowEnd = isLowEnd() } = {}) {
       const w = canvas.clientWidth || window.innerWidth;
       const h = canvas.clientHeight || window.innerHeight;
       renderer.setSize(w, h, false);
+      // Taille de la vue, lue par camera-path.js pour le décalage optique (setViewOffset).
+      camera.userData.viewWidth = w;
+      camera.userData.viewHeight = h;
       camera.aspect = w / h;
       camera.updateProjectionMatrix();
       api.requestRender();

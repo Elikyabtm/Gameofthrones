@@ -1,8 +1,10 @@
 // Palettes de la texture parchemin. `parchemin` reprend exactement PROJET.md §4.2-B ;
-// les deux autres sont les variantes demandées en phase 1, à comparer dans lab.html.
+// les deux autres sont les variantes de la phase 1. Palette retenue (validation phase 1) : sépia.
+export const DEFAULT_PALETTE = 'sepia';
+
 export const PALETTES = {
   parchemin: {
-    label: 'Parchemin (cahier des charges)',
+    label: 'Parchemin (cahier des charges, première version)',
     sea: '#0d1a1f',
     seaEdge: '#060d10',
     land: '#8a7a5a',
@@ -14,7 +16,7 @@ export const PALETTES = {
     wall: '#d9d6cc',
   },
   sepia: {
-    label: 'Variante A — sépia chaud',
+    label: 'Sépia chaud (retenue)',
     sea: '#101a1c',
     seaEdge: '#070c0d',
     land: '#94784c',

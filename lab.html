@@ -3,25 +3,110 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Lab — terrain</title>
+    <title>Lab — terrain et vol</title>
     <style>
       html,
       body {
         margin: 0;
-        height: 100%;
         background: #0a1012;
+        color: #ece6d2;
+        font-family: system-ui, sans-serif;
+      }
+      .vues body {
         overflow: hidden;
       }
+      /* Scène 3D fixe, contenu au-dessus (§5.3). */
       #world {
         position: fixed;
         inset: 0;
         width: 100%;
         height: 100%;
+        z-index: 0;
+      }
+      #lab-journey {
+        position: relative;
+        z-index: 1;
+      }
+      .intro {
+        height: 120vh;
+        display: grid;
+        place-items: center;
+      }
+      .outro {
+        height: 60vh;
+        display: grid;
+        place-items: center;
+      }
+      .stop {
+        height: 160vh;
+      }
+      @media (max-width: 699px) {
+        .stop {
+          height: 140vh;
+        }
+      }
+      /* Panneau collant, centré verticalement, à gauche ou à droite. */
+      .stop-panel {
+        position: sticky;
+        top: calc(50vh - 130px);
+        width: min(460px, 38vw);
+        margin: 0 48px;
+        padding: 40px 44px;
+        background: #0a1112cc;
+        backdrop-filter: blur(12px);
+        border-right: 1px solid #bba47666;
+        opacity: 0;
+        visibility: hidden;
+        box-sizing: border-box;
+      }
+      .stop[data-side='right'] .stop-panel {
+        margin-left: auto;
+        border-right: 0;
+        border-left: 1px solid #bba47666;
+      }
+      @media (max-width: 699px) {
+        .stop-panel,
+        .stop[data-side='right'] .stop-panel {
+          top: calc(100vh - 48vh - 12px);
+          width: calc(100% - 24px);
+          max-height: 48vh;
+          margin: 0 12px;
+          border: 0;
+          border-top: 1px solid #bba47666;
+        }
+      }
+      .stop-region {
+        margin: 0;
+        font-size: 12px;
+        letter-spacing: 0.22em;
+        text-transform: uppercase;
+        color: #bba476;
+      }
+      .stop-num {
+        margin: 0;
+        font-size: 64px;
+        line-height: 1;
+        color: #bba47633;
+      }
+      .stop h2 {
+        margin: 0 0 12px;
+        font:
+          500 48px/0.95 Georgia,
+          serif;
+      }
+      #lab-fade {
+        position: fixed;
+        inset: 0;
+        z-index: 5;
+        background: #000;
+        opacity: 0;
+        pointer-events: none;
       }
       #lab-info {
         position: fixed;
         left: 16px;
         bottom: 16px;
+        z-index: 6;
         color: #c9cbbd;
         font:
           12px/1.5 ui-monospace,

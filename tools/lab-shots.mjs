@@ -37,7 +37,7 @@ try {
     if (m.text().startsWith('[lab]')) console.log(m.text());
   });
   page.on('pageerror', (e) => errors.push(e.message));
-  await page.goto(`http://localhost:${PORT}/lab.html?shots${mobile ? '&mobile' : ''}`);
+  await page.goto(`http://localhost:${PORT}/lab.html?shots&vues${mobile ? '&mobile' : ''}`);
   await page.waitForFunction(() => window.lab?.ready, null, { timeout: 120000 });
   const prefix = mobile ? 'phase1-mobile' : 'phase1';
 

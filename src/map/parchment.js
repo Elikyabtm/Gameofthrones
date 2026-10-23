@@ -2,7 +2,7 @@
 // les noms de lieux sont des étiquettes HTML (§4.5).
 import { createCanvas, smoothstep, traceSmooth } from './draw.js';
 import { rng } from './noise.js';
-import { PALETTES, rgb } from './palettes.js';
+import { DEFAULT_PALETTE, PALETTES, rgb } from './palettes.js';
 
 const mix = (a, b, t) => a + (b - a) * t;
 
@@ -19,7 +19,7 @@ function hash(x, y) {
  * @param {object} fields { W, H, s, k, heights, sd, noise }
  * @param {object} palette entrée de PALETTES
  */
-export function paintColor(map, fields, palette = PALETTES.parchemin) {
+export function paintColor(map, fields, palette = PALETTES[DEFAULT_PALETTE]) {
   const { W, H, s, k, heights, sd, noise } = fields;
   const C = Object.fromEntries(
     Object.entries(palette)
