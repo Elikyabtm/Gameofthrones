@@ -70,7 +70,7 @@ export function buildFields(map, { width = 4096, seed = SEED, params = {} } = {}
   const mask = readChannel(maskCanvas, 0).map((v) => (v > 127 ? 1 : 0));
   const sdHalf = signedDistance(mask, hw, hh);
 
-  // Rivières (R) et Mur (G), légèrement floutés, sur un second canvas à demi-résolution.
+  // Rivières (R), Mur (G) et lacs (B), légèrement floutés, sur un second canvas à demi-résolution.
   const lineCanvas = createCanvas(hw, hh);
   const lctx = lineCanvas.getContext('2d');
   lctx.fillStyle = '#000';
@@ -97,6 +97,18 @@ export function buildFields(map, { width = 4096, seed = SEED, params = {} } = {}
     lctx.beginPath();
     traceSmooth(lctx, map.wall.points, s / 2);
     lctx.stroke();
+  }
+  if (map.lakes?.length) {
+    // Lacs : polygones pleins ; le fond est creusé sous le niveau de la mer, si bien que la
+    // mer (plan à y = 0) apparaît d'elle-même dans la cuvette.
+    lctx.globalCompositeOperation = 'lighter';
+    lctx.filter = `blur(${2 * k}px)`;
+    lctx.fillStyle = '#00f';
+    for (const lake of map.lakes) {
+      lctx.beginPath();
+      tracePolygon(lctx, lake.points, s / 2);
+      lctx.fill();
+    }
   }
   const { data: lines } = lctx.getImageData(0, 0, hw, hh);
   // Le flou abaisse le pic des traits : on renormalise pour garder −20 au fond des rivières.
@@ -147,6 +159,9 @@ export function buildFields(map, { width = 4096, seed = SEED, params = {} } = {}
         // jamais passer sous la mer (58), ni former de replat : pas de « lacs » parasites.
         const floor = 58 + 6 * landF;
         if (h < floor + 4) h = floor + 4 * Math.exp((h - floor - 4) / 4);
+        // Lacs : cuvette sous le niveau de la mer (58), après le plancher.
+        const lake = lines[li + 2] / 255;
+        if (lake > 0) h += (44 - h) * smoothstep(0.2, 0.8, lake);
       }
       heights[i] = h;
     }

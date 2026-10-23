@@ -53,7 +53,16 @@ export function paintColor(map, fields, palette = PALETTES[DEFAULT_PALETTE]) {
       let b = mix(C.sea[2], C.seaEdge[2], edge);
 
       // Terres : sommets éclaircis, vallées assombries.
-      const land = smoothstep(0.75, -0.75, d);
+      // Lacs (dans les terres, relief creusé sous la mer) : eau plus claire que la haute mer,
+      // visible à travers la mer translucide des hauts-fonds.
+      if (d < 0 && h < 60) {
+        const lake = smoothstep(60, 52, h);
+        r = mix(r, C.lake[0], lake);
+        g = mix(g, C.lake[1], lake);
+        b = mix(b, C.lake[2], lake);
+      }
+      // Terre ferme ; les lacs (relief creusé sous la mer, 58) prennent la couleur de l'eau.
+      const land = smoothstep(0.75, -0.75, d) * smoothstep(52, 60, h);
       if (land > 0) {
         let lr;
         let lg;
@@ -108,6 +117,7 @@ export function paintColor(map, fields, palette = PALETTES[DEFAULT_PALETTE]) {
   ctx.putImageData(img, 0, 0);
 
   drawHatching(ctx, map, fields, palette);
+  drawRoads(ctx, map, s, k, palette);
   drawLines(ctx, map, s, k, palette);
   drawStains(ctx, W, H, k);
   return canvas;
@@ -164,6 +174,23 @@ function drawLines(ctx, map, s, k, palette) {
     ctx.lineWidth = 10 * k;
     ctx.beginPath();
     traceSmooth(ctx, map.wall.points, s);
+    ctx.stroke();
+  }
+  ctx.restore();
+}
+
+// Grandes routes : pointillés clairs, sous les rivières.
+function drawRoads(ctx, map, s, k, palette) {
+  ctx.save();
+  ctx.strokeStyle = palette.road;
+  ctx.globalAlpha = 0.7;
+  ctx.lineWidth = 2.4 * k;
+  ctx.lineCap = 'round';
+  ctx.lineJoin = 'round';
+  ctx.setLineDash([9 * k, 6 * k]);
+  for (const road of map.roads ?? []) {
+    ctx.beginPath();
+    traceSmooth(ctx, road.points, s);
     ctx.stroke();
   }
   ctx.restore();

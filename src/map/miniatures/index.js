@@ -3,9 +3,12 @@ import { Group } from 'three';
 import { toWorld } from '../scene.js';
 import { terrainHeightAt } from '../terrain.js';
 import { chateaunoir, genericCastle, portReal, winterfell } from './models.js';
+import { CASTLES } from './castles.js';
+import { createHamlets } from './hamlets.js';
 
 // Maquettes dédiées ; les autres cités reçoivent un château générique (variante par seed).
 const SPECIAL = {
+  ...CASTLES,
   Winterfell: winterfell,
   'Port-Réal': portReal,
   Châteaunoir: chateaunoir,
@@ -39,5 +42,6 @@ export function createMiniatures(map, fields, { scale = 1.35, relief = 1.1, bias
     model.name = city.name;
     group.add(model);
   });
+  group.add(createHamlets(map, fields, { sc: scale, relief, bias }));
   return group;
 }

@@ -157,6 +157,14 @@ if (viewsMode) {
     view(n);
     await afterRender();
   };
+  // Cadrage rapproché sur une cité (contrôle des maquettes).
+  window.lab.lieu = async (name, camera = { dist: 1.6, height: 1.1 }) => {
+    const f = stepFrame({ focus: { city: name }, camera }, map);
+    world.camera.position.copy(f.position);
+    world.camera.lookAt(f.target);
+    info.textContent = name;
+    await afterRender();
+  };
 } else {
   // --- Phase 2 : vol piloté par le scroll ------------------------------------------
   const flight = setupFlight({ world, map, reducedMotion, info, timingText });

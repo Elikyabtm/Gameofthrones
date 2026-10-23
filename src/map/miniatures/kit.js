@@ -7,6 +7,7 @@ import {
   ConeGeometry,
   CylinderGeometry,
   Group,
+  IcosahedronGeometry,
   Mesh,
   MeshStandardMaterial,
   SphereGeometry,
@@ -27,6 +28,14 @@ export const MINI_COLORS = {
   green: 0x4c5a33,
   tile: 0xc0662f, // tuiles orange (Port-Réal)
   grass: 0x6f7a45,
+  rock: 0x8a7860, // roc de Castral Roc, pitons de Pyk
+  black: 0x34302d, // pierre noire de Peyredragon
+  sand: 0xd8b57c, // grès de Dorne
+  gold: 0xc9a24a, // toits et dômes dorés
+  white: 0xece8de, // marbre (Les Eyrié, Villevieille)
+  water: 0x2b4952, // douves
+  slate: 0x6c7277, // ardoises (Blancport)
+  fire: 0xff8a3d, // fanal de la Tour Hightower (émissif)
 };
 
 const materials = new Map();
@@ -37,9 +46,11 @@ export function material(key) {
       key,
       new MeshStandardMaterial({
         color: MINI_COLORS[key],
-        roughness: 0.85,
-        metalness: 0,
+        roughness: key === 'water' ? 0.3 : 0.85,
+        metalness: key === 'gold' ? 0.35 : 0,
         flatShading: true,
+        emissive: key === 'fire' ? MINI_COLORS.fire : 0x000000,
+        emissiveIntensity: key === 'fire' ? 2.5 : 0,
       }),
     );
   }
@@ -176,11 +187,39 @@ export function createKit() {
       }
     },
 
+    /** Masse rocheuse irrégulière (icosaèdre déformé), base au niveau `base`. */
+    rock(x, z, { r = 5, h = 6, base = 0, seed = 1, key = 'rock' } = {}) {
+      const g = new IcosahedronGeometry(1, 1);
+      const pos = g.attributes.position;
+      // Tirage déterministe par POSITION : les copies d'un même sommet (une par face)
+      // reçoivent le même décalage, sinon la surface se fendrait.
+      const jitter = (x, y, z) => {
+        const n = Math.sin(x * 127.1 + y * 311.7 + z * 74.7 + seed * 19.3) * 43758.5453;
+        return n - Math.floor(n);
+      };
+      for (let i = 0; i < pos.count; i++) {
+        const [vx, vy, vz] = [pos.getX(i), pos.getY(i), pos.getZ(i)];
+        const k = 0.78 + jitter(vx, vy, vz) * 0.4;
+        pos.setXYZ(i, vx * k, Math.max(-0.2, vy) * k, vz * k);
+      }
+      g.scale(r, h / 1.2, r);
+      g.translate(x, base + h * 0.15, z);
+      add(key, g);
+      return base + h * 0.95;
+    },
+
+    /** Disque plat (douves, place, jardin). */
+    disc(x, z, r, { base = 0, h = 0.3, key = 'water', sides = 16 } = {}) {
+      const g = new CylinderGeometry(r, r, h, sides);
+      g.translate(x, base + h / 2, z);
+      add(key, g);
+    },
+
     /** Fusionne les pièces par matériau. `scale` : unités de carte → unités monde. */
     build(scale = 1 / 80) {
       const group = new Group();
       for (const [key, geos] of parts) {
-        const merged = mergeGeometries(geos.map((g) => g.toNonIndexed()));
+        const merged = mergeGeometries(geos.map((g) => (g.index ? g.toNonIndexed() : g)));
         geos.forEach((g) => g.dispose());
         const mesh = new Mesh(merged, material(key));
         mesh.name = key;

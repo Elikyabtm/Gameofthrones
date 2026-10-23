@@ -61,6 +61,24 @@ try {
       }
     }
   }
+  if (!mobile && process.argv.includes('--maquettes')) {
+    // Planche de contrôle : chaque cité en gros plan.
+    const cities = await page.evaluate(() =>
+      fetch('/src/data/map.json')
+        .then((r) => r.json())
+        .then((m) => m.cities.map((c) => c.name)),
+    );
+    for (const name of cities) {
+      await page.evaluate((n) => window.lab.lieu(n), name);
+      const file = `maquette-${name
+        .normalize('NFD')
+        .replace(/[\u0300-\u036f]/g, '')
+        .replace(/\W+/g, '-')
+        .toLowerCase()}.png`;
+      await page.screenshot({ path: new URL(file, SHOTS).pathname });
+      console.log(`capture : tools/shots/${file}`);
+    }
+  }
   console.log('Durées :', await page.evaluate(() => window.lab.timings));
 } finally {
   await browser.close();
