@@ -261,7 +261,7 @@ export default [
     ],
     facts: [
       { label: 'Langue', value: 'Valyrien meereenien' },
-      { label: 'Visages & repères', value: 'Un réseau clandestin de Meereen' },
+      { label: 'Visages & repères', value: 'Aucune figure nommée : des anonymes masqués' },
     ],
     terms: ['Signe : masque de harpie', 'Nature : clandestinité', 'Conflit : ordre social'],
     image: 'images/fils-de-la-harpie.webp',

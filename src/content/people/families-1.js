@@ -95,7 +95,7 @@ export default [
     house: 'stark',
     title: 'Élevé à Winterfell',
     portrait: 'images/portraits/jon.webp',
-    bio: 'Jon grandit à Winterfell auprès des enfants Stark. Son histoire relie la question de l’appartenance à celle du devoir. Activez les révélations pour explorer sa filiation telle qu’elle est établie dans la série.',
+    bio: 'Jon grandit à Winterfell auprès des enfants Stark. Son histoire relie la question de l’appartenance à celle du devoir.',
   },
   {
     id: 'hoster',

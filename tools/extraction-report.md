@@ -58,7 +58,7 @@ Les `id` des groupes et des langues sont ceux de l'ancien site (en anglais) : PR
 - Seuls les **22 groupes** et les **9 langues** ont un lien source.
 - Sans source : les 10 maisons, les 6 croyances, les 5 créatures et les 28 lieux.
 
-## 5. Incohérences et fautes repérées (non corrigées)
+## 5. Incohérences et fautes repérées
 
 **Typographie** : aucune apostrophe droite, aucun guillemet droit, aucune double espace. La ponctuation haute est bien précédée d'une espace partout.
 
@@ -84,6 +84,25 @@ Les `id` des groupes et des langues sont ceux de l'ancien site (en anglais) : PR
 10. **« Westeros · La couronne »** (Garde Royale) contre « Les Terres de la Couronne » (carte).
 11. **Langues des destinations** en minuscule (« valyrien braavien ») contre une majuscule dans les fiches de groupes (« Valyrien braavien »).
 12. **Accroches** : les croyances, créatures, lieux et périodes n'en ont pas (`lead` vide), alors que la modale prévoit l'accroche juste après le titre.
+
+### Suite donnée (après validation « fais tout »)
+
+Les corrections sont dans `tools/corrections.mjs`. L'extracteur les applique **après** la reprise mot pour mot, et chacune échoue si le texte d'origine a changé.
+
+| #   | Décision                                                                                                                         |
+| --- | -------------------------------------------------------------------------------------------------------------------------------- |
+| 1   | Corrigé : « loup géant » dans les armoiries Stark.                                                                               |
+| 2   | Corrigé : la maison Greyjoy utilise `fer-nes.webp`.                                                                              |
+| 3   | Corrigé : nouveau mode `spoiler` pour les 5 mariages tardifs. `secret` est réservé aux filiations cachées.                       |
+| 4   | Corrigé : la consigne d'interface est retirée de la bio de Jon.                                                                  |
+| 5   | Reporté en phase 5 : les biographies manquantes sont des textes nouveaux, à faire valider avec l'arbre.                          |
+| 6   | Corrigé : « Aucune figure nommée : des anonymes masqués ».                                                                       |
+| 7   | Corrigé : surtitres des langues en casse normale.                                                                                |
+| 8   | Conservé : « Mer Dothrak » en début de segment de surtitre et « mer Dothrak » dans une phrase sont tous deux corrects.           |
+| 9   | Corrigé : « Les Terres de l'Ouest » partout.                                                                                     |
+| 10  | Corrigé : « La Couronne ».                                                                                                       |
+| 11  | Corrigé : majuscule initiale pour les langues des destinations.                                                                  |
+| 12  | Reporté en phase 3 : la modale omettra l'accroche quand elle est vide. Les accroches nouvelles seront proposées avec les `hook`. |
 
 ## 6. Choix de mise en forme faits à l'extraction (sans toucher aux textes)
 

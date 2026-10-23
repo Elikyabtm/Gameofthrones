@@ -5,6 +5,7 @@
 import { readFileSync, writeFileSync, mkdirSync } from 'node:fs';
 import vm from 'node:vm';
 import { imagePath } from './asset-names.mjs';
+import { applyCorrections } from './corrections.mjs';
 
 const REF = new URL('../reference/ancien-site/', import.meta.url);
 const OUT = new URL('../src/content/', import.meta.url);
@@ -261,10 +262,14 @@ const people = {
     portrait: p.portrait ? `images/portraits/${p.portrait}.webp` : null,
     bio: p.bio || '',
   })),
-  // mode : 'normal' | 'public' (version officielle) | 'secret' (révélée sur option, anti-spoilers)
+  // mode : 'normal' | 'public' (version officielle) | 'secret' (filiation cachée)
+  // | 'spoiler' (union tardive dans le récit) — 'secret' et 'spoiler' sont masqués par défaut.
   unions: tree.unions.map((u) => ({ a: u.a, b: u.b, children: u.c, mode: u.mode })),
   special: tree.special.map((s) => ({ ...s })),
 };
+
+// Corrections validées, appliquées après la reprise mot pour mot (voir tools/corrections.mjs).
+applyCorrections({ groups, houses, languages, places, people });
 
 // --- Écriture -------------------------------------------------------------------
 mkdirSync(OUT, { recursive: true });

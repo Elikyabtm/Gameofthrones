@@ -147,7 +147,7 @@ export default [
     id: 'kingsguard',
     type: 'group',
     title: 'La Garde Royale',
-    kicker: 'Westeros · La couronne',
+    kicker: 'Westeros · La Couronne',
     lead: 'Des chevaliers chargés de protéger le souverain, même lorsque le devoir devient un dilemme.',
     body: [
       'La Garde Royale est un ordre de chevaliers reconnaissable à ses manteaux blancs. La protection du monarque et de sa famille passe avant les intérêts de naissance de ses membres.',

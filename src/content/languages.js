@@ -5,7 +5,7 @@ export default [
     id: 'common',
     type: 'lang',
     title: 'La langue commune',
-    kicker: 'WESTEROS · LES ÉCHANGES DU MONDE CONNU',
+    kicker: 'Westeros · Les échanges du monde connu',
     lead: 'Le langage partagé des Sept Couronnes.',
     body: [
       'Les régions de Westeros possèdent des accents et des usages sociaux distincts, mais la langue commune permet généralement de communiquer du Nord à Dorne. Les mestres, marchands et voyageurs la transportent aussi au-delà du détroit.',
@@ -24,7 +24,7 @@ export default [
     id: 'dothraki',
     type: 'lang',
     title: 'Le dothraki',
-    kicker: 'ESSOS · LA MER DOTHRAK',
+    kicker: 'Essos · La mer Dothrak',
     lead: 'Une langue de la steppe, développée pour la série.',
     body: [
       'La langue des Dothraki accompagne leur vie nomade et leur culture du cheval. Le vocabulaire contient des titres et des notions que la traduction par « roi », « reine » ou « armée » simplifie trop vite.',
@@ -44,7 +44,7 @@ export default [
     id: 'highvalyrian',
     type: 'lang',
     title: 'Le haut valyrien',
-    kicker: 'VALYRIA · HÉRITAGE & SAVOIR',
+    kicker: 'Valyria · Héritage & savoir',
     lead: 'Le prestige d’un empire dont le centre a disparu.',
     body: [
       'Le haut valyrien est lié à l’ancienne civilisation de Valyria et à des usages savants, religieux ou dynastiques. Sa connaissance peut signaler une éducation, une tradition familiale ou une ambition de pouvoir.',
@@ -67,7 +67,7 @@ export default [
     id: 'lowvalyrian',
     type: 'lang',
     title: 'Les valyriens d’Essos',
-    kicker: 'ESSOS · CITÉS LIBRES & BAIE DES SERFS',
+    kicker: 'Essos · Cités libres & baie des Serfs',
     lead: 'Des langues apparentées, avec des histoires locales.',
     body: [
       '« Bas valyrien » recouvre des variétés descendantes de la langue de Valyria. Les Cités libres ne parlent pas toutes exactement de la même manière ; l’histoire et les contacts ont fait évoluer les langues.',
@@ -86,7 +86,7 @@ export default [
     id: 'old',
     type: 'lang',
     title: 'L’ancienne langue',
-    kicker: 'WESTEROS · PREMIERS HOMMES & GRAND NORD',
+    kicker: 'Westeros · Premiers Hommes & Grand Nord',
     lead: 'Des voix plus anciennes que les royaumes actuels.',
     body: [
       'L’ancienne langue est associée aux Premiers Hommes. Elle a largement cédé la place à la langue commune dans les Sept Couronnes, mais demeure connue dans certaines communautés au-delà du Mur.',
@@ -105,7 +105,7 @@ export default [
     id: 'rhoynish',
     type: 'lang',
     title: 'Le rhoynais',
-    kicker: 'ESSOS · RHOYNE / HÉRITAGE DORNIEN',
+    kicker: 'Essos · Rhoyne / héritage dornien',
     lead: 'La langue d’un peuple de fleuve et d’exil.',
     body: [
       'Les Rhoynar possédaient leur propre langue. La migration vers Dorne et les contacts avec les autres populations ont transformé sa place dans la vie quotidienne.',
@@ -124,7 +124,7 @@ export default [
     id: 'ghiscari',
     type: 'lang',
     title: 'L’ancien ghiscari',
-    kicker: 'ESSOS · GHIS & SA MÉMOIRE',
+    kicker: 'Essos · Ghis & sa mémoire',
     lead: 'Une langue ancienne dont les traces ont survécu à la disparition.',
     body: [
       'L’ancien ghiscari appartient à l’histoire de l’empire de Ghis. Au temps de la série, il est considéré comme une langue morte, tandis que les habitants des cités de la baie des Serfs parlent des variétés locales du valyrien.',
@@ -143,7 +143,7 @@ export default [
     id: 'qartheen',
     type: 'lang',
     title: 'Le qarthien',
-    kicker: 'ESSOS · QARTH',
+    kicker: 'Essos · Qarth',
     lead: 'Une autre voix du vaste continent oriental.',
     body: [
       'Qarth possède une identité urbaine et linguistique distincte, située sur des routes commerciales qui relient plusieurs mondes. La cité ne relève ni de la culture dothraki ni de celle des Sept Couronnes.',
@@ -162,7 +162,7 @@ export default [
     id: 'lhazareen',
     type: 'lang',
     title: 'Le lhazaréen',
-    kicker: 'ESSOS · LHAZAR',
+    kicker: 'Essos · Lhazar',
     lead: 'La voix des communautés de l’est des steppes.',
     body: [
       'La langue lhazaréenne appartient aux peuples de Lhazar. Son existence rappelle qu’Essos comprend bien davantage de cultures que les seuls groupes longuement montrés à l’écran.',

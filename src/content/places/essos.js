@@ -12,7 +12,7 @@ export default [
     ],
     facts: [
       { label: 'Nature', value: 'Cité libre' },
-      { label: 'Langue', value: 'valyrien braavien' },
+      { label: 'Langue', value: 'Valyrien braavien' },
     ],
     image: 'images/braavos.webp',
     source: null,
@@ -30,7 +30,7 @@ export default [
     ],
     facts: [
       { label: 'Nature', value: 'Cité libre' },
-      { label: 'Langue', value: 'valyrien pentoshi' },
+      { label: 'Langue', value: 'Valyrien pentoshi' },
     ],
     image: 'images/braavos.webp',
     source: null,
@@ -48,7 +48,7 @@ export default [
     ],
     facts: [
       { label: 'Nature', value: 'Cité libre' },
-      { label: 'Langue', value: 'valyrien volantain' },
+      { label: 'Langue', value: 'Valyrien volantain' },
     ],
     image: 'images/braavos.webp',
     source: null,
@@ -66,7 +66,7 @@ export default [
     ],
     facts: [
       { label: 'Nature', value: 'Cité libre' },
-      { label: 'Langue', value: 'valyrien lysien' },
+      { label: 'Langue', value: 'Valyrien lysien' },
     ],
     image: 'images/braavos.webp',
     source: null,
@@ -84,7 +84,7 @@ export default [
     ],
     facts: [
       { label: 'Nature', value: 'Cité libre' },
-      { label: 'Langue', value: 'valyrien myrien' },
+      { label: 'Langue', value: 'Valyrien myrien' },
     ],
     image: 'images/braavos.webp',
     source: null,
@@ -102,7 +102,7 @@ export default [
     ],
     facts: [
       { label: 'Nature', value: 'Cité libre' },
-      { label: 'Langue', value: 'valyrien tyroshi' },
+      { label: 'Langue', value: 'Valyrien tyroshi' },
     ],
     image: 'images/braavos.webp',
     source: null,
@@ -120,7 +120,7 @@ export default [
     ],
     facts: [
       { label: 'Nature', value: 'Cité libre' },
-      { label: 'Langue', value: 'valyrien qohorik' },
+      { label: 'Langue', value: 'Valyrien qohorik' },
     ],
     image: 'images/immacules.webp',
     source: null,
@@ -138,7 +138,7 @@ export default [
     ],
     facts: [
       { label: 'Nature', value: 'Cité libre' },
-      { label: 'Langue', value: 'valyrien norvoshi' },
+      { label: 'Langue', value: 'Valyrien norvoshi' },
     ],
     image: 'images/braavos.webp',
     source: null,
@@ -156,7 +156,7 @@ export default [
     ],
     facts: [
       { label: 'Nature', value: 'Cité libre' },
-      { label: 'Langue', value: 'valyrien lorathi' },
+      { label: 'Langue', value: 'Valyrien lorathi' },
     ],
     image: 'images/braavos.webp',
     source: null,
@@ -174,7 +174,7 @@ export default [
     ],
     facts: [
       { label: 'Nature', value: 'Cité sacrée' },
-      { label: 'Langue', value: 'dothraki' },
+      { label: 'Langue', value: 'Dothraki' },
     ],
     image: 'images/dothraki.webp',
     source: null,
@@ -192,7 +192,7 @@ export default [
     ],
     facts: [
       { label: 'Nature', value: 'Baie des Serfs' },
-      { label: 'Langue', value: 'valyrien astapori' },
+      { label: 'Langue', value: 'Valyrien astapori' },
     ],
     image: 'images/immacules.webp',
     source: null,
@@ -210,7 +210,7 @@ export default [
     ],
     facts: [
       { label: 'Nature', value: 'Baie des Serfs' },
-      { label: 'Langue', value: 'valyrien local' },
+      { label: 'Langue', value: 'Valyrien local' },
     ],
     image: 'images/immacules.webp',
     source: null,
@@ -228,7 +228,7 @@ export default [
     ],
     facts: [
       { label: 'Nature', value: 'Baie des Serfs' },
-      { label: 'Langue', value: 'valyrien meereenien' },
+      { label: 'Langue', value: 'Valyrien meereenien' },
     ],
     image: 'images/immacules.webp',
     source: null,
@@ -246,7 +246,7 @@ export default [
     ],
     facts: [
       { label: 'Nature', value: 'Carrefour commercial' },
-      { label: 'Langue', value: 'qarthien' },
+      { label: 'Langue', value: 'Qarthien' },
     ],
     image: 'images/braavos.webp',
     source: null,
@@ -264,7 +264,7 @@ export default [
     ],
     facts: [
       { label: 'Nature', value: 'Ruines de l’ancien empire' },
-      { label: 'Langue historique', value: 'haut valyrien' },
+      { label: 'Langue historique', value: 'Haut valyrien' },
     ],
     image: 'images/dragon.webp',
     source: null,
