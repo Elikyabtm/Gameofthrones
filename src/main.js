@@ -5,11 +5,15 @@ import './styles/tokens.css';
 import './styles/base.css';
 import './styles/journey.css';
 import './styles/archive.css';
+import './styles/hud.css';
 import { STEPS, TOTAL_STEPS, panelSide } from './data/journey.js';
 import { renderJourney } from './journey/render.js';
 import { createScrollDriver } from './journey/scroll.js';
 import { applyPanel } from './journey/panels.js';
 import { initArchive } from './ui/archive.js';
+import { initHud } from './journey/hud.js';
+import { initMenu } from './ui/menu.js';
+import { initAudio } from './ui/audio.js';
 import { FICHES, getFiche } from './content/index.js';
 
 const reducedMotion = matchMedia('(prefers-reduced-motion: reduce)').matches;
@@ -26,12 +30,16 @@ const announcer = document.getElementById('announcer');
 const fade = document.getElementById('cut-fade');
 let world = null;
 
+let hud = null;
+let menu = null;
 const driver = createScrollDriver(articles, {
   onUpdate(s) {
     panels.forEach((p, i) => applyPanel(p, i === s.index ? s.u : 0, { reducedMotion }));
     world?.setScroll(s);
   },
   onStepChange(i) {
+    hud?.update(i);
+    menu?.setCurrent(i);
     if (i >= 0) {
       const step = STEPS[i];
       announcer.textContent = `Étape ${step.num} sur ${TOTAL_STEPS} : ${step.place}`;
@@ -46,6 +54,21 @@ const driver = createScrollDriver(articles, {
       });
     }
   },
+});
+
+// Navigation : vol doux vers le palier d'une étape (coupe directe en mouvement réduit).
+const goTo = (i) => driver.goTo(i, { smooth: !reducedMotion });
+const toIntro = () => window.scrollTo({ top: 0, behavior: reducedMotion ? 'instant' : 'smooth' });
+hud = initHud({ steps: STEPS, total: TOTAL_STEPS, goTo, toIntro });
+menu = initMenu({ steps: STEPS, goTo });
+hud.update(driver.index);
+menu.setCurrent(driver.index);
+initAudio();
+
+// Bouton « Commencer le voyage » : défile jusqu'au palier de l'étape 01.
+document.querySelector('.intro-cta').addEventListener('click', (e) => {
+  e.preventDefault();
+  goTo(0);
 });
 
 // Scène 3D : après le premier affichage, pour que le texte soit là immédiatement.

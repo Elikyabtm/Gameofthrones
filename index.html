@@ -22,6 +22,67 @@
     <canvas id="world" aria-hidden="true"></canvas>
     <div id="world-labels" aria-hidden="true"></div>
     <div id="cut-fade" aria-hidden="true"></div>
+    <!-- Cadre : quatre filets dorés et ornements originaux (§8.2). -->
+    <div class="hud-frame" aria-hidden="true">
+      <svg class="corner corner-tl" viewBox="0 0 18 18">
+        <path d="M1 17V1h16M5 13V5h8" />
+        <path d="M9 6.5 11.5 9 9 11.5 6.5 9z" />
+      </svg>
+      <svg class="corner corner-tr" viewBox="0 0 18 18">
+        <path d="M1 17V1h16M5 13V5h8" />
+        <path d="M9 6.5 11.5 9 9 11.5 6.5 9z" />
+      </svg>
+      <svg class="corner corner-bl" viewBox="0 0 18 18">
+        <path d="M1 17V1h16M5 13V5h8" />
+        <path d="M9 6.5 11.5 9 9 11.5 6.5 9z" />
+      </svg>
+      <svg class="corner corner-br" viewBox="0 0 18 18">
+        <path d="M1 17V1h16M5 13V5h8" />
+        <path d="M9 6.5 11.5 9 9 11.5 6.5 9z" />
+      </svg>
+      <svg class="crest" viewBox="0 0 60 14">
+        <path d="M0 7h22M38 7h22M30 1l6 6-6 6-6-6z" />
+        <path d="M24 7h2M34 7h2" />
+      </svg>
+    </div>
+    <header class="hud-top">
+      <a class="hud-logo" href="#intro">GoT <span aria-hidden="true">·</span> A Realm Divided</a>
+      <div class="hud-actions">
+        <button
+          type="button"
+          class="hud-sound"
+          aria-pressed="false"
+          aria-label="Activer le son d’ambiance"
+        >
+          <svg viewBox="0 0 20 16" aria-hidden="true">
+            <path d="M2 6h3l4-3.5v11L5 10H2z" />
+            <path class="wave" d="M12.5 5.5a3.5 3.5 0 0 1 0 5M15 3.5a6.5 6.5 0 0 1 0 9" />
+            <path class="mute" d="m13 5.5 5 5m0-5-5 5" />
+          </svg>
+        </button>
+        <button type="button" class="hud-explore" aria-expanded="false" aria-controls="menu">
+          Explorer
+        </button>
+      </div>
+    </header>
+    <nav id="menu" aria-label="Explorer" hidden>
+      <div class="menu-inner">
+        <button type="button" class="menu-close" aria-label="Fermer le menu">×</button>
+        <div class="menu-col">
+          <h2 class="menu-title">Le voyage</h2>
+          <ol class="menu-steps"></ol>
+        </div>
+        <div class="menu-col">
+          <h2 class="menu-title">Annexes</h2>
+          <ul class="menu-annexes">
+            <li><a href="#arbre">L’arbre des familles</a></li>
+            <li><a href="#index">Toutes les fiches</a></li>
+            <li><a href="#chronologie">Chronologie</a></li>
+            <li><a href="#sources">Sources &amp; crédits</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
     <main>
       <section id="intro" class="intro"></section>
       <section id="voyage" aria-label="Le voyage"></section>
@@ -32,6 +93,31 @@
         </section>
       </section>
     </main>
+    <nav class="hud-bottom" aria-label="Navigation du voyage">
+      <button
+        type="button"
+        class="hud-sound hud-sound-bottom"
+        aria-pressed="false"
+        aria-label="Activer le son d’ambiance"
+      >
+        <span aria-hidden="true">Son</span>
+      </button>
+      <div class="hud-center">
+        <div class="hud-steps">
+          <button type="button" class="hud-prev">
+            <span aria-hidden="true">←</span> <span class="hud-prev-name"></span>
+          </button>
+          <span class="hud-count" aria-hidden="true"
+            ><span class="hud-num">01</span> / <span class="hud-total">13</span></span
+          >
+          <button type="button" class="hud-next">
+            <span class="hud-next-name"></span> <span aria-hidden="true">→</span>
+          </button>
+        </div>
+        <ol class="hud-track"></ol>
+      </div>
+      <a class="hud-annexes" href="#annexes">Annexes <span aria-hidden="true">↓</span></a>
+    </nav>
     <footer class="site-footer">
       <p>Guide de fan non officiel, sans affiliation avec HBO ni George R. R. Martin.</p>
     </footer>

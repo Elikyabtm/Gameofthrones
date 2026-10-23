@@ -26,7 +26,10 @@ export function focusPoint(focus, map) {
  * `side` : côté du panneau ('left' | 'right' | null) → décalage optique horizontal.
  */
 export function stepFrame(step, map, { side = null, vertical = false } = {}) {
-  const { dist, height, azimuth } = { ...DEFAULT_CAMERA, ...step.camera };
+  const cam = { ...DEFAULT_CAMERA, ...step.camera };
+  // Écran étroit (mobile, portrait) : champ horizontal réduit, on recule la caméra de 30 %.
+  const k = vertical ? 1.3 : 1;
+  const [dist, height, azimuth] = [cam.dist * k, cam.height * k, cam.azimuth];
   const { x, y } = focusPoint(step.focus, map);
   const target = toWorld(x, y);
   target.y = 0.2;

@@ -156,6 +156,39 @@ try {
       );
     }
 
+    // Navigation (§11.9) : → de l'étape 03 à 04, clic sur un point de la frise.
+    if (name === 'desktop') {
+      const waitStep = (k) =>
+        page.waitForFunction(
+          (k) => window.realm.state?.index === k && window.realm.state.phase === 'palier',
+          k,
+          { timeout: 90000, polling: 100 },
+        );
+      await page.evaluate(() => window.realm.goTo(2, { smooth: false }));
+      await waitStep(2);
+      await page.locator('body').press('ArrowRight');
+      await waitStep(3).then(
+        () => check(true, '→ fait passer de l’étape 03 à 04'),
+        () => check(false, '→ ne fait pas passer de l’étape 03 à 04'),
+      );
+      await page.locator('.hud-track button[data-goto="6"]').click();
+      await waitStep(6).then(
+        () => check(true, 'clic sur le 8ᵉ point de la frise → étape 07'),
+        () => check(false, 'clic sur un point de la frise : mauvaise étape'),
+      );
+      await page.screenshot({ path: new URL(`${name}-hud.png`, SHOTS).pathname });
+      // Menu « Explorer » : ouverture, Échap, retour du focus.
+      await page.locator('.hud-explore').click();
+      await page.screenshot({ path: new URL(`${name}-menu.png`, SHOTS).pathname });
+      await page.keyboard.press('Escape');
+      const menuOk = await page.evaluate(
+        () =>
+          document.getElementById('menu').hidden &&
+          document.activeElement === document.querySelector('.hud-explore'),
+      );
+      check(menuOk, 'menu : Échap ferme et rend le focus au bouton « Explorer »');
+    }
+
     // Capture d'une fiche ouverte (modale).
     await page.evaluate(() => document.querySelector('[data-archive="house:stark"]').click());
     await page.waitForTimeout(400);
