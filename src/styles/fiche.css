@@ -95,6 +95,11 @@
 }
 
 @media (max-width: 699px) {
+  /* Empêche la marge du texte de « sortir » de la fiche et d'entraîner le portrait avec elle. */
+  .fiche,
+  .codex-entry {
+    display: flow-root;
+  }
   .fiche-media {
     position: absolute;
     width: 100%;
