@@ -79,20 +79,11 @@ export function createGraph(index) {
         type: INVERSE[r.type] ?? 'autre',
         label: r.inverseLabel ?? null,
         s: r.s,
+        until: r.until,
         declared: false,
       });
     }
   }
-  // Dédoublonnage : un lien déclaré l'emporte sur l'inverse calculé du même couple.
-  for (const [slug, list] of rels) {
-    const seen = new Map();
-    for (const r of list) {
-      const prev = seen.get(r.to + r.type);
-      if (!prev || (r.declared && !prev.declared)) seen.set(r.to + r.type, r);
-    }
-    rels.set(slug, [...seen.values()]);
-  }
-
   const kindOf = (slug) =>
     chars.has(slug)
       ? 'character'
@@ -116,7 +107,15 @@ export function createGraph(index) {
         const o = chars.get(r.to);
         return o && characterVisible(o, season);
       });
-      return split(list, season);
+      const res = split(list, season);
+      // Dédoublonnage après filtrage : un lien déclaré l'emporte sur l'inverse calculé.
+      const seen = new Map();
+      for (const r of res.items) {
+        const prev = seen.get(r.to);
+        if (!prev || (r.declared && !prev.declared)) seen.set(r.to, r);
+      }
+      res.items = [...seen.values()];
+      return res;
     },
     /** Personnages présents dans un lieu à la saison choisie, dans l'ordre demandé. */
     residents(placeSlug, season, order = [], { origin = false } = {}) {
@@ -164,9 +163,14 @@ export function createGraph(index) {
         add(c.short, 'character', c.slug);
         for (const a of c.aliases ?? []) if (visible(a, season)) add(a.text, 'character', c.slug);
       }
+      // Noms d'institutions : aussi sans article ni « Maison » (« la Garde de Nuit »).
+      const bare = (t) => t.replace(/^(Maison |Le |La |Les |L’|L')/, '');
       for (const h of index.houses) add(h.name, 'house', h.slug);
       for (const p of index.places) add(p.name, 'place', p.slug);
-      for (const e of index.codex) add(e.name, 'codex', e.slug);
+      for (const e of index.codex) {
+        add(e.name, 'codex', e.slug);
+        if (bare(e.name) !== e.name) add(bare(e.name), 'codex', e.slug);
+      }
       return out.sort((a, b) => b.text.length - a.text.length);
     },
   };

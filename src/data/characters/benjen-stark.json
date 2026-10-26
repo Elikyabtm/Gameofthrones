@@ -1,0 +1,98 @@
+{
+  "slug": "benjen-stark",
+  "name": "Benjen Stark",
+  "short": "Benjen",
+  "aliases": [{ "text": "Main-Froide", "s": 6 }],
+  "house": "stark",
+  "region": "Le Nord",
+  "camp": "westeros",
+  "allegiances": [{ "to": "stark" }],
+  "origin": "winterfell",
+  "titles": [{ "text": "Premier patrouilleur de la Garde de Nuit" }],
+  "actor": "Joseph Mawle",
+  "firstSeason": 1,
+  "status": [
+    { "s": 1, "value": "vivant" },
+    { "s": 1, "value": "inconnu", "note": "Disparu au-delà du Mur" },
+    {
+      "s": 6,
+      "value": "ressuscite",
+      "note": "Sauvé de la mort par les enfants de la forêt, sans être tout à fait vivant"
+    },
+    { "s": 7, "value": "mort", "note": "Tué en couvrant la fuite de Jon au-delà du Mur" }
+  ],
+  "summary": "Frère cadet d’Eddard, Benjen sert dans la Garde de Nuit comme premier patrouilleur. C’est lui qui donne à Jon l’envie de rejoindre le Mur.",
+  "bio": [
+    {
+      "s": 1,
+      "title": "Saison 1 — Le patrouilleur",
+      "paragraphs": [
+        "Benjen descend à Winterfell pour la visite du roi, puis repart vers le Mur, accompagné de Jon et de Tyrion, curieux de voir le bout du monde. Il prévient son neveu : en prenant le noir, on renonce à tout. À Châteaunoir, Benjen part en patrouille au-delà du Mur pour enquêter sur des disparitions. Il ne revient pas. Seul son cheval regagne le Mur, et l’on retrouve plus tard deux de ses hommes morts, qui se relèvent."
+      ]
+    },
+    {
+      "s": 6,
+      "title": "Saison 6 — Le cavalier au feu",
+      "paragraphs": [
+        "Un cavalier encapuchonné surgit pour sauver Bran et Meera des morts, armé d’un fléau enflammé : c’est Benjen. Il explique avoir été poignardé par un Marcheur blanc et sauvé par les enfants de la forêt, au prix d’un état étrange entre la vie et la mort. Il conduit Bran jusqu’au Mur, qu’il ne peut plus franchir à cause des anciens sortilèges qui le protègent."
+      ]
+    },
+    {
+      "s": 7,
+      "title": "Saison 7 — Le dernier sacrifice",
+      "paragraphs": [
+        "Pendant l’expédition de Jon au-delà du Mur, Benjen apparaît au moment où son neveu est encerclé par les morts. Il le hisse sur son cheval, l’envoie vers le sud et reste en arrière pour retenir les créatures, seul, jusqu’à la fin."
+      ]
+    }
+  ],
+  "keyMoments": [
+    {
+      "s": 1,
+      "title": "La patrouille",
+      "text": "Il disparaît au-delà du Mur en enquêtant sur les disparitions.",
+      "place": "au-dela-du-mur"
+    },
+    {
+      "s": 6,
+      "title": "Le sauveur encapuchonné",
+      "text": "Il sauve Bran et Meera de l’armée des morts.",
+      "place": "au-dela-du-mur"
+    },
+    {
+      "s": 7,
+      "title": "Le dernier combat",
+      "text": "Il sacrifie ce qui lui reste de vie pour sauver Jon.",
+      "place": "au-dela-du-mur"
+    }
+  ],
+  "relations": [
+    {
+      "to": "bran-stark",
+      "type": "autre",
+      "label": "Son neveu, qu’il sauve des morts",
+      "inverseLabel": "Son oncle",
+      "s": 1
+    },
+    { "to": "lyanna-stark", "type": "fratrie", "label": "Sa sœur", "s": 1 },
+    { "to": "jeor-mormont", "type": "suzerain", "label": "Son Lord Commandant", "s": 1 },
+    {
+      "to": "tyrion-lannister",
+      "type": "autre",
+      "label": "Son compagnon de voyage vers le Mur",
+      "s": 1
+    }
+  ],
+  "places": [
+    { "place": "winterfell", "seasons": [1] },
+    { "place": "chateaunoir", "seasons": [1] },
+    { "place": "au-dela-du-mur", "seasons": [1, 6, 7] }
+  ],
+  "codex": ["garde-de-nuit", "enfants-de-la-foret", "marcheurs-blancs"],
+  "portrait": "images/personnages/benjen-stark.webp",
+  "sources": [
+    {
+      "label": "Wiki of Westeros — Benjen Stark",
+      "url": "https://gameofthrones.fandom.com/wiki/Benjen_Stark"
+    }
+  ]
+}

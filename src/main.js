@@ -4,6 +4,8 @@ import './styles/tokens.css';
 import './styles/base.css';
 import './styles/chrome.css';
 import './styles/overlays.css';
+import './styles/prose.css';
+import './styles/fiche.css';
 import './styles/journey.css';
 import { router, setMeta } from './core/router.js';
 import { store } from './core/store.js';

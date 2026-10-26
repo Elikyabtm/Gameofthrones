@@ -1,0 +1,196 @@
+{
+  "slug": "eddard-stark",
+  "name": "Eddard Stark",
+  "short": "Eddard",
+  "principal": true,
+  "aliases": [{ "text": "Ned" }, { "text": "Ned Stark" }],
+  "house": "stark",
+  "region": "Le Nord",
+  "camp": "westeros",
+  "allegiances": [{ "to": "stark" }, { "to": "baratheon" }],
+  "origin": "winterfell",
+  "titles": [
+    { "text": "Seigneur de Winterfell" },
+    { "text": "Gouverneur du Nord" },
+    { "text": "Main du Roi" }
+  ],
+  "actor": "Sean Bean",
+  "firstSeason": 1,
+  "status": [
+    { "s": 1, "value": "vivant" },
+    {
+      "s": 1,
+      "value": "mort",
+      "note": "Décapité devant le grand septuor de Baelor, sur ordre du roi Joffrey"
+    }
+  ],
+  "summary": "Seigneur de Winterfell et gardien du Nord, Eddard Stark place la parole donnée au-dessus de tout. Quand son vieil ami le roi Robert vient le chercher, il quitte ses terres pour une cour dont il ne connaît pas les règles.",
+  "quote": { "text": "L’homme qui prononce la sentence doit manier l’épée.", "s": 1 },
+  "bio": [
+    {
+      "s": 1,
+      "title": "Saison 1 — La Main du Roi",
+      "paragraphs": [
+        "Eddard Stark gouverne le Nord depuis Winterfell avec une rigueur tranquille. Il rend la justice lui-même, comme le veut la coutume de ses ancêtres : quand un déserteur de la Garde de Nuit est capturé, c’est lui qui lève l’épée, devant ses fils, pour qu’ils comprennent ce que coûte une sentence. Marié à Catelyn Tully, il élève à ses côtés cinq enfants légitimes et un fils naturel, Jon Snow, dont il ne parle jamais de la mère. Dans le bois sacré, sous le barral, il prie des dieux qui ne demandent ni temples ni chants.",
+        "La mort de Jon Arryn, Main du Roi, bouleverse cet équilibre. Le roi Robert Baratheon, compagnon de jeunesse avec qui Eddard a renversé les Targaryen, descend jusqu’à Winterfell pour lui proposer la charge. Eddard n’aime ni la cour ni le Sud, mais une lettre de Lysa Arryn accuse les Lannister d’avoir empoisonné son mari. Par loyauté envers Robert et par devoir, il accepte, et part pour Port-Réal avec ses deux filles, laissant Catelyn, Robb, Bran et Rickon dans le Nord. Bran vient de chuter d’une tour dans des circonstances que personne n’explique.",
+        "À la capitale, Eddard découvre un royaume endetté, un Conseil restreint où chacun joue son propre jeu et un roi qui préfère la chasse au gouvernement. Il reprend l’enquête de Jon Arryn, interroge des forgerons et feuillette un vieux livre des lignées. Pas à pas, il comprend ce que son prédécesseur avait découvert : les enfants de la reine Cersei ne sont pas ceux de Robert. Sa droiture le pousse à prévenir la reine avant de parler au roi, pour lui laisser le temps de fuir avec ses enfants. Cette générosité est une erreur. Robert est mortellement blessé à la chasse, et Eddard se retrouve seul face aux Lannister, avec pour seul appui le commandant du Guet, qu’on lui a conseillé d’acheter, et Petyr Baelish, en qui il a choisi de croire.",
+        "Le jour où il veut faire valoir le testament du roi, les manteaux d’or se retournent contre lui. Arrêté comme traître, jeté dans les cachots du Donjon Rouge, il reçoit la visite de Varys, qui lui conseille de sauver la vie de ses filles plutôt que son honneur. Eddard accepte de mentir en public et de se reconnaître coupable devant la foule. On lui promet l’exil au Mur. Joffrey, devenu roi, en décide autrement. Sous les yeux de Sansa, et d’Arya cachée dans la foule, Eddard Stark est décapité avec sa propre épée, Glace. Sa mort met le feu aux Sept Couronnes : le Nord se soulève, et la guerre commence."
+      ]
+    }
+  ],
+  "keyMoments": [
+    {
+      "s": 1,
+      "title": "La sentence du déserteur",
+      "text": "Au nord de Winterfell, Eddard exécute lui-même un frère de la Garde de Nuit qui a fui le Mur, et explique à Bran pourquoi.",
+      "place": "winterfell"
+    },
+    {
+      "s": 1,
+      "title": "Les louveteaux",
+      "text": "Sur le chemin du retour, ses enfants trouvent une louve morte et ses petits. Eddard accepte qu’ils les élèvent.",
+      "place": "winterfell"
+    },
+    {
+      "s": 1,
+      "title": "Le choix de partir",
+      "text": "Il accepte de devenir Main du Roi, malgré les réticences de Catelyn, pour protéger Robert et comprendre la mort de Jon Arryn.",
+      "place": "winterfell"
+    },
+    {
+      "s": 1,
+      "title": "Le secret des enfants royaux",
+      "text": "En consultant le livre des lignées, il comprend que Joffrey, Myrcella et Tommen ne sont pas les enfants du roi.",
+      "place": "port-real"
+    },
+    {
+      "s": 1,
+      "title": "La trahison de la salle du trône",
+      "text": "Les manteaux d’or se retournent contre lui au moment où il présente le testament de Robert.",
+      "place": "port-real"
+    },
+    {
+      "s": 1,
+      "title": "Le grand septuor",
+      "text": "Après de faux aveux publics, il est exécuté sur ordre de Joffrey, devant ses filles.",
+      "place": "port-real"
+    }
+  ],
+  "relations": [
+    { "to": "catelyn-stark", "type": "conjoint", "label": "Son épouse", "s": 1 },
+    {
+      "to": "robb-stark",
+      "type": "enfant",
+      "label": "Son fils aîné et héritier",
+      "inverseLabel": "Son père",
+      "s": 1
+    },
+    {
+      "to": "sansa-stark",
+      "type": "enfant",
+      "label": "Sa fille aînée",
+      "inverseLabel": "Son père",
+      "s": 1
+    },
+    {
+      "to": "arya-stark",
+      "type": "enfant",
+      "label": "Sa fille cadette",
+      "inverseLabel": "Son père",
+      "s": 1
+    },
+    {
+      "to": "bran-stark",
+      "type": "enfant",
+      "label": "Son deuxième fils",
+      "inverseLabel": "Son père",
+      "s": 1
+    },
+    {
+      "to": "rickon-stark",
+      "type": "enfant",
+      "label": "Son plus jeune fils",
+      "inverseLabel": "Son père",
+      "s": 1
+    },
+    {
+      "to": "jon-snow",
+      "type": "enfant",
+      "label": "Son fils naturel, élevé à Winterfell",
+      "inverseLabel": "Celui qu’il croit son père",
+      "s": 1,
+      "until": 7
+    },
+    {
+      "to": "jon-snow",
+      "type": "autre",
+      "label": "Son neveu, qu’il a fait passer pour son fils",
+      "inverseLabel": "Son oncle, qui l’a élevé comme son fils",
+      "s": 7
+    },
+    { "to": "benjen-stark", "type": "fratrie", "label": "Son frère cadet", "s": 1 },
+    {
+      "to": "lyanna-stark",
+      "type": "fratrie",
+      "label": "Sa sœur, morte pendant la Rébellion",
+      "s": 1
+    },
+    {
+      "to": "robert-baratheon",
+      "type": "allie",
+      "label": "Son ami d’enfance et son roi",
+      "inverseLabel": "Son ami d’enfance, devenu sa Main",
+      "s": 1
+    },
+    {
+      "to": "theon-greyjoy",
+      "type": "autre",
+      "label": "Son pupille, otage des Greyjoy",
+      "inverseLabel": "Le seigneur qui l’a élevé en otage",
+      "s": 1
+    },
+    {
+      "to": "cersei-lannister",
+      "type": "ennemi",
+      "label": "La reine, qu’il a percée à jour",
+      "s": 1
+    },
+    {
+      "to": "petyr-baelish",
+      "type": "ennemi",
+      "label": "L’homme qui l’a trahi",
+      "inverseLabel": "L’homme qu’il a trahi",
+      "s": 1
+    },
+    {
+      "to": "joffrey-baratheon",
+      "type": "ennemi",
+      "label": "Le roi qui l’a fait exécuter",
+      "inverseLabel": "La Main qu’il a fait exécuter",
+      "s": 1
+    }
+  ],
+  "places": [
+    { "place": "winterfell", "seasons": [1] },
+    { "place": "port-real", "seasons": [1] }
+  ],
+  "codex": ["anciens-dieux", "premiers-hommes", "loups-geants"],
+  "booksVsShow": {
+    "s": 1,
+    "paragraphs": [
+      "Dans les romans, Eddard est plus jeune qu’à l’écran et les chapitres écrits de son point de vue laissent entendre davantage ses souvenirs de la Rébellion, notamment ceux de la tour de la Joie et d’une promesse faite à sa sœur. La série condense son enquête à Port-Réal mais en garde l’essentiel, jusqu’à l’exécution."
+    ]
+  },
+  "portrait": "images/personnages/eddard-stark.webp",
+  "portraitFocus": "50% 30%",
+  "sources": [
+    {
+      "label": "Wiki of Westeros — Eddard Stark",
+      "url": "https://gameofthrones.fandom.com/wiki/Eddard_Stark"
+    },
+    {
+      "label": "A Wiki of Ice and Fire — Eddard Stark",
+      "url": "https://awoiaf.westeros.org/index.php/Eddard_Stark"
+    }
+  ]
+}

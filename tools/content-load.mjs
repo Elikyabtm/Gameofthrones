@@ -52,7 +52,7 @@ export function buildIndex(all = loadAll()) {
         'principal',
       ]),
       relations: (c.relations ?? []).map((r) =>
-        pick(r, ['to', 'type', 'label', 'inverseLabel', 's']),
+        pick(r, ['to', 'type', 'label', 'inverseLabel', 's', 'until']),
       ),
       region: c.region,
       camp: c.camp,

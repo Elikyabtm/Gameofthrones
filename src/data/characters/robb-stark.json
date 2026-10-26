@@ -1,0 +1,232 @@
+{
+  "slug": "robb-stark",
+  "name": "Robb Stark",
+  "short": "Robb",
+  "principal": true,
+  "aliases": [
+    {
+      "text": "le Jeune Loup",
+      "s": 2
+    },
+    {
+      "text": "le Roi du Nord",
+      "s": 1
+    }
+  ],
+  "house": "stark",
+  "region": "Le Nord",
+  "camp": "westeros",
+  "allegiances": [
+    {
+      "to": "stark"
+    }
+  ],
+  "origin": "winterfell",
+  "titles": [
+    {
+      "text": "Héritier de Winterfell"
+    },
+    {
+      "text": "Roi du Nord et du Trident",
+      "s": 1
+    }
+  ],
+  "actor": "Richard Madden",
+  "firstSeason": 1,
+  "status": [
+    {
+      "s": 1,
+      "value": "vivant"
+    },
+    {
+      "s": 3,
+      "value": "mort",
+      "note": "Tué aux Noces pourpres par Roose Bolton"
+    }
+  ],
+  "summary": "Fils aîné d’Eddard et de Catelyn, Robb est l’héritier de Winterfell. Encore très jeune, il doit apprendre à commander quand son père part pour le Sud.",
+  "bio": [
+    {
+      "s": 1,
+      "title": "Saison 1 — L’héritier lève les bannières",
+      "paragraphs": [
+        "Quand Eddard part pour Port-Réal, Robb reste à Winterfell avec sa mère et ses jeunes frères. À quinze ans à peine, il tient la place de son père : il reçoit les visiteurs, juge les affaires courantes et apprend à se méfier des sourires des seigneurs du Sud. Son loup géant, Vent Gris, ne le quitte plus.",
+        "L’arrestation d’Eddard change tout. Robb convoque les bannerets du Nord et descend vers le Conflans avec une armée de vingt mille hommes. Il doit d’abord s’imposer face à de vieux seigneurs qui le jugent trop jeune, comme le Grand-Jon Omble, qu’il fait plier grâce à son loup et à son sang-froid. Pour franchir le Trident, il accepte le marché de Walder Frey : il épousera l’une de ses filles. Puis il tend un piège : il sacrifie une partie de ses troupes en diversion et capture Jaime Lannister au Bois-aux-Murmures.",
+        "La nouvelle de l’exécution de son père tombe comme une sentence. Ses bannerets refusent de se soumettre au roi Joffrey comme au frère de Robert, et le proclament roi du Nord, comme l’étaient ses ancêtres avant la Conquête."
+      ]
+    },
+    {
+      "s": 2,
+      "title": "Saison 2 — Le roi qui ne perd aucune bataille",
+      "paragraphs": [
+        "Robb remporte victoire sur victoire dans les terres de l’Ouest, mais une guerre ne se gagne pas seulement sur le champ de bataille. Il envoie Theon Greyjoy négocier une alliance avec son père Balon, et Theon revient en ennemi. Pendant ce temps, Robb rencontre Talisa Maegyr, une guérisseuse venue de Volantis qui soigne indifféremment les blessés des deux camps. Il tombe amoureux d’elle.",
+        "Quand sa mère libère Jaime Lannister sans son accord, il la fait garder et s’éloigne d’elle. Puis il épouse Talisa en secret, devant un arbre-cœur, en sachant qu’il trahit la promesse faite aux Frey."
+      ]
+    },
+    {
+      "s": 3,
+      "title": "Saison 3 — Les Noces pourpres",
+      "paragraphs": [
+        "Le roi du Nord commence à perdre ce qui le rendait invincible : la confiance de ses hommes. Lord Karstark tue deux jeunes prisonniers Lannister pour venger ses fils ; Robb le fait exécuter de sa main, comme son père l’aurait fait, et perd la moitié de son armée. Il conçoit alors un plan audacieux contre Castral Roc, qui suppose de récupérer l’alliance des Frey.",
+        "Walder Frey accepte que son oncle Edmure épouse sa fille Roslin pour réparer l’offense. Robb se rend aux Jumeaux avec Talisa, enceinte, et sa mère. Au milieu du festin, les portes se ferment. Les arbalétriers frappent, Talisa meurt la première, Vent Gris est abattu dans son enclos, et Roose Bolton achève Robb d’un coup de dague en lui transmettant les salutations des Lannister."
+      ]
+    }
+  ],
+  "keyMoments": [
+    {
+      "s": 1,
+      "title": "Le ban du Nord",
+      "text": "Il convoque les seigneurs du Nord et marche vers le sud pour libérer son père.",
+      "place": "winterfell"
+    },
+    {
+      "s": 1,
+      "title": "Le Bois-aux-Murmures",
+      "text": "Par une ruse, il capture Jaime Lannister et met en déroute son armée.",
+      "place": "vivesaigues"
+    },
+    {
+      "s": 1,
+      "title": "Le Roi du Nord",
+      "text": "Ses bannerets le proclament roi après l’exécution d’Eddard.",
+      "place": "vivesaigues"
+    },
+    {
+      "s": 2,
+      "title": "Le mariage secret",
+      "text": "Il épouse Talisa Maegyr, rompant la promesse faite à Walder Frey.",
+      "place": "terres-de-l-ouest"
+    },
+    {
+      "s": 3,
+      "title": "La sentence de Karstark",
+      "text": "Il exécute lui-même Rickard Karstark et perd une partie de ses troupes.",
+      "place": "vivesaigues"
+    },
+    {
+      "s": 3,
+      "title": "Les Noces pourpres",
+      "text": "Il est assassiné aux Jumeaux avec sa femme, sa mère et ses hommes.",
+      "place": "les-jumeaux"
+    }
+  ],
+  "relations": [
+    {
+      "to": "sansa-stark",
+      "type": "fratrie",
+      "label": "Sa sœur",
+      "s": 1
+    },
+    {
+      "to": "arya-stark",
+      "type": "fratrie",
+      "label": "Sa sœur",
+      "s": 1
+    },
+    {
+      "to": "bran-stark",
+      "type": "fratrie",
+      "label": "Son frère",
+      "s": 1
+    },
+    {
+      "to": "rickon-stark",
+      "type": "fratrie",
+      "label": "Son petit frère",
+      "s": 1
+    },
+    {
+      "to": "jon-snow",
+      "type": "fratrie",
+      "label": "Son demi-frère, son ami le plus proche",
+      "s": 1,
+      "until": 7
+    },
+    {
+      "to": "jon-snow",
+      "type": "fratrie",
+      "label": "Son cousin, élevé comme un frère",
+      "s": 7
+    },
+    {
+      "to": "talisa-stark",
+      "type": "conjoint",
+      "label": "Son épouse",
+      "s": 2
+    },
+    {
+      "to": "theon-greyjoy",
+      "type": "autre",
+      "label": "Son ami d’enfance, devenu traître",
+      "inverseLabel": "Son ami d’enfance, qu’il a trahi",
+      "s": 1
+    },
+    {
+      "to": "jaime-lannister",
+      "type": "ennemi",
+      "label": "Son prisonnier",
+      "s": 1
+    },
+    {
+      "to": "tywin-lannister",
+      "type": "ennemi",
+      "label": "Son adversaire dans la guerre",
+      "s": 1
+    },
+    {
+      "to": "walder-frey",
+      "type": "ennemi",
+      "label": "L’allié qui l’a trahi",
+      "s": 1
+    },
+    {
+      "to": "roose-bolton",
+      "type": "vassal",
+      "label": "Son banneret, puis son assassin",
+      "inverseLabel": "Son suzerain, qu’il a assassiné",
+      "s": 1
+    },
+    {
+      "to": "brynden-tully",
+      "type": "allie",
+      "label": "Son grand-oncle et conseiller",
+      "s": 1
+    }
+  ],
+  "places": [
+    {
+      "place": "winterfell",
+      "seasons": [1]
+    },
+    {
+      "place": "vivesaigues",
+      "seasons": [1, 3]
+    },
+    {
+      "place": "les-jumeaux",
+      "seasons": [1, 3]
+    },
+    {
+      "place": "terres-de-l-ouest",
+      "seasons": [2]
+    }
+  ],
+  "codex": ["anciens-dieux", "loups-geants"],
+  "booksVsShow": {
+    "s": 3,
+    "paragraphs": [
+      "Dans les romans, Robb n’apparaît jamais comme narrateur : on ne le voit qu’à travers les yeux de sa mère. Il y épouse Jeyne Ouestrelin, fille d’une maison de l’Ouest, qui n’assiste pas aux Noces pourpres. Talisa, guérisseuse de Volantis, est une création de la série."
+    ]
+  },
+  "portrait": "images/personnages/robb-stark.webp",
+  "sources": [
+    {
+      "label": "Wiki of Westeros — Robb Stark",
+      "url": "https://gameofthrones.fandom.com/wiki/Robb_Stark"
+    },
+    {
+      "label": "A Wiki of Ice and Fire — Robb Stark",
+      "url": "https://awoiaf.westeros.org/index.php/Robb_Stark"
+    }
+  ]
+}

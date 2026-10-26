@@ -4,10 +4,27 @@
   "required": ["intro", "crossing", "steps", "end"],
   "properties": {
     "steps": {
-      "type": "array", "minItems": 19, "maxItems": 19,
+      "type": "array",
+      "minItems": 19,
+      "maxItems": 19,
       "items": {
         "type": "object",
-        "required": ["slug", "num", "place", "title", "region", "hook", "text", "transition", "focus", "light", "arc", "image", "characters", "links"],
+        "required": [
+          "slug",
+          "num",
+          "place",
+          "title",
+          "region",
+          "hook",
+          "text",
+          "transition",
+          "focus",
+          "light",
+          "arc",
+          "image",
+          "characters",
+          "links"
+        ],
         "additionalProperties": false,
         "properties": {
           "slug": { "$ref": "common#/$defs/slug" },
@@ -22,7 +39,16 @@
           "camera": { "type": "object" },
           "light": {
             "type": "object",
-            "required": ["sunColor", "sunElevation", "sunAzimuth", "skyTop", "skyHorizon", "fogColor", "fogDensity", "exposure"]
+            "required": [
+              "sunColor",
+              "sunElevation",
+              "sunAzimuth",
+              "skyTop",
+              "skyHorizon",
+              "fogColor",
+              "fogDensity",
+              "exposure"
+            ]
           },
           "arc": { "enum": ["normal", "high"] },
           "image": { "$ref": "common#/$defs/image" },

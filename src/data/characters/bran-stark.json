@@ -1,0 +1,186 @@
+{
+  "slug": "bran-stark",
+  "name": "Bran Stark",
+  "short": "Bran",
+  "principal": true,
+  "aliases": [
+    { "text": "Brandon Stark" },
+    { "text": "la Corneille à trois yeux", "s": 7 },
+    { "text": "Bran le Brisé", "s": 8 }
+  ],
+  "house": "stark",
+  "region": "Le Nord",
+  "camp": "westeros",
+  "allegiances": [{ "to": "stark" }],
+  "origin": "winterfell",
+  "titles": [
+    { "text": "Prince de Winterfell", "s": 2 },
+    { "text": "Roi des Six Couronnes", "s": 8 }
+  ],
+  "actor": "Isaac Hempstead Wright",
+  "firstSeason": 1,
+  "status": [{ "s": 1, "value": "vivant" }],
+  "summary": "Deuxième fils d’Eddard et de Catelyn, Bran grimpe sur tous les murs de Winterfell et rêve de devenir chevalier. Une chute va l’éloigner de ce rêve et le mettre sur une tout autre route.",
+  "bio": [
+    {
+      "s": 1,
+      "title": "Saison 1 — La chute",
+      "paragraphs": [
+        "Bran a dix ans, et il connaît chaque toit de Winterfell. Le jour de la visite royale, en escaladant une vieille tour, il surprend la reine Cersei et son frère Jaime dans une étreinte qui ne devrait pas exister. Jaime le pousse dans le vide.",
+        "Bran survit, mais ne marchera plus. À son réveil, il ne se souvient pas de ce qui s’est passé et rêve d’une corneille à trois yeux. Tyrion Lannister lui offre les plans d’une selle adaptée, qui lui permet de remonter à cheval. Avec son père et sa mère partis, il apprend, aux côtés de mestre Luwin, à tenir son rang de Stark à Winterfell."
+      ]
+    },
+    {
+      "s": 2,
+      "title": "Saison 2 — Le prince de Winterfell",
+      "paragraphs": [
+        "En l’absence de Robb, Bran reçoit les seigneurs et les doléances, et commence à avoir des rêves où il voit par les yeux de son loup, Été. Quand Theon Greyjoy s’empare du château par surprise, Bran doit céder Winterfell pour sauver les habitants.",
+        "Avec Rickon, Hodor et la sauvageonne Osha, il se cache dans les cryptes. Theon, pour ne pas perdre la face, fait passer deux enfants de meunier brûlés pour les fils Stark. Quand Winterfell est incendié, Bran et son petit groupe sortent des cryptes et partent vers le nord."
+      ]
+    },
+    {
+      "s": 3,
+      "title": "Saison 3 — Les Reed",
+      "paragraphs": [
+        "Deux jeunes gens du Neck rejoignent Bran : Jojen Reed, qui fait des rêves prophétiques comme lui, et sa sœur Meera, qui le protège. Jojen lui apprend qu’il est un change-peau, capable de se glisser dans l’esprit des animaux, et l’encourage à suivre la corneille à trois yeux au-delà du Mur.",
+        "Pour protéger son frère, Bran se sépare de Rickon, qu’Osha emmène vers Dernier Âtre. Près du Mur, Bran prend le contrôle de Hodor pour la première fois et voit Jon Snow sans pouvoir lui parler."
+      ]
+    },
+    {
+      "s": 4,
+      "title": "Saison 4 — L’arbre",
+      "paragraphs": [
+        "Le groupe est capturé chez Craster par des déserteurs de la Garde de Nuit, puis libéré pendant l’assaut des frères loyaux. Bran choisit de continuer vers le nord plutôt que de rejoindre Jon. Au pied d’un grand barral, ils sont attaqués par des morts. Jojen est tué. Une enfant de la forêt les fait entrer dans une grotte, où les attend un vieil homme pris dans les racines : la corneille à trois yeux."
+      ]
+    },
+    {
+      "s": 6,
+      "title": "Saison 6 — Le passé",
+      "paragraphs": [
+        "Dans la grotte, la corneille enseigne à Bran à voyager dans le passé. Il voit son père enfant à Winterfell, la tour de la Joie, et apprend comment les enfants de la forêt ont créé les Marcheurs blancs. En s’aventurant seul dans une vision, il est touché par le Roi de la Nuit, qui découvre ainsi le refuge.",
+        "Les morts attaquent la grotte. La corneille meurt, Été et Hodor se sacrifient pour que Bran et Meera s’échappent, et Bran comprend dans une vision ce que « Hodor » a toujours voulu dire. Son oncle Benjen les sauve. Bran voit enfin la scène complète de la tour de la Joie : la mort de Lyanna et l’enfant qu’elle confie à son frère."
+      ]
+    },
+    {
+      "s": 7,
+      "title": "Saison 7 — La corneille à trois yeux",
+      "paragraphs": [
+        "Bran rentre à Winterfell, mais il n’est plus tout à fait Bran. Il parle de lui comme d’un témoin de tout ce qui a été, sans émotion apparente, et voit le passé comme le présent. Il offre à Arya une dague d’acier valyrien. Avec Samwell Tarly, il rassemble les preuves de la naissance de Jon : Rhaegar et Lyanna étaient mariés, et l’enfant s’appelle Aegon Targaryen."
+      ]
+    },
+    {
+      "s": 8,
+      "title": "Saison 8 — Le roi",
+      "paragraphs": [
+        "Bran attend le Roi de la Nuit dans le bois sacré de Winterfell, sachant qu’il est la cible. Il quitte son corps pendant la bataille et laisse aux vivants le soin de le défendre. Après la fin de la guerre, le conseil des seigneurs, sur la proposition de Tyrion, l’élit roi : celui qui porte la mémoire du monde régnera sur les Six Couronnes."
+      ]
+    }
+  ],
+  "keyMoments": [
+    {
+      "s": 1,
+      "title": "La chute",
+      "text": "Il surprend Jaime et Cersei, et Jaime le pousse d’une tour.",
+      "place": "winterfell"
+    },
+    {
+      "s": 2,
+      "title": "Les cryptes",
+      "text": "Il se cache sous Winterfell pendant que Theon fait croire à sa mort.",
+      "place": "winterfell"
+    },
+    {
+      "s": 4,
+      "title": "La grotte",
+      "text": "Il atteint enfin la corneille à trois yeux, au-delà du Mur.",
+      "place": "au-dela-du-mur"
+    },
+    {
+      "s": 6,
+      "title": "Hodor",
+      "text": "En reliant passé et présent, il comprend ce que signifie le mot de Hodor.",
+      "place": "au-dela-du-mur"
+    },
+    {
+      "s": 6,
+      "title": "La tour de la Joie",
+      "text": "Il voit la mort de sa tante Lyanna et la promesse faite à son père.",
+      "place": "tour-de-la-joie"
+    },
+    {
+      "s": 8,
+      "title": "Le roi élu",
+      "text": "Le conseil des seigneurs le choisit pour régner.",
+      "place": "port-real"
+    }
+  ],
+  "relations": [
+    { "to": "rickon-stark", "type": "fratrie", "label": "Son petit frère", "s": 1 },
+    { "to": "jon-snow", "type": "fratrie", "label": "Son demi-frère", "s": 1, "until": 7 },
+    {
+      "to": "jon-snow",
+      "type": "fratrie",
+      "label": "Son cousin, dont il a découvert l’origine",
+      "s": 7
+    },
+    {
+      "to": "jaime-lannister",
+      "type": "ennemi",
+      "label": "Celui qui l’a poussé de la tour",
+      "s": 1
+    },
+    {
+      "to": "hodor",
+      "type": "serviteur",
+      "label": "Celui qui le porte",
+      "inverseLabel": "Celui qu’il porte",
+      "s": 1
+    },
+    { "to": "osha", "type": "allie", "label": "Sa protectrice", "s": 2 },
+    { "to": "meera-reed", "type": "allie", "label": "Sa protectrice", "s": 3 },
+    { "to": "jojen-reed", "type": "mentor", "label": "Celui qui lui révèle son don", "s": 3 },
+    {
+      "to": "corneille-a-trois-yeux",
+      "type": "mentor",
+      "label": "Son maître dans la grotte",
+      "s": 4
+    },
+    { "to": "roi-de-la-nuit", "type": "ennemi", "label": "Celui qui l’a marqué", "s": 6 },
+    {
+      "to": "theon-greyjoy",
+      "type": "autre",
+      "label": "L’ami de la famille qui a pris Winterfell",
+      "s": 2
+    },
+    {
+      "to": "lyanna-stark",
+      "type": "autre",
+      "label": "Sa tante, qu’il voit en vision",
+      "inverseLabel": "Son neveu",
+      "s": 6
+    }
+  ],
+  "places": [
+    { "place": "winterfell", "seasons": [1, 2, 7, 8] },
+    { "place": "au-dela-du-mur", "seasons": [3, 4, 6] },
+    { "place": "port-real", "seasons": [8] }
+  ],
+  "codex": ["anciens-dieux", "enfants-de-la-foret", "loups-geants", "marcheurs-blancs"],
+  "booksVsShow": {
+    "s": 6,
+    "paragraphs": [
+      "Les romans s’arrêtent à l’arrivée de Bran dans la grotte, où son apprentissage ne fait que commencer. Toute la suite, du sens du nom de Hodor à son élection, appartient à la série, même si l’auteur en avait confié les grandes lignes aux scénaristes."
+    ]
+  },
+  "portrait": "images/personnages/bran-stark.webp",
+  "sources": [
+    {
+      "label": "Wiki of Westeros — Bran Stark",
+      "url": "https://gameofthrones.fandom.com/wiki/Bran_Stark"
+    },
+    {
+      "label": "A Wiki of Ice and Fire — Bran Stark",
+      "url": "https://awoiaf.westeros.org/index.php/Bran_Stark"
+    }
+  ]
+}

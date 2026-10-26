@@ -1,0 +1,133 @@
+/* Textes longs partagés par les espaces (biographies, histoires, entrées du Codex). */
+.page-head {
+  max-width: 820px;
+  margin-bottom: 36px;
+}
+
+.page-head h1 {
+  margin: 10px 0 14px;
+  font-size: var(--fs-title);
+}
+
+.page-lead {
+  font-family: var(--serif);
+  font-size: var(--fs-lead);
+  line-height: 1.45;
+  color: var(--ink-2);
+}
+
+.bio-block h3 {
+  margin: 34px 0 12px;
+  font-size: 28px;
+  color: var(--ink);
+}
+
+.bio-block p,
+.books p,
+.moments-list p {
+  font-family: var(--serif);
+  font-size: 19px;
+  line-height: 1.6;
+  color: var(--ink-2);
+}
+
+.xref {
+  color: var(--ink);
+  text-decoration: underline;
+  text-decoration-color: var(--line-strong);
+}
+
+.xref:hover {
+  text-decoration-color: var(--accent);
+}
+
+.masked {
+  margin: 28px 0;
+  padding: 14px 16px;
+  border: 1px solid #8e2b2566;
+  font-size: var(--fs-small);
+  color: var(--ink-2);
+}
+
+.link-btn {
+  color: var(--accent);
+  text-decoration: underline;
+  text-underline-offset: 0.2em;
+}
+
+.section-title {
+  margin: 48px 0 18px;
+  font-size: 30px;
+}
+
+.books {
+  margin-top: 40px;
+  padding: 18px 22px;
+  border: 1px solid var(--line);
+}
+
+.books .section-title {
+  margin-top: 0;
+}
+
+.further li {
+  margin-bottom: 6px;
+  font-size: var(--fs-small);
+}
+
+.about-columns {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 56px;
+  max-width: 1200px;
+}
+
+.about p {
+  color: var(--ink-2);
+}
+
+.about-list li {
+  padding: 6px 0;
+  border-bottom: 1px solid var(--line);
+  font-size: var(--fs-small);
+  color: var(--ink-2);
+}
+
+.about .label {
+  display: block;
+  margin: 18px 0 6px;
+}
+
+.disclaimer {
+  max-width: 820px;
+}
+
+.notfound-inner {
+  max-width: 640px;
+  margin: 12vh auto 0;
+  text-align: center;
+}
+
+.notfound-inner h1 {
+  margin-bottom: 18px;
+  font-size: clamp(36px, 5vw, 64px);
+}
+
+.notfound-inner p {
+  margin-bottom: 28px;
+  color: var(--ink-2);
+}
+
+.preview-sigil {
+  width: 60%;
+  height: 100%;
+  margin: 0 auto;
+  object-fit: contain;
+}
+
+@media (max-width: 699px) {
+  .about-columns {
+    grid-template-columns: 1fr;
+    gap: 0;
+  }
+}

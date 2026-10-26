@@ -1,0 +1,246 @@
+{
+  "slug": "catelyn-stark",
+  "name": "Catelyn Stark",
+  "short": "Catelyn",
+  "principal": true,
+  "aliases": [
+    {
+      "text": "Catelyn Tully"
+    },
+    {
+      "text": "Lady Stark"
+    }
+  ],
+  "house": "stark",
+  "region": "Le Nord",
+  "camp": "westeros",
+  "allegiances": [
+    {
+      "to": "stark"
+    },
+    {
+      "to": "tully"
+    }
+  ],
+  "origin": "vivesaigues",
+  "titles": [
+    {
+      "text": "Dame de Winterfell"
+    }
+  ],
+  "actor": "Michelle Fairley",
+  "firstSeason": 1,
+  "status": [
+    {
+      "s": 1,
+      "value": "vivant"
+    },
+    {
+      "s": 3,
+      "value": "mort",
+      "note": "Tuée aux Noces pourpres, aux Jumeaux"
+    }
+  ],
+  "summary": "Née Tully, au bord des rivières du Conflans, Catelyn est devenue dame de Winterfell par son mariage avec Eddard Stark. Mère avant tout, elle ne pardonne rien à ceux qui menacent ses enfants.",
+  "bio": [
+    {
+      "s": 1,
+      "title": "Saison 1 — Une mère dans la tempête",
+      "paragraphs": [
+        "Catelyn vit à Winterfell depuis près de vingt ans, sans jamais s’être convertie aux anciens dieux de son mari : elle a fait bâtir un petit septuor pour prier les Sept. Elle aime Eddard d’un amour construit avec le temps, mais la présence de Jon Snow, le fils naturel que son mari a ramené de la guerre, reste une blessure qu’elle ne cache pas.",
+        "Quand Bran tombe d’une tour et reste entre la vie et la mort, Catelyn veille sur lui jour et nuit. Un tueur s’introduit dans la chambre de l’enfant avec une dague d’acier valyrien ; elle l’arrête de ses mains. Persuadée que les Lannister sont derrière l’attentat, elle part en secret pour Port-Réal, où Petyr Baelish, son ami d’enfance, attribue la dague à Tyrion. Sur le chemin du retour, croisant Tyrion dans une auberge du Conflans, elle le fait arrêter et l’emmène chez sa sœur Lysa, aux Eyrié. Ce geste déclenche la guerre entre les Lannister et les Stark.",
+        "Après l’arrestation d’Eddard, Catelyn rejoint son fils Robb, qui a levé les bannières du Nord. Elle négocie avec Walder Frey le passage du Trident en échange d’un mariage, puis apprend l’exécution de son mari."
+      ]
+    },
+    {
+      "s": 2,
+      "title": "Saison 2 — L’ambassade et l’échange",
+      "paragraphs": [
+        "Pendant que Robb gagne bataille après bataille, Catelyn tente de lui trouver des alliés. Elle rencontre Renly Baratheon dans son camp pour lui proposer une alliance, et assiste à sa mort mystérieuse dans sa tente. Elle fuit avec Brienne de Torth, à qui elle offre sa protection et qui lui jure fidélité.",
+        "De retour au camp de son fils, elle apprend que Bran et Rickon auraient été tués à Winterfell. Désespérée à l’idée de perdre aussi ses filles, elle libère Jaime Lannister, prisonnier de Robb, et le confie à Brienne pour l’échanger contre Sansa et Arya. Ce geste, accompli sans l’accord du roi du Nord, divise le camp et la brouille avec son fils."
+      ]
+    },
+    {
+      "s": 3,
+      "title": "Saison 3 — Vivesaigues et les Jumeaux",
+      "paragraphs": [
+        "Catelyn retrouve Vivesaigues pour les funérailles de son père, Hoster Tully. Elle avoue à Talisa la culpabilité qu’elle porte envers Jon Snow : elle avait prié pour la mort de l’enfant quand il était malade, puis pour sa guérison, en jurant de l’aimer s’il survivait, sans jamais tenir parole.",
+        "Robb a rompu sa promesse d’épouser une fille de Walder Frey. Pour réparer l’offense, Edmure accepte d’épouser Roslin Frey, et toute la cour du Nord se rend aux Jumeaux. Pendant le festin, Catelyn reconnaît les premières mesures d’un chant lannister. Les portes se ferment et le massacre commence. Elle voit mourir Talisa puis son fils, et tranche la gorge de la jeune épouse de Walder Frey avant d’être tuée à son tour."
+      ]
+    }
+  ],
+  "keyMoments": [
+    {
+      "s": 1,
+      "title": "La dague dans la chambre",
+      "text": "Elle arrête à mains nues le tueur venu achever Bran.",
+      "place": "winterfell"
+    },
+    {
+      "s": 1,
+      "title": "L’arrestation de Tyrion",
+      "text": "Dans une auberge du Conflans, elle fait prendre Tyrion Lannister, qu’elle croit coupable.",
+      "place": "vivesaigues"
+    },
+    {
+      "s": 1,
+      "title": "Le marché des Jumeaux",
+      "text": "Elle obtient de Walder Frey le passage de l’armée du Nord, au prix d’une promesse de mariage.",
+      "place": "les-jumeaux"
+    },
+    {
+      "s": 2,
+      "title": "La libération de Jaime",
+      "text": "Elle libère le Régicide pour tenter de récupérer ses filles.",
+      "place": "vivesaigues"
+    },
+    {
+      "s": 3,
+      "title": "Les Noces pourpres",
+      "text": "Aux Jumeaux, elle assiste au massacre de son fils et de leurs hommes avant d’être tuée.",
+      "place": "les-jumeaux"
+    }
+  ],
+  "relations": [
+    {
+      "to": "robb-stark",
+      "type": "enfant",
+      "label": "Son fils aîné",
+      "inverseLabel": "Sa mère",
+      "s": 1
+    },
+    {
+      "to": "sansa-stark",
+      "type": "enfant",
+      "label": "Sa fille aînée",
+      "inverseLabel": "Sa mère",
+      "s": 1
+    },
+    {
+      "to": "arya-stark",
+      "type": "enfant",
+      "label": "Sa fille cadette",
+      "inverseLabel": "Sa mère",
+      "s": 1
+    },
+    {
+      "to": "bran-stark",
+      "type": "enfant",
+      "label": "Son deuxième fils",
+      "inverseLabel": "Sa mère",
+      "s": 1
+    },
+    {
+      "to": "rickon-stark",
+      "type": "enfant",
+      "label": "Son plus jeune fils",
+      "inverseLabel": "Sa mère",
+      "s": 1
+    },
+    {
+      "to": "jon-snow",
+      "type": "autre",
+      "label": "Le fils naturel de son mari, qu’elle n’a jamais accepté",
+      "inverseLabel": "La femme de son père, qui ne l’a jamais aimé",
+      "s": 1
+    },
+    {
+      "to": "hoster-tully",
+      "type": "parent",
+      "label": "Son père",
+      "s": 1
+    },
+    {
+      "to": "edmure-tully",
+      "type": "fratrie",
+      "label": "Son frère cadet",
+      "s": 1
+    },
+    {
+      "to": "lysa-arryn",
+      "type": "fratrie",
+      "label": "Sa sœur cadette",
+      "s": 1
+    },
+    {
+      "to": "brynden-tully",
+      "type": "autre",
+      "label": "Son oncle, le Silure",
+      "inverseLabel": "Sa nièce",
+      "s": 1
+    },
+    {
+      "to": "petyr-baelish",
+      "type": "autre",
+      "label": "Son ami d’enfance, épris d’elle",
+      "inverseLabel": "Son amour de jeunesse",
+      "s": 1
+    },
+    {
+      "to": "tyrion-lannister",
+      "type": "ennemi",
+      "label": "Celui qu’elle a fait arrêter",
+      "s": 1
+    },
+    {
+      "to": "brienne-de-torth",
+      "type": "suzerain",
+      "label": "La dame qu’elle a juré de servir",
+      "inverseLabel": "Son épée jurée",
+      "s": 2
+    },
+    {
+      "to": "walder-frey",
+      "type": "ennemi",
+      "label": "L’hôte qui l’a trahie",
+      "s": 3
+    },
+    {
+      "to": "talisa-stark",
+      "type": "autre",
+      "label": "Sa belle-fille",
+      "inverseLabel": "Sa belle-mère",
+      "s": 3
+    }
+  ],
+  "places": [
+    {
+      "place": "winterfell",
+      "seasons": [1]
+    },
+    {
+      "place": "port-real",
+      "seasons": [1]
+    },
+    {
+      "place": "les-eyrie",
+      "seasons": [1]
+    },
+    {
+      "place": "les-jumeaux",
+      "seasons": [1, 3]
+    },
+    {
+      "place": "vivesaigues",
+      "seasons": [2, 3]
+    }
+  ],
+  "codex": ["foi-des-sept"],
+  "booksVsShow": {
+    "s": 3,
+    "paragraphs": [
+      "Les romans donnent à Catelyn une suite que la série a choisi d’écarter : son histoire ne s’arrête pas aux Jumeaux. À l’écran, sa scène de confession sur Jon Snow est une invention de la série, qui éclaire sa relation à l’enfant."
+    ]
+  },
+  "portrait": "images/personnages/catelyn-stark.webp",
+  "sources": [
+    {
+      "label": "Wiki of Westeros — Catelyn Stark",
+      "url": "https://gameofthrones.fandom.com/wiki/Catelyn_Stark"
+    },
+    {
+      "label": "A Wiki of Ice and Fire — Catelyn Stark",
+      "url": "https://awoiaf.westeros.org/index.php/Catelyn_Stark"
+    }
+  ]
+}

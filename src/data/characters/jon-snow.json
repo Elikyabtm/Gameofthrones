@@ -1,0 +1,313 @@
+{
+  "slug": "jon-snow",
+  "name": "Jon Snow",
+  "short": "Jon",
+  "principal": true,
+  "aliases": [
+    {
+      "text": "Lord Snow"
+    },
+    {
+      "text": "le Roi du Nord",
+      "s": 6
+    },
+    {
+      "text": "Aegon Targaryen",
+      "s": 7
+    }
+  ],
+  "house": "stark",
+  "region": "Le Nord",
+  "camp": "westeros",
+  "allegiances": [
+    {
+      "to": "stark"
+    },
+    {
+      "to": "targaryen",
+      "s": 7
+    }
+  ],
+  "origin": "winterfell",
+  "titles": [
+    {
+      "text": "Frère juré de la Garde de Nuit"
+    },
+    {
+      "text": "Lord Commandant de la Garde de Nuit",
+      "s": 5
+    },
+    {
+      "text": "Roi du Nord",
+      "s": 6
+    }
+  ],
+  "actor": "Kit Harington",
+  "firstSeason": 1,
+  "status": [
+    {
+      "s": 1,
+      "value": "vivant"
+    },
+    {
+      "s": 5,
+      "value": "mort",
+      "note": "Poignardé par ses frères à Châteaunoir"
+    },
+    {
+      "s": 6,
+      "value": "ressuscite",
+      "note": "Ramené à la vie par Melisandre"
+    }
+  ],
+  "summary": "Fils naturel d’Eddard Stark, Jon Snow a grandi à Winterfell sans jamais vraiment y avoir sa place. Il choisit de prendre le noir et de rejoindre la Garde de Nuit, au bout du monde.",
+  "bio": [
+    {
+      "s": 1,
+      "title": "Saison 1 — Le bâtard prend le noir",
+      "paragraphs": [
+        "Jon est élevé avec les enfants Stark, aimé de ses frères et sœurs mais tenu à distance par Catelyn. Son nom même, Snow, rappelle qu’il est né hors mariage. Son oncle Benjen sert dans la Garde de Nuit ; Jon décide de l’y suivre, persuadé d’y trouver un honneur que le monde lui refuse ailleurs. Avant de partir, il offre à Arya une petite épée.",
+        "Châteaunoir est loin de ses illusions : on y croise des voleurs, des violeurs graciés et des fils sans fortune. Jon, mieux entraîné que les autres, commence par les humilier, avant d’apprendre à les défendre, notamment Samwell Tarly. Il prononce ses vœux devant un barral, et le Lord Commandant Mormont fait de lui son intendant. Quand il apprend l’exécution de son père, il tente de déserter pour rejoindre Robb ; ses amis le ramènent avant l’aube."
+      ]
+    },
+    {
+      "s": 2,
+      "title": "Saison 2 — Au-delà du Mur",
+      "paragraphs": [
+        "La Garde part en expédition au-delà du Mur. Jon accompagne Qhorin Mimain en éclaireur, et capture une sauvageonne, Ygritte, qu’il refuse d’exécuter. Elle lui échappe, il la poursuit, et se retrouve prisonnier du Peuple libre. Qhorin, sur le point d’être tué, ordonne à Jon de le combattre pour gagner la confiance des sauvageons. Jon le tue."
+      ]
+    },
+    {
+      "s": 3,
+      "title": "Saison 3 — Ygritte",
+      "paragraphs": [
+        "Jon rencontre Mance Rayder, le Roi d’au-delà du Mur, et prétend avoir changé de camp. Il franchit le Mur avec un groupe de pillards et tombe amoureux d’Ygritte. Quand on lui ordonne de tuer un vieil homme innocent, il refuse, se bat et s’enfuit à cheval. Ygritte le rattrape et lui tire trois flèches. Il revient à Châteaunoir blessé, avec la nouvelle qu’une armée immense approche."
+      ]
+    },
+    {
+      "s": 4,
+      "title": "Saison 4 — La bataille du Mur",
+      "paragraphs": [
+        "Jon mène une expédition contre les déserteurs réfugiés chez Craster, puis organise la défense de Châteaunoir. La nuit de l’attaque, Ygritte meurt dans ses bras. Le lendemain, il franchit le Mur pour parlementer avec Mance, au moment où l’armée de Stannis Baratheon surgit et écrase le campement."
+      ]
+    },
+    {
+      "s": 5,
+      "title": "Saison 5 — Le Lord Commandant",
+      "paragraphs": [
+        "Jon refuse l’offre de Stannis, qui veut le légitimer comme Stark. Élu Lord Commandant, il veut laisser passer le Peuple libre au sud du Mur avant l’hiver, ce que nombre de ses frères jugent comme une trahison. Il se rend à Durlieu avec Tormund pour convaincre les clans, et assiste à l’attaque des morts menée par le Roi de la Nuit. De retour à Châteaunoir, il est attiré dans un piège et poignardé par ses frères."
+      ]
+    },
+    {
+      "s": 6,
+      "title": "Saison 6 — Le Roi du Nord",
+      "paragraphs": [
+        "Melisandre ramène Jon à la vie. Il fait exécuter ceux qui l’ont tué et quitte la Garde, sa mission accomplie. Sansa le rejoint, et ensemble ils reprennent Winterfell aux Bolton lors de la bataille des Bâtards, sauvés par la charge des chevaliers du Val. Les seigneurs du Nord le proclament roi."
+      ]
+    },
+    {
+      "s": 7,
+      "title": "Saison 7 — Peyredragon",
+      "paragraphs": [
+        "Pour obtenir le verre-dragon qui tue les morts, Jon se rend à Peyredragon et rencontre Daenerys Targaryen. Il mène ensuite une expédition au-delà du Mur pour rapporter un mort à Port-Réal ; Daenerys le sauve, mais perd un de ses dragons. Jon plie le genou devant elle, et ils deviennent amants. Au même moment, Bran et Samwell découvrent qu’il est le fils de Rhaegar Targaryen et de Lyanna Stark."
+      ]
+    },
+    {
+      "s": 8,
+      "title": "Saison 8 — Le dernier choix",
+      "paragraphs": [
+        "Jon apprend sa véritable origine et la confie à Daenerys, qui y voit une menace. Il combat les morts à Winterfell, puis suit l’armée vers Port-Réal. Quand Daenerys incendie la ville déjà rendue, Jon comprend ce qu’elle est devenue. Il la tue dans la salle du trône en ruines. Condamné à rejoindre la Garde de Nuit, il retourne au Mur, puis part vers le nord avec le Peuple libre."
+      ]
+    }
+  ],
+  "keyMoments": [
+    {
+      "s": 1,
+      "title": "Les vœux",
+      "text": "Il prononce le serment de la Garde de Nuit devant un barral.",
+      "place": "chateaunoir"
+    },
+    {
+      "s": 2,
+      "title": "Qhorin Mimain",
+      "text": "Sur son ordre, il tue son mentor pour gagner la confiance des sauvageons.",
+      "place": "au-dela-du-mur"
+    },
+    {
+      "s": 4,
+      "title": "La bataille de Châteaunoir",
+      "text": "Il défend le Mur contre l’armée de Mance Rayder ; Ygritte meurt dans ses bras.",
+      "place": "chateaunoir"
+    },
+    {
+      "s": 5,
+      "title": "Durlieu",
+      "text": "Il voit l’armée des morts se lever sous le regard du Roi de la Nuit.",
+      "place": "durlieu"
+    },
+    {
+      "s": 5,
+      "title": "Pour la Garde",
+      "text": "Il est assassiné par ses propres frères.",
+      "place": "chateaunoir"
+    },
+    {
+      "s": 6,
+      "title": "La bataille des Bâtards",
+      "text": "Il reprend Winterfell et devient roi du Nord.",
+      "place": "winterfell"
+    },
+    {
+      "s": 7,
+      "title": "Peyredragon",
+      "text": "Il rencontre Daenerys Targaryen et lui demande son aide.",
+      "place": "peyredragon"
+    },
+    {
+      "s": 8,
+      "title": "La salle du trône",
+      "text": "Il tue Daenerys pour arrêter la destruction.",
+      "place": "port-real"
+    }
+  ],
+  "relations": [
+    {
+      "to": "lyanna-stark",
+      "type": "parent",
+      "label": "Sa mère",
+      "inverseLabel": "Son fils",
+      "s": 7
+    },
+    {
+      "to": "rhaegar-targaryen",
+      "type": "parent",
+      "label": "Son père",
+      "inverseLabel": "Son fils",
+      "s": 7
+    },
+    {
+      "to": "benjen-stark",
+      "type": "autre",
+      "label": "Son oncle, frère de la Garde",
+      "inverseLabel": "Son neveu",
+      "s": 1
+    },
+    {
+      "to": "samwell-tarly",
+      "type": "allie",
+      "label": "Son meilleur ami",
+      "s": 1
+    },
+    {
+      "to": "jeor-mormont",
+      "type": "mentor",
+      "label": "Son Lord Commandant",
+      "s": 1
+    },
+    {
+      "to": "aemon-targaryen",
+      "type": "mentor",
+      "label": "Le vieux mestre de Châteaunoir",
+      "s": 1
+    },
+    {
+      "to": "alliser-thorne",
+      "type": "ennemi",
+      "label": "Son maître d’armes, puis son assassin",
+      "s": 1
+    },
+    {
+      "to": "eddison-tollett",
+      "type": "allie",
+      "label": "Son frère juré et ami",
+      "s": 2
+    },
+    {
+      "to": "qhorin-mimain",
+      "type": "mentor",
+      "label": "Le patrouilleur qu’il a dû tuer",
+      "s": 2
+    },
+    {
+      "to": "ygritte",
+      "type": "amour",
+      "label": "Son premier amour",
+      "s": 3
+    },
+    {
+      "to": "tormund",
+      "type": "allie",
+      "label": "Son ennemi devenu frère d’armes",
+      "s": 3
+    },
+    {
+      "to": "mance-rayder",
+      "type": "ennemi",
+      "label": "Le Roi d’au-delà du Mur",
+      "s": 3
+    },
+    {
+      "to": "melisandre",
+      "type": "autre",
+      "label": "Celle qui l’a ramené à la vie",
+      "s": 6
+    },
+    {
+      "to": "daenerys-targaryen",
+      "type": "amour",
+      "label": "Sa reine et son amour, puis sa victime",
+      "inverseLabel": "Son amour, puis son meurtrier",
+      "s": 7
+    },
+    {
+      "to": "roi-de-la-nuit",
+      "type": "ennemi",
+      "label": "Le chef des morts",
+      "s": 5
+    }
+  ],
+  "places": [
+    {
+      "place": "winterfell",
+      "seasons": [1, 6, 7, 8]
+    },
+    {
+      "place": "chateaunoir",
+      "seasons": [1, 3, 4, 5, 6, 8]
+    },
+    {
+      "place": "au-dela-du-mur",
+      "seasons": [2, 3, 4, 7, 8]
+    },
+    {
+      "place": "durlieu",
+      "seasons": [5]
+    },
+    {
+      "place": "peyredragon",
+      "seasons": [7]
+    },
+    {
+      "place": "port-real",
+      "seasons": [7, 8]
+    }
+  ],
+  "codex": ["garde-de-nuit", "peuple-libre", "anciens-dieux", "marcheurs-blancs", "loups-geants"],
+  "booksVsShow": {
+    "s": 5,
+    "paragraphs": [
+      "Les romans s’arrêtent sur l’attaque contre Jon à Châteaunoir, sans dire ce qu’il advient de lui. Dans les livres, son origine reste une énigme que les lecteurs ont reconstituée à partir d’indices ; la série l’a confirmée explicitement à la saison 7."
+    ]
+  },
+  "portrait": "images/personnages/jon-snow.webp",
+  "sources": [
+    {
+      "label": "Wiki of Westeros — Jon Snow",
+      "url": "https://gameofthrones.fandom.com/wiki/Jon_Snow"
+    },
+    {
+      "label": "A Wiki of Ice and Fire — Jon Snow",
+      "url": "https://awoiaf.westeros.org/index.php/Jon_Snow"
+    }
+  ]
+}

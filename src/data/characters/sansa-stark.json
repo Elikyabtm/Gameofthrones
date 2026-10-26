@@ -1,0 +1,211 @@
+{
+  "slug": "sansa-stark",
+  "name": "Sansa Stark",
+  "short": "Sansa",
+  "principal": true,
+  "aliases": [
+    { "text": "Alayne", "s": 4 },
+    { "text": "la Dame de Winterfell", "s": 7 }
+  ],
+  "house": "stark",
+  "region": "Le Nord",
+  "camp": "westeros",
+  "allegiances": [{ "to": "stark" }],
+  "origin": "winterfell",
+  "titles": [
+    { "text": "Dame Sansa" },
+    { "text": "Dame de Winterfell", "s": 7 },
+    { "text": "Reine du Nord", "s": 8 }
+  ],
+  "actor": "Sophie Turner",
+  "firstSeason": 1,
+  "status": [{ "s": 1, "value": "vivant" }],
+  "summary": "Fille aînée d’Eddard et de Catelyn, Sansa a été élevée pour la vie de cour et rêve des chansons de chevalerie. Le voyage vers le Sud va lui apprendre ce que ces chansons ne disent pas.",
+  "bio": [
+    {
+      "s": 1,
+      "title": "Saison 1 — La fiancée du prince",
+      "paragraphs": [
+        "Sansa est fiancée à Joffrey Baratheon, l’héritier du trône, et part pour Port-Réal avec l’enthousiasme d’une jeune fille qui croit enfin vivre ce qu’elle a lu. Elle méprise un peu les manières de sa sœur Arya et admire la reine Cersei. Les premiers signes sont pourtant là : quand Joffrey s’en prend à Arya et au fils du boucher, c’est la louve de Sansa, Lady, qu’on abat à la place de celle d’Arya.",
+        "Quand son père est arrêté, Sansa supplie le roi de l’épargner. Joffrey promet la clémence, puis ordonne l’exécution devant elle, et la force ensuite à regarder la tête d’Eddard plantée sur les remparts."
+      ]
+    },
+    {
+      "s": 2,
+      "title": "Saison 2 — Otage de la cour",
+      "paragraphs": [
+        "Toujours promise à Joffrey, Sansa est en réalité une prisonnière. Le roi la fait battre par ses gardes chaque fois que son frère Robb remporte une victoire. Elle apprend à répondre par des formules creuses, à sourire sur commande, à ne jamais dire ce qu’elle pense.",
+        "Le Limier, qui la méprise et la protège à la fois, lui sauve la vie pendant une émeute. La nuit de la bataille de la Néra, il lui propose de fuir avec lui ; elle refuse. Après la victoire, Joffrey rompt leurs fiançailles pour épouser Margaery Tyrell, ce qui ne libère pas Sansa pour autant."
+      ]
+    },
+    {
+      "s": 3,
+      "title": "Saison 3 — Un mariage imposé",
+      "paragraphs": [
+        "Les Tyrell s’intéressent à elle : Olenna et Margaery envisagent de la marier à Loras pour l’emmener à Hautjardin. Tywin Lannister les devance et l’oblige à épouser Tyrion. Sansa vit ce mariage comme une humiliation, mais découvre peu à peu un mari qui refuse de la forcer et qui la traite avec égards.",
+        "La nouvelle des Noces pourpres l’anéantit : sa mère et son frère ont été assassinés, et la cour s’en amuse."
+      ]
+    },
+    {
+      "s": 4,
+      "title": "Saison 4 — La fuite",
+      "paragraphs": [
+        "Pendant le banquet du mariage de Joffrey, le roi meurt empoisonné. Dans la confusion, Ser Dontos fait fuir Sansa jusqu’à un navire où l’attend Petyr Baelish. Littlefinger l’emmène aux Eyrié, chez sa tante Lysa, en la faisant passer pour sa nièce, Alayne.",
+        "Lysa, jalouse et instable, menace de la jeter par la porte de la Lune. Baelish pousse Lysa dans le vide. Interrogée par les seigneurs du Val, Sansa choisit de mentir pour couvrir Littlefinger : c’est la première fois qu’elle joue le jeu au lieu de le subir."
+      ]
+    },
+    {
+      "s": 5,
+      "title": "Saison 5 — Winterfell, en captivité",
+      "paragraphs": [
+        "Baelish la marie à Ramsay Bolton, l’héritier de ceux qui ont trahi sa famille, pour la replacer à Winterfell. Le piège se referme : Ramsay est un tortionnaire. Sansa retrouve dans le château Theon Greyjoy, brisé, que Ramsay appelle Schlingue.",
+        "Au moment où Stannis attaque Winterfell, Theon trouve la force de l’aider. Ensemble, ils sautent du haut des remparts dans la neige et s’enfuient."
+      ]
+    },
+    {
+      "s": 6,
+      "title": "Saison 6 — La reconquête",
+      "paragraphs": [
+        "Brienne retrouve Sansa et lui jure fidélité. À Châteaunoir, elle retrouve Jon Snow, qu’elle n’a pas vu depuis des années, et le convainc de reprendre Winterfell. Leur armée est trop petite. À la veille de la bataille, Sansa écrit en secret à Petyr Baelish.",
+        "La bataille des Bâtards est presque perdue quand les chevaliers du Val chargent. Ramsay est vaincu. Sansa le fait dévorer par ses propres chiens. Winterfell est de nouveau aux Stark, et les seigneurs du Nord proclament Jon roi."
+      ]
+    },
+    {
+      "s": 7,
+      "title": "Saison 7 — La dame de Winterfell",
+      "paragraphs": [
+        "Pendant que Jon part pour Peyredragon, Sansa gouverne le Nord, prépare les réserves pour l’hiver et apprend à se faire écouter des seigneurs. Le retour d’Arya et de Bran ravive les tensions, que Baelish attise.",
+        "Les sœurs finissent par comprendre son manège. Dans la grande salle, Sansa accuse Littlefinger de meurtre et de trahison, et Arya exécute la sentence."
+      ]
+    },
+    {
+      "s": 8,
+      "title": "Saison 8 — La reine du Nord",
+      "paragraphs": [
+        "Sansa accueille Daenerys Targaryen avec méfiance : elle ne voit pas pourquoi le Nord plierait le genou. Elle survit à la longue nuit de la bataille contre les morts, réfugiée dans les cryptes. Quand Jon lui confie le secret de sa naissance, elle le transmet à Tyrion, convaincue que le Nord a besoin d’un autre allié que la reine dragon.",
+        "Après la chute de Port-Réal et la mort de Daenerys, le conseil des seigneurs élit Bran roi des Six Couronnes. Sansa obtient l’indépendance du Nord, qui la couronne reine à Winterfell."
+      ]
+    }
+  ],
+  "keyMoments": [
+    {
+      "s": 1,
+      "title": "La tête sur les remparts",
+      "text": "Joffrey la force à regarder la tête de son père plantée sur une pique.",
+      "place": "port-real"
+    },
+    {
+      "s": 2,
+      "title": "L’offre du Limier",
+      "text": "La nuit de la Néra, Sandor Clegane lui propose de fuir avec lui ; elle reste.",
+      "place": "port-real"
+    },
+    {
+      "s": 3,
+      "title": "Le mariage avec Tyrion",
+      "text": "Tywin l’oblige à épouser Tyrion Lannister.",
+      "place": "port-real"
+    },
+    {
+      "s": 4,
+      "title": "Les Eyrié",
+      "text": "Elle couvre Littlefinger après la mort de Lysa, et choisit de jouer le jeu.",
+      "place": "les-eyrie"
+    },
+    {
+      "s": 5,
+      "title": "Le saut des remparts",
+      "text": "Avec Theon, elle fuit Winterfell en sautant dans la neige.",
+      "place": "winterfell"
+    },
+    {
+      "s": 6,
+      "title": "Les chevaliers du Val",
+      "text": "Sa lettre à Baelish fait basculer la bataille des Bâtards.",
+      "place": "winterfell"
+    },
+    {
+      "s": 7,
+      "title": "Le procès de Littlefinger",
+      "text": "Elle accuse Baelish devant les seigneurs, et Arya exécute la sentence.",
+      "place": "winterfell"
+    },
+    {
+      "s": 8,
+      "title": "Reine du Nord",
+      "text": "Le Nord retrouve son indépendance et la couronne.",
+      "place": "winterfell"
+    }
+  ],
+  "relations": [
+    { "to": "arya-stark", "type": "fratrie", "label": "Sa sœur cadette", "s": 1 },
+    { "to": "bran-stark", "type": "fratrie", "label": "Son frère", "s": 1 },
+    { "to": "rickon-stark", "type": "fratrie", "label": "Son petit frère", "s": 1 },
+    { "to": "jon-snow", "type": "fratrie", "label": "Son demi-frère", "s": 1, "until": 7 },
+    { "to": "jon-snow", "type": "fratrie", "label": "Son cousin, élevé comme un frère", "s": 7 },
+    {
+      "to": "joffrey-baratheon",
+      "type": "ennemi",
+      "label": "Son fiancé, puis son bourreau",
+      "inverseLabel": "Sa fiancée, puis sa prisonnière",
+      "s": 1
+    },
+    { "to": "cersei-lannister", "type": "ennemi", "label": "La reine qu’elle admirait", "s": 1 },
+    {
+      "to": "sandor-clegane",
+      "type": "autre",
+      "label": "Son garde, qui la protège à sa façon",
+      "inverseLabel": "La jeune fille qu’il protège",
+      "s": 1
+    },
+    { "to": "tyrion-lannister", "type": "conjoint", "label": "Son mari imposé", "s": 3 },
+    { "to": "margaery-tyrell", "type": "allie", "label": "Une amie à la cour", "s": 3 },
+    {
+      "to": "petyr-baelish",
+      "type": "mentor",
+      "label": "Son protecteur et son manipulateur",
+      "inverseLabel": "Sa protégée",
+      "s": 4
+    },
+    {
+      "to": "lysa-arryn",
+      "type": "autre",
+      "label": "Sa tante",
+      "inverseLabel": "Sa nièce",
+      "s": 4
+    },
+    { "to": "ramsay-bolton", "type": "conjoint", "label": "Son mari et tortionnaire", "s": 5 },
+    { "to": "theon-greyjoy", "type": "allie", "label": "Celui qui l’a aidée à fuir", "s": 5 },
+    {
+      "to": "brienne-de-torth",
+      "type": "serviteur",
+      "label": "Son épée jurée",
+      "inverseLabel": "La dame qu’elle sert",
+      "s": 6
+    }
+  ],
+  "places": [
+    { "place": "winterfell", "seasons": [1, 5, 6, 7, 8] },
+    { "place": "port-real", "seasons": [1, 2, 3, 4] },
+    { "place": "les-eyrie", "seasons": [4, 5] },
+    { "place": "chateaunoir", "seasons": [6] }
+  ],
+  "codex": ["foi-des-sept", "loups-geants"],
+  "booksVsShow": {
+    "s": 5,
+    "paragraphs": [
+      "Dans les romans, Sansa est toujours aux Eyrié sous le nom d’Alayne, et le mariage avec Ramsay Bolton concerne un autre personnage, une fausse Arya. La série a choisi de réunir ces fils pour faire de Sansa la figure centrale du retour des Stark à Winterfell."
+    ]
+  },
+  "portrait": "images/personnages/sansa-stark.webp",
+  "sources": [
+    {
+      "label": "Wiki of Westeros — Sansa Stark",
+      "url": "https://gameofthrones.fandom.com/wiki/Sansa_Stark"
+    },
+    {
+      "label": "A Wiki of Ice and Fire — Sansa Stark",
+      "url": "https://awoiaf.westeros.org/index.php/Sansa_Stark"
+    }
+  ]
+}

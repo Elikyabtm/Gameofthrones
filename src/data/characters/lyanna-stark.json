@@ -1,0 +1,97 @@
+{
+  "slug": "lyanna-stark",
+  "name": "Lyanna Stark",
+  "short": "Lyanna",
+  "aliases": [],
+  "house": "stark",
+  "region": "Le Nord",
+  "camp": "westeros",
+  "allegiances": [
+    {
+      "to": "stark"
+    }
+  ],
+  "origin": "winterfell",
+  "titles": [],
+  "actor": "Aisling Franciosi",
+  "firstSeason": 1,
+  "status": [
+    {
+      "s": 1,
+      "value": "mort",
+      "note": "Morte à la fin de la Rébellion, avant le début de l’histoire"
+    }
+  ],
+  "summary": "Sœur d’Eddard, promise à Robert Baratheon, Lyanna est morte avant le début de l’histoire. Son enlèvement supposé par le prince Rhaegar a été l’une des étincelles de la Rébellion.",
+  "bio": [
+    {
+      "s": 1,
+      "title": "Saison 1 — Le tombeau",
+      "paragraphs": [
+        "Dès son arrivée à Winterfell, le roi Robert demande à descendre dans les cryptes. Il s’arrête devant la statue de Lyanna, la sœur d’Eddard qu’il devait épouser. Pour lui, le prince Rhaegar Targaryen l’a enlevée et l’a tuée, et c’est pour elle qu’il a renversé une dynastie. Eddard, lui, garde le silence sur la manière dont elle est morte, et sur la promesse qu’il lui a faite."
+      ]
+    },
+    {
+      "s": 6,
+      "title": "Saison 6 — Les visions de Bran",
+      "paragraphs": [
+        "On parle d’elle bien avant de la voir : Robert Baratheon l’aimait, et ne s’est jamais consolé de sa mort. Dans les visions de Bran, elle apparaît d’abord enfant, à cheval dans la cour de Winterfell, vive et rieuse au milieu de ses frères.",
+        "Puis Bran voit la fin de son histoire. Au sud, dans une tour isolée des montagnes de Dorne, Eddard arrive après un combat contre les derniers gardes royaux. Lyanna est mourante, dans un lit couvert de sang, après un accouchement. Elle fait promettre à son frère de protéger son enfant, sans quoi Robert le ferait tuer. Eddard prend le nouveau-né dans ses bras."
+      ]
+    },
+    {
+      "s": 7,
+      "title": "Saison 7 — La vérité",
+      "paragraphs": [
+        "Grâce au journal d’un septon que Samwell a lu à la Citadelle, Bran comprend ce que les chansons ont déformé : Lyanna n’a pas été enlevée de force. Elle avait épousé Rhaegar Targaryen en secret, après l’annulation de son précédent mariage. L’enfant qu’elle a confié à Eddard est leur fils légitime."
+      ]
+    }
+  ],
+  "keyMoments": [
+    {
+      "s": 6,
+      "title": "La tour de la Joie",
+      "text": "Mourante, elle confie son fils à Eddard.",
+      "place": "tour-de-la-joie"
+    },
+    {
+      "s": 7,
+      "title": "Le mariage secret",
+      "text": "Bran découvre qu’elle avait épousé Rhaegar.",
+      "place": "winterfell"
+    }
+  ],
+  "relations": [
+    {
+      "to": "rhaegar-targaryen",
+      "type": "conjoint",
+      "label": "Son mari, épousé en secret",
+      "s": 7
+    },
+    {
+      "to": "robert-baratheon",
+      "type": "autre",
+      "label": "Son fiancé, qui ne l’a jamais oubliée",
+      "inverseLabel": "Sa fiancée perdue",
+      "s": 1
+    }
+  ],
+  "places": [
+    {
+      "place": "winterfell",
+      "seasons": [1, 6]
+    },
+    {
+      "place": "tour-de-la-joie",
+      "seasons": [6, 7]
+    }
+  ],
+  "codex": ["anciens-dieux"],
+  "portrait": "images/personnages/lyanna-stark.webp",
+  "sources": [
+    {
+      "label": "Wiki of Westeros — Lyanna Stark",
+      "url": "https://gameofthrones.fandom.com/wiki/Lyanna_Stark"
+    }
+  ]
+}

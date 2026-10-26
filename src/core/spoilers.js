@@ -1,8 +1,13 @@
 // Filtrage anti-spoilers (§9). Tout passe par ici AVANT le rendu : ce qui n'est pas visible
 // à la saison choisie n'est jamais injecté dans le DOM.
 
-/** Un élément portant `s` est visible si s ≤ saison (sans `s` : visible dès la saison 1). */
-export const visible = (item, season) => (item?.s ?? 1) <= season;
+/**
+ * Un élément portant `s` est visible si s ≤ saison (sans `s` : visible dès la saison 1).
+ * `until` : l'élément cesse d'être vrai à partir de cette saison (ex. un lien présenté comme
+ * une filiation jusqu'à sa révélation).
+ */
+export const visible = (item, season) =>
+  (item?.s ?? 1) <= season && (item?.until == null || season < item.until);
 
 /**
  * Sépare une liste en éléments visibles et masqués.
@@ -14,6 +19,8 @@ export function split(list = [], season) {
   let next = null;
   for (const it of list) {
     if (visible(it, season)) items.push(it);
+    else if (it.until != null && season >= it.until)
+      continue; // périmé, pas « masqué »
     else {
       hidden++;
       next = next === null ? it.s : Math.min(next, it.s);

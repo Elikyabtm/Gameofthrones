@@ -1,0 +1,87 @@
+{
+  "slug": "rickon-stark",
+  "name": "Rickon Stark",
+  "short": "Rickon",
+  "aliases": [],
+  "house": "stark",
+  "region": "Le Nord",
+  "camp": "westeros",
+  "allegiances": [{ "to": "stark" }],
+  "origin": "winterfell",
+  "titles": [],
+  "actor": "Art Parkinson",
+  "firstSeason": 1,
+  "status": [
+    { "s": 1, "value": "vivant" },
+    {
+      "s": 6,
+      "value": "mort",
+      "note": "Tué d’une flèche par Ramsay Bolton, pendant la bataille des Bâtards"
+    }
+  ],
+  "summary": "Le plus jeune des enfants Stark. Il grandit à Winterfell aux côtés de son loup géant, Broussaille, plus sauvage que lui encore.",
+  "bio": [
+    {
+      "s": 1,
+      "title": "Saison 1 — Le petit dernier",
+      "paragraphs": [
+        "Rickon a quatre ans quand ses parents quittent Winterfell. Il reste avec Bran, Robb et mestre Luwin, et devient plus difficile à mesure que la maison se vide. Son loup, Broussaille, ne se laisse approcher par presque personne."
+      ]
+    },
+    {
+      "s": 2,
+      "title": "Saison 2 — La fuite",
+      "paragraphs": [
+        "Quand Theon prend Winterfell, Rickon se cache avec Bran dans les cryptes, protégé par Osha et Hodor. On le croit mort : Theon a fait exposer deux corps d’enfants brûlés pour sauver la face."
+      ]
+    },
+    {
+      "s": 3,
+      "title": "Saison 3 — La séparation",
+      "paragraphs": [
+        "Bran décide de poursuivre seul vers le nord. Il confie Rickon à Osha, qui doit le mettre à l’abri chez les Omble, à Dernier Âtre, loin de tous ceux qui pourraient le chercher."
+      ]
+    },
+    {
+      "s": 6,
+      "title": "Saison 6 — Le prisonnier",
+      "paragraphs": [
+        "Après la mort du Grand-Jon, son fils livre Rickon et Osha à Ramsay Bolton, avec la tête de Broussaille en gage de loyauté. Rickon sert d’appât pour Jon. Le jour de la bataille, Ramsay le libère sur le champ et lui ordonne de courir vers son frère, puis l’abat d’une flèche, sous les yeux de Jon, à quelques pas de lui."
+      ]
+    }
+  ],
+  "keyMoments": [
+    {
+      "s": 2,
+      "title": "Les cryptes",
+      "text": "Il se cache avec Bran sous Winterfell pendant l’occupation fer-née.",
+      "place": "winterfell"
+    },
+    {
+      "s": 3,
+      "title": "Vers Dernier Âtre",
+      "text": "Bran le confie à Osha pour le mettre à l’abri.",
+      "place": "winterfell"
+    },
+    {
+      "s": 6,
+      "title": "La course",
+      "text": "Ramsay l’abat devant Jon au début de la bataille des Bâtards.",
+      "place": "winterfell"
+    }
+  ],
+  "relations": [
+    { "to": "osha", "type": "allie", "label": "Sa protectrice", "s": 2 },
+    { "to": "hodor", "type": "allie", "label": "Le colosse de Winterfell", "s": 1 },
+    { "to": "ramsay-bolton", "type": "ennemi", "label": "Son geôlier et son assassin", "s": 6 }
+  ],
+  "places": [{ "place": "winterfell", "seasons": [1, 2, 3, 6] }],
+  "codex": ["loups-geants"],
+  "portrait": "images/personnages/rickon-stark.webp",
+  "sources": [
+    {
+      "label": "Wiki of Westeros — Rickon Stark",
+      "url": "https://gameofthrones.fandom.com/wiki/Rickon_Stark"
+    }
+  ]
+}

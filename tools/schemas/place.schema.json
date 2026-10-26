@@ -1,16 +1,30 @@
 {
   "$id": "place",
   "type": "object",
-  "required": ["slug", "name", "kind", "region", "continent", "description", "history", "events", "sources"],
+  "required": [
+    "slug",
+    "name",
+    "kind",
+    "region",
+    "continent",
+    "description",
+    "history",
+    "events",
+    "sources"
+  ],
   "additionalProperties": false,
   "properties": {
     "slug": { "$ref": "common#/$defs/slug" },
     "name": { "$ref": "common#/$defs/text" },
-    "kind": { "enum": ["château", "cité", "région", "ruine", "mer", "île", "forteresse", "temple"] },
+    "kind": {
+      "enum": ["château", "cité", "région", "ruine", "mer", "île", "forteresse", "temple"]
+    },
     "region": { "$ref": "common#/$defs/text" },
     "continent": { "enum": ["westeros", "essos"] },
     "coords": {
-      "type": "object", "required": ["x", "y"], "additionalProperties": false,
+      "type": "object",
+      "required": ["x", "y"],
+      "additionalProperties": false,
       "properties": { "x": { "type": "number" }, "y": { "type": "number" } }
     },
     "summary": { "type": "string" },

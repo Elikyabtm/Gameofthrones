@@ -1,85 +1,240 @@
 {
   "$id": "character",
   "type": "object",
-  "required": ["slug", "name", "house", "firstSeason", "status", "summary", "bio", "relations", "places", "sources"],
+  "required": [
+    "slug",
+    "name",
+    "house",
+    "firstSeason",
+    "status",
+    "summary",
+    "bio",
+    "relations",
+    "places",
+    "sources"
+  ],
   "additionalProperties": false,
   "properties": {
-    "slug": { "$ref": "common#/$defs/slug" },
-    "name": { "$ref": "common#/$defs/text" },
-    "short": { "type": "string" },
-    "principal": { "type": "boolean" },
-    "aliases": { "type": "array", "items": { "$ref": "common#/$defs/seasonText" } },
-    "house": { "anyOf": [{ "$ref": "common#/$defs/slug" }, { "type": "null" }] },
-    "region": { "type": "string" },
-    "camp": { "enum": ["westeros", "essos", "au-dela-du-mur"] },
+    "slug": {
+      "$ref": "common#/$defs/slug"
+    },
+    "name": {
+      "$ref": "common#/$defs/text"
+    },
+    "short": {
+      "type": "string"
+    },
+    "principal": {
+      "type": "boolean"
+    },
+    "aliases": {
+      "type": "array",
+      "items": {
+        "$ref": "common#/$defs/seasonText"
+      }
+    },
+    "house": {
+      "anyOf": [
+        {
+          "$ref": "common#/$defs/slug"
+        },
+        {
+          "type": "null"
+        }
+      ]
+    },
+    "region": {
+      "type": "string"
+    },
+    "camp": {
+      "enum": ["westeros", "essos", "au-dela-du-mur"]
+    },
     "allegiances": {
       "type": "array",
       "items": {
-        "type": "object", "required": ["to"], "additionalProperties": false,
-        "properties": { "to": { "$ref": "common#/$defs/slug" }, "s": { "$ref": "common#/$defs/season" } }
-      }
-    },
-    "origin": { "anyOf": [{ "$ref": "common#/$defs/slug" }, { "type": "null" }] },
-    "titles": { "type": "array", "items": { "$ref": "common#/$defs/seasonText" } },
-    "actor": { "type": "string" },
-    "firstSeason": { "$ref": "common#/$defs/season" },
-    "status": {
-      "type": "array", "minItems": 1,
-      "items": {
-        "type": "object", "required": ["s", "value"], "additionalProperties": false,
+        "type": "object",
+        "required": ["to"],
+        "additionalProperties": false,
         "properties": {
-          "s": { "$ref": "common#/$defs/season" },
-          "value": { "enum": ["vivant", "mort", "inconnu", "ressuscite"] },
-          "note": { "type": "string" }
+          "to": {
+            "$ref": "common#/$defs/slug"
+          },
+          "s": {
+            "$ref": "common#/$defs/season"
+          }
         }
       }
     },
-    "summary": { "$ref": "common#/$defs/text" },
-    "quote": { "$ref": "common#/$defs/seasonText" },
-    "bio": { "type": "array", "minItems": 1, "items": { "$ref": "common#/$defs/seasonParagraphs" } },
+    "origin": {
+      "anyOf": [
+        {
+          "$ref": "common#/$defs/slug"
+        },
+        {
+          "type": "null"
+        }
+      ]
+    },
+    "titles": {
+      "type": "array",
+      "items": {
+        "$ref": "common#/$defs/seasonText"
+      }
+    },
+    "actor": {
+      "type": "string"
+    },
+    "firstSeason": {
+      "$ref": "common#/$defs/season"
+    },
+    "status": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "required": ["s", "value"],
+        "additionalProperties": false,
+        "properties": {
+          "s": {
+            "$ref": "common#/$defs/season"
+          },
+          "value": {
+            "enum": ["vivant", "mort", "inconnu", "ressuscite"]
+          },
+          "note": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "summary": {
+      "$ref": "common#/$defs/text"
+    },
+    "quote": {
+      "$ref": "common#/$defs/seasonText"
+    },
+    "bio": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "$ref": "common#/$defs/seasonParagraphs"
+      }
+    },
     "keyMoments": {
       "type": "array",
       "items": {
-        "type": "object", "required": ["s", "title", "text"], "additionalProperties": false,
+        "type": "object",
+        "required": ["s", "title", "text"],
+        "additionalProperties": false,
         "properties": {
-          "s": { "$ref": "common#/$defs/season" },
-          "title": { "$ref": "common#/$defs/text" },
-          "text": { "$ref": "common#/$defs/text" },
-          "place": { "$ref": "common#/$defs/slug" }
+          "s": {
+            "$ref": "common#/$defs/season"
+          },
+          "title": {
+            "$ref": "common#/$defs/text"
+          },
+          "text": {
+            "$ref": "common#/$defs/text"
+          },
+          "place": {
+            "$ref": "common#/$defs/slug"
+          }
         }
       }
     },
     "relations": {
       "type": "array",
       "items": {
-        "type": "object", "required": ["to", "type"], "additionalProperties": false,
+        "type": "object",
+        "required": ["to", "type"],
+        "additionalProperties": false,
         "properties": {
-          "to": { "$ref": "common#/$defs/slug" },
-          "type": { "enum": ["parent", "enfant", "fratrie", "conjoint", "amour", "allie", "ennemi", "mentor", "eleve", "serviteur", "suzerain", "vassal", "autre"] },
-          "label": { "type": "string" },
-          "inverseLabel": { "type": "string" },
-          "s": { "$ref": "common#/$defs/season" }
+          "to": {
+            "$ref": "common#/$defs/slug"
+          },
+          "type": {
+            "enum": [
+              "parent",
+              "enfant",
+              "fratrie",
+              "conjoint",
+              "amour",
+              "allie",
+              "ennemi",
+              "mentor",
+              "eleve",
+              "serviteur",
+              "suzerain",
+              "vassal",
+              "autre"
+            ]
+          },
+          "label": {
+            "type": "string"
+          },
+          "inverseLabel": {
+            "type": "string"
+          },
+          "s": {
+            "$ref": "common#/$defs/season"
+          },
+          "until": {
+            "$ref": "common#/$defs/season"
+          }
         }
       }
     },
     "places": {
-      "type": "array", "minItems": 1,
+      "type": "array",
+      "minItems": 1,
       "items": {
-        "type": "object", "required": ["place", "seasons"], "additionalProperties": false,
+        "type": "object",
+        "required": ["place", "seasons"],
+        "additionalProperties": false,
         "properties": {
-          "place": { "$ref": "common#/$defs/slug" },
-          "seasons": { "type": "array", "minItems": 1, "items": { "$ref": "common#/$defs/season" } }
+          "place": {
+            "$ref": "common#/$defs/slug"
+          },
+          "seasons": {
+            "type": "array",
+            "minItems": 1,
+            "items": {
+              "$ref": "common#/$defs/season"
+            }
+          }
         }
       }
     },
-    "codex": { "type": "array", "items": { "$ref": "common#/$defs/slug" } },
-    "booksVsShow": {
-      "type": "object", "required": ["paragraphs"], "additionalProperties": false,
-      "properties": { "s": { "$ref": "common#/$defs/season" }, "paragraphs": { "$ref": "common#/$defs/paragraphs" } }
+    "codex": {
+      "type": "array",
+      "items": {
+        "$ref": "common#/$defs/slug"
+      }
     },
-    "portrait": { "$ref": "common#/$defs/image" },
-    "portraitFocus": { "type": "string" },
-    "sources": { "$ref": "common#/$defs/sources" },
-    "_doute": { "$ref": "common#/$defs/doute" }
+    "booksVsShow": {
+      "type": "object",
+      "required": ["paragraphs"],
+      "additionalProperties": false,
+      "properties": {
+        "s": {
+          "$ref": "common#/$defs/season"
+        },
+        "paragraphs": {
+          "$ref": "common#/$defs/paragraphs"
+        }
+      }
+    },
+    "portrait": {
+      "$ref": "common#/$defs/image"
+    },
+    "portraitFocus": {
+      "type": "string"
+    },
+    "sources": {
+      "$ref": "common#/$defs/sources"
+    },
+    "_doute": {
+      "$ref": "common#/$defs/doute"
+    }
   }
 }

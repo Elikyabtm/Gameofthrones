@@ -71,6 +71,11 @@ ol {
   list-style: none;
 }
 
+/* L'attribut hidden l'emporte toujours sur les display des composants. */
+[hidden] {
+  display: none !important;
+}
+
 /* Focus toujours visible (§12). */
 :focus-visible {
   outline: 1px solid var(--accent);

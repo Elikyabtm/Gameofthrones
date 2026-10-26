@@ -1,0 +1,208 @@
+{
+  "slug": "arya-stark",
+  "name": "Arya Stark",
+  "short": "Arya",
+  "principal": true,
+  "aliases": [
+    { "text": "Arry", "s": 2 },
+    { "text": "Belette", "s": 2 },
+    { "text": "Cat des Canaux", "s": 5 },
+    { "text": "Personne", "s": 6 }
+  ],
+  "house": "stark",
+  "region": "Le Nord",
+  "camp": "westeros",
+  "allegiances": [{ "to": "stark" }],
+  "origin": "winterfell",
+  "titles": [{ "text": "Dame Arya" }],
+  "actor": "Maisie Williams",
+  "firstSeason": 1,
+  "status": [{ "s": 1, "value": "vivant" }],
+  "summary": "Fille cadette d’Eddard et de Catelyn, Arya préfère l’épée aux travaux d’aiguille et les écuries aux leçons de maintien. Elle suit sa propre route, quitte à la tracer seule.",
+  "quote": { "text": "Pas aujourd’hui.", "s": 1 },
+  "bio": [
+    {
+      "s": 1,
+      "title": "Saison 1 — L’épée et l’aiguille",
+      "paragraphs": [
+        "À Winterfell, Arya est la fille qui ne rentre dans aucun moule. Elle tire mieux à l’arc que son frère Bran, déteste la couture et supporte mal la perfection de sa sœur Sansa. Avant son départ pour le Sud, Jon Snow lui offre une petite épée fine, forgée exprès pour elle. Elle la baptise Aiguille.",
+        "À Port-Réal, son père a l’intelligence de ne pas l’en priver : il lui trouve un maître d’armes, Syrio Forel, ancien premier épée de Braavos, qui lui enseigne la danse de l’eau et une leçon qu’elle n’oubliera pas. Quand les Lannister font arrêter Eddard, Syrio retient les gardes et Arya s’enfuit dans la ville. Elle vit dans les rues, assiste à l’exécution de son père depuis la foule, et Yoren, recruteur de la Garde de Nuit, l’emmène en lui coupant les cheveux pour la faire passer pour un garçon."
+      ]
+    },
+    {
+      "s": 2,
+      "title": "Saison 2 — Harrenhal",
+      "paragraphs": [
+        "Sous le nom d’Arry, Arya voyage vers le nord avec les recrues de Yoren, parmi lesquelles Gendry, un apprenti forgeron recherché par les manteaux d’or. La colonne est attaquée, et les survivants finissent prisonniers à Harrenhal, où l’on torture chaque jour un captif.",
+        "Tywin Lannister, installé au château, la prend comme échanson sans savoir qui elle est. Elle découvre un homme cultivé et redoutable. Un étrange prisonnier qu’elle a sauvé des flammes, Jaqen H’ghar, lui offre trois morts. Elle s’en sert pour s’évader avec Gendry et Tourte, puis Jaqen lui remet une pièce de fer et un mot de passe : « Valar morghulis »."
+      ]
+    },
+    {
+      "s": 3,
+      "title": "Saison 3 — La Fraternité et le Limier",
+      "paragraphs": [
+        "Arya tombe entre les mains de la Fraternité sans bannières, des hors-la-loi qui se battent au nom du roi mort contre les pillards. Elle y voit Thoros de Myr ramener à la vie Beric Dondarrion. La Fraternité vend Gendry à Melisandre ; furieuse, Arya s’enfuit et se fait capturer par Sandor Clegane, le Limier, qui veut la rendre à sa famille contre rançon.",
+        "Ils arrivent aux Jumeaux au moment des Noces pourpres. Arya voit de loin le massacre des siens, et le Limier l’assomme pour l’emporter."
+      ]
+    },
+    {
+      "s": 4,
+      "title": "Saison 4 — La liste",
+      "paragraphs": [
+        "Arya parcourt le Conflans avec le Limier, qui lui apprend une violence sans détour. Elle récite chaque soir la liste de ceux qu’elle veut tuer, et reprend Aiguille à l’un des hommes qui l’avaient volée. Leur route croise celle de Brienne de Torth, qui cherche à la ramener à sa mère. Le Limier est grièvement blessé dans le duel qui suit ; Arya refuse de l’achever et le laisse mourir.",
+        "Avec la pièce de Jaqen, elle embarque pour Braavos."
+      ]
+    },
+    {
+      "s": 5,
+      "title": "Saison 5 — La Maison du Noir et du Blanc",
+      "paragraphs": [
+        "À Braavos, Arya frappe à la porte d’un temple où l’on sert le Dieu Multiface. Jaqen l’y accueille, et la formation commence : renoncer à son nom, à son passé, à ses possessions. Elle jette ses affaires à l’eau mais cache Aiguille sous une pierre. Sous l’identité de Cat des Canaux, vendeuse d’huîtres, elle apprend à observer.",
+        "Quand Meryn Trant, l’un des noms de sa liste, arrive à Braavos, elle prend un visage qui n’est pas le sien pour le tuer. Ce meurtre non autorisé a un prix : elle perd la vue."
+      ]
+    },
+    {
+      "s": 6,
+      "title": "Saison 6 — Personne",
+      "paragraphs": [
+        "Aveugle, Arya mendie dans les rues et reçoit chaque jour la visite de la Gamine, qui la frappe avec un bâton. Elle apprend à se battre sans voir et recouvre la vue. Chargée de tuer une actrice, Lady Crane, elle refuse, prévient sa victime, et se retrouve traquée par la Gamine. Blessée, elle l’attire dans le noir, la tue, et annonce à Jaqen qu’elle est Arya Stark de Winterfell, et qu’elle rentre chez elle.",
+        "De retour à Westeros, elle commence à rayer des noms de sa liste, jusqu’aux Jumeaux, où elle venge sa mère et son frère sur Walder Frey."
+      ]
+    },
+    {
+      "s": 7,
+      "title": "Saison 7 — Le retour à Winterfell",
+      "paragraphs": [
+        "Après avoir anéanti la famille Frey, Arya apprend que Jon a repris Winterfell et change de route. Elle retrouve sa sœur et son frère Bran, qui lui offre une dague d’acier valyrien. Les retrouvailles sont tendues : Arya se méfie de Sansa, et Baelish attise leurs rivalités. Les deux sœurs finissent par s’unir contre lui, et Arya exécute Littlefinger dans la grande salle."
+      ]
+    },
+    {
+      "s": 8,
+      "title": "Saison 8 — La Longue Nuit",
+      "paragraphs": [
+        "Arya retrouve Gendry, à qui elle commande une arme, et le Limier. Pendant la bataille de Winterfell, elle traverse le château envahi par les morts et frappe au moment décisif. Puis elle part vers le sud pour tuer Cersei, avec le Limier. Au seuil du Donjon Rouge, il la convainc de renoncer à sa vengeance pour vivre. Elle survit à la destruction de la ville.",
+        "Quand la guerre s’achève, Arya choisit une nouvelle route : elle prend la mer vers l’ouest, pour découvrir ce qui se trouve au-delà des cartes."
+      ]
+    }
+  ],
+  "keyMoments": [
+    {
+      "s": 1,
+      "title": "Aiguille",
+      "text": "Jon lui offre une épée faite pour elle, avant son départ.",
+      "place": "winterfell"
+    },
+    {
+      "s": 1,
+      "title": "La danse de l’eau",
+      "text": "Syrio Forel lui apprend à se battre et à dire « pas aujourd’hui » à la mort.",
+      "place": "port-real"
+    },
+    {
+      "s": 2,
+      "title": "Les trois morts",
+      "text": "Jaqen H’ghar lui offre trois vies en échange de celles qu’elle a sauvées.",
+      "place": "harrenhal"
+    },
+    {
+      "s": 3,
+      "title": "Les Noces pourpres",
+      "text": "Elle arrive aux Jumeaux au moment du massacre.",
+      "place": "les-jumeaux"
+    },
+    {
+      "s": 5,
+      "title": "Braavos",
+      "text": "Elle entre à la Maison du Noir et du Blanc pour devenir personne.",
+      "place": "braavos"
+    },
+    {
+      "s": 6,
+      "title": "Le retour d’Arya",
+      "text": "Elle refuse de renoncer à son nom et quitte Braavos.",
+      "place": "braavos"
+    },
+    {
+      "s": 7,
+      "title": "La fin de Littlefinger",
+      "text": "Elle exécute Petyr Baelish sur la sentence de Sansa.",
+      "place": "winterfell"
+    },
+    {
+      "s": 8,
+      "title": "La Longue Nuit",
+      "text": "Elle frappe au moment décisif de la bataille de Winterfell.",
+      "place": "winterfell"
+    }
+  ],
+  "relations": [
+    { "to": "bran-stark", "type": "fratrie", "label": "Son frère", "s": 1 },
+    { "to": "rickon-stark", "type": "fratrie", "label": "Son petit frère", "s": 1 },
+    { "to": "jon-snow", "type": "fratrie", "label": "Son demi-frère préféré", "s": 1, "until": 7 },
+    { "to": "jon-snow", "type": "fratrie", "label": "Son cousin, son frère de cœur", "s": 7 },
+    { "to": "syrio-forel", "type": "mentor", "label": "Son maître d’armes à Port-Réal", "s": 1 },
+    { "to": "gendry", "type": "allie", "label": "Son compagnon de route, puis son amour", "s": 2 },
+    {
+      "to": "tywin-lannister",
+      "type": "ennemi",
+      "label": "Le seigneur qu’elle a servi sans qu’il la reconnaisse",
+      "s": 2
+    },
+    {
+      "to": "jaqen-hghar",
+      "type": "mentor",
+      "label": "Celui qui lui apprend à devenir personne",
+      "s": 2
+    },
+    {
+      "to": "sandor-clegane",
+      "type": "autre",
+      "label": "Son ravisseur, puis son compagnon",
+      "inverseLabel": "Sa captive, puis sa compagne de route",
+      "s": 3
+    },
+    { "to": "beric-dondarrion", "type": "autre", "label": "Le chef de la Fraternité", "s": 3 },
+    {
+      "to": "la-gamine",
+      "type": "ennemi",
+      "label": "Sa rivale à la Maison du Noir et du Blanc",
+      "s": 5
+    },
+    { "to": "walder-frey", "type": "ennemi", "label": "Un nom de sa liste", "s": 3 },
+    { "to": "cersei-lannister", "type": "ennemi", "label": "Un nom de sa liste", "s": 1 },
+    { "to": "petyr-baelish", "type": "ennemi", "label": "L’homme qu’elle exécute", "s": 7 },
+    {
+      "to": "brienne-de-torth",
+      "type": "autre",
+      "label": "Celle qui a juré de la protéger",
+      "s": 4
+    }
+  ],
+  "places": [
+    { "place": "winterfell", "seasons": [1, 7, 8] },
+    { "place": "port-real", "seasons": [1, 8] },
+    { "place": "harrenhal", "seasons": [2] },
+    { "place": "le-conflans", "seasons": [3, 4] },
+    { "place": "les-jumeaux", "seasons": [3, 6] },
+    { "place": "braavos", "seasons": [5, 6] }
+  ],
+  "codex": ["sans-visage", "dieu-multiface", "loups-geants", "fraternite-sans-bannieres"],
+  "booksVsShow": {
+    "s": 2,
+    "paragraphs": [
+      "Dans les romans, Arya ne sert pas Tywin à Harrenhal : elle y est l’échanson de Roose Bolton. Ce changement a donné à la série l’une de ses scènes les plus commentées, les conversations entre la jeune fille et le seigneur qui ignore à qui il parle."
+    ]
+  },
+  "portrait": "images/personnages/arya-stark.webp",
+  "portraitFocus": "50% 30%",
+  "sources": [
+    {
+      "label": "Wiki of Westeros — Arya Stark",
+      "url": "https://gameofthrones.fandom.com/wiki/Arya_Stark"
+    },
+    {
+      "label": "A Wiki of Ice and Fire — Arya Stark",
+      "url": "https://awoiaf.westeros.org/index.php/Arya_Stark"
+    }
+  ]
+}

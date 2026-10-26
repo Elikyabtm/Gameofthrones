@@ -1,0 +1,348 @@
+/* Espace Maisons : rangée de blasons, page maison, arbre par maison (§7.3). */
+
+.sigil-row {
+  display: flex;
+  gap: 18px;
+  overflow-x: auto;
+  padding: 10px 2px 24px;
+  scroll-snap-type: x mandatory;
+  scrollbar-width: thin;
+  scrollbar-color: var(--line-strong) transparent;
+}
+
+.sigil-card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  width: 230px;
+  min-height: 380px;
+  padding: 26px 18px;
+  border: 1px solid var(--line);
+  text-align: center;
+  text-decoration: none;
+  scroll-snap-align: start;
+  background: #0b0d0eb0;
+  transition:
+    border-color 500ms var(--ease),
+    background-color 500ms var(--ease);
+}
+
+.sigil-card img {
+  width: 170px;
+  height: 170px;
+  object-fit: contain;
+  filter: drop-shadow(0 8px 24px #000a);
+  transition: transform 700ms var(--ease);
+}
+
+.sigil-name {
+  font-family: var(--serif);
+  font-size: 24px;
+}
+
+.sigil-words,
+.sigil-seat {
+  opacity: 0;
+  transform: translateY(6px);
+  transition:
+    opacity 500ms var(--ease),
+    transform 500ms var(--ease);
+}
+
+.sigil-words {
+  font-family: var(--serif);
+  font-style: italic;
+  font-size: 19px;
+  color: var(--ink-2);
+}
+
+.sigil-card:hover,
+.sigil-card:focus-visible {
+  border-color: var(--accent);
+  background: #c9b27c0d;
+}
+
+.sigil-card:hover img {
+  transform: scale(1.04);
+}
+
+.sigil-card:hover .sigil-words,
+.sigil-card:hover .sigil-seat,
+.sigil-card:focus-visible .sigil-words,
+.sigil-card:focus-visible .sigil-seat {
+  opacity: 1;
+  transform: none;
+}
+
+@media (hover: none) {
+  .sigil-words,
+  .sigil-seat {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+.lineages-link {
+  margin-top: 18px;
+  font-size: var(--fs-small);
+  color: var(--ink-3);
+}
+
+/* ---------- Page maison ---------- */
+.house-banner {
+  display: flex;
+  align-items: center;
+  gap: 48px;
+  max-width: 1100px;
+  margin-bottom: 30px;
+}
+
+.house-sigil {
+  width: 220px;
+  height: 220px;
+  object-fit: contain;
+  filter: drop-shadow(0 12px 30px #000c);
+}
+
+.house-banner h1 {
+  margin: 8px 0 10px;
+  font-size: var(--fs-title);
+}
+
+.house-words {
+  margin: 0 0 18px;
+  font-family: var(--serif);
+  font-size: 30px;
+  font-style: italic;
+  color: var(--accent);
+}
+
+.house-facts {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px 32px;
+  margin: 0;
+}
+
+.house-facts dt {
+  font-size: var(--fs-label);
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: var(--ink-3);
+}
+
+.house-facts dd {
+  margin: 2px 0 0;
+  font-family: var(--serif);
+  font-size: 20px;
+}
+
+.house-columns {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 56px;
+}
+
+.house-history p,
+.house-series p {
+  font-family: var(--serif);
+  font-size: 19px;
+  line-height: 1.6;
+  color: var(--ink-2);
+}
+
+.figures {
+  font-size: var(--fs-small);
+}
+
+.members-row {
+  display: flex;
+  gap: 14px;
+  overflow-x: auto;
+  padding-bottom: 6px;
+}
+
+.vassals {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px 26px;
+}
+
+.vassals a,
+.vassals li {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  font-family: var(--serif);
+  font-size: 20px;
+  text-decoration: none;
+}
+
+.credit {
+  margin-top: 30px;
+  font-size: var(--fs-small);
+  color: var(--ink-3);
+}
+
+/* ---------- Arbre ---------- */
+.tree-tools {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 12px;
+}
+
+.tree-tools .btn {
+  min-height: 40px;
+  padding: 6px 16px;
+}
+
+.tree-masked {
+  font-size: var(--fs-small);
+  color: var(--ink-3);
+}
+
+.tree-viewport {
+  position: relative;
+  height: min(72vh, 760px);
+  overflow: hidden;
+  border: 1px solid var(--line);
+  background: #0b0d0ecc;
+  cursor: grab;
+  touch-action: none;
+}
+
+.tree-viewport:active {
+  cursor: grabbing;
+}
+
+.tree-board {
+  position: absolute;
+  left: 0;
+  top: 0;
+  transform-origin: 0 0;
+}
+
+.tree-lines {
+  position: absolute;
+  inset: 0;
+  overflow: visible;
+}
+
+.tree-lines path {
+  fill: none;
+  stroke: var(--line-strong);
+  stroke-width: 1.2;
+}
+
+.tree-lines path.union {
+  stroke: #c9b27c88;
+}
+
+.tree-lines path.secret {
+  stroke: #c46d7a;
+  stroke-dasharray: 5 5;
+}
+
+.tree-card {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 128px;
+  height: 176px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.tree-portrait {
+  position: relative;
+  width: 96px;
+  height: 120px;
+  overflow: hidden;
+  border: 1px solid var(--line-strong);
+  background: var(--bg-2);
+}
+
+.tree-portrait img,
+.tree-portrait svg {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.tree-card:hover .tree-portrait {
+  border-color: var(--accent);
+}
+
+.tree-card.is-dead .tree-portrait img,
+.tree-card.is-dead .tree-portrait svg {
+  filter: grayscale(1) brightness(0.55);
+}
+
+.tree-card.is-dead .tree-name {
+  color: var(--ink-3);
+}
+
+.tree-cross {
+  position: absolute;
+  right: 4px;
+  top: 2px;
+  font-size: 16px;
+  color: var(--ink-2);
+}
+
+.tree-name {
+  margin-top: 6px;
+  font-family: var(--serif);
+  font-size: 16px;
+  line-height: 1.1;
+}
+
+.tree-note {
+  font-size: 15px;
+  color: var(--ink-3);
+}
+
+.tree-foreign {
+  position: absolute;
+  top: -10px;
+  left: 6px;
+  width: 30px;
+  height: 30px;
+  display: grid;
+  place-items: center;
+  border: 1px solid var(--line-strong);
+  border-radius: 50%;
+  background: var(--bg);
+}
+
+.tree-foreign:hover {
+  border-color: var(--accent);
+}
+
+.tree-empty {
+  color: var(--ink-3);
+}
+
+@media (max-width: 699px) {
+  .house-banner {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 18px;
+  }
+  .house-sigil {
+    width: 140px;
+    height: 140px;
+  }
+  .house-columns {
+    grid-template-columns: 1fr;
+    gap: 0;
+  }
+  .tree-viewport {
+    height: 64vh;
+  }
+}
