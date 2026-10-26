@@ -1,0 +1,103 @@
+{
+  "slug": "petyr-baelish",
+  "name": "Petyr Baelish",
+  "short": "Petyr",
+  "principal": true,
+  "aliases": [{ "text": "Littlefinger" }],
+  "house": null,
+  "region": "Le Val",
+  "camp": "westeros",
+  "allegiances": [{ "to": "arryn", "s": 4 }],
+  "origin": "les-eyrie",
+  "titles": [
+    { "text": "Grand argentier" },
+    { "text": "Seigneur d’Harrenhal", "s": 2 },
+    { "text": "Protecteur du Val", "s": 4 }
+  ],
+  "actor": "Aidan Gillen",
+  "firstSeason": 1,
+  "status": [
+    { "s": 1, "value": "vivant" },
+    { "s": 7, "value": "mort", "note": "Exécuté par Arya Stark sur la sentence de Sansa" }
+  ],
+  "summary": "Grand argentier du royaume, issu d’une maison minuscule, Petyr Baelish a grandi à Vivesaigues aux côtés de Catelyn Tully. Il tient les finances de la couronne et les bordels de la ville.",
+  "quote": { "text": "Le chaos est une échelle.", "s": 3 },
+  "bio": [
+    {
+      "s": 1,
+      "title": "Saison 1 — L’ami de Catelyn",
+      "paragraphs": [
+        "Petyr se présente comme un ami à Catelyn quand elle arrive en secret à Port-Réal, et lui affirme que la dague de l’assassin de Bran appartenait à Tyrion. À Eddard, il offre son aide pour enquêter sur la mort de Jon Arryn, puis le conseille dans ses démarches auprès du Guet. Au moment décisif, il pose une lame sous la gorge de la Main : « Je vous avais dit de ne pas me faire confiance. »",
+        "On le voit aussi dans ses maisons closes, où il expose à ses employées sa philosophie du désir : tout se vend, à condition de savoir ce que veulent les gens."
+      ]
+    },
+    {
+      "s": 2,
+      "title": "Saison 2 — Le marieur",
+      "paragraphs": [
+        "Petyr se rend au camp de Renly pour négocier, puis rapproche les Tyrell et les Lannister. Après la Néra, Joffrey le fait seigneur d’Harrenhal pour ce rapprochement, première vraie terre à son nom."
+      ]
+    },
+    {
+      "s": 3,
+      "title": "Saison 3 — L’échelle",
+      "paragraphs": [
+        "Varys tente de prévenir les Tyrell des projets de Petyr pour Sansa ; Petyr le devance et livre Ros, une informatrice de Varys, à Joffrey. Il explique à son rival que le chaos n’est pas un gouffre mais une échelle, et part pour le Val afin d’épouser Lysa Arryn."
+      ]
+    },
+    {
+      "s": 4,
+      "title": "Saison 4 — Le Val",
+      "paragraphs": [
+        "Petyr organise la fuite de Sansa le soir du mariage pourpre : c’est lui qui a fourni le poison qui tue Joffrey. Il épouse Lysa, apprend qu’elle a empoisonné Jon Arryn à sa demande, puis la jette par la porte de la Lune quand elle menace Sansa. Il prend le contrôle du Val au nom du jeune Robin."
+      ]
+    },
+    {
+      "s": 5,
+      "title": "Saison 5 — Le pari du Nord",
+      "paragraphs": [
+        "Petyr marie Sansa à Ramsay Bolton pour la replacer à Winterfell, puis se rend à Port-Réal, où il propose à Cersei de s’emparer du Nord avec les chevaliers du Val. Il joue sur tous les tableaux à la fois."
+      ]
+    },
+    {
+      "s": 6,
+      "title": "Saison 6 — Les chevaliers du Val",
+      "paragraphs": [
+        "Sansa lui reproche ce que Ramsay lui a fait subir. Il s’en excuse et lui offre son armée. La charge des chevaliers du Val sauve les Stark à la bataille des Bâtards. Il avoue à Sansa son ambition : le Trône de Fer, avec elle à ses côtés."
+      ]
+    },
+    {
+      "s": 7,
+      "title": "Saison 7 — Le procès",
+      "paragraphs": [
+        "À Winterfell, Petyr tente de dresser Sansa contre Arya, en jouant sur leurs rancunes d’enfance et sur une vieille lettre. Les sœurs finissent par comprendre. Dans la grande salle, Sansa énumère ses crimes : la mort de Jon Arryn, la trahison d’Eddard, le meurtre de Lysa. Petyr supplie à genoux. Arya lui tranche la gorge."
+      ]
+    }
+  ],
+  "keyMoments": [
+    { "s": 1, "title": "La lame", "text": "Il trahit Eddard Stark dans la salle du trône.", "place": "port-real" },
+    { "s": 3, "title": "Le chaos est une échelle", "text": "Il expose sa philosophie à Varys devant le Trône de Fer.", "place": "port-real" },
+    { "s": 4, "title": "La porte de la Lune", "text": "Il pousse Lysa dans le vide.", "place": "les-eyrie" },
+    { "s": 6, "title": "La charge", "text": "Ses chevaliers sauvent la bataille des Bâtards.", "place": "winterfell" },
+    { "s": 7, "title": "La sentence", "text": "Il est jugé et exécuté par les sœurs Stark.", "place": "winterfell" }
+  ],
+  "relations": [
+    { "to": "joffrey-baratheon", "type": "ennemi", "label": "Le roi qu’il a aidé à empoisonner", "s": 4 },
+    { "to": "cersei-lannister", "type": "autre", "label": "La reine avec qui il négocie", "s": 1 }
+  ],
+  "places": [
+    { "place": "port-real", "seasons": [1, 2, 3, 5] },
+    { "place": "accalmie", "seasons": [2] },
+    { "place": "les-eyrie", "seasons": [4, 5, 6] },
+    { "place": "winterfell", "seasons": [5, 6, 7] }
+  ],
+  "codex": [],
+  "booksVsShow": {
+    "s": 7,
+    "paragraphs": [
+      "Dans les romans publiés, Littlefinger est toujours vivant et prépare l’avenir de Sansa dans le Val, où il veut la marier à l’héritier des Eyrié. Son procès à Winterfell est propre à la série."
+    ]
+  },
+  "portrait": null,
+  "sources": [{ "label": "Wiki of Westeros — Petyr Baelish", "url": "https://gameofthrones.fandom.com/wiki/Petyr_Baelish" }]
+}

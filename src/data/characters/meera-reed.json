@@ -1,0 +1,38 @@
+{
+  "slug": "meera-reed",
+  "name": "Meera Reed",
+  "short": "Meera",
+  "aliases": [],
+  "house": "reed",
+  "region": "Le Neck",
+  "camp": "westeros",
+  "allegiances": [{ "to": "reed" }, { "to": "stark" }],
+  "origin": "griseaux",
+  "titles": [],
+  "actor": "Ellie Kendrick",
+  "firstSeason": 3,
+  "status": [{ "s": 3, "value": "vivant" }],
+  "summary": "Fille de Howland Reed, ami d’Eddard Stark, Meera vient des marais du Neck. Elle chasse, se bat au filet et à la lance, et protège son frère Jojen comme on protège une flamme.",
+  "bio": [
+    { "s": 3, "title": "Saison 3 — Les Reed", "paragraphs": ["Meera et Jojen rejoignent Bran et Rickon sur la route du nord. Elle tient tête à Osha, qui se méfie d’eux, et explique que son père a sauvé la vie d’Eddard Stark pendant la guerre."] },
+    { "s": 4, "title": "Saison 4 — La grotte", "paragraphs": ["Capturée avec les autres chez Craster, Meera est sauvée par l’attaque de Jon. Elle porte presque son frère jusqu’au grand barral, où il meurt. Elle entre dans la grotte avec Bran et Hodor."] },
+    { "s": 6, "title": "Saison 6 — La fuite", "paragraphs": ["Quand les morts envahissent la grotte, Meera tue un Marcheur blanc avec sa lance de verre-dragon et traîne Bran dans la neige. Elle crie à Hodor de « tenir la porte ». Benjen les sauve au dernier moment."] },
+    { "s": 7, "title": "Saison 7 — Le départ", "paragraphs": ["Meera ramène Bran jusqu’à Winterfell. Quand elle lui dit adieu, il lui répond avec une froideur qui la blesse : Bran n’est plus vraiment Bran. Elle part retrouver sa famille dans le Neck."] }
+  ],
+  "keyMoments": [
+    { "s": 4, "title": "Le barral", "text": "Elle porte Bran jusqu’à la grotte où meurt son frère.", "place": "au-dela-du-mur" },
+    { "s": 6, "title": "« Tiens la porte »", "text": "Elle s’enfuit avec Bran pendant que Hodor retient les morts.", "place": "au-dela-du-mur" }
+  ],
+  "relations": [
+    { "to": "jojen-reed", "type": "fratrie", "label": "Son frère cadet", "s": 3 },
+    { "to": "hodor", "type": "allie", "label": "Son compagnon de route", "s": 3 },
+    { "to": "osha", "type": "autre", "label": "La sauvageonne qui se méfie d’elle", "s": 3 }
+  ],
+  "places": [
+    { "place": "au-dela-du-mur", "seasons": [3, 4, 6] },
+    { "place": "winterfell", "seasons": [7] }
+  ],
+  "codex": ["anciens-dieux", "premiers-hommes"],
+  "portrait": null,
+  "sources": [{ "label": "Wiki of Westeros — Meera Reed", "url": "https://gameofthrones.fandom.com/wiki/Meera_Reed" }]
+}

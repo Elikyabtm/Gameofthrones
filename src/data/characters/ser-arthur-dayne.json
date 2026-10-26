@@ -1,0 +1,30 @@
+{
+  "slug": "ser-arthur-dayne",
+  "name": "Arthur Dayne",
+  "short": "Arthur Dayne",
+  "aliases": [{ "text": "l’Épée du Matin" }, { "text": "Ser Arthur" }],
+  "house": null,
+  "region": "Dorne",
+  "camp": "westeros",
+  "allegiances": [{ "to": "targaryen" }],
+  "origin": "dorne",
+  "titles": [{ "text": "Chevalier de la Garde Royale" }],
+  "actor": "Luke Roberts",
+  "firstSeason": 6,
+  "status": [{ "s": 6, "value": "mort", "note": "Tué à la tour de la Joie à la fin de la Rébellion" }],
+  "summary": "Chevalier de la Garde Royale du roi Aerys, Arthur Dayne passait pour la plus fine lame de son temps. Il maniait Aube, une épée forgée dans le cœur d’une étoile tombée.",
+  "bio": [
+    { "s": 6, "title": "Saison 6 — La tour de la Joie", "paragraphs": ["Dans une vision, Bran assiste au combat que son père racontait autrement. Devant la tour de la Joie, Arthur Dayne et un autre chevalier de la Garde Royale attendent Eddard Stark et ses compagnons. Arthur, armé de deux épées, les tue presque tous. Il domine Eddard quand Howland Reed, blessé, le frappe dans le dos. Eddard l’achève. Le combat honorable dont parlaient les chansons n’a pas eu lieu."] }
+  ],
+  "keyMoments": [
+    { "s": 6, "title": "Le duel trahi", "text": "Il tombe sous un coup porté dans le dos.", "place": "tour-de-la-joie" }
+  ],
+  "relations": [
+    { "to": "eddard-stark", "type": "ennemi", "label": "L’homme qui l’a vaincu à la tour de la Joie", "s": 6 },
+    { "to": "lyanna-stark", "type": "autre", "label": "La dame qu’il gardait dans la tour", "s": 6 }
+  ],
+  "places": [{ "place": "tour-de-la-joie", "seasons": [6] }],
+  "codex": ["garde-royale", "rebellion"],
+  "portrait": null,
+  "sources": [{ "label": "Wiki of Westeros — Arthur Dayne", "url": "https://gameofthrones.fandom.com/wiki/Arthur_Dayne" }]
+}

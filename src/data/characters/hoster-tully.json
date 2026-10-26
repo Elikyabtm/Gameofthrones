@@ -1,0 +1,34 @@
+{
+  "slug": "hoster-tully",
+  "name": "Hoster Tully",
+  "short": "Hoster",
+  "aliases": [],
+  "house": "tully",
+  "region": "Le Conflans",
+  "camp": "westeros",
+  "allegiances": [{ "to": "tully" }],
+  "origin": "vivesaigues",
+  "titles": [{ "text": "Seigneur de Vivesaigues" }, { "text": "Suzerain du Trident" }],
+  "actor": "Christopher Newman",
+  "firstSeason": 3,
+  "status": [
+    { "s": 3, "value": "vivant" },
+    { "s": 3, "value": "mort", "note": "Mort de maladie à Vivesaigues" }
+  ],
+  "summary": "Seigneur de Vivesaigues et suzerain du Conflans, Hoster Tully a lié sa maison au Nord et au Val en mariant ses filles. Au début de la saison 3, il est mourant.",
+  "bio": [
+    { "s": 3, "title": "Saison 3 — Les funérailles", "paragraphs": ["Hoster agonise dans son lit, l’esprit confus, et appelle sa fille Lysa en voyant Catelyn. Il meurt peu après l’arrivée de Robb. Ses funérailles se font sur une barque enflammée par une flèche ; Edmure manque trois fois son tir, et c’est le Silure, son frère, qui allume le bûcher d’un seul trait."] }
+  ],
+  "keyMoments": [
+    { "s": 3, "title": "La barque funéraire", "text": "Son frère allume son bûcher d’une seule flèche.", "place": "vivesaigues" }
+  ],
+  "relations": [
+    { "to": "edmure-tully", "type": "enfant", "label": "Son fils et héritier", "inverseLabel": "Son père", "s": 3 },
+    { "to": "lysa-arryn", "type": "enfant", "label": "Sa fille cadette", "inverseLabel": "Son père", "s": 3 },
+    { "to": "brynden-tully", "type": "fratrie", "label": "Son frère, le Silure", "s": 3 }
+  ],
+  "places": [{ "place": "vivesaigues", "seasons": [3] }],
+  "codex": ["foi-des-sept"],
+  "portrait": "images/personnages/hoster-tully.webp",
+  "sources": [{ "label": "Wiki of Westeros — Hoster Tully", "url": "https://gameofthrones.fandom.com/wiki/Hoster_Tully" }]
+}

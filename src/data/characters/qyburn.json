@@ -1,0 +1,42 @@
+{
+  "slug": "qyburn",
+  "name": "Qyburn",
+  "short": "Qyburn",
+  "aliases": [],
+  "house": null,
+  "region": "Les Terres de la Couronne",
+  "camp": "westeros",
+  "allegiances": [{ "to": "lannister", "s": 4 }],
+  "origin": "harrenhal",
+  "titles": [{ "text": "Mestre déchu" }, { "text": "Maître des chuchoteurs", "s": 6 }, { "text": "Main de la Reine", "s": 7 }],
+  "actor": "Anton Lesser",
+  "firstSeason": 3,
+  "status": [
+    { "s": 3, "value": "vivant" },
+    { "s": 8, "value": "mort", "note": "Projeté contre un rocher par la Montagne" }
+  ],
+  "summary": "Ancien mestre chassé de la Citadelle pour ses expériences sur les vivants, Qyburn soigne et dissèque avec la même douceur. Il ne voit pas où est le mal à vouloir comprendre.",
+  "bio": [
+    { "s": 3, "title": "Saison 3 — Le guérisseur", "paragraphs": ["Au service de Roose Bolton à Harrenhal, Qyburn soigne le moignon de Jaime et lui sauve le bras. Il explique avoir perdu sa chaîne de mestre pour des expériences jugées interdites."] },
+    { "s": 4, "title": "Saison 4 — La Montagne", "paragraphs": ["Revenu à Port-Réal avec Jaime, Qyburn gagne la confiance de Cersei. Quand la Montagne agonise après son duel contre Oberyn, il promet de le « soigner » à sa manière."] },
+    { "s": 5, "title": "Saison 5 — Le nouveau Gregor", "paragraphs": ["Qyburn entre au Conseil restreint. Le jour de la marche d’expiation de Cersei, il lui présente un nouveau garde du corps : un colosse en armure, silencieux, qui ne se fatigue jamais."] },
+    { "s": 6, "title": "Saison 6 — Les petits oiseaux", "paragraphs": ["Qyburn recrute les enfants espions de Varys. Le jour du procès, ses petits oiseaux tuent Pycelle et allument le feu grégeois sous le septuor. Cersei le nomme maître des chuchoteurs."] },
+    { "s": 7, "title": "Saison 7 — Les balistes", "paragraphs": ["Qyburn conçoit une grande baliste capable de percer les écailles d’un dragon, et la teste sur le crâne de Balerion. Il organise la rencontre de Fosse-aux-Dragons."] },
+    { "s": 8, "title": "Saison 8 — La fin", "paragraphs": ["Pendant la chute de Port-Réal, Qyburn ordonne à la Montagne de protéger la reine contre son frère. Gregor le repousse contre un rocher, et Qyburn meurt sur le coup."] }
+  ],
+  "keyMoments": [
+    { "s": 3, "title": "Le bras de Jaime", "text": "Il soigne le moignon du Régicide.", "place": "harrenhal" },
+    { "s": 6, "title": "Le feu grégeois", "text": "Ses enfants espions déclenchent l’explosion du septuor.", "place": "port-real" }
+  ],
+  "relations": [
+    { "to": "gregor-clegane", "type": "autre", "label": "Sa créature ressuscitée", "inverseLabel": "Son créateur", "s": 5 },
+    { "to": "jaime-lannister", "type": "autre", "label": "Le chevalier qu’il a soigné", "s": 3 }
+  ],
+  "places": [
+    { "place": "harrenhal", "seasons": [3] },
+    { "place": "port-real", "seasons": [4, 5, 6, 7, 8] }
+  ],
+  "codex": ["mestres"],
+  "portrait": null,
+  "sources": [{ "label": "Wiki of Westeros — Qyburn", "url": "https://gameofthrones.fandom.com/wiki/Qyburn" }]
+}

@@ -1,0 +1,43 @@
+{
+  "slug": "beric-dondarrion",
+  "name": "Beric Dondarrion",
+  "short": "Beric",
+  "aliases": [{ "text": "le Seigneur de la Foudre" }],
+  "house": null,
+  "region": "Le Conflans",
+  "camp": "westeros",
+  "allegiances": [],
+  "origin": "le-conflans",
+  "titles": [{ "text": "Chef de la Fraternité sans bannières" }],
+  "actor": "David Michael Scott, puis Richard Dormer",
+  "firstSeason": 1,
+  "status": [
+    { "s": 1, "value": "vivant" },
+    { "s": 8, "value": "mort", "note": "Tombé en protégeant Arya pendant la bataille de Winterfell" }
+  ],
+  "summary": "Seigneur des Marches envoyé par Eddard Stark pour arrêter les exactions de la Montagne, Beric Dondarrion n’est jamais revenu de sa mission. On raconte depuis des choses étranges à son sujet.",
+  "bio": [
+    { "s": 1, "title": "Saison 1 — La mission", "paragraphs": ["Eddard envoie Beric et ses hommes dans le Conflans, au nom du roi, pour arrêter Gregor Clegane, qui pille les villages. La nouvelle de la mort de Robert ne l’arrête pas : il continue à protéger les petites gens."] },
+    { "s": 3, "title": "Saison 3 — Le chef ressuscité", "paragraphs": ["Beric dirige la Fraternité sans bannières, une bande de hors-la-loi qui défend le peuple du Conflans. Il affronte le Limier en duel judiciaire avec une épée enflammée, et meurt. Thoros de Myr prie, et Beric revient à la vie, pour la sixième fois. Il vend Gendry à Melisandre, ce qu’Arya ne lui pardonne pas."] },
+    { "s": 6, "title": "Saison 6 — Le recruteur", "paragraphs": ["La Fraternité retrouve Sandor Clegane, qui traquait des déserteurs. Beric lui propose de les rejoindre pour une cause plus grande que lui : la guerre qui vient du nord."] },
+    { "s": 7, "title": "Saison 7 — Au-delà du Mur", "paragraphs": ["Beric accompagne Jon Snow au-delà du Mur. Il survit à l’expédition, mais perd Thoros, son ami et son prêtre."] },
+    { "s": 8, "title": "Saison 8 — La raison d’être", "paragraphs": ["Pendant la bataille de Winterfell, Beric protège Arya dans un couloir envahi par les morts et meurt en lui laissant le temps de fuir. Melisandre dit à Arya que le Maître de la Lumière l’avait ramené pour cela."] }
+  ],
+  "keyMoments": [
+    { "s": 3, "title": "L’épée de feu", "text": "Il meurt en duel et revient à la vie.", "place": "le-conflans" },
+    { "s": 8, "title": "Le couloir", "text": "Il sacrifie sa dernière vie pour Arya.", "place": "winterfell" }
+  ],
+  "relations": [
+    { "to": "thoros-de-myr", "type": "allie", "label": "Son prêtre et son ami, qui l’a ramené à la vie", "s": 3 },
+    { "to": "eddard-stark", "type": "suzerain", "label": "La Main qui l’a envoyé en mission", "s": 1 }
+  ],
+  "places": [
+    { "place": "port-real", "seasons": [1] },
+    { "place": "le-conflans", "seasons": [3, 6] },
+    { "place": "au-dela-du-mur", "seasons": [7] },
+    { "place": "winterfell", "seasons": [8] }
+  ],
+  "codex": ["fraternite-sans-bannieres", "maitre-de-la-lumiere"],
+  "portrait": null,
+  "sources": [{ "label": "Wiki of Westeros — Beric Dondarrion", "url": "https://gameofthrones.fandom.com/wiki/Beric_Dondarrion" }]
+}

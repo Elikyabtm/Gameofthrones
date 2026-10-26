@@ -1,0 +1,45 @@
+{
+  "slug": "roose-bolton",
+  "name": "Roose Bolton",
+  "short": "Roose",
+  "aliases": [],
+  "house": "bolton",
+  "region": "Le Nord",
+  "camp": "westeros",
+  "allegiances": [{ "to": "bolton" }, { "to": "stark", "until": 3 }, { "to": "lannister", "s": 3 }],
+  "origin": "fort-terreur",
+  "titles": [{ "text": "Seigneur de Fort-Terreur" }, { "text": "Gouverneur du Nord", "s": 4 }],
+  "actor": "Michael McElhatton",
+  "firstSeason": 2,
+  "status": [
+    { "s": 2, "value": "vivant" },
+    { "s": 6, "value": "mort", "note": "Poignardé par son fils Ramsay" }
+  ],
+  "summary": "Seigneur de Fort-Terreur, Roose Bolton est un banneret puissant du Nord, calme, poli et glacial. Sa maison écorchait autrefois ses ennemis, et il ne semble pas le regretter.",
+  "bio": [
+    { "s": 2, "title": "Saison 2 — Le banneret", "paragraphs": ["Roose combat aux côtés de Robb et lui conseille, d’une voix égale, d’écorcher les prisonniers pour l’exemple. Quand Theon prend Winterfell, il propose d’envoyer son fils bâtard reprendre le château."] },
+    { "s": 3, "title": "Saison 3 — La trahison", "paragraphs": ["Roose retient Jaime à Harrenhal, puis le renvoie à Port-Réal, sans sa main mais vivant. Il épouse une fille de Walder Frey pour sa dot, puis prépare avec les Frey et Tywin la fin de Robb. Aux Noces pourpres, il plante lui-même sa dague dans le cœur du roi du Nord, en lui transmettant les salutations des Lannister."] },
+    { "s": 4, "title": "Saison 4 — Gouverneur du Nord", "paragraphs": ["Nommé Gouverneur du Nord, Roose découvre ce que son fils a fait de Theon. Il exige de Ramsay qu’il reprenne Moat Cailin aux Fer-nés. Satisfait, il le légitime : Ramsay Snow devient Ramsay Bolton."] },
+    { "s": 5, "title": "Saison 5 — Winterfell", "paragraphs": ["Installé à Winterfell, Roose accepte que Ramsay épouse Sansa Stark pour asseoir leur pouvoir. Il annonce à son fils que sa femme attend un enfant, un héritier légitime."] },
+    { "s": 6, "title": "Saison 6 — Le fils", "paragraphs": ["Le jour où le mestre annonce la naissance d’un garçon, Ramsay serre la main de son père et le poignarde. Il donne ensuite sa belle-mère et le nouveau-né à ses chiens."] }
+  ],
+  "keyMoments": [
+    { "s": 3, "title": "Les salutations des Lannister", "text": "Il tue Robb Stark aux Jumeaux.", "place": "les-jumeaux" },
+    { "s": 4, "title": "Le nom de Bolton", "text": "Il légitime son fils Ramsay.", "place": "fort-terreur" },
+    { "s": 6, "title": "La poignée de main", "text": "Ramsay le poignarde.", "place": "winterfell" }
+  ],
+  "relations": [
+    { "to": "ramsay-bolton", "type": "enfant", "label": "Son fils bâtard, puis son héritier", "inverseLabel": "Son père", "s": 3 },
+    { "to": "jaime-lannister", "type": "autre", "label": "Son prisonnier, qu’il a renvoyé à Port-Réal", "s": 3 }
+  ],
+  "places": [
+    { "place": "terres-de-l-ouest", "seasons": [2] },
+    { "place": "harrenhal", "seasons": [3] },
+    { "place": "les-jumeaux", "seasons": [3] },
+    { "place": "fort-terreur", "seasons": [4] },
+    { "place": "winterfell", "seasons": [5, 6] }
+  ],
+  "codex": [],
+  "portrait": "images/personnages/roose-bolton.webp",
+  "sources": [{ "label": "Wiki of Westeros — Roose Bolton", "url": "https://gameofthrones.fandom.com/wiki/Roose_Bolton" }]
+}

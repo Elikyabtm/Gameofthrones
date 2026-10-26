@@ -1,0 +1,110 @@
+{
+  "slug": "varys",
+  "name": "Varys",
+  "short": "Varys",
+  "principal": true,
+  "aliases": [{ "text": "l’Araignée" }],
+  "house": null,
+  "region": "Les Terres de la Couronne",
+  "camp": "westeros",
+  "allegiances": [{ "to": "targaryen", "s": 5 }],
+  "origin": "lys",
+  "titles": [{ "text": "Maître des chuchoteurs" }],
+  "actor": "Conleth Hill",
+  "firstSeason": 1,
+  "status": [
+    { "s": 1, "value": "vivant" },
+    { "s": 8, "value": "mort", "note": "Brûlé par Drogon sur ordre de Daenerys pour trahison" }
+  ],
+  "summary": "Eunuque venu des cités libres, Varys est le maître des chuchoteurs du Conseil restreint : il sait tout, ou presque, grâce à ses « petits oiseaux ». Il affirme ne servir que le royaume.",
+  "quote": { "text": "Le pouvoir réside là où les hommes croient qu’il réside.", "s": 2 },
+  "bio": [
+    {
+      "s": 1,
+      "title": "Saison 1 — L’Araignée",
+      "paragraphs": [
+        "Varys accueille Eddard Stark au Conseil restreint avec des politesses sucrées, et le surprend en lui apprenant ce qu’il ignore. Il le prévient en secret que le roi est en danger, puis lui rend visite dans les cachots, déguisé en geôlier, pour lui conseiller de sauver ses filles en avouant une trahison qu’il n’a pas commise. Dans les souterrains du Donjon Rouge, Arya l’entend comploter avec le magistre Illyrio, sans savoir qui ils sont."
+      ]
+    },
+    {
+      "s": 2,
+      "title": "Saison 2 — L’énigme",
+      "paragraphs": [
+        "Varys s’amuse de l’arrivée de Tyrion, qui découvre vite que l’eunuque sait tout ce qui se passe au château. Il pose à Tyrion une énigme sur un roi, un prêtre, un riche et un mercenaire, pour lui montrer que le pouvoir n’est qu’une ombre sur le mur. Il raconte aussi comment un sorcier l’a mutilé quand il était enfant. Avec Tyrion, il prépare la défense de la ville contre Stannis."
+      ]
+    },
+    {
+      "s": 3,
+      "title": "Saison 3 — Le rival",
+      "paragraphs": [
+        "Varys tente de contrer les projets de Littlefinger en informant les Tyrell, puis voit son rival gagner la partie. Il montre à Tyrion le sorcier de son enfance, qu’il garde enfermé dans une caisse."
+      ]
+    },
+    {
+      "s": 4,
+      "title": "Saison 4 — L’évasion",
+      "paragraphs": [
+        "Varys refuse de mentir pour Tyrion lors du procès, mais organise avec Jaime son évasion, puis quitte Port-Réal avec lui en apprenant ce qu’il a fait."
+      ]
+    },
+    {
+      "s": 5,
+      "title": "Saison 5 — Le choix",
+      "paragraphs": [
+        "À Pentos, Varys révèle à Tyrion qu’il travaille avec Illyrio, depuis des années, à rendre le trône aux Targaryen, et qu’il croit désormais en Daenerys. Il le convainc de partir avec lui. Leur route est interrompue à Volantis, et Varys rejoint Meereen par d’autres chemins."
+      ]
+    },
+    {
+      "s": 6,
+      "title": "Saison 6 — Les alliances",
+      "paragraphs": [
+        "À Meereen, Varys démasque les commanditaires des Fils de la Harpie. Il rencontre Kinvara, grande prêtresse du Maître de la Lumière, qui l’impressionne en évoquant la voix entendue lors de sa mutilation. Puis il part à Dorne et réunit Olenna Tyrell et Ellaria Sand derrière Daenerys."
+      ]
+    },
+    {
+      "s": 7,
+      "title": "Saison 7 — La loyauté",
+      "paragraphs": [
+        "À Peyredragon, Daenerys lui demande des comptes sur ses trahisons passées. Varys répond qu’il sert le peuple, pas les rois. Elle exige qu’il lui dise en face le jour où elle échouera. Melisandre lui annonce qu’ils mourront tous deux dans ce pays."
+      ]
+    },
+    {
+      "s": 8,
+      "title": "Saison 8 — La dernière trahison",
+      "paragraphs": [
+        "Apprenant que Jon est l’héritier légitime, Varys juge Daenerys de plus en plus dangereuse et commence à écrire pour faire connaître la vérité. Tyrion le dénonce. À Peyredragon, Daenerys le condamne : Drogon le brûle sur la plage."
+      ]
+    }
+  ],
+  "keyMoments": [
+    { "s": 1, "title": "Le geôlier", "text": "Il conseille à Eddard de sauver ses filles plutôt que son honneur.", "place": "port-real" },
+    { "s": 2, "title": "L’énigme", "text": "Il explique à Tyrion ce qu’est vraiment le pouvoir.", "place": "port-real" },
+    { "s": 5, "title": "Pentos", "text": "Il révèle son projet de rendre le trône aux Targaryen.", "place": "pentos" },
+    { "s": 6, "title": "Dorne", "text": "Il rallie Olenna et Ellaria à Daenerys.", "place": "lancehelion" },
+    { "s": 8, "title": "La plage", "text": "Daenerys le fait exécuter pour trahison.", "place": "peyredragon" }
+  ],
+  "relations": [
+    { "to": "eddard-stark", "type": "autre", "label": "La Main qu’il a tenté d’avertir", "s": 1 },
+    { "to": "petyr-baelish", "type": "ennemi", "label": "Son rival au Conseil", "s": 1 },
+    { "to": "daenerys-targaryen", "type": "suzerain", "label": "La reine qu’il a choisie, puis trahie", "inverseLabel": "Son maître des chuchoteurs", "s": 6 },
+    { "to": "kinvara", "type": "autre", "label": "La prêtresse qui connaît son secret", "s": 6 }
+  ],
+  "places": [
+    { "place": "port-real", "seasons": [1, 2, 3, 4, 8] },
+    { "place": "pentos", "seasons": [5] },
+    { "place": "volantis", "seasons": [5] },
+    { "place": "meereen", "seasons": [6] },
+    { "place": "lancehelion", "seasons": [6] },
+    { "place": "peyredragon", "seasons": [7, 8] },
+    { "place": "winterfell", "seasons": [8] }
+  ],
+  "codex": ["maitre-de-la-lumiere"],
+  "booksVsShow": {
+    "s": 5,
+    "paragraphs": [
+      "Dans les romans, le projet de Varys et d’Illyrio ne vise pas Daenerys : ils cachent en Essos un jeune homme présenté comme Aegon, le fils de Rhaegar et d’Elia, que l’on croyait mort. Ce personnage n’existe pas dans la série."
+    ]
+  },
+  "portrait": null,
+  "sources": [{ "label": "Wiki of Westeros — Varys", "url": "https://gameofthrones.fandom.com/wiki/Varys" }]
+}

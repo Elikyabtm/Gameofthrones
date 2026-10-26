@@ -1,0 +1,100 @@
+{
+  "slug": "sandor-clegane",
+  "name": "Sandor Clegane",
+  "short": "Sandor",
+  "principal": true,
+  "aliases": [{ "text": "le Limier" }],
+  "house": "clegane",
+  "region": "L’Ouest",
+  "camp": "westeros",
+  "allegiances": [{ "to": "lannister", "until": 2 }, { "to": "clegane" }],
+  "origin": "terres-de-l-ouest",
+  "titles": [{ "text": "Garde du prince Joffrey" }, { "text": "Chevalier de la Garde Royale", "s": 2 }],
+  "actor": "Rory McCann",
+  "firstSeason": 1,
+  "status": [
+    { "s": 1, "value": "vivant" },
+    { "s": 4, "value": "inconnu", "note": "Laissé pour mort par Arya après son duel contre Brienne" },
+    { "s": 6, "value": "vivant" },
+    { "s": 8, "value": "mort", "note": "Tombé dans les flammes avec son frère Gregor" }
+  ],
+  "summary": "Garde du corps du prince Joffrey, Sandor Clegane porte sur le visage les brûlures que lui a infligées son frère quand il était enfant. Il méprise les chevaliers, les mensonges et le feu.",
+  "bio": [
+    {
+      "s": 1,
+      "title": "Saison 1 — Le Limier",
+      "paragraphs": [
+        "Le Limier exécute sans un mot les ordres de Joffrey, jusqu’à tuer le fils du boucher sur la route royale. Il raconte à Sansa, au tournoi de la Main, l’histoire de ses brûlures : son frère Gregor lui a écrasé le visage dans un brasier pour un jouet. Quand Gregor attaque Loras après une défaite, Sandor s’interpose et se bat contre lui."
+      ]
+    },
+    {
+      "s": 2,
+      "title": "Saison 2 — La Néra",
+      "paragraphs": [
+        "Le Limier protège Sansa pendant une émeute et la méprise en même temps pour sa naïveté. À la Néra, terrifié par le feu, il abandonne le combat, quitte la Garde Royale et propose à Sansa de l’emmener dans le Nord. Elle refuse."
+      ]
+    },
+    {
+      "s": 3,
+      "title": "Saison 3 — Le procès de la Fraternité",
+      "paragraphs": [
+        "Capturé par la Fraternité sans bannières, Sandor est jugé pour le meurtre du fils du boucher. Il affronte Beric Dondarrion en duel judiciaire, malgré l’épée enflammée de son adversaire, et le tue. Beric revient à la vie. Libre, Sandor capture Arya pour la rendre contre rançon à sa famille, et arrive aux Jumeaux au moment du massacre."
+      ]
+    },
+    {
+      "s": 4,
+      "title": "Saison 4 — Le maître d’Arya",
+      "paragraphs": [
+        "Sandor voyage avec Arya et lui enseigne une vision sans illusion du monde. Mordu lors d’une rixe, il refuse les soins. Brienne de Torth les retrouve ; le duel est d’une violence inouïe, et Sandor tombe d’une falaise. Il supplie Arya de l’achever ; elle prend son argent et part."
+      ]
+    },
+    {
+      "s": 6,
+      "title": "Saison 6 — La paix brisée",
+      "paragraphs": [
+        "Un septon a recueilli Sandor et l’a fait travailler avec une petite communauté pacifique. Des hors-la-loi massacrent ses compagnons. Le Limier reprend une hache, traque les assassins et rejoint la Fraternité, qui lui offre un but."
+      ]
+    },
+    {
+      "s": 7,
+      "title": "Saison 7 — Les flammes",
+      "paragraphs": [
+        "En voyant des visions dans les flammes, Sandor découvre l’armée des morts. Il part au-delà du Mur avec Jon pour capturer un mort, et l’attrape lui-même, avant de le présenter à Cersei à Fosse-aux-Dragons. Il y croise son frère, et lui promet qu’ils se reverront."
+      ]
+    },
+    {
+      "s": 8,
+      "title": "Saison 8 — Le duel des frères",
+      "paragraphs": [
+        "Après la bataille de Winterfell, Sandor part vers le sud avec Arya. Dans le Donjon Rouge qui s’effondre, il la convainc d’abandonner sa vengeance et de vivre. Puis il affronte Gregor dans un escalier ravagé par le feu dragon. Le combat ne peut finir que d’une façon : il se jette avec son frère dans les flammes."
+      ]
+    }
+  ],
+  "keyMoments": [
+    { "s": 1, "title": "Le récit des brûlures", "text": "Il raconte à Sansa ce que son frère lui a fait.", "place": "port-real" },
+    { "s": 2, "title": "La désertion", "text": "Il abandonne la bataille de la Néra.", "place": "port-real" },
+    { "s": 3, "title": "Le duel de la Fraternité", "text": "Il tue Beric, qui revient à la vie.", "place": "le-conflans" },
+    { "s": 4, "title": "Le duel de Brienne", "text": "Il est laissé pour mort par Arya.", "place": "le-conflans" },
+    { "s": 8, "title": "Le duel des frères", "text": "Il affronte son frère jusqu’à la mort.", "place": "port-real" }
+  ],
+  "relations": [
+    { "to": "beric-dondarrion", "type": "ennemi", "label": "Son juge, puis son compagnon", "s": 3 },
+    { "to": "thoros-de-myr", "type": "allie", "label": "Son compagnon de la Fraternité", "s": 6 }
+  ],
+  "places": [
+    { "place": "winterfell", "seasons": [1, 8] },
+    { "place": "port-real", "seasons": [1, 2, 7, 8] },
+    { "place": "le-conflans", "seasons": [3, 4, 6] },
+    { "place": "les-jumeaux", "seasons": [3] },
+    { "place": "au-dela-du-mur", "seasons": [7] }
+  ],
+  "codex": ["fraternite-sans-bannieres", "garde-royale"],
+  "booksVsShow": {
+    "s": 6,
+    "paragraphs": [
+      "Dans les romans, le sort du Limier après son combat contre les hommes du Conflans reste ambigu : un « fossoyeur » géant aperçu sur l’île Tranquille laisse penser qu’il a survécu. La série a confirmé cette piste et lui a donné son duel final contre son frère, que les fans appelaient de leurs vœux."
+    ]
+  },
+  "portrait": null,
+  "sources": [{ "label": "Wiki of Westeros — Sandor Clegane", "url": "https://gameofthrones.fandom.com/wiki/Sandor_Clegane" }]
+}

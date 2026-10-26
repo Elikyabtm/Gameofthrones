@@ -1,0 +1,32 @@
+{
+  "slug": "septa-unella",
+  "name": "Septa Unella",
+  "short": "Unella",
+  "aliases": [],
+  "house": null,
+  "region": "Les Terres de la Couronne",
+  "camp": "westeros",
+  "allegiances": [],
+  "origin": "port-real",
+  "titles": [{ "text": "Septa" }],
+  "actor": "Hannah Waddingham",
+  "firstSeason": 5,
+  "status": [
+    { "s": 5, "value": "vivant" },
+    { "s": 6, "value": "inconnu", "note": "Livrée par Cersei à la Montagne, dans une cellule du Donjon Rouge" }
+  ],
+  "summary": "Septa austère au service du Grand Moineau, Unella garde les prisonnières de la Foi. Elle ne connaît qu’un mot pour les pécheurs : confession.",
+  "bio": [
+    { "s": 5, "title": "Saison 5 — La geôlière", "paragraphs": ["Unella surveille Cersei dans sa cellule, la prive d’eau et la frappe pour obtenir une confession. Le jour de la marche d’expiation, elle marche derrière la reine en agitant une cloche et en répétant « Honte ! »."] },
+    { "s": 6, "title": "Saison 6 — La vengeance de Cersei", "paragraphs": ["Après l’explosion du septuor, Cersei fait attacher Unella sur une table et lui verse du vin sur le visage, comme on lui versait de l’eau en prison. Elle la laisse seule avec la Montagne et ferme la porte en répétant : « Honte »."] }
+  ],
+  "keyMoments": [
+    { "s": 5, "title": "Honte", "text": "Elle accompagne la marche d’expiation de Cersei.", "place": "port-real" },
+    { "s": 6, "title": "La porte", "text": "Cersei la livre à la Montagne.", "place": "port-real" }
+  ],
+  "relations": [],
+  "places": [{ "place": "port-real", "seasons": [5, 6] }],
+  "codex": ["foi-des-sept", "foi-militante"],
+  "portrait": null,
+  "sources": [{ "label": "Wiki of Westeros — Unella", "url": "https://gameofthrones.fandom.com/wiki/Unella" }]
+}

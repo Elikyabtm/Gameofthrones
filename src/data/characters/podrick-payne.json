@@ -1,0 +1,41 @@
+{
+  "slug": "podrick-payne",
+  "name": "Podrick Payne",
+  "short": "Podrick",
+  "aliases": [{ "text": "Pod" }],
+  "house": null,
+  "region": "L’Ouest",
+  "camp": "westeros",
+  "allegiances": [{ "to": "lannister" }],
+  "origin": "castral-roc",
+  "titles": [{ "text": "Écuyer" }, { "text": "Chevalier de la Garde Royale", "s": 8 }],
+  "actor": "Daniel Portman",
+  "firstSeason": 2,
+  "status": [{ "s": 2, "value": "vivant" }],
+  "summary": "Jeune écuyer maladroit d’une branche pauvre de la maison Payne, Podrick est confié à Tyrion. Il est loyal, timide, et bien plus courageux qu’il n’en a l’air.",
+  "bio": [
+    { "s": 2, "title": "Saison 2 — L’écuyer de Tyrion", "paragraphs": ["Podrick devient l’écuyer de Tyrion. Pendant la bataille de la Néra, quand un garde royal tente de tuer son maître, il le transperce d’une lance et lui sauve la vie."] },
+    { "s": 3, "title": "Saison 3 — La rumeur", "paragraphs": ["Tyrion lui offre une soirée au bordel en récompense. Podrick revient avec l’argent intact : les filles ont refusé d’être payées, et personne n’ose lui demander pourquoi."] },
+    { "s": 4, "title": "Saison 4 — Brienne", "paragraphs": ["Podrick refuse de témoigner contre Tyrion et doit quitter Port-Réal. Jaime le confie à Brienne de Torth. Mauvais cavalier, mauvais cuisinier, il se révèle fidèle et apprend à ses côtés."] },
+    { "s": 5, "title": "Saison 5 — L’apprentissage", "paragraphs": ["Brienne commence à l’entraîner à l’épée. Ils surveillent Winterfell, où Sansa est prisonnière des Bolton."] },
+    { "s": 6, "title": "Saison 6 — Le sauvetage", "paragraphs": ["Avec Brienne, Podrick sauve Sansa des hommes de Ramsay, puis l’accompagne à Châteaunoir et à Vivesaigues."] },
+    { "s": 7, "title": "Saison 7 — Winterfell", "paragraphs": ["Podrick s’entraîne avec Brienne dans la cour de Winterfell et l’accompagne à Port-Réal pour la rencontre de Fosse-aux-Dragons."] },
+    { "s": 8, "title": "Saison 8 — Le chevalier", "paragraphs": ["Podrick est fait chevalier avec Brienne la veille de la bataille, chante pour les survivants, et finit chevalier de la Garde Royale du roi Bran."] }
+  ],
+  "keyMoments": [
+    { "s": 2, "title": "La Néra", "text": "Il sauve la vie de Tyrion.", "place": "port-real" },
+    { "s": 8, "title": "La chanson", "text": "Il chante devant le feu la veille de la Longue Nuit.", "place": "winterfell" }
+  ],
+  "relations": [
+    { "to": "bronn", "type": "mentor", "label": "Son maître d’armes improvisé", "s": 4 }
+  ],
+  "places": [
+    { "place": "port-real", "seasons": [2, 3, 4, 7, 8] },
+    { "place": "le-conflans", "seasons": [4] },
+    { "place": "winterfell", "seasons": [5, 6, 7, 8] },
+    { "place": "vivesaigues", "seasons": [6] }
+  ],
+  "codex": ["garde-royale"],
+  "portrait": null,
+  "sources": [{ "label": "Wiki of Westeros — Podrick Payne", "url": "https://gameofthrones.fandom.com/wiki/Podrick_Payne" }]
+}

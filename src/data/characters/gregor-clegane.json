@@ -1,0 +1,43 @@
+{
+  "slug": "gregor-clegane",
+  "name": "Gregor Clegane",
+  "short": "Gregor",
+  "aliases": [{ "text": "la Montagne" }],
+  "house": "clegane",
+  "region": "L’Ouest",
+  "camp": "westeros",
+  "allegiances": [{ "to": "lannister" }],
+  "origin": "terres-de-l-ouest",
+  "titles": [{ "text": "Chevalier" }, { "text": "Garde Royale", "s": 6 }],
+  "actor": "Conan Stevens, Ian Whyte, puis Hafþór Júlíus Björnsson",
+  "firstSeason": 1,
+  "status": [
+    { "s": 1, "value": "vivant" },
+    { "s": 5, "value": "ressuscite", "note": "Ramené à une forme de vie par Qyburn" },
+    { "s": 8, "value": "mort", "note": "Tombé dans les flammes avec son frère Sandor" }
+  ],
+  "summary": "Colosse au service de Tywin Lannister, Gregor Clegane, dit la Montagne, est le chevalier le plus craint des Sept Couronnes. Sa violence n’a pas de limite connue.",
+  "bio": [
+    { "s": 1, "title": "Saison 1 — Le tournoi", "paragraphs": ["Au tournoi de la Main, la Montagne tue un adversaire d’un coup de lance dans la gorge, puis décapite son cheval après sa défaite contre Loras. Son frère s’interpose. Tywin l’envoie ensuite piller le Conflans."] },
+    { "s": 2, "title": "Saison 2 — Harrenhal", "paragraphs": ["Ses hommes gardent les prisonniers de Harrenhal et les torturent chaque jour, à la recherche de la Fraternité sans bannières."] },
+    { "s": 4, "title": "Saison 4 — Le duel judiciaire", "paragraphs": ["Champion de Cersei au procès de Tyrion, la Montagne affronte Oberyn Martell. Blessé à mort, il avoue le meurtre d’Elia Martell et de ses enfants en écrasant le crâne du prince. Il agonise ensuite, empoisonné par la lance d’Oberyn."] },
+    { "s": 5, "title": "Saison 5 — Le retour", "paragraphs": ["Qyburn fait de la Montagne un mort qui marche : un colosse silencieux en armure, qui escorte Cersei à la fin de sa marche d’expiation."] },
+    { "s": 6, "title": "Saison 6 — Le champion de la reine", "paragraphs": ["Gregor protège Cersei et tue les hommes de la Foi qui tentent de l’arrêter."] },
+    { "s": 7, "title": "Saison 7 — Fosse-aux-Dragons", "paragraphs": ["La Montagne accompagne la reine à la rencontre de Fosse-aux-Dragons, face à son frère."] },
+    { "s": 8, "title": "Saison 8 — L’escalier", "paragraphs": ["Gregor exécute Missandei sur les remparts. Pendant la chute de la ville, il tue Qyburn, affronte son frère et tombe avec lui dans les flammes."] }
+  ],
+  "keyMoments": [
+    { "s": 4, "title": "Le duel", "text": "Il tue Oberyn en avouant le meurtre d’Elia.", "place": "port-real" },
+    { "s": 8, "title": "La chute", "text": "Il meurt avec son frère dans les flammes.", "place": "port-real" }
+  ],
+  "relations": [
+    { "to": "sandor-clegane", "type": "fratrie", "label": "Son frère, qu’il a brûlé enfant", "s": 1 }
+  ],
+  "places": [
+    { "place": "port-real", "seasons": [1, 4, 5, 6, 7, 8] },
+    { "place": "harrenhal", "seasons": [2] }
+  ],
+  "codex": ["garde-royale"],
+  "portrait": null,
+  "sources": [{ "label": "Wiki of Westeros — Gregor Clegane", "url": "https://gameofthrones.fandom.com/wiki/Gregor_Clegane" }]
+}

@@ -1,0 +1,38 @@
+{
+  "slug": "robin-arryn",
+  "name": "Robin Arryn",
+  "short": "Robin",
+  "aliases": [],
+  "house": "arryn",
+  "region": "Le Val",
+  "camp": "westeros",
+  "allegiances": [{ "to": "arryn" }],
+  "origin": "les-eyrie",
+  "titles": [{ "text": "Seigneur des Eyrié" }, { "text": "Défenseur du Val" }],
+  "actor": "Lino Facioli",
+  "firstSeason": 1,
+  "status": [{ "s": 1, "value": "vivant" }],
+  "summary": "Fils unique de Jon et Lysa Arryn, héritier du Val, Robin est un enfant fragile et capricieux, élevé à l’abri des montagnes. Il aime voir les gens « voler » par la porte de la Lune.",
+  "bio": [
+    { "s": 1, "title": "Saison 1 — Le petit seigneur", "paragraphs": ["Robin assiste, ravi, à l’emprisonnement de Tyrion et réclame qu’on le fasse voler par la porte de la Lune. Il tète encore sa mère, fait des crises et préside le duel judiciaire de Tyrion depuis les genoux de Lysa."] },
+    { "s": 4, "title": "Saison 4 — La porte de la Lune", "paragraphs": ["Robin voit arriver sa cousine Sansa, qu’il trouve jolie, et casse par colère le château de neige qu’elle a construit. Après la chute de sa mère par la porte de la Lune, il se laisse convaincre par Petyr Baelish de partir visiter son domaine."] },
+    { "s": 5, "title": "Saison 5 — L’entraînement", "paragraphs": ["Confié à Lord Royce pour apprendre à se battre, Robin s’y montre maladroit, sous le regard de Petyr et Sansa qui quittent le Val."] },
+    { "s": 6, "title": "Saison 6 — Les chevaliers du Val", "paragraphs": ["Sur les conseils de Baelish, Robin envoie les chevaliers du Val au secours de Jon et Sansa. Leur charge décide de la bataille des Bâtards."] },
+    { "s": 8, "title": "Saison 8 — Le conseil", "paragraphs": ["Devenu un jeune homme, Robin siège au conseil des seigneurs qui élit Bran."] }
+  ],
+  "keyMoments": [
+    { "s": 1, "title": "« Fais-le voler ! »", "text": "Il réclame qu’on jette Tyrion par la porte de la Lune.", "place": "les-eyrie" },
+    { "s": 6, "title": "La charge du Val", "text": "Ses chevaliers sauvent les Stark à Winterfell.", "place": "winterfell" }
+  ],
+  "relations": [
+    { "to": "petyr-baelish", "type": "autre", "label": "Son beau-père et tuteur", "inverseLabel": "Son beau-fils", "s": 4 },
+    { "to": "sansa-stark", "type": "autre", "label": "Sa cousine", "inverseLabel": "Son cousin", "s": 4 }
+  ],
+  "places": [
+    { "place": "les-eyrie", "seasons": [1, 4, 5, 6] },
+    { "place": "port-real", "seasons": [8] }
+  ],
+  "codex": [],
+  "portrait": "images/personnages/robin-arryn.webp",
+  "sources": [{ "label": "Wiki of Westeros — Robin Arryn", "url": "https://gameofthrones.fandom.com/wiki/Robin_Arryn" }]
+}

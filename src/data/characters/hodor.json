@@ -1,0 +1,38 @@
+{
+  "slug": "hodor",
+  "name": "Hodor",
+  "short": "Hodor",
+  "aliases": [{ "text": "Wylis", "s": 6 }],
+  "house": null,
+  "region": "Le Nord",
+  "camp": "westeros",
+  "allegiances": [{ "to": "stark" }],
+  "origin": "winterfell",
+  "titles": [{ "text": "Palefrenier de Winterfell" }],
+  "actor": "Kristian Nairn",
+  "firstSeason": 1,
+  "status": [
+    { "s": 1, "value": "vivant" },
+    { "s": 6, "value": "mort", "note": "Mort en retenant la porte de la grotte face aux morts" }
+  ],
+  "summary": "Colosse au cœur simple, palefrenier de Winterfell, Hodor ne prononce qu’un seul mot : le sien. Il porte Bran sur son dos, partout où l’enfant doit aller.",
+  "bio": [
+    { "s": 1, "title": "Saison 1 — Le géant doux", "paragraphs": ["Hodor travaille aux écuries de Winterfell. Après la chute de Bran, il devient ses jambes. Personne ne sait d’où vient ce mot qu’il répète sans cesse."] },
+    { "s": 2, "title": "Saison 2 — Les cryptes", "paragraphs": ["Hodor cache Bran et Rickon dans les cryptes pendant l’occupation fer-née, puis les porte hors du château en ruines."] },
+    { "s": 3, "title": "Saison 3 — La route du nord", "paragraphs": ["Effrayé par l’orage, Hodor crie trop fort dans une tour où ils se cachent. Bran, pour le calmer, entre pour la première fois dans son esprit."] },
+    { "s": 4, "title": "Saison 4 — Chez Craster", "paragraphs": ["Bran prend le contrôle de Hodor pour se libérer des déserteurs de la Garde ; Hodor tue un homme sans le vouloir, et le constate avec effroi."] },
+    { "s": 6, "title": "Saison 6 — Tiens la porte", "paragraphs": ["Dans une vision, Bran voit Hodor jeune, un garçon d’écurie nommé Wylis qui parlait normalement. Quand les morts attaquent la grotte, Bran est encore dans le passé ; il entre dans l’esprit de Hodor pour lui faire retenir la porte. Meera crie « Tiens la porte ! ». Dans le passé, le jeune Wylis s’effondre, en répétant ces mots jusqu’à ce qu’ils deviennent « Hodor ». Le colosse meurt en tenant la porte."] }
+  ],
+  "keyMoments": [
+    { "s": 4, "title": "La force empruntée", "text": "Bran se sert de son corps pour se libérer.", "place": "au-dela-du-mur" },
+    { "s": 6, "title": "Tiens la porte", "text": "Il meurt en retenant les morts, et son nom prend son sens.", "place": "au-dela-du-mur" }
+  ],
+  "relations": [],
+  "places": [
+    { "place": "winterfell", "seasons": [1, 2] },
+    { "place": "au-dela-du-mur", "seasons": [3, 4, 6] }
+  ],
+  "codex": [],
+  "portrait": null,
+  "sources": [{ "label": "Wiki of Westeros — Hodor", "url": "https://gameofthrones.fandom.com/wiki/Hodor" }]
+}

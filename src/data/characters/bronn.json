@@ -1,0 +1,103 @@
+{
+  "slug": "bronn",
+  "name": "Bronn",
+  "short": "Bronn",
+  "principal": true,
+  "aliases": [],
+  "house": null,
+  "region": "Les Terres de la Couronne",
+  "camp": "westeros",
+  "allegiances": [],
+  "origin": "port-real",
+  "titles": [{ "text": "Mercenaire" }, { "text": "Chevalier", "s": 2 }, { "text": "Seigneur de Hautjardin", "s": 8 }],
+  "actor": "Jerome Flynn",
+  "firstSeason": 1,
+  "status": [{ "s": 1, "value": "vivant" }],
+  "summary": "Mercenaire sans maître, Bronn se bat pour celui qui paie et ne s’en cache pas. Il a le sens de l’humour, de l’argent et de sa propre survie.",
+  "bio": [
+    {
+      "s": 1,
+      "title": "Saison 1 — L’épée achetée",
+      "paragraphs": [
+        "Bronn fait partie de l’escorte de Catelyn quand elle arrête Tyrion. Aux Eyrié, lorsque Tyrion réclame un duel judiciaire, Bronn se propose comme champion. Il épuise son adversaire, mieux armé, en esquivant, puis le jette par la porte de la Lune. Tyrion le garde à son service, et Bronn lui sauve la vie à plusieurs reprises dans les montagnes."
+      ]
+    },
+    {
+      "s": 2,
+      "title": "Saison 2 — Le commandant du Guet",
+      "paragraphs": [
+        "Tyrion fait de lui le commandant des manteaux d’or. Bronn nettoie la ville à sa manière, sans état d’âme. À la Néra, c’est lui qui tire la flèche enflammée qui allume le feu grégeois sous la flotte de Stannis. Il est fait chevalier."
+      ]
+    },
+    {
+      "s": 3,
+      "title": "Saison 3 — L’ami de Tyrion",
+      "paragraphs": [
+        "Écarté par l’arrivée de Tywin, Bronn reste auprès de Tyrion, qu’il conseille avec un cynisme bienveillant sur son mariage avec Sansa et sa relation avec Shae."
+      ]
+    },
+    {
+      "s": 4,
+      "title": "Saison 4 — Le refus",
+      "paragraphs": [
+        "Bronn entraîne Jaime à se battre de la main gauche. Quand Tyrion lui demande d’être son champion contre la Montagne, il refuse : Cersei lui a offert un mariage avec une héritière. Ils se séparent en amis."
+      ]
+    },
+    {
+      "s": 5,
+      "title": "Saison 5 — Dorne",
+      "paragraphs": [
+        "Jaime emmène Bronn chercher Myrcella à Dorne en lui promettant un meilleur mariage. Blessé par la lame empoisonnée de Tyene, il obtient l’antidote après un échange de chansons et d’insolences en cellule."
+      ]
+    },
+    {
+      "s": 6,
+      "title": "Saison 6 — Vivesaigues",
+      "paragraphs": [
+        "Bronn accompagne Jaime au siège de Vivesaigues et le conseille sur la manière de faire plier les Frey."
+      ]
+    },
+    {
+      "s": 7,
+      "title": "Saison 7 — Le convoi",
+      "paragraphs": [
+        "Pendant l’attaque de Daenerys contre le convoi Lannister, Bronn tire au scorpion sur Drogon et le blesse. Il plonge dans la rivière avec Jaime pour le sauver des flammes, puis accompagne la délégation de Fosse-aux-Dragons."
+      ]
+    },
+    {
+      "s": 8,
+      "title": "Saison 8 — Le prix",
+      "paragraphs": [
+        "Cersei paie Bronn pour tuer ses frères. Il retrouve Tyrion et Jaime à Winterfell, l’arbalète à la main, et négocie à la place : il veut un château. Après la guerre, il obtient Hautjardin et devient grand argentier du roi Bran."
+      ]
+    }
+  ],
+  "keyMoments": [
+    { "s": 1, "title": "Le duel des Eyrié", "text": "Il se bat pour Tyrion et gagne.", "place": "les-eyrie" },
+    { "s": 2, "title": "La flèche", "text": "Il allume le feu grégeois de la Néra.", "place": "port-real" },
+    { "s": 4, "title": "Le refus", "text": "Il refuse d’affronter la Montagne pour Tyrion.", "place": "port-real" },
+    { "s": 7, "title": "Le scorpion", "text": "Il blesse Drogon pendant la bataille du convoi.", "place": "hautjardin" },
+    { "s": 8, "title": "Hautjardin", "text": "Il obtient enfin son château.", "place": "port-real" }
+  ],
+  "relations": [
+    { "to": "sandor-clegane", "type": "autre", "label": "Un autre homme d’épée sans illusions", "s": 7 }
+  ],
+  "places": [
+    { "place": "les-eyrie", "seasons": [1] },
+    { "place": "le-conflans", "seasons": [1] },
+    { "place": "port-real", "seasons": [2, 3, 4, 7, 8] },
+    { "place": "jardins-aquatiques", "seasons": [5] },
+    { "place": "vivesaigues", "seasons": [6] },
+    { "place": "hautjardin", "seasons": [7] },
+    { "place": "winterfell", "seasons": [8] }
+  ],
+  "codex": [],
+  "booksVsShow": {
+    "s": 5,
+    "paragraphs": [
+      "Dans les romans, Bronn ne va pas à Dorne et reste en retrait après le procès de Tyrion. La série a fait de lui un compagnon de Jaime, et lui a offert une fin bien plus confortable."
+    ]
+  },
+  "portrait": null,
+  "sources": [{ "label": "Wiki of Westeros — Bronn", "url": "https://gameofthrones.fandom.com/wiki/Bronn" }]
+}

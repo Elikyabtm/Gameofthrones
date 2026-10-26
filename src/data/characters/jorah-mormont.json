@@ -1,0 +1,116 @@
+{
+  "slug": "jorah-mormont",
+  "name": "Jorah Mormont",
+  "short": "Jorah",
+  "principal": true,
+  "aliases": [{ "text": "Ser Jorah" }, { "text": "l’Andal", "s": 1 }],
+  "house": "mormont",
+  "region": "Essos",
+  "camp": "essos",
+  "allegiances": [{ "to": "mormont" }, { "to": "targaryen" }],
+  "origin": "ile-aux-ours",
+  "titles": [{ "text": "Chevalier" }, { "text": "Ancien seigneur de l’île aux Ours" }],
+  "actor": "Iain Glen",
+  "firstSeason": 1,
+  "status": [
+    { "s": 1, "value": "vivant" },
+    { "s": 8, "value": "mort", "note": "Tué en défendant Daenerys pendant la bataille de Winterfell" }
+  ],
+  "summary": "Chevalier exilé de Westeros, ancien seigneur de l’île aux Ours, Jorah Mormont vit en Essos depuis qu’il a fui la justice d’Eddard Stark. Il se met au service de Daenerys dès son mariage.",
+  "bio": [
+    {
+      "s": 1,
+      "title": "Saison 1 — L’exilé",
+      "paragraphs": [
+        "Jorah offre à Daenerys des livres d’histoire pour cadeau de noces, et devient vite son guide dans la mer Dothrak : il lui explique les coutumes, les dangers, les hommes. Il a perdu ses terres pour avoir vendu des braconniers comme esclaves, et vit dans la honte. On découvre qu’il envoie des rapports à Varys sur les Targaryen, en échange d’un éventuel pardon royal.",
+        "Quand un marchand tente d’empoisonner Daenerys, c’est Jorah qui l’arrête. Il comprend ce jour-là qu’il a choisi un camp. Il reçoit un pardon de Robert qu’il ne veut plus. Après la mort de Drogo, il reste auprès de la khaleesi et assiste, incrédule, à la naissance des dragons."
+      ]
+    },
+    {
+      "s": 2,
+      "title": "Saison 2 — Le désert",
+      "paragraphs": [
+        "Jorah conduit les survivants à travers le désert Rouge et se méfie de Qarth, de Xaro et de tous ceux qui offrent quelque chose à sa reine. Il retrouve avec elle les dragons volés et la convainc de ne compter que sur elle-même."
+      ]
+    },
+    {
+      "s": 3,
+      "title": "Saison 3 — Le conseiller",
+      "paragraphs": [
+        "Jorah conseille d’acheter les Immaculés, puis prend Yunkaï avec Daario et Ver Gris. Il voit avec jalousie le mercenaire s’approcher de la reine qu’il aime en silence."
+      ]
+    },
+    {
+      "s": 4,
+      "title": "Saison 4 — Le bannissement",
+      "paragraphs": [
+        "Une lettre de pardon royal arrive à Meereen, envoyée par Tywin pour semer la discorde : elle prouve que Jorah a espionné Daenerys au début de leur voyage. La reine le chasse de la ville, sous peine de mort s’il revient."
+      ]
+    },
+    {
+      "s": 5,
+      "title": "Saison 5 — La léprose grise",
+      "paragraphs": [
+        "Pour reconquérir sa reine, Jorah enlève Tyrion dans un bordel de Volantis. En traversant les ruines de Valyria, il est touché par un homme-pierre et contracte la léprose grise, qu’il cache. Vendu comme esclave, il combat dans l’arène de Meereen, sauve Daenerys des Fils de la Harpie, mais elle refuse encore de le garder."
+      ]
+    },
+    {
+      "s": 6,
+      "title": "Saison 6 — L’aveu",
+      "paragraphs": [
+        "Avec Daario, Jorah retrouve Daenerys à Vaes Dothrak. Il lui avoue sa maladie et son amour. Elle lui ordonne de trouver un remède et de revenir."
+      ]
+    },
+    {
+      "s": 7,
+      "title": "Saison 7 — Le retour",
+      "paragraphs": [
+        "À la Citadelle, Samwell Tarly le guérit en secret en arrachant sa peau malade. Jorah rejoint Daenerys à Peyredragon et part avec Jon au-delà du Mur. Il lui rend Grand-Griffe, l’épée de sa famille."
+      ]
+    },
+    {
+      "s": 8,
+      "title": "Saison 8 — La Longue Nuit",
+      "paragraphs": [
+        "Pendant la bataille de Winterfell, Jorah protège Daenerys tombée de son dragon, encerclée par les morts. Il la défend jusqu’à ce que la lumière revienne, et meurt dans ses bras."
+      ]
+    }
+  ],
+  "keyMoments": [
+    { "s": 1, "title": "Le vin empoisonné", "text": "Il sauve Daenerys d’un assassin envoyé par Robert.", "place": "vaes-dothrak" },
+    { "s": 4, "title": "Le pardon royal", "text": "Sa trahison passée est révélée et il est banni.", "place": "meereen" },
+    { "s": 5, "title": "L’homme-pierre", "text": "Il contracte la léprose grise dans les ruines de Valyria.", "place": "valyria" },
+    { "s": 7, "title": "La guérison", "text": "Samwell le soigne à la Citadelle.", "place": "villevieille" },
+    { "s": 8, "title": "La dernière garde", "text": "Il meurt en protégeant sa reine.", "place": "winterfell" }
+  ],
+  "relations": [
+    { "to": "lyanna-mormont", "type": "autre", "label": "Sa jeune cousine, dame de l’île aux Ours", "inverseLabel": "Son cousin exilé", "s": 6 },
+    { "to": "varys", "type": "autre", "label": "L’Araignée à qui il envoyait ses rapports", "s": 1 },
+    { "to": "jon-snow", "type": "allie", "label": "Son compagnon d’expédition", "s": 7 },
+    { "to": "barristan-selmy", "type": "allie", "label": "Son compagnon de la garde de la reine", "s": 3 }
+  ],
+  "places": [
+    { "place": "pentos", "seasons": [1] },
+    { "place": "mer-dothrak", "seasons": [1, 6] },
+    { "place": "vaes-dothrak", "seasons": [1, 6] },
+    { "place": "qarth", "seasons": [2] },
+    { "place": "astapor", "seasons": [3] },
+    { "place": "yunkai", "seasons": [3] },
+    { "place": "meereen", "seasons": [4, 5] },
+    { "place": "volantis", "seasons": [5] },
+    { "place": "valyria", "seasons": [5] },
+    { "place": "villevieille", "seasons": [7] },
+    { "place": "peyredragon", "seasons": [7] },
+    { "place": "au-dela-du-mur", "seasons": [7] },
+    { "place": "winterfell", "seasons": [8] }
+  ],
+  "codex": ["dothrakis"],
+  "booksVsShow": {
+    "s": 5,
+    "paragraphs": [
+      "Dans les romans, c’est Tyrion, et non Jorah, qui est touché par un homme-pierre lors d’une traversée de la Rhoyne, sans que l’on sache encore s’il a contracté la maladie. La guérison par Samwell est propre à la série."
+    ]
+  },
+  "portrait": null,
+  "sources": [{ "label": "Wiki of Westeros — Jorah Mormont", "url": "https://gameofthrones.fandom.com/wiki/Jorah_Mormont" }]
+}

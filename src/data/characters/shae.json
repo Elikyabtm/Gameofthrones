@@ -1,0 +1,40 @@
+{
+  "slug": "shae",
+  "name": "Shae",
+  "short": "Shae",
+  "aliases": [],
+  "house": null,
+  "region": "Port-Réal",
+  "camp": "westeros",
+  "allegiances": [],
+  "origin": "lorath",
+  "titles": [],
+  "actor": "Sibel Kekilli",
+  "firstSeason": 1,
+  "status": [
+    { "s": 1, "value": "vivant" },
+    { "s": 4, "value": "mort", "note": "Étranglée par Tyrion dans le lit de Tywin" }
+  ],
+  "summary": "Jeune femme venue d’Essos, Shae suit le camp des Lannister quand elle rencontre Tyrion. Elle a de l’esprit, du caractère, et refuse qu’on lui raconte des histoires.",
+  "bio": [
+    { "s": 1, "title": "Saison 1 — Le camp", "paragraphs": ["Bronn amène Shae à Tyrion, la veille d’une bataille. Elle refuse de lui raconter son passé et devine celui de Tyrion. Il la garde avec lui, malgré l’interdiction de son père d’emmener ses compagnes à la cour."] },
+    { "s": 2, "title": "Saison 2 — La servante de Sansa", "paragraphs": ["À Port-Réal, Tyrion cache Shae en la faisant engager comme servante de Sansa Stark. Elle protège la jeune fille, l’aide à cacher ses premières règles à la reine, et s’attache à elle."] },
+    { "s": 3, "title": "Saison 3 — La jalousie", "paragraphs": ["Le mariage de Tyrion avec Sansa blesse Shae, qui refuse la vie de maîtresse cachée qu’il lui propose."] },
+    { "s": 4, "title": "Saison 4 — Le témoignage", "paragraphs": ["Pour la sauver de Cersei, Tyrion la renvoie avec cruauté, en lui disant qu’elle n’est qu’une prostituée. Elle ne monte pas sur le navire. Au procès, elle témoigne contre lui, en racontant leur intimité devant toute la cour. Tyrion la retrouve dans le lit de son père et l’étrangle."] }
+  ],
+  "keyMoments": [
+    { "s": 2, "title": "Le secret de Sansa", "text": "Elle protège la jeune fille de la reine.", "place": "port-real" },
+    { "s": 4, "title": "Le témoignage", "text": "Elle accable Tyrion au procès.", "place": "port-real" }
+  ],
+  "relations": [
+    { "to": "sansa-stark", "type": "allie", "label": "La jeune fille qu’elle sert et protège", "s": 2 },
+    { "to": "bronn", "type": "autre", "label": "Celui qui l’a amenée à Tyrion", "s": 1 }
+  ],
+  "places": [
+    { "place": "le-conflans", "seasons": [1] },
+    { "place": "port-real", "seasons": [2, 3, 4] }
+  ],
+  "codex": [],
+  "portrait": null,
+  "sources": [{ "label": "Wiki of Westeros — Shae", "url": "https://gameofthrones.fandom.com/wiki/Shae" }]
+}

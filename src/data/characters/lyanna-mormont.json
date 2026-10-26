@@ -1,0 +1,41 @@
+{
+  "slug": "lyanna-mormont",
+  "name": "Lyanna Mormont",
+  "short": "Lyanna Mormont",
+  "aliases": [],
+  "house": "mormont",
+  "region": "Le Nord",
+  "camp": "westeros",
+  "allegiances": [{ "to": "mormont" }, { "to": "stark" }],
+  "origin": "ile-aux-ours",
+  "titles": [{ "text": "Dame de l’île aux Ours" }],
+  "actor": "Bella Ramsey",
+  "firstSeason": 6,
+  "status": [
+    { "s": 6, "value": "vivant" },
+    { "s": 8, "value": "mort", "note": "Tuée par un géant mort, qu’elle a abattu en mourant" }
+  ],
+  "summary": "Dame de l’île aux Ours à dix ans à peine, Lyanna Mormont parle aux rois comme à des écoliers. Elle se souvient de ce que le Nord doit aux Stark, et de ce que les Stark doivent au Nord.",
+  "bio": [
+    { "s": 6, "title": "Saison 6 — La petite dame", "paragraphs": ["Jon, Sansa et Davos viennent chercher le soutien de l’île aux Ours. Lyanna les reçoit sans se laisser impressionner et rappelle que son île a déjà donné beaucoup d’hommes aux guerres des Stark. Davos la convainc en lui parlant de ce qui vient du nord. Elle offre soixante-deux hommes, tous ceux qu’elle a. Après la bataille, à Winterfell, elle humilie les seigneurs qui n’ont pas répondu à l’appel et proclame Jon roi du Nord."] },
+    { "s": 7, "title": "Saison 7 — La voix du Nord", "paragraphs": ["Lyanna défend Jon quand il décide de partir pour Peyredragon, et s’entraîne avec les femmes de son île : dans le Nord, tout le monde se battra."] },
+    { "s": 8, "title": "Saison 8 — Le géant", "paragraphs": ["Pendant la bataille de Winterfell, un géant mort pénètre dans la cour. Lyanna charge seule, est saisie et écrasée dans sa main, mais elle lui plante sa lame de verre-dragon dans l’œil avant de mourir. Le géant tombe avec elle."] }
+  ],
+  "keyMoments": [
+    { "s": 6, "title": "Soixante-deux hommes", "text": "Elle offre toute son armée aux Stark.", "place": "ile-aux-ours" },
+    { "s": 6, "title": "Le roi du Nord", "text": "Elle fait honte aux seigneurs et proclame Jon.", "place": "winterfell" },
+    { "s": 8, "title": "Le géant", "text": "Elle tue un géant au prix de sa vie.", "place": "winterfell" }
+  ],
+  "relations": [
+    { "to": "jon-snow", "type": "suzerain", "label": "Le roi qu’elle a proclamé", "inverseLabel": "Sa vassale la plus fidèle", "s": 6 },
+    { "to": "davos-mervault", "type": "autre", "label": "L’homme qui l’a convaincue", "s": 6 },
+    { "to": "sansa-stark", "type": "allie", "label": "Son alliée", "s": 6 }
+  ],
+  "places": [
+    { "place": "ile-aux-ours", "seasons": [6] },
+    { "place": "winterfell", "seasons": [6, 7, 8] }
+  ],
+  "codex": [],
+  "portrait": null,
+  "sources": [{ "label": "Wiki of Westeros — Lyanna Mormont", "url": "https://gameofthrones.fandom.com/wiki/Lyanna_Mormont" }]
+}

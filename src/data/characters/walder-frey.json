@@ -1,0 +1,40 @@
+{
+  "slug": "walder-frey",
+  "name": "Walder Frey",
+  "short": "Walder Frey",
+  "aliases": [{ "text": "le Vieux Frey" }],
+  "house": "frey",
+  "region": "Le Conflans",
+  "camp": "westeros",
+  "allegiances": [{ "to": "frey" }, { "to": "tully", "until": 3 }, { "to": "lannister", "s": 3 }],
+  "origin": "les-jumeaux",
+  "titles": [{ "text": "Seigneur du Pont" }, { "text": "Seigneur des Jumeaux" }],
+  "actor": "David Bradley",
+  "firstSeason": 1,
+  "status": [
+    { "s": 1, "value": "vivant" },
+    { "s": 6, "value": "mort", "note": "Égorgé par Arya Stark aux Jumeaux" }
+  ],
+  "summary": "Seigneur des Jumeaux, maître de l’unique pont sur la Verfurque, Walder Frey a survécu à toutes les guerres en monnayant son passage. Il a eu tant d’enfants qu’il ne les reconnaît plus.",
+  "bio": [
+    { "s": 1, "title": "Saison 1 — Le péage", "paragraphs": ["Robb a besoin de franchir le pont des Jumeaux. Walder reçoit Catelyn, entouré de sa progéniture et de sa jeune épouse, et fait payer le passage : Robb épousera l’une de ses filles, et Arya l’un de ses fils."] },
+    { "s": 3, "title": "Saison 3 — Les Noces pourpres", "paragraphs": ["Robb a épousé une autre femme. Walder exige en réparation que son oncle Edmure épouse Roslin, et des excuses en personne. Il reçoit l’armée du Nord avec un pain et du sel, gage d’hospitalité. Au milieu du festin, il fait fermer les portes. Les musiciens jouent « Les Pluies de Castamere ». Il regarde mourir le roi du Nord et sa mère sans quitter son siège."] },
+    { "s": 6, "title": "Saison 6 — Le dernier festin", "paragraphs": ["Walder fête la reprise de Vivesaigues avec Jaime, qui le méprise ouvertement. Un soir, une servante lui apporte une tourte. Il demande où sont ses fils ; elle lui montre la tourte. Puis elle retire son visage : c’est Arya Stark. Elle l’égorge, comme il avait fait égorger sa mère."] }
+  ],
+  "keyMoments": [
+    { "s": 1, "title": "Le marché du pont", "text": "Il vend le passage contre deux mariages.", "place": "les-jumeaux" },
+    { "s": 3, "title": "Les Noces pourpres", "text": "Il trahit les lois de l’hospitalité.", "place": "les-jumeaux" },
+    { "s": 6, "title": "La tourte", "text": "Arya le tue après lui avoir servi ses fils.", "place": "les-jumeaux" }
+  ],
+  "relations": [
+    { "to": "roose-bolton", "type": "allie", "label": "Son complice aux Jumeaux", "s": 3 },
+    { "to": "jaime-lannister", "type": "allie", "label": "L’allié qui le méprise", "s": 6 }
+  ],
+  "places": [
+    { "place": "les-jumeaux", "seasons": [1, 3, 6] },
+    { "place": "vivesaigues", "seasons": [6] }
+  ],
+  "codex": [],
+  "portrait": "images/personnages/walder-frey.webp",
+  "sources": [{ "label": "Wiki of Westeros — Walder Frey", "url": "https://gameofthrones.fandom.com/wiki/Walder_Frey" }]
+}

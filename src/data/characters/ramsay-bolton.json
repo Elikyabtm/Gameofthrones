@@ -1,0 +1,73 @@
+{
+  "slug": "ramsay-bolton",
+  "name": "Ramsay Bolton",
+  "short": "Ramsay",
+  "principal": true,
+  "aliases": [{ "text": "Ramsay Snow" }],
+  "house": "bolton",
+  "region": "Le Nord",
+  "camp": "westeros",
+  "allegiances": [{ "to": "bolton" }],
+  "origin": "fort-terreur",
+  "titles": [{ "text": "Bâtard de Fort-Terreur" }, { "text": "Seigneur de Fort-Terreur", "s": 6 }, { "text": "Gouverneur du Nord", "s": 6 }],
+  "actor": "Iwan Rheon",
+  "firstSeason": 3,
+  "status": [
+    { "s": 3, "value": "vivant" },
+    { "s": 6, "value": "mort", "note": "Dévoré par ses propres chiens à Winterfell" }
+  ],
+  "summary": "Fils bâtard de Roose Bolton, Ramsay n’a rien du calme de son père : il aime chasser, torturer et jouer avec ceux qu’il tient. Il veut plus que tout être reconnu comme un vrai Bolton.",
+  "bio": [
+    {
+      "s": 3,
+      "title": "Saison 3 — Le libérateur",
+      "paragraphs": [
+        "Un jeune homme sans nom se présente à Theon Greyjoy comme un serviteur envoyé par sa sœur. Il le libère, le guide dans la campagne, l’écoute raconter ses remords, puis le ramène tranquillement au lieu de sa captivité. C’était un jeu. Ramsay torture Theon pendant des semaines, le fait douter de tout, le mutile, puis envoie à Pyk une partie de son corps dans un coffret. Il ne dit jamais son nom ; Theon finit par le deviner."
+      ]
+    },
+    {
+      "s": 4,
+      "title": "Saison 4 — Schlingue et Moat Cailin",
+      "paragraphs": [
+        "Ramsay a fait de Theon un serviteur brisé, qu’il appelle Schlingue et qu’il oblige à lui raser la gorge pour mesurer sa soumission. Quand Yara vient chercher son frère, Ramsay la repousse avec ses chiens, et Theon lui-même refuse de partir. Roose s’indigne d’abord du sort réservé à un otage précieux, puis charge son fils de reprendre Moat Cailin. Ramsay y envoie Theon déguisé en prince fer-né pour convaincre la garnison de se rendre, puis fait écorcher les hommes qui ont cru à sa parole. Pour sa récompense, son père le légitime : il devient Ramsay Bolton."
+      ]
+    },
+    {
+      "s": 5,
+      "title": "Saison 5 — Le mari de Sansa",
+      "paragraphs": [
+        "À Winterfell, Ramsay épouse Sansa Stark, arrangement imaginé par Littlefinger, et viole sa femme la nuit de leurs noces en forçant Theon à regarder. Il apprend que son père va avoir un fils légitime et craint pour son héritage. Quand Stannis marche sur Winterfell, Ramsay mène vingt hommes dans la nuit, incendie ses vivres et ses chevaux, et réduit son armée à néant avant même la bataille. Il perd pourtant Sansa, qui s’enfuit avec Theon par-dessus les remparts."
+      ]
+    },
+    {
+      "s": 6,
+      "title": "Saison 6 — La bataille des Bâtards",
+      "paragraphs": [
+        "Ramsay tue son père le jour de la naissance de son demi-frère, puis livre sa belle-mère et l’enfant à ses chiens. Il reçoit des Omble le petit Rickon Stark en otage et écrit à Jon une lettre de défi. Devant Winterfell, il libère Rickon et le tue d’une flèche alors que l’enfant court vers son frère, puis encercle l’armée de Jon dans un piège de boucliers. La charge des chevaliers du Val renverse tout. Jon le poursuit jusque dans la cour et le roue de coups. Sansa le fait attacher dans les chenils, où ses chiens, affamés depuis sept jours, le dévorent."
+      ]
+    }
+  ],
+  "keyMoments": [
+    { "s": 3, "title": "La fausse évasion", "text": "Il libère Theon pour mieux le reprendre.", "place": "fort-terreur" },
+    { "s": 4, "title": "Moat Cailin", "text": "Il obtient sa légitimation par une trahison.", "place": "fort-terreur" },
+    { "s": 5, "title": "Les vingt hommes", "text": "Il détruit l’armée de Stannis avant la bataille.", "place": "winterfell" },
+    { "s": 6, "title": "La bataille des Bâtards", "text": "Il perd Winterfell face à Jon et Sansa.", "place": "winterfell" },
+    { "s": 6, "title": "Les chiens", "text": "Sansa le livre à ses propres chiens.", "place": "winterfell" }
+  ],
+  "relations": [
+    { "to": "jon-snow", "type": "ennemi", "label": "L’autre bâtard, son adversaire", "s": 6 }
+  ],
+  "places": [
+    { "place": "fort-terreur", "seasons": [3, 4] },
+    { "place": "winterfell", "seasons": [5, 6] }
+  ],
+  "codex": [],
+  "booksVsShow": {
+    "s": 5,
+    "paragraphs": [
+      "Dans les romans, Ramsay n’épouse pas Sansa mais une jeune fille que l’on fait passer pour Arya Stark. Il n’y est pas non plus le « libérateur » de Theon : ce prologue de la saison 3 a été écrit pour la série."
+    ]
+  },
+  "portrait": "images/personnages/ramsay-bolton.webp",
+  "sources": [{ "label": "Wiki of Westeros — Ramsay Bolton", "url": "https://gameofthrones.fandom.com/wiki/Ramsay_Bolton" }]
+}

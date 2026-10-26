@@ -1,0 +1,43 @@
+{
+  "slug": "barristan-selmy",
+  "name": "Barristan Selmy",
+  "short": "Barristan",
+  "aliases": [{ "text": "Barristan le Hardi" }],
+  "house": null,
+  "region": "Les Terres de l’Orage",
+  "camp": "westeros",
+  "allegiances": [{ "to": "baratheon", "until": 3 }, { "to": "targaryen", "s": 3 }],
+  "origin": "port-real",
+  "titles": [{ "text": "Lord Commandant de la Garde Royale" }, { "text": "Lord Commandant de la Garde de la Reine", "s": 3 }],
+  "actor": "Ian McElhinney",
+  "firstSeason": 1,
+  "status": [
+    { "s": 1, "value": "vivant" },
+    { "s": 5, "value": "mort", "note": "Tué par les Fils de la Harpie dans les rues de Meereen" }
+  ],
+  "summary": "Lord Commandant de la Garde Royale, Barristan Selmy est une légende vivante : il a servi plusieurs rois et combattu dans toutes les guerres de sa vie. Il garde une loyauté sans faille.",
+  "bio": [
+    { "s": 1, "title": "Saison 1 — Le vieux chevalier", "paragraphs": ["Barristan sert Robert avec dévouement et le regarde mourir de sa blessure de chasse. Joffrey le congédie sans égards ; il jette son manteau blanc aux pieds du roi et quitte la ville."] },
+    { "s": 3, "title": "Saison 3 — La reine", "paragraphs": ["Barristan rejoint Daenerys à Astapor, juste à temps pour la sauver d’un assassin, et lui propose son épée. Il espère racheter son service passé auprès de l’Usurpateur."] },
+    { "s": 4, "title": "Saison 4 — La lettre", "paragraphs": ["Barristan conseille la reine à Meereen. C’est lui qui reçoit la lettre de pardon royal adressée à Jorah, preuve qu’il espionnait Daenerys."] },
+    { "s": 5, "title": "Saison 5 — Les rues", "paragraphs": ["Barristan raconte à Daenerys que son frère Rhaegar aimait chanter dans les rues de Port-Réal. Quelques jours plus tard, il court au secours de Ver Gris, tombé dans une embuscade des Fils de la Harpie, et meurt après en avoir tué une dizaine."] }
+  ],
+  "keyMoments": [
+    { "s": 1, "title": "Le manteau blanc", "text": "Il quitte la Garde Royale congédié par Joffrey.", "place": "port-real" },
+    { "s": 3, "title": "Le serment", "text": "Il offre son épée à Daenerys.", "place": "astapor" },
+    { "s": 5, "title": "La dernière bataille", "text": "Il meurt en défendant Ver Gris.", "place": "meereen" }
+  ],
+  "relations": [
+    { "to": "ser-arthur-dayne", "type": "allie", "label": "Son ancien frère de la Garde Royale", "s": 6 },
+    { "to": "joffrey-baratheon", "type": "ennemi", "label": "Le roi qui l’a congédié", "s": 1 }
+  ],
+  "places": [
+    { "place": "port-real", "seasons": [1] },
+    { "place": "astapor", "seasons": [3] },
+    { "place": "yunkai", "seasons": [3] },
+    { "place": "meereen", "seasons": [4, 5] }
+  ],
+  "codex": ["garde-royale"],
+  "portrait": null,
+  "sources": [{ "label": "Wiki of Westeros — Barristan Selmy", "url": "https://gameofthrones.fandom.com/wiki/Barristan_Selmy" }]
+}

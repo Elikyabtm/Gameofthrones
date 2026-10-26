@@ -1,0 +1,40 @@
+{
+  "slug": "osha",
+  "name": "Osha",
+  "short": "Osha",
+  "aliases": [],
+  "house": null,
+  "region": "Au-delà du Mur",
+  "camp": "au-dela-du-mur",
+  "allegiances": [{ "to": "stark" }],
+  "origin": "au-dela-du-mur",
+  "titles": [],
+  "actor": "Natalia Tena",
+  "firstSeason": 1,
+  "status": [
+    { "s": 1, "value": "vivant" },
+    { "s": 6, "value": "mort", "note": "Poignardée par Ramsay Bolton" }
+  ],
+  "summary": "Sauvageonne venue d’au-delà du Mur pour fuir ce qui s’y prépare, Osha est capturée près de Winterfell. Elle devient la protectrice inattendue des plus jeunes Stark.",
+  "bio": [
+    { "s": 1, "title": "Saison 1 — La prisonnière", "paragraphs": ["Osha et des compagnons attaquent Bran dans le bois aux loups ; Robb la capture. Domestique à Winterfell, elle parle à Bran des Marcheurs blancs, auxquels personne au Sud ne croit."] },
+    { "s": 2, "title": "Saison 2 — La ruse", "paragraphs": ["Pendant l’occupation de Theon, Osha le séduit, puis s’enfuit avec Bran, Rickon et Hodor. Elle les cache dans les cryptes et les guide hors des ruines."] },
+    { "s": 3, "title": "Saison 3 — La séparation", "paragraphs": ["Osha se méfie des Reed et refuse de retourner au nord du Mur. Elle emmène Rickon vers Dernier Âtre, chez les Omble."] },
+    { "s": 6, "title": "Saison 6 — Le couteau", "paragraphs": ["Livrée à Ramsay avec Rickon par Smalljon Omble, Osha tente de séduire son nouveau maître pour le tuer avec un couteau caché. Ramsay a compris, et la tue le premier."] }
+  ],
+  "keyMoments": [
+    { "s": 2, "title": "L’évasion", "text": "Elle trompe Theon et sauve les fils Stark.", "place": "winterfell" },
+    { "s": 6, "title": "Le couteau", "text": "Elle échoue à tuer Ramsay.", "place": "winterfell" }
+  ],
+  "relations": [
+    { "to": "ramsay-bolton", "type": "ennemi", "label": "Son assassin", "s": 6 },
+    { "to": "robb-stark", "type": "autre", "label": "Celui qui l’a capturée", "s": 1 }
+  ],
+  "places": [
+    { "place": "winterfell", "seasons": [1, 2, 6] },
+    { "place": "au-dela-du-mur", "seasons": [3] }
+  ],
+  "codex": ["peuple-libre", "marcheurs-blancs"],
+  "portrait": null,
+  "sources": [{ "label": "Wiki of Westeros — Osha", "url": "https://gameofthrones.fandom.com/wiki/Osha" }]
+}

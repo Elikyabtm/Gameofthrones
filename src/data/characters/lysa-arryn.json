@@ -1,0 +1,37 @@
+{
+  "slug": "lysa-arryn",
+  "name": "Lysa Arryn",
+  "short": "Lysa",
+  "aliases": [{ "text": "Lysa Tully" }],
+  "house": "arryn",
+  "region": "Le Val",
+  "camp": "westeros",
+  "allegiances": [{ "to": "arryn" }, { "to": "tully" }],
+  "origin": "vivesaigues",
+  "titles": [{ "text": "Dame des Eyrié" }, { "text": "Régente du Val" }],
+  "actor": "Kate Dickie",
+  "firstSeason": 1,
+  "status": [
+    { "s": 1, "value": "vivant" },
+    { "s": 4, "value": "mort", "note": "Poussée par Petyr Baelish par la porte de la Lune" }
+  ],
+  "summary": "Sœur cadette de Catelyn et veuve de Jon Arryn, Lysa gouverne le Val au nom de son jeune fils. Elle le protège avec une inquiétude qui confine à la peur.",
+  "bio": [
+    { "s": 1, "title": "Saison 1 — Les Eyrié", "paragraphs": ["Après la mort de son mari, Lysa s’est enfuie aux Eyrié avec son fils Robin, qu’elle allaite encore à six ans. C’est sa lettre qui accuse les Lannister d’avoir tué Jon Arryn. Quand Catelyn arrive avec Tyrion prisonnier, Lysa le jette dans une cellule ouverte sur le vide et accepte le duel judiciaire qu’il réclame, persuadée que son champion gagnera. Elle perd."] },
+    { "s": 4, "title": "Saison 4 — Le mariage et la chute", "paragraphs": ["Lysa épouse Petyr Baelish, qu’elle aime depuis l’enfance. Elle accueille Sansa sous le nom d’Alayne, et révèle à demi-mot qu’elle a empoisonné Jon Arryn à la demande de Littlefinger, et écrit la lettre accusant les Lannister. Jalouse de sa nièce, qu’elle voit embrassée par Baelish, elle la menace au bord de la porte de la Lune. Petyr la rassure, lui dit qu’il n’a jamais aimé qu’une femme : sa sœur Catelyn. Et la pousse dans le vide."] }
+  ],
+  "keyMoments": [
+    { "s": 1, "title": "Les cellules du ciel", "text": "Elle emprisonne Tyrion au bord du vide.", "place": "les-eyrie" },
+    { "s": 4, "title": "Le poison", "text": "Elle avoue avoir empoisonné Jon Arryn sur l’ordre de Petyr.", "place": "les-eyrie" },
+    { "s": 4, "title": "La porte de la Lune", "text": "Petyr la pousse dans le vide.", "place": "les-eyrie" }
+  ],
+  "relations": [
+    { "to": "robin-arryn", "type": "enfant", "label": "Son fils, qu’elle couve", "inverseLabel": "Sa mère", "s": 1 },
+    { "to": "petyr-baelish", "type": "conjoint", "label": "Son second mari, son assassin", "s": 4 },
+    { "to": "tyrion-lannister", "type": "ennemi", "label": "Son prisonnier", "s": 1 }
+  ],
+  "places": [{ "place": "les-eyrie", "seasons": [1, 4] }],
+  "codex": [],
+  "portrait": "images/personnages/lysa-arryn.webp",
+  "sources": [{ "label": "Wiki of Westeros — Lysa Arryn", "url": "https://gameofthrones.fandom.com/wiki/Lysa_Arryn" }]
+}
