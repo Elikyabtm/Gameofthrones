@@ -6,6 +6,7 @@
 
 /* ---------- Intro ---------- */
 .intro {
+  overflow-x: clip; /* le voile du titre déborde sans créer de défilement horizontal */
   display: grid;
   place-items: center;
   min-height: 100vh;
