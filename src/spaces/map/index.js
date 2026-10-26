@@ -7,7 +7,7 @@ import { renderJourney, SEGMENTS, STEPS } from './render.js';
 import { bindWhoHover, renderWho } from './who.js';
 import { SEQ } from '../../world/seq.js';
 
-const PALIER = SEQ.plunge + 0.02; // début du palier « dans le lieu »
+const PALIER = SEQ.plunge + 0.08; // palier « dans le lieu », texte entièrement apparu
 const SOUND_ZONE = {
   'au-dela-du-mur': 'vent',
   'le-mur': 'vent',
