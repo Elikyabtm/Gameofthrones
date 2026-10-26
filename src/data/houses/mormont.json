@@ -1,0 +1,108 @@
+{
+  "slug": "mormont",
+  "name": "Maison Mormont",
+  "words": "Ici nous tenons",
+  "sigil": "sigils/mormont.svg",
+  "sigilDescription": "Un ours noir dressé sur champ vert, encadré de bois",
+  "sigilCredit": "Création originale du projet",
+  "color": "#5d6b4f",
+  "seat": "ile-aux-ours",
+  "region": "Le Nord",
+  "summary": "Petite maison du Nord, sur l’île aux Ours, connue pour ses femmes guerrières et sa loyauté envers les Stark.",
+  "overlord": [
+    {
+      "to": "stark"
+    }
+  ],
+  "vassals": [],
+  "founded": "Il y a plus de mille ans",
+  "history": [
+    "Les Mormont gouvernent l’île aux Ours, une île boisée et rocheuse au large de la côte ouest du Nord. Ils reçurent l’île d’un roi du Nord, il y a plus de mille ans. Ce n’est pas une maison riche ni nombreuse : l’île ne compte que quelques centaines d’habitants, pêcheurs et bûcherons, qui vivent dans des maisons de bois sous la menace constante des pillards fer-nés.",
+    "Pour se défendre, les femmes de l’île ont appris à se battre comme les hommes. On raconte des histoires de mères qui gardaient leurs enfants une hache à la main, et les dames Mormont sont aussi redoutées que leurs maris. La maison n’a jamais trahi les Stark.",
+    "Lord Jeor Mormont, l’ancien seigneur, a renoncé à son titre pour prendre le noir et commande la Garde de Nuit au Mur. Son fils Jorah, qui avait hérité de l’île, s’est déshonoré en vendant des braconniers à des marchands d’esclaves pour payer les caprices de sa seconde épouse. Pour échapper à la sentence d’Eddard Stark, il s’est exilé en Essos. Le gouvernement de l’île est revenu à la sœur de Jeor, Maege, puis à ses filles.",
+    "C’est la plus jeune d’entre elles, Lyanna, qui fera entendre la voix de la maison au moment décisif, en rappelant aux seigneurs du Nord le serment qu’ils ont fait aux Stark."
+  ],
+  "inTheSeries": [
+    {
+      "s": 1,
+      "title": "Saison 1 — Deux exilés",
+      "paragraphs": [
+        "Jeor commande la Garde de Nuit et accueille Jon Snow ; Jorah sert Daenerys en Essos."
+      ]
+    },
+    {
+      "s": 3,
+      "title": "Saison 3 — La mutinerie",
+      "paragraphs": [
+        "Le lord commandant Mormont est tué par ses propres hommes chez Craster."
+      ]
+    },
+    {
+      "s": 6,
+      "title": "Saison 6 — Une petite dame",
+      "paragraphs": [
+        "Lyanna Mormont, dix ans, offre ses soixante-deux combattants à Jon et convainc le Nord de le proclamer roi."
+      ]
+    },
+    {
+      "s": 8,
+      "title": "Saison 8 — La Longue Nuit",
+      "paragraphs": [
+        "Lyanna et Jorah meurent tous deux pendant la bataille de Winterfell."
+      ]
+    }
+  ],
+  "figures": [
+    "Maege Mormont"
+  ],
+  "members": [
+    "jeor-mormont",
+    "jorah-mormont",
+    "lyanna-mormont"
+  ],
+  "tree": {
+    "people": [
+      {
+        "id": "jeor-mormont",
+        "character": "jeor-mormont"
+      },
+      {
+        "id": "maege-mormont",
+        "name": "Maege Mormont",
+        "note": "Sœur de Jeor",
+        "deadBefore": true
+      },
+      {
+        "id": "jorah-mormont",
+        "character": "jorah-mormont"
+      },
+      {
+        "id": "lyanna-mormont",
+        "character": "lyanna-mormont",
+        "s": 6
+      }
+    ],
+    "unions": [
+      {
+        "a": "jeor-mormont",
+        "children": [
+          "jorah-mormont"
+        ]
+      },
+      {
+        "a": "maege-mormont",
+        "children": [
+          "lyanna-mormont"
+        ],
+        "s": 6
+      }
+    ]
+  },
+  "_doute": "Mort de Maege Mormont avant la saison 6 : la série ne la montre pas.",
+  "sources": [
+    {
+      "label": "Wiki of Westeros — House Mormont",
+      "url": "https://gameofthrones.fandom.com/wiki/House_Mormont"
+    }
+  ]
+}

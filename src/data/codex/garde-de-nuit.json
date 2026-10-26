@@ -1,48 +1,115 @@
 {
   "slug": "garde-de-nuit",
   "rubric": "ordres",
-  "name": "La Garde de Nuit",
-  "kicker": "Westeros · Le Mur",
-  "lead": "Un ordre de frères jurés chargé de garder la frontière du Nord.",
+  "name": "Garde de Nuit",
+  "kicker": "Les veilleurs du Mur",
+  "featured": true,
+  "lead": "Ordre militaire qui garde le Mur depuis huit mille ans, et dont les membres renoncent à tout pour la vie.",
   "body": [
-    "La Garde de Nuit recrute parmi les volontaires, les bannis et les condamnés. Le serment engage une vie entière et impose de renoncer aux terres, aux titres et à la fondation d’une famille. Le noir porté par les frères matérialise ce passage hors des anciennes appartenances.",
-    "Patrouilleurs, constructeurs et intendants remplissent des missions différentes : explorer, entretenir et faire vivre les forteresses. L’ordre se veut à l’écart des querelles des couronnes, mais il dépend du reste du continent pour ses ressources et ses recrues. Sa mission se complique lorsque les dangers d’au-delà du Mur ne correspondent plus aux habitudes de ses membres."
+    "La Garde de Nuit a été fondée après la Longue Nuit pour défendre les royaumes des hommes contre ce qui viendrait du Nord. Ses membres, les frères jurés, vivent dans les châteaux bâtis le long du Mur, dont la plupart sont aujourd’hui abandonnés. Ils sont vêtus de noir, ce qui leur vaut le surnom de « corneilles ».",
+    "En entrant dans l’ordre, un homme prononce des vœux à vie : il renonce à toute terre, à toute femme, à toute couronne et à toute gloire, et ne reconnaît plus d’autre famille que ses frères. Désertion signifie mort. En échange, ses crimes passés sont effacés. C’est pourquoi la Garde compte autant de voleurs, de violeurs et de fils cadets déshérités que de volontaires.",
+    "L’ordre se divise en trois branches : les patrouilleurs, qui partent en reconnaissance au-delà du Mur ; les bâtisseurs, qui entretiennent les fortifications ; les intendants, qui gèrent les vivres et les armes. Le lord commandant est élu par tous les frères.",
+    "Au début de l’histoire, la Garde est l’ombre d’elle-même. Moins d’un millier d’hommes tiennent trois forts sur dix-neuf. Au sud, on la considère comme une prison commode ; on a oublié pourquoi elle existe."
+  ],
+  "inTheSeries": [
+    {
+      "s": 1,
+      "title": "Saison 1 — Les recrues",
+      "paragraphs": [
+        "Jon Snow et Samwell Tarly prennent le noir. Jeor Mormont commande l’ordre ; mestre Aemon en est le mestre."
+      ]
+    },
+    {
+      "s": 2,
+      "title": "Saison 2 — La grande patrouille",
+      "paragraphs": [
+        "Une expédition part au-delà du Mur et finit au Poing des Premiers Hommes, attaquée par les morts."
+      ]
+    },
+    {
+      "s": 3,
+      "title": "Saison 3 — La mutinerie",
+      "paragraphs": [
+        "Des frères assassinent le lord commandant Mormont chez Craster."
+      ]
+    },
+    {
+      "s": 4,
+      "title": "Saison 4 — La défense de Châteaunoir",
+      "paragraphs": [
+        "La Garde repousse l’assaut du peuple libre. Ygritte meurt dans la bataille."
+      ]
+    },
+    {
+      "s": 5,
+      "title": "Saison 5 — Pour la Garde",
+      "paragraphs": [
+        "Jon, élu lord commandant, laisse passer le peuple libre au sud du Mur. Des frères menés par Alliser Thorne le poignardent."
+      ]
+    },
+    {
+      "s": 6,
+      "title": "Saison 6 — Ma garde est finie",
+      "paragraphs": [
+        "Revenu à la vie, Jon fait pendre ses assassins et quitte l’ordre."
+      ]
+    },
+    {
+      "s": 8,
+      "title": "Saison 8 — Le retour au Mur",
+      "paragraphs": [
+        "Jon est renvoyé dans la Garde de Nuit comme châtiment."
+      ]
+    }
   ],
   "facts": [
     {
-      "label": "Langue",
-      "value": "Langue commune"
+      "label": "Fondation",
+      "value": "Après la Longue Nuit"
     },
     {
-      "label": "Visages & repères",
-      "value": "Jeor Mormont · Jon Snow · Samwell Tarly"
+      "label": "Siège",
+      "value": "Châteaunoir"
+    },
+    {
+      "label": "Effectif au début de la série",
+      "value": "Moins d’un millier d’hommes"
     }
   ],
   "terms": [
     {
-      "term": "Siège",
-      "def": "Châteaunoir"
+      "term": "Prendre le noir",
+      "def": "Entrer dans la Garde de Nuit."
     },
     {
-      "term": "Engagement",
-      "def": "à vie"
+      "term": "Patrouilleur",
+      "def": "Frère chargé des reconnaissances au-delà du Mur."
     },
     {
-      "term": "Devise",
-      "def": "veiller"
-    },
-    {
-      "term": "Fonctions",
-      "def": "trois corps"
+      "term": "Intendant",
+      "def": "Frère chargé de l’approvisionnement."
     }
   ],
-  "places": [],
-  "characters": [],
+  "places": [
+    "chateaunoir",
+    "au-dela-du-mur"
+  ],
+  "characters": [
+    "jon-snow",
+    "samwell-tarly",
+    "jeor-mormont",
+    "aemon-targaryen",
+    "alliser-thorne",
+    "eddison-tollett",
+    "qhorin-mimain",
+    "benjen-stark",
+    "janos-slynt"
+  ],
   "image": "images/garde-de-nuit.webp",
   "sources": [
     {
-      "label": "A Wiki of Ice and Fire",
-      "url": "https://awoiaf.westeros.org/index.php/Night%27s_Watch"
+      "label": "Wiki of Westeros — Night's Watch",
+      "url": "https://gameofthrones.fandom.com/wiki/Night's_Watch"
     }
   ]
 }

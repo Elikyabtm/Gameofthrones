@@ -1,27 +1,37 @@
 {
   "slug": "langue-lhazareenne",
   "rubric": "langues",
-  "name": "Le lhazaréen",
-  "kicker": "Essos · Lhazar",
-  "lead": "La voix des communautés de l’est des steppes.",
+  "name": "Langue lhazaréenne",
+  "kicker": "La langue des bergers",
+  "lead": "Langue des Lhazaréens, peuple de bergers pacifiques que les Dothrakis appellent avec mépris les « hommes-agneaux ».",
   "body": [
-    "La langue lhazaréenne appartient aux peuples de Lhazar. Son existence rappelle qu’Essos comprend bien davantage de cultures que les seuls groupes longuement montrés à l’écran.",
-    "Comme pour d’autres langues peu documentées de l’univers, mieux vaut distinguer ce qui est attesté de ce qui reste indécrit. Aucun lexique complet n’est proposé ici."
+    "Les Lhazaréens vivent dans les collines verdoyantes au sud de la mer Dothrak, où ils élèvent des moutons. Leur langue n’a presque rien de commun avec le dothraki ou le valyrien, et peu d’étrangers l’apprennent.",
+    "Leur culture valorise la paix, les soins et l’harmonie avec le Grand Berger, leur dieu. Leurs prêtresses guérisseuses, les maegi, connaissent des remèdes et, dit-on, des sortilèges. Ce sont elles qui gardent la mémoire du peuple.",
+    "Pour les Dothrakis, ne pas savoir se battre est la pire des faiblesses : ils razzient régulièrement les villages lhazaréens pour vendre leurs habitants comme esclaves."
   ],
   "facts": [
     {
-      "label": "Où la retrouver",
-      "value": "Lhazar · communautés pastorales"
+      "label": "Où l’entendre",
+      "value": "Lhazar"
+    },
+    {
+      "label": "Locuteurs",
+      "value": "Les Lhazaréens"
     }
   ],
   "terms": [],
-  "places": [],
-  "characters": [],
+  "places": [
+    "lhazar"
+  ],
+  "characters": [
+    "mirri-maz-duur"
+  ],
   "image": null,
   "sources": [
     {
       "label": "A Wiki of Ice and Fire",
       "url": "https://awoiaf.westeros.org/index.php/Languages"
     }
-  ]
+  ],
+  "_doute": "La série n’en fait pas entendre de phrases identifiables."
 }

@@ -1,22 +1,35 @@
 {
   "slug": "langue-commune",
   "rubric": "langues",
-  "name": "La langue commune",
-  "kicker": "Westeros · Les échanges du monde connu",
-  "lead": "Le langage partagé des Sept Couronnes.",
+  "name": "Langue commune",
+  "kicker": "La langue de Westeros",
+  "lead": "Langue parlée dans presque tout Westeros, héritée des Andals, et comprise dans les ports d’Essos.",
   "body": [
-    "Les régions de Westeros possèdent des accents et des usages sociaux distincts, mais la langue commune permet généralement de communiquer du Nord à Dorne. Les mestres, marchands et voyageurs la transportent aussi au-delà du détroit.",
-    "Le langage ne fait pas disparaître les différences : la manière de parler peut signaler une origine, une éducation ou une position sociale. Dans la série, elle est principalement représentée par l’anglais des dialogues."
+    "La langue commune est celle que parlent les habitants de Westeros, du Mur jusqu’à Dorne. Elle descend de la langue des Andals, qui l’ont imposée en conquérant le continent, et a remplacé presque partout l’ancienne langue des Premiers Hommes. On en entend des accents très différents : la parole lente et rude du Nord, le parler chantant du Bief, les tournures de Dorne marquées par la Rhoyne.",
+    "Elle est aussi la langue du commerce. Dans les cités libres d’Essos, les marchands, les capitaines et les courtisanes la comprennent, et bien des esclaves éduqués l’apprennent pour servir des clients venus de l’ouest. Plus loin, dans la mer Dothrak ou la baie des Serfs, elle devient rare, et un voyageur a besoin d’un interprète.",
+    "Les nobles de Westeros apprennent souvent quelques mots de haut valyrien, mais très peu parlent une autre langue. Cette ignorance des langues étrangères est l’un des traits qui distinguent les Ouestriens en Essos : ils comptent sur les autres pour les comprendre.",
+    "Dans la série, la langue commune est rendue par la langue du spectateur ; c’est donc la seule langue du monde que l’on n’entend jamais vraiment."
   ],
   "facts": [
     {
-      "label": "Où la retrouver",
-      "value": "Westeros · comptoirs et échanges d’Essos"
+      "label": "Où l’entendre",
+      "value": "Tout Westeros · ports d’Essos"
+    },
+    {
+      "label": "Origine",
+      "value": "Langue des Andals"
     }
   ],
   "terms": [],
-  "places": [],
-  "characters": [],
+  "places": [
+    "port-real",
+    "winterfell",
+    "pentos"
+  ],
+  "characters": [
+    "missandei",
+    "tyrion-lannister"
+  ],
   "image": null,
   "sources": [
     {

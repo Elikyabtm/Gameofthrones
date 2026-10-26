@@ -1,16 +1,39 @@
 {
   "slug": "age-des-heros",
   "rubric": "peuples",
-  "name": "L’Âge des Héros",
-  "kicker": "Époque · Les récits de fondation",
-  "lead": "Les Premiers Hommes et les Enfants de la Forêt occupent le premier plan d’une histoire où les faits et les légendes se mêlent.",
+  "name": "Âge des Héros",
+  "kicker": "Époque légendaire",
+  "lead": "Période légendaire où furent fondées les grandes maisons, bâtis le Mur et Winterfell, et vaincue la Longue Nuit.",
   "body": [
-    "Les Premiers Hommes et les Enfants de la Forêt occupent le premier plan d’une histoire où les faits et les légendes se mêlent. Le Mur, les anciens pactes et les origines des grandes lignées font partie de cette mémoire."
+    "L’Âge des Héros couvre les millénaires qui suivirent le Pacte entre les Premiers Hommes et les enfants de la forêt. C’est l’époque des fondateurs, que les grandes maisons revendiquent comme ancêtres : Brandon le Bâtisseur pour les Stark, Lann le Futé pour les Lannister, Garth Main-Verte pour les rois du Bief, Durran pour les rois de l’Orage.",
+    "C’est aussi l’époque de la Longue Nuit, cet hiver d’une génération qui vit arriver les Autres, et de la bataille de l’Aube qui les repoussa. Selon la légende, Brandon le Bâtisseur éleva le Mur avec l’aide des géants et de la magie des enfants, et fonda la Garde de Nuit.",
+    "Les mestres doutent de presque tout ce qu’on raconte de cette période. Les récits ont été transmis de bouche à oreille pendant des millénaires avant d’être écrits, et chaque maison les arrange à sa gloire. Mais les monuments, eux, sont bien réels."
   ],
-  "facts": [],
+  "facts": [
+    {
+      "label": "Durée",
+      "value": "Plusieurs millénaires"
+    },
+    {
+      "label": "Évènement",
+      "value": "La Longue Nuit"
+    }
+  ],
   "terms": [],
-  "places": [],
-  "characters": [],
+  "places": [
+    "winterfell",
+    "chateaunoir",
+    "castral-roc",
+    "accalmie"
+  ],
+  "characters": [
+    "bran-stark"
+  ],
   "image": null,
-  "sources": []
+  "sources": [
+    {
+      "label": "Wiki of Westeros — Age of Heroes",
+      "url": "https://gameofthrones.fandom.com/wiki/Age_of_Heroes"
+    }
+  ]
 }

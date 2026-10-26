@@ -2,13 +2,30 @@
   "slug": "meereen",
   "name": "Meereen",
   "kind": "cité",
-  "region": "Baie des Serfs",
+  "region": "La baie des Serfs",
   "continent": "essos",
-  "description": [
-    "Les pyramides dominent Meereen, où les rapports entre anciennes élites, personnes libérées et nouvelles autorités rendent le gouvernement particulièrement difficile. Les Fils de la Harpie sont l’une des expressions les plus visibles de cette lutte autour de l’ordre social."
+  "coords": { "x": 1725, "y": 982 },
+  "summary": "La plus grande cité de la baie des Serfs, aux pyramides surmontées de harpies de bronze.",
+  "rulers": [
+    { "text": "Les Grands Maîtres" },
+    { "text": "Daenerys Targaryen", "s": 4 },
+    { "text": "Tyrion, Varys et le conseil de la reine", "s": 6 },
+    { "text": "Daario Naharis, au nom de la reine", "s": 6 }
   ],
-  "history": [],
-  "events": [],
-  "image": "images/immacules.webp",
-  "sources": []
+  "description": [
+    "Meereen se dresse à l’embouchure du Skahazadhan, au fond de la baie des Serfs. Ses murailles de brique multicolore enferment des marchés, des arènes de combat, des quartiers de pauvres et des pyramides à degrés où vivent les grandes familles, sur des terrasses couvertes de jardins. La Grande Pyramide, la plus haute, porte à son sommet une harpie de bronze.",
+    "La ville est la plus riche et la plus fière de la baie. Ses maîtres se disent les héritiers directs de Ghis et vivent comme si l’empire n’était jamais tombé. Les arènes de Daznak, où l’on combat jusqu’à la mort, attirent des foules immenses."
+  ],
+  "history": [
+    "Meereen a été fondée par l’empire ghiscari et a survécu à sa chute, en gardant ses institutions, ses familles et ses esclaves. Ses Grands Maîtres ont toujours su s’entendre avec les autres puissances de la région, et n’ont jamais imaginé qu’une étrangère puisse un jour faire tomber leurs portes."
+  ],
+  "events": [
+    { "s": 4, "text": "Daenerys prend la ville et fait crucifier cent soixante-trois Grands Maîtres." },
+    { "s": 5, "text": "Les Fils de la Harpie tuent des Immaculés ; Daenerys épouse Hizdahr zo Loraq." },
+    { "s": 5, "text": "Attaque de l’arène de Daznak ; Daenerys s’envole sur Drogon." },
+    { "s": 6, "text": "Les maîtres de la baie assiègent la ville ; les dragons brisent leur flotte." },
+    { "s": 6, "text": "Daenerys en part pour Westeros, avec ses alliés." }
+  ],
+  "image": "images/ghiscari.webp",
+  "sources": [{ "label": "Wiki of Westeros — Meereen", "url": "https://gameofthrones.fandom.com/wiki/Meereen" }]
 }

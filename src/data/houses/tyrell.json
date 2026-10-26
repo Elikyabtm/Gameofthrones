@@ -1,17 +1,175 @@
 {
   "slug": "tyrell",
   "name": "Maison Tyrell",
-  "words": "Plus haut, plus fort.",
+  "words": "Plus haut, plus fort",
   "sigil": "sigils/tyrell.svg",
-  "sigilDescription": "Une rose d’or sur champ vert.",
-  "sigilCredit": null,
+  "sigilDescription": "Une rose d’or sur champ vert",
+  "sigilCredit": "Contributeurs de A Wiki of Ice and Fire, licence CC BY-SA 3.0",
+  "color": "#7f9a5a",
   "seat": "hautjardin",
   "region": "Le Bief",
-  "history": [
-    "Le Bief apporte au royaume des terres fertiles, des réserves agricoles et une force politique considérable. Les Tyrell associent cette base matérielle à l’art des alliances. Olenna et Margaery montrent que l’influence peut se construire par les usages de la cour autant que par les armes."
+  "summary": "Gouverneurs du Bief, la région la plus fertile du royaume, dont la richesse nourrit la capitale.",
+  "overlord": [
+    {
+      "to": "baratheon",
+      "until": 7
+    }
   ],
-  "inTheSeries": [],
-  "figures": [],
-  "members": [],
-  "sources": []
+  "vassals": [
+    "tarly",
+    "Florent",
+    "Redwyne",
+    "Hightower"
+  ],
+  "founded": "Comme intendants des rois Gardener",
+  "history": [
+    "Les Tyrell n’ont pas toujours été seigneurs. Pendant des siècles, ils furent les intendants des rois Gardener, qui régnaient sur le Bief depuis Hautjardin. Quand le dernier roi Gardener mourut avec toute sa famille au Champ de Feu, l’intendant Harlen Tyrell ouvrit les portes du château à Aegon. Le Conquérant lui donna Hautjardin et le gouvernement du Bief. Les vieilles maisons de la région, comme les Hightower ou les Florent, n’ont jamais tout à fait oublié cette origine.",
+    "Le Bief est le grenier de Westeros. Ses vergers, ses champs et ses vignes nourrissent Port-Réal ; ses fêtes, ses tournois et ses chanteurs font la réputation de la chevalerie. Les Tyrell en tirent une richesse qui, sans égaler l’or des Lannister, leur permet de lever la plus grande armée du royaume.",
+    "Pendant la Rébellion, les Tyrell restèrent fidèles aux Targaryen et assiégèrent Accalmie pendant un an. Ils déposèrent les armes après la mort du roi Aerys et conservèrent leurs terres.",
+    "Le seigneur de Hautjardin, Mace Tyrell, est vaniteux et facile à flatter. La véritable tête de la famille est sa mère, Olenna, surnommée la Reine des Épines, qui veille sur l’avenir de ses petits-enfants Loras et Margaery.",
+    "Le jeu des Tyrell est celui des alliances. Ils n’ont ni l’ancienneté des Stark ni l’or des Lannister, mais ils savent attendre, choisir leur camp au bon moment et marier leurs enfants là où se trouve le pouvoir. Margaery a appris de sa grand-mère que l’on gouverne autant par l’affection du peuple que par la force : elle visite les orphelinats et distribue du pain, quand Cersei se contente d’ordonner. Cette patience a un défaut : elle repose sur des personnes, et il suffit de quelques morts pour qu’une maison entière disparaisse."
+  ],
+  "inTheSeries": [
+    {
+      "s": 2,
+      "title": "Saison 2 — Un roi pour Margaery",
+      "paragraphs": [
+        "Les Tyrell soutiennent Renly, qui épouse Margaery. Après sa mort, ils s’allient aux Lannister et sauvent Port-Réal à la Néra."
+      ]
+    },
+    {
+      "s": 3,
+      "title": "Saison 3 — La future reine",
+      "paragraphs": [
+        "Margaery est fiancée à Joffrey. Olenna arrive à la cour et négocie avec Tywin."
+      ]
+    },
+    {
+      "s": 4,
+      "title": "Saison 4 — Les noces",
+      "paragraphs": [
+        "Joffrey meurt à son mariage, empoisonné. Margaery épouse ensuite son frère Tommen."
+      ]
+    },
+    {
+      "s": 5,
+      "title": "Saison 5 — La Foi contre la rose",
+      "paragraphs": [
+        "Le Grand Moineau fait arrêter Loras, puis Margaery, à l’instigation de Cersei."
+      ]
+    },
+    {
+      "s": 6,
+      "title": "Saison 6 — Le grand septuor",
+      "paragraphs": [
+        "Margaery, Loras et Mace meurent dans l’explosion du grand septuor. Olenna rejoint Daenerys."
+      ]
+    },
+    {
+      "s": 7,
+      "title": "Saison 7 — La fin de Hautjardin",
+      "paragraphs": [
+        "Jaime prend Hautjardin. Olenna, dernière Tyrell, boit le poison qu’il lui offre et lui révèle qui a tué Joffrey."
+      ]
+    }
+  ],
+  "figures": [
+    "Harlen Tyrell",
+    "Garth Main-Verte, ancêtre légendaire des rois du Bief"
+  ],
+  "members": [
+    "olenna-tyrell",
+    "mace-tyrell",
+    "loras-tyrell",
+    "margaery-tyrell"
+  ],
+  "tree": {
+    "people": [
+      {
+        "id": "luthor-tyrell",
+        "name": "Luthor Tyrell",
+        "deadBefore": true,
+        "portrait": "images/personnages/luthor-tyrell.webp"
+      },
+      {
+        "id": "olenna-tyrell",
+        "character": "olenna-tyrell"
+      },
+      {
+        "id": "mace-tyrell",
+        "character": "mace-tyrell"
+      },
+      {
+        "id": "alerie-tyrell",
+        "name": "Alerie Tyrell",
+        "portrait": "images/personnages/alerie-tyrell.webp"
+      },
+      {
+        "id": "loras-tyrell",
+        "character": "loras-tyrell"
+      },
+      {
+        "id": "margaery-tyrell",
+        "character": "margaery-tyrell"
+      },
+      {
+        "id": "renly-baratheon",
+        "character": "renly-baratheon",
+        "house": "baratheon"
+      },
+      {
+        "id": "joffrey-baratheon",
+        "character": "joffrey-baratheon",
+        "house": "baratheon",
+        "s": 4
+      },
+      {
+        "id": "tommen-baratheon",
+        "character": "tommen-baratheon",
+        "house": "baratheon",
+        "s": 5
+      }
+    ],
+    "unions": [
+      {
+        "a": "luthor-tyrell",
+        "b": "olenna-tyrell",
+        "children": [
+          "mace-tyrell"
+        ]
+      },
+      {
+        "a": "mace-tyrell",
+        "b": "alerie-tyrell",
+        "children": [
+          "loras-tyrell",
+          "margaery-tyrell"
+        ]
+      },
+      {
+        "a": "renly-baratheon",
+        "b": "margaery-tyrell",
+        "children": [],
+        "s": 2
+      },
+      {
+        "a": "joffrey-baratheon",
+        "b": "margaery-tyrell",
+        "children": [],
+        "s": 4
+      },
+      {
+        "a": "tommen-baratheon",
+        "b": "margaery-tyrell",
+        "children": [],
+        "s": 5
+      }
+    ]
+  },
+  "sources": [
+    {
+      "label": "Wiki of Westeros — House Tyrell",
+      "url": "https://gameofthrones.fandom.com/wiki/House_Tyrell"
+    }
+  ]
 }

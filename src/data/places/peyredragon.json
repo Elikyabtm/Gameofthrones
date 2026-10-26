@@ -1,18 +1,27 @@
 {
   "slug": "peyredragon",
   "name": "Peyredragon",
-  "kind": "cité",
-  "region": "Les Terres de la Couronne",
+  "kind": "île",
+  "region": "La baie de la Néra",
   "continent": "westeros",
-  "coords": {
-    "x": 583.04,
-    "y": 717.78
-  },
+  "coords": { "x": 583.04, "y": 717.78 },
+  "summary": "Île volcanique à l’entrée de la baie de la Néra, ancienne forteresse des Targaryen.",
+  "house": "targaryen",
+  "rulers": [{ "text": "Stannis Baratheon" }, { "text": "Daenerys Targaryen", "s": 7 }],
   "description": [
-    "Une île forteresse à l’entrée de la baie de la Néra. Son architecture et son histoire portent la marque de l’héritage Targaryen."
+    "Peyredragon est une île sombre, au climat humide, dominée par une montagne fumante. Le château a été bâti par les Valyriens avec une magie de la pierre aujourd’hui perdue : les murs semblent coulés d’un seul tenant, les tours prennent la forme de dragons, et des gargouilles fantastiques veillent sur chaque angle. La salle de la Table peinte abrite une table immense en forme de carte de Westeros.",
+    "Sous l’île, des cavernes renferment des gisements de verre-dragon, l’obsidienne que les anciens utilisaient pour leurs armes et que plus personne ne songe à exploiter."
   ],
-  "history": [],
-  "events": [],
-  "image": null,
-  "sources": []
+  "history": [
+    "Peyredragon fut l’avant-poste le plus occidental de la Valyria antique. Les Targaryen s’y sont installés douze ans avant le Fléau qui a détruit leur patrie, et sont ainsi devenus les derniers seigneurs-dragons. C’est de là qu’Aegon le Conquérant est parti à la conquête de Westeros. Après la Rébellion, Robert Baratheon a donné l’île à son frère Stannis, ce que celui-ci a toujours vécu comme une humiliation. Daenerys y est née pendant une tempête, juste avant que les derniers fidèles de sa famille ne s’enfuient en Essos avec elle."
+  ],
+  "events": [
+    { "s": 2, "text": "Stannis y brûle les statues des Sept et revendique le trône." },
+    { "s": 3, "text": "Melisandre y utilise le sang de Gendry ; Davos est jeté en prison." },
+    { "s": 7, "text": "Daenerys débarque dans la forteresse de ses ancêtres et y reçoit Jon Snow." },
+    { "s": 7, "text": "Dans les grottes de verre-dragon, Jon montre des dessins laissés par les enfants de la forêt." },
+    { "s": 8, "text": "Varys y est exécuté sur la plage." }
+  ],
+  "image": "images/dragon.webp",
+  "sources": [{ "label": "Wiki of Westeros — Dragonstone", "url": "https://gameofthrones.fandom.com/wiki/Dragonstone" }]
 }

@@ -1,21 +1,27 @@
 {
   "slug": "andals",
   "rubric": "peuples",
-  "name": "Les Andals",
-  "kicker": "Essos → Westeros",
-  "lead": "Une autre grande migration, associée aux armes, à l’écriture et aux Sept.",
+  "name": "Andals",
+  "kicker": "Les conquérants de l’Est",
+  "lead": "Peuple venu d’Essos il y a six mille ans, qui apporta l’acier, la chevalerie et la Foi des Sept à Westeros.",
   "body": [
-    "Les Andals arrivent d’Essos dans un continent déjà occupé. Conquêtes, mariages et intégrations successives remodèlent les royaumes du Sud. Leurs traditions religieuses font de la Foi des Sept une institution majeure de Westeros.",
-    "Cette histoire explique une partie des contrastes entre le Nord et les régions méridionales. Elle ne produit pas deux blocs parfaitement séparés : les familles et les cultures se sont mêlées pendant des générations, et les identités racontées par les personnages restent aussi des constructions politiques."
+    "Les Andals venaient d’Andalos, une région d’Essos au nord des futures cités libres. Selon leurs chroniques, les Sept eux-mêmes leur seraient apparus et leur auraient promis une terre au-delà de la mer. Ils traversèrent le détroit et débarquèrent dans le Val, il y a environ six mille ans, armés d’acier contre le bronze des Premiers Hommes.",
+    "En quelques siècles, ils conquirent tous les royaumes du Sud. Ils abattirent les barrals, massacrèrent les derniers enfants de la forêt qu’ils trouvèrent et imposèrent leur langue, qui deviendra la langue commune. Seul le Nord leur résista, protégé par les marais du Neck et la forteresse de Moat Cailin.",
+    "Les Andals ont apporté les septuaires, les septons, les chevaliers et les tournois. Les grandes maisons du Sud, les Arryn, les Tully, les Lannister par mariage, se rattachent à eux.",
+    "Aujourd’hui, les Andals ne forment plus un peuple distinct, mais leur héritage est partout. Les rois ont pris le titre de « roi des Andals et des Premiers Hommes », que l’on prononce encore lors de chaque proclamation."
   ],
   "facts": [
     {
-      "label": "Langue",
-      "value": "Héritage lié à la langue commune"
+      "label": "Arrivée",
+      "value": "Il y a environ 6 000 ans"
     },
     {
-      "label": "Visages & repères",
-      "value": "Royaumes méridionaux · Foi des Sept"
+      "label": "Apports",
+      "value": "Acier, Foi des Sept, chevalerie"
+    },
+    {
+      "label": "Résistance",
+      "value": "Le Nord"
     }
   ],
   "terms": [
@@ -32,13 +38,19 @@
       "def": "royaumes du Sud"
     }
   ],
-  "places": [],
-  "characters": [],
+  "places": [
+    "les-eyrie",
+    "port-real"
+  ],
+  "characters": [
+    "lysa-arryn",
+    "robin-arryn"
+  ],
   "image": "images/andals.webp",
   "sources": [
     {
-      "label": "A Wiki of Ice and Fire",
-      "url": "https://awoiaf.westeros.org/index.php/Andals"
+      "label": "Wiki of Westeros — Andals",
+      "url": "https://gameofthrones.fandom.com/wiki/Andals"
     }
   ]
 }

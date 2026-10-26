@@ -1,0 +1,27 @@
+{
+  "slug": "au-dela-du-mur",
+  "name": "Au-delà du Mur",
+  "kind": "région",
+  "region": "Le Grand Nord",
+  "continent": "westeros",
+  "coords": { "x": 470, "y": 92 },
+  "summary": "Les terres sauvages au nord du Mur, domaine du Peuple libre et de ce qui vient avec l’hiver.",
+  "description": [
+    "Au-delà du Mur s’étendent des terres que les cartes du Sud laissent presque blanches. Il y a d’abord la forêt Hantée, immense et sombre, puis des vallées glacées, les montagnes des Crocs de Givre, des lacs gelés et, tout au nord, des terres où la neige ne fond jamais. On y voyage à pied, à cheval ou en traîneau, et l’on compte les jours en feux allumés.",
+    "Le Peuple libre y vit en clans dispersés : chasseurs, pêcheurs des côtes, montagnards, Thenns, et même des géants. Certains lieux portent des noms anciens, comme le Poing des Premiers Hommes, un cercle de pierres au sommet d’une colline, ou le manoir de Craster, refuge commode pour les patrouilles. Plus loin encore, au pied d’un barral gigantesque, une grotte garde les derniers enfants de la forêt."
+  ],
+  "history": [
+    "Les terres du nord étaient habitées bien avant la construction du Mur. Selon les légendes, la muraille fut élevée après la Longue Nuit, une génération d’hiver pendant laquelle des créatures de glace avaient déferlé sur le monde. Les peuples restés de l’autre côté devinrent, aux yeux du Sud, des « sauvageons ».",
+    "Au fil des siècles, plusieurs rois d’au-delà du Mur ont tenté d’unir les clans pour passer au sud. Ils ont tous échoué, arrêtés par la Garde de Nuit et par les Stark. Les patrouilleurs connaissent les sentiers, les grottes et les rivières, mais les terres plus lointaines restent un mystère, peuplé de récits que personne n’a jamais vérifiés."
+  ],
+  "events": [
+    { "s": 1, "text": "Des patrouilleurs de la Garde découvrent des corps disposés en cercle dans la neige." },
+    { "s": 2, "text": "L’expédition de Mormont campe sur le Poing des Premiers Hommes." },
+    { "s": 3, "text": "Le Peuple libre se rassemble autour de Mance Rayder pour passer au sud." },
+    { "s": 4, "text": "Bran atteint la grotte de la corneille à trois yeux." },
+    { "s": 7, "text": "L’expédition de Jon y capture un mort ; un dragon tombe." },
+    { "s": 8, "text": "Jon y repart avec le Peuple libre, vers des terres sans roi." }
+  ],
+  "image": "images/geants.webp",
+  "sources": [{ "label": "Wiki of Westeros — Beyond the Wall", "url": "https://gameofthrones.fandom.com/wiki/Beyond_the_Wall" }]
+}

@@ -1,17 +1,125 @@
 {
   "slug": "bolton",
   "name": "Maison Bolton",
-  "words": "Nos lames sont acérées.",
+  "words": "Nos lames sont acérées",
   "sigil": "sigils/bolton.svg",
-  "sigilDescription": "Un homme écorché rouge sur champ rose semé de gouttes.",
-  "sigilCredit": null,
+  "sigilDescription": "Un homme écorché rouge, pendu à une croix, sur champ rose",
+  "sigilCredit": "Abjiklam (A Wiki of Ice and Fire), licence CC BY-SA 3.0",
+  "color": "#a35a5c",
   "seat": "fort-terreur",
   "region": "Le Nord",
-  "history": [
-    "Les Bolton représentent une autre tradition de pouvoir du Nord, associée à la crainte et à la violence. Leur emblème oppose à l’honneur proclamé par les Stark un avertissement immédiat. Les relations de Roose et Ramsay avec les autres lignées font de leur maison un enjeu important des conflits septentrionaux."
+  "summary": "Anciens rivaux des Stark, seigneurs de Fort-Terreur, réputés pour écorcher leurs ennemis.",
+  "overlord": [
+    {
+      "to": "stark",
+      "until": 3
+    },
+    {
+      "to": "baratheon",
+      "s": 3,
+      "until": 6
+    }
   ],
-  "inTheSeries": [],
-  "figures": [],
-  "members": [],
-  "sources": []
+  "vassals": [
+    "Karstark (temporairement)",
+    "Omble (temporairement)"
+  ],
+  "founded": "À l’Âge des Héros",
+  "history": [
+    "Les Bolton sont presque aussi anciens que les Stark, et pendant des siècles ils furent leurs ennemis. Rois Rouges de Fort-Terreur, ils menèrent contre Winterfell des guerres interminables, et l’on raconte qu’ils portaient des capes faites de la peau des Stark qu’ils avaient capturés. Ils finirent par s’agenouiller, il y a un millier d’années, et devinrent les plus puissants vassaux de leurs anciens rivaux.",
+    "Leur blason, un homme écorché, rappelle une coutume ancienne que les rois du Nord ont interdite, mais que les Bolton n’ont jamais tout à fait oubliée. Leur château, Fort-Terreur, aux murs épais et sombres, a résisté à tous les sièges.",
+    "Roose Bolton, le seigneur actuel, est un homme pâle, calme et froid, qui parle bas et ne se met jamais en colère. Il croit aux sangsues pour purifier le sang et à la patience pour obtenir ce qu’il veut. Il a un fils naturel, Ramsay Snow, né d’un viol, qu’il garde à distance mais dont il connaît la cruauté.",
+    "Au début de l’histoire, les Bolton se battent aux côtés de Robb Stark. Mais Roose n’a jamais aimé la maison qu’il sert, et il calcule chaque perte. Quand la guerre tourne mal, il négocie en secret avec Tywin Lannister et Walder Frey. Le Nord apprendra alors ce que valent les anciens serments.",
+    "Le pouvoir des Bolton repose sur la peur plutôt que sur la loyauté. Les seigneurs du Nord les suivent parce qu’ils sont forts, pas parce qu’ils les aiment, et ils les abandonnent dès que le vent tourne.",
+    "La maison Bolton ne survit pas longtemps à sa victoire : Ramsay tue son père pour régner seul, et sa propre mort, sous les crocs de ses chiens, met fin à la lignée."
+  ],
+  "inTheSeries": [
+    {
+      "s": 2,
+      "title": "Saison 2 — Un allié prudent",
+      "paragraphs": [
+        "Roose conseille Robb et propose d’envoyer son fils reprendre Winterfell à Theon."
+      ]
+    },
+    {
+      "s": 3,
+      "title": "Saison 3 — Les Noces pourpres",
+      "paragraphs": [
+        "Roose poignarde Robb aux Jumeaux. En récompense, les Lannister le nomment gouverneur du Nord."
+      ]
+    },
+    {
+      "s": 5,
+      "title": "Saison 5 — Les maîtres de Winterfell",
+      "paragraphs": [
+        "Les Bolton s’installent à Winterfell et marient Sansa à Ramsay pour se rattacher aux Stark."
+      ]
+    },
+    {
+      "s": 6,
+      "title": "Saison 6 — La chute",
+      "paragraphs": [
+        "Ramsay tue son père, sa belle-mère et leur nouveau-né. Il est vaincu à la bataille des Bâtards et dévoré par ses propres chiens."
+      ]
+    }
+  ],
+  "figures": [
+    "Les Rois Rouges de Fort-Terreur"
+  ],
+  "members": [
+    "roose-bolton",
+    "ramsay-bolton"
+  ],
+  "tree": {
+    "people": [
+      {
+        "id": "roose-bolton",
+        "character": "roose-bolton"
+      },
+      {
+        "id": "walda-bolton",
+        "name": "Walda Bolton",
+        "house": "frey",
+        "s": 4,
+        "portrait": "images/personnages/walda-bolton.webp",
+        "note": "Petite-fille de Walder Frey"
+      },
+      {
+        "id": "ramsay-bolton",
+        "character": "ramsay-bolton"
+      },
+      {
+        "id": "sansa-stark",
+        "character": "sansa-stark",
+        "house": "stark",
+        "s": 5
+      }
+    ],
+    "unions": [
+      {
+        "a": "roose-bolton",
+        "b": "walda-bolton",
+        "children": [],
+        "s": 4
+      },
+      {
+        "a": "roose-bolton",
+        "children": [
+          "ramsay-bolton"
+        ]
+      },
+      {
+        "a": "ramsay-bolton",
+        "b": "sansa-stark",
+        "children": [],
+        "s": 5
+      }
+    ]
+  },
+  "sources": [
+    {
+      "label": "Wiki of Westeros — House Bolton",
+      "url": "https://gameofthrones.fandom.com/wiki/House_Bolton"
+    }
+  ]
 }

@@ -1,0 +1,22 @@
+{
+  "slug": "naath",
+  "name": "Naath",
+  "kind": "île",
+  "region": "La mer d’Été",
+  "continent": "essos",
+  "coords": { "x": 960, "y": 1270 },
+  "summary": "Île paisible de la mer d’Été, patrie de Missandei, protégée par des papillons et des fièvres.",
+  "description": [
+    "Naath est une île de forêts et de plages au large des côtes d’Essos, dans la mer d’Été. Ses habitants, le peuple pacifique, refusent la violence et vivent de musique et de récoltes. On dit que l’île est gardée par ses papillons, et par une fièvre qui tue les étrangers qui s’y attardent.",
+    "Les marchands d’esclaves y font régulièrement des raids, car les Naathi ne se défendent pas."
+  ],
+  "history": [
+    "Naath n’a jamais eu d’armée ni de roi conquérant. Son histoire est celle des enlèvements subis : des générations d’enfants emmenés vers les marchés de la baie des Serfs. Missandei est l’une d’eux."
+  ],
+  "events": [
+    { "s": 4, "text": "Missandei parle à Ver Gris de l’île de son enfance." },
+    { "s": 8, "text": "Ver Gris et les Immaculés embarquent pour Naath." }
+  ],
+  "image": null,
+  "sources": [{ "label": "Wiki of Westeros — Naath", "url": "https://gameofthrones.fandom.com/wiki/Naath" }]
+}

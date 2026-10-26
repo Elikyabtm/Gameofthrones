@@ -1,48 +1,101 @@
 {
   "slug": "peuple-libre",
   "rubric": "peuples",
-  "name": "Le Peuple libre",
-  "kicker": "Westeros · Au-delà du Mur",
-  "lead": "Les « sauvageons » vus du Sud ; une multitude de communautés vues de l’intérieur.",
+  "name": "Peuple libre",
+  "kicker": "Au-delà du Mur",
+  "featured": true,
+  "lead": "Ceux que le Sud appelle sauvageons : des milliers de gens de tribus diverses, vivant au nord du Mur sans roi ni seigneur.",
   "body": [
-    "Le mot sauvageons vient des habitants situés au sud du Mur. Ceux qu’il désigne se nomment eux-mêmes le Peuple libre. Ils ne forment pas un royaume homogène : chasseurs de la forêt, clans de montagne et communautés du littoral entretiennent des coutumes et des rivalités différentes.",
-    "Leur liberté signifie notamment le refus d’une obéissance automatique à un seigneur héréditaire. Un roi d’au-delà du Mur doit convaincre des groupes qui n’acceptent pas tous les mêmes règles. Les Thenns, les habitants de la forêt Hantée et d’autres clans ne sont donc pas de simples variantes d’une seule armée.",
-    "Le Mur sépare des territoires, mais aussi des récits. Pour la Garde de Nuit, il faut défendre une frontière ; pour ces familles, il peut devenir l’obstacle qui les empêche d’échapper au danger. Tormund, Ygritte et Mance donnent des visages à cette tension entre la protection d’un ordre et la survie de ceux qu’il exclut."
+    "Au nord du Mur vivent des descendants des Premiers Hommes qui n’ont jamais accepté de rois. Les gens du Sud les appellent sauvageons ; eux se nomment le peuple libre. Ils vivent en clans et en tribus, dans les forêts, les montagnes et les toundras glacées, de chasse, de cueillette et de raids.",
+    "Leur liberté est leur fierté. Ils ne s’agenouillent devant personne et méprisent les « agenouillés » du Sud. Un chef n’est suivi que tant qu’il est fort ou respecté. Les hommes « volent » leurs épouses, une coutume qui exige qu’elles se laissent prendre, et les femmes combattent souvent aux côtés des hommes.",
+    "Le peuple libre est très divers. On y trouve des tribus de pêcheurs, des clans des montagnes, des cannibales, les Thenns, et même des géants. Ces peuples se détestent souvent les uns les autres, et il est très rare qu’un chef parvienne à les unir.",
+    "Pour la Garde de Nuit, ils sont l’ennemi quotidien. Mais leurs propres légendes rappellent qu’ils ont, eux aussi, un ennemi plus ancien, venu du froid."
+  ],
+  "inTheSeries": [
+    {
+      "s": 2,
+      "title": "Saison 2 — Ygritte",
+      "paragraphs": [
+        "Jon capture puis épargne Ygritte."
+      ]
+    },
+    {
+      "s": 3,
+      "title": "Saison 3 — Le roi d’au-delà du Mur",
+      "paragraphs": [
+        "Mance Rayder a uni les clans pour fuir les morts et franchir le Mur."
+      ]
+    },
+    {
+      "s": 4,
+      "title": "Saison 4 — L’assaut",
+      "paragraphs": [
+        "Le peuple libre attaque Châteaunoir et échoue. Stannis capture Mance."
+      ]
+    },
+    {
+      "s": 5,
+      "title": "Saison 5 — Durlieu",
+      "paragraphs": [
+        "Jon tente d’évacuer les survivants de Durlieu ; l’armée des morts en massacre la plupart. Il laisse les autres passer au sud du Mur."
+      ]
+    },
+    {
+      "s": 6,
+      "title": "Saison 6 — Pour Jon",
+      "paragraphs": [
+        "Le peuple libre combat aux côtés de Jon à la bataille des Bâtards."
+      ]
+    },
+    {
+      "s": 8,
+      "title": "Saison 8 — Le retour au nord",
+      "paragraphs": [
+        "Jon repart au-delà du Mur avec Tormund et le peuple libre."
+      ]
+    }
   ],
   "facts": [
     {
-      "label": "Langue",
-      "value": "Langue commune et ancienne langue selon les communautés"
+      "label": "Autre nom",
+      "value": "Sauvageons"
     },
     {
-      "label": "Visages & repères",
-      "value": "Mance Rayder · Tormund · Ygritte"
+      "label": "Territoire",
+      "value": "Au-delà du Mur"
+    },
+    {
+      "label": "Chef au début de la série",
+      "value": "Mance Rayder"
     }
   ],
   "terms": [
     {
-      "term": "Nom du Sud",
-      "def": "sauvageons"
+      "term": "Agenouillé",
+      "def": "Homme du Sud, qui plie le genou devant un seigneur."
     },
     {
-      "term": "Organisation",
-      "def": "clans"
-    },
-    {
-      "term": "Autorité",
-      "def": "fidélité choisie"
-    },
-    {
-      "term": "Frontière",
-      "def": "le Mur"
+      "term": "Voler une femme",
+      "def": "Coutume de mariage du peuple libre."
     }
   ],
-  "places": [],
-  "characters": [],
+  "places": [
+    "au-dela-du-mur",
+    "durlieu",
+    "chateaunoir"
+  ],
+  "characters": [
+    "mance-rayder",
+    "tormund",
+    "ygritte",
+    "osha",
+    "craster",
+    "gilly"
+  ],
   "image": "images/peuple-libre.webp",
   "sources": [
     {
-      "label": "Wiki of Westeros",
+      "label": "Wiki of Westeros — Free Folk",
       "url": "https://gameofthrones.fandom.com/wiki/Free_Folk"
     }
   ]

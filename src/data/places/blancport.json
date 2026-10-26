@@ -4,15 +4,20 @@
   "kind": "cité",
   "region": "Le Nord",
   "continent": "westeros",
-  "coords": {
-    "x": 433.17,
-    "y": 424.95
-  },
+  "coords": { "x": 433.17, "y": 424.95 },
+  "summary": "Seule véritable cité du Nord, port de la maison Manderly sur l’estuaire du Couteau Blanc.",
   "description": [
-    "Le grand port du Nord relie les terres Stark aux échanges maritimes du continent."
+    "Blancport est la seule ville du Nord digne de ce nom : un port fortifié à l’embouchure du Couteau Blanc, aux maisons de pierre blanchie à la chaux et aux quais animés. On y voit des navires de toutes les mers, un septuor dédié aux Sept, rare dans un Nord fidèle aux anciens dieux, et des marchés plus fournis que partout ailleurs entre le Neck et le Mur.",
+    "La ville appartient à la maison Manderly, vieille famille du Sud venue se réfugier dans le Nord il y a des siècles, qui a gardé ses dieux et ses manières tout en jurant fidélité aux Stark."
   ],
-  "history": [],
-  "events": [],
+  "history": [
+    "Les Manderly, chassés du Bief par leurs rivaux, ont reçu des Stark le droit de s’établir sur ces terres en échange de leur loyauté. Ils ont fait de Blancport la porte maritime du Nord, son lien avec le reste du monde. La ville vit du commerce et de la pêche, et fournit aux Stark l’essentiel de leur flotte, modeste au regard de celles du Sud."
+  ],
+  "events": [
+    { "s": 1, "text": "Les bannerets du Nord, dont les Manderly, répondent à l’appel de Robb Stark." },
+    { "s": 6, "text": "Jon et Sansa cherchent des alliés parmi les grandes maisons du Nord." }
+  ],
   "image": null,
-  "sources": []
+  "_doute": "Blancport n’apparaît presque pas à l’écran ; fiche gardée pour la carte.",
+  "sources": [{ "label": "Wiki of Westeros — White Harbor", "url": "https://gameofthrones.fandom.com/wiki/White_Harbor" }]
 }

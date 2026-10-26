@@ -31,6 +31,17 @@ const pick = (o, keys) =>
  * Index léger chargé par tous les espaces : de quoi lister, relier, chercher et filtrer,
  * sans les biographies ni les longs textes (chargés fiche par fiche).
  */
+const HOUSE_ORDER = [
+  'stark', 'lannister', 'baratheon', 'targaryen', 'greyjoy', 'tyrell', 'martell', 'tully',
+  'arryn', 'bolton', 'frey', 'mormont', 'tarly', 'reed', 'clegane', 'torth', 'mervault',
+];
+
+/** Ordre d'affichage fixe : grandes maisons d'abord, puis vassales. */
+function sortHouses(houses) {
+  const rank = (h) => (HOUSE_ORDER.includes(h.slug) ? HOUSE_ORDER.indexOf(h.slug) : 99);
+  return [...houses].sort((a, b) => rank(a) - rank(b) || a.name.localeCompare(b.name, 'fr'));
+}
+
 export function buildIndex(all = loadAll()) {
   return {
     characters: all.characters.map((c) => ({
@@ -57,13 +68,14 @@ export function buildIndex(all = loadAll()) {
       region: c.region,
       camp: c.camp,
     })),
-    houses: all.houses.map((h) =>
+    houses: sortHouses(all.houses).map((h) =>
       pick(h, [
         'slug',
         'name',
         'words',
         'sigil',
         'seat',
+        'seatName',
         'region',
         'members',
         'overlord',

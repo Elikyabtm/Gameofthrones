@@ -1,21 +1,52 @@
 {
   "slug": "fraternite-sans-bannieres",
   "rubric": "ordres",
-  "name": "La Fraternité sans Bannières",
-  "kicker": "Westeros · Le Conflans",
-  "lead": "Un groupe né de la guerre, au contact des populations prises entre les armées.",
+  "name": "Fraternité sans bannières",
+  "kicker": "Les hors-la-loi du Conflans",
+  "lead": "Bande de hors-la-loi, envoyée à l’origine par Eddard Stark, qui protège les petites gens du Conflans contre toutes les armées.",
   "body": [
-    "La Fraternité se développe dans les terres dévastées du Conflans. Elle se présente comme une force qui défend ceux que les grandes maisons laissent sans protection, plutôt que comme une troupe portant la bannière d’un souverain.",
-    "Ses membres ne partagent pas tous la même origine sociale. La présence de Thoros et de Beric donne aussi une place importante au culte du Maître de la Lumière. Les trajectoires de cette fraternité divergent entre l’adaptation et les romans."
+    "Au début de la guerre, Eddard Stark, Main du Roi, envoie un groupe de soldats dans le Conflans pour arrêter Gregor Clegane, qui ravage la région. Il en confie le commandement à Lord Beric Dondarrion. Le roi meurt, Eddard est exécuté, et la petite troupe se retrouve sans maître, au milieu d’une guerre où elle n’a plus de camp.",
+    "Elle choisit de rester. Ses membres refusent de servir les rois en guerre et décident de protéger les villageois contre tous les pillards, quelle que soit leur bannière. Peu à peu, la bande grossit de fermiers, de déserteurs et de bandits repentis : la Fraternité sans bannières.",
+    "Son chef a la réputation d’être immortel, et ses hommes suivent le Maître de la Lumière, sous la direction d’un prêtre rouge, Thoros de Myr. La Fraternité rend sa propre justice, dans des cavernes et sous les arbres, et la frontière entre justicier et brigand y est souvent mince."
+  ],
+  "inTheSeries": [
+    {
+      "s": 3,
+      "title": "Saison 3 — Les hors-la-loi",
+      "paragraphs": [
+        "La Fraternité capture Arya, le Limier et Gendry. Beric affronte le Limier en combat judiciaire, meurt et revient à la vie. Ils vendent Gendry à Melisandre."
+      ]
+    },
+    {
+      "s": 6,
+      "title": "Saison 6 — Le Limier",
+      "paragraphs": [
+        "La Fraternité croise de nouveau la route du Limier, qui la rejoint."
+      ]
+    },
+    {
+      "s": 7,
+      "title": "Saison 7 — Au-delà du Mur",
+      "paragraphs": [
+        "Beric et Thoros accompagnent Jon au-delà du Mur pour capturer un mort ; Thoros y meurt."
+      ]
+    },
+    {
+      "s": 8,
+      "title": "Saison 8 — La dernière vie",
+      "paragraphs": [
+        "Beric meurt à Winterfell en protégeant Arya."
+      ]
+    }
   ],
   "facts": [
     {
-      "label": "Langue",
-      "value": "Langue commune"
+      "label": "Fondateur",
+      "value": "Beric Dondarrion, sur ordre d’Eddard Stark"
     },
     {
-      "label": "Visages & repères",
-      "value": "Beric Dondarrion · Thoros de Myr"
+      "label": "Foi",
+      "value": "Le Maître de la Lumière"
     }
   ],
   "terms": [
@@ -32,13 +63,21 @@
       "def": "Beric et Thoros"
     }
   ],
-  "places": [],
-  "characters": [],
+  "places": [
+    "le-conflans"
+  ],
+  "characters": [
+    "beric-dondarrion",
+    "thoros-de-myr",
+    "sandor-clegane",
+    "arya-stark",
+    "gendry"
+  ],
   "image": "images/fraternite-sans-bannieres.webp",
   "sources": [
     {
-      "label": "A Wiki of Ice and Fire",
-      "url": "https://awoiaf.westeros.org/index.php/Brotherhood_without_banners"
+      "label": "Wiki of Westeros — Brotherhood Without Banners",
+      "url": "https://gameofthrones.fandom.com/wiki/Brotherhood_Without_Banners"
     }
   ]
 }

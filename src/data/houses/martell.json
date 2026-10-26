@@ -1,17 +1,181 @@
 {
   "slug": "martell",
   "name": "Maison Martell",
-  "words": "Insoumis, invaincus, intacts.",
+  "words": "Insoumis, invaincus, intacts",
   "sigil": "sigils/martell.svg",
-  "sigilDescription": "Un soleil rouge transpercé d’une lance d’or sur champ orange.",
-  "sigilCredit": null,
+  "sigilDescription": "Un soleil rouge transpercé d’une lance d’or sur champ orangé",
+  "sigilCredit": "Abjiklam (A Wiki of Ice and Fire), licence CC BY-SA 3.0",
+  "color": "#d0753a",
   "seat": "lancehelion",
   "region": "Dorne",
-  "history": [
-    "Les Martell gouvernent une principauté dont l’histoire avec les Targaryen diffère de celle des royaumes conquis. Leur nom conserve l’héritage de Nymeria et des Rhoynar. La retenue de Doran et l’énergie d’Oberyn expriment deux manières d’envisager la défense de la famille et de Dorne."
+  "summary": "Princes de Dorne, seule région que les dragons n’ont jamais conquise, et ennemis jurés des Lannister.",
+  "overlord": [
+    {
+      "to": "baratheon",
+      "until": 6
+    }
   ],
-  "inTheSeries": [],
-  "figures": [],
-  "members": [],
-  "sources": []
+  "vassals": [
+    "Dayne",
+    "Uller",
+    "Yronwood"
+  ],
+  "founded": "Par l’union de Mors Martell et de Nymeria de la Rhoyne",
+  "history": [
+    "Il y a mille ans, la reine guerrière Nymeria fuit les rives de la Rhoyne, en Essos, chassée par les seigneurs-dragons de Valyria. Elle traversa la mer avec dix mille navires chargés de son peuple et débarqua à Dorne, où elle épousa Mors Martell, un seigneur local. Ensemble, ils soumirent les autres familles du désert. Depuis, les souverains de Dorne portent le titre de prince et non de roi, et les femmes peuvent hériter comme les hommes.",
+    "Dorne fut la seule région à résister à Aegon le Conquérant. Ses habitants refusèrent les batailles rangées, se cachèrent dans les montagnes et le désert, et harcelèrent les armées targaryennes jusqu’à les épuiser. Il fallut près de deux siècles, et un mariage, pour que Dorne rejoigne enfin le royaume.",
+    "Les Dorniens se distinguent du reste de Westeros par leurs coutumes : plus libres en amour, plus tolérants envers les enfants naturels, qu’on appelle Sand, et plus attachés à leurs propres lois qu’à celles du Trône de Fer.",
+    "Pendant la Rébellion, la princesse Elia Martell, épouse de Rhaegar Targaryen, fut tuée avec ses deux enfants par Gregor Clegane, lors du sac de Port-Réal, sur l’ordre implicite de Tywin Lannister. Le prince Doran a juré de les venger, mais il attend son heure. Son frère Oberyn, la Vipère Rouge, est moins patient.",
+    "Lancehélion, le siège de la famille, se dresse au bord de la mer, à l’extrémité orientale de Dorne, autour de la tour du Soleil et de la tour de la Lance. Le prince Doran, perclus de goutte, préfère cependant les Jardins Aquatiques, un palais de bassins et de fontaines bâti par un ancêtre pour une épouse targaryenne. Il y regarde jouer les enfants en pesant chaque décision ; ses ennemis le croient faible, ses proches le savent prudent."
+  ],
+  "inTheSeries": [
+    {
+      "s": 4,
+      "title": "Saison 4 — La Vipère Rouge",
+      "paragraphs": [
+        "Oberyn vient à Port-Réal pour obtenir justice pour sa sœur. Il défend Tyrion en combat judiciaire et meurt de la main de la Montagne."
+      ]
+    },
+    {
+      "s": 5,
+      "title": "Saison 5 — Les Aspics des Sables",
+      "paragraphs": [
+        "Ellaria et les filles d’Oberyn veulent la guerre contre les Lannister. Myrcella, fiancée à Trystane, meurt empoisonnée sur le bateau du retour."
+      ]
+    },
+    {
+      "s": 6,
+      "title": "Saison 6 — Le coup d’État",
+      "paragraphs": [
+        "Ellaria tue le prince Doran et prend le pouvoir à Dorne ; Obara et Nymeria tuent Trystane."
+      ]
+    },
+    {
+      "s": 7,
+      "title": "Saison 7 — La vengeance de Cersei",
+      "paragraphs": [
+        "La flotte d’Euron capture Ellaria et Tyene. Cersei empoisonne Tyene sous les yeux de sa mère et laisse Ellaria la regarder mourir."
+      ]
+    }
+  ],
+  "figures": [
+    "Nymeria de la Rhoyne",
+    "Elia Martell"
+  ],
+  "members": [
+    "doran-martell",
+    "oberyn-martell",
+    "trystane-martell",
+    "ellaria-sand",
+    "obara-sand",
+    "nymeria-sand",
+    "tyene-sand"
+  ],
+  "tree": {
+    "people": [
+      {
+        "id": "princesse-de-dorne",
+        "name": "Princesse de Dorne",
+        "note": "Mère de Doran, Elia et Oberyn",
+        "deadBefore": true
+      },
+      {
+        "id": "doran-martell",
+        "character": "doran-martell"
+      },
+      {
+        "id": "elia-martell",
+        "name": "Elia Martell",
+        "deadBefore": true,
+        "portrait": "images/personnages/elia-martell.webp"
+      },
+      {
+        "id": "oberyn-martell",
+        "character": "oberyn-martell"
+      },
+      {
+        "id": "ellaria-sand",
+        "character": "ellaria-sand"
+      },
+      {
+        "id": "rhaegar-targaryen",
+        "character": "rhaegar-targaryen",
+        "house": "targaryen"
+      },
+      {
+        "id": "trystane-martell",
+        "character": "trystane-martell"
+      },
+      {
+        "id": "rhaenys-targaryen",
+        "name": "Rhaenys Targaryen",
+        "house": "targaryen",
+        "deadBefore": true,
+        "portrait": "images/personnages/rhaenys-targaryen.webp"
+      },
+      {
+        "id": "aegon-targaryen",
+        "name": "Aegon Targaryen",
+        "house": "targaryen",
+        "deadBefore": true,
+        "portrait": "images/personnages/aegon-targaryen.webp"
+      },
+      {
+        "id": "obara-sand",
+        "character": "obara-sand"
+      },
+      {
+        "id": "nymeria-sand",
+        "character": "nymeria-sand"
+      },
+      {
+        "id": "tyene-sand",
+        "character": "tyene-sand"
+      }
+    ],
+    "unions": [
+      {
+        "a": "princesse-de-dorne",
+        "children": [
+          "doran-martell",
+          "elia-martell",
+          "oberyn-martell"
+        ]
+      },
+      {
+        "a": "doran-martell",
+        "children": [
+          "trystane-martell"
+        ]
+      },
+      {
+        "a": "rhaegar-targaryen",
+        "b": "elia-martell",
+        "children": [
+          "rhaenys-targaryen",
+          "aegon-targaryen"
+        ]
+      },
+      {
+        "a": "oberyn-martell",
+        "b": "ellaria-sand",
+        "children": [
+          "tyene-sand"
+        ]
+      },
+      {
+        "a": "oberyn-martell",
+        "children": [
+          "obara-sand",
+          "nymeria-sand"
+        ]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "label": "Wiki of Westeros — House Martell",
+      "url": "https://gameofthrones.fandom.com/wiki/House_Martell"
+    }
+  ]
 }

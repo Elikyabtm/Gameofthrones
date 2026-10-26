@@ -2,13 +2,23 @@
   "slug": "yunkai",
   "name": "Yunkaï",
   "kind": "cité",
-  "region": "Baie des Serfs",
+  "region": "La baie des Serfs",
   "continent": "essos",
+  "coords": { "x": 1650, "y": 1060 },
+  "summary": "La cité jaune de la baie des Serfs, qui forme des esclaves d’agrément.",
+  "rulers": [{ "text": "Les Sages Maîtres" }],
   "description": [
-    "Yunkaï est l’un des grands centres esclavagistes de la baie des Serfs. Ses maîtres, son architecture et ses stratégies ne se confondent pas avec ceux d’Astapor ou de Meereen. Les trois cités partagent un système économique, mais conservent leurs intérêts particuliers."
+    "Yunkaï est la plus petite des trois cités de la baie, bâtie de brique jaune. Ses maîtres, qui se font appeler les Sages Maîtres, ne forment pas de soldats mais des esclaves d’agrément et de maison : musiciens, danseurs, lettrés, compagnons de lit. Ils engagent des mercenaires pour se défendre.",
+    "La ville est entourée de murs épais, mais ses défenseurs sont peu nombreux et peu motivés."
   ],
-  "history": [],
-  "events": [],
-  "image": "images/immacules.webp",
-  "sources": []
+  "history": [
+    "Comme Astapor et Meereen, Yunkaï se réclame de l’ancien empire de Ghis. Ses maîtres ont longtemps vécu de leurs marchés d’esclaves, sans jamais imaginer qu’on puisse les en priver."
+  ],
+  "events": [
+    { "s": 3, "text": "Daenerys assiège la ville ; les Puînés changent de camp et Yunkaï est prise par une porte dérobée." },
+    { "s": 3, "text": "Les esclaves libérés acclament Daenerys comme leur mère." },
+    { "s": 6, "text": "Les maîtres de Yunkaï se joignent à l’attaque contre Meereen." }
+  ],
+  "image": null,
+  "sources": [{ "label": "Wiki of Westeros — Yunkai", "url": "https://gameofthrones.fandom.com/wiki/Yunkai" }]
 }

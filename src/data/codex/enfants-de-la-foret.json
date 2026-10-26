@@ -1,16 +1,70 @@
 {
   "slug": "enfants-de-la-foret",
   "rubric": "creatures",
-  "name": "Enfants de la Forêt",
-  "kicker": "Avant les royaumes des hommes",
-  "lead": "Les Enfants de la Forêt appartiennent aux plus anciennes strates de l’histoire de Westeros.",
+  "name": "Enfants de la forêt",
+  "kicker": "Les premiers habitants",
+  "featured": true,
+  "lead": "Petit peuple ancien des forêts, maître des barrals et de la magie verte, que l’on croit disparu depuis des millénaires.",
   "body": [
-    "Les Enfants de la Forêt appartiennent aux plus anciennes strates de l’histoire de Westeros. Leur relation aux arbres, à la mémoire et aux premiers habitants humains fait du monde naturel un acteur du récit, plutôt qu’un simple décor."
+    "Les enfants de la forêt habitaient Westeros bien avant les hommes. Ils étaient petits, bruns de peau, avec de grands yeux dorés ou verts, et vivaient dans les bois, les grottes et les collines creuses. Ils ne bâtissaient ni villes ni châteaux, se servaient d’armes de verredragon et adoraient les dieux sans nom de la nature. Ce sont eux qui ont sculpté des visages dans l’écorce blanche des barrals.",
+    "Il y a douze mille ans, les Premiers Hommes traversèrent le pont de terre qui reliait Westeros à Essos. Ils abattirent les forêts et les barrals sacrés, et les enfants les combattirent pendant des siècles. Selon la légende, ils brisèrent le pont de terre par magie pour arrêter l’invasion. La paix fut finalement conclue sur l’Île-aux-Visages, au milieu du lac de l’Œildieu : les hommes garderaient les terres découvertes, les enfants les forêts. Les Premiers Hommes adoptèrent leurs dieux.",
+    "Puis vint la Longue Nuit et les Marcheurs blancs. Les enfants et les Premiers Hommes s’allièrent pour les repousser, et l’on dit que les enfants aidèrent à élever le Mur. Plus tard, l’arrivée des Andals, qui brûlaient les barrals, les chassa vers le nord. Les mestres affirment qu’ils ont disparu.",
+    "Pourtant, dans le Nord, on raconte encore que certains survivent au-delà du Mur, cachés sous les racines, et qu’ils savent voir à travers les yeux des arbres. Les enfants appellent les hommes des « hommes » ; eux-mêmes se nomment « ceux qui chantent le chant de la terre »."
   ],
-  "facts": [],
-  "terms": [],
-  "places": [],
-  "characters": [],
+  "inTheSeries": [
+    {
+      "s": 4,
+      "title": "Saison 4 — La grotte",
+      "paragraphs": [
+        "Une enfant de la forêt sauve Bran et Meera des morts animés et les conduit jusqu’à la Corneille à trois yeux."
+      ]
+    },
+    {
+      "s": 6,
+      "title": "Saison 6 — Le secret des enfants",
+      "paragraphs": [
+        "Bran découvre, dans une vision, que ce sont les enfants de la forêt qui ont créé le premier Marcheur blanc pour se défendre contre les Premiers Hommes. Les derniers enfants meurent en protégeant la fuite de Bran."
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "label": "Arme",
+      "value": "Verredragon (obsidienne)"
+    },
+    {
+      "label": "Lieu sacré",
+      "value": "Barrals, Île-aux-Visages"
+    },
+    {
+      "label": "Autre nom",
+      "value": "Ceux qui chantent le chant de la terre"
+    }
+  ],
+  "terms": [
+    {
+      "term": "Barral",
+      "def": "Arbre blanc aux feuilles rouges, sacré pour les anciens dieux."
+    },
+    {
+      "term": "Pacte",
+      "def": "Accord de paix entre les enfants et les Premiers Hommes."
+    }
+  ],
+  "places": [
+    "au-dela-du-mur",
+    "winterfell"
+  ],
+  "characters": [
+    "bran-stark",
+    "corneille-a-trois-yeux",
+    "meera-reed"
+  ],
   "image": "images/enfants-de-la-foret.webp",
-  "sources": []
+  "sources": [
+    {
+      "label": "Wiki of Westeros — Children of the Forest",
+      "url": "https://gameofthrones.fandom.com/wiki/Children_of_the_Forest"
+    }
+  ]
 }

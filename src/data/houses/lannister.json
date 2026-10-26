@@ -2,16 +2,60 @@
   "slug": "lannister",
   "name": "Maison Lannister",
   "words": "Je rugis !",
+  "wordsNote": "On cite plus souvent leur devise officieuse : « Un Lannister paie toujours ses dettes ».",
   "sigil": "sigils/lannister.svg",
-  "sigilDescription": "Un lion d’or sur champ rouge.",
-  "sigilCredit": null,
+  "sigilDescription": "Un lion d’or dressé sur champ écarlate",
+  "sigilCredit": "Abjiklam (A Wiki of Ice and Fire), licence CC BY-SA 3.0",
+  "color": "#c2a264",
   "seat": "castral-roc",
-  "region": "Les Terres de l’Ouest",
+  "region": "L’Ouest",
+  "summary": "La maison la plus riche des Sept Couronnes, maîtresse de Castral Roc et de ses mines d’or.",
+  "overlord": [{ "to": "baratheon" }],
+  "vassals": ["clegane", "Payne", "Marpheux", "Crakehall", "Lefford"],
+  "founded": "À l’Âge des Héros, par Lann le Futé selon la légende",
   "history": [
-    "Les Lannister associent une forte implantation territoriale à une influence financière et dynastique. La richesse de l’Ouest ne suffit pourtant pas à garantir la cohésion familiale : Tywin, Cersei, Jaime et Tyrion donnent des sens très différents à la fidélité au nom. « Un Lannister paie toujours ses dettes » est une formule célèbre, distincte de la devise officielle."
+    "Selon la légende, la maison Lannister descend de Lann le Futé, un aventurier rusé qui aurait chassé les anciens seigneurs de Castral Roc à force de tours et de mensonges : il se serait glissé dans la forteresse par une fente du rocher, puis aurait semé la discorde jusqu’à ce que ses occupants s’enfuient. Les Lannister ne revendiquent pas un héros guerrier, mais un esprit : c’est tout un programme.",
+    "Rois du Roc pendant des siècles, ils se sont soumis à Aegon le Conquérant après une seule bataille, au Champ de Feu. Leur force tient à l’or : les mines creusées sous Castral Roc et dans les collines de l’Ouest leur permettent de financer des armées, des alliances et des dettes royales. La couronne elle-même leur doit des sommes considérables.",
+    "Tywin Lannister a restauré la réputation d’une maison affaiblie par son propre père, en écrasant sans pitié une famille vassale rebelle, les Reyne de Castamere. La chanson qui raconte leur extermination, « Les Pluies de Castamere », est devenue un avertissement. Pendant la Rébellion, Tywin est resté neutre jusqu’à la dernière minute, puis a pris Port-Réal par traîtrise. Il a marié sa fille Cersei au nouveau roi, Robert Baratheon, pour lier sa maison au trône.",
+    "Les trois enfants de Tywin ne ressemblent guère à l’idée qu’il se fait de sa lignée : Cersei est ambitieuse mais impulsive, Jaime a renoncé à l’héritage en entrant dans la Garde Royale, et Tyrion, né nain, est la honte de son père, qui le tient pour responsable de la mort de sa femme Joanna."
   ],
-  "inTheSeries": [],
-  "figures": [],
-  "members": [],
-  "sources": []
+  "inTheSeries": [
+    { "s": 1, "title": "Saison 1 — Le roi et la reine", "paragraphs": ["La reine Cersei protège le secret de ses enfants, nés de son frère Jaime. À la mort de Robert, son fils Joffrey monte sur le trône. La guerre éclate entre les Lannister et les Stark après l’arrestation de Tyrion."] },
+    { "s": 2, "title": "Saison 2 — La défense de la capitale", "paragraphs": ["Tyrion gouverne Port-Réal comme Main par intérim et le défend contre Stannis à la Néra. Tywin arrive à temps avec l’armée des Tyrell."] },
+    { "s": 3, "title": "Saison 3 — La victoire", "paragraphs": ["Tywin gouverne en maître, marie Tyrion à Sansa et organise avec les Frey et les Bolton la fin du roi du Nord aux Jumeaux."] },
+    { "s": 4, "title": "Saison 4 — Le lion blessé", "paragraphs": ["Joffrey meurt empoisonné à ses noces. Tyrion, accusé, tue son père avant de fuir en Essos."] },
+    { "s": 5, "title": "Saison 5 — La reine et la Foi", "paragraphs": ["Cersei arme la Foi militante pour abattre les Tyrell et se retrouve elle-même emprisonnée et humiliée."] },
+    { "s": 6, "title": "Saison 6 — Le feu grégeois", "paragraphs": ["Cersei détruit le grand septuor et ses ennemis. Son dernier fils, Tommen, se donne la mort. Elle se fait couronner reine."] },
+    { "s": 7, "title": "Saison 7 — La guerre contre Daenerys", "paragraphs": ["Jaime mène les armées de Cersei contre les alliés de Daenerys, puis la quitte pour combattre les morts dans le Nord."] },
+    { "s": 8, "title": "Saison 8 — La fin du lion", "paragraphs": ["Cersei et Jaime meurent sous les ruines du Donjon Rouge. Tyrion, dernier Lannister, devient la Main du roi Bran."] }
+  ],
+  "figures": ["Lann le Futé", "Tytos Lannister, le père de Tywin", "Joanna Lannister"],
+  "members": ["tywin-lannister", "cersei-lannister", "jaime-lannister", "tyrion-lannister", "kevan-lannister", "lancel-lannister"],
+  "tree": {
+    "people": [
+      { "id": "tywin-lannister", "character": "tywin-lannister" },
+      { "id": "joanna-lannister", "name": "Joanna Lannister", "portrait": "images/personnages/joanna-lannister.webp", "deadBefore": true },
+      { "id": "kevan-lannister", "character": "kevan-lannister" },
+      { "id": "cersei-lannister", "character": "cersei-lannister" },
+      { "id": "jaime-lannister", "character": "jaime-lannister" },
+      { "id": "tyrion-lannister", "character": "tyrion-lannister" },
+      { "id": "lancel-lannister", "character": "lancel-lannister" },
+      { "id": "robert-baratheon", "character": "robert-baratheon", "house": "baratheon" },
+      { "id": "joffrey-baratheon", "character": "joffrey-baratheon", "house": "baratheon" },
+      { "id": "myrcella-baratheon", "character": "myrcella-baratheon", "house": "baratheon" },
+      { "id": "tommen-baratheon", "character": "tommen-baratheon", "house": "baratheon" },
+      { "id": "sansa-stark", "character": "sansa-stark", "house": "stark", "s": 3 }
+    ],
+    "unions": [
+      { "a": "tywin-lannister", "b": "joanna-lannister", "children": ["cersei-lannister", "jaime-lannister", "tyrion-lannister"] },
+      { "a": "kevan-lannister", "children": ["lancel-lannister"] },
+      { "a": "robert-baratheon", "b": "cersei-lannister", "children": [] },
+      { "a": "jaime-lannister", "b": "cersei-lannister", "children": ["joffrey-baratheon", "myrcella-baratheon", "tommen-baratheon"], "secret": true },
+      { "a": "tyrion-lannister", "b": "sansa-stark", "children": [], "s": 3 }
+    ]
+  },
+  "sources": [
+    { "label": "Wiki of Westeros — House Lannister", "url": "https://gameofthrones.fandom.com/wiki/House_Lannister" },
+    { "label": "A Wiki of Ice and Fire — House Lannister", "url": "https://awoiaf.westeros.org/index.php/House_Lannister" }
+  ]
 }

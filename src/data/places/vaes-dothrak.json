@@ -2,13 +2,23 @@
   "slug": "vaes-dothrak",
   "name": "Vaes Dothrak",
   "kind": "cité",
-  "region": "Cité sacrée",
+  "region": "La mer Dothrak",
   "continent": "essos",
+  "coords": { "x": 1760, "y": 605 },
+  "summary": "Seule ville des Dothraki, sans murs, au pied de la Mère des Montagnes.",
+  "rulers": [{ "text": "Les dosh khaleen, veuves des khals" }],
   "description": [
-    "Au pied de la Mère des Montagnes, Vaes Dothrak est le grand centre sacré des Dothraki. Les khalasars y convergent, et les dosh khaleen y possèdent une autorité religieuse. Le lieu constitue un point fixe dans une culture de la mobilité."
+    "Vaes Dothrak se dresse au pied de la Mère des Montagnes, au bord du lac appelé le Sein du Monde. C’est une ville sans murs ni remparts, car aucun ennemi n’oserait l’attaquer. On y entre par une avenue bordée de chevaux de pierre géants, et ses rues sont décorées de statues et de portes volées aux cités que les Dothraki ont pillées. Les maisons sont faites de bois, de tentes et d’herbes tressées.",
+    "C’est un lieu sacré : nul ne peut y porter d’arme, ni y verser le sang. Les khalasars s’y rassemblent pour commercer et pour consulter les dosh khaleen, les veuves des khals, qui y vivent dans un temple et lisent l’avenir."
   ],
-  "history": [],
-  "events": [],
+  "history": [
+    "Les Dothraki affirment que leur peuple est né du Sein du Monde, au pied de la montagne sacrée. Quand un khal meurt, sa veuve rejoint les dosh khaleen à Vaes Dothrak, où elle passera le reste de ses jours. Les grandes décisions du peuple, quand il en prend, se prennent dans le temple des veuves."
+  ],
+  "events": [
+    { "s": 1, "text": "Daenerys mange un cœur d’étalon devant les dosh khaleen ; Viserys est couronné d’or fondu." },
+    { "s": 1, "text": "Khal Drogo jure de traverser la mer après une tentative d’empoisonnement de Daenerys." },
+    { "s": 6, "text": "Prisonnière des khals, Daenerys met le feu au temple et en sort indemne." }
+  ],
   "image": "images/dothraki.webp",
-  "sources": []
+  "sources": [{ "label": "Wiki of Westeros — Vaes Dothrak", "url": "https://gameofthrones.fandom.com/wiki/Vaes_Dothrak" }]
 }

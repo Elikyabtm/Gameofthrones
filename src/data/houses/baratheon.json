@@ -1,17 +1,206 @@
 {
   "slug": "baratheon",
   "name": "Maison Baratheon",
-  "words": "Nôtre est la fureur.",
+  "words": "Nôtre est la fureur",
   "sigil": "sigils/baratheon.svg",
-  "sigilDescription": "Un cerf noir sur champ d’or.",
-  "sigilCredit": null,
+  "sigilDescription": "Un cerf noir couronné sur champ d’or",
+  "sigilCredit": "Abjiklam (A Wiki of Ice and Fire), licence CC BY-SA 3.0",
+  "color": "#c4b27c",
   "seat": "accalmie",
   "region": "Les Terres de l’Orage",
-  "history": [
-    "La rébellion porte Robert au trône et place une maison des Terres de l’Orage au centre du royaume. Robert, Stannis et Renly ne partagent cependant ni la même vision du droit, ni la même manière de convaincre. Leur parenté ne les protège pas des rivalités que suscite le pouvoir."
+  "summary": "Maison royale depuis la Rébellion, issue des Terres de l’Orage, dont les trois frères se disputent l’héritage.",
+  "overlord": [],
+  "vassals": [
+    "torth",
+    "mervault",
+    "Estermont",
+    "Swann",
+    "Dondarrion"
   ],
-  "inTheSeries": [],
-  "figures": [],
-  "members": [],
-  "sources": []
+  "founded": "Lors de la conquête d’Aegon, par Orys Baratheon",
+  "history": [
+    "La maison Baratheon est née de la conquête. Orys Baratheon, compagnon et demi-frère, disait-on, d’Aegon Targaryen, vainquit le dernier roi de l’Orage et épousa sa fille. Il prit pour siège Accalmie, pour armes le cerf couronné des anciens rois, et pour devise une promesse de colère. Ses descendants restèrent pendant trois siècles de puissants seigneurs, liés aux Targaryen par le sang et les mariages.",
+    "Les Baratheon ont la réputation d’être grands, bruns, coléreux et rudes. Steffon Baratheon, père de Robert, Stannis et Renly, mourut en mer avec sa femme, sous les yeux de ses fils, en revenant d’une mission pour le roi.",
+    "Quand le prince Rhaegar enleva Lyanna Stark, fiancée de Robert, celui-ci se souleva avec Eddard Stark et Jon Arryn. La Rébellion fit de lui le roi des Sept Couronnes : il tua Rhaegar de sa main au Trident, et monta sur le Trône de Fer en invoquant son ascendance targaryenne. Il donna Peyredragon à Stannis et Accalmie à Renly, ce que Stannis ne lui pardonna jamais.",
+    "Les trois frères ne se ressemblent pas. Robert, l’aîné, est un guerrier formidable et un roi médiocre, qui s’ennuie dans la paix et noie ses regrets dans le vin. Stannis, le cadet, est un homme de devoir, inflexible et sans charme, qui ne connaît que la loi. Renly, le benjamin, est aimable, élégant et populaire, et pense qu’une couronne se gagne par la sympathie plutôt que par le droit. Entre eux, il y a peu d’affection : chacun reproche aux autres ce qu’il n’est pas.",
+    "Au début de l’histoire, la maison Baratheon règne, mais le roi Robert boit plus qu’il ne gouverne, et sa succession repose sur des enfants dont la naissance pose question."
+  ],
+  "inTheSeries": [
+    {
+      "s": 1,
+      "title": "Saison 1 — La mort du roi",
+      "paragraphs": [
+        "Robert meurt à la chasse. Eddard Stark découvre que les enfants royaux ne sont pas les siens. Joffrey, fils de Cersei, monte sur le trône."
+      ]
+    },
+    {
+      "s": 2,
+      "title": "Saison 2 — La guerre des frères",
+      "paragraphs": [
+        "Stannis et Renly revendiquent tous deux la couronne. Renly est assassiné par une ombre ; Stannis échoue devant Port-Réal à la Néra."
+      ]
+    },
+    {
+      "s": 4,
+      "title": "Saison 4 — Un roi après l’autre",
+      "paragraphs": [
+        "Joffrey meurt empoisonné ; son jeune frère Tommen lui succède. Stannis, financé par la Banque de Fer, part défendre le Mur."
+      ]
+    },
+    {
+      "s": 5,
+      "title": "Saison 5 — La fin de Stannis",
+      "paragraphs": [
+        "Stannis sacrifie sa fille Shireen et perd tout devant Winterfell."
+      ]
+    },
+    {
+      "s": 6,
+      "title": "Saison 6 — Le dernier roi Baratheon",
+      "paragraphs": [
+        "Tommen se donne la mort après l’explosion du grand septuor. La dynastie Baratheon s’éteint sur le trône."
+      ]
+    },
+    {
+      "s": 8,
+      "title": "Saison 8 — Un nouveau Baratheon",
+      "paragraphs": [
+        "Daenerys légitime Gendry, fils naturel de Robert, et en fait le seigneur d’Accalmie."
+      ]
+    }
+  ],
+  "figures": [
+    "Orys Baratheon",
+    "Steffon Baratheon"
+  ],
+  "members": [
+    "robert-baratheon",
+    "stannis-baratheon",
+    "renly-baratheon",
+    "joffrey-baratheon",
+    "myrcella-baratheon",
+    "tommen-baratheon",
+    "selyse-baratheon",
+    "shireen-baratheon",
+    "gendry"
+  ],
+  "tree": {
+    "people": [
+      {
+        "id": "steffon-baratheon",
+        "name": "Steffon Baratheon",
+        "portrait": "images/personnages/steffon-baratheon.webp",
+        "deadBefore": true
+      },
+      {
+        "id": "cassana-baratheon",
+        "name": "Cassana Baratheon",
+        "portrait": "images/personnages/cassana-baratheon.webp",
+        "deadBefore": true
+      },
+      {
+        "id": "robert-baratheon",
+        "character": "robert-baratheon"
+      },
+      {
+        "id": "cersei-lannister",
+        "character": "cersei-lannister",
+        "house": "lannister"
+      },
+      {
+        "id": "jaime-lannister",
+        "character": "jaime-lannister",
+        "house": "lannister"
+      },
+      {
+        "id": "stannis-baratheon",
+        "character": "stannis-baratheon"
+      },
+      {
+        "id": "selyse-baratheon",
+        "character": "selyse-baratheon"
+      },
+      {
+        "id": "renly-baratheon",
+        "character": "renly-baratheon"
+      },
+      {
+        "id": "margaery-tyrell",
+        "character": "margaery-tyrell",
+        "house": "tyrell",
+        "s": 2
+      },
+      {
+        "id": "joffrey-baratheon",
+        "character": "joffrey-baratheon"
+      },
+      {
+        "id": "myrcella-baratheon",
+        "character": "myrcella-baratheon"
+      },
+      {
+        "id": "tommen-baratheon",
+        "character": "tommen-baratheon"
+      },
+      {
+        "id": "shireen-baratheon",
+        "character": "shireen-baratheon"
+      },
+      {
+        "id": "gendry",
+        "character": "gendry"
+      }
+    ],
+    "unions": [
+      {
+        "a": "steffon-baratheon",
+        "b": "cassana-baratheon",
+        "children": [
+          "robert-baratheon",
+          "stannis-baratheon",
+          "renly-baratheon"
+        ]
+      },
+      {
+        "a": "robert-baratheon",
+        "b": "cersei-lannister",
+        "children": []
+      },
+      {
+        "a": "jaime-lannister",
+        "b": "cersei-lannister",
+        "children": [
+          "joffrey-baratheon",
+          "myrcella-baratheon",
+          "tommen-baratheon"
+        ],
+        "secret": true
+      },
+      {
+        "a": "robert-baratheon",
+        "children": [
+          "gendry"
+        ]
+      },
+      {
+        "a": "stannis-baratheon",
+        "b": "selyse-baratheon",
+        "children": [
+          "shireen-baratheon"
+        ]
+      },
+      {
+        "a": "renly-baratheon",
+        "b": "margaery-tyrell",
+        "children": [],
+        "s": 2
+      }
+    ]
+  },
+  "sources": [
+    {
+      "label": "Wiki of Westeros — House Baratheon",
+      "url": "https://gameofthrones.fandom.com/wiki/House_Baratheon"
+    }
+  ]
 }

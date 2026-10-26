@@ -1,16 +1,69 @@
 {
   "slug": "dieu-noye",
   "rubric": "croyances",
-  "name": "Le Dieu Noyé",
-  "kicker": "Îles de Fer · mer · renaissance",
-  "lead": "Le Dieu Noyé est au cœur de la religion des Fer-nés.",
+  "name": "Dieu Noyé",
+  "kicker": "La foi des Îles de Fer",
+  "lead": "Dieu des Fer-nés, qui vit sous les vagues et attend ses fidèles dans ses salles aquatiques.",
   "body": [
-    "Le Dieu Noyé est au cœur de la religion des Fer-nés. Les rites associent l’eau, l’épreuve et le retour à la vie. Cette foi donne une signification collective aux dangers de la mer et aux traditions qui structurent l’identité des îles."
+    "Les Fer-nés adorent le Dieu Noyé, qui demeure sous la mer. Il a créé les Fer-nés pour qu’ils règnent sur les flots et les hommes de la terre, et il les accueille après leur mort dans ses salles liquides, où des sirènes les servent. Son ennemi est le Dieu des Tempêtes, qui envoie les orages briser les navires.",
+    "Ses prêtres, les hommes-noyés, portent des robes en peau de phoque et des cheveux longs emmêlés de sel. Ils baptisent les fidèles en les noyant : ils les maintiennent sous l’eau jusqu’à ce qu’ils cessent de respirer, puis les ramènent sur la grève et les ressuscitent en chassant l’eau de leurs poumons. Ce qui est noyé, pensent-ils, est mort une fois et ne craint plus la mort.",
+    "La foi du Dieu Noyé justifie « l’ancienne voie », le mode de vie des Fer-nés : pillage, prise d’épouses de sel, mépris de ceux qui achètent ce qu’ils pourraient prendre. Un Fer-né doit payer le prix du fer, pas celui de l’or.",
+    "C’est aussi par cette foi que l’on choisit les rois. Lors du Conseil royal, les capitaines se réunissent sur le rivage, et le roi élu est noyé puis couronné de bois flotté."
   ],
-  "facts": [],
-  "terms": [],
-  "places": [],
-  "characters": [],
+  "inTheSeries": [
+    {
+      "s": 2,
+      "title": "Saison 2 — Le baptême",
+      "paragraphs": [
+        "Theon est rebaptisé dans la mer à son retour à Pyk."
+      ]
+    },
+    {
+      "s": 6,
+      "title": "Saison 6 — Le Conseil royal",
+      "paragraphs": [
+        "Euron revendique la couronne au Conseil royal et est noyé selon le rite, puis se relève roi."
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "label": "Fidèles",
+      "value": "Les Fer-nés"
+    },
+    {
+      "label": "Prêtres",
+      "value": "Les hommes-noyés"
+    },
+    {
+      "label": "Formule",
+      "value": "Ce qui est mort ne saurait mourir"
+    }
+  ],
+  "terms": [
+    {
+      "term": "Ancienne voie",
+      "def": "Mode de vie fondé sur le pillage et le refus de payer."
+    },
+    {
+      "term": "Épouse de sel",
+      "def": "Femme enlevée lors d’un raid et prise comme épouse secondaire."
+    }
+  ],
+  "places": [
+    "pyk"
+  ],
+  "characters": [
+    "theon-greyjoy",
+    "yara-greyjoy",
+    "euron-greyjoy",
+    "balon-greyjoy"
+  ],
   "image": "images/dieu-noye.webp",
-  "sources": []
+  "sources": [
+    {
+      "label": "Wiki of Westeros — Drowned God",
+      "url": "https://gameofthrones.fandom.com/wiki/Drowned_God"
+    }
+  ]
 }

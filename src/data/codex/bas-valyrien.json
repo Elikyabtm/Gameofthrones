@@ -1,27 +1,50 @@
 {
   "slug": "bas-valyrien",
   "rubric": "langues",
-  "name": "Les valyriens d’Essos",
-  "kicker": "Essos · Cités libres & baie des Serfs",
-  "lead": "Des langues apparentées, avec des histoires locales.",
+  "name": "Bas valyrien",
+  "kicker": "Les héritiers de Valyria",
+  "lead": "Ensemble de dialectes nés du haut valyrien, parlés différemment dans chaque cité libre et dans la baie des Serfs.",
   "body": [
-    "« Bas valyrien » recouvre des variétés descendantes de la langue de Valyria. Les Cités libres ne parlent pas toutes exactement de la même manière ; l’histoire et les contacts ont fait évoluer les langues.",
-    "Les variétés de la baie des Serfs ont notamment reçu une influence ghiscarie. Le valyrien d’Astapor ne doit donc pas être présenté comme une simple répétition du haut valyrien appris par les élites."
+    "Après le Fléau, le haut valyrien a continué à vivre dans les cités libres et dans les colonies, mais chaque région l’a transformé à sa façon. On appelle bas valyrien cet ensemble de dialectes, parfois si éloignés qu’un Braavien et un Volantain ont du mal à se comprendre.",
+    "Dans la baie des Serfs, le valyrien s’est mélangé à la vieille langue de Ghis, et les maîtres d’Astapor, de Yunkai et de Meereen parlent un dialecte rude, chargé de mots ghiscaris. C’est cette langue que Daenerys entend à Astapor quand les maîtres la croient incapable de les comprendre.",
+    "Le bas valyrien est la langue du commerce et de l’esclavage en Essos. Les esclaves éduqués l’apprennent avec plusieurs autres langues pour servir d’interprètes ; Missandei en est un exemple. Pour un étranger, savoir le parler, c’est pouvoir entendre ce qu’on dit de lui."
+  ],
+  "inTheSeries": [
+    {
+      "s": 3,
+      "title": "Saison 3 — L’interprète",
+      "paragraphs": [
+        "Kraznys insulte Daenerys en bas valyrien devant elle, convaincu qu’elle ne le comprend pas ; Missandei traduit, en adoucissant."
+      ]
+    }
   ],
   "facts": [
     {
-      "label": "Où la retrouver",
-      "value": "Braavos · Pentos · Astapor · Meereen"
+      "label": "Où l’entendre",
+      "value": "Braavos · Pentos · Volantis · baie des Serfs"
+    },
+    {
+      "label": "Origine",
+      "value": "Haut valyrien"
     }
   ],
   "terms": [],
-  "places": [],
-  "characters": [],
+  "places": [
+    "braavos",
+    "volantis",
+    "astapor",
+    "meereen"
+  ],
+  "characters": [
+    "missandei",
+    "kraznys-mo-nakloz",
+    "daenerys-targaryen"
+  ],
   "image": null,
   "sources": [
     {
-      "label": "A Wiki of Ice and Fire",
-      "url": "https://awoiaf.westeros.org/index.php/High_Valyrian"
+      "label": "A Wiki of Ice and Fire — Low Valyrian",
+      "url": "https://awoiaf.westeros.org/index.php/Low_Valyrian"
     }
   ]
 }

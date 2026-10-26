@@ -1,44 +1,64 @@
 {
   "slug": "foi-militante",
   "rubric": "ordres",
-  "name": "La Foi Militante",
-  "kicker": "Westeros · La Foi des Sept",
-  "lead": "Lorsque l’autorité religieuse se donne une force armée.",
+  "name": "Foi militante",
+  "kicker": "Le bras armé des Sept",
+  "lead": "Ordres armés de la Foi des Sept, dissous par les Targaryen, et rétablis par Cersei pour abattre ses rivaux.",
   "body": [
-    "La Foi Militante rassemble des fidèles combattants attachés au culte des Sept. Sa présence met en question la place des couronnes face à une autorité qui affirme parler au nom du sacré.",
-    "Dans la série, le retour de cette force s’accompagne de l’ascension des Moineaux. Le conflit ne concerne donc pas seulement des croyances : il touche aux privilèges, à la richesse et au pouvoir de juger les membres des grandes maisons."
+    "Avant la Conquête, la Foi des Sept avait sa propre armée. Les Fils du Guerrier, chevaliers qui juraient de défendre la Foi, et les Pauvres Compagnons, gueux armés de haches et de bâtons, formaient ce qu’on appelait la Foi militante. Ils jugeaient les péchés et les punissaient eux-mêmes.",
+    "Les Targaryen, dont les mariages entre frères et sœurs scandalisaient le clergé, durent combattre la Foi militante pendant des années, jusqu’à ce que le roi Maegor la détruise par le feu et le sang. Pendant des siècles, la Foi a ensuite renoncé aux armes en échange de la protection de la couronne.",
+    "Les moineaux, des fidèles pauvres et pieux, rêvent de revenir à cette Foi d’avant la soumission. Leur chef, le Grand Moineau, vit pieds nus et prêche contre la corruption des puissants."
+  ],
+  "inTheSeries": [
+    {
+      "s": 5,
+      "title": "Saison 5 — Le pacte de Cersei",
+      "paragraphs": [
+        "Cersei rétablit la Foi militante pour le Grand Moineau. Elle fait arrêter Loras, puis Margaery, avant d’être emprisonnée à son tour et contrainte de traverser la ville nue."
+      ]
+    },
+    {
+      "s": 6,
+      "title": "Saison 6 — Le procès",
+      "paragraphs": [
+        "Les Fils du Guerrier gardent le grand septuor. Tous périssent dans l’explosion du feu grégeois."
+      ]
+    }
   ],
   "facts": [
     {
-      "label": "Langue",
-      "value": "Langue commune"
+      "label": "Branches",
+      "value": "Fils du Guerrier, Pauvres Compagnons"
     },
     {
-      "label": "Visages & repères",
-      "value": "Le Grand Moineau · Lancel Lannister"
+      "label": "Chef",
+      "value": "Le Grand Moineau"
     }
   ],
   "terms": [
     {
-      "term": "Institution",
-      "def": "Foi des Sept"
+      "term": "Moineaux",
+      "def": "Fidèles pauvres qui suivent le Grand Moineau."
     },
     {
-      "term": "Force",
-      "def": "fidèles armés"
-    },
-    {
-      "term": "Enjeu",
-      "def": "autorité"
+      "term": "Marche d’expiation",
+      "def": "Pénitence publique imposée à Cersei."
     }
   ],
-  "places": [],
-  "characters": [],
+  "places": [
+    "port-real"
+  ],
+  "characters": [
+    "grand-moineau",
+    "lancel-lannister",
+    "septa-unella",
+    "cersei-lannister"
+  ],
   "image": "images/foi-militante.webp",
   "sources": [
     {
-      "label": "A Wiki of Ice and Fire",
-      "url": "https://awoiaf.westeros.org/index.php/Faith_Militant"
+      "label": "Wiki of Westeros — Faith Militant",
+      "url": "https://gameofthrones.fandom.com/wiki/Faith_Militant"
     }
   ]
 }

@@ -1,16 +1,70 @@
 {
   "slug": "anciens-dieux",
   "rubric": "croyances",
-  "name": "Les anciens dieux",
-  "kicker": "Bois sacrés · barrals · mémoire",
-  "lead": "Le culte des anciens dieux est lié aux arbres et aux lieux plutôt qu’à une grande hiérarchie de prêtres.",
+  "name": "Anciens dieux",
+  "kicker": "La foi du Nord",
+  "featured": true,
+  "lead": "Dieux sans nom des forêts, des pierres et des rivières, priés devant les barrals par le Nord et le peuple libre.",
   "body": [
-    "Le culte des anciens dieux est lié aux arbres et aux lieux plutôt qu’à une grande hiérarchie de prêtres. Les barrals à visage sculpté forment des points de mémoire et de recueillement. Cette tradition reste particulièrement importante dans le Nord et parmi une partie du Peuple libre."
+    "Les anciens dieux n’ont ni nom, ni visage, ni livre, ni clergé. Ce sont les dieux innombrables des arbres, des rochers et des cours d’eau, ceux qu’adoraient les enfants de la forêt. Les Premiers Hommes les ont adoptés après le Pacte, et le Nord leur est resté fidèle quand le reste du continent s’est converti à la Foi des Sept.",
+    "On les prie dans un bois sacré, devant un barral, cet arbre à l’écorce blanche et aux feuilles rouges dans le tronc duquel on a sculpté un visage. Ces visages pleurent souvent une sève rouge comme du sang. Chaque château du Nord a son bois sacré, même s’il ne compte qu’un seul arbre ; au sud, la plupart ont été abattus par les Andals.",
+    "Les fidèles prient seuls, en silence. Ils prêtent serment devant l’arbre, s’y marient et y cherchent conseil. Selon les vieilles croyances, les dieux voient tout ce qui se passe devant les barrals. Les hommes de la Garde de Nuit qui suivent l’ancienne foi prononcent leurs vœux devant un bois sacré au-delà du Mur.",
+    "La justice du Nord découle de cette foi : la loi est celle de la parole donnée, et c’est au seigneur lui-même de porter le coup qui exécute la sentence qu’il prononce. Les anciens dieux ne promettent pas de paradis ; ils demandent seulement que l’on tienne parole."
   ],
-  "facts": [],
-  "terms": [],
-  "places": [],
-  "characters": [],
+  "inTheSeries": [
+    {
+      "s": 1,
+      "title": "Saison 1 — Le bois sacré de Winterfell",
+      "paragraphs": [
+        "Eddard nettoie son épée devant le barral après une exécution. Jon et Sam prononcent leurs vœux devant un arbre au-delà du Mur."
+      ]
+    },
+    {
+      "s": 6,
+      "title": "Saison 6 — Les arbres qui voient",
+      "paragraphs": [
+        "Bran découvre que les barrals gardent la mémoire du passé et qu’à travers eux il peut voir ce qui s’est produit des siècles plus tôt."
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "label": "Fidèles",
+      "value": "Le Nord, le peuple libre, les enfants de la forêt"
+    },
+    {
+      "label": "Lieu de culte",
+      "value": "Le bois sacré"
+    },
+    {
+      "label": "Clergé",
+      "value": "Aucun"
+    }
+  ],
+  "terms": [
+    {
+      "term": "Barral",
+      "def": "Arbre sacré à l’écorce blanche et aux feuilles rouges."
+    },
+    {
+      "term": "Bois sacré",
+      "def": "Bosquet consacré aux anciens dieux."
+    }
+  ],
+  "places": [
+    "winterfell",
+    "au-dela-du-mur"
+  ],
+  "characters": [
+    "eddard-stark",
+    "bran-stark",
+    "jon-snow"
+  ],
   "image": "images/barral.webp",
-  "sources": []
+  "sources": [
+    {
+      "label": "Wiki of Westeros — Old Gods of the Forest",
+      "url": "https://gameofthrones.fandom.com/wiki/Old_Gods_of_the_Forest"
+    }
+  ]
 }

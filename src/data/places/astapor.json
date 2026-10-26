@@ -2,13 +2,22 @@
   "slug": "astapor",
   "name": "Astapor",
   "kind": "cité",
-  "region": "Baie des Serfs",
+  "region": "La baie des Serfs",
   "continent": "essos",
+  "coords": { "x": 1608, "y": 1150 },
+  "summary": "Cité esclavagiste de brique rouge, où l’on forme et vend les Immaculés.",
+  "rulers": [{ "text": "Les Bons Maîtres" }, { "text": "Un conseil d’affranchis", "s": 3 }],
   "description": [
-    "Astapor est associée à la formation et à la vente des Immaculés. La cité met en évidence la façon dont un ordre économique peut transformer des personnes en instrument de puissance militaire. Son histoire devient centrale dans la rencontre entre Daenerys et les sociétés de la baie."
+    "Astapor est la plus méridionale des trois cités de la baie des Serfs. Ses murs, ses rues et ses pyramides sont de brique rouge, et la poussière du même rouge recouvre tout. Sur les places, des harpies de bronze rappellent l’ancien empire de Ghis. Sur la route qui mène à la ville, les maîtres exposent des esclaves crucifiés, pour l’exemple.",
+    "La cité vend toutes sortes d’esclaves, mais sa fierté est l’armée des Immaculés : des eunuques soldats, entraînés depuis l’enfance dans des casernes fermées, où l’on éprouve leur obéissance par des épreuves que peu survivent."
   ],
-  "history": [],
-  "events": [],
+  "history": [
+    "Astapor est l’une des héritières de Ghis, l’empire qui disputa autrefois la domination du monde à Valyria et fut vaincu. Ses maîtres parlent encore le haut valyrien des conquérants et la langue de Ghis, et se disent les gardiens d’une tradition millénaire."
+  ],
+  "events": [
+    { "s": 3, "text": "Daenerys achète les Immaculés contre un dragon, puis libère la ville." },
+    { "s": 3, "text": "Missandei, interprète du maître Kraznys, rejoint la reine." }
+  ],
   "image": "images/immacules.webp",
-  "sources": []
+  "sources": [{ "label": "Wiki of Westeros — Astapor", "url": "https://gameofthrones.fandom.com/wiki/Astapor" }]
 }

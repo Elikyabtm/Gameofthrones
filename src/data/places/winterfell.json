@@ -1,18 +1,40 @@
 {
   "slug": "winterfell",
   "name": "Winterfell",
-  "kind": "cité",
+  "kind": "château",
   "region": "Le Nord",
   "continent": "westeros",
-  "coords": {
-    "x": 384.75,
-    "y": 318.89
-  },
-  "description": [
-    "Au cœur du Nord, la demeure ancestrale des Stark. Ses remparts protègent un bois sacré et la mémoire des générations."
+  "coords": { "x": 384.75, "y": 318.89 },
+  "summary": "Siège ancestral des Stark, bâti sur des sources chaudes au cœur du Nord.",
+  "house": "stark",
+  "rulers": [
+    { "text": "Eddard Stark" },
+    { "text": "Robb Stark, en l’absence de son père", "s": 1 },
+    { "text": "Theon Greyjoy, par la force", "s": 2 },
+    { "text": "Roose puis Ramsay Bolton", "s": 4 },
+    { "text": "Jon Snow, roi du Nord", "s": 6 },
+    { "text": "Sansa Stark", "s": 7 }
   ],
-  "history": [],
-  "events": [],
-  "image": null,
-  "sources": []
+  "description": [
+    "Winterfell s’étend sur plusieurs arpents au centre du Nord : une double enceinte de granit gris, un fossé, des tours de toutes les époques et un dédale de cours. Le château a grandi par ajouts successifs au fil des siècles, sans jamais être rasé, si bien que ses bâtiments les plus récents s’appuient sur des murs vieux de plusieurs milliers d’années.",
+    "Sa particularité tient à l’eau : des sources chaudes jaillissent sous le château, et l’on fait circuler leur eau dans les murs pour chauffer les salles. Un jardin de verre, chauffé de la même manière, permet de cultiver des fruits en plein hiver. Au centre, le bois sacré a gardé ses arbres d’origine, autour d’un barral blanc aux feuilles rouges dont le tronc porte un visage sculpté. Sous la forteresse, les cryptes abritent les tombeaux des rois et seigneurs Stark, chacun représenté assis, une épée de fer sur les genoux, un loup à ses pieds."
+  ],
+  "history": [
+    "La tradition attribue la fondation de Winterfell à Brandon le Bâtisseur, un héros de l’Âge des Héros que l’on dit aussi à l’origine du Mur. Pendant des millénaires, le château fut le siège des rois du Nord, jusqu’au jour où Torrhen Stark, face aux dragons d’Aegon le Conquérant, choisit de s’agenouiller plutôt que de voir son armée brûler. Il devint « le roi qui s’agenouilla », et ses descendants gouvernèrent désormais le Nord comme seigneurs, au nom du Trône de Fer.",
+    "Pendant la Rébellion, les Stark furent au cœur de la guerre : le seigneur Rickard et son fils aîné Brandon furent exécutés par le roi Aerys, et c’est Eddard, le second fils, qui hérita de Winterfell. Il y ramena de la guerre un fils naturel, Jon Snow, et y éleva en otage le jeune Theon Greyjoy après une rébellion manquée des Îles de Fer."
+  ],
+  "events": [
+    { "s": 1, "text": "Le roi Robert vient demander à Eddard d’être sa Main ; Bran tombe d’une tour." },
+    { "s": 2, "text": "Theon Greyjoy prend le château par surprise ; Winterfell est incendié." },
+    { "s": 5, "text": "Les Bolton y installent leur pouvoir ; Ramsay épouse Sansa Stark." },
+    { "s": 6, "text": "La bataille des Bâtards rend le château aux Stark ; Jon est proclamé roi du Nord." },
+    { "s": 7, "text": "Arya et Bran rentrent ; Littlefinger est jugé dans la grande salle." },
+    { "s": 8, "text": "La Longue Nuit : les vivants affrontent l’armée des morts sous les murs." },
+    { "s": 8, "text": "Sansa y est couronnée reine du Nord indépendant." }
+  ],
+  "image": "images/nord.webp",
+  "sources": [
+    { "label": "Wiki of Westeros — Winterfell", "url": "https://gameofthrones.fandom.com/wiki/Winterfell" },
+    { "label": "A Wiki of Ice and Fire — Winterfell", "url": "https://awoiaf.westeros.org/index.php/Winterfell" }
+  ]
 }

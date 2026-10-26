@@ -1,18 +1,24 @@
 {
   "slug": "accalmie",
   "name": "Accalmie",
-  "kind": "cité",
+  "kind": "château",
   "region": "Les Terres de l’Orage",
   "continent": "westeros",
-  "coords": {
-    "x": 549.84,
-    "y": 873.65
-  },
+  "coords": { "x": 549.84, "y": 873.65 },
+  "summary": "Forteresse colossale des Baratheon, bâtie face à la baie des Naufrageurs pour résister aux tempêtes.",
+  "house": "baratheon",
+  "rulers": [{ "text": "Renly Baratheon" }, { "text": "Gendry Baratheon", "s": 8 }],
   "description": [
-    "Une forteresse de la maison Baratheon bâtie pour résister aux colères de la mer et de l’orage."
+    "Accalmie se dresse sur une falaise au bord de la baie des Naufrageurs, là où les tempêtes de la mer Étroite frappent le plus fort. Son unique tour, immense et ronde, a des murs de plusieurs dizaines de pieds d’épaisseur, sans aucun angle où le vent puisse s’accrocher. On dit que le château a été bâti avec l’aide de la magie, pour résister aux colères des dieux de la mer.",
+    "Les Terres de l’Orage, autour, sont des forêts humides, des marches montagneuses et des côtes déchiquetées. Les gens y sont rudes, attachés à leurs seigneurs, et fiers d’avoir tenu tête à la mer depuis toujours."
   ],
-  "history": [],
-  "events": [],
+  "history": [
+    "Selon la légende, Accalmie a été construite par Brandon le Bâtisseur pour le roi Durran, après que les dieux de la mer eurent détruit six châteaux successifs. Les rois de l’Orage y ont régné jusqu’à la conquête d’Aegon, qui donna le château à son demi-frère, fondateur de la maison Baratheon. Pendant la Rébellion, Stannis y a soutenu un siège d’un an, au bord de la famine, jusqu’à ce qu’un contrebandier, Davos, fasse passer le blocus à un navire chargé d’oignons."
+  ],
+  "events": [
+    { "s": 2, "text": "Renly campe près d’Accalmie ; une ombre le tue sous sa tente." },
+    { "s": 8, "text": "Daenerys donne Accalmie à Gendry, légitimé sous le nom de Baratheon." }
+  ],
   "image": null,
-  "sources": []
+  "sources": [{ "label": "Wiki of Westeros — Storm’s End", "url": "https://gameofthrones.fandom.com/wiki/Storm%27s_End" }]
 }

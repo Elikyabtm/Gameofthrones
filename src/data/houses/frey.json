@@ -1,0 +1,127 @@
+{
+  "slug": "frey",
+  "name": "Maison Frey",
+  "words": "Nous nous tenons ensemble",
+  "wordsNote": "Devise tirée des romans ; la série ne la mentionne pas.",
+  "sigil": "sigils/frey.svg",
+  "sigilDescription": "Deux tours grises reliées par un pont, sur champ bleu",
+  "sigilCredit": "Création originale du projet",
+  "color": "#8d8f94",
+  "seat": "les-jumeaux",
+  "region": "Le Conflans",
+  "summary": "Maison récente et prolifique qui tient le seul pont sur la Verfurque, et fait payer chaque passage.",
+  "overlord": [
+    {
+      "to": "tully",
+      "until": 3
+    },
+    {
+      "to": "lannister",
+      "s": 3,
+      "until": 7
+    }
+  ],
+  "vassals": [],
+  "founded": "Il y a environ six cents ans",
+  "history": [
+    "Les Frey sont une maison jeune selon les critères de Westeros : à peine six siècles. Leur fortune tient à un pont. Un ancêtre construisit une tour de bois sur chaque rive de la Verfurque et les relia, puis fit payer le passage. Les tours de bois devinrent des tours de pierre, les Jumeaux, et les Frey devinrent riches, sans jamais devenir respectés.",
+    "Quiconque veut traverser le Conflans du nord au sud doit négocier avec eux. Les rois et les seigneurs les méprisent, mais ont besoin d’eux. Les Frey le savent, et font payer en or, en promesses ou en mariages.",
+    "Lord Walder Frey, le seigneur des Jumeaux, a plus de quatre-vingt-dix ans, s’est marié huit fois et compte des dizaines d’enfants, de petits-enfants et de bâtards. Il est rancunier, grossier et vaniteux. Ses suzerains, les Tully, l’ont toujours tenu à l’écart ; il s’en souvient. Pendant la Rébellion, il arriva au Trident après la fin de la bataille, ce qui lui valut le surnom méprisant de « Feu Lord Frey ».",
+    "Quand Robb Stark a besoin de franchir la rivière, Walder exige que le jeune roi épouse l’une de ses filles. Robb accepte, puis rompt sa promesse pour se marier par amour. Walder fait semblant de pardonner.",
+    "Les Jumeaux sont à l’image de leurs maîtres : massifs, laids et indispensables. Dans la grande salle, les fils, les filles, les gendres et les bâtards de Walder se disputent les places à table comme ils se disputent l’héritage, et le vieil homme s’amuse de leurs rivalités. Pour lui, chaque enfant est une monnaie, chaque mariage un contrat, et une promesse rompue une dette qu’il faudra payer un jour. La vengeance qu’il prépare sera la plus célèbre trahison de l’histoire de Westeros, et violera la plus ancienne des lois : celle de l’hospitalité, qui protège tout invité ayant partagé le pain et le sel de son hôte."
+  ],
+  "inTheSeries": [
+    {
+      "s": 1,
+      "title": "Saison 1 — Le passage",
+      "paragraphs": [
+        "Catelyn négocie le passage de l’armée du Nord : Robb épousera une Frey, Arya un autre."
+      ]
+    },
+    {
+      "s": 3,
+      "title": "Saison 3 — Les Noces pourpres",
+      "paragraphs": [
+        "Aux Jumeaux, pendant le mariage d’Edmure et de Roslin, Walder fait massacrer Robb, Catelyn et leurs hommes."
+      ]
+    },
+    {
+      "s": 6,
+      "title": "Saison 6 — Le dernier festin",
+      "paragraphs": [
+        "Les Frey reprennent Vivesaigues avec Jaime. Arya égorge Walder après lui avoir servi ses propres fils."
+      ]
+    },
+    {
+      "s": 7,
+      "title": "Saison 7 — La vengeance",
+      "paragraphs": [
+        "Arya, sous le visage de Walder, empoisonne tous les hommes de la maison Frey réunis pour un banquet."
+      ]
+    }
+  ],
+  "figures": [],
+  "members": [
+    "walder-frey"
+  ],
+  "tree": {
+    "people": [
+      {
+        "id": "walder-frey",
+        "character": "walder-frey"
+      },
+      {
+        "id": "roslin-frey",
+        "name": "Roslin Frey",
+        "s": 3,
+        "portrait": "images/personnages/roslin-frey.webp"
+      },
+      {
+        "id": "walda-bolton",
+        "name": "Walda Frey",
+        "s": 4,
+        "portrait": "images/personnages/walda-bolton.webp",
+        "note": "Petite-fille de Walder"
+      },
+      {
+        "id": "edmure-tully",
+        "character": "edmure-tully",
+        "house": "tully",
+        "s": 3
+      },
+      {
+        "id": "roose-bolton",
+        "character": "roose-bolton",
+        "house": "bolton",
+        "s": 4
+      }
+    ],
+    "unions": [
+      {
+        "a": "walder-frey",
+        "children": [
+          "roslin-frey"
+        ]
+      },
+      {
+        "a": "edmure-tully",
+        "b": "roslin-frey",
+        "children": [],
+        "s": 3
+      },
+      {
+        "a": "roose-bolton",
+        "b": "walda-bolton",
+        "children": [],
+        "s": 4
+      }
+    ]
+  },
+  "sources": [
+    {
+      "label": "Wiki of Westeros — House Frey",
+      "url": "https://gameofthrones.fandom.com/wiki/House_Frey"
+    }
+  ],
+  "_doute": "Devise et blason absents de la série ; Walda présentée comme petite-fille de Walder (à vérifier)."
+}

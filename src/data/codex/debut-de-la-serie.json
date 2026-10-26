@@ -1,16 +1,47 @@
 {
   "slug": "debut-de-la-serie",
   "rubric": "peuples",
-  "name": "Au début de la série",
-  "kicker": "Époque · Un équilibre instable",
-  "lead": "Robert règne à Port-Réal, Ned gouverne Winterfell et les Lannister occupent une place centrale à la cour.",
+  "name": "Le début de la série",
+  "kicker": "L’an 298",
+  "lead": "La situation du royaume au moment où l’histoire commence : un été qui dure depuis neuf ans, et un roi qui vient de perdre sa Main.",
   "body": [
-    "Robert règne à Port-Réal, Ned gouverne Winterfell et les Lannister occupent une place centrale à la cour. En Essos, les destins de Daenerys et des peuples qu’elle rencontre ouvrent un autre espace de l’histoire."
+    "Robert Baratheon règne depuis dix-sept ans. Le royaume est en paix, mais il s’endette : le roi dépense sans compter et la couronne doit des fortunes aux Lannister et à la Banque de Fer. L’été dure depuis neuf ans, et les mestres annoncent un hiver aussi long.",
+    "Jon Arryn, la Main du Roi, vient de mourir subitement. Sa veuve a fui dans le Val. Robert part pour Winterfell demander à son vieil ami Eddard Stark de le remplacer.",
+    "Au-delà du Mur, la Garde de Nuit constate des disparitions inquiétantes. En Essos, les derniers Targaryen, Viserys et Daenerys, vivent en exil à Pentos et préparent leur retour. Les pièces sont en place ; le jeu peut commencer."
   ],
-  "facts": [],
+  "facts": [
+    {
+      "label": "Roi",
+      "value": "Robert Baratheon"
+    },
+    {
+      "label": "Saison",
+      "value": "Un été de neuf ans"
+    },
+    {
+      "label": "Évènement",
+      "value": "La mort de Jon Arryn"
+    }
+  ],
   "terms": [],
-  "places": [],
-  "characters": [],
+  "places": [
+    "winterfell",
+    "port-real",
+    "pentos",
+    "chateaunoir"
+  ],
+  "characters": [
+    "robert-baratheon",
+    "eddard-stark",
+    "daenerys-targaryen",
+    "viserys-targaryen",
+    "cersei-lannister"
+  ],
   "image": null,
-  "sources": []
+  "sources": [
+    {
+      "label": "Wiki of Westeros — Game of Thrones (series)",
+      "url": "https://gameofthrones.fandom.com/wiki/Game_of_Thrones"
+    }
+  ]
 }

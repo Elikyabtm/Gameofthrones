@@ -1,0 +1,123 @@
+{
+  "slug": "tarly",
+  "name": "Maison Tarly",
+  "words": "Premiers au combat",
+  "sigil": "sigils/tarly.svg",
+  "sigilDescription": "Un chasseur marchant, arc à la main, sur champ vert",
+  "sigilCredit": "Création originale du projet",
+  "color": "#4f6e45",
+  "seat": "corcolline",
+  "region": "Le Bief",
+  "summary": "Maison militaire du Bief, vassale des Tyrell, dont le fils aîné a été déshérité pour sa faiblesse.",
+  "overlord": [
+    {
+      "to": "tyrell",
+      "until": 7
+    },
+    {
+      "to": "lannister",
+      "s": 7
+    }
+  ],
+  "vassals": [],
+  "founded": "À l’arrivée des Andals",
+  "history": [
+    "Les Tarly gouvernent Corcolline, une forteresse sur les collines du Bief. Leur fierté est militaire : leur épée ancestrale, Corneflamme, est forgée en acier valyrien, et leurs seigneurs se sont toujours battus en première ligne. Ils servent les Tyrell, sans toujours estimer leurs maîtres.",
+    "Lord Randyll Tarly passe pour le meilleur commandant du Bief. Pendant la Rébellion, il a infligé à Robert Baratheon sa seule défaite, à Cendremarc. Il est sévère, sans humour, et méprise tout ce qui ressemble à de la faiblesse.",
+    "Son fils aîné, Samwell, est rond, peureux et passionné de livres. Randyll a tout tenté pour l’endurcir, en vain. Le jour où naît enfin un second fils, Dickon, solide et courageux, Randyll donne à Samwell le choix : prendre le noir ou mourir dans un « accident de chasse ». Samwell part pour le Mur, sans l’épée de famille.",
+    "Sa mère Melessa et sa sœur Talla, plus tendres, l’ont aimé tel qu’il est. Il reviendra un jour à Corcolline avec une femme, un enfant, et l’ambition d’emporter ce qu’on lui a refusé.",
+    "La maison paiera cher la fierté de son chef : Randyll et Dickon refusent de s’agenouiller devant Daenerys, préférant le feu à la soumission."
+  ],
+  "inTheSeries": [
+    {
+      "s": 1,
+      "title": "Saison 1 — Le fils renvoyé",
+      "paragraphs": [
+        "Samwell arrive au Mur et raconte comment son père l’a forcé à prendre le noir."
+      ]
+    },
+    {
+      "s": 5,
+      "title": "Saison 5 — Une famille",
+      "paragraphs": [
+        "Samwell s’installe avec Gilly et le petit Sam, qu’il élève comme son fils."
+      ]
+    },
+    {
+      "s": 6,
+      "title": "Saison 6 — Le retour à Corcolline",
+      "paragraphs": [
+        "Samwell présente Gilly à sa famille. Randyll les humilie ; en partant, Samwell emporte Corneflamme."
+      ]
+    },
+    {
+      "s": 7,
+      "title": "Saison 7 — Le refus",
+      "paragraphs": [
+        "Après la bataille de la route de la Néra, Randyll et Dickon refusent de servir Daenerys et sont brûlés par Drogon."
+      ]
+    }
+  ],
+  "figures": [
+    "Corneflamme, l’épée de famille"
+  ],
+  "members": [
+    "randyll-tarly",
+    "samwell-tarly"
+  ],
+  "tree": {
+    "people": [
+      {
+        "id": "randyll-tarly",
+        "character": "randyll-tarly"
+      },
+      {
+        "id": "melessa-tarly",
+        "name": "Melessa Tarly",
+        "s": 6
+      },
+      {
+        "id": "samwell-tarly",
+        "character": "samwell-tarly"
+      },
+      {
+        "id": "gilly",
+        "character": "gilly"
+      },
+      {
+        "id": "dickon-tarly",
+        "name": "Dickon Tarly",
+        "s": 6,
+        "dead": 7
+      },
+      {
+        "id": "talla-tarly",
+        "name": "Talla Tarly",
+        "s": 6
+      }
+    ],
+    "unions": [
+      {
+        "a": "randyll-tarly",
+        "b": "melessa-tarly",
+        "children": [
+          "samwell-tarly",
+          "dickon-tarly",
+          "talla-tarly"
+        ]
+      },
+      {
+        "a": "samwell-tarly",
+        "b": "gilly",
+        "children": [],
+        "s": 5
+      }
+    ]
+  },
+  "sources": [
+    {
+      "label": "Wiki of Westeros — House Tarly",
+      "url": "https://gameofthrones.fandom.com/wiki/House_Tarly"
+    }
+  ]
+}

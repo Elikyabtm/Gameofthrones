@@ -1,21 +1,38 @@
 {
   "slug": "puines",
   "rubric": "ordres",
-  "name": "Les Puînés",
-  "kicker": "Essos · Compagnies de mercenaires",
-  "lead": "Des soldats qui vendent leur service plutôt que de servir une couronne héréditaire.",
+  "name": "Puînés",
+  "kicker": "Mercenaires de la baie des Serfs",
+  "lead": "Compagnie de mercenaires au service de Yunkai, qui change de maître pour Daenerys sous la conduite de Daario Naharis.",
   "body": [
-    "Les Puînés sont une compagnie de mercenaires active en Essos. Leur organisation suit les intérêts d’un contrat et la fidélité à des capitaines, plutôt qu’une obligation féodale envers une maison.",
-    "Dans un monde où les cités achètent des forces militaires, ces compagnies peuvent changer un équilibre politique. Leur présence rappelle que les armées de Game of Thrones ne sont pas toutes les prolongements d’un peuple ou d’une dynastie."
+    "Les Puînés sont une compagnie de mercenaires fondée, dit-on, par des fils cadets de Westeros, sans héritage, venus chercher fortune en Essos. Le nom est resté, même si la compagnie recrute désormais dans toutes les nations.",
+    "C’est une petite troupe de cavaliers, quelques centaines d’hommes, qui vend ses services dans les guerres de la baie des Serfs. Comme toutes les compagnies, elle est aussi loyale que sa solde.",
+    "Ses capitaines sont élus, et changent souvent de façon expéditive : un capitaine trop prudent ou trop pauvre est remplacé, parfois par le poignard d’un de ses lieutenants."
+  ],
+  "inTheSeries": [
+    {
+      "s": 3,
+      "title": "Saison 3 — Yunkai",
+      "paragraphs": [
+        "Les capitaines des Puînés, payés par Yunkai, chargent Daario de tuer Daenerys. Daario tue ses chefs et lui apporte leurs têtes, avec la compagnie."
+      ]
+    },
+    {
+      "s": 6,
+      "title": "Saison 6 — Meereen",
+      "paragraphs": [
+        "Daenerys laisse Daario et les Puînés garder Meereen quand elle part pour Westeros."
+      ]
+    }
   ],
   "facts": [
     {
-      "label": "Langue",
-      "value": "Langues des contrats et des recrues"
+      "label": "Commandant",
+      "value": "Daario Naharis"
     },
     {
-      "label": "Visages & repères",
-      "value": "Daario Naharis · capitaines de la compagnie"
+      "label": "Effectif",
+      "value": "Environ 2 000 cavaliers"
     }
   ],
   "terms": [
@@ -32,13 +49,19 @@
       "def": "Essos"
     }
   ],
-  "places": [],
-  "characters": [],
+  "places": [
+    "yunkai",
+    "meereen"
+  ],
+  "characters": [
+    "daario-naharis",
+    "daenerys-targaryen"
+  ],
   "image": "images/puines.webp",
   "sources": [
     {
-      "label": "A Wiki of Ice and Fire",
-      "url": "https://awoiaf.westeros.org/index.php/Second_Sons"
+      "label": "Wiki of Westeros — Second Sons",
+      "url": "https://gameofthrones.fandom.com/wiki/Second_Sons"
     }
   ]
 }

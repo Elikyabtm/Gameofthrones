@@ -1,21 +1,38 @@
 {
   "slug": "fils-de-la-harpie",
   "rubric": "ordres",
-  "name": "Les Fils de la Harpie",
-  "kicker": "Essos · Meereen",
-  "lead": "Une résistance clandestine à la fin de l’ancien ordre esclavagiste.",
+  "name": "Fils de la Harpie",
+  "kicker": "Insurgés de Meereen",
+  "lead": "Société secrète d’anciens maîtres de Meereen, qui assassine en silence les soutiens de Daenerys.",
   "body": [
-    "Les Fils de la Harpie apparaissent à Meereen après le bouleversement du pouvoir des maîtres. Dans la série, leurs masques dorés transforment des personnes anonymes en une menace collective immédiatement reconnaissable.",
-    "Le groupe agit dans les rues et dans l’ombre, plutôt que sur un champ de bataille ouvert. Son existence montre la difficulté de transformer une société : renverser ceux qui gouvernaient ne suffit pas à faire disparaître leurs réseaux et leurs intérêts."
+    "La harpie est l’emblème ancien de Ghis : une créature au corps de femme, aux ailes de chauve-souris et aux pattes d’aigle, tenant des chaînes dans ses serres. Les Fils de la Harpie ont pris ce symbole et portent des masques dorés à son image.",
+    "Le mouvement naît après la prise de Meereen par Daenerys. Les anciens maîtres, privés de leurs esclaves et de leur pouvoir, refusent la nouvelle reine mais n’osent pas l’affronter en bataille. Ils frappent de nuit, dans les ruelles, avec des couteaux, et laissent leurs masques sur les cadavres.",
+    "Leur stratégie est la peur : tuer des Immaculés isolés, des affranchis, des commerçants qui se sont ralliés à la reine. Personne ne sait qui finance le mouvement, ni combien de familles nobles y prennent part."
+  ],
+  "inTheSeries": [
+    {
+      "s": 5,
+      "title": "Saison 5 — Les masques d’or",
+      "paragraphs": [
+        "Les Fils de la Harpie tuent des Immaculés et Ser Barristan. Ils attaquent l’arène de Daznak ; Drogon emporte Daenerys."
+      ]
+    },
+    {
+      "s": 6,
+      "title": "Saison 6 — La fin des maîtres",
+      "paragraphs": [
+        "Tyrion découvre que les maîtres de Yunkai, Astapor et Volantis financent les Fils. Daenerys écrase leur flotte."
+      ]
+    }
   ],
   "facts": [
     {
-      "label": "Langue",
-      "value": "Valyrien meereenien"
+      "label": "Symbole",
+      "value": "La harpie de Ghis"
     },
     {
-      "label": "Visages & repères",
-      "value": "Aucune figure nommée : des anonymes masqués"
+      "label": "Signe",
+      "value": "Masques dorés"
     }
   ],
   "terms": [
@@ -32,13 +49,20 @@
       "def": "ordre social"
     }
   ],
-  "places": [],
-  "characters": [],
+  "places": [
+    "meereen"
+  ],
+  "characters": [
+    "daenerys-targaryen",
+    "ver-gris",
+    "barristan-selmy",
+    "hizdahr-zo-loraq"
+  ],
   "image": "images/fils-de-la-harpie.webp",
   "sources": [
     {
-      "label": "A Wiki of Ice and Fire",
-      "url": "https://awoiaf.westeros.org/index.php/Sons_of_the_Harpy"
+      "label": "Wiki of Westeros — Sons of the Harpy",
+      "url": "https://gameofthrones.fandom.com/wiki/Sons_of_the_Harpy"
     }
   ]
 }

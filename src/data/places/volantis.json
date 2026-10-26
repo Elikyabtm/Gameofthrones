@@ -2,13 +2,22 @@
   "slug": "volantis",
   "name": "Volantis",
   "kind": "cité",
-  "region": "Cité libre",
+  "region": "Les cités libres",
   "continent": "essos",
+  "coords": { "x": 1180, "y": 1102 },
+  "summary": "La plus ancienne et la plus puissante des cités libres, à l’embouchure de la Rhoyne.",
+  "rulers": [{ "text": "Trois triarques élus chaque année" }],
   "description": [
-    "Volantis revendique fortement l’héritage de Valyria. Ses vieilles familles et ses quartiers marquent une hiérarchie sociale profonde. Le commerce et le culte du Maître de la Lumière donnent à la cité une influence qui traverse une partie du continent."
+    "Volantis s’étend sur les deux rives de la Rhoyne, à son embouchure dans la mer d’Été. Le Long Pont, si large qu’on y a bâti des boutiques et des auberges, relie ses deux moitiés. Sur la rive est, la ville ancienne est enfermée dans le Mur Noir, une muraille valyrienne sans joint, assez épaisse pour que six attelages y passent de front. Seuls les descendants de Valyria peuvent la franchir.",
+    "On compte à Volantis cinq esclaves pour un homme libre. On les reconnaît à leurs tatouages faciaux, qui indiquent leur fonction. Beaucoup d’entre eux se tournent vers le Maître de la Lumière : le temple rouge de la ville est le plus grand du monde."
   ],
-  "history": [],
-  "events": [],
-  "image": "images/braavos.webp",
-  "sources": []
+  "history": [
+    "Volantis était la plus ancienne et la plus fière des colonies de Valyria. Après le Fléau, elle a tenté de reconstituer l’empire en conquérant les autres cités libres, et a été arrêtée par une coalition. Depuis, elle se gouverne par trois triarques élus, choisis parmi les « tigres », partisans de la guerre, et les « éléphants », partisans du commerce."
+  ],
+  "events": [
+    { "s": 5, "text": "Tyrion et Varys y font étape ; une prêtresse rouge y prêche la venue de Daenerys ; Jorah y enlève Tyrion." },
+    { "s": 6, "text": "La grande prêtresse Kinvara part pour Meereen soutenir la reine." }
+  ],
+  "image": "images/rhoynar.webp",
+  "sources": [{ "label": "Wiki of Westeros — Volantis", "url": "https://gameofthrones.fandom.com/wiki/Volantis" }]
 }

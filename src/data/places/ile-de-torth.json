@@ -1,0 +1,23 @@
+{
+  "slug": "ile-de-torth",
+  "name": "Torth",
+  "kind": "île",
+  "region": "Les Terres de l’Orage",
+  "continent": "westeros",
+  "coords": { "x": 615, "y": 876 },
+  "summary": "Île des Terres de l’Orage surnommée l’île Saphir, siège de la maison de Torth.",
+  "house": "torth",
+  "rulers": [{ "text": "Selwyn de Torth, l’Étoile du Soir" }],
+  "description": [
+    "Torth est une île verdoyante au large des Terres de l’Orage, face à Accalmie. On la surnomme l’île Saphir, à cause du bleu de ses eaux. Ses collines portent des vergers et des pâturages, et son château domine un petit port de pêche.",
+    "Les seigneurs de Torth portent le titre d’« Étoile du Soir ». Leur blason associe des soleils roses et des croissants de lune bleus, sur un champ partagé en quartiers."
+  ],
+  "history": [
+    "La maison de Torth est une vieille famille de l’Orage, vassale des Baratheon. Son seigneur, Selwyn, a perdu sa femme et plusieurs enfants ; il ne lui reste qu’une fille, Brienne, qu’il a laissée apprendre à se battre au lieu de la marier, faute de prétendants à sa convenance."
+  ],
+  "events": [
+    { "s": 2, "text": "Brienne de Torth sert dans la garde de Renly Baratheon." }
+  ],
+  "image": null,
+  "sources": [{ "label": "Wiki of Westeros — Tarth", "url": "https://gameofthrones.fandom.com/wiki/Tarth" }]
+}

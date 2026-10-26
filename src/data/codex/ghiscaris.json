@@ -1,44 +1,68 @@
 {
   "slug": "ghiscaris",
   "rubric": "peuples",
-  "name": "Les Ghiscari",
-  "kicker": "Essos · Baie des Serfs",
-  "lead": "Des cités héritières de Ghis, au cœur du récit de l’esclavage et de son abolition.",
+  "name": "Ghiscaris",
+  "kicker": "La baie des Serfs",
+  "lead": "Héritiers de l’ancien empire de Ghis, maîtres des cités esclavagistes d’Astapor, Yunkai et Meereen.",
   "body": [
-    "Les villes de la baie des Serfs gardent des traces de l’ancien monde ghiscari dans leur architecture, leurs symboles et leurs institutions. Les harpies, les pyramides et les grandes familles de maîtres composent un paysage politique différent de celui des royaumes de Westeros.",
-    "Ces cités ne sont pas interchangeables : Astapor est notamment associée à la formation des Immaculés, tandis que Meereen devient un lieu central des difficultés du gouvernement après une libération. La langue quotidienne appartient aux variétés locales du valyrien, marquées par l’histoire ghiscarie."
+    "Avant Valyria, l’empire de Ghis dominait le sud-est d’Essos avec ses légions de fantassins. Il mena cinq guerres contre les seigneurs-dragons et les perdit toutes. Sa capitale fut rasée et salée.",
+    "Les descendants des Ghiscaris vivent dans trois cités au bord de la baie des Serfs : Astapor, Yunkai et Meereen, avec leurs pyramides de briques. Leur économie repose entièrement sur l’esclavage. Astapor dresse les Immaculés, Yunkai forme des esclaves d’agrément, et Meereen vend de tout.",
+    "Les familles nobles, les maîtres, sont fières de leur ancienneté et portent des tokars, des robes drapées d’une pièce de tissu. Elles se voient comme les héritières d’une civilisation plus ancienne que celle de Westeros."
+  ],
+  "inTheSeries": [
+    {
+      "s": 3,
+      "title": "Saison 3 — La conquête",
+      "paragraphs": [
+        "Daenerys libère les esclaves d’Astapor et de Yunkai."
+      ]
+    },
+    {
+      "s": 4,
+      "title": "Saison 4 — Meereen",
+      "paragraphs": [
+        "Daenerys prend Meereen et y fait crucifier des maîtres."
+      ]
+    },
+    {
+      "s": 5,
+      "title": "Saison 5 — L’alliance",
+      "paragraphs": [
+        "Daenerys épouse Hizdahr zo Loraq, noble de Meereen, pour apaiser la cité."
+      ]
+    }
   ],
   "facts": [
     {
-      "label": "Langue",
-      "value": "Valyrien local ; ancien ghiscari dans l’histoire"
+      "label": "Cités",
+      "value": "Astapor, Yunkai, Meereen"
     },
     {
-      "label": "Visages & repères",
-      "value": "Astapor · Yunkaï · Meereen"
+      "label": "Symbole",
+      "value": "La harpie"
     }
   ],
   "terms": [
     {
-      "term": "Cités",
-      "def": "trois grands centres"
-    },
-    {
-      "term": "Symbole",
-      "def": "harpie"
-    },
-    {
-      "term": "Héritage",
-      "def": "Ghis"
+      "term": "Tokar",
+      "def": "Robe drapée des maîtres de Meereen."
     }
   ],
-  "places": [],
-  "characters": [],
+  "places": [
+    "astapor",
+    "yunkai",
+    "meereen"
+  ],
+  "characters": [
+    "hizdahr-zo-loraq",
+    "kraznys-mo-nakloz",
+    "missandei"
+  ],
   "image": "images/ghiscari.webp",
   "sources": [
     {
-      "label": "Wiki of Westeros",
-      "url": "https://gameofthrones.fandom.com/wiki/Ghiscari"
+      "label": "Wiki of Westeros — Ghiscari Empire",
+      "url": "https://gameofthrones.fandom.com/wiki/Ghiscari_Empire"
     }
   ]
 }

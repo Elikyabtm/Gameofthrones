@@ -1,0 +1,29 @@
+{
+  "slug": "harrenhal",
+  "name": "Harrenhal",
+  "kind": "ruine",
+  "region": "Le Conflans",
+  "continent": "westeros",
+  "coords": { "x": 441, "y": 738 },
+  "summary": "Le plus grand château de Westeros, fondu par le feu des dragons, au bord de l’Œil-de-Dieu.",
+  "rulers": [
+    { "text": "La couronne" },
+    { "text": "Tywin Lannister, comme quartier général", "s": 2 },
+    { "text": "Petyr Baelish, en titre", "s": 2 },
+    { "text": "Roose Bolton, comme garnison", "s": 3 }
+  ],
+  "description": [
+    "Harrenhal est un château si grand qu’aucune maison n’a jamais pu l’entretenir. Ses cinq tours colossales, ses salles où l’on pourrait loger une armée et ses murs immenses se dressent au bord du lac de l’Œil-de-Dieu. Mais les pierres de ses tours sont fondues, coulées comme de la cire : les dragons d’Aegon le Conquérant ont brûlé le château le jour même de son achèvement.",
+    "On dit Harrenhal maudit. Toutes les familles qui l’ont reçu ont connu un destin funeste, et le château, à moitié vide, sert surtout de prison et de caserne aux armées qui traversent le Conflans."
+  ],
+  "history": [
+    "Harren le Noir, roi des Îles de Fer et du Conflans, a fait bâtir ce château pendant quarante ans avec le sang de milliers d’esclaves, pour qu’il soit imprenable. Il l’était, contre des armées. Aegon Targaryen, lui, n’a pas assiégé la forteresse : il a fait voler son dragon au-dessus, et le feu a tué Harren et ses fils à l’intérieur des murs. Les tours fondues sont le monument de cette nuit."
+  ],
+  "events": [
+    { "s": 2, "text": "Arya, prisonnière, devient l’échanson de Tywin Lannister ; Jaqen H’ghar lui offre trois morts." },
+    { "s": 3, "text": "Jaime et Brienne y sont retenus par Roose Bolton ; Jaime révèle la vérité sur le roi fou." },
+    { "s": 3, "text": "Brienne est jetée dans une fosse face à un ours ; Jaime revient la sauver." }
+  ],
+  "image": null,
+  "sources": [{ "label": "Wiki of Westeros — Harrenhal", "url": "https://gameofthrones.fandom.com/wiki/Harrenhal" }]
+}

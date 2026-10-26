@@ -1,0 +1,23 @@
+{
+  "slug": "mer-dothrak",
+  "name": "La mer Dothrak",
+  "kind": "région",
+  "region": "Essos central",
+  "continent": "essos",
+  "coords": { "x": 1450, "y": 650 },
+  "summary": "Immense plaine d’herbes hautes au cœur d’Essos, parcourue par les khalasars.",
+  "description": [
+    "La mer Dothrak est une plaine sans fin, couverte d’herbes qui montent jusqu’à la poitrine d’un cavalier. Sous le vent, elles ondulent comme une houle, d’où son nom. On y croise des ruines de cités oubliées, des rivières lentes, et parfois les traces du passage d’un khalasar : herbe couchée, feux éteints, villages brûlés au bord de la steppe.",
+    "Les Dothraki y vivent en nomades, en hordes appelées khalasars, chacune menée par un khal. Ils ne cultivent rien, n’écrivent rien, et considèrent la mer comme une « eau empoisonnée » que les chevaux ne peuvent boire."
+  ],
+  "history": [
+    "Avant l’arrivée des Dothraki, la plaine était un pays de cités et de champs, les terres d’un ancien empire. Les cavaliers venus de l’est l’ont ravagé il y a plusieurs siècles, après la chute de Valyria, et les cités ont disparu sous l’herbe. Depuis, les cités libres de l’Ouest achètent leur tranquillité en offrant des présents aux khals de passage."
+  ],
+  "events": [
+    { "s": 1, "text": "Daenerys apprend à vivre parmi les Dothraki ; trois dragons naissent sur le bûcher de Drogo." },
+    { "s": 5, "text": "Drogon emporte Daenerys loin de Meereen, au milieu de la steppe." },
+    { "s": 6, "text": "Un khalasar capture Daenerys et l’emmène à Vaes Dothrak." }
+  ],
+  "image": "images/dothraki.webp",
+  "sources": [{ "label": "Wiki of Westeros — Dothraki Sea", "url": "https://gameofthrones.fandom.com/wiki/Dothraki_sea" }]
+}

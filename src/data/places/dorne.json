@@ -1,0 +1,24 @@
+{
+  "slug": "dorne",
+  "name": "Dorne",
+  "kind": "région",
+  "region": "Dorne",
+  "continent": "westeros",
+  "coords": { "x": 470, "y": 1040 },
+  "summary": "La région la plus méridionale de Westeros : déserts, montagnes rouges et cités au bord de l’eau.",
+  "house": "martell",
+  "description": [
+    "Au sud des montagnes Rouges, Dorne est une terre de sable et de pierre, brûlée de soleil. Le désert occupe l’intérieur, les cours d’eau sont rares, et la vie se concentre le long de la rivière Sang-Vert et des côtes. Les Dorniens se divisent eux-mêmes en « Dorniens du sable », du désert, et « Dorniens du sel », des côtes, plus métissés et plus raffinés.",
+    "Leur culture doit beaucoup aux Rhoynar venus d’Essos : héritage égal entre filles et garçons, tolérance envers les enfants nés hors mariage, goût pour les poisons et pour les lances. Les gens du Nord trouvent les Dorniens trop libres ; les Dorniens trouvent les gens du Nord bien raides."
+  ],
+  "history": [
+    "Dorne a résisté à la conquête d’Aegon : les Dorniens ont refusé la bataille rangée, harcelé les armées et laissé le désert faire le reste. L’une des sœurs d’Aegon y a perdu son dragon. Dorne n’a rejoint le royaume que deux siècles plus tard, par un mariage. Pendant la Rébellion, la princesse Elia Martell, épouse de Rhaegar, a été tuée à Port-Réal avec ses enfants, et Dorne ne l’a jamais pardonné aux Lannister."
+  ],
+  "events": [
+    { "s": 4, "text": "Le prince Oberyn quitte Dorne pour Port-Réal, une vengeance en tête." },
+    { "s": 5, "text": "Les Aspics des Sables réclament la guerre contre les Lannister." },
+    { "s": 7, "text": "La flotte dornienne rejoint celle de Daenerys et est détruite par Euron." }
+  ],
+  "image": "images/dorniens.webp",
+  "sources": [{ "label": "Wiki of Westeros — Dorne", "url": "https://gameofthrones.fandom.com/wiki/Dorne" }]
+}

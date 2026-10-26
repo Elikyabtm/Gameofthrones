@@ -1,21 +1,38 @@
 {
   "slug": "compagnie-doree",
   "rubric": "ordres",
-  "name": "La Compagnie Dorée",
-  "kicker": "Essos · Héritage d’exilés de Westeros",
-  "lead": "Une force de mercenaires dont la réputation est elle-même une arme.",
+  "name": "Compagnie dorée",
+  "kicker": "Mercenaires",
+  "lead": "La plus célèbre compagnie de mercenaires d’Essos, réputée pour n’avoir jamais rompu un contrat.",
   "body": [
-    "La Compagnie Dorée rassemble des soldats organisés au service de contrats. Son histoire est liée aux exilés de Westeros et, dans les livres, aux conflits dynastiques des Feunoyr.",
-    "Elle se distingue par sa réputation de discipline et de fidélité à la parole donnée. Le rôle de la compagnie et ses alliances diffèrent sensiblement entre la série et les romans : cette fiche décrit son identité générale, sans mélanger les deux intrigues."
+    "Les cités libres font la guerre avec l’argent plutôt qu’avec leurs propres citoyens. Des dizaines de compagnies de mercenaires se vendent au plus offrant, changent de camp en pleine bataille et pillent autant qu’elles combattent. La Compagnie dorée fait exception : elle n’a jamais trahi un employeur.",
+    "Elle a été fondée par des exilés de Westeros, partisans d’une branche bâtarde des Targaryen vaincue lors d’une ancienne guerre de succession. Leurs descendants rêvent depuis des générations de rentrer chez eux. La compagnie compte environ vingt mille hommes, des éléphants de guerre et une cavalerie lourde.",
+    "Ses chefs portent des crânes dorés de leurs prédécesseurs comme étendards, et ses soldats tressent leur or dans leurs armures. Elle coûte extrêmement cher. Seuls les plus riches peuvent s’offrir sa loyauté."
+  ],
+  "inTheSeries": [
+    {
+      "s": 7,
+      "title": "Saison 7 — Le contrat",
+      "paragraphs": [
+        "Cersei emprunte à la Banque de Fer pour engager la Compagnie dorée."
+      ]
+    },
+    {
+      "s": 8,
+      "title": "Saison 8 — Port-Réal",
+      "paragraphs": [
+        "La compagnie, commandée par Harry Strickland, arrive sans ses éléphants et périt dans les flammes de Drogon devant Port-Réal."
+      ]
+    }
   ],
   "facts": [
     {
-      "label": "Langue",
-      "value": "Langue commune et langues d’Essos"
+      "label": "Effectif",
+      "value": "Environ 20 000 hommes"
     },
     {
-      "label": "Visages & repères",
-      "value": "Harry Strickland dans la série"
+      "label": "Réputation",
+      "value": "N’a jamais rompu un contrat"
     }
   ],
   "terms": [
@@ -32,13 +49,19 @@
       "def": "réputation"
     }
   ],
-  "places": [],
-  "characters": [],
+  "places": [
+    "port-real",
+    "pentos"
+  ],
+  "characters": [
+    "cersei-lannister",
+    "tycho-nestoris"
+  ],
   "image": "images/compagnie-doree.webp",
   "sources": [
     {
-      "label": "A Wiki of Ice and Fire",
-      "url": "https://awoiaf.westeros.org/index.php/Golden_Company"
+      "label": "Wiki of Westeros — Golden Company",
+      "url": "https://gameofthrones.fandom.com/wiki/Golden_Company"
     }
   ]
 }

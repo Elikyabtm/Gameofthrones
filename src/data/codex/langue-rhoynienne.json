@@ -1,27 +1,36 @@
 {
   "slug": "langue-rhoynienne",
   "rubric": "langues",
-  "name": "Le rhoynais",
-  "kicker": "Essos · Rhoyne / héritage dornien",
-  "lead": "La langue d’un peuple de fleuve et d’exil.",
+  "name": "Langue rhoynienne",
+  "kicker": "La langue du fleuve-mère",
+  "lead": "Langue des Rhoynar, peuple du grand fleuve, dont l’héritage s’est fondu dans la culture de Dorne.",
   "body": [
-    "Les Rhoynar possédaient leur propre langue. La migration vers Dorne et les contacts avec les autres populations ont transformé sa place dans la vie quotidienne.",
-    "L’héritage rhoynais reste perceptible dans la culture dornienne, sans signifier que tous les Dorniens parlent encore la langue de leurs ancêtres. Il faut distinguer une langue vivante d’un héritage linguistique."
+    "Les Rhoynar vivaient le long de la Rhoyne, le plus grand fleuve d’Essos, dans des cités riches et cultivées. Leur langue était celle d’un peuple de pêcheurs, de bâtisseurs et de magiciens de l’eau, qui adoraient la Mère Rhoyne.",
+    "Quand Valyria détruisit leurs cités, la reine Nymeria emmena les survivants à Dorne. Leur langue s’y est peu à peu perdue, absorbée par la langue commune, mais elle a laissé des mots, des noms et des coutumes. L’égalité entre héritiers et héritières à Dorne vient des Rhoynar.",
+    "Dans les ruines de Chroyane, au bord de la Rhoyne, on prétend encore entendre la langue ancienne murmurée par les hommes-pierre."
   ],
   "facts": [
     {
-      "label": "Où la retrouver",
-      "value": "Rhoyne · mémoire de Dorne"
+      "label": "Où l’entendre",
+      "value": "Mémoire de Dorne · ruines de la Rhoyne"
     }
   ],
   "terms": [],
-  "places": [],
-  "characters": [],
+  "places": [
+    "dorne",
+    "lancehelion",
+    "valyria"
+  ],
+  "characters": [
+    "oberyn-martell",
+    "doran-martell"
+  ],
   "image": null,
   "sources": [
     {
       "label": "A Wiki of Ice and Fire",
       "url": "https://awoiaf.westeros.org/index.php/Rhoynar"
     }
-  ]
+  ],
+  "_doute": "Langue non représentée dans la série."
 }

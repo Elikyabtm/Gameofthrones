@@ -1,14 +1,23 @@
 {
   "slug": "valyria",
   "name": "Valyria",
-  "kind": "cité",
-  "region": "Ruines de l’ancien empire",
+  "kind": "ruine",
+  "region": "La mer Fumeuse",
   "continent": "essos",
+  "coords": { "x": 1390, "y": 1215 },
+  "summary": "Ruines de la capitale de l’ancien empire des seigneurs-dragons, détruite par le Fléau.",
   "description": [
-    "Le Fléau a détruit le cœur de l’ancienne puissance valyrienne. Les ruines sont devenues un lieu redouté, mais son héritage demeure ailleurs : dans les langues, l’acier, les dragons et les familles qui revendiquent encore son prestige."
+    "Valyria n’est plus qu’un archipel de ruines au milieu de la mer Fumeuse, une eau chaude et brumeuse où les navires refusent d’entrer. Ses volcans, les Quatorze Flammes, fument encore. Entre les îles, on devine des ponts brisés, des tours effondrées, des statues à moitié englouties, et une route pavée que le temps n’a pas réussi à user.",
+    "Les marins disent que les brumes cachent des choses vivantes. Les hommes-pierre, victimes de la léprose grise, y errent parmi les décombres et attaquent ceux qui passent."
   ],
-  "history": [],
-  "events": [],
-  "image": "images/dragon.webp",
-  "sources": []
+  "history": [
+    "Il y a cinq mille ans, un peuple de bergers découvrit des dragons dans les volcans de la péninsule et apprit à les dompter. Les seigneurs-dragons de Valyria bâtirent un empire qui s’étendit sur la moitié du monde connu, écrasa l’empire de Ghis, chassa les Rhoynar et fonda les cités libres. Ils forgeaient un acier incomparable, enchantaient la pierre, et parlaient une langue que l’on enseigne encore.",
+    "Puis vint le Fléau. En un seul jour, les Quatorze Flammes entrèrent en éruption, la terre s’ouvrit, et la péninsule se brisa. Les seigneurs-dragons disparurent presque tous. Seuls les Targaryen, installés depuis douze ans à Peyredragon sur la foi d’une vision, survécurent avec leurs dragons."
+  ],
+  "events": [
+    { "s": 5, "text": "Jorah et Tyrion traversent les ruines en barque et sont attaqués par des hommes-pierre." },
+    { "s": 5, "text": "Drogon survole le bateau, au-dessus de la mer Fumeuse." }
+  ],
+  "image": "images/valyriens.webp",
+  "sources": [{ "label": "Wiki of Westeros — Valyria", "url": "https://gameofthrones.fandom.com/wiki/Valyria" }]
 }

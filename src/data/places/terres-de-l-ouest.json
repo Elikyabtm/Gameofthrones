@@ -1,0 +1,23 @@
+{
+  "slug": "terres-de-l-ouest",
+  "name": "Les Terres de l’Ouest",
+  "kind": "région",
+  "region": "L’Ouest",
+  "continent": "westeros",
+  "coords": { "x": 270, "y": 730 },
+  "summary": "Collines riches en or entre le Conflans et la mer du Crépuscule, domaine des Lannister.",
+  "house": "lannister",
+  "description": [
+    "Les Terres de l’Ouest sont un pays de collines, de vallées encaissées et de châteaux perchés. Ce n’est pas la région la plus fertile du royaume, mais c’est de loin la plus riche : ses mines d’or et d’argent ont fait de ses seigneurs les créanciers des rois. Les ports de la côte, comme Port-Lannis, commercent avec tout le Sud.",
+    "Les vassaux des Lannister y tiennent des forteresses solides et sont réputés pour leur loyauté, ou pour leur peur : tout le monde, ici, connaît l’histoire de ceux qui ont défié le lion."
+  ],
+  "history": [
+    "Les Terres de l’Ouest ont été un royaume indépendant pendant des siècles, celui des rois du Roc. Après la conquête d’Aegon, elles sont devenues l’un des sept royaumes, gouverné depuis Castral Roc. Pendant la Rébellion, Tywin Lannister a gardé ses armées immobiles jusqu’au dernier moment, puis s’est présenté à Port-Réal en allié du roi, avant de faire ouvrir les portes et de livrer la ville au pillage."
+  ],
+  "events": [
+    { "s": 2, "text": "Robb Stark y remporte bataille après bataille et rencontre Talisa Maegyr." },
+    { "s": 7, "text": "Les armées Lannister y préparent la guerre contre Daenerys." }
+  ],
+  "image": null,
+  "sources": [{ "label": "Wiki of Westeros — Westerlands", "url": "https://gameofthrones.fandom.com/wiki/Westerlands" }]
+}

@@ -1,16 +1,93 @@
 {
   "slug": "maitre-de-la-lumiere",
   "rubric": "croyances",
-  "name": "Le Maître de la Lumière",
-  "kicker": "R’hllor · feu · prêtres rouges",
-  "lead": "Le culte de R’hllor oppose la lumière et la chaleur aux ténèbres et au froid.",
+  "name": "Maître de la Lumière",
+  "kicker": "R’hllor",
+  "featured": true,
+  "lead": "Dieu du feu et de la lumière venu d’Essos, en guerre éternelle contre le Grand Autre, maître des ténèbres.",
   "body": [
-    "Le culte de R’hllor oppose la lumière et la chaleur aux ténèbres et au froid. Les prêtres rouges interprètent les flammes, les signes et les prophéties. Melisandre et Thoros n’en offrent pas une expression identique : la croyance est aussi traversée par les doutes de ceux qui la portent."
+    "R’hllor, le Maître de la Lumière, est le dieu du feu, de la chaleur et de la vie. Ses fidèles croient que le monde est le champ de bataille de deux puissances : R’hllor d’un côté, le Grand Autre, dieu de la glace, de la nuit et de la mort, de l’autre. Il n’y a pas de neutralité possible : tous les autres dieux sont faux, et leurs fidèles servent les ténèbres sans le savoir.",
+    "Cette religion est très répandue dans les cités libres, surtout à Volantis, où son grand temple domine la ville. Ses prêtres et prêtresses portent du rouge. Ils prient en regardant les flammes, où leur dieu leur envoie des visions, et récitent une formule nocturne : « La nuit est sombre et pleine de terreurs. » Certains font des miracles.",
+    "Leur foi repose sur une prophétie : celle d’Azor Ahai, un héros qui, il y a des millénaires, forgea l’épée Illumination pour vaincre les ténèbres, et qui doit renaître lorsque la nuit reviendra. Chaque prêtre rouge cherche à reconnaître cet élu, et plusieurs se trompent.",
+    "Le culte de R’hllor est exigeant. Il demande des sacrifices, parfois humains, car le feu purifie et le sang royal porte un pouvoir particulier."
   ],
-  "facts": [],
-  "terms": [],
-  "places": [],
-  "characters": [],
+  "inTheSeries": [
+    {
+      "s": 2,
+      "title": "Saison 2 — La prêtresse de Stannis",
+      "paragraphs": [
+        "Melisandre brûle les statues des Sept à Peyredragon et proclame Stannis Azor Ahai. Elle donne naissance à une ombre qui tue Renly."
+      ]
+    },
+    {
+      "s": 3,
+      "title": "Saison 3 — Le prêtre qui ressuscite",
+      "paragraphs": [
+        "Thoros de Myr ramène plusieurs fois Beric Dondarrion à la vie."
+      ]
+    },
+    {
+      "s": 5,
+      "title": "Saison 5 — Le bûcher",
+      "paragraphs": [
+        "Stannis sacrifie sa fille Shireen au Maître de la Lumière."
+      ]
+    },
+    {
+      "s": 6,
+      "title": "Saison 6 — Le retour de Jon",
+      "paragraphs": [
+        "Melisandre ressuscite Jon Snow. À Meereen, Kinvara reconnaît Daenerys comme l’élue."
+      ]
+    },
+    {
+      "s": 8,
+      "title": "Saison 8 — La dernière flamme",
+      "paragraphs": [
+        "Melisandre enflamme les arakhs des Dothrakis avant la Longue Nuit, puis meurt à l’aube."
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "label": "Autre nom",
+      "value": "R’hllor"
+    },
+    {
+      "label": "Grand temple",
+      "value": "Volantis"
+    },
+    {
+      "label": "Ennemi",
+      "value": "Le Grand Autre"
+    }
+  ],
+  "terms": [
+    {
+      "term": "Azor Ahai",
+      "def": "Héros prophétique qui doit renaître pour vaincre les ténèbres."
+    },
+    {
+      "term": "Prince qui fut promis",
+      "def": "Autre nom donné à l’élu de la prophétie."
+    }
+  ],
+  "places": [
+    "volantis",
+    "peyredragon"
+  ],
+  "characters": [
+    "melisandre",
+    "thoros-de-myr",
+    "beric-dondarrion",
+    "kinvara",
+    "stannis-baratheon"
+  ],
   "image": "images/maitre-de-la-lumiere.webp",
-  "sources": []
+  "sources": [
+    {
+      "label": "Wiki of Westeros — Lord of Light",
+      "url": "https://gameofthrones.fandom.com/wiki/Lord_of_Light"
+    }
+  ]
 }

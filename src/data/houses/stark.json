@@ -1,17 +1,62 @@
 {
   "slug": "stark",
   "name": "Maison Stark",
-  "words": "L’hiver vient.",
+  "words": "L’hiver vient",
   "sigil": "sigils/stark.svg",
-  "sigilDescription": "Un loup géant gris sur champ blanc.",
-  "sigilCredit": null,
+  "sigilDescription": "Un loup géant gris courant sur champ blanc",
+  "sigilCredit": "Contributeurs de A Wiki of Ice and Fire, licence CC BY-SA 3.0",
+  "color": "#abbfc5",
   "seat": "winterfell",
   "region": "Le Nord",
+  "summary": "Seigneurs de Winterfell et gardiens du Nord depuis des millénaires, fidèles aux anciens dieux et à la parole donnée.",
+  "overlord": [{ "to": "baratheon", "until": 2 }],
+  "vassals": ["bolton", "mormont", "reed", "Manderly", "Omble", "Karstark", "Glover"],
+  "founded": "À l’Âge des Héros, par Brandon le Bâtisseur selon la légende",
   "history": [
-    "Les Stark gouvernent un territoire immense, séparé du Sud par les distances et par une mémoire ancienne. Leurs liens avec les Premiers Hommes et les anciens dieux restent visibles dans le bois sacré de Winterfell. Leur conception du devoir se heurte à la politique plus mobile de la cour."
+    "Les Stark sont l’une des plus anciennes familles de Westeros. Ils descendent des Premiers Hommes, arrivés sur le continent il y a douze mille ans, et prétendent compter Brandon le Bâtisseur, à qui l’on attribue le Mur et Winterfell, parmi leurs ancêtres. Pendant des milliers d’années, ils ont été les rois du Nord, puis les rois de l’Hiver, régnant sur un territoire plus vaste que tous les autres royaumes réunis.",
+    "Contrairement aux maisons du Sud, convertis par les Andals à la Foi des Sept, les Stark sont restés fidèles aux anciens dieux de la forêt. Ils prient sans prêtres ni temples, dans leur bois sacré, devant un arbre au visage sculpté. Leur conception de la justice est simple et rude : celui qui prononce la sentence doit la porter lui-même.",
+    "Quand Aegon le Conquérant a débarqué avec ses dragons, Torrhen Stark, le dernier roi du Nord, a vu les cendres de deux armées et choisi de s’agenouiller pour épargner la sienne. Depuis, les Stark gouvernent le Nord au nom du Trône de Fer, avec le titre de Gouverneur. Ils ont toujours gardé une certaine distance avec la cour, ses intrigues et ses modes.",
+    "Pendant la Rébellion, le roi Aerys a fait exécuter Lord Rickard Stark et son fils aîné Brandon, et le prince Rhaegar a disparu avec Lyanna, la fille de Rickard, promise à Robert Baratheon. Eddard, le second fils, s’est soulevé aux côtés de Robert et de Jon Arryn. Il est sorti de la guerre seigneur de Winterfell, marié à Catelyn Tully, la fiancée de son frère mort, et accompagné d’un fils naturel, Jon Snow."
   ],
-  "inTheSeries": [],
-  "figures": [],
-  "members": [],
-  "sources": []
+  "inTheSeries": [
+    { "s": 1, "title": "Saison 1 — Le départ vers le Sud", "paragraphs": ["Eddard devient Main du Roi et part pour Port-Réal avec ses filles. Il y découvre le secret des enfants royaux et finit exécuté. Robb lève les bannières du Nord et se fait proclamer roi du Nord, comme ses ancêtres."] },
+    { "s": 2, "title": "Saison 2 — La maison dispersée", "paragraphs": ["Robb gagne toutes ses batailles, mais Theon Greyjoy prend Winterfell. Les Stark sont désormais éparpillés : Sansa otage à Port-Réal, Arya en fuite, Bran et Rickon cachés, Jon au-delà du Mur."] },
+    { "s": 3, "title": "Saison 3 — Les Noces pourpres", "paragraphs": ["Aux Jumeaux, Robb, sa femme et sa mère sont assassinés par les Frey et les Bolton. La couronne du Nord disparaît avec eux."] },
+    { "s": 5, "title": "Saison 5 — Les Bolton à Winterfell", "paragraphs": ["Le Nord appartient aux Bolton, qui marient Sansa à Ramsay pour asseoir leur légitimité. La maison Stark ne survit plus qu’en exil."] },
+    { "s": 6, "title": "Saison 6 — La reconquête", "paragraphs": ["Jon et Sansa reprennent Winterfell à la bataille des Bâtards. Les seigneurs du Nord proclament Jon roi du Nord."] },
+    { "s": 7, "title": "Saison 7 — Les retrouvailles", "paragraphs": ["Arya et Bran rentrent à Winterfell. Les enfants Stark encore vivants se retrouvent pour la première fois depuis le départ de leur père, et punissent Littlefinger."] },
+    { "s": 8, "title": "Saison 8 — Le Nord indépendant", "paragraphs": ["Après la Longue Nuit et la chute de Port-Réal, Bran devient roi des Six Couronnes et Sansa reine du Nord, devenu indépendant. Arya part explorer l’ouest, et Jon retourne au Mur."] }
+  ],
+  "figures": ["Brandon le Bâtisseur", "Torrhen Stark, le roi qui s’agenouilla", "Rickard Stark"],
+  "members": ["eddard-stark", "catelyn-stark", "robb-stark", "sansa-stark", "arya-stark", "bran-stark", "rickon-stark", "jon-snow", "benjen-stark", "lyanna-stark", "talisa-stark"],
+  "tree": {
+    "people": [
+      { "id": "rickard-stark", "name": "Rickard Stark", "portrait": "images/personnages/rickard-stark.webp", "deadBefore": true },
+      { "id": "lyarra-stark", "name": "Lyarra Stark", "portrait": "images/personnages/lyarra-stark.webp", "deadBefore": true },
+      { "id": "brandon-stark", "name": "Brandon Stark", "note": "Frère aîné d’Eddard", "portrait": "images/personnages/brandon-stark.webp", "deadBefore": true },
+      { "id": "eddard-stark", "character": "eddard-stark" },
+      { "id": "catelyn-stark", "character": "catelyn-stark", "house": "tully" },
+      { "id": "lyanna-stark", "character": "lyanna-stark" },
+      { "id": "benjen-stark", "character": "benjen-stark" },
+      { "id": "rhaegar-targaryen", "character": "rhaegar-targaryen", "house": "targaryen", "s": 7 },
+      { "id": "robb-stark", "character": "robb-stark" },
+      { "id": "talisa-stark", "character": "talisa-stark" },
+      { "id": "sansa-stark", "character": "sansa-stark" },
+      { "id": "arya-stark", "character": "arya-stark" },
+      { "id": "bran-stark", "character": "bran-stark" },
+      { "id": "rickon-stark", "character": "rickon-stark" },
+      { "id": "jon-snow", "character": "jon-snow" }
+    ],
+    "unions": [
+      { "a": "rickard-stark", "b": "lyarra-stark", "children": ["brandon-stark", "eddard-stark", "lyanna-stark", "benjen-stark"] },
+      { "a": "eddard-stark", "b": "catelyn-stark", "children": ["robb-stark", "sansa-stark", "arya-stark", "bran-stark", "rickon-stark"] },
+      { "a": "eddard-stark", "children": ["jon-snow"], "hideFrom": 7 },
+      { "a": "rhaegar-targaryen", "b": "lyanna-stark", "children": ["jon-snow"], "s": 7, "secret": true },
+      { "a": "robb-stark", "b": "talisa-stark", "children": [], "s": 2 }
+    ]
+  },
+  "sources": [
+    { "label": "Wiki of Westeros — House Stark", "url": "https://gameofthrones.fandom.com/wiki/House_Stark" },
+    { "label": "A Wiki of Ice and Fire — House Stark", "url": "https://awoiaf.westeros.org/index.php/House_Stark" }
+  ]
 }

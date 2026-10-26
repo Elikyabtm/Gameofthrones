@@ -1,17 +1,112 @@
 {
   "slug": "arryn",
   "name": "Maison Arryn",
-  "words": "Aussi haute qu’honneur.",
+  "words": "Aussi haut que l’honneur",
   "sigil": "sigils/arryn.svg",
-  "sigilDescription": "Un faucon et une lune blanche sur champ bleu.",
-  "sigilCredit": null,
+  "sigilDescription": "Une lune et un faucon blancs sur champ bleu ciel",
+  "sigilCredit": "Abjiklam (A Wiki of Ice and Fire), licence CC BY-SA 3.0",
+  "color": "#8fb0c9",
   "seat": "les-eyrie",
-  "region": "Le Val",
-  "history": [
-    "Le Val s’abrite derrière les montagnes de la Lune et les défenses des Eyrié. Jon Arryn a joué un rôle de tuteur politique et familial auprès de Robert et de Ned. Sa maison rappelle qu’un personnage absent peut laisser des liens décisifs dans toute l’histoire du royaume."
+  "region": "Le Val d’Arryn",
+  "summary": "Seigneurs du Val d’Arryn, la plus ancienne lignée andale, retranchés dans un château que nul n’a jamais pris.",
+  "overlord": [
+    {
+      "to": "baratheon",
+      "until": 7
+    }
   ],
-  "inTheSeries": [],
-  "figures": [],
-  "members": [],
-  "sources": []
+  "vassals": [
+    "Royce",
+    "Corbray",
+    "Waynwood"
+  ],
+  "founded": "Par Artys Arryn, le Chevalier Ailé, selon la légende",
+  "history": [
+    "Les Arryn descendent des premiers chevaliers andals qui traversèrent la mer et débarquèrent dans le Val, il y a plusieurs milliers d’années. La légende raconte qu’Artys Arryn, le Chevalier Ailé, monta sur un grand faucon jusqu’au sommet de la Lance du Géant pour vaincre le roi des Premiers Hommes. Ses descendants régnèrent comme rois de la Montagne et du Val.",
+    "Leur château, les Eyrié, est perché au sommet de cette montagne, si haut que l’on ne peut y monter qu’à dos de mule par un sentier vertigineux, et qu’il faut hisser les vivres dans des paniers. Aucune armée ne l’a jamais pris. Quand la flotte d’Aegon et la reine Visenya, sur son dragon, se présentèrent devant le château, la reine régente, Sharra Arryn, préféra se rendre : son jeune fils voulait voler sur un dragon, et on le laissa faire.",
+    "Le Val est riche, isolé et bien défendu. Ses seigneurs vassaux, comme les Royce, sont d’anciennes et fières maisons, qui obéissent aux Arryn mais n’hésitent pas à les juger. Les tribus des montagnes de la Lune harcèlent les voyageurs sur la grande route.",
+    "Jon Arryn, le dernier grand seigneur de la lignée, fut le tuteur d’Eddard Stark et de Robert Baratheon. Quand le roi Aerys exigea leurs têtes, il refusa de les livrer et déclencha la Rébellion. Robert en fit sa Main, et il gouverna le royaume pendant dix-sept ans pendant que le roi chassait et buvait. Sa mort soudaine, juste avant le début de l’histoire, met tout en mouvement : c’est pour le remplacer que Robert vient chercher Eddard à Winterfell.",
+    "Sa jeune veuve, Lysa Tully, s’enfuit aussitôt aux Eyrié avec leur fils maladif, Robin, et accuse les Lannister de l’avoir empoisonné."
+  ],
+  "inTheSeries": [
+    {
+      "s": 1,
+      "title": "Saison 1 — La cellule du ciel",
+      "paragraphs": [
+        "Catelyn amène Tyrion prisonnier aux Eyrié. Lysa veut le faire juger ; Tyrion obtient un combat judiciaire, que Bronn gagne pour lui."
+      ]
+    },
+    {
+      "s": 4,
+      "title": "Saison 4 — Le seigneur Baelish",
+      "paragraphs": [
+        "Petyr épouse Lysa, puis la pousse dans le vide par la Porte de la Lune. Il devient le protecteur du jeune Robin."
+      ]
+    },
+    {
+      "s": 6,
+      "title": "Saison 6 — Les chevaliers du Val",
+      "paragraphs": [
+        "Petyr conduit l’armée du Val au secours de Jon et Sansa à la bataille des Bâtards."
+      ]
+    },
+    {
+      "s": 8,
+      "title": "Saison 8 — Robin au conseil",
+      "paragraphs": [
+        "Robin, devenu adulte, siège parmi les seigneurs qui choisissent le roi Bran."
+      ]
+    }
+  ],
+  "figures": [
+    "Artys Arryn, le Chevalier Ailé",
+    "Jon Arryn"
+  ],
+  "members": [
+    "lysa-arryn",
+    "robin-arryn"
+  ],
+  "tree": {
+    "people": [
+      {
+        "id": "jon-arryn",
+        "name": "Jon Arryn",
+        "deadBefore": true,
+        "portrait": "images/personnages/jon-arryn.webp"
+      },
+      {
+        "id": "lysa-arryn",
+        "character": "lysa-arryn"
+      },
+      {
+        "id": "petyr-baelish",
+        "character": "petyr-baelish"
+      },
+      {
+        "id": "robin-arryn",
+        "character": "robin-arryn"
+      }
+    ],
+    "unions": [
+      {
+        "a": "jon-arryn",
+        "b": "lysa-arryn",
+        "children": [
+          "robin-arryn"
+        ]
+      },
+      {
+        "a": "petyr-baelish",
+        "b": "lysa-arryn",
+        "children": [],
+        "s": 4
+      }
+    ]
+  },
+  "sources": [
+    {
+      "label": "Wiki of Westeros — House Arryn",
+      "url": "https://gameofthrones.fandom.com/wiki/House_Arryn"
+    }
+  ]
 }

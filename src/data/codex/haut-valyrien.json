@@ -1,35 +1,65 @@
 {
   "slug": "haut-valyrien",
   "rubric": "langues",
-  "name": "Le haut valyrien",
-  "kicker": "Valyria · Héritage & savoir",
-  "lead": "Le prestige d’un empire dont le centre a disparu.",
+  "name": "Haut valyrien",
+  "kicker": "La langue des seigneurs-dragons",
+  "featured": true,
+  "lead": "Langue de l’ancien empire de Valyria, devenue langue savante, comme le latin pour Westeros et Essos.",
   "body": [
-    "Le haut valyrien est lié à l’ancienne civilisation de Valyria et à des usages savants, religieux ou dynastiques. Sa connaissance peut signaler une éducation, une tradition familiale ou une ambition de pouvoir.",
-    "Pour la télévision, David J. Peterson a construit une langue développée à partir des expressions déjà présentes dans les livres. Les tournures conservées dans le monde de Game of Thrones ont parfois une portée rituelle autant que pratique."
+    "Le haut valyrien était la langue de Valyria au temps de sa grandeur. On l’écrivait et on la parlait de la péninsule jusqu’aux cités libres, et c’est dans cette langue que les seigneurs-dragons donnaient leurs ordres à leurs bêtes. Après le Fléau, elle a cessé d’être parlée au quotidien et s’est fragmentée en de nombreux dialectes, les bas valyriens.",
+    "Elle est restée une langue savante. Les mestres l’étudient, les nobles en apprennent des formules, les prêtres l’utilisent dans leurs rites. Les Targaryen la transmettaient à leurs enfants. On la trouve dans les livres anciens, les inscriptions et les devises.",
+    "Quelques expressions de haut valyrien sont connues de tous en Essos, même de ceux qui n’en savent rien d’autre : « Valar morghulis », tous les hommes doivent mourir, et sa réponse. Un mot, surtout, garde une puissance particulière : celui qui ordonne aux dragons de cracher le feu.",
+    "La langue entendue dans la série est une langue construite, inventée par le linguiste David J. Peterson à partir des quelques mots présents dans les romans."
+  ],
+  "inTheSeries": [
+    {
+      "s": 3,
+      "title": "Saison 3 — Le mot de feu",
+      "paragraphs": [
+        "À Astapor, Daenerys révèle qu’elle parle le valyrien et ordonne à Drogon : « Dracarys »."
+      ]
+    },
+    {
+      "s": 5,
+      "title": "Saison 5 — Tyrion et Daenerys",
+      "paragraphs": [
+        "Tyrion échange quelques phrases en haut valyrien avec Daenerys."
+      ]
+    }
   ],
   "facts": [
     {
-      "label": "Où la retrouver",
-      "value": "Héritage valyrien · savants · Targaryen"
+      "label": "Où l’entendre",
+      "value": "Livres · rites · Targaryen"
+    },
+    {
+      "label": "Créateur pour la série",
+      "value": "David J. Peterson"
+    },
+    {
+      "label": "Héritiers",
+      "value": "Les bas valyriens"
     }
   ],
   "terms": [
     {
-      "term": "Valar morghulis",
-      "def": "Tout homme doit mourir."
-    },
-    {
-      "term": "Valar dohaeris",
-      "def": "Tout homme doit servir."
-    },
-    {
       "term": "Dracarys",
-      "def": "Feu de dragon ; utilisé comme ordre aux dragons."
+      "def": "Feu de dragon."
+    },
+    {
+      "term": "Valar morghulis",
+      "def": "Tous les hommes doivent mourir."
     }
   ],
-  "places": [],
-  "characters": [],
+  "places": [
+    "valyria",
+    "peyredragon"
+  ],
+  "characters": [
+    "daenerys-targaryen",
+    "missandei",
+    "tyrion-lannister"
+  ],
   "image": null,
   "sources": [
     {

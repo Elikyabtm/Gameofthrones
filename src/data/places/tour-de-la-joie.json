@@ -1,0 +1,22 @@
+{
+  "slug": "tour-de-la-joie",
+  "name": "La tour de la Joie",
+  "kind": "ruine",
+  "region": "Dorne",
+  "continent": "westeros",
+  "coords": { "x": 440, "y": 985 },
+  "summary": "Tour isolée des montagnes Rouges, où s’est achevée la Rébellion pour Eddard Stark.",
+  "description": [
+    "La tour de la Joie est une tour ronde et solitaire dans les contreforts des montagnes Rouges, au nord de Dorne. Le paysage est aride, la roche rouge, le vent chargé de poussière. Elle ne garde aucune route et ne commande aucune terre : c’est un lieu que l’on choisit pour se cacher.",
+    "Eddard Stark a fait bâtir, avec les pierres de la tour, des cairns pour ceux qui y sont morts. Il n’a jamais raconté à personne ce qu’il y a trouvé."
+  ],
+  "history": [
+    "À la fin de la Rébellion, alors que Robert Baratheon montait sur le trône, Eddard Stark et six compagnons sont venus jusqu’à la tour, où l’attendaient trois chevaliers de la Garde Royale. Seuls Eddard et Howland Reed en sont revenus. Les chansons parlent d’un combat héroïque ; ce qui s’est passé à l’intérieur de la tour est resté un secret pendant des années."
+  ],
+  "events": [
+    { "s": 6, "text": "Dans une vision, Bran assiste au combat contre Arthur Dayne et voit son père entrer dans la tour." },
+    { "s": 6, "text": "Lyanna Stark, mourante, y confie un enfant à son frère." }
+  ],
+  "image": null,
+  "sources": [{ "label": "Wiki of Westeros — Tower of Joy", "url": "https://gameofthrones.fandom.com/wiki/Tower_of_Joy" }]
+}

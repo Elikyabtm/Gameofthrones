@@ -2,13 +2,22 @@
   "slug": "pentos",
   "name": "Pentos",
   "kind": "cité",
-  "region": "Cité libre",
+  "region": "Les cités libres",
   "continent": "essos",
+  "coords": { "x": 778, "y": 770 },
+  "summary": "Cité libre marchande face à Westeros, gouvernée par un prince et ses magistres.",
+  "rulers": [{ "text": "Le prince de Pentos et les magistres" }],
   "description": [
-    "Pentos est l’une des portes occidentales d’Essos. Sa position commerciale et ses grandes fortunes en font un lieu où les projets politiques peuvent se négocier à l’abri des regards de Westeros. Le début du parcours de Daenerys y passe par la demeure d’Illyrio Mopatis."
+    "Pentos est une cité de briques claires, de toits rouges et de jardins clos, sur la côte occidentale d’Essos, juste en face de la mer Étroite. Son port est l’un des plus actifs du monde, et ses marchands commercent avec Westeros comme avec les cités de l’Est.",
+    "La ville est gouvernée par un prince choisi parmi les grandes familles, mais le pouvoir réel appartient aux magistres, les plus riches marchands. Le prince a surtout une fonction : on le sacrifie aux dieux quand la récolte ou la guerre tournent mal. Les magistres, eux, vivent dans des palais aux bassins de marbre."
   ],
-  "history": [],
-  "events": [],
-  "image": "images/braavos.webp",
-  "sources": []
+  "history": [
+    "Comme les autres cités libres, Pentos est une ancienne colonie de Valyria, devenue indépendante après le Fléau. Elle a été plusieurs fois vaincue par Braavos, qui lui a imposé de renoncer à l’esclavage, une interdiction que les Pentoshi contournent en parlant de « serviteurs ». Pentos préfère payer les Dothraki plutôt que les combattre : à chaque khalasar qui approche, les magistres offrent des présents."
+  ],
+  "events": [
+    { "s": 1, "text": "Viserys marie sa sœur Daenerys au khal Drogo chez le magistre Illyrio." },
+    { "s": 5, "text": "Varys y emmène Tyrion après sa fuite de Port-Réal." }
+  ],
+  "image": null,
+  "sources": [{ "label": "Wiki of Westeros — Pentos", "url": "https://gameofthrones.fandom.com/wiki/Pentos" }]
 }

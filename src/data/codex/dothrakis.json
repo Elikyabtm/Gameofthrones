@@ -1,49 +1,90 @@
 {
   "slug": "dothrakis",
   "rubric": "peuples",
-  "name": "Les Dothraki",
-  "kicker": "Essos · Mer Dothrak",
-  "lead": "Un peuple de cavaliers, dont le territoire se mesure en routes et en horizons.",
+  "name": "Dothrakis",
+  "kicker": "Les seigneurs des chevaux",
+  "featured": true,
+  "lead": "Peuple de cavaliers nomades de la mer Dothrak, qui vit de raids et méprise tout ce qui ne se fait pas à cheval.",
   "body": [
-    "Les Dothraki parcourent les grandes plaines d’Essos dans des communautés nomades appelées khalasars. Autour des cavaliers se déplacent les familles, les troupeaux et tout ce qui permet à une société de vivre en mouvement. Un khal commande le groupe ; khaleesi est un titre porté par son épouse.",
-    "Le cheval organise la mobilité, la richesse et une grande partie de leur imaginaire. La puissance d’un chef repose sur sa capacité à entraîner les autres et à conserver leur fidélité. Un khalasar peut se diviser lorsque son autorité disparaît : le nom d’un père ne suffit pas à assurer la succession.",
-    "Vaes Dothrak est leur centre sacré, un lieu de rencontre au pied de la Mère des Montagnes. Les dosh khaleen, veuves de khals, y occupent une place religieuse. À travers Daenerys, cette culture de la steppe entre en contact avec les cités, les langues et les ambitions du monde méditerranéen d’Essos."
+    "Les Dothrakis parcourent l’immense prairie de la mer Dothrak, au centre d’Essos, en hordes appelées khalasars. Chaque khalasar suit un khal, entouré de ses guerriers, ses sang-coureurs, qui jurent de vivre et de mourir avec lui.",
+    "Leur vie tourne autour du cheval. Un guerrier dothraki porte une longue tresse, ornée de clochettes, qu’il ne coupe que s’il est vaincu. Ils méprisent les villes, les bateaux et les eaux salées, qu’ils appellent « l’eau empoisonnée », et ne traverseraient pas la mer sans y être poussés.",
+    "Ils sont redoutés jusqu’aux cités libres, qui leur versent des tributs pour être épargnées. Ils razzient les peuples sédentaires, comme les Lhazaréens, et vendent leurs captifs comme esclaves.",
+    "Leur seule ville est Vaes Dothrak, ville sainte où la violence est interdite. Les veuves de khals y forment le conseil des dosh khaleen. Leur dieu est le Grand Étalon, et ils attendent un khal qui réunira tous les khalasars."
+  ],
+  "inTheSeries": [
+    {
+      "s": 1,
+      "title": "Saison 1 — Khal Drogo",
+      "paragraphs": [
+        "Daenerys épouse Khal Drogo. À sa mort, son khalasar se disperse."
+      ]
+    },
+    {
+      "s": 6,
+      "title": "Saison 6 — Tous les khals",
+      "paragraphs": [
+        "Daenerys brûle les khals à Vaes Dothrak et prend la tête de tous les Dothrakis."
+      ]
+    },
+    {
+      "s": 7,
+      "title": "Saison 7 — La route de la Néra",
+      "paragraphs": [
+        "La horde dothrakie charge l’armée de Jaime en Westeros."
+      ]
+    },
+    {
+      "s": 8,
+      "title": "Saison 8 — La charge",
+      "paragraphs": [
+        "Les cavaliers chargent dans la nuit devant Winterfell ; presque tous périssent."
+      ]
+    }
   ],
   "facts": [
     {
-      "label": "Langue",
-      "value": "Dothraki"
+      "label": "Territoire",
+      "value": "Mer Dothrak"
     },
     {
-      "label": "Visages & repères",
-      "value": "Khal Drogo · Daenerys · les dosh khaleen"
+      "label": "Ville sainte",
+      "value": "Vaes Dothrak"
+    },
+    {
+      "label": "Dieu",
+      "value": "Le Grand Étalon"
     }
   ],
   "terms": [
     {
-      "term": "Khal",
-      "def": "chef"
+      "term": "Khalasar",
+      "def": "Horde nomade."
     },
     {
-      "term": "Khalasar",
-      "def": "communauté nomade"
+      "term": "Sang-coureur",
+      "def": "Garde du corps juré d’un khal."
     },
     {
       "term": "Khaleesi",
-      "def": "titre"
-    },
-    {
-      "term": "Vaes Dothrak",
-      "def": "cité sacrée"
+      "def": "Épouse du khal."
     }
   ],
-  "places": [],
-  "characters": [],
+  "places": [
+    "mer-dothrak",
+    "vaes-dothrak",
+    "lhazar"
+  ],
+  "characters": [
+    "khal-drogo",
+    "rakharo",
+    "daenerys-targaryen",
+    "jorah-mormont"
+  ],
   "image": "images/dothraki.webp",
   "sources": [
     {
-      "label": "David J. Peterson — Dothraki",
-      "url": "https://dothraki.com/about-dothraki/"
+      "label": "Wiki of Westeros — Dothraki",
+      "url": "https://gameofthrones.fandom.com/wiki/Dothraki"
     }
   ]
 }

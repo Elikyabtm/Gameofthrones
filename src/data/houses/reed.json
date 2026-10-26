@@ -1,0 +1,96 @@
+{
+  "slug": "reed",
+  "name": "Maison Reed",
+  "words": "Fidèles au Nord",
+  "wordsNote": "La série ne cite pas de devise pour les Reed ; formule descriptive.",
+  "sigil": "sigils/reed.svg",
+  "sigilDescription": "Un lézard-lion noir sur champ vert",
+  "sigilCredit": "Création originale du projet",
+  "color": "#5f7a52",
+  "seat": "griseaux",
+  "region": "Le Neck",
+  "summary": "Seigneurs des marais du Neck, fidèles des Stark, gardiens de secrets et de savoirs anciens.",
+  "overlord": [
+    {
+      "to": "stark"
+    }
+  ],
+  "vassals": [],
+  "founded": "Inconnue",
+  "history": [
+    "Les Reed règnent sur le Neck, une étendue de marais, de tourbières et de forêts inondées qui sépare le Nord du reste du continent. Leur château, Griseaux, n’a pas d’adresse fixe : on dit qu’il flotte et se déplace sur les eaux, si bien que nul ennemi n’a jamais su le trouver.",
+    "Les gens du Neck, qu’on appelle avec mépris les « mangeurs de grenouilles », sont petits, discrets et habiles. Ils vivent de pêche et de chasse, se battent avec des tridents et des filets, et connaissent des poisons qu’ils seuls savent préparer. Ils sont restés fidèles aux anciens dieux et ont conservé des liens avec les enfants de la forêt.",
+    "Howland Reed, le seigneur actuel, a combattu aux côtés d’Eddard Stark pendant la Rébellion. Il était présent à la tour de la Joie, en Dorne, quand Eddard a affronté les derniers gardes de Rhaegar, et lui a sauvé la vie en frappant Arthur Dayne dans le dos. Avec Eddard, il est le seul survivant de ce combat, et donc le seul à connaître ce qu’Eddard a trouvé dans la tour.",
+    "Il n’apparaît jamais à Winterfell. Ce sont ses enfants, Meera et Jojen, qu’il envoie au secours de Bran, guidés par les rêves verts de Jojen."
+  ],
+  "inTheSeries": [
+    {
+      "s": 3,
+      "title": "Saison 3 — Les guides",
+      "paragraphs": [
+        "Meera et Jojen rejoignent Bran et Rickon et les guident vers le nord."
+      ]
+    },
+    {
+      "s": 4,
+      "title": "Saison 4 — L’arbre",
+      "paragraphs": [
+        "Jojen meurt aux portes de la grotte de la Corneille à trois yeux."
+      ]
+    },
+    {
+      "s": 6,
+      "title": "Saison 6 — La vision",
+      "paragraphs": [
+        "Bran voit, dans une vision, le jeune Howland Reed à la tour de la Joie."
+      ]
+    },
+    {
+      "s": 7,
+      "title": "Saison 7 — Le retour",
+      "paragraphs": [
+        "Meera ramène Bran à Winterfell, puis rentre chez elle."
+      ]
+    }
+  ],
+  "figures": [
+    "Howland Reed"
+  ],
+  "members": [
+    "meera-reed",
+    "jojen-reed"
+  ],
+  "tree": {
+    "people": [
+      {
+        "id": "howland-reed",
+        "name": "Howland Reed",
+        "note": "Compagnon d’Eddard Stark",
+        "s": 3
+      },
+      {
+        "id": "meera-reed",
+        "character": "meera-reed"
+      },
+      {
+        "id": "jojen-reed",
+        "character": "jojen-reed"
+      }
+    ],
+    "unions": [
+      {
+        "a": "howland-reed",
+        "children": [
+          "meera-reed",
+          "jojen-reed"
+        ]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "label": "Wiki of Westeros — House Reed",
+      "url": "https://gameofthrones.fandom.com/wiki/House_Reed"
+    }
+  ]
+}

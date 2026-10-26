@@ -1,21 +1,27 @@
 {
   "slug": "dorniens",
   "rubric": "peuples",
-  "name": "Les Dorniens",
-  "kicker": "Westeros · Dorne",
-  "lead": "Un Sud aux héritages mêlés, dont l’histoire ne se confond pas avec celle des autres royaumes.",
+  "name": "Dorniens",
+  "kicker": "Le peuple du Sud",
+  "lead": "Habitants de Dorne, descendants des Premiers Hommes, des Andals et des Rhoynar, fiers de n’avoir jamais été conquis.",
   "body": [
-    "Dorne réunit des paysages et des communautés variés : littoraux, déserts, vallées et montagnes. L’héritage des Rhoynar, arrivés avec Nymeria, s’y est mêlé à ceux des Premiers Hommes et des Andals. Les Martell portent cette mémoire dans leurs titres et leurs traditions.",
-    "La résistance de Dorne à la conquête Targaryen a nourri une identité politique distincte. La principauté a rejoint les Sept Couronnes plus tard par une union dynastique. Les coutumes de succession et les rapports sociaux y diffèrent de ceux de nombreuses maisons du Nord et de l’Ouest."
+    "Dorne est la région la plus méridionale de Westeros : des montagnes, des déserts de sable rouge et quelques vallées fertiles le long des rivières. Ses habitants sont réputés pour leur caractère passionné, leur liberté de mœurs et leur sens de l’hospitalité, autant que pour leur rancune.",
+    "On distingue les Dorniens « de sable », bruns de peau, cavaliers du désert, les Dorniens « de pierre », plus clairs, vivant dans les montagnes, et les Dorniens « de sel », des côtes et des ports. Tous partagent un héritage rhoynar qui les distingue du reste du royaume.",
+    "Les mœurs y sont plus libres qu’ailleurs. Les enfants nés hors mariage, appelés Sand, n’y sont pas méprisés, et l’on accepte les amours entre hommes ou entre femmes sans scandale. Les femmes héritent à égalité avec les hommes.",
+    "Dorne a résisté aux dragons d’Aegon et ne s’est jointe au royaume que par mariage, deux siècles plus tard. Ses princes ont gardé leur titre, et les Dorniens se considèrent comme un peuple allié plutôt que soumis."
   ],
   "facts": [
     {
-      "label": "Langue",
-      "value": "Langue commune, avec des influences rhoynaises"
+      "label": "Siège",
+      "value": "Lancehélion"
     },
     {
-      "label": "Visages & repères",
-      "value": "Doran · Oberyn · Ellaria · les Martell"
+      "label": "Princes",
+      "value": "Maison Martell"
+    },
+    {
+      "label": "Bâtards",
+      "value": "Nom de Sand"
     }
   ],
   "terms": [
@@ -36,13 +42,23 @@
       "def": "principauté"
     }
   ],
-  "places": [],
-  "characters": [],
+  "places": [
+    "dorne",
+    "lancehelion",
+    "jardins-aquatiques",
+    "tour-de-la-joie"
+  ],
+  "characters": [
+    "oberyn-martell",
+    "doran-martell",
+    "ellaria-sand",
+    "trystane-martell"
+  ],
   "image": "images/dorniens.webp",
   "sources": [
     {
-      "label": "A Wiki of Ice and Fire",
-      "url": "https://awoiaf.westeros.org/index.php/Dorne"
+      "label": "Wiki of Westeros — Dorne",
+      "url": "https://gameofthrones.fandom.com/wiki/Dorne"
     }
   ]
 }

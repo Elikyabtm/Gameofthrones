@@ -1,0 +1,96 @@
+{
+  "slug": "mervault",
+  "name": "Maison Mervault",
+  "words": "Sans devise connue",
+  "sigil": "sigils/mervault.svg",
+  "sigilDescription": "Un navire noir aux voiles grises, avec un oignon sur la voile, sur champ gris pâle",
+  "sigilCredit": "Création originale du projet",
+  "color": "#9aa3a6",
+  "seat": "peyredragon",
+  "seatName": "Terres du cap de l’Ire, Terres de l’Orage",
+  "region": "Les Terres de l’Orage",
+  "summary": "Maison toute récente, fondée par un ancien contrebandier fait chevalier par Stannis Baratheon.",
+  "overlord": [
+    {
+      "to": "baratheon"
+    }
+  ],
+  "vassals": [],
+  "founded": "Pendant la Rébellion, par Davos Mervault",
+  "history": [
+    "La maison Mervault n’a qu’une génération. Son fondateur, Davos, est né à Culpucier, le quartier le plus misérable de Port-Réal, et a vécu de contrebande pendant des années. Pendant la Rébellion, Stannis Baratheon et ses hommes étaient assiégés dans Accalmie, réduits à manger des rats. Davos força le blocus de nuit avec un navire chargé d’oignons et de poisson salé, et leur permit de tenir jusqu’à la fin de la guerre.",
+    "Stannis récompensa le contrebandier en le faisant chevalier et en lui donnant des terres. Mais, fidèle à sa justice inflexible, il le punit aussi pour ses années de crime en lui tranchant les dernières phalanges des doigts de la main gauche. Davos garde les os dans une bourse, autour du cou, comme porte-bonheur. On l’appelle le chevalier Oignon.",
+    "Davos a épousé Marya, et ils ont eu plusieurs fils. L’aîné, Matthos, sert son père comme second sur son navire et admire Stannis bien plus que lui. Davos, qui ne sait pas lire, est le conseiller le plus honnête de son roi, et le seul à oser lui dire la vérité.",
+    "La maison ne possède ni château célèbre ni armée. Sa seule richesse est la loyauté de son fondateur, et la franchise qui lui vaut à la fois la confiance et la colère des rois."
+  ],
+  "inTheSeries": [
+    {
+      "s": 2,
+      "title": "Saison 2 — La Néra",
+      "paragraphs": [
+        "Davos commande un navire de la flotte de Stannis. Son fils Matthos meurt dans l’explosion du feu grégeois."
+      ]
+    },
+    {
+      "s": 3,
+      "title": "Saison 3 — Lire",
+      "paragraphs": [
+        "En prison à Peyredragon, Davos apprend à lire avec Shireen."
+      ]
+    },
+    {
+      "s": 6,
+      "title": "Saison 6 — Au service de Jon",
+      "paragraphs": [
+        "Davos défend le corps de Jon Snow, puis devient son conseiller."
+      ]
+    },
+    {
+      "s": 8,
+      "title": "Saison 8 — Le maître des navires",
+      "paragraphs": [
+        "Davos devient maître des navires du conseil du roi Bran."
+      ]
+    }
+  ],
+  "figures": [],
+  "members": [
+    "davos-mervault"
+  ],
+  "tree": {
+    "people": [
+      {
+        "id": "davos-mervault",
+        "character": "davos-mervault"
+      },
+      {
+        "id": "marya-mervault",
+        "name": "Marya Mervault",
+        "s": 2
+      },
+      {
+        "id": "matthos-mervault",
+        "name": "Matthos Mervault",
+        "s": 2,
+        "dead": 2
+      }
+    ],
+    "unions": [
+      {
+        "a": "davos-mervault",
+        "b": "marya-mervault",
+        "children": [
+          "matthos-mervault"
+        ],
+        "s": 2
+      }
+    ]
+  },
+  "_doute": "Marya n’apparaît pas à l’écran ; nom des terres de Davos.",
+  "sources": [
+    {
+      "label": "Wiki of Westeros — House Seaworth",
+      "url": "https://gameofthrones.fandom.com/wiki/House_Seaworth"
+    }
+  ]
+}

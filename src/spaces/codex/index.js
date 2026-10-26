@@ -2,7 +2,7 @@
 // et entrées (image à droite, texte à gauche, faits, lexique, lieux et personnages liés).
 import './codex.css';
 import { loadEntity, loadIndex, RUBRICS } from '../../core/content.js';
-import { characterVisible } from '../../core/spoilers.js';
+import { characterVisible, split } from '../../core/spoilers.js';
 import { placeCoords, placeLight, stepForPlace } from '../../core/places.js';
 import { esc, footer, hydrateOrnaments, ornament } from '../../ui/dom.js';
 import { portrait, scene } from '../../ui/media.js';
@@ -101,6 +101,7 @@ function entryView(root, e, rubric, data, ctx) {
     const c = graph.chars.get(s);
     return c && !characterVisible(c, season);
   }).length;
+  const series = split(e.inTheSeries ?? [], season);
   const siblings = index.codex.filter((x) => x.rubric === rubric.slug);
   const i = siblings.findIndex((x) => x.slug === e.slug);
   root.innerHTML = `
@@ -112,6 +113,16 @@ function entryView(root, e, rubric, data, ctx) {
       <h1 id="entry-title" class="entry-title">${esc(e.name)}</h1>
       <p class="fiche-summary">${link(e.lead, e.slug)}</p>
       <div class="entry-body">${e.body.map((p) => `<p>${link(p, e.slug)}</p>`).join('')}</div>
+      ${
+        series.items.length || series.hidden
+          ? `<h2 class="section-title">Dans la série</h2>${series.items
+              .map(
+                (b) =>
+                  `<div class="bio-block"><h3>${esc(b.title ?? `Saison ${b.s}`)}</h3>${b.paragraphs.map((p) => `<p>${link(p, e.slug)}</p>`).join('')}</div>`,
+              )
+              .join('')}${series.hidden ? `<p class="masked">${series.hidden} passage${series.hidden > 1 ? 's' : ''} masqué${series.hidden > 1 ? 's' : ''} · saison ${series.next ?? ''}</p>` : ''}`
+          : ''
+      }
       ${e.facts?.length ? `<h2 class="section-title">Repères</h2><dl class="identity">${e.facts.map((f) => `<div><dt>${esc(f.label)}</dt><dd>${esc(f.value)}</dd></div>`).join('')}</dl>` : ''}
       ${e.terms?.length ? `<h2 class="section-title">Lexique</h2><dl class="lexicon">${e.terms.map((t) => `<div><dt>${esc(t.term)}</dt><dd>${esc(t.def)}</dd></div>`).join('')}</dl>` : ''}
       ${

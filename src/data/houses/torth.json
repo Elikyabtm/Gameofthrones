@@ -1,0 +1,89 @@
+{
+  "slug": "torth",
+  "name": "Maison Torth",
+  "words": "Sans devise connue dans la série",
+  "sigil": "sigils/torth.svg",
+  "sigilDescription": "Des soleils et des croissants de lune, rose et azur, écartelés",
+  "sigilCredit": "Création originale du projet",
+  "color": "#8aa1c4",
+  "seat": "ile-de-torth",
+  "region": "Les Terres de l’Orage",
+  "summary": "Maison des Terres de l’Orage, seigneurs de l’île de Torth, dont la seule héritière est devenue chevalier.",
+  "overlord": [
+    {
+      "to": "baratheon"
+    }
+  ],
+  "vassals": [],
+  "founded": "À l’arrivée des Andals",
+  "history": [
+    "Les Torth gouvernent l’île de Torth, au large des Terres de l’Orage, que l’on surnomme l’île Saphir pour la couleur de ses eaux. C’est une maison ancienne mais modeste, vassale des Baratheon d’Accalmie.",
+    "Lord Selwyn Torth, surnommé l’Étoile du Soir, a perdu sa femme et tous ses fils. Il ne lui reste qu’une fille, Brienne, grande, forte et peu gracieuse selon les critères de la cour, qui a très tôt préféré l’épée à l’aiguille. Il n’a jamais réussi à la marier : les prétendants se moquaient d’elle, et elle battait ceux qui l’approchaient.",
+    "Plutôt que de la forcer, Selwyn l’a laissée suivre sa voie. Brienne a quitté l’île pour servir Renly Baratheon, le seul seigneur à l’avoir traitée avec courtoisie, et obtenu une place dans sa garde royale après avoir vaincu Loras Tyrell dans une mêlée.",
+    "L’histoire de la maison Torth se confond ensuite avec celle de Brienne : des serments prêtés, perdus, puis tenus coûte que coûte. Jaime Lannister finira par l’adouber chevalier, honneur que personne ne lui avait jamais accordé, et c’est elle qui écrira sa vie dans le Livre blanc de la Garde royale."
+  ],
+  "inTheSeries": [
+    {
+      "s": 2,
+      "title": "Saison 2 — La garde de Renly",
+      "paragraphs": [
+        "Brienne entre dans la garde de Renly, puis jure fidélité à Catelyn après sa mort."
+      ]
+    },
+    {
+      "s": 3,
+      "title": "Saison 3 — Le serment",
+      "paragraphs": [
+        "Brienne escorte Jaime jusqu’à Port-Réal pour échanger le prisonnier contre les filles de Catelyn."
+      ]
+    },
+    {
+      "s": 6,
+      "title": "Saison 6 — Sansa",
+      "paragraphs": [
+        "Brienne sauve Sansa des hommes des Bolton et entre à son service."
+      ]
+    },
+    {
+      "s": 8,
+      "title": "Saison 8 — Ser Brienne",
+      "paragraphs": [
+        "Jaime adoube Brienne avant la Longue Nuit. Elle devient lord commandant de la Garde royale du roi Bran."
+      ]
+    }
+  ],
+  "figures": [
+    "Selwyn Torth, l’Étoile du Soir"
+  ],
+  "members": [
+    "brienne-de-torth"
+  ],
+  "tree": {
+    "people": [
+      {
+        "id": "selwyn-torth",
+        "name": "Selwyn Torth",
+        "note": "L’Étoile du Soir",
+        "s": 2
+      },
+      {
+        "id": "brienne-de-torth",
+        "character": "brienne-de-torth"
+      }
+    ],
+    "unions": [
+      {
+        "a": "selwyn-torth",
+        "children": [
+          "brienne-de-torth"
+        ]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "label": "Wiki of Westeros — House Tarth",
+      "url": "https://gameofthrones.fandom.com/wiki/House_Tarth"
+    }
+  ]
+}

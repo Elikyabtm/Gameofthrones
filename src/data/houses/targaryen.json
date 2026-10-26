@@ -1,17 +1,182 @@
 {
   "slug": "targaryen",
   "name": "Maison Targaryen",
-  "words": "Feu et sang.",
+  "words": "Feu et sang",
   "sigil": "sigils/targaryen.svg",
-  "sigilDescription": "Un dragon rouge à trois têtes sur champ noir.",
-  "sigilCredit": null,
+  "sigilDescription": "Un dragon rouge à trois têtes sur champ noir",
+  "sigilCredit": "Abjiklam (A Wiki of Ice and Fire), licence CC BY-SA 3.0",
+  "color": "#b0413e",
   "seat": "peyredragon",
-  "region": "Héritage de Valyria",
-  "history": [
-    "Héritiers de Valyria, les Targaryen ont imposé leur domination sur une grande partie de Westeros à l’aide de dragons. Leur histoire oscille entre la construction d’un pouvoir commun et les conflits de succession. Après la rébellion de Robert, l’exil transforme le nom de famille en revendication et en souvenir d’un ordre disparu."
+  "region": "Peyredragon et l’exil",
+  "summary": "Ancienne dynastie royale venue de Valyria, chassée du trône par la Rébellion, dont la dernière héritière revient avec trois dragons.",
+  "overlord": [],
+  "vassals": [
+    "Velaryon",
+    "Celtigar",
+    "Massey"
   ],
-  "inTheSeries": [],
-  "figures": [],
-  "members": [],
-  "sources": []
+  "founded": "À Valyria, bien avant le Fléau",
+  "history": [
+    "Les Targaryen étaient une famille de seigneurs-dragons de Valyria, parmi les moins puissantes. Douze ans avant le Fléau, la fille de leur chef, Daenys la Rêveuse, vit en songe la fin de la cité. Son père crut à la vision et emmena toute la famille, avec ses dragons, sur une île rocheuse à l’ouest : Peyredragon. Quand Valyria fut détruite, ils étaient presque les seuls seigneurs-dragons encore en vie.",
+    "Un siècle plus tard, Aegon Targaryen et ses deux sœurs-épouses, Visenya et Rhaenys, débarquèrent sur le continent avec trois dragons. En quelques années, six des sept royaumes se soumirent ; Dorne seul résista. Aegon fit fondre les épées de ses ennemis pour forger le Trône de Fer et fonda Port-Réal à l’endroit de son débarquement. Ses descendants régnèrent près de trois cents ans.",
+    "Pour garder le sang de Valyria, les Targaryen épousaient souvent leurs frères et sœurs, une pratique qui choquait la Foi mais que personne n’osait condamner. On disait que chaque naissance était un lancer de pièce : d’un côté la grandeur, de l’autre la folie. Les dragons s’éteignirent peu à peu, et avec eux une partie de la puissance de la famille.",
+    "Le dernier roi, Aerys II, sombra dans la paranoïa. Il fit brûler vifs ses ennemis et menaçait d’incendier sa propre capitale. Quand son fils Rhaegar disparut avec Lyanna Stark, la Rébellion éclata. Rhaegar mourut au Trident, Aerys fut tué par son propre garde, Jaime Lannister, et les enfants de Rhaegar furent massacrés. La reine Rhaella s’enfuit à Peyredragon, y mit au monde une fille, Daenerys, et mourut en couches. Viserys et Daenerys grandirent en exil, de cité en cité, vivant de la charité de ceux qui pariaient sur leur retour."
+  ],
+  "inTheSeries": [
+    {
+      "s": 1,
+      "title": "Saison 1 — Le retour des dragons",
+      "paragraphs": [
+        "Viserys vend sa sœur à Khal Drogo pour obtenir une armée et meurt couronné d’or fondu. Daenerys entre dans le bûcher de son mari et en sort avec trois dragons."
+      ]
+    },
+    {
+      "s": 3,
+      "title": "Saison 3 — L’armée de libération",
+      "paragraphs": [
+        "Daenerys achète les Immaculés à Astapor, les libère et prend Yunkai, puis Meereen."
+      ]
+    },
+    {
+      "s": 5,
+      "title": "Saison 5 — Le dernier mestre",
+      "paragraphs": [
+        "Mestre Aemon, dernier Targaryen de Westeros, meurt au Mur. À Meereen, Daenerys peine à gouverner."
+      ]
+    },
+    {
+      "s": 6,
+      "title": "Saison 6 — La traversée",
+      "paragraphs": [
+        "Daenerys rallie les Dothrakis, les Fer-nés de Yara, Dorne et les Tyrell, et fait voile vers Westeros."
+      ]
+    },
+    {
+      "s": 7,
+      "title": "Saison 7 — Le neveu et la tante",
+      "paragraphs": [
+        "Daenerys s’installe à Peyredragon. On apprend que Jon Snow est en réalité le fils de Rhaegar et de Lyanna."
+      ]
+    },
+    {
+      "s": 8,
+      "title": "Saison 8 — La fin du trône",
+      "paragraphs": [
+        "Daenerys réduit Port-Réal en cendres et meurt de la main de Jon. Drogon fait fondre le Trône de Fer."
+      ]
+    }
+  ],
+  "figures": [
+    "Daenys la Rêveuse",
+    "Aegon le Conquérant",
+    "Visenya et Rhaenys"
+  ],
+  "members": [
+    "aerys-targaryen",
+    "rhaegar-targaryen",
+    "viserys-targaryen",
+    "daenerys-targaryen",
+    "aemon-targaryen"
+  ],
+  "tree": {
+    "people": [
+      {
+        "id": "aerys-targaryen",
+        "character": "aerys-targaryen"
+      },
+      {
+        "id": "rhaella-targaryen",
+        "name": "Rhaella Targaryen",
+        "deadBefore": true,
+        "portrait": "images/personnages/rhaella-targaryen.webp"
+      },
+      {
+        "id": "rhaegar-targaryen",
+        "character": "rhaegar-targaryen"
+      },
+      {
+        "id": "elia-martell",
+        "name": "Elia Martell",
+        "house": "martell",
+        "deadBefore": true,
+        "portrait": "images/personnages/elia-martell.webp"
+      },
+      {
+        "id": "lyanna-stark",
+        "character": "lyanna-stark",
+        "house": "stark",
+        "s": 7
+      },
+      {
+        "id": "viserys-targaryen",
+        "character": "viserys-targaryen"
+      },
+      {
+        "id": "daenerys-targaryen",
+        "character": "daenerys-targaryen"
+      },
+      {
+        "id": "khal-drogo",
+        "character": "khal-drogo"
+      },
+      {
+        "id": "rhaenys-targaryen",
+        "name": "Rhaenys Targaryen",
+        "deadBefore": true,
+        "portrait": "images/personnages/rhaenys-targaryen.webp"
+      },
+      {
+        "id": "aegon-targaryen",
+        "name": "Aegon Targaryen",
+        "note": "Fils de Rhaegar et d’Elia",
+        "deadBefore": true,
+        "portrait": "images/personnages/aegon-targaryen.webp"
+      },
+      {
+        "id": "jon-snow",
+        "character": "jon-snow",
+        "house": "stark",
+        "s": 7
+      }
+    ],
+    "unions": [
+      {
+        "a": "aerys-targaryen",
+        "b": "rhaella-targaryen",
+        "children": [
+          "rhaegar-targaryen",
+          "viserys-targaryen",
+          "daenerys-targaryen"
+        ]
+      },
+      {
+        "a": "rhaegar-targaryen",
+        "b": "elia-martell",
+        "children": [
+          "rhaenys-targaryen",
+          "aegon-targaryen"
+        ]
+      },
+      {
+        "a": "rhaegar-targaryen",
+        "b": "lyanna-stark",
+        "children": [
+          "jon-snow"
+        ],
+        "s": 7,
+        "secret": true
+      },
+      {
+        "a": "khal-drogo",
+        "b": "daenerys-targaryen",
+        "children": []
+      }
+    ]
+  },
+  "sources": [
+    {
+      "label": "Wiki of Westeros — House Targaryen",
+      "url": "https://gameofthrones.fandom.com/wiki/House_Targaryen"
+    }
+  ]
 }

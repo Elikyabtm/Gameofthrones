@@ -2,15 +2,41 @@
   "slug": "conquete",
   "rubric": "peuples",
   "name": "La Conquête",
-  "kicker": "Époque · La naissance du Trône de Fer",
-  "lead": "Aegon Targaryen et ses sœurs imposent leur domination à une grande partie de Westeros avec leurs dragons.",
+  "kicker": "Il y a trois siècles",
+  "lead": "L’invasion de Westeros par Aegon Targaryen et ses sœurs, qui unifia six des sept royaumes sous le Trône de Fer.",
   "body": [
-    "Aegon Targaryen et ses sœurs imposent leur domination à une grande partie de Westeros avec leurs dragons. Les royaumes ne rejoignent pas tous la couronne de la même manière : Dorne suit une histoire distincte."
+    "Il y a environ trois cents ans, Aegon Targaryen débarqua à l’embouchure de la Néra avec ses deux sœurs et épouses, Visenya et Rhaenys, une petite armée et trois dragons. Westeros comptait alors sept royaumes indépendants.",
+    "Les royaumes tombèrent l’un après l’autre. Harren le Noir brûla dans Harrenhal. Les rois de l’Ouest et du Bief furent écrasés au Champ de Feu. Le roi du Nord, Torrhen Stark, s’agenouilla sans combattre, ce qui lui valut le surnom de roi qui s’agenouilla. Seule Dorne résista, par la guérilla.",
+    "Aegon fonda Port-Réal à l’endroit où il avait débarqué et fit forger le Trône de Fer avec les épées de ses ennemis vaincus. On date les années à partir de son couronnement."
   ],
-  "facts": [],
+  "facts": [
+    {
+      "label": "Date",
+      "value": "Il y a environ 300 ans"
+    },
+    {
+      "label": "Conquérant",
+      "value": "Aegon Ier Targaryen"
+    },
+    {
+      "label": "Exception",
+      "value": "Dorne"
+    }
+  ],
   "terms": [],
-  "places": [],
-  "characters": [],
+  "places": [
+    "port-real",
+    "peyredragon",
+    "harrenhal"
+  ],
+  "characters": [
+    "daenerys-targaryen"
+  ],
   "image": null,
-  "sources": []
+  "sources": [
+    {
+      "label": "Wiki of Westeros — Aegon's Conquest",
+      "url": "https://gameofthrones.fandom.com/wiki/Aegon%27s_Conquest"
+    }
+  ]
 }

@@ -1,44 +1,83 @@
 {
   "slug": "sans-visage",
   "rubric": "ordres",
-  "name": "Les Sans-Visage",
-  "kicker": "Essos · Braavos",
-  "lead": "Un ordre religieux et un art de l’effacement de soi.",
+  "name": "Sans-Visage",
+  "kicker": "Les assassins de Braavos",
+  "featured": true,
+  "lead": "Prêtres-assassins du Dieu Multiface, capables de changer d’apparence, et qui ne tuent que pour un juste prix.",
   "body": [
-    "Les Sans-Visage sont liés à la Maison du Noir et du Blanc et au Dieu Multiface. Ils envisagent la mort à travers une tradition qui traverse les identités, les origines et les multiples cultes du monde connu.",
-    "Leur pratique associe les arts de l’assassinat à une discipline de l’observation, du mensonge et du changement d’identité. Le parcours d’Arya pose une question centrale : peut-on renoncer à son propre nom lorsque les souvenirs et les fidélités continuent de le porter ?"
+    "Les Sans-Visage sont les serviteurs du Dieu Multiface à Braavos. Ils vivent dans la Demeure du Noir et du Blanc, où ils accueillent les mourants et préparent les corps. Ce qu’ils font de ces corps est leur secret : ils conservent leurs visages, et savent les porter pour prendre l’apparence de n’importe qui.",
+    "Leur fonction la plus connue est l’assassinat. On peut leur demander la mort d’une personne, à condition de payer le prix fixé par l’ordre, qui dépend de l’importance de la vie que l’on prend. Ils ne refusent personne qui peut payer, mais ne tuent pas par haine : la mort est un don qu’ils accordent au nom de leur dieu.",
+    "Pour devenir l’un d’eux, il faut tout abandonner. Un apprenti doit renoncer à son nom, à ses souvenirs, à ses désirs et à sa vengeance. On dit de lui « une fille » ou « un homme », jamais « je ».",
+    "Les Sans-Visage sont craints dans toutes les cités libres, et respectés jusqu’à Westeros, où l’on prétend que nul ne peut leur échapper. Leurs pièces de fer, gravées d’un visage, sont des sésames autant que des menaces."
+  ],
+  "inTheSeries": [
+    {
+      "s": 2,
+      "title": "Saison 2 — Jaqen",
+      "paragraphs": [
+        "Jaqen H’ghar, prisonnier à Harrenhal, accorde trois morts à Arya puis change de visage devant elle."
+      ]
+    },
+    {
+      "s": 5,
+      "title": "Saison 5 — L’apprentie",
+      "paragraphs": [
+        "Arya entre dans la Demeure du Noir et du Blanc et commence à apprendre à devenir personne."
+      ]
+    },
+    {
+      "s": 6,
+      "title": "Saison 6 — La Gamine",
+      "paragraphs": [
+        "Arya renonce à l’ordre ; la Gamine est envoyée pour la tuer et meurt."
+      ]
+    },
+    {
+      "s": 7,
+      "title": "Saison 7 — Les visages",
+      "paragraphs": [
+        "Arya utilise les techniques de l’ordre pour se venger des Frey."
+      ]
+    }
   ],
   "facts": [
     {
-      "label": "Langue",
-      "value": "Plusieurs langues selon les missions"
+      "label": "Siège",
+      "value": "La Demeure du Noir et du Blanc, Braavos"
     },
     {
-      "label": "Visages & repères",
-      "value": "Jaqen H’ghar · Arya Stark"
+      "label": "Dieu",
+      "value": "Le Dieu Multiface"
+    },
+    {
+      "label": "Signe",
+      "value": "Une pièce de fer"
     }
   ],
   "terms": [
     {
-      "term": "Lieu",
-      "def": "Maison du Noir et du Blanc"
+      "term": "Une fille",
+      "def": "Formule par laquelle l’apprentie parle d’elle-même, sans « je »."
     },
     {
-      "term": "Culte",
-      "def": "Dieu Multiface"
-    },
-    {
-      "term": "Pratique",
-      "def": "identité"
+      "term": "Valar morghulis",
+      "def": "Tous les hommes doivent mourir."
     }
   ],
-  "places": [],
-  "characters": [],
+  "places": [
+    "braavos"
+  ],
+  "characters": [
+    "jaqen-hghar",
+    "arya-stark",
+    "la-gamine"
+  ],
   "image": "images/sans-visage.webp",
   "sources": [
     {
-      "label": "A Wiki of Ice and Fire",
-      "url": "https://awoiaf.westeros.org/index.php/Faceless_Men"
+      "label": "Wiki of Westeros — Faceless Men",
+      "url": "https://gameofthrones.fandom.com/wiki/Faceless_Men"
     }
   ]
 }

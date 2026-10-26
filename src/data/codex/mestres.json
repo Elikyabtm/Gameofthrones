@@ -1,44 +1,77 @@
 {
   "slug": "mestres",
   "rubric": "ordres",
-  "name": "Les Mestres",
-  "kicker": "Westeros · La Citadelle",
-  "lead": "Le savoir circule à travers ceux qui conseillent, soignent et transmettent les nouvelles.",
+  "name": "Mestres",
+  "kicker": "La Citadelle",
+  "lead": "Savants formés à la Citadelle de Villevieille, au service des châteaux comme conseillers, guérisseurs et messagers.",
   "body": [
-    "Formés à la Citadelle de Villevieille, les mestres étudient plusieurs disciplines avant de servir une forteresse ou une maison. Leur chaîne rassemble des maillons associés à des champs de connaissance.",
-    "Ils remplissent des fonctions concrètes : soins, enseignement, tenue des archives et correspondance par corbeaux. Cette place au cœur de l’information leur donne une influence qui ne ressemble ni à celle d’une armée ni à celle d’une lignée."
+    "Les mestres sont les érudits de Westeros. Ils sont formés à la Citadelle de Villevieille, où ils étudient la médecine, l’histoire, les mathématiques, l’astronomie et bien d’autres disciplines. Chaque matière acquise leur vaut un maillon de métal différent, et l’ensemble forme une chaîne qu’ils portent autour du cou.",
+    "Une fois formés, ils sont envoyés dans les châteaux, où ils soignent les malades, éduquent les enfants, conseillent les seigneurs et s’occupent des corbeaux qui transportent les messages. Ils prononcent des vœux qui leur interdisent la terre, le mariage et les titres, et ils doivent servir le château plutôt que la famille qui l’occupe.",
+    "Le Grand Mestre, élu par l’Ordre, siège au conseil restreint du roi. Les Archimestres dirigent la Citadelle.",
+    "Les mestres se veulent rationnels. Ils se méfient de la magie et la considèrent comme une superstition, ou au mieux comme une chose disparue avec les dragons. Une rumeur affirme pourtant que l’Ordre a lui-même contribué à faire disparaître la magie du monde."
+  ],
+  "inTheSeries": [
+    {
+      "s": 1,
+      "title": "Saison 1 — Les mestres du royaume",
+      "paragraphs": [
+        "Mestre Luwin à Winterfell, mestre Aemon au Mur et le Grand Mestre Pycelle à Port-Réal servent leurs seigneurs."
+      ]
+    },
+    {
+      "s": 6,
+      "title": "Saison 6 — La Citadelle",
+      "paragraphs": [
+        "Samwell arrive à Villevieille pour se former et découvre l’immense bibliothèque."
+      ]
+    },
+    {
+      "s": 7,
+      "title": "Saison 7 — La guérison",
+      "paragraphs": [
+        "Samwell guérit Jorah de la léprose grise malgré l’interdiction de l’archimestre."
+      ]
+    }
   ],
   "facts": [
     {
-      "label": "Langue",
-      "value": "Langue commune et langues étudiées"
+      "label": "Formation",
+      "value": "Citadelle de Villevieille"
     },
     {
-      "label": "Visages & repères",
-      "value": "Aemon · Luwin · Pycelle · Samwell"
+      "label": "Signe",
+      "value": "La chaîne"
+    },
+    {
+      "label": "Chef",
+      "value": "Le Grand Mestre"
     }
   ],
   "terms": [
     {
-      "term": "Centre",
-      "def": "Citadelle"
+      "term": "Chaîne",
+      "def": "Collier de maillons, chacun représentant une discipline maîtrisée."
     },
     {
-      "term": "Signe",
-      "def": "chaîne"
-    },
-    {
-      "term": "Réseau",
-      "def": "corbeaux"
+      "term": "Corbeau messager",
+      "def": "Oiseau dressé à porter des lettres entre châteaux."
     }
   ],
-  "places": [],
-  "characters": [],
+  "places": [
+    "villevieille",
+    "port-real"
+  ],
+  "characters": [
+    "pycelle",
+    "aemon-targaryen",
+    "samwell-tarly",
+    "qyburn"
+  ],
   "image": "images/mestres.webp",
   "sources": [
     {
-      "label": "A Wiki of Ice and Fire",
-      "url": "https://awoiaf.westeros.org/index.php/Maesters"
+      "label": "Wiki of Westeros — Maesters",
+      "url": "https://gameofthrones.fandom.com/wiki/Maesters"
     }
   ]
 }

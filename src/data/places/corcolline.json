@@ -1,0 +1,23 @@
+{
+  "slug": "corcolline",
+  "name": "Corcolline",
+  "kind": "château",
+  "region": "Le Bief",
+  "continent": "westeros",
+  "coords": { "x": 345, "y": 945 },
+  "summary": "Siège de la maison Tarly, dans les collines boisées du Bief.",
+  "house": "tarly",
+  "rulers": [{ "text": "Randyll Tarly" }],
+  "description": [
+    "Corcolline est un château de pierre des collines du sud du Bief, entouré de forêts où l’on chasse le cerf. Sa grande salle est ornée de trophées et d’armes, et l’on y garde Corvenin, une épée d’acier valyrien, l’un des trésors de la famille.",
+    "La maison Tarly a la réputation de produire les meilleurs soldats du Bief. On y élève les fils pour la guerre, et l’on ne pardonne pas la faiblesse."
+  ],
+  "history": [
+    "Les Tarly sont l’une des plus anciennes maisons du Bief, bannerets des Tyrell. Randyll Tarly, leur seigneur, est connu pour être le seul commandant à avoir battu Robert Baratheon pendant la Rébellion. Il a envoyé son fils aîné, Samwell, prendre le noir pour que son fils cadet, Dickon, hérite de Corcolline et de Corvenin."
+  ],
+  "events": [
+    { "s": 6, "text": "Samwell revient chez ses parents avec Gilly, puis repart en emportant Corvenin." }
+  ],
+  "image": null,
+  "sources": [{ "label": "Wiki of Westeros — Horn Hill", "url": "https://gameofthrones.fandom.com/wiki/Horn_Hill" }]
+}

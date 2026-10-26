@@ -2,15 +2,66 @@
   "slug": "rebellion",
   "rubric": "peuples",
   "name": "La Rébellion",
-  "kicker": "Époque · Les blessures d’un ordre renversé",
-  "lead": "La guerre contre Aerys II conduit Robert Baratheon au trône.",
+  "kicker": "Il y a dix-sept ans",
+  "featured": true,
+  "lead": "La guerre qui renversa le roi Aerys et mit Robert Baratheon sur le Trône de Fer, dix-sept ans avant le début de l’histoire.",
   "body": [
-    "La guerre contre Aerys II conduit Robert Baratheon au trône. Les héritiers Targaryen prennent le chemin de l’exil, tandis que les alliances de la guerre deviennent les relations personnelles et politiques du récit suivant."
+    "Tout commence par une disparition. Le prince Rhaegar Targaryen, héritier du trône, part avec Lyanna Stark, fiancée de Robert Baratheon. Son frère Brandon et son père Rickard viennent à Port-Réal réclamer justice ; le roi Aerys les fait exécuter tous les deux, puis exige les têtes de Robert et d’Eddard Stark, pupilles de Jon Arryn.",
+    "Jon Arryn refuse et lève ses bannières. Le Nord, le Val, les Terres de l’Orage et le Conflans se soulèvent. Pendant un an, la guerre se déroule de bataille en bataille. Au Trident, Robert tue Rhaegar de sa masse d’armes.",
+    "Pendant ce temps, Tywin Lannister, resté neutre, se présente devant Port-Réal en prétendant venir défendre le roi. On lui ouvre les portes, et ses hommes mettent la ville à sac. Jaime Lannister tue le roi Aerys dans la salle du trône. Gregor Clegane massacre la princesse Elia Martell et ses enfants.",
+    "Eddard Stark, de son côté, chevauche vers le sud jusqu’à la tour de la Joie, à Dorne, où il retrouve sa sœur Lyanna mourante. Il revient avec ses os et un fils naturel, Jon Snow. Robert est couronné roi."
   ],
-  "facts": [],
+  "inTheSeries": [
+    {
+      "s": 6,
+      "title": "Saison 6 — La tour de la Joie",
+      "paragraphs": [
+        "Bran voit, en vision, le combat de son père contre Ser Arthur Dayne devant la tour de la Joie."
+      ]
+    },
+    {
+      "s": 7,
+      "title": "Saison 7 — La vérité",
+      "paragraphs": [
+        "On découvre que Rhaegar et Lyanna étaient mariés et que Jon est leur fils."
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "label": "Date",
+      "value": "Il y a environ 17 ans"
+    },
+    {
+      "label": "Bataille décisive",
+      "value": "Le Trident"
+    },
+    {
+      "label": "Résultat",
+      "value": "Robert Baratheon roi"
+    }
+  ],
   "terms": [],
-  "places": [],
-  "characters": [],
+  "places": [
+    "port-real",
+    "tour-de-la-joie",
+    "winterfell",
+    "accalmie"
+  ],
+  "characters": [
+    "robert-baratheon",
+    "eddard-stark",
+    "rhaegar-targaryen",
+    "lyanna-stark",
+    "aerys-targaryen",
+    "jaime-lannister",
+    "tywin-lannister"
+  ],
   "image": null,
-  "sources": []
+  "sources": [
+    {
+      "label": "Wiki of Westeros — Robert's Rebellion",
+      "url": "https://gameofthrones.fandom.com/wiki/Robert%27s_Rebellion"
+    }
+  ]
 }

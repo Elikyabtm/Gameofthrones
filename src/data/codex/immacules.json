@@ -1,22 +1,58 @@
 {
   "slug": "immacules",
   "rubric": "ordres",
-  "name": "Les Immaculés",
-  "kicker": "Essos · Astapor",
-  "lead": "Une infanterie de formation, dont l’histoire pose la question de l’obéissance et de la liberté.",
+  "name": "Immaculés",
+  "kicker": "Les soldats-esclaves d’Astapor",
+  "featured": true,
+  "lead": "Soldats eunuques entraînés depuis l’enfance à Astapor, réputés pour leur obéissance absolue et leur insensibilité à la douleur.",
   "body": [
-    "Les Immaculés ne constituent pas un peuple : ce sont des soldats réduits en esclavage et formés à Astapor. Leur réputation vient d’un entraînement collectif extrêmement violent, de leur endurance et de leur capacité à tenir une ligne. La lance, le bouclier rond et le casque à pointe composent leur silhouette.",
-    "Leur efficacité repose sur la coordination. Là où une charge de cavalerie cherche le mouvement et le choc, leur force tient à la cohésion des rangs. Les villes de la baie des Serfs les vendent comme une marchandise militaire, effaçant jusqu’à leurs noms et à leur individualité.",
-    "Leur rencontre avec Daenerys change ce cadre. La liberté de rester ou de partir devient un enjeu du récit, et Ver Gris incarne progressivement une parole propre au groupe. Comprendre les Immaculés, c’est donc regarder au-delà de la discipline pour retrouver les personnes que cette institution voulait rendre interchangeables."
+    "Les Immaculés sont la principale richesse d’Astapor. Les Bons Maîtres achètent de jeunes garçons sur les marchés aux esclaves, les castrent et les entraînent pendant des années à combattre en formation, à la lance et au bouclier, à la manière des anciennes légions de Ghis.",
+    "Leur formation est d’une cruauté méthodique. Chaque garçon doit acheter son bouclier en tuant un nouveau-né devant sa mère, et chaque jour on lui donne un nouveau nom, souvent humiliant, pour qu’il oublie qui il était. Pour prouver leur discipline, les Immaculés restent debout immobiles des jours entiers sous le soleil, ou se coupent un téton sans broncher si on le leur ordonne.",
+    "Le résultat est une armée d’une efficacité redoutable. Les Immaculés ne pillent pas, ne violent pas, ne boivent pas et ne fuient jamais. Ils ne vivent que pour obéir. Les cités qui les achètent en font des gardes, des garnisons ou des armées d’élite.",
+    "Leur sort pose une question que personne ne se pose à Astapor : que devient un soldat à qui l’on n’a jamais appris à vouloir ?"
+  ],
+  "inTheSeries": [
+    {
+      "s": 3,
+      "title": "Saison 3 — La libération",
+      "paragraphs": [
+        "Daenerys échange un dragon contre les huit mille Immaculés d’Astapor, puis les libère et leur offre de partir. Tous restent. Ver Gris devient leur commandant."
+      ]
+    },
+    {
+      "s": 5,
+      "title": "Saison 5 — Les Fils de la Harpie",
+      "paragraphs": [
+        "Les Immaculés subissent les attaques des Fils de la Harpie à Meereen."
+      ]
+    },
+    {
+      "s": 7,
+      "title": "Saison 7 — Castral Roc",
+      "paragraphs": [
+        "Les Immaculés prennent Castral Roc, vidée de ses défenseurs."
+      ]
+    },
+    {
+      "s": 8,
+      "title": "Saison 8 — Naath",
+      "paragraphs": [
+        "Après la guerre, Ver Gris conduit les survivants vers Naath, la patrie de Missandei."
+      ]
+    }
   ],
   "facts": [
     {
-      "label": "Langue",
-      "value": "Valyrien d’Astapor ; apprentissage de la langue commune"
+      "label": "Origine",
+      "value": "Astapor"
     },
     {
-      "label": "Visages & repères",
-      "value": "Ver Gris · Daenerys · Missandei"
+      "label": "Effectif acheté par Daenerys",
+      "value": "Environ 8 000"
+    },
+    {
+      "label": "Commandant",
+      "value": "Ver Gris"
     }
   ],
   "terms": [
@@ -37,12 +73,22 @@
       "def": "Ver Gris"
     }
   ],
-  "places": [],
-  "characters": [],
+  "places": [
+    "astapor",
+    "meereen",
+    "naath",
+    "castral-roc"
+  ],
+  "characters": [
+    "ver-gris",
+    "kraznys-mo-nakloz",
+    "daenerys-targaryen",
+    "missandei"
+  ],
   "image": "images/immacules.webp",
   "sources": [
     {
-      "label": "Wiki of Westeros",
+      "label": "Wiki of Westeros — Unsullied",
       "url": "https://gameofthrones.fandom.com/wiki/Unsullied"
     }
   ]

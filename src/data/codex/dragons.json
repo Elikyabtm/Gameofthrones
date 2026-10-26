@@ -2,15 +2,92 @@
   "slug": "dragons",
   "rubric": "creatures",
   "name": "Dragons",
-  "kicker": "Valyria · Targaryen",
-  "lead": "Les dragons rendent visible une puissance qui dépasse les défenses et les armées des hommes.",
+  "kicker": "Feu vivant",
+  "featured": true,
+  "lead": "Créatures de feu domptées jadis par Valyria, éteintes depuis un siècle et demi, et que plus personne ne croit revoir.",
   "body": [
-    "Les dragons rendent visible une puissance qui dépasse les défenses et les armées des hommes. Leur rôle dans la conquête Targaryen explique pourquoi leur retour change immédiatement les calculs politiques. Une force capable de renverser un ordre ne suffit pourtant pas à définir ce qui doit le remplacer."
+    "Les dragons sont de grands reptiles ailés qui crachent le feu. Leurs écailles résistent aux flammes et à la plupart des armes, leur souffle fait fondre la pierre et l’acier, et leur taille n’a, dit-on, pas de limite : tant qu’un dragon vit et mange, il grandit. Les plus anciens pouvaient avaler un aurochs entier.",
+    "Personne ne sait d’où ils viennent. Les Valyriens les auraient trouvés dans les volcans des Quatorze Flammes et appris à les monter, grâce à des chants, des sortilèges ou un lien de sang. C’est avec eux qu’ils ont bâti leur empire. Les dragons ne se laissent pas réellement domestiquer : ils choisissent leur cavalier, obéissent à quelques mots de haut valyrien, et restent des bêtes dangereuses, même pour leurs maîtres.",
+    "Aegon le Conquérant a soumis Westeros avec trois dragons : Balerion la Terreur noire, Vhagar et Meraxès. Leurs crânes décorent encore les caves du Donjon Rouge. Mais au fil des générations, les dragons targaryens ont rapetissé, se sont entretués pendant une guerre civile, la Danse des dragons, puis se sont éteints. Le dernier est mort il y a environ cent cinquante ans, chétif et malade.",
+    "Il ne reste d’eux que des os et des œufs pétrifiés, que l’on se transmet comme des pierres précieuses. Plusieurs rois ont tenté de les faire éclore, par la magie ou le feu ; tous ont échoué, et l’une de ces tentatives a détruit le palais d’été des Targaryen. La plupart des mestres pensent que la magie qui permettait aux dragons d’exister a quitté le monde avec eux.",
+    "Les dragons donnent leur force à leur maître, mais aussi leur réputation. Un dragon ne fait pas la différence entre une armée et une ville."
   ],
-  "facts": [],
-  "terms": [],
-  "places": [],
-  "characters": [],
+  "inTheSeries": [
+    {
+      "s": 1,
+      "title": "Saison 1 — L’éclosion",
+      "paragraphs": [
+        "Daenerys reçoit trois œufs pétrifiés pour ses noces. Elle les emporte dans le bûcher de Khal Drogo et en sort au matin avec trois petits dragons : Drogon, Rhaegal et Viserion."
+      ]
+    },
+    {
+      "s": 3,
+      "title": "Saison 3 — Dracarys",
+      "paragraphs": [
+        "Les dragons grandissent. À Astapor, Daenerys ordonne à Drogon de brûler le maître d’esclaves Kraznys."
+      ]
+    },
+    {
+      "s": 5,
+      "title": "Saison 5 — L’arène",
+      "paragraphs": [
+        "Enfermés à Meereen après la mort d’un enfant, Rhaegal et Viserion ne sont plus approchables. Drogon sauve Daenerys dans l’arène de Daznak."
+      ]
+    },
+    {
+      "s": 7,
+      "title": "Saison 7 — Le dragon de glace",
+      "paragraphs": [
+        "Viserion est tué par le Roi de la Nuit au-delà du Mur, puis relevé comme une créature des morts."
+      ]
+    },
+    {
+      "s": 8,
+      "title": "Saison 8 — Le dernier dragon",
+      "paragraphs": [
+        "Viserion abat une partie du Mur. Rhaegal est tué par la flotte d’Euron. Drogon brûle Port-Réal, fait fondre le Trône de Fer et emporte le corps de Daenerys."
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "label": "Origine",
+      "value": "Les Quatorze Flammes de Valyria"
+    },
+    {
+      "label": "Dernier dragon avant la série",
+      "value": "Mort environ 150 ans plus tôt"
+    },
+    {
+      "label": "Ordre de feu",
+      "value": "Dracarys"
+    }
+  ],
+  "terms": [
+    {
+      "term": "Dracarys",
+      "def": "Mot de haut valyrien qui signifie « feu de dragon » ; l’ordre de cracher les flammes."
+    },
+    {
+      "term": "Danse des dragons",
+      "def": "Guerre civile entre Targaryen, qui a vu périr la plupart des dragons."
+    }
+  ],
+  "places": [
+    "valyria",
+    "peyredragon",
+    "port-real"
+  ],
+  "characters": [
+    "daenerys-targaryen",
+    "viserys-targaryen",
+    "jon-snow"
+  ],
   "image": "images/dragon.webp",
-  "sources": []
+  "sources": [
+    {
+      "label": "Wiki of Westeros — Dragons",
+      "url": "https://gameofthrones.fandom.com/wiki/Dragons"
+    }
+  ]
 }

@@ -3,14 +3,73 @@
   "rubric": "creatures",
   "name": "Géants",
   "kicker": "Au-delà du Mur",
-  "lead": "Les géants du grand Nord ne sont pas de simples légendes pour les communautés qui vivent près d’eux.",
+  "lead": "Les géants du grand Nord ne sont pas des légendes : ils vivent encore, en petit nombre, parmi le peuple libre.",
   "body": [
-    "Les géants du grand Nord ne sont pas de simples légendes pour les communautés qui vivent près d’eux. Leur présence montre combien le monde réel du Peuple libre diffère des récits que l’on répète au sud du Mur."
+    "Dans les contes de Westeros, les géants appartiennent au passé, avec les dragons et les enfants de la forêt. Au-delà du Mur, ils sont pourtant bien réels. Hauts de quatre mètres environ, massifs, couverts d’une épaisse fourrure, ils vivent en familles dans les forêts et les montagnes glacées, et leur force est telle qu’ils peuvent briser un homme d’une seule main.",
+    "Ce ne sont pas des monstres. Ils ont leur propre langue, l’ancienne langue, que bien peu d’hommes comprennent, et leurs propres coutumes. Ils se méfient des hommes, qui les ont chassés pendant des siècles. Certains chevauchent des mammouths, d’autres se battent avec des troncs d’arbres en guise de massues.",
+    "Les géants ont jadis vécu dans tout le continent ; les Premiers Hommes les ont repoussés vers le nord. Aujourd’hui, leur nombre diminue. Ceux qui restent ont rejoint le peuple libre, pour qui ils ne sont qu’une tribu parmi d’autres, plus imposante et plus susceptible que les autres.",
+    "Pour les hommes de la Garde de Nuit, la découverte qu’ils existent encore est un choc : si les géants sont vrais, d’autres histoires le sont peut-être aussi."
   ],
-  "facts": [],
+  "inTheSeries": [
+    {
+      "s": 3,
+      "title": "Saison 3 — Le camp de Mance",
+      "paragraphs": [
+        "Jon découvre des géants dans le camp du roi d’au-delà du Mur."
+      ]
+    },
+    {
+      "s": 4,
+      "title": "Saison 4 — L’assaut du Mur",
+      "paragraphs": [
+        "Les géants attaquent Châteaunoir ; l’un d’eux, Mag le Puissant, enfonce la porte du tunnel et meurt dans le combat."
+      ]
+    },
+    {
+      "s": 5,
+      "title": "Saison 5 — Wun Wun",
+      "paragraphs": [
+        "Le géant Wun Wun survit au massacre de Durlieu et suit Jon Snow."
+      ]
+    },
+    {
+      "s": 6,
+      "title": "Saison 6 — Le dernier géant",
+      "paragraphs": [
+        "Wun Wun enfonce la porte de Winterfell à la bataille des Bâtards et meurt sous les flèches."
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "label": "Taille",
+      "value": "Environ quatre mètres"
+    },
+    {
+      "label": "Langue",
+      "value": "L’ancienne langue"
+    },
+    {
+      "label": "Montures",
+      "value": "Mammouths"
+    }
+  ],
   "terms": [],
-  "places": [],
-  "characters": [],
+  "places": [
+    "au-dela-du-mur",
+    "chateaunoir",
+    "durlieu"
+  ],
+  "characters": [
+    "tormund",
+    "mance-rayder",
+    "jon-snow"
+  ],
   "image": "images/geants.webp",
-  "sources": []
+  "sources": [
+    {
+      "label": "Wiki of Westeros — Giants",
+      "url": "https://gameofthrones.fandom.com/wiki/Giants"
+    }
+  ]
 }

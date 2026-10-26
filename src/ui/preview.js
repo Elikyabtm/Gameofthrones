@@ -64,7 +64,7 @@ async function content(kind, slug, graph) {
       text: h.summary ?? '',
       facts: [
         ['Devise', `« ${h.words} »`],
-        ['Siège', graph.places.get(h.seat)?.name ?? '—'],
+        ['Siège', h.seatName ?? graph.places.get(h.seat)?.name ?? '—'],
         ['Membres', String(graph.membersOf(slug, season).length)],
       ],
       href: `/maisons/${slug}`,

@@ -1,16 +1,108 @@
 {
   "slug": "marcheurs-blancs",
   "rubric": "creatures",
-  "name": "Marcheurs blancs & morts animés",
-  "kicker": "Les terres de l’éternel hiver",
-  "lead": "Les Marcheurs blancs et les morts qu’ils animent ne sont pas la même chose.",
+  "name": "Marcheurs blancs et morts animés",
+  "kicker": "La menace du Nord",
+  "featured": true,
+  "lead": "Les Autres, créatures de glace venues du Grand Nord, et les morts qu’ils relèvent pour en faire leur armée.",
   "body": [
-    "Les Marcheurs blancs et les morts qu’ils animent ne sont pas la même chose. Les premiers appartiennent à une menace ancienne ; les seconds constituent les corps qu’elle met en mouvement. Cette distinction transforme une armée en question de survie collective."
+    "Il y a huit mille ans, selon la légende, un hiver de toute une génération s’abattit sur le monde : la Longue Nuit. Du Grand Nord arrivèrent les Autres, des êtres pâles aux yeux d’un bleu glacé, montés sur des chevaux morts, qui relevaient les cadavres pour les faire combattre à leurs côtés. Les enfants de la forêt et les Premiers Hommes finirent par les repousser à la bataille de l’Aube, grâce, dit-on, au verredragon, puis élevèrent le Mur pour les tenir à distance.",
+    "Depuis, les Marcheurs blancs sont devenus une histoire pour faire peur aux enfants. Dans le Nord, les vieilles nourrices les évoquent encore ; au sud, on n’y croit plus du tout. La Garde de Nuit, créée pour les combattre, garde le Mur contre des sauvageons et a oublié son véritable ennemi.",
+    "Les morts animés, qu’on appelle parfois spectres, sont des corps relevés par la magie des Marcheurs. Ils ont les yeux bleus, ne sentent pas la douleur, ne se fatiguent pas, et continuent à se battre même mutilés. On ne peut les détruire que par le feu.",
+    "Les Marcheurs eux-mêmes sont beaucoup plus difficiles à tuer. Leurs armes de glace brisent l’acier ordinaire ; seuls le verredragon et l’acier valyrien semblent capables de les blesser."
   ],
-  "facts": [],
-  "terms": [],
-  "places": [],
-  "characters": [],
+  "inTheSeries": [
+    {
+      "s": 1,
+      "title": "Saison 1 — Le retour",
+      "paragraphs": [
+        "Des patrouilleurs de la Garde de Nuit les rencontrent au-delà du Mur. À Châteaunoir, un mort se relève et attaque le lord commandant ; Jon le détruit par le feu."
+      ]
+    },
+    {
+      "s": 2,
+      "title": "Saison 2 — Le Poing des Premiers Hommes",
+      "paragraphs": [
+        "Sam voit l’armée des morts en marche."
+      ]
+    },
+    {
+      "s": 3,
+      "title": "Saison 3 — Le verredragon",
+      "paragraphs": [
+        "Sam tue un Marcheur blanc avec un poignard d’obsidienne."
+      ]
+    },
+    {
+      "s": 4,
+      "title": "Saison 4 — Le Roi de la Nuit",
+      "paragraphs": [
+        "On découvre leur chef, le Roi de la Nuit, qui transforme les fils de Craster en Marcheurs."
+      ]
+    },
+    {
+      "s": 5,
+      "title": "Saison 5 — Durlieu",
+      "paragraphs": [
+        "L’armée des morts massacre le peuple libre à Durlieu. Jon tue un Marcheur avec Grand-Griffe, son épée d’acier valyrien."
+      ]
+    },
+    {
+      "s": 7,
+      "title": "Saison 7 — Le Mur tombe",
+      "paragraphs": [
+        "Le Roi de la Nuit tue et relève un dragon. Le Mur est percé."
+      ]
+    },
+    {
+      "s": 8,
+      "title": "Saison 8 — La Longue Nuit",
+      "paragraphs": [
+        "Les morts attaquent Winterfell. Arya tue le Roi de la Nuit dans le bois sacré, et toute l’armée s’effondre avec lui."
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "label": "Autres noms",
+      "value": "Les Autres, les Marcheurs blancs"
+    },
+    {
+      "label": "Faiblesses",
+      "value": "Feu, verredragon, acier valyrien"
+    },
+    {
+      "label": "Dernière invasion avant la série",
+      "value": "La Longue Nuit, il y a 8 000 ans"
+    }
+  ],
+  "terms": [
+    {
+      "term": "Spectre",
+      "def": "Mort relevé par les Marcheurs blancs."
+    },
+    {
+      "term": "Longue Nuit",
+      "def": "Hiver d’une génération, pendant lequel les Autres envahirent Westeros."
+    }
+  ],
+  "places": [
+    "au-dela-du-mur",
+    "chateaunoir",
+    "durlieu",
+    "winterfell"
+  ],
+  "characters": [
+    "roi-de-la-nuit",
+    "jon-snow",
+    "samwell-tarly",
+    "bran-stark"
+  ],
   "image": "images/mur.webp",
-  "sources": []
+  "sources": [
+    {
+      "label": "Wiki of Westeros — White Walkers",
+      "url": "https://gameofthrones.fandom.com/wiki/White_Walkers"
+    }
+  ]
 }

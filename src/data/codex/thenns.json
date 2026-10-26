@@ -1,21 +1,38 @@
 {
   "slug": "thenns",
   "rubric": "peuples",
-  "name": "Les Thenns",
-  "kicker": "Westeros · Au-delà du Mur",
-  "lead": "Un groupe du Peuple libre qui révèle les différences entre clans et entre adaptations.",
+  "name": "Thenns",
+  "kicker": "Un clan du peuple libre",
+  "lead": "Clan farouche du Grand Nord, réputé pour sa discipline et sa brutalité, qui parle encore l’ancienne langue.",
   "body": [
-    "Les Thenns viennent de régions très septentrionales. Ils possèdent une identité propre à l’intérieur du vaste ensemble que les habitants du Sud appellent les sauvageons.",
-    "Leur représentation diffère fortement entre les supports. Les romans insistent sur leur organisation et le travail du bronze ; la série leur donne une image beaucoup plus menaçante. Les deux descriptions ne doivent pas être fusionnées comme s’il s’agissait d’une seule tradition uniforme."
+    "Les Thenns viennent d’une vallée isolée de l’extrême nord, cernée de montagnes. Contrairement aux autres peuples libres, ils obéissent à un chef héréditaire, le magnar, et forment une troupe plus disciplinée que la plupart des clans.",
+    "Ils se distinguent aussi par leur apparence : crânes rasés, cicatrices rituelles sur le visage, armes de bronze. Ils parlent l’ancienne langue, et peu d’entre eux maîtrisent la langue commune.",
+    "Les autres sauvageons les craignent autant que les gens du Sud. On raconte que certains Thenns mangent la chair de leurs ennemis. Ils n’ont rejoint Mance Rayder que parce que la menace venue du nord leur faisait encore plus peur que leurs voisins."
+  ],
+  "inTheSeries": [
+    {
+      "s": 4,
+      "title": "Saison 4 — Styr",
+      "paragraphs": [
+        "Le magnar Styr mène les Thenns contre Châteaunoir et meurt de la main de Jon."
+      ]
+    },
+    {
+      "s": 5,
+      "title": "Saison 5 — Durlieu",
+      "paragraphs": [
+        "Un nouveau magnar des Thenns accepte l’offre de Jon, puis meurt à Durlieu."
+      ]
+    }
   ],
   "facts": [
     {
-      "label": "Langue",
-      "value": "Ancienne langue et langue commune selon le contexte"
+      "label": "Chef",
+      "value": "Le magnar"
     },
     {
-      "label": "Visages & repères",
-      "value": "Styr · Loboda dans la série"
+      "label": "Langue",
+      "value": "Ancienne langue"
     }
   ],
   "terms": [
@@ -32,12 +49,19 @@
       "def": "série / romans"
     }
   ],
-  "places": [],
-  "characters": [],
+  "places": [
+    "au-dela-du-mur",
+    "chateaunoir"
+  ],
+  "characters": [
+    "tormund",
+    "ygritte",
+    "jon-snow"
+  ],
   "image": "images/thenns.webp",
   "sources": [
     {
-      "label": "Wiki of Westeros",
+      "label": "Wiki of Westeros — Thenns",
       "url": "https://gameofthrones.fandom.com/wiki/Thenns"
     }
   ]

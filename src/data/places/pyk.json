@@ -1,18 +1,25 @@
 {
   "slug": "pyk",
   "name": "Pyk",
-  "kind": "cité",
+  "kind": "château",
   "region": "Les Îles de Fer",
   "continent": "westeros",
-  "coords": {
-    "x": 241.56,
-    "y": 636.04
-  },
+  "coords": { "x": 241.56, "y": 636.04 },
+  "summary": "Siège des Greyjoy, bâti sur des rochers que relient des ponts suspendus au-dessus de la mer.",
+  "house": "greyjoy",
+  "rulers": [{ "text": "Balon Greyjoy" }, { "text": "Euron Greyjoy", "s": 6 }, { "text": "Yara Greyjoy", "s": 8 }],
   "description": [
-    "Au large de l’Ouest, les tours des Greyjoy affrontent les vents et les vagues des Îles de Fer."
+    "Pyk est un château morcelé : la mer a, au fil des siècles, rongé la falaise sur laquelle il était construit, et ses tours se dressent désormais sur des éperons séparés. Des ponts de corde et de planches les relient, balancés par le vent, au-dessus d’une mer furieuse. Sous les tours, les vagues grondent contre les rochers noirs.",
+    "L’île de Pyk est la plus grande des Îles de Fer, une terre grise et pauvre. On y voit des villages de pêcheurs, des drakkars tirés sur les plages, et les prêtres du Dieu Noyé qui baptisent les fidèles dans les vagues. Le trône de sel, siège des rois des îles, est taillé dans une pierre du rivage."
   ],
-  "history": [],
-  "events": [],
-  "image": null,
-  "sources": []
+  "history": [
+    "Les Greyjoy ne sont devenus seigneurs des Îles de Fer qu’après la conquête d’Aegon, quand les Fer-nés ont choisi parmi eux un nouveau chef. Leur coutume ancienne, le « prix du fer », fait de la piraterie une vertu. Neuf ans avant le début de l’histoire, Balon Greyjoy s’est proclamé roi et a attaqué le continent. Robert Baratheon et Eddard Stark ont écrasé la rébellion, et le dernier fils de Balon a été emmené en otage à Winterfell."
+  ],
+  "events": [
+    { "s": 2, "text": "Theon revient à Pyk et choisit son père contre Robb Stark." },
+    { "s": 6, "text": "Euron tue Balon sur un pont ; l’assemblée des capitaines le choisit pour roi." },
+    { "s": 8, "text": "Yara rentre reprendre les Îles de Fer." }
+  ],
+  "image": "images/fer-nes.webp",
+  "sources": [{ "label": "Wiki of Westeros — Pyke", "url": "https://gameofthrones.fandom.com/wiki/Pyke" }]
 }

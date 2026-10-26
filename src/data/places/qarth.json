@@ -2,13 +2,23 @@
   "slug": "qarth",
   "name": "Qarth",
   "kind": "cité",
-  "region": "Carrefour commercial",
+  "region": "L’Est",
   "continent": "essos",
+  "coords": { "x": 2272, "y": 1222 },
+  "summary": "Cité marchande aux triples murailles sur le détroit qui relie la mer d’Été à la mer de Jade.",
+  "rulers": [{ "text": "Les Treize, une assemblée de marchands" }, { "text": "Xaro Xhoan Daxos, après un coup de force", "s": 2 }],
   "description": [
-    "Qarth se situe à la jonction de grandes routes de commerce. Ses élites et ses institutions forment un monde différent des khalasars comme des Cités libres occidentales. La ville montre à Daenerys qu’un accueil peut aussi être une manière de contrôler."
+    "Qarth se dresse sur une péninsule au bord des Portes de Jade, le détroit qui relie la mer d’Été à la mer de Jade. Trois murailles concentriques la protègent, couvertes de bas-reliefs : scènes de chasse, de guerre et d’amour. Derrière, des palais, des jardins, des marchés d’épices et de soieries, et des citoyens vêtus de tissus si fins qu’ils en paraissent transparents.",
+    "La ville vit du commerce entre l’Est et l’Ouest : épices, soie, pierres précieuses, ivoire. Ses habitants se disent les plus raffinés du monde, et le font sentir. On y croise des sorciers, les conjurateurs, qui vivent dans la Maison des Éternels, une tour sans porte au milieu de la ville."
   ],
-  "history": [],
-  "events": [],
-  "image": "images/braavos.webp",
-  "sources": []
+  "history": [
+    "Qarth prétend être la plus grande cité qui ait jamais existé. Elle a survécu à l’Empire valyrien comme aux ravages des Dothraki, protégée par le désert qui l’entoure. Elle est gouvernée par des cercles de marchands, de grandes familles et de guildes, dont le plus puissant est celui des Treize."
+  ],
+  "events": [
+    { "s": 2, "text": "Daenerys est admise dans la ville grâce à Xaro Xhoan Daxos." },
+    { "s": 2, "text": "Ses dragons sont volés ; elle les reprend dans la Maison des Éternels." },
+    { "s": 2, "text": "Daenerys enferme Xaro dans sa chambre forte vide." }
+  ],
+  "image": null,
+  "sources": [{ "label": "Wiki of Westeros — Qarth", "url": "https://gameofthrones.fandom.com/wiki/Qarth" }]
 }

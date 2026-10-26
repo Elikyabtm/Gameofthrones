@@ -1,0 +1,25 @@
+{
+  "slug": "le-conflans",
+  "name": "Le Conflans",
+  "kind": "région",
+  "region": "Le Conflans",
+  "continent": "westeros",
+  "coords": { "x": 380, "y": 690 },
+  "summary": "Terres fertiles du Trident, au cœur du royaume, que toutes les guerres traversent.",
+  "house": "tully",
+  "description": [
+    "Le Conflans est le pays des trois fourches du Trident : la Verfurque, la Fourche bleue et la Fourche rouge, qui se rejoignent avant de couler vers la mer. C’est une terre de prairies, de bois, de villages et de moulins, sans montagnes pour la protéger. Toutes les routes la traversent, et toutes les armées aussi.",
+    "La région compte de nombreux petits seigneurs aux fidélités changeantes, des auberges de bord de route, des septuors de village et des hors-la-loi. Quand la guerre passe, ce sont les paysans qui paient : récoltes brûlées, villages pillés, pendus aux branches. Certains se regroupent pour se défendre, comme la Fraternité sans bannières."
+  ],
+  "history": [
+    "Le Conflans n’a presque jamais été gouverné par ses propres rois. Il a appartenu tour à tour aux rois de l’Orage, puis aux Fer-nés de Harren le Noir, jusqu’à la conquête d’Aegon, qui le confia aux Tully. Son nom est lié aux grandes batailles du royaume : c’est au gué du Trident que Robert Baratheon a tué le prince Rhaegar, mettant fin à la Rébellion."
+  ],
+  "events": [
+    { "s": 1, "text": "La Montagne ravage les villages sur ordre de Tywin ; Robb capture Jaime au Bois-aux-Murmures." },
+    { "s": 3, "text": "Arya rencontre la Fraternité sans bannières, puis tombe entre les mains du Limier." },
+    { "s": 4, "text": "Brienne et le Limier s’affrontent pour Arya." },
+    { "s": 6, "text": "Le Limier rejoint la Fraternité après le massacre d’une communauté paisible." }
+  ],
+  "image": "images/fraternite-sans-bannieres.webp",
+  "sources": [{ "label": "Wiki of Westeros — Riverlands", "url": "https://gameofthrones.fandom.com/wiki/Riverlands" }]
+}

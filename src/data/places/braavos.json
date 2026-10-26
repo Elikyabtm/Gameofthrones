@@ -2,13 +2,23 @@
   "slug": "braavos",
   "name": "Braavos",
   "kind": "cité",
-  "region": "Cité libre",
+  "region": "Les cités libres",
   "continent": "essos",
+  "coords": { "x": 800, "y": 506 },
+  "summary": "Cité libre bâtie sur une lagune, gardée par un Titan de bronze, siège de la Banque de Fer.",
+  "rulers": [{ "text": "Le Seigneur de la Mer, élu par les magistres" }],
   "description": [
-    "Canaux, commerce, temples et Banque de Fer. Braavos est une puissance maritime dont l’histoire de fondation est liée à la fuite de l’esclavage valyrien. Le Titan annonce l’entrée dans son port, tandis que la Maison du Noir et du Blanc ouvre une autre face de la cité."
+    "Braavos s’étend sur une centaine d’îles au milieu d’une lagune, au nord-ouest d’Essos. On y circule en bateau-serpent par des canaux, on y traverse des ponts de pierre, et l’on y entre par la mer en passant sous le Titan, un colosse de pierre et de bronze qui enjambe la passe, l’épée levée. La nuit, ses yeux s’allument ; sa trompe annonce chaque navire.",
+    "La ville vit du commerce maritime et de la finance. La Banque de Fer y prête aux rois et aux cités, et ne pardonne jamais une dette. Les rues sont pleines de spadassins qui se battent en duel pour un mot de trop, de courtisanes célèbres, de comédiens et de temples de tous les dieux. Dans l’un d’eux, à la porte noir et blanc, on sert un dieu dont on ne prononce pas le nom."
   ],
-  "history": [],
-  "events": [],
+  "history": [
+    "Braavos a été fondée par des esclaves en fuite, qui s’étaient emparés des navires de leurs maîtres valyriens et cherchaient un endroit où se cacher. Ils ont trouvé cette lagune protégée par des brumes, et pendant un siècle, la ville est restée secrète. Elle en a gardé une haine farouche de l’esclavage, interdite dans ses murs, et un respect de tous les dieux, ceux de chacun des fugitifs. Braavos n’a pas de roi : un Seigneur de la Mer, choisi par les grandes familles, gouverne avec elles."
+  ],
+  "events": [
+    { "s": 4, "text": "Stannis et Davos obtiennent un prêt de la Banque de Fer." },
+    { "s": 5, "text": "Arya entre à la Maison du Noir et du Blanc." },
+    { "s": 6, "text": "Arya refuse de devenir personne et quitte la ville." }
+  ],
   "image": "images/braavos.webp",
-  "sources": []
+  "sources": [{ "label": "Wiki of Westeros — Braavos", "url": "https://gameofthrones.fandom.com/wiki/Braavos" }]
 }

@@ -1,18 +1,30 @@
 {
   "slug": "vivesaigues",
   "name": "Vivesaigues",
-  "kind": "cité",
+  "kind": "château",
   "region": "Le Conflans",
   "continent": "westeros",
-  "coords": {
-    "x": 358.69,
-    "y": 667.63
-  },
-  "description": [
-    "Le château des Tully au confluent des rivières. Un passage stratégique et un point de rencontre entre les grandes maisons."
+  "coords": { "x": 358.69, "y": 667.63 },
+  "summary": "Siège des Tully, au confluent de deux rivières, qu’un fossé d’eau transforme en île.",
+  "house": "tully",
+  "rulers": [
+    { "text": "Hoster Tully" },
+    { "text": "Edmure Tully", "s": 3 },
+    { "text": "Les Frey, après la guerre", "s": 6 },
+    { "text": "Brynden Tully, brièvement", "s": 6 }
   ],
-  "history": [],
-  "events": [],
+  "description": [
+    "Vivesaigues se dresse à la pointe de terre où la Culbute rejoint la Fourche rouge du Trident. Ses murs plongent directement dans l’eau sur deux côtés ; sur le troisième, un fossé alimenté par les rivières peut être rempli en levant des vannes, et le château devient une île. C’est une forteresse élégante, aux murs de grès rouge, aux toits pointus, entourée de prairies et de vergers.",
+    "Les Tully y règnent sur le Conflans, une région riche et ouverte, traversée par toutes les armées. Leur blason montre une truite d’argent bondissant sur fond d’ondes rouges et bleues, et leurs funérailles se font sur l’eau : une barque emporte le défunt au fil du courant, puis une flèche enflammée l’embrase."
+  ],
+  "history": [
+    "Les Tully n’ont jamais été rois. Ils étaient des seigneurs du Conflans à l’époque où celui-ci appartenait aux Fer-nés de Harrenhal, et se sont rangés derrière Aegon le Conquérant, qui les a récompensés en leur donnant autorité sur toute la région. Hoster Tully a marié ses filles aux Stark et aux Arryn, liant le Conflans au Nord et au Val : ces alliances ont fait de Vivesaigues l’un des piliers de la Rébellion."
+  ],
+  "events": [
+    { "s": 1, "text": "Robb Stark libère le château assiégé par les Lannister et y est proclamé roi du Nord." },
+    { "s": 3, "text": "Hoster Tully meurt ; ses funérailles se font sur la rivière." },
+    { "s": 6, "text": "Le Silure reprend le château, puis Jaime Lannister en obtient la reddition sans combat." }
+  ],
   "image": null,
-  "sources": []
+  "sources": [{ "label": "Wiki of Westeros — Riverrun", "url": "https://gameofthrones.fandom.com/wiki/Riverrun" }]
 }

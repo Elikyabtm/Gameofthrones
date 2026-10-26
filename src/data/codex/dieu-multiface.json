@@ -1,16 +1,76 @@
 {
   "slug": "dieu-multiface",
   "rubric": "croyances",
-  "name": "Le Dieu Multiface",
-  "kicker": "Braavos · Maison du Noir et du Blanc",
-  "lead": "La tradition des Sans-Visage envisage la mort à travers les visages multiples que les peuples donnent au sacré.",
+  "name": "Dieu Multiface",
+  "kicker": "Le dieu de la mort",
+  "lead": "Le dieu que les Sans-Visage servent à Braavos, et qui serait le même dieu de la mort sous tous les noms.",
   "body": [
-    "La tradition des Sans-Visage envisage la mort à travers les visages multiples que les peuples donnent au sacré. La Maison du Noir et du Blanc accueille des représentations de divinités différentes. L’effacement de l’identité personnelle y prend un sens à la fois religieux et pratique."
+    "Pour ses fidèles, il n’existe qu’un seul dieu de la mort, que chaque peuple honore sous un nom différent : l’Étranger des Sept, le Dieu Noyé, le dieu des Lhazaréens ou celui des Ghiscaris. Les Braaviens l’appellent le Dieu Multiface. Son temple, la Demeure du Noir et du Blanc, se dresse sur une île de Braavos.",
+    "Le culte serait né dans les mines de Valyria, où les esclaves suppliaient tous leurs dieux de leur accorder la délivrance. Selon la légende, l’un d’eux comprit qu’ils priaient tous le même dieu sous des noms différents ; il devint le premier homme sans visage et offrit la mort à ceux qui la demandaient, puis à leurs maîtres.",
+    "Dans le temple, une fontaine d’eau noire permet aux malades et aux désespérés de boire et de mourir en paix. Les prêtres, les Sans-Visage, acceptent aussi des contrats : on peut leur demander de tuer quelqu’un, en payant un prix proportionné à la vie que l’on prend.",
+    "Le dieu exige le renoncement à soi-même. Ceux qui le servent abandonnent leur nom, leur passé et leur visage. Le salut des fidèles est une formule de valyrien : « Valar morghulis », tous les hommes doivent mourir, à laquelle on répond « Valar dohaeris », tous les hommes doivent servir."
   ],
-  "facts": [],
-  "terms": [],
-  "places": [],
-  "characters": [],
+  "inTheSeries": [
+    {
+      "s": 2,
+      "title": "Saison 2 — Une pièce de fer",
+      "paragraphs": [
+        "Jaqen H’ghar offre à Arya trois morts et lui donne une pièce et deux mots pour le retrouver."
+      ]
+    },
+    {
+      "s": 5,
+      "title": "Saison 5 — La Demeure du Noir et du Blanc",
+      "paragraphs": [
+        "Arya entre au service du dieu à Braavos et commence son apprentissage."
+      ]
+    },
+    {
+      "s": 6,
+      "title": "Saison 6 — Une fille a un nom",
+      "paragraphs": [
+        "Arya refuse de renoncer à son identité et quitte le temple."
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "label": "Temple",
+      "value": "La Demeure du Noir et du Blanc, Braavos"
+    },
+    {
+      "label": "Serviteurs",
+      "value": "Les Sans-Visage"
+    },
+    {
+      "label": "Salut",
+      "value": "Valar morghulis / Valar dohaeris"
+    }
+  ],
+  "terms": [
+    {
+      "term": "Valar morghulis",
+      "def": "Tous les hommes doivent mourir."
+    },
+    {
+      "term": "Valar dohaeris",
+      "def": "Tous les hommes doivent servir."
+    }
+  ],
+  "places": [
+    "braavos",
+    "valyria"
+  ],
+  "characters": [
+    "jaqen-hghar",
+    "arya-stark",
+    "la-gamine"
+  ],
   "image": "images/sans-visage.webp",
-  "sources": []
+  "sources": [
+    {
+      "label": "Wiki of Westeros — Many-Faced God",
+      "url": "https://gameofthrones.fandom.com/wiki/Many-Faced_God"
+    }
+  ]
 }

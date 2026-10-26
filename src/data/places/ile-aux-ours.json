@@ -1,0 +1,24 @@
+{
+  "slug": "ile-aux-ours",
+  "name": "L’île aux Ours",
+  "kind": "île",
+  "region": "Le Nord",
+  "continent": "westeros",
+  "coords": { "x": 182, "y": 298 },
+  "summary": "Île boisée de la baie des Glaces, siège de la maison Mormont.",
+  "house": "mormont",
+  "rulers": [{ "text": "Maege Mormont, tante de Jorah" }, { "text": "Lyanna Mormont", "s": 6 }],
+  "description": [
+    "L’île aux Ours est une terre rocheuse et boisée au large de la côte ouest du Nord, dans la baie des Glaces. Ses habitants vivent de la pêche, de l’élevage et de la forêt, dans des maisons de bois protégées de palissades. Ils sont peu nombreux, mais réputés pour leur dureté : on dit que les femmes de l’île combattent aussi bien que les hommes, parce qu’elles ont dû défendre leurs foyers contre les pillards fer-nés.",
+    "Les Mormont y règnent depuis un donjon de rondins. Leur blason montre un ours noir dressé dans une couronne de feuillage, et leur devise sonne comme une promesse faite à la terre plus qu’à un roi."
+  ],
+  "history": [
+    "L’île a longtemps été disputée entre les rois du Nord et les Fer-nés, qui la pillaient régulièrement. Les Stark l’ont confiée aux Mormont, qui l’ont gardée pendant des siècles. Lord Jeor Mormont a renoncé à son siège pour rejoindre la Garde de Nuit, laissant l’île à son fils Jorah. Celui-ci s’est déshonoré en vendant des braconniers comme esclaves et s’est enfui en Essos pour échapper à la justice d’Eddard Stark. L’île est revenue à la sœur de Jeor."
+  ],
+  "events": [
+    { "s": 6, "text": "Jon, Sansa et Davos obtiennent le soutien de la jeune Lyanna Mormont." },
+    { "s": 8, "text": "Les hommes et les femmes de l’île combattent à Winterfell pendant la Longue Nuit." }
+  ],
+  "image": null,
+  "sources": [{ "label": "Wiki of Westeros — Bear Island", "url": "https://gameofthrones.fandom.com/wiki/Bear_Island" }]
+}

@@ -1,21 +1,51 @@
 {
   "slug": "garde-royale",
   "rubric": "ordres",
-  "name": "La Garde Royale",
-  "kicker": "Westeros · La Couronne",
-  "lead": "Des chevaliers chargés de protéger le souverain, même lorsque le devoir devient un dilemme.",
+  "name": "Garde royale",
+  "kicker": "Les sept épées blanches",
+  "featured": true,
+  "lead": "Sept chevaliers vêtus de blanc qui jurent de protéger le roi au prix de leur vie, et renoncent à tout le reste.",
   "body": [
-    "La Garde Royale est un ordre de chevaliers reconnaissable à ses manteaux blancs. La protection du monarque et de sa famille passe avant les intérêts de naissance de ses membres.",
-    "Le serment paraît simple jusqu’au moment où la fidélité au roi entre en conflit avec d’autres obligations morales. Jaime et Barristan illustrent deux façons de vivre le poids de cette institution et le jugement qu’elle porte sur ses propres membres."
+    "La Garde royale a été créée par Aegon le Conquérant, sur le conseil de sa sœur Visenya. Elle compte sept chevaliers, comme les sept visages du dieu, choisis parmi les meilleurs combattants du royaume. Ils portent une armure et un manteau blancs, et prêtent serment pour la vie : ils ne peuvent ni se marier, ni posséder de terres, ni avoir d’enfants.",
+    "Leur devoir est de protéger le roi et sa famille, d’obéir au roi, et de garder ses secrets. Le lord commandant tient le Livre blanc, où l’on inscrit les exploits de chaque chevalier de la Garde, depuis sa nomination jusqu’à sa mort.",
+    "La Garde royale a compté des héros dont on chante encore les noms, comme Ser Arthur Dayne, l’Épée du Matin. Mais son honneur a été entaché par la Rébellion : Jaime Lannister, l’un de ses membres, a tué le roi Aerys qu’il avait juré de défendre. Depuis, on l’appelle le Régicide.",
+    "Sous Robert puis Joffrey, la Garde accueille aussi des hommes sans honneur, choisis pour leur obéissance ou leur nom. Le manteau blanc est encore un honneur, mais plus une garantie."
+  ],
+  "inTheSeries": [
+    {
+      "s": 1,
+      "title": "Saison 1 — Le renvoi",
+      "paragraphs": [
+        "Joffrey renvoie Ser Barristan Selmy, lord commandant, pour donner sa place à Jaime. Barristan part rejoindre Daenerys."
+      ]
+    },
+    {
+      "s": 4,
+      "title": "Saison 4 — Le Livre blanc",
+      "paragraphs": [
+        "Jaime lit le Livre blanc et constate que sa page est presque vide."
+      ]
+    },
+    {
+      "s": 8,
+      "title": "Saison 8 — La dernière page",
+      "paragraphs": [
+        "Brienne, nommée lord commandant par le roi Bran, complète la page de Jaime."
+      ]
+    }
   ],
   "facts": [
     {
-      "label": "Langue",
-      "value": "Langue commune"
+      "label": "Fondateur",
+      "value": "Aegon le Conquérant"
     },
     {
-      "label": "Visages & repères",
-      "value": "Barristan Selmy · Jaime Lannister · Arthur Dayne"
+      "label": "Effectif",
+      "value": "Sept chevaliers"
+    },
+    {
+      "label": "Registre",
+      "value": "Le Livre blanc"
     }
   ],
   "terms": [
@@ -32,13 +62,23 @@
       "def": "obéissance"
     }
   ],
-  "places": [],
-  "characters": [],
+  "places": [
+    "port-real",
+    "tour-de-la-joie"
+  ],
+  "characters": [
+    "jaime-lannister",
+    "barristan-selmy",
+    "ser-arthur-dayne",
+    "sandor-clegane",
+    "brienne-de-torth",
+    "loras-tyrell"
+  ],
   "image": "images/garde-royale.webp",
   "sources": [
     {
-      "label": "A Wiki of Ice and Fire",
-      "url": "https://awoiaf.westeros.org/index.php/Kingsguard"
+      "label": "Wiki of Westeros — Kingsguard",
+      "url": "https://gameofthrones.fandom.com/wiki/Kingsguard"
     }
   ]
 }

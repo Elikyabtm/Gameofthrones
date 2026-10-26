@@ -4,15 +4,19 @@
   "kind": "cité",
   "region": "Le Bief",
   "continent": "westeros",
-  "coords": {
-    "x": 245.48,
-    "y": 994.47
-  },
+  "coords": { "x": 245.48, "y": 994.47 },
+  "summary": "Plus vieille cité de Westeros, siège de la Citadelle où l’on forme les mestres.",
   "description": [
-    "Une ancienne cité du Bief. La Citadelle y forme les mestres qui serviront les grandes maisons de Westeros."
+    "Villevieille s’étend à l’embouchure du Murmure, au sud-ouest du Bief. Ses rues pavées, ses ponts et ses maisons de pierre blanche se serrent autour de deux monuments. La Citadelle, d’abord, où les novices apprennent l’histoire, la médecine, l’astronomie ou l’art des corbeaux, et où chaque science maîtrisée ajoute un maillon de métal à la chaîne que portent les mestres. Le Haut-Tour, ensuite, phare gigantesque des Hightower, dont la flamme guide les navires de toute la mer du Couchant.",
+    "La bibliothèque de la Citadelle passe pour la plus grande du monde. Une partie de ses livres est enfermée derrière des grilles, réservée aux archimestres."
   ],
-  "history": [],
-  "events": [],
-  "image": null,
-  "sources": []
+  "history": [
+    "Villevieille existait déjà quand les Andals sont arrivés à Westeros. La Foi des Sept y a longtemps eu son siège, avant que les rois Targaryen ne l’attirent à Port-Réal. La Citadelle a formé des générations de mestres envoyés dans chaque château du royaume. Les mestres se disent au service de tous, mais beaucoup se méfient de la magie et des dragons, dont ils ont vu la fin avec un certain soulagement."
+  ],
+  "events": [
+    { "s": 6, "text": "Samwell Tarly arrive à la Citadelle pour devenir mestre." },
+    { "s": 7, "text": "Samwell y guérit Jorah de la léprose grise et découvre des documents oubliés." }
+  ],
+  "image": "images/mestres.webp",
+  "sources": [{ "label": "Wiki of Westeros — Oldtown", "url": "https://gameofthrones.fandom.com/wiki/Oldtown" }]
 }

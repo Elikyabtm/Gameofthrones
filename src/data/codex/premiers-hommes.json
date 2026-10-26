@@ -1,44 +1,53 @@
 {
   "slug": "premiers-hommes",
   "rubric": "peuples",
-  "name": "Les Premiers Hommes",
-  "kicker": "Westeros · Héritage ancien",
-  "lead": "Une migration ancienne, dont la mémoire demeure surtout dans le Nord.",
+  "name": "Premiers Hommes",
+  "kicker": "Les premiers venus",
+  "featured": true,
+  "lead": "Premier peuple humain de Westeros, venu d’Essos il y a douze mille ans, ancêtre des gens du Nord et du peuple libre.",
   "body": [
-    "Les Premiers Hommes appartiennent aux grandes strates historiques du continent. Leurs premiers contacts avec les Enfants de la Forêt passent par le conflit, puis par des accords que les récits ultérieurs ont transformés en mémoire fondatrice.",
-    "Leur héritage ne signifie pas qu’une population serait restée inchangée. Il subsiste dans des lignées, des coutumes et le culte des anciens dieux, tandis que les langues et les alliances ont évolué. Le Nord revendique particulièrement cette profondeur historique."
+    "Il y a environ douze mille ans, les Premiers Hommes traversèrent à pied un pont de terre qui reliait Essos à Westeros, à l’emplacement actuel de Dorne. Ils apportaient le bronze, les chevaux et leurs propres dieux. Ils trouvèrent un continent habité par les enfants de la forêt et les géants.",
+    "Pendant deux mille ans, ils firent la guerre aux enfants, abattant les forêts et les barrals sacrés. La paix fut conclue au Pacte, sur l’Île-aux-Visages, et les Premiers Hommes adoptèrent les anciens dieux. Ensemble, les deux peuples combattirent les Autres pendant la Longue Nuit.",
+    "Ils écrivaient en runes, bâtissaient des cercles de pierre et des forts circulaires, et vivaient en petits royaumes. Le Poing des Premiers Hommes, au-delà du Mur, est l’un de leurs vestiges.",
+    "Quand les Andals débarquèrent, ils soumirent tous les royaumes des Premiers Hommes, sauf le Nord. Les Stark, les Bolton, les Mormont et la plupart des familles du Nord descendent directement d’eux, de même que le peuple libre au-delà du Mur. Ils en ont gardé la langue des noms, les anciens dieux et une méfiance tenace envers les gens du Sud."
   ],
   "facts": [
     {
-      "label": "Langue",
-      "value": "Ancienne langue à l’origine"
+      "label": "Arrivée",
+      "value": "Il y a environ 12 000 ans"
     },
     {
-      "label": "Visages & repères",
-      "value": "Lignées du Nord · récits de l’Âge des Héros"
+      "label": "Descendants",
+      "value": "Gens du Nord, peuple libre"
+    },
+    {
+      "label": "Foi",
+      "value": "Anciens dieux"
     }
   ],
   "terms": [
     {
-      "term": "Langue",
-      "def": "ancienne langue"
+      "term": "Pacte",
+      "def": "Paix conclue entre les Premiers Hommes et les enfants de la forêt."
     },
     {
-      "term": "Mémoire",
-      "def": "Âge des Héros"
-    },
-    {
-      "term": "Culte",
-      "def": "anciens dieux"
+      "term": "Poing des Premiers Hommes",
+      "def": "Ancien fort circulaire au-delà du Mur."
     }
   ],
-  "places": [],
-  "characters": [],
+  "places": [
+    "winterfell",
+    "au-dela-du-mur"
+  ],
+  "characters": [
+    "eddard-stark",
+    "mance-rayder"
+  ],
   "image": "images/premiers-hommes.webp",
   "sources": [
     {
-      "label": "A Wiki of Ice and Fire",
-      "url": "https://awoiaf.westeros.org/index.php/First_Men"
+      "label": "Wiki of Westeros — First Men",
+      "url": "https://gameofthrones.fandom.com/wiki/First_Men"
     }
   ]
 }

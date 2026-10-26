@@ -1,18 +1,32 @@
 {
   "slug": "chateaunoir",
   "name": "Châteaunoir",
-  "kind": "cité",
+  "kind": "forteresse",
   "region": "Le Don",
   "continent": "westeros",
-  "coords": {
-    "x": 471.98,
-    "y": 151.26
-  },
-  "description": [
-    "Adossée au Mur, cette forteresse abrite la Garde de Nuit. Les titres et les anciennes querelles s’effacent devant le devoir de veiller."
+  "coords": { "x": 471.98, "y": 151.26 },
+  "summary": "Principale forteresse de la Garde de Nuit, adossée au pied du Mur.",
+  "rulers": [
+    { "text": "Jeor Mormont, Lord Commandant" },
+    { "text": "Alliser Thorne, par intérim", "s": 3 },
+    { "text": "Jon Snow, Lord Commandant", "s": 5 },
+    { "text": "Eddison Tollett, par intérim", "s": 6 }
   ],
-  "history": [],
-  "events": [],
-  "image": null,
-  "sources": []
+  "description": [
+    "Châteaunoir n’a pas de rempart : le Mur lui en tient lieu. La forteresse s’étale au pied de la muraille de glace, en tours de pierre noircie, en baraquements, en écuries et en réfectoires bien trop grands pour la poignée d’hommes qui les occupent encore. Un long escalier de bois en zigzag s’accroche à la glace, doublé d’une cage montée par un treuil, pour atteindre le sommet, sept cents pieds plus haut.",
+    "Ici vivent les frères en noir : patrouilleurs, bâtisseurs et intendants, venus de tout le royaume, souvent malgré eux. On y trouve aussi la tour du mestre, sa volière de corbeaux, et un tunnel creusé à travers la glace, fermé par une lourde porte de fer, qui donne sur la forêt Hantée."
+  ],
+  "history": [
+    "La Garde de Nuit occupait autrefois dix-neuf forteresses le long du Mur. Au fil des siècles, faute d’hommes, la plupart ont été abandonnées, et Châteaunoir est devenu le centre de l’ordre et le siège du Lord Commandant. Les rois du Sud y envoyaient des recrues, des vivres et des honneurs ; aujourd’hui, ils n’y envoient plus guère que des criminels.",
+    "Le château garde la mémoire d’une époque où la menace venue du nord n’était pas une légende. Les frères prononcent encore des vœux vieux de plusieurs milliers d’années, devant un barral ou dans un septuor, et jurent de ne prendre ni femme, ni terre, ni couronne."
+  ],
+  "events": [
+    { "s": 1, "text": "Jon Snow et Samwell Tarly prêtent serment ; des morts attaquent le Lord Commandant." },
+    { "s": 4, "text": "L’armée de Mance Rayder attaque le château ; Stannis arrive en renfort." },
+    { "s": 5, "text": "Jon Snow est élu Lord Commandant, puis assassiné par ses frères." },
+    { "s": 6, "text": "Melisandre ramène Jon à la vie ; il quitte la Garde." },
+    { "s": 8, "text": "Jon y revient, condamné à servir la Garde de Nuit." }
+  ],
+  "image": "images/mur.webp",
+  "sources": [{ "label": "Wiki of Westeros — Castle Black", "url": "https://gameofthrones.fandom.com/wiki/Castle_Black" }]
 }

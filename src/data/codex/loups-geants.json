@@ -2,15 +2,89 @@
   "slug": "loups-geants",
   "rubric": "creatures",
   "name": "Loups géants",
-  "kicker": "Le Nord · Stark",
-  "lead": "Plus grands que les loups ordinaires, ils sont associés au Nord et à l’emblème Stark.",
+  "kicker": "L’emblème des Stark",
+  "featured": true,
+  "lead": "Grands loups du Nord, absents au sud du Mur depuis deux siècles, et animaux héraldiques de la maison Stark.",
   "body": [
-    "Plus grands que les loups ordinaires, ils sont associés au Nord et à l’emblème Stark. Leurs liens avec les enfants de Winterfell rendent l’animal inséparable de questions d’identité, d’instinct et d’appartenance."
+    "Les loups géants sont bien plus grands que des loups ordinaires : un adulte atteint la taille d’un poney. Ils sont intelligents, silencieux, et chassent en meute dans les forêts du Nord. On n’en a pas vu au sud du Mur depuis environ deux cents ans, si bien que la plupart des gens les croient éteints ou les confondent avec des personnages de contes.",
+    "La maison Stark les a pris pour emblème depuis des milliers d’années. Pour les gens du Nord, ils représentent la famille autant que la férocité : « Le loup solitaire meurt, mais la meute survit », dit un proverbe que les Stark répètent à leurs enfants.",
+    "Les anciennes histoires racontent que les premiers rois du Nord avaient des loups pour compagnons, et que certains hommes pouvaient entrer dans l’esprit de ces bêtes et voir par leurs yeux. On appelle ces hommes des zoman.",
+    "Au tout début de l’histoire, Eddard Stark et ses fils trouvent une louve géante morte, un bois de cerf dans la gorge, entourée de six louveteaux vivants : cinq pour les enfants légitimes, et un sixième, albinos et silencieux, pour Jon Snow. Le cerf est l’emblème des Baratheon. Le présage n’échappe à personne."
   ],
-  "facts": [],
-  "terms": [],
-  "places": [],
-  "characters": [],
+  "inTheSeries": [
+    {
+      "s": 1,
+      "title": "Saison 1 — Six louveteaux",
+      "paragraphs": [
+        "Chaque enfant Stark reçoit un loup : Vent Gris pour Robb, Lady pour Sansa, Nymeria pour Arya, Été pour Bran, Broussaille pour Rickon et Fantôme pour Jon. Lady est tuée sur ordre de Cersei ; Arya chasse Nymeria pour la sauver."
+      ]
+    },
+    {
+      "s": 3,
+      "title": "Saison 3 — Les Noces pourpres",
+      "paragraphs": [
+        "Vent Gris est tué aux Jumeaux avec Robb."
+      ]
+    },
+    {
+      "s": 6,
+      "title": "Saison 6 — La fin de la meute",
+      "paragraphs": [
+        "Été meurt en protégeant Bran ; Ramsay présente à Jon la tête de Broussaille."
+      ]
+    },
+    {
+      "s": 7,
+      "title": "Saison 7 — Nymeria",
+      "paragraphs": [
+        "Arya retrouve Nymeria à la tête d’une meute de loups, qui refuse de la suivre."
+      ]
+    },
+    {
+      "s": 8,
+      "title": "Saison 8 — Fantôme",
+      "paragraphs": [
+        "Fantôme survit à la Longue Nuit et part avec Jon au-delà du Mur."
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "label": "Taille",
+      "value": "Celle d’un poney"
+    },
+    {
+      "label": "Emblème",
+      "value": "Maison Stark"
+    },
+    {
+      "label": "Lien",
+      "value": "Les zoman partagent l’esprit des bêtes"
+    }
+  ],
+  "terms": [
+    {
+      "term": "Zoman",
+      "def": "Personne capable d’entrer dans l’esprit d’un animal."
+    }
+  ],
+  "places": [
+    "winterfell",
+    "au-dela-du-mur"
+  ],
+  "characters": [
+    "robb-stark",
+    "arya-stark",
+    "bran-stark",
+    "jon-snow",
+    "sansa-stark",
+    "rickon-stark"
+  ],
   "image": "images/loup-geant.webp",
-  "sources": []
+  "sources": [
+    {
+      "label": "Wiki of Westeros — Direwolf",
+      "url": "https://gameofthrones.fandom.com/wiki/Direwolf"
+    }
+  ]
 }

@@ -1,0 +1,105 @@
+{
+  "slug": "clegane",
+  "name": "Maison Clegane",
+  "words": "Sans devise",
+  "wordsNote": "Maison trop récente pour avoir une devise connue.",
+  "sigil": "sigils/clegane.svg",
+  "sigilDescription": "Trois chiens noirs sur champ jaune",
+  "sigilCredit": "Création originale du projet",
+  "color": "#c9a84a",
+  "seat": "terres-de-l-ouest",
+  "seatName": "Castel Clegane, dans l’Ouest",
+  "region": "L’Ouest",
+  "summary": "Petite maison de chevaliers au service des Lannister, connue par ses deux fils : la Montagne et le Limier.",
+  "overlord": [
+    {
+      "to": "lannister"
+    }
+  ],
+  "vassals": [],
+  "founded": "Il y a trois générations, par le maître-chien de Castral Roc",
+  "history": [
+    "Les Clegane ne sont pas une vieille maison. Leur fondateur était le maître-chien de Castral Roc. Pendant une chasse, une lionne attaqua le seigneur Lannister ; le maître-chien s’interposa avec ses bêtes et y perdit une jambe et trois chiens. Il fut fait chevalier et reçut des terres, et ses descendants prirent pour armes les trois chiens morts pour leur seigneur.",
+    "Le père de Gregor et de Sandor tenait un modeste château dans l’Ouest. On sait peu de chose de lui, sinon qu’il cacha ou ne voulut pas voir la cruauté de son fils aîné. Gregor, enfant, enfonça le visage de son petit frère dans un brasero pour un jouet que Sandor lui avait emprunté. Sandor en garde la moitié du visage brûlée et une terreur du feu qui ne le quittera jamais.",
+    "Les deux frères sont devenus des combattants redoutés, au service des Lannister. Gregor, la Montagne, est un géant brutal, auteur des pires crimes de la Rébellion, dont le meurtre d’Elia Martell et de ses enfants. Sandor, le Limier, garde du corps de Joffrey, déteste les chevaliers, qu’il tient pour des menteurs, et méprise le monde entier, à commencer par lui-même.",
+    "La haine entre les deux frères est la seule histoire de cette maison. Elle ne peut finir que d’une façon."
+  ],
+  "inTheSeries": [
+    {
+      "s": 1,
+      "title": "Saison 1 — Le tournoi de la Main",
+      "paragraphs": [
+        "Gregor tue un chevalier en joute puis s’en prend à Loras ; Sandor s’interpose."
+      ]
+    },
+    {
+      "s": 2,
+      "title": "Saison 2 — La désertion",
+      "paragraphs": [
+        "Terrifié par le feu à la Néra, Sandor abandonne son poste et s’en va."
+      ]
+    },
+    {
+      "s": 4,
+      "title": "Saison 4 — La Vipère",
+      "paragraphs": [
+        "Gregor tue Oberyn Martell en combat judiciaire, mais il est empoisonné par sa lance."
+      ]
+    },
+    {
+      "s": 5,
+      "title": "Saison 5 — Ser Robert",
+      "paragraphs": [
+        "Qyburn ramène Gregor sous la forme d’une créature muette, au service de Cersei."
+      ]
+    },
+    {
+      "s": 8,
+      "title": "Saison 8 — La rencontre",
+      "paragraphs": [
+        "Les deux frères s’affrontent dans le Donjon Rouge en ruine et tombent ensemble dans les flammes."
+      ]
+    }
+  ],
+  "figures": [
+    "Le maître-chien de Castral Roc"
+  ],
+  "members": [
+    "gregor-clegane",
+    "sandor-clegane"
+  ],
+  "tree": {
+    "people": [
+      {
+        "id": "pere-clegane",
+        "name": "Le père Clegane",
+        "note": "Chevalier de l’Ouest",
+        "deadBefore": true
+      },
+      {
+        "id": "gregor-clegane",
+        "character": "gregor-clegane"
+      },
+      {
+        "id": "sandor-clegane",
+        "character": "sandor-clegane"
+      }
+    ],
+    "unions": [
+      {
+        "a": "pere-clegane",
+        "children": [
+          "gregor-clegane",
+          "sandor-clegane"
+        ]
+      }
+    ]
+  },
+  "_doute": "Prénom et date de mort du père inconnus dans la série.",
+  "sources": [
+    {
+      "label": "Wiki of Westeros — House Clegane",
+      "url": "https://gameofthrones.fandom.com/wiki/House_Clegane"
+    }
+  ]
+}

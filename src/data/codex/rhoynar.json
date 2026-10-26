@@ -1,21 +1,27 @@
 {
   "slug": "rhoynar",
   "rubric": "peuples",
-  "name": "Les Rhoynar",
-  "kicker": "Essos · Rhoyne / Westeros · Dorne",
-  "lead": "La mémoire d’un peuple fluvial, transportée jusqu’au sud de Westeros.",
+  "name": "Rhoynar",
+  "kicker": "Le peuple du fleuve",
+  "lead": "Peuple des rives de la Rhoyne, chassé par Valyria, dont les survivants ont fondé la principauté de Dorne.",
   "body": [
-    "Les Rhoynar sont associés au grand fleuve Rhoyne et à ses cités. Leur affrontement avec l’expansion valyrienne conduit à une diaspora dont la migration de Nymeria vers Dorne est l’épisode le plus connu.",
-    "Leur histoire devient à Dorne une mémoire d’exil, de résistance et de fondation. La langue et certaines pratiques ont reculé ou se sont transformées, mais l’héritage rhoynais continue de distinguer la principauté dans l’ensemble des Sept Couronnes."
+    "Les Rhoynar vivaient le long de la Rhoyne, le grand fleuve d’Essos. Ils bâtissaient des cités de pierre et de bois, travaillaient le fer et l’eau, et adoraient la Mère Rhoyne. Leurs princes étaient souvent des femmes, et l’égalité entre héritiers des deux sexes était la règle.",
+    "Quand Valyria voulut s’étendre vers l’ouest, les Rhoynar s’unirent et marchèrent contre les seigneurs-dragons avec une armée de deux cent cinquante mille hommes. Ils furent anéantis par le feu. Leurs cités brûlèrent.",
+    "La princesse Nymeria rassembla les survivants, des femmes, des enfants et des vieillards pour la plupart, et les embarqua sur dix mille navires. Après une longue errance, ils débarquèrent à Dorne, où Nymeria épousa Mors Martell et brûla ses navires pour que personne ne songe à repartir.",
+    "Les Dorniens descendent en partie des Rhoynar. Ils leur doivent leurs lois de succession, leur goût pour l’eau et les jardins, et leur fierté d’être un peuple à part."
   ],
   "facts": [
     {
-      "label": "Langue",
-      "value": "Rhoynais ; puis langue commune à Dorne"
+      "label": "Terre d’origine",
+      "value": "La Rhoyne, en Essos"
     },
     {
-      "label": "Visages & repères",
-      "value": "Nymeria · l’héritage des Martell"
+      "label": "Héritiers",
+      "value": "Les Dorniens"
+    },
+    {
+      "label": "Figure",
+      "value": "Nymeria"
     }
   ],
   "terms": [
@@ -32,13 +38,22 @@
       "def": "Dorne"
     }
   ],
-  "places": [],
-  "characters": [],
+  "places": [
+    "dorne",
+    "lancehelion",
+    "jardins-aquatiques",
+    "volantis"
+  ],
+  "characters": [
+    "oberyn-martell",
+    "doran-martell",
+    "nymeria-sand"
+  ],
   "image": "images/rhoynar.webp",
   "sources": [
     {
-      "label": "A Wiki of Ice and Fire",
-      "url": "https://awoiaf.westeros.org/index.php/Rhoynar"
+      "label": "Wiki of Westeros — Rhoynar",
+      "url": "https://gameofthrones.fandom.com/wiki/Rhoynar"
     }
   ]
 }

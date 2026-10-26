@@ -1,44 +1,64 @@
 {
   "slug": "valyriens",
   "rubric": "peuples",
-  "name": "Les Valyriens",
-  "kicker": "Essos · Ancienne Valyria",
-  "lead": "Un empire disparu dont les langues, l’acier et les dragons continuent d’agir sur le monde.",
+  "name": "Valyriens",
+  "kicker": "Les seigneurs-dragons",
+  "featured": true,
+  "lead": "Peuple de l’empire de Valyria, maître des dragons et de la sorcellerie, anéanti en un jour par le Fléau.",
   "body": [
-    "La puissance de Valyria s’appuyait sur les dragons et un vaste système impérial, marqué aussi par l’esclavage. Le Fléau de Valyria détruit son centre et transforme la région en territoire redouté. Sa disparition n’efface cependant ni ses héritiers ni ses techniques.",
-    "Les Targaryen conservent une part de cette tradition à Peyredragon, puis à Westeros. L’acier valyrien et le prestige de la langue ancienne montrent comment un empire peut survivre dans des objets, des usages et des revendications bien après sa chute."
+    "Les Valyriens étaient à l’origine des bergers de la péninsule de Valyria, au sud d’Essos. Il y a cinq mille ans, ils découvrirent des dragons dans les volcans des Quatorze Flammes et apprirent à les dompter. Cette arme leur permit de vaincre l’ancien empire de Ghis et de bâtir le plus vaste empire que le monde ait connu.",
+    "Leur civilisation était raffinée et cruelle. Ils forgeaient un acier incomparable, plus léger et plus tranchant que tout autre, bâtissaient des routes indestructibles et pratiquaient une magie de sang. Leur richesse reposait sur des mines exploitées par des milliers d’esclaves.",
+    "Ils se reconnaissaient à leurs cheveux d’argent ou d’or pâle et à leurs yeux violets, traits que les Targaryen ont conservés en se mariant entre eux. Ils gouvernaient par un conseil de familles rivales, les Quarante Familles, qui se disputaient le pouvoir.",
+    "Il y a quatre siècles, le Fléau détruisit la cité en un seul jour. Les volcans entrèrent en éruption, la terre se fendit, la mer engloutit la péninsule. Personne ne sait ce qui l’a provoqué. L’empire s’effondra, et seuls les Targaryen, partis à Peyredragon, survécurent avec leurs dragons."
+  ],
+  "inTheSeries": [
+    {
+      "s": 5,
+      "title": "Saison 5 — Les ruines",
+      "paragraphs": [
+        "Tyrion et Jorah naviguent parmi les ruines de Valyria ; Tyrion récite un poème sur sa chute."
+      ]
+    }
   ],
   "facts": [
     {
-      "label": "Langue",
-      "value": "Haut valyrien et langues descendantes"
+      "label": "Capitale",
+      "value": "Valyria"
     },
     {
-      "label": "Visages & repères",
-      "value": "Targaryen · Velaryon · anciens seigneurs dragons"
+      "label": "Arme",
+      "value": "Dragons, acier valyrien"
+    },
+    {
+      "label": "Fin",
+      "value": "Le Fléau, il y a environ 400 ans"
     }
   ],
   "terms": [
     {
-      "term": "Langue",
-      "def": "haut valyrien"
+      "term": "Acier valyrien",
+      "def": "Acier forgé par magie, presque indestructible."
     },
     {
-      "term": "Héritage",
-      "def": "dragons"
-    },
-    {
-      "term": "Objet",
-      "def": "acier valyrien"
+      "term": "Le Fléau",
+      "def": "Catastrophe volcanique qui détruisit Valyria."
     }
   ],
-  "places": [],
-  "characters": [],
+  "places": [
+    "valyria",
+    "peyredragon",
+    "volantis"
+  ],
+  "characters": [
+    "daenerys-targaryen",
+    "viserys-targaryen",
+    "aemon-targaryen"
+  ],
   "image": "images/valyriens.webp",
   "sources": [
     {
-      "label": "A Wiki of Ice and Fire",
-      "url": "https://awoiaf.westeros.org/index.php/Valyria"
+      "label": "Wiki of Westeros — Valyria",
+      "url": "https://gameofthrones.fandom.com/wiki/Valyria"
     }
   ]
 }

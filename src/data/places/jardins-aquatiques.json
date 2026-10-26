@@ -1,0 +1,24 @@
+{
+  "slug": "jardins-aquatiques",
+  "name": "Les Jardins Aquatiques",
+  "kind": "château",
+  "region": "Dorne",
+  "continent": "westeros",
+  "coords": { "x": 612, "y": 1060 },
+  "summary": "Palais d’été des princes de Dorne, aux bassins de marbre et aux orangers, près de Lancehélion.",
+  "house": "martell",
+  "rulers": [{ "text": "Doran Martell" }],
+  "description": [
+    "Les Jardins Aquatiques sont un palais de marbre rose bâti au bord de la mer, à quelques lieues de Lancehélion. Des fontaines, des bassins et des canaux courent entre les cours, à l’ombre des orangers et des citronniers. Les enfants de la cour et ceux des serviteurs y jouent ensemble dans l’eau, sans distinction de rang.",
+    "Le prince Doran, cloué dans son fauteuil par la goutte, y passe ses journées à regarder les enfants jouer, loin des intrigues de sa capitale."
+  ],
+  "history": [
+    "Le palais a été construit par un prince Martell pour son épouse targaryenne, qui voulait offrir aux enfants de Dorne un lieu de fraîcheur. Il est devenu le refuge des princes, un symbole de la manière dorniennne de gouverner : patiente, raffinée, loin des champs de bataille."
+  ],
+  "events": [
+    { "s": 5, "text": "Jaime et Bronn viennent chercher Myrcella ; le prince Doran accepte de la laisser partir." },
+    { "s": 6, "text": "Ellaria poignarde le prince Doran dans ses propres jardins." }
+  ],
+  "image": null,
+  "sources": [{ "label": "Wiki of Westeros — Water Gardens", "url": "https://gameofthrones.fandom.com/wiki/Water_Gardens" }]
+}

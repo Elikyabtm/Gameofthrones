@@ -1,14 +1,22 @@
 {
   "slug": "lys",
   "name": "Lys",
-  "kind": "cité",
-  "region": "Cité libre",
+  "kind": "île",
+  "region": "Les cités libres",
   "continent": "essos",
+  "coords": { "x": 832, "y": 1090 },
+  "summary": "Cité libre insulaire réputée pour sa beauté, ses jardins de plaisir et ses poisons.",
   "description": [
-    "Lys est une cité insulaire des mers du sud-ouest d’Essos. Elle appartient aux réseaux commerciaux des Cités libres, avec ses rivalités et ses traditions propres. Les noms des lieux d’Essos ne désignent donc pas des quartiers d’un même royaume, mais des centres politiques distincts."
+    "Lys occupe une île verdoyante au sud des Degrés de Pierre. Ses habitants, souvent blonds aux yeux clairs comme les anciens Valyriens, ont la réputation d’être les plus beaux du monde. La ville est célèbre pour ses jardins de plaisir, ses parfums, ses soieries, et pour un art plus discret : celui des poisons, comme les « larmes de Lys », que l’on dit indétectables.",
+    "Les marchands de Lys commercent avec tout l’Ouest et vendent volontiers des esclaves d’agrément, éduqués aux arts et à la conversation."
   ],
-  "history": [],
-  "events": [],
-  "image": "images/braavos.webp",
-  "sources": []
+  "history": [
+    "Lys est une ancienne colonie valyrienne qui a gardé de sa métropole le goût du luxe et des lignées pures. Elle se dispute depuis des siècles avec Myr et Tyrosh le contrôle des Degrés de Pierre et des Terres Disputées, et loue les services de compagnies de mercenaires pour mener ces guerres sans fin."
+  ],
+  "events": [
+    { "s": 1, "text": "Varys apprend à Eddard que Jon Arryn a sans doute été empoisonné aux « larmes de Lys »." }
+  ],
+  "image": null,
+  "_doute": "Lys n’est jamais montrée à l’écran ; fiche gardée pour la carte. Origine lysienne de Varys reprise des romans, à confirmer pour la série.",
+  "sources": [{ "label": "Wiki of Westeros — Lys", "url": "https://gameofthrones.fandom.com/wiki/Lys" }]
 }

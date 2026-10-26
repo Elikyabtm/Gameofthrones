@@ -1,7 +1,17 @@
 {
   "$id": "house",
   "type": "object",
-  "required": ["slug", "name", "words", "sigil", "seat", "region", "history", "members", "sources"],
+  "required": [
+    "slug",
+    "name",
+    "words",
+    "sigil",
+    "seat",
+    "region",
+    "history",
+    "members",
+    "sources"
+  ],
   "additionalProperties": false,
   "properties": {
     "slug": {
@@ -24,7 +34,10 @@
       "type": "string"
     },
     "sigilCredit": {
-      "type": ["string", "null"]
+      "type": [
+        "string",
+        "null"
+      ]
     },
     "color": {
       "type": "string"
@@ -42,13 +55,18 @@
       "type": "array",
       "items": {
         "type": "object",
-        "required": ["to"],
+        "required": [
+          "to"
+        ],
         "additionalProperties": false,
         "properties": {
           "to": {
             "$ref": "common#/$defs/slug"
           },
           "s": {
+            "$ref": "common#/$defs/season"
+          },
+          "until": {
             "$ref": "common#/$defs/season"
           }
         }
@@ -86,14 +104,19 @@
     },
     "tree": {
       "type": "object",
-      "required": ["people", "unions"],
+      "required": [
+        "people",
+        "unions"
+      ],
       "additionalProperties": false,
       "properties": {
         "people": {
           "type": "array",
           "items": {
             "type": "object",
-            "required": ["id"],
+            "required": [
+              "id"
+            ],
             "additionalProperties": false,
             "properties": {
               "id": {
@@ -130,7 +153,10 @@
           "type": "array",
           "items": {
             "type": "object",
-            "required": ["a", "children"],
+            "required": [
+              "a",
+              "children"
+            ],
             "additionalProperties": false,
             "properties": {
               "a": {
@@ -164,6 +190,9 @@
     },
     "_doute": {
       "$ref": "common#/$defs/doute"
+    },
+    "seatName": {
+      "type": "string"
     }
   }
 }

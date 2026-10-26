@@ -1,18 +1,29 @@
 {
   "slug": "les-eyrie",
   "name": "Les Eyrié",
-  "kind": "cité",
+  "kind": "château",
   "region": "Le Val",
   "continent": "westeros",
-  "coords": {
-    "x": 494.04,
-    "y": 611.72
-  },
-  "description": [
-    "Une forteresse suspendue au-dessus du Val. Les montagnes de la Lune offrent aux Arryn une protection aussi spectaculaire que redoutable."
+  "coords": { "x": 494.04, "y": 611.72 },
+  "summary": "Château imprenable des Arryn, perché au sommet d’une montagne du Val.",
+  "house": "arryn",
+  "rulers": [
+    { "text": "Lysa Arryn, régente pour son fils Robin" },
+    { "text": "Petyr Baelish, protecteur du Val", "s": 4 },
+    { "text": "Robin Arryn", "s": 6 }
   ],
-  "history": [],
-  "events": [],
+  "description": [
+    "Les Eyrié occupent le flanc d’un pic, la Lance du Géant, à des milliers de pieds au-dessus de la vallée. Le château est petit, tout en pierre blanche, avec sept tours élancées. On n’y monte que par un sentier vertigineux, jalonné de forts relais, ou par un panier tiré à la corde depuis le dernier palier. Aucune armée n’a jamais pris les Eyrié par la force.",
+    "Dans la salle haute s’ouvre la porte de la Lune, une trappe donnant sur le vide, par laquelle on exécute les condamnés. Les cellules du château ont trois murs : le quatrième est le ciel. Les prisonniers y dorment au bord d’un plancher incliné, au-dessus des nuages."
+  ],
+  "history": [
+    "Les Arryn descendent des rois andals qui ont conquis le Val il y a des milliers d’années. Ils ont été rois de la Montagne et du Val jusqu’à la conquête d’Aegon : la jeune reine régente d’alors, voyant un dragon se poser dans sa cour, a préféré s’agenouiller. Jon Arryn, dernier grand seigneur de la lignée, a élevé Eddard Stark et Robert Baratheon comme pupilles, et s’est soulevé avec eux contre le roi fou. Sa mort, juste avant le début de l’histoire, déclenche tout le reste."
+  ],
+  "events": [
+    { "s": 1, "text": "Catelyn y conduit Tyrion prisonnier ; Bronn gagne le duel judiciaire." },
+    { "s": 4, "text": "Lysa épouse Petyr Baelish, puis tombe par la porte de la Lune." },
+    { "s": 6, "text": "Les chevaliers du Val descendent vers le Nord pour aider les Stark." }
+  ],
   "image": null,
-  "sources": []
+  "sources": [{ "label": "Wiki of Westeros — The Eyrie", "url": "https://gameofthrones.fandom.com/wiki/The_Eyrie" }]
 }

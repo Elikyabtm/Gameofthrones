@@ -1,22 +1,48 @@
 {
   "slug": "ancienne-langue",
   "rubric": "langues",
-  "name": "L’ancienne langue",
-  "kicker": "Westeros · Premiers Hommes & Grand Nord",
-  "lead": "Des voix plus anciennes que les royaumes actuels.",
+  "name": "Ancienne langue",
+  "kicker": "La langue des Premiers Hommes",
+  "lead": "Langue des Premiers Hommes, oubliée au sud du Mur, mais encore parlée par les géants et certains peuples libres.",
   "body": [
-    "L’ancienne langue est associée aux Premiers Hommes. Elle a largement cédé la place à la langue commune dans les Sept Couronnes, mais demeure connue dans certaines communautés au-delà du Mur.",
-    "Les géants et une partie du Peuple libre en conservent des usages. Elle marque la distance historique et culturelle entre le monde que les seigneurs administrent et celui que les récits du Sud connaissent mal."
+    "Avant l’arrivée des Andals, les Premiers Hommes parlaient l’ancienne langue. Elle utilisait des runes que l’on trouve encore gravées sur des pierres dressées et des armes de bronze dans le Nord. Quand les Andals imposèrent la leur, l’ancienne langue recula vers le nord, puis disparut presque complètement de Westeros.",
+    "Elle survit au-delà du Mur. Les géants la parlent encore, de même que certaines tribus du peuple libre, comme les Thenns. Beaucoup de noms de lieux et de familles du Nord en gardent la trace, mais leurs habitants n’en comprennent plus le sens.",
+    "Pour un homme de la Garde de Nuit, connaître quelques mots d’ancienne langue peut faire la différence entre une négociation et un massacre. Pour les sauvageons, c’est un signe d’appartenance à un monde que les « agenouillés » du Sud ont oublié."
+  ],
+  "inTheSeries": [
+    {
+      "s": 5,
+      "title": "Saison 5 — Wun Wun",
+      "paragraphs": [
+        "À Durlieu, le géant Wun Wun parle l’ancienne langue avec Tormund."
+      ]
+    },
+    {
+      "s": 6,
+      "title": "Saison 6 — Le géant à Winterfell",
+      "paragraphs": [
+        "Wun Wun suit Jon et parle à peine la langue commune."
+      ]
+    }
   ],
   "facts": [
     {
-      "label": "Où la retrouver",
-      "value": "Au-delà du Mur · mémoire des Premiers Hommes"
+      "label": "Où l’entendre",
+      "value": "Au-delà du Mur · runes du Nord"
+    },
+    {
+      "label": "Locuteurs",
+      "value": "Géants, certains peuples libres"
     }
   ],
   "terms": [],
-  "places": [],
-  "characters": [],
+  "places": [
+    "au-dela-du-mur",
+    "durlieu"
+  ],
+  "characters": [
+    "tormund"
+  ],
   "image": null,
   "sources": [
     {

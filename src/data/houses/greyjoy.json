@@ -1,17 +1,139 @@
 {
   "slug": "greyjoy",
   "name": "Maison Greyjoy",
-  "words": "Nous ne semons pas.",
+  "words": "Nous ne semons pas",
   "sigil": "sigils/greyjoy.svg",
-  "sigilDescription": "Un kraken d’or sur champ noir.",
-  "sigilCredit": null,
+  "sigilDescription": "Une seiche d’or sur champ noir",
+  "sigilCredit": "Abjiklam, version précédente Lord Evermore (A Wiki of Ice and Fire), licence CC BY-SA 3.0",
+  "color": "#c9a74a",
   "seat": "pyk",
   "region": "Les Îles de Fer",
-  "history": [
-    "Les Greyjoy sont inséparables de la mer et des traditions des Fer-nés. Leur pouvoir dépend des capitaines, des flottes et d’une identité insulaire qui valorise l’indépendance. Le parcours de Theon, élevé au contact des Stark, rend particulièrement visibles les tensions entre origine, éducation et fidélité."
+  "summary": "Seigneurs des Îles de Fer, peuple de pillards fidèles au Dieu Noyé, qui rêvent encore de l’ancienne voie.",
+  "overlord": [
+    {
+      "to": "baratheon",
+      "until": 2
+    }
   ],
-  "inTheSeries": [],
-  "figures": [],
-  "members": [],
-  "sources": []
+  "vassals": [
+    "Harloi",
+    "Botley",
+    "Goodbrother"
+  ],
+  "founded": "Par élection, après la Conquête",
+  "history": [
+    "Les Fer-nés vivent sur un archipel de rochers battus par les vents, à l’ouest du continent. La terre y est pauvre ; la mer est leur champ. Pendant des siècles, ils ont vécu selon « l’ancienne voie » : prendre par le fer ce qu’ils ne pouvaient pas acheter, piller les côtes, ramener des épouses de sel. Payer avec de l’or plutôt qu’avec le sang était pour eux une honte.",
+    "Avant la Conquête, les Îles de Fer étaient gouvernées par des rois élus ou conquérants, parfois maîtres de tout le Conflans. Harrenhal, la plus grande forteresse du continent, fut bâtie par l’un d’eux. Aegon et ses dragons la réduisirent en ruine avec son roi à l’intérieur. Les Fer-nés choisirent ensuite les Greyjoy de Pyk comme seigneurs.",
+    "Les Greyjoy n’ont jamais renoncé au rêve d’une couronne. Neuf ans avant le début de l’histoire, Balon Greyjoy se proclama roi et attaqua la flotte royale. La révolte fut écrasée par Robert Baratheon et Eddard Stark ; Balon perdit deux fils dans la guerre et dut livrer le dernier, Theon, comme otage à Winterfell.",
+    "La foi des Fer-nés est celle du Dieu Noyé, qui habite sous les vagues. Leurs prêtres noient les fidèles pour les baptiser et les ramènent à la vie. « Ce qui est mort ne saurait mourir », répètent-ils, mais se relève plus dur et plus fort.",
+    "Pyk, le château de la famille, est bâti sur des aiguilles de roche détachées de la côte, reliées par des ponts suspendus que le vent fait danser. On y prend de la hauteur pour voir venir les navires, et l’on y meurt parfois d’une chute. Le seigneur des Îles de Fer se choisit traditionnellement lors d’une assemblée, le Conseil royal, où chaque capitaine peut se présenter et défendre ses prétentions devant tous."
+  ],
+  "inTheSeries": [
+    {
+      "s": 2,
+      "title": "Saison 2 — Le retour de l’otage",
+      "paragraphs": [
+        "Theon revient à Pyk et découvre un père qui le méprise. Pour lui prouver sa valeur, il prend Winterfell par surprise. Balon se proclame de nouveau roi des Îles de Fer."
+      ]
+    },
+    {
+      "s": 3,
+      "title": "Saison 3 — Le prisonnier",
+      "paragraphs": [
+        "Theon tombe aux mains de Ramsay Snow, qui le torture et le transforme en Schlingue. Yara décide de partir le chercher."
+      ]
+    },
+    {
+      "s": 6,
+      "title": "Saison 6 — L’oncle",
+      "paragraphs": [
+        "Euron tue Balon et se fait élire roi. Yara et Theon s’enfuient avec la meilleure partie de la flotte et rejoignent Daenerys."
+      ]
+    },
+    {
+      "s": 7,
+      "title": "Saison 7 — La flotte de fer",
+      "paragraphs": [
+        "Euron détruit la flotte de Yara et la capture, puis s’allie à Cersei."
+      ]
+    },
+    {
+      "s": 8,
+      "title": "Saison 8 — La rédemption",
+      "paragraphs": [
+        "Theon libère Yara, puis meurt à Winterfell en défendant Bran. Euron meurt à Port-Réal. Yara gouverne les Îles de Fer."
+      ]
+    }
+  ],
+  "figures": [
+    "Le Roi Gris",
+    "Harren le Noir"
+  ],
+  "members": [
+    "balon-greyjoy",
+    "euron-greyjoy",
+    "theon-greyjoy",
+    "yara-greyjoy"
+  ],
+  "tree": {
+    "people": [
+      {
+        "id": "quellon-greyjoy",
+        "name": "Quellon Greyjoy",
+        "deadBefore": true,
+        "portrait": "images/personnages/quellon-greyjoy.webp"
+      },
+      {
+        "id": "balon-greyjoy",
+        "character": "balon-greyjoy"
+      },
+      {
+        "id": "alannys-greyjoy",
+        "name": "Alannys Greyjoy",
+        "portrait": "images/personnages/alannys-greyjoy.webp"
+      },
+      {
+        "id": "euron-greyjoy",
+        "character": "euron-greyjoy"
+      },
+      {
+        "id": "aeron-greyjoy",
+        "name": "Aeron Greyjoy",
+        "note": "Prêtre du Dieu Noyé",
+        "portrait": "images/personnages/aeron-greyjoy.webp"
+      },
+      {
+        "id": "yara-greyjoy",
+        "character": "yara-greyjoy"
+      },
+      {
+        "id": "theon-greyjoy",
+        "character": "theon-greyjoy"
+      }
+    ],
+    "unions": [
+      {
+        "a": "quellon-greyjoy",
+        "children": [
+          "balon-greyjoy",
+          "euron-greyjoy",
+          "aeron-greyjoy"
+        ]
+      },
+      {
+        "a": "balon-greyjoy",
+        "b": "alannys-greyjoy",
+        "children": [
+          "yara-greyjoy",
+          "theon-greyjoy"
+        ]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "label": "Wiki of Westeros — House Greyjoy",
+      "url": "https://gameofthrones.fandom.com/wiki/House_Greyjoy"
+    }
+  ]
 }

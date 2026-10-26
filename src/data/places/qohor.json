@@ -2,13 +2,21 @@
   "slug": "qohor",
   "name": "Qohor",
   "kind": "cité",
-  "region": "Cité libre",
+  "region": "Les cités libres",
   "continent": "essos",
+  "coords": { "x": 1160, "y": 650 },
+  "summary": "Cité libre de la forêt de Qohor, aux forgerons capables de retravailler l’acier valyrien.",
   "description": [
-    "Plus à l’intérieur des terres, Qohor se distingue notamment par ses traditions métallurgiques et son culte du Bouc Noir. Dans l’histoire des Immaculés, la défense de cette cité occupe une place importante dans leur réputation militaire."
+    "Qohor est la plus orientale des cités libres, bâtie au bord d’un lac, à l’orée d’une immense forêt. C’est une ville de marchands de bois, de fourreurs et surtout de forgerons : on dit que seuls ceux de Qohor savent encore refondre et retravailler l’acier valyrien, dont le secret de fabrication est perdu.",
+    "Les Qohorikh adorent la Chèvre Noire, une divinité à laquelle on sacrifie des bêtes chaque jour. Leur ville est la première étape de l’Ouest pour les khalasars qui descendent de la mer Dothrak."
   ],
-  "history": [],
-  "events": [],
-  "image": "images/immacules.webp",
-  "sources": []
+  "history": [
+    "On raconte qu’une poignée d’Immaculés ont jadis sauvé Qohor d’une horde dothrak, en tenant le terrain jusqu’au dernier homme. La cité garde de cet épisode une admiration pour les soldats esclaves d’Astapor, et une crainte durable des cavaliers de la steppe."
+  ],
+  "events": [
+    { "s": 3, "text": "Ver Gris et Missandei évoquent la réputation des Immaculés, gagnée à la défense de Qohor." }
+  ],
+  "image": null,
+  "_doute": "Qohor n’apparaît pas à l’écran ; l’épisode des trois mille Immaculés est évoqué en saison 3, à vérifier.",
+  "sources": [{ "label": "Wiki of Westeros — Qohor", "url": "https://gameofthrones.fandom.com/wiki/Qohor" }]
 }

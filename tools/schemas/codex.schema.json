@@ -1,38 +1,108 @@
 {
   "$id": "codex",
   "type": "object",
-  "required": ["slug", "rubric", "name", "kicker", "lead", "body", "sources"],
+  "required": [
+    "slug",
+    "rubric",
+    "name",
+    "kicker",
+    "lead",
+    "body",
+    "sources"
+  ],
   "additionalProperties": false,
   "properties": {
-    "slug": { "$ref": "common#/$defs/slug" },
-    "rubric": { "enum": ["peuples", "ordres", "croyances", "langues", "creatures"] },
-    "name": { "$ref": "common#/$defs/text" },
-    "kicker": { "$ref": "common#/$defs/text" },
-    "lead": { "$ref": "common#/$defs/text" },
-    "featured": { "type": "boolean" },
-    "body": { "$ref": "common#/$defs/paragraphs" },
+    "slug": {
+      "$ref": "common#/$defs/slug"
+    },
+    "rubric": {
+      "enum": [
+        "peuples",
+        "ordres",
+        "croyances",
+        "langues",
+        "creatures"
+      ]
+    },
+    "name": {
+      "$ref": "common#/$defs/text"
+    },
+    "kicker": {
+      "$ref": "common#/$defs/text"
+    },
+    "lead": {
+      "$ref": "common#/$defs/text"
+    },
+    "featured": {
+      "type": "boolean"
+    },
+    "body": {
+      "$ref": "common#/$defs/paragraphs"
+    },
     "facts": {
       "type": "array",
       "items": {
         "type": "object",
-        "required": ["label", "value"],
+        "required": [
+          "label",
+          "value"
+        ],
         "additionalProperties": false,
-        "properties": { "label": { "type": "string" }, "value": { "type": "string" } }
+        "properties": {
+          "label": {
+            "type": "string"
+          },
+          "value": {
+            "type": "string"
+          }
+        }
       }
     },
     "terms": {
       "type": "array",
       "items": {
         "type": "object",
-        "required": ["term", "def"],
+        "required": [
+          "term",
+          "def"
+        ],
         "additionalProperties": false,
-        "properties": { "term": { "type": "string" }, "def": { "type": "string" } }
+        "properties": {
+          "term": {
+            "type": "string"
+          },
+          "def": {
+            "type": "string"
+          }
+        }
       }
     },
-    "places": { "type": "array", "items": { "$ref": "common#/$defs/slug" } },
-    "characters": { "type": "array", "items": { "$ref": "common#/$defs/slug" } },
-    "image": { "$ref": "common#/$defs/image" },
-    "sources": { "$ref": "common#/$defs/sources" },
-    "_doute": { "$ref": "common#/$defs/doute" }
+    "places": {
+      "type": "array",
+      "items": {
+        "$ref": "common#/$defs/slug"
+      }
+    },
+    "characters": {
+      "type": "array",
+      "items": {
+        "$ref": "common#/$defs/slug"
+      }
+    },
+    "image": {
+      "$ref": "common#/$defs/image"
+    },
+    "sources": {
+      "$ref": "common#/$defs/sources"
+    },
+    "_doute": {
+      "$ref": "common#/$defs/doute"
+    },
+    "inTheSeries": {
+      "type": "array",
+      "items": {
+        "$ref": "common#/$defs/seasonParagraphs"
+      }
+    }
   }
 }

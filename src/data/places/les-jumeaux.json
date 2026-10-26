@@ -1,0 +1,26 @@
+{
+  "slug": "les-jumeaux",
+  "name": "Les Jumeaux",
+  "kind": "château",
+  "region": "Le Conflans",
+  "continent": "westeros",
+  "coords": { "x": 352, "y": 560 },
+  "summary": "Deux tours reliées par un pont fortifié sur la Verfurque, siège de la maison Frey.",
+  "house": "frey",
+  "rulers": [{ "text": "Walder Frey" }, { "text": "Arya Stark, un soir, sous un autre visage", "s": 6 }],
+  "description": [
+    "Les Jumeaux sont deux châteaux identiques, l’un sur chaque rive de la Verfurque, reliés par un pont de pierre couvert qui abrite une troisième tour en son milieu. Pendant des lieues, c’est le seul passage sûr sur la rivière, et quiconque veut traverser le Conflans vers le nord ou le sud doit payer.",
+    "À l’intérieur, tout respire le nombre : couloirs encombrés, salles bruyantes, une foule de fils, de petits-fils, de bâtards et d’épouses successives qui se disputent les faveurs du vieux seigneur. Les Frey ne sont pas une maison ancienne ni prestigieuse, mais leur pont les a rendus incontournables."
+  ],
+  "history": [
+    "Les Frey ont bâti leur fortune sur le péage de leur pont, et leur réputation sur leur prudence : pendant la Rébellion, Walder Frey n’a rejoint l’armée des rebelles qu’une fois la bataille du Trident gagnée, ce qui lui a valu le surnom de « seigneur Retard ». Les grandes maisons du Conflans le méprisent, et il ne l’oublie jamais.",
+    "Une loi plus vieille que les Sept protège les invités : qui a mangé le pain et le sel d’un seigneur sous son toit ne peut être attaqué. À travers tout Westeros, on considère sa violation comme le pire des crimes."
+  ],
+  "events": [
+    { "s": 1, "text": "Catelyn obtient le passage de l’armée du Nord contre deux promesses de mariage." },
+    { "s": 3, "text": "Les Noces pourpres : Robb, Catelyn et leurs bannerets sont massacrés pendant le festin." },
+    { "s": 6, "text": "Walder Frey est tué chez lui ; peu après, ses fils meurent empoisonnés à sa table." }
+  ],
+  "image": null,
+  "sources": [{ "label": "Wiki of Westeros — The Twins", "url": "https://gameofthrones.fandom.com/wiki/The_Twins" }]
+}

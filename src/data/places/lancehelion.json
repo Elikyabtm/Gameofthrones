@@ -4,15 +4,22 @@
   "kind": "cité",
   "region": "Dorne",
   "continent": "westeros",
-  "coords": {
-    "x": 588.12,
-    "y": 1042.2
-  },
+  "coords": { "x": 588.12, "y": 1042.2 },
+  "summary": "Siège des Martell, cité-palais au bord de la mer d’Été, à l’extrémité est de Dorne.",
+  "house": "martell",
+  "rulers": [{ "text": "Doran Martell" }, { "text": "Ellaria Sand", "s": 6 }],
   "description": [
-    "Le siège des Martell, tourné vers le soleil et la mer. Dorne cultive une identité que les conquêtes n’ont pas effacée."
+    "Lancehélion occupe une pointe de terre au bord de la mer d’Été. Le palais des Martell y côtoie une ville basse de maisons de terre et de marchés ombragés, enfermée dans les Murs Sinueux, des remparts qui serpentent autour de la ville. Les tours se terminent par des dômes dorés, et la plus haute, la tour de la Lance, porte à son sommet une lance de fer et d’or.",
+    "Les Dorniens y vivent au rythme du soleil : on travaille tôt, on se repose à midi, on fait la fête le soir. Les étrangers venus du Nord s’étonnent de la liberté des mœurs, de la place des femmes et de la franchise avec laquelle on parle d’amour."
   ],
-  "history": [],
-  "events": [],
-  "image": null,
-  "sources": []
+  "history": [
+    "Lancehélion a été fondée par les Rhoynar, réfugiés venus d’Essos par la mer sous la conduite de la reine Nymeria, il y a environ mille ans. Leur reine épousa un seigneur dornien, Mors Martell, et ensemble ils unifièrent Dorne. Les Martell ont gardé le titre de prince, et Dorne a résisté aux dragons d’Aegon pendant des générations, avant de rejoindre le royaume par un mariage, deux siècles plus tard."
+  ],
+  "events": [
+    { "s": 5, "text": "Les Aspics des Sables tentent d’enlever la princesse Myrcella." },
+    { "s": 6, "text": "Ellaria Sand prend le pouvoir après le meurtre du prince Doran." },
+    { "s": 6, "text": "Varys réunit Olenna Tyrell et Ellaria Sand derrière Daenerys." }
+  ],
+  "image": "images/dorniens.webp",
+  "sources": [{ "label": "Wiki of Westeros — Sunspear", "url": "https://gameofthrones.fandom.com/wiki/Sunspear" }]
 }

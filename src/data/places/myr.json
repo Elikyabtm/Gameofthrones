@@ -2,13 +2,21 @@
   "slug": "myr",
   "name": "Myr",
   "kind": "cité",
-  "region": "Cité libre",
+  "region": "Les cités libres",
   "continent": "essos",
+  "coords": { "x": 868, "y": 938 },
+  "summary": "Cité libre d’artisans et de marchands, célèbre pour ses lentilles, ses tapis et ses dentelles.",
   "description": [
-    "Myr appartient au groupe des Cités libres occidentales. Elle est réputée pour certains métiers d’artisanat et de fabrication. Son nom apparaît aussi à travers des personnages qui transportent leurs savoirs et leurs croyances vers d’autres terres, comme Thoros de Myr."
+    "Myr se dresse sur une baie de la côte sud-ouest d’Essos, au fond d’un golfe abrité. Ses artisans fabriquent les objets les plus fins du monde connu : longues-vues et lentilles de verre, tapis aux motifs éclatants, dentelles et bougies parfumées. Ses arbalétriers sont réputés dans toutes les compagnies de mercenaires.",
+    "Comme ses voisines, Myr vit du commerce et pratique l’esclavage. Elle envoie aussi des prêtres rouges dans le monde entier, comme ce Thoros qui fit carrière à la cour de Robert Baratheon."
   ],
-  "history": [],
-  "events": [],
-  "image": "images/braavos.webp",
-  "sources": []
+  "history": [
+    "Ancienne colonie de Valyria, Myr se dispute depuis le Fléau les Terres Disputées et les Degrés de Pierre avec Lys et Tyrosh. Ces guerres incessantes, menées par des mercenaires, ont fait la fortune des compagnies libres, sans jamais donner de vainqueur durable."
+  ],
+  "events": [
+    { "s": 2, "text": "Varys raconte à Tyrion comment, enfant, il a été mutilé par un sorcier lors d’un passage à Myr." },
+    { "s": 3, "text": "Thoros de Myr ramène Beric Dondarrion à la vie par ses prières." }
+  ],
+  "image": null,
+  "sources": [{ "label": "Wiki of Westeros — Myr", "url": "https://gameofthrones.fandom.com/wiki/Myr" }]
 }

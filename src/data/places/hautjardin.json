@@ -1,18 +1,25 @@
 {
   "slug": "hautjardin",
   "name": "Hautjardin",
-  "kind": "cité",
+  "kind": "château",
   "region": "Le Bief",
   "continent": "westeros",
-  "coords": {
-    "x": 305.89,
-    "y": 917.23
-  },
+  "coords": { "x": 305.89, "y": 917.23 },
+  "summary": "Château des Tyrell au bord de la Mander, entouré de jardins, de vergers et de labyrinthes.",
+  "house": "tyrell",
+  "rulers": [{ "text": "Mace Tyrell" }, { "text": "Olenna Tyrell", "s": 6 }, { "text": "Les Lannister, par conquête", "s": 7 }, { "text": "Bronn", "s": 8 }],
   "description": [
-    "Le domaine des Tyrell au cœur du Bief. Ses terres fertiles rappellent que le ravitaillement est aussi une forme de pouvoir."
+    "Hautjardin se dresse sur une colline au-dessus de la Mander, au milieu des champs les plus riches du royaume. Ses trois enceintes concentriques de pierre blanche sont reliées par des jardins en terrasses, des arcades fleuries et des fontaines. Un labyrinthe de haies entoure le château, que l’on dit si complexe que les invités s’y perdent.",
+    "Le Bief nourrit une bonne partie de Westeros : blé, vin, fruits et chevaux. Hautjardin en est la vitrine, avec ses tournois, ses chanteurs et ses fêtes. Derrière les roses, il y a pourtant l’une des armées les plus nombreuses du royaume, et des seigneurs qui savent compter."
   ],
-  "history": [],
-  "events": [],
+  "history": [
+    "Les Tyrell n’étaient à l’origine que les intendants des rois Jardiniers, la dynastie qui a régné sur le Bief pendant des millénaires. Quand le dernier roi Jardinier a péri avec sa lignée contre les dragons d’Aegon, l’intendant Harlen Tyrell a ouvert les portes au conquérant et reçu le Bief en récompense. Les vieilles familles de la région, plus anciennes et plus nobles, ne l’ont jamais tout à fait oublié."
+  ],
+  "events": [
+    { "s": 7, "text": "Jaime Lannister prend le château ; Olenna y boit le poison offert par le vainqueur." },
+    { "s": 7, "text": "L’or de Hautjardin rembourse la dette de la couronne envers la Banque de Fer." },
+    { "s": 8, "text": "Bronn reçoit Hautjardin en récompense." }
+  ],
   "image": null,
-  "sources": []
+  "sources": [{ "label": "Wiki of Westeros — Highgarden", "url": "https://gameofthrones.fandom.com/wiki/Highgarden" }]
 }

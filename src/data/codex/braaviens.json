@@ -1,44 +1,75 @@
 {
   "slug": "braaviens",
   "rubric": "peuples",
-  "name": "Les Braaviens",
-  "kicker": "Essos · Braavos",
-  "lead": "Une cité de canaux, de commerce et de multiples croyances.",
+  "name": "Braaviens",
+  "kicker": "La cité secrète",
+  "lead": "Habitants de Braavos, cité fondée par des esclaves en fuite, et où l’esclavage est interdit depuis toujours.",
   "body": [
-    "Braavos appartient aux neuf Cités libres de l’ouest d’Essos. Son récit de fondation est lié à la fuite d’esclaves de Valyria. L’accueil de populations d’origines diverses explique la diversité des temples et des traditions de cette ville maritime.",
-    "Le Titan garde son entrée ; la Banque de Fer étend son influence bien au-delà des canaux. La danse de l’eau de Syrio Forel et la Maison du Noir et du Blanc constituent d’autres portes d’entrée dans une cité dont l’identité ne se réduit pas à une seule famille régnante."
+    "Braavos a été fondée par des esclaves échappés de Valyria, qui se cachèrent dans une lagune noyée de brume, au nord-ouest d’Essos. Pendant un siècle, la cité resta secrète ; on l’appelle encore la cité secrète. Pour cette raison, l’esclavage y est interdit, et les Braaviens se méfient des seigneurs et des tyrans.",
+    "C’est une ville de canaux, de ponts et de dômes, gardée par un gigantesque Titan de bronze qui enjambe l’entrée de la lagune. Elle vit du commerce et de la finance. La Banque de Fer de Braavos prête aux rois du monde entier, et finit toujours par se faire rembourser.",
+    "Les Braaviens sont fiers, cosmopolites et volontiers théâtraux. Leurs « spadassins » se battent en duel avec des épées fines. Toutes les religions y ont leur temple, y compris celle du Dieu Multiface."
+  ],
+  "inTheSeries": [
+    {
+      "s": 1,
+      "title": "Saison 1 — Syrio Forel",
+      "paragraphs": [
+        "Le maître d’armes braavien Syrio apprend à Arya la danse de l’eau."
+      ]
+    },
+    {
+      "s": 4,
+      "title": "Saison 4 — La Banque de Fer",
+      "paragraphs": [
+        "Stannis et Davos obtiennent un prêt de la Banque de Fer, représentée par Tycho Nestoris."
+      ]
+    },
+    {
+      "s": 5,
+      "title": "Saison 5 — Arya à Braavos",
+      "paragraphs": [
+        "Arya entre dans la Demeure du Noir et du Blanc."
+      ]
+    }
   ],
   "facts": [
     {
-      "label": "Langue",
-      "value": "Valyrien braavien ; langue commune dans les échanges"
+      "label": "Gardien",
+      "value": "Le Titan de Braavos"
     },
     {
-      "label": "Visages & repères",
-      "value": "Syrio Forel · le Seigneur de la Mer · la Banque de Fer"
+      "label": "Institution",
+      "value": "La Banque de Fer"
+    },
+    {
+      "label": "Loi",
+      "value": "Pas d’esclavage"
     }
   ],
   "terms": [
     {
-      "term": "Statut",
-      "def": "Cité libre"
+      "term": "Danse de l’eau",
+      "def": "Style d’escrime braavien, fondé sur la vitesse et l’équilibre."
     },
     {
-      "term": "Repère",
-      "def": "Titan"
-    },
-    {
-      "term": "Puissance",
-      "def": "commerce"
+      "term": "Banque de Fer",
+      "def": "Banque qui prête aux royaumes."
     }
   ],
-  "places": [],
-  "characters": [],
+  "places": [
+    "braavos"
+  ],
+  "characters": [
+    "syrio-forel",
+    "tycho-nestoris",
+    "jaqen-hghar",
+    "arya-stark"
+  ],
   "image": "images/braavos.webp",
   "sources": [
     {
-      "label": "A Wiki of Ice and Fire",
-      "url": "https://awoiaf.westeros.org/index.php/Braavos"
+      "label": "Wiki of Westeros — Braavos",
+      "url": "https://gameofthrones.fandom.com/wiki/Braavos"
     }
   ]
 }

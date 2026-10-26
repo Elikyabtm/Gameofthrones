@@ -1,0 +1,22 @@
+{
+  "slug": "durlieu",
+  "name": "Durlieu",
+  "kind": "ruine",
+  "region": "Au-delà du Mur",
+  "continent": "westeros",
+  "coords": { "x": 590, "y": 96 },
+  "summary": "Village de pêcheurs du Peuple libre sur la côte nord-est, au-delà du Mur.",
+  "description": [
+    "Durlieu est un hameau de cabanes et de longères au fond d’une baie, sur la côte glacée qui fait face à la mer Frissonnante. Des falaises le dominent, des bateaux de pêche sont tirés sur la grève, et une palissade de bois sert de seul rempart. C’est l’un des rares endroits au-delà du Mur où l’on peut embarquer en nombre.",
+    "En temps normal, les clans s’y rassemblent pour commercer et pêcher. C’est aussi un lieu que les sauvageons évitent de nommer à la légère : on y raconte qu’il s’y est passé autrefois des choses terribles."
+  ],
+  "history": [
+    "Durlieu passe pour le seul lieu au-delà du Mur qui ait jamais ressemblé à une ville. Selon les récits, il aurait été détruit des siècles plus tôt, dans une nuit de cris et de feu dont personne n’a su dire la cause. Les survivants ont reconstruit plus modestement, et la côte est restée un lieu de passage pour ceux qui fuient l’hiver par la mer."
+  ],
+  "events": [
+    { "s": 5, "text": "Jon Snow et Tormund viennent convaincre les clans de passer au sud du Mur." },
+    { "s": 5, "text": "L’armée des morts attaque le village ; le Roi de la Nuit relève les morts." }
+  ],
+  "image": null,
+  "sources": [{ "label": "Wiki of Westeros — Hardhome", "url": "https://gameofthrones.fandom.com/wiki/Hardhome" }]
+}

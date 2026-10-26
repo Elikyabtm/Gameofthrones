@@ -1,48 +1,54 @@
 {
   "slug": "fer-nes",
   "rubric": "peuples",
-  "name": "Les Fer-nés",
-  "kicker": "Westeros · Îles de Fer",
-  "lead": "Une culture insulaire façonnée par la mer, les navires et le Dieu Noyé.",
+  "name": "Fer-nés",
+  "kicker": "Le peuple des Îles de Fer",
+  "featured": true,
+  "lead": "Peuple de marins et de pillards des Îles de Fer, qui préfère prendre par le fer que payer avec de l’or.",
   "body": [
-    "La vie des Fer-nés s’organise autour d’îles pauvres en terres fertiles et ouvertes sur une mer dangereuse. Les traditions de navigation et de raid occupent une place centrale dans leur identité. Les Greyjoy dominent Pyk, mais les autres maisons des îles possèdent leurs propres capitaines et intérêts.",
-    "Le Dieu Noyé donne une dimension sacrée à cette relation à l’eau. Le prix de fer désigne une acquisition obtenue par la force, contrairement à un achat payé en or. Cette valeur proclamée ne résume pourtant pas tous les choix des personnages : Theon et Yara montrent combien une appartenance peut être vécue différemment."
+    "Les Fer-nés vivent sur un archipel froid et pauvre à l’ouest du continent. Leurs îles produisent peu ; la mer leur donne tout. Ils sont les meilleurs marins de Westeros, et leurs navires longs, les boutres, peuvent remonter les fleuves pour frapper loin à l’intérieur des terres.",
+    "Leur mode de vie traditionnel, « l’ancienne voie », consiste à piller les côtes, à capturer des esclaves, appelés serfs, et à prendre des épouses de sel. Payer ce que l’on pourrait prendre est une honte, et l’on dit d’un homme qui achète au lieu de conquérir qu’il paye le prix de l’or.",
+    "Ils adorent le Dieu Noyé et méprisent les gens du continent, qu’ils appellent les « verts ». Leurs femmes peuvent commander des navires, et leurs rois étaient jadis élus par l’assemblée des capitaines.",
+    "Depuis la Conquête, les Fer-nés ont dû renoncer au pillage. Beaucoup vivent dans la nostalgie d’une grandeur passée, et chaque génération voit naître une révolte pour la retrouver."
   ],
   "facts": [
     {
-      "label": "Langue",
-      "value": "Langue commune"
+      "label": "Siège",
+      "value": "Pyk"
     },
     {
-      "label": "Visages & repères",
-      "value": "Balon · Yara · Theon · Euron Greyjoy"
+      "label": "Dieu",
+      "value": "Le Dieu Noyé"
+    },
+    {
+      "label": "Mode de vie",
+      "value": "L’ancienne voie"
     }
   ],
   "terms": [
     {
-      "term": "Territoire",
-      "def": "archipel"
+      "term": "Serf",
+      "def": "Captif réduit en servitude par les Fer-nés."
     },
     {
-      "term": "Culte",
-      "def": "Dieu Noyé"
-    },
-    {
-      "term": "Force",
-      "def": "flotte"
-    },
-    {
-      "term": "Symbole",
-      "def": "kraken"
+      "term": "Prix du fer",
+      "def": "Ce que l’on obtient par la force, et non par l’argent."
     }
   ],
-  "places": [],
-  "characters": [],
+  "places": [
+    "pyk"
+  ],
+  "characters": [
+    "theon-greyjoy",
+    "yara-greyjoy",
+    "balon-greyjoy",
+    "euron-greyjoy"
+  ],
   "image": "images/fer-nes.webp",
   "sources": [
     {
-      "label": "A Wiki of Ice and Fire",
-      "url": "https://awoiaf.westeros.org/index.php/Ironborn"
+      "label": "Wiki of Westeros — Ironborn",
+      "url": "https://gameofthrones.fandom.com/wiki/Ironborn"
     }
   ]
 }

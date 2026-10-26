@@ -1,0 +1,24 @@
+{
+  "slug": "griseaux",
+  "name": "Griseaux",
+  "kind": "château",
+  "region": "Le Neck",
+  "continent": "westeros",
+  "coords": { "x": 395, "y": 520 },
+  "summary": "Château flottant des Reed, caché dans les marais du Neck.",
+  "house": "reed",
+  "rulers": [{ "text": "Howland Reed" }],
+  "description": [
+    "Griseaux est un château que personne ne trouve sans y être invité. Les Reed le bâtissent sur des radeaux de bois et de roseaux qui dérivent dans les marais du Neck, si bien que sa position change avec les saisons. Pas de corbeaux pour y porter les messages, pas de route pour y mener une armée : les marais sont son rempart.",
+    "Les gens du Neck, qu’on appelle avec mépris les « mangeurs de grenouilles », vivent dans cet univers de brumes, de lézards-lions et de chemins d’eau. Ils chassent au filet et à la lance à trois dents, connaissent les poisons des marais et gardent une foi profonde dans les anciens dieux."
+  ],
+  "history": [
+    "Les Reed sont parmi les plus fidèles bannerets des Stark, et parmi les plus discrets. Howland Reed a combattu aux côtés d’Eddard pendant la Rébellion et l’a accompagné jusqu’à la tour de la Joie. On dit qu’il est le seul autre survivant de ce combat, et le seul à savoir ce qui s’y est vraiment passé."
+  ],
+  "events": [
+    { "s": 3, "text": "Meera et Jojen Reed quittent les marais pour retrouver Bran Stark." },
+    { "s": 7, "text": "Meera rentre chez elle après avoir ramené Bran à Winterfell." }
+  ],
+  "image": null,
+  "sources": [{ "label": "Wiki of Westeros — Greywater Watch", "url": "https://gameofthrones.fandom.com/wiki/Greywater_Watch" }]
+}

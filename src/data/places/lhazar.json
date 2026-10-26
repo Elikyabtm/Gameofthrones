@@ -1,0 +1,22 @@
+{
+  "slug": "lhazar",
+  "name": "Lhazar",
+  "kind": "région",
+  "region": "Essos central",
+  "continent": "essos",
+  "coords": { "x": 1910, "y": 1030 },
+  "summary": "Pays de bergers paisibles au sud de la mer Dothrak, que les cavaliers appellent « le peuple agneau ».",
+  "description": [
+    "Lhazar est un pays de collines et de pâturages entre la mer Dothrak, la baie des Serfs et le désert Rouge. Ses habitants, les Lhazaréens, élèvent des moutons, cultivent un peu de terre et vivent dans des villages de terre crue autour de leurs temples. Ils vénèrent le Grand Berger, qui veille sur tous les hommes comme sur un troupeau.",
+    "Les Dothraki les méprisent et les appellent « le peuple agneau », parce qu’ils ne se battent pas. Ils les pillent régulièrement pour les vendre aux marchands d’esclaves de la baie."
+  ],
+  "history": [
+    "Les Lhazaréens ont subi depuis des siècles les razzias des khalasars, sans jamais disposer d’armée pour s’en protéger. Leurs prêtresses guérisseuses connaissent pourtant des savoirs anciens, appris, dit-on, auprès des mages d’Asshai."
+  ],
+  "events": [
+    { "s": 1, "text": "Le khalasar de Drogo pille un village lhazaréen ; Daenerys protège la prêtresse Mirri Maz Duur." },
+    { "s": 1, "text": "Mirri Maz Duur tente de soigner Drogo par un rituel de sang." }
+  ],
+  "image": "images/lhazareens.webp",
+  "sources": [{ "label": "Wiki of Westeros — Lhazar", "url": "https://gameofthrones.fandom.com/wiki/Lhazar" }]
+}

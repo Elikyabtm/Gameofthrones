@@ -1,14 +1,22 @@
 {
   "slug": "lorath",
   "name": "Lorath",
-  "kind": "cité",
-  "region": "Cité libre",
+  "kind": "île",
+  "region": "Les cités libres",
   "continent": "essos",
+  "coords": { "x": 948, "y": 405 },
+  "summary": "La plus petite et la plus pauvre des cités libres, sur un archipel de la baie de la Frissonnante.",
   "description": [
-    "Lorath complète l’ensemble des neuf Cités libres. Située sur des îles du nord-ouest d’Essos, elle rappelle l’étendue et la diversité de cette constellation politique : aucune seule cité n’en représente toutes les coutumes."
+    "Lorath est un archipel de rochers et de forêts dans une baie du nord d’Essos, au-delà de Braavos. Sa cité est modeste, ses habitants vivent de la pêche, du bois et du commerce avec les baleiniers de la Frissonnante. Des labyrinthes de pierre, d’origine inconnue, se dressent sur les îles et intriguent les voyageurs.",
+    "On n’y vient guère que par nécessité ; on en part souvent pour chercher fortune ailleurs."
   ],
-  "history": [],
-  "events": [],
-  "image": "images/braavos.webp",
-  "sources": []
+  "history": [
+    "Les îles de Lorath auraient été habitées par plusieurs peuples successifs avant même Valyria. La cité actuelle est la plus récente des neuf cités libres et la moins influente, longtemps à l’ombre de sa puissante voisine, Braavos."
+  ],
+  "events": [
+    { "s": 2, "text": "Jaqen H’ghar se présente comme un homme de Lorath." }
+  ],
+  "image": null,
+  "_doute": "Lorath n’apparaît pas à l’écran ; on la connaît par Jaqen H’ghar.",
+  "sources": [{ "label": "Wiki of Westeros — Lorath", "url": "https://gameofthrones.fandom.com/wiki/Lorath" }]
 }

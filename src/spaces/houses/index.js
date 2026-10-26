@@ -23,7 +23,7 @@ function listView(root, { index, graph }, ctx) {
           <img src="/${h.sigil}" alt="" width="200" height="200" />
           <span class="sigil-name">${esc(h.name)}</span>
           <span class="sigil-words">« ${esc(h.words)} »</span>
-          <span class="sigil-seat label">${esc(graph.places.get(h.seat)?.name ?? '')}</span>
+          <span class="sigil-seat label">${esc(h.seatName ?? graph.places.get(h.seat)?.name ?? '')}</span>
         </a></li>`,
       )
       .join('')}</ul>
@@ -58,7 +58,7 @@ function pageView(root, house, data, ctx) {
         <h1 id="house-title">${esc(house.name)}</h1>
         <p class="house-words">« ${esc(house.words)} »</p>
         <dl class="house-facts">
-          <div><dt>Siège</dt><dd>${seat ? (step ? `<a href="/carte/${step.slug}">${esc(seat.name)}</a>` : esc(seat.name)) : '—'}</dd></div>
+          <div><dt>Siège</dt><dd>${house.seatName ? esc(house.seatName) : seat ? (step ? `<a href="/carte/${step.slug}">${esc(seat.name)}</a>` : esc(seat.name)) : '—'}</dd></div>
           <div><dt>Région</dt><dd>${esc(house.region)}</dd></div>
           <div><dt>Suzerain</dt><dd>${overlord ? `<a href="/maisons/${overlord.to}">${esc(graph.houses.get(overlord.to)?.name ?? overlord.to)}</a>` : 'Aucun'}</dd></div>
           ${house.founded ? `<div><dt>Fondation</dt><dd>${esc(house.founded)}</dd></div>` : ''}

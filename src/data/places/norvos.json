@@ -2,13 +2,19 @@
   "slug": "norvos",
   "name": "Norvos",
   "kind": "cité",
-  "region": "Cité libre",
+  "region": "Les cités libres",
   "continent": "essos",
+  "coords": { "x": 1010, "y": 610 },
+  "summary": "Cité libre des collines, gouvernée par des prêtres barbus et rythmée par ses cloches.",
   "description": [
-    "Norvos est une cité de l’intérieur d’Essos, marquée par ses prêtres et par une vie urbaine différente de celle des grands ports. Sa présence rappelle que l’identité des Cités libres ne peut pas être réduite au commerce maritime."
+    "Norvos est bâtie sur une colline et à son pied, au bord de la Noyne. La ville haute appartient aux prêtres barbus, qui gouvernent la cité ; la ville basse, aux marchands et aux artisans. Trois grandes cloches, chacune avec sa voix et son nom, règlent la vie de tous : on se lève, on travaille et on prie au son des cloches.",
+    "Ses gardes manient de longues haches et sont connus pour leur discipline."
   ],
-  "history": [],
+  "history": [
+    "Norvos est l’une des cités libres fondées sous l’influence de Valyria, mais elle aurait été établie par des dissidents religieux. Elle est restée plus austère que ses voisines, méfiante envers les plaisirs du Sud et des côtes."
+  ],
   "events": [],
-  "image": "images/braavos.webp",
-  "sources": []
+  "image": null,
+  "_doute": "Norvos n’apparaît pas à l’écran : aucun événement de la série n’y est situé.",
+  "sources": [{ "label": "Wiki of Westeros — Norvos", "url": "https://gameofthrones.fandom.com/wiki/Norvos" }]
 }

@@ -1,27 +1,34 @@
 {
   "slug": "langue-qartheenne",
   "rubric": "langues",
-  "name": "Le qarthien",
-  "kicker": "Essos · Qarth",
-  "lead": "Une autre voix du vaste continent oriental.",
+  "name": "Langue qarthéenne",
+  "kicker": "La langue de Qarth",
+  "lead": "Langue de la cité de Qarth, porte des mers de l’Orient, entre le désert Rouge et la mer de Jade.",
   "body": [
-    "Qarth possède une identité urbaine et linguistique distincte, située sur des routes commerciales qui relient plusieurs mondes. La cité ne relève ni de la culture dothraki ni de celle des Sept Couronnes.",
-    "Les informations disponibles sur sa langue sont moins développées que pour le dothraki et le haut valyrien de la télévision. Cette fiche indique sa présence dans l’univers sans inventer de grammaire ni de phrases."
+    "Qarth se proclame la plus grande cité qui fut ou qui sera. Ses habitants parlent leur propre langue, que l’on entend dans les marchés et les palais, mais les marchands qui commercent avec l’ouest maîtrisent souvent le valyrien et la langue commune.",
+    "La langue de Qarth est celle d’une élite raffinée et d’une ville fermée : les étrangers n’y sont admis que s’ils ont été invités, et seul un citoyen peut offrir l’hospitalité. Les grandes familles marchandes, les Treize, et les conjurateurs de la Maison des Immortels y règlent leurs comptes à mots couverts.",
+    "On sait peu de chose de sa grammaire ; elle reste, pour les visiteurs, la langue du mystère et de l’opulence."
   ],
   "facts": [
     {
-      "label": "Où la retrouver",
+      "label": "Où l’entendre",
       "value": "Qarth · routes maritimes d’Essos"
     }
   ],
   "terms": [],
-  "places": [],
-  "characters": [],
+  "places": [
+    "qarth"
+  ],
+  "characters": [
+    "xaro-xhoan-daxos",
+    "pyat-pree"
+  ],
   "image": null,
   "sources": [
     {
       "label": "A Wiki of Ice and Fire",
       "url": "https://awoiaf.westeros.org/index.php/Languages"
     }
-  ]
+  ],
+  "_doute": "Langue à peine évoquée dans la série."
 }

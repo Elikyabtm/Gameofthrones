@@ -1,0 +1,26 @@
+{
+  "slug": "fort-terreur",
+  "name": "Fort-Terreur",
+  "kind": "château",
+  "region": "Le Nord",
+  "continent": "westeros",
+  "coords": { "x": 560, "y": 372 },
+  "summary": "Siège de la maison Bolton, sur une colline de l’est du Nord.",
+  "house": "bolton",
+  "rulers": [{ "text": "Roose Bolton" }, { "text": "Ramsay Bolton", "s": 6 }],
+  "description": [
+    "Fort-Terreur se dresse sur une colline au-dessus de la rivière Pleurs, dans l’est du Nord. C’est un château massif, sans grâce, aux murs épais et aux tours trapues, conçu pour résister aux sièges plus que pour accueillir des hôtes. Ses salles sont froides, ses cachots profonds, et les visiteurs en parlent à voix basse.",
+    "Le château doit sa réputation à son blason : un homme écorché, cloué sur une croix. Les Bolton ont longtemps pratiqué l’écorchement de leurs ennemis, et l’on dit que la coutume a été interdite par les Stark, sans que tout le monde y renonce vraiment. Dans les chenils, des chiens de chasse sont entretenus avec plus de soin que les prisonniers."
+  ],
+  "history": [
+    "Pendant des millénaires, les Bolton ont été les rivaux des Stark, et parfois leurs égaux. Les récits parlent de guerres sanglantes entre Fort-Terreur et Winterfell, et de rois du Nord dont les peaux auraient servi de manteaux. Les Bolton finirent par plier le genou et devinrent les bannerets des Stark, mais la vieille rivalité n’a jamais tout à fait disparu.",
+    "Au début de l’histoire, Roose Bolton gouverne Fort-Terreur avec une politesse glaçante. Il a un fils bâtard, Ramsay, élevé loin de la cour, dont la réputation commence à circuler dans le Nord."
+  ],
+  "events": [
+    { "s": 3, "text": "Theon Greyjoy y est emprisonné et torturé par Ramsay." },
+    { "s": 4, "text": "Yara Greyjoy tente de libérer son frère ; Ramsay est légitimé par son père." },
+    { "s": 6, "text": "Ramsay, devenu seigneur, y règne après le meurtre de son père." }
+  ],
+  "image": null,
+  "sources": [{ "label": "Wiki of Westeros — Dreadfort", "url": "https://gameofthrones.fandom.com/wiki/Dreadfort" }]
+}

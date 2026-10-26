@@ -1,0 +1,22 @@
+{
+  "slug": "desert-rouge",
+  "name": "Le désert Rouge",
+  "kind": "région",
+  "region": "L’Est",
+  "continent": "essos",
+  "coords": { "x": 2080, "y": 1080 },
+  "summary": "Désert de poussière rouge et de puits empoisonnés entre Lhazar et Qarth.",
+  "description": [
+    "Le désert Rouge est une étendue de terre ocre, de rochers et de dunes, où l’eau est si rare que l’on se bat pour un puits. Le soleil y frappe sans pitié le jour, le froid tombe brutalement la nuit. Des villes mortes y dorment sous le sable, et les rares caravanes le traversent en comptant leurs bêtes.",
+    "Même les Dothraki l’évitent : on dit qu’un cheval y meurt avant d’en voir la fin."
+  ],
+  "history": [
+    "Selon les légendes, le désert était autrefois un pays fertile, ruiné par une guerre ou une malédiction dont on ne garde que le souvenir confus. Seules les routes vers Qarth le traversent encore."
+  ],
+  "events": [
+    { "s": 2, "text": "Daenerys et ses fidèles traversent le désert ; Rakharo est tué par un khal ennemi." },
+    { "s": 2, "text": "Les éclaireurs reviennent avec une invitation de Qarth." }
+  ],
+  "image": null,
+  "sources": [{ "label": "Wiki of Westeros — Red Waste", "url": "https://gameofthrones.fandom.com/wiki/Red_Waste" }]
+}

@@ -1,16 +1,69 @@
 {
   "slug": "grand-etalon",
   "rubric": "croyances",
-  "name": "Le Grand Étalon",
-  "kicker": "Dothraki · ciel · cheval",
-  "lead": "Les croyances dothraki accordent au cheval une place centrale, jusque dans leur représentation du ciel et du destin.",
+  "name": "Grand Étalon",
+  "kicker": "Le dieu des Dothrakis",
+  "lead": "Dieu-cheval des Dothrakis, dont ils attendent la venue sous la forme d’un khal conquérant.",
   "body": [
-    "Les croyances dothraki accordent au cheval une place centrale, jusque dans leur représentation du ciel et du destin. Vaes Dothrak et les dosh khaleen donnent une forme concrète à cette dimension sacrée de la vie du khalasar."
+    "Les Dothrakis adorent le Grand Étalon, un dieu-cheval qui règne sur le ciel. Les étoiles sont pour eux des chevaux de feu, et les guerriers morts au combat rejoignent le khalasar céleste pour chevaucher éternellement dans la nuit.",
+    "Le centre de leur foi est Vaes Dothrak, la seule ville des Dothrakis, au pied de la Mère des Montagnes. Les armes y sont interdites et le sang ne doit pas y être versé. Les veuves des khals y finissent leur vie dans le conseil des dosh khaleen, qui interprètent les signes et les prophéties.",
+    "La plus importante de ces prophéties annonce l’Étalon qui montera le monde : un khal né de la reine des Dothrakis, qui réunira tous les khalasars et conquerra la terre jusqu’à ses bords. Les dosh khaleen guettent chaque naissance royale à la recherche de ce signe.",
+    "Pour les Dothrakis, le cheval est tout : leur nourriture, leur monnaie, leur fierté. Une femme enceinte d’un futur khal mange le cœur cru d’un étalon lors d’une cérémonie publique ; si elle le termine sans vomir, l’enfant naîtra fort."
   ],
-  "facts": [],
-  "terms": [],
-  "places": [],
-  "characters": [],
+  "inTheSeries": [
+    {
+      "s": 1,
+      "title": "Saison 1 — Le cœur de l’étalon",
+      "paragraphs": [
+        "À Vaes Dothrak, Daenerys mange le cœur cru d’un étalon. Les dosh khaleen annoncent que son fils, Rhaego, sera l’Étalon qui montera le monde. L’enfant meurt avant de naître."
+      ]
+    },
+    {
+      "s": 6,
+      "title": "Saison 6 — Le temple des dosh khaleen",
+      "paragraphs": [
+        "Daenerys, retenue à Vaes Dothrak, brûle le temple avec les khals qui s’y sont réunis."
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "label": "Fidèles",
+      "value": "Les Dothrakis"
+    },
+    {
+      "label": "Lieu saint",
+      "value": "Vaes Dothrak"
+    },
+    {
+      "label": "Prophétie",
+      "value": "L’Étalon qui montera le monde"
+    }
+  ],
+  "terms": [
+    {
+      "term": "Dosh khaleen",
+      "def": "Conseil des veuves de khals, à Vaes Dothrak."
+    },
+    {
+      "term": "Khalasar",
+      "def": "Horde menée par un khal."
+    }
+  ],
+  "places": [
+    "vaes-dothrak",
+    "mer-dothrak"
+  ],
+  "characters": [
+    "daenerys-targaryen",
+    "khal-drogo",
+    "mirri-maz-duur"
+  ],
   "image": "images/dothraki.webp",
-  "sources": []
+  "sources": [
+    {
+      "label": "Wiki of Westeros — Great Stallion",
+      "url": "https://gameofthrones.fandom.com/wiki/Great_Stallion"
+    }
+  ]
 }

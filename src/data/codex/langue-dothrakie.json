@@ -1,35 +1,68 @@
 {
   "slug": "langue-dothrakie",
   "rubric": "langues",
-  "name": "Le dothraki",
-  "kicker": "Essos · La mer Dothrak",
-  "lead": "Une langue de la steppe, développée pour la série.",
+  "name": "Langue dothrakie",
+  "kicker": "La langue des cavaliers",
+  "featured": true,
+  "lead": "Langue des khalasars, sans écriture, riche en mots pour les chevaux et pauvre en mots pour la politesse.",
   "body": [
-    "La langue des Dothraki accompagne leur vie nomade et leur culture du cheval. Le vocabulaire contient des titres et des notions que la traduction par « roi », « reine » ou « armée » simplifie trop vite.",
-    "David J. Peterson a développé cette langue à partir des éléments donnés par George R. R. Martin. Son travail ne se limite pas à une liste de sons : il comprend une grammaire et des usages qui permettent de construire des dialogues."
+    "Les Dothrakis n’écrivent pas. Leur langue se transmet de bouche à oreille, de khalasar en khalasar, à travers la mer Dothrak. Elle a des dizaines de mots pour décrire la robe, l’allure ou le caractère d’un cheval, mais aucun pour dire « merci » : un Dothraki ne remercie pas, il prend ou il donne.",
+    "Les étrangers qui l’apprennent découvrent un monde. Pour dire qu’une chose est certaine, on dit « c’est connu ». Le mot pour « étoile » désigne aussi un cheval de feu. La langue reflète une culture où la force, la parole donnée et le cheval comptent plus que tout.",
+    "La langue entendue dans la série a été construite par le linguiste David J. Peterson pour la série, à partir de quelques dizaines de mots des romans. Elle possède aujourd’hui une grammaire complète et plusieurs milliers de mots."
+  ],
+  "inTheSeries": [
+    {
+      "s": 1,
+      "title": "Saison 1 — Khaleesi",
+      "paragraphs": [
+        "Daenerys apprend le dothraki avec ses servantes pour parler à son mari, Khal Drogo, qui ne connaît pas la langue commune."
+      ]
+    },
+    {
+      "s": 6,
+      "title": "Saison 6 — Le discours",
+      "paragraphs": [
+        "Daenerys s’adresse en dothraki à tous les khalasars réunis."
+      ]
+    }
   ],
   "facts": [
     {
-      "label": "Où la retrouver",
-      "value": "Khalasars · Vaes Dothrak"
+      "label": "Où l’entendre",
+      "value": "Mer Dothrak · Vaes Dothrak"
+    },
+    {
+      "label": "Écriture",
+      "value": "Aucune"
+    },
+    {
+      "label": "Créateur pour la série",
+      "value": "David J. Peterson"
     }
   ],
   "terms": [
     {
-      "term": "M’athchomaroon",
-      "def": "Salutation exprimant le respect."
+      "term": "Khaleesi",
+      "def": "Épouse du khal."
     },
     {
       "term": "Khal",
       "def": "Chef d’un khalasar."
     },
     {
-      "term": "Khaleesi",
-      "def": "Titre de l’épouse d’un khal."
+      "term": "Arakh",
+      "def": "Sabre courbe des guerriers."
     }
   ],
-  "places": [],
-  "characters": [],
+  "places": [
+    "mer-dothrak",
+    "vaes-dothrak"
+  ],
+  "characters": [
+    "daenerys-targaryen",
+    "khal-drogo",
+    "rakharo"
+  ],
   "image": null,
   "sources": [
     {

@@ -1,14 +1,20 @@
 {
   "slug": "tyrosh",
   "name": "Tyrosh",
-  "kind": "cité",
-  "region": "Cité libre",
+  "kind": "île",
+  "region": "Les cités libres",
   "continent": "essos",
+  "coords": { "x": 707, "y": 1014 },
+  "summary": "Cité libre insulaire des Degrés de Pierre, connue pour ses teintures et ses mercenaires.",
   "description": [
-    "Tyrosh est une puissance insulaire située sur les routes maritimes entre l’ouest d’Essos et les degrés de Pierre. Ses échanges et ses rivalités l’inscrivent dans un ensemble de cités qui s’allient et s’opposent sans relever d’une autorité commune."
+    "Tyrosh occupe une île à l’extrémité des Degrés de Pierre, l’archipel qui relie Westeros et Essos. Ses habitants teignent leurs cheveux et leurs barbes de couleurs vives, vert, bleu ou pourpre, et ses teinturiers fournissent tout le monde en écarlate et en indigo.",
+    "La cité est riche, vaniteuse et redoutée pour ses compagnies de mercenaires. Elle contrôle une bonne part du trafic entre la mer Étroite et la mer d’Été."
   ],
-  "history": [],
+  "history": [
+    "Ancienne colonie valyrienne, Tyrosh a souvent tenté de dominer les Degrés de Pierre, au détriment de Lys, de Myr et même de Dorne. Les seigneurs de Westeros ont parfois combattu ses archontes pour garder le passage ouvert."
+  ],
   "events": [],
-  "image": "images/braavos.webp",
-  "sources": []
+  "image": null,
+  "_doute": "Tyrosh n’apparaît pas à l’écran : aucun événement de la série n’y est situé.",
+  "sources": [{ "label": "Wiki of Westeros — Tyrosh", "url": "https://gameofthrones.fandom.com/wiki/Tyrosh" }]
 }

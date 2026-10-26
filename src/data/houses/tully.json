@@ -1,17 +1,166 @@
 {
   "slug": "tully",
   "name": "Maison Tully",
-  "words": "Famille, devoir, honneur.",
+  "words": "Famille, devoir, honneur",
   "sigil": "sigils/tully.svg",
-  "sigilDescription": "Une truite argentée sur un champ rouge et bleu ondé.",
-  "sigilCredit": null,
+  "sigilDescription": "Une truite d’argent bondissant sur champ ondé de bleu et de rouge",
+  "sigilCredit": "Contributeurs de A Wiki of Ice and Fire, licence CC BY-SA 3.0",
+  "color": "#5f86a8",
   "seat": "vivesaigues",
   "region": "Le Conflans",
-  "history": [
-    "À travers Catelyn et Lysa, les Tully relient le Conflans au Nord et au Val. Vivesaigues occupe un espace de passage, exposé aux mouvements des armées. La devise familiale devient un ensemble d’obligations qui peuvent se soutenir ou se contredire lorsque les alliances sont mises à l’épreuve."
+  "summary": "Gouverneurs du Conflans, région de rivières et de champs que toutes les guerres traversent.",
+  "overlord": [
+    {
+      "to": "baratheon",
+      "until": 2
+    },
+    {
+      "to": "stark",
+      "s": 2,
+      "until": 3
+    },
+    {
+      "to": "baratheon",
+      "s": 4,
+      "until": 7
+    }
   ],
-  "inTheSeries": [],
-  "figures": [],
-  "members": [],
-  "sources": []
+  "vassals": [
+    "frey",
+    "Mallister",
+    "Blackwood",
+    "Bracken"
+  ],
+  "founded": "À l’arrivée des Andals",
+  "history": [
+    "Les Tully sont une maison andale, installée dans le Conflans depuis des milliers d’années. Ils n’en furent jamais les rois : la région, sans montagnes ni frontières naturelles, a toujours été conquise par ses voisins, les rois de l’Orage, puis les Fer-nés. Quand Aegon débarqua, Edmyn Tully fut l’un des premiers seigneurs à se rallier à lui ; en récompense, il reçut le gouvernement du Conflans, arraché au dernier roi des Fer-nés, brûlé dans Harrenhal.",
+    "Le château de Vivesaigues est bâti au confluent de deux rivières, la Ruffurque et la Culbute. Quand on lève ses vannes, le fossé se remplit et la forteresse devient une île. C’est l’une des places les plus difficiles à prendre de Westeros, ce qui n’empêche pas les armées de ravager les champs tout autour à chaque conflit.",
+    "Les Tully ont la réputation d’être fidèles à leur parole et à leur famille, comme l’annonce leur devise : la famille vient d’abord, puis le devoir, et seulement ensuite l’honneur. Leurs funérailles ont lieu sur l’eau : on place le mort dans une barque que l’on pousse sur la rivière, puis un archer y met le feu d’une flèche enflammée.",
+    "Lord Hoster Tully a construit sa puissance par les mariages. Il a donné sa fille aînée, Catelyn, à Eddard Stark, et la cadette, Lysa, à Jon Arryn, liant ainsi le Conflans au Nord et au Val au moment de la Rébellion. Son fils Edmure, héritier sans grand talent, et son frère Brynden, le Silure, un soldat célèbre et un éternel célibataire, complètent la famille.",
+    "Cette position au centre du royaume est une malédiction autant qu’une richesse. Toutes les routes passent par le Conflans, et toutes les guerres aussi : celle des Cinq Rois commence par l’incendie de ses villages."
+  ],
+  "inTheSeries": [
+    {
+      "s": 1,
+      "title": "Saison 1 — La guerre dans le Conflans",
+      "paragraphs": [
+        "Les Lannister ravagent le Conflans pour punir l’arrestation de Tyrion. Robb Stark libère Vivesaigues et capture Jaime."
+      ]
+    },
+    {
+      "s": 3,
+      "title": "Saison 3 — Funérailles et noces",
+      "paragraphs": [
+        "Lord Hoster meurt. Edmure épouse Roslin Frey aux Jumeaux pour réparer l’affront de Robb ; la fête se termine en massacre et Edmure est fait prisonnier."
+      ]
+    },
+    {
+      "s": 6,
+      "title": "Saison 6 — Le siège de Vivesaigues",
+      "paragraphs": [
+        "Le Silure tient Vivesaigues contre les Frey et les Lannister. Jaime obtient la reddition du château en menaçant Edmure ; Brynden meurt en combattant."
+      ]
+    },
+    {
+      "s": 8,
+      "title": "Saison 8 — Un siège au conseil",
+      "paragraphs": [
+        "Edmure, libéré, se présente au conseil qui doit choisir le nouveau roi."
+      ]
+    }
+  ],
+  "figures": [
+    "Edmyn Tully"
+  ],
+  "members": [
+    "hoster-tully",
+    "brynden-tully",
+    "edmure-tully",
+    "catelyn-stark",
+    "lysa-arryn"
+  ],
+  "tree": {
+    "people": [
+      {
+        "id": "hoster-tully",
+        "character": "hoster-tully"
+      },
+      {
+        "id": "minisa-tully",
+        "name": "Minisa Tully",
+        "deadBefore": true,
+        "portrait": "images/personnages/minisa-tully.webp"
+      },
+      {
+        "id": "brynden-tully",
+        "character": "brynden-tully"
+      },
+      {
+        "id": "catelyn-stark",
+        "character": "catelyn-stark",
+        "house": "stark"
+      },
+      {
+        "id": "eddard-stark",
+        "character": "eddard-stark",
+        "house": "stark"
+      },
+      {
+        "id": "lysa-arryn",
+        "character": "lysa-arryn",
+        "house": "arryn"
+      },
+      {
+        "id": "jon-arryn",
+        "name": "Jon Arryn",
+        "house": "arryn",
+        "deadBefore": true,
+        "portrait": "images/personnages/jon-arryn.webp"
+      },
+      {
+        "id": "edmure-tully",
+        "character": "edmure-tully"
+      },
+      {
+        "id": "roslin-frey",
+        "name": "Roslin Frey",
+        "house": "frey",
+        "s": 3,
+        "portrait": "images/personnages/roslin-frey.webp"
+      }
+    ],
+    "unions": [
+      {
+        "a": "hoster-tully",
+        "b": "minisa-tully",
+        "children": [
+          "catelyn-stark",
+          "lysa-arryn",
+          "edmure-tully"
+        ]
+      },
+      {
+        "a": "eddard-stark",
+        "b": "catelyn-stark",
+        "children": []
+      },
+      {
+        "a": "jon-arryn",
+        "b": "lysa-arryn",
+        "children": []
+      },
+      {
+        "a": "edmure-tully",
+        "b": "roslin-frey",
+        "children": [],
+        "s": 3
+      }
+    ]
+  },
+  "sources": [
+    {
+      "label": "Wiki of Westeros — House Tully",
+      "url": "https://gameofthrones.fandom.com/wiki/House_Tully"
+    }
+  ]
 }

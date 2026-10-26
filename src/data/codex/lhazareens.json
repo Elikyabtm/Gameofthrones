@@ -1,21 +1,31 @@
 {
   "slug": "lhazareens",
   "rubric": "peuples",
-  "name": "Les Lhazaréens",
-  "kicker": "Essos · Lhazar",
-  "lead": "Des communautés pastorales dont le récit rappelle le coût des conquêtes.",
+  "name": "Lhazaréens",
+  "kicker": "Les hommes-agneaux",
+  "lead": "Peuple de bergers pacifiques au sud de la mer Dothrak, victime régulière des razzias dothrakies.",
   "body": [
-    "Lhazar se trouve au sud-est de la mer Dothrak. Les communautés qui y vivent sont associées à l’élevage et au culte du Grand Pâtre. Elles subissent les raids de groupes plus puissants, qui emportent des personnes réduites en esclavage.",
-    "Mirri Maz Duur donne un visage à ces populations. Son apparition déplace le regard : ce qui est raconté comme un triomphe par les conquérants peut être une catastrophe pour ceux qui en subissent le passage."
+    "Les Lhazaréens vivent dans les collines au sud de la mer Dothrak, où ils élèvent des moutons et cultivent la terre. Ils adorent le Grand Berger et pensent que tous les hommes sont un seul troupeau.",
+    "Cette philosophie de paix leur vaut le mépris des Dothrakis, qui les appellent « hommes-agneaux » et ravagent régulièrement leurs villages pour les réduire en esclavage. Les Lhazaréens n’ont pas d’armée pour se défendre.",
+    "Leurs prêtresses, les maegi, sont aussi des guérisseuses, et l’on prétend que certaines connaissent une magie dangereuse."
+  ],
+  "inTheSeries": [
+    {
+      "s": 1,
+      "title": "Saison 1 — La vengeance de Mirri",
+      "paragraphs": [
+        "Après le pillage d’un village lhazaréen, Daenerys protège la prêtresse Mirri Maz Duur. Celle-ci soigne Drogo par la magie de sang, au prix de la vie de l’enfant de Daenerys."
+      ]
+    }
   ],
   "facts": [
     {
-      "label": "Langue",
-      "value": "Lhazaréen"
+      "label": "Territoire",
+      "value": "Lhazar"
     },
     {
-      "label": "Visages & repères",
-      "value": "Mirri Maz Duur"
+      "label": "Dieu",
+      "value": "Le Grand Berger"
     }
   ],
   "terms": [
@@ -32,13 +42,17 @@
       "def": "Grand Pâtre"
     }
   ],
-  "places": [],
-  "characters": [],
+  "places": [
+    "lhazar"
+  ],
+  "characters": [
+    "mirri-maz-duur"
+  ],
   "image": "images/lhazareens.webp",
   "sources": [
     {
-      "label": "A Wiki of Ice and Fire",
-      "url": "https://awoiaf.westeros.org/index.php/Lhazareen"
+      "label": "Wiki of Westeros — Lhazar",
+      "url": "https://gameofthrones.fandom.com/wiki/Lhazar"
     }
   ]
 }

@@ -4,15 +4,35 @@
   "kind": "cité",
   "region": "Les Terres de la Couronne",
   "continent": "westeros",
-  "coords": {
-    "x": 475.67,
-    "y": 780.73
-  },
-  "description": [
-    "La capitale des Sept Couronnes. Le Donjon Rouge domine la ville ; sous ses voûtes, le Trône de Fer concentre les ambitions."
+  "coords": { "x": 475.67, "y": 780.73 },
+  "summary": "Capitale des Sept Couronnes, sur trois collines au bord de la Néra, siège du Trône de Fer.",
+  "rulers": [
+    { "text": "Robert Baratheon" },
+    { "text": "Joffrey Baratheon", "s": 1 },
+    { "text": "Tommen Baratheon", "s": 4 },
+    { "text": "Cersei Lannister", "s": 6 },
+    { "text": "Bran Stark, élu par les seigneurs", "s": 8 }
   ],
-  "history": [],
-  "events": [],
-  "image": null,
-  "sources": []
+  "description": [
+    "Port-Réal est la plus grande ville de Westeros : un demi-million d’habitants serrés derrière des remparts, sur trois collines qui dominent la baie de la Néra. Sur la colline d’Aegon s’élève le Donjon Rouge, château de pierre rouge où se trouvent la salle du trône et les appartements royaux. Sur la colline de Visenya, le grand septuor de Baelor et ses sept tours de cristal. Sur la troisième, la colline de Rhaenys, les ruines de Fosse-aux-Dragons, l’ancien dôme où vivaient les dragons des rois.",
+    "Entre les collines s’entassent des marchés, des ruelles, des tavernes, des bordels et les quartiers misérables du Culpucier. La ville sent fort, surtout l’été, et sa population passe facilement de l’acclamation à l’émeute. Sous le Donjon Rouge, des souterrains et des passages secrets, que bien peu connaissent, relient le château à la ville et à la mer."
+  ],
+  "history": [
+    "Port-Réal a été fondée il y a moins de trois siècles, à l’endroit où Aegon Targaryen a débarqué pour conquérir Westeros. Une simple palissade est devenue une citadelle, puis une capitale. Le Trône de Fer y a été forgé avec les épées des ennemis vaincus, fondues par le feu de Balerion, le plus grand des dragons.",
+    "Pendant la Rébellion, la ville a été livrée au pillage par l’armée Lannister, entrée par trahison. C’est là que Jaime Lannister a tué le roi Aerys, et que les enfants du prince Rhaegar ont été massacrés. Le roi Aerys avait fait cacher sous la ville des réserves de feu grégeois, dont on n’a jamais retrouvé toutes les caches."
+  ],
+  "events": [
+    { "s": 1, "text": "Eddard Stark y est nommé Main du Roi, puis exécuté devant le grand septuor." },
+    { "s": 2, "text": "La bataille de la Néra : le feu grégeois détruit la flotte de Stannis." },
+    { "s": 4, "text": "Le roi Joffrey meurt empoisonné le jour de ses noces." },
+    { "s": 5, "text": "La Foi militante prend le pouvoir ; Cersei fait sa marche d’expiation." },
+    { "s": 6, "text": "Le grand septuor de Baelor explose ; Cersei est couronnée reine." },
+    { "s": 7, "text": "La rencontre de Fosse-aux-Dragons réunit les rivaux face à un mort." },
+    { "s": 8, "text": "Daenerys incendie la ville après sa reddition ; le Trône de Fer est fondu." }
+  ],
+  "image": "images/couronne.webp",
+  "sources": [
+    { "label": "Wiki of Westeros — King’s Landing", "url": "https://gameofthrones.fandom.com/wiki/King%27s_Landing" },
+    { "label": "A Wiki of Ice and Fire — King’s Landing", "url": "https://awoiaf.westeros.org/index.php/King%27s_Landing" }
+  ]
 }

@@ -1,16 +1,75 @@
 {
   "slug": "foi-des-sept",
   "rubric": "croyances",
-  "name": "La Foi des Sept",
-  "kicker": "Septs · septons · septas",
-  "lead": "Les Sept sont les sept aspects d’une même divinité : le Père, la Mère, le Guerrier, la Jouvencelle, le Ferrant, l’Aïeule et l’Étranger.",
+  "name": "Foi des Sept",
+  "kicker": "La religion du Sud",
+  "featured": true,
+  "lead": "Religion majoritaire de Westeros, apportée par les Andals, qui honore un dieu unique aux sept visages.",
   "body": [
-    "Les Sept sont les sept aspects d’une même divinité : le Père, la Mère, le Guerrier, la Jouvencelle, le Ferrant, l’Aïeule et l’Étranger. Cette religion possède des lieux, des ministres et une autorité institutionnelle qui peuvent entrer en conflit avec les souverains."
+    "La Foi des Sept est venue d’Essos avec les Andals, il y a environ six mille ans. Elle enseigne qu’il n’existe qu’un seul dieu, qui se manifeste sous sept aspects : le Père, qui juge ; la Mère, qui protège ; le Guerrier, qui donne le courage ; la Jouvencelle, qui veille sur l’innocence ; la Forgeronne, qui donne la force de travailler ; l’Aïeule, qui guide ; et l’Étranger, qui représente la mort et l’inconnu.",
+    "On prie dans des septuaires, des temples à sept côtés où chaque visage a son autel. Les prêtres s’appellent septons et les prêtresses septas ; leur chef est le Grand Septon, qui siège au grand septuor de Baelor à Port-Réal. Le livre saint, l’Étoile à sept branches, guide les fidèles. Les chevaliers sont oints aux sept huiles, ce qui explique qu’il n’y ait presque pas de chevaliers dans le Nord.",
+    "La Foi a longtemps eu sa propre force armée. Les Targaryen, dont les mariages entre frères et sœurs scandalisaient le clergé, ont dû la combattre avant de la désarmer. Depuis, elle est soumise au Trône de Fer et le roi est couronné par le Grand Septon.",
+    "La Foi domine le Sud, du Conflans à Dorne. Les mariages se célèbrent sous le regard des Sept ; les fidèles jurent par les Sept ; et le pardon suppose la confession et la pénitence."
   ],
-  "facts": [],
-  "terms": [],
-  "places": [],
-  "characters": [],
+  "inTheSeries": [
+    {
+      "s": 5,
+      "title": "Saison 5 — Le retour des Moineaux",
+      "paragraphs": [
+        "Cersei réarme la Foi en accordant au Grand Moineau le droit de reformer la Foi militante."
+      ]
+    },
+    {
+      "s": 6,
+      "title": "Saison 6 — Le feu grégeois",
+      "paragraphs": [
+        "Le grand septuor de Baelor explose pendant le procès de Loras et de Margaery, sur l’ordre de Cersei."
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "label": "Fidèles",
+      "value": "La majorité du Sud de Westeros"
+    },
+    {
+      "label": "Chef",
+      "value": "Le Grand Septon"
+    },
+    {
+      "label": "Temple principal",
+      "value": "Grand septuor de Baelor, Port-Réal"
+    }
+  ],
+  "terms": [
+    {
+      "term": "Septuaire",
+      "def": "Temple à sept côtés."
+    },
+    {
+      "term": "Septa",
+      "def": "Prêtresse, souvent éducatrice des filles nobles."
+    },
+    {
+      "term": "L’Étranger",
+      "def": "Aspect du dieu qui incarne la mort."
+    }
+  ],
+  "places": [
+    "port-real",
+    "villevieille"
+  ],
+  "characters": [
+    "grand-moineau",
+    "septa-unella",
+    "cersei-lannister",
+    "margaery-tyrell"
+  ],
   "image": "images/foi-des-sept.webp",
-  "sources": []
+  "sources": [
+    {
+      "label": "Wiki of Westeros — Faith of the Seven",
+      "url": "https://gameofthrones.fandom.com/wiki/Faith_of_the_Seven"
+    }
+  ]
 }

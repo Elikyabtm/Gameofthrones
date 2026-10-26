@@ -1,18 +1,23 @@
 {
   "slug": "castral-roc",
   "name": "Castral Roc",
-  "kind": "cité",
-  "region": "Les Terres de l’Ouest",
+  "kind": "château",
+  "region": "L’Ouest",
   "continent": "westeros",
-  "coords": {
-    "x": 237.64,
-    "y": 754.44
-  },
+  "coords": { "x": 237.64, "y": 754.44 },
+  "summary": "Forteresse creusée dans une montagne au bord de la mer, siège et coffre-fort des Lannister.",
+  "house": "lannister",
+  "rulers": [{ "text": "Tywin Lannister" }, { "text": "Cersei, par délégation", "s": 4 }, { "text": "Les Immaculés, brièvement", "s": 7 }],
   "description": [
-    "Siège ancestral des Lannister, ce bastion de l’Ouest incarne leur richesse et leur influence sur les affaires du royaume."
+    "Castral Roc est une montagne de pierre dressée au-dessus de la mer du Crépuscule, creusée de l’intérieur comme une ruche. On y compte des milliers de salles, des escaliers, des cours intérieures, des écuries et des donjons, tous taillés dans le roc, et des galeries qui s’enfoncent jusqu’aux mines d’or. Vu de la mer, on dirait un lion couché.",
+    "Sous le château, des égouts et des tunnels anciens mènent jusqu’au rivage. Tyrion, qui en a dessiné les plans dans sa jeunesse, est l’un des rares à les connaître."
   ],
-  "history": [],
-  "events": [],
+  "history": [
+    "Selon la légende, la famille Lannister descend d’un héros astucieux, Lann le Futé, qui aurait chassé les anciens seigneurs du Roc par la ruse. Les Lannister furent rois du Roc jusqu’à la conquête d’Aegon. Ils doivent leur puissance à l’or de leurs mines, qui finance aussi bien des armées que des alliances. Tywin Lannister y a écrasé, dans sa jeunesse, une maison vassale rebelle avec une telle férocité qu’on en a fait une chanson : « Les Pluies de Castamere »."
+  ],
+  "events": [
+    { "s": 7, "text": "Les Immaculés prennent le château par les égouts, mais le trouvent presque vide." }
+  ],
   "image": null,
-  "sources": []
+  "sources": [{ "label": "Wiki of Westeros — Casterly Rock", "url": "https://gameofthrones.fandom.com/wiki/Casterly_Rock" }]
 }
