@@ -2,38 +2,115 @@
   "slug": "selyse-baratheon",
   "name": "Selyse Baratheon",
   "short": "Selyse",
-  "aliases": [{ "text": "Selyse Florent" }],
+  "aliases": [
+    {
+      "text": "Selyse Florent"
+    }
+  ],
   "house": "baratheon",
   "region": "Peyredragon",
   "camp": "westeros",
-  "allegiances": [{ "to": "baratheon" }],
+  "allegiances": [
+    {
+      "to": "baratheon"
+    }
+  ],
   "origin": "peyredragon",
-  "titles": [{ "text": "Dame de Peyredragon" }],
+  "titles": [
+    {
+      "text": "Dame de Peyredragon"
+    }
+  ],
   "actor": "Tara Fitzgerald",
   "firstSeason": 3,
   "status": [
-    { "s": 3, "value": "vivant" },
-    { "s": 5, "value": "mort", "note": "S’est pendue après le sacrifice de sa fille" }
+    {
+      "s": 3,
+      "value": "vivant"
+    },
+    {
+      "s": 5,
+      "value": "mort",
+      "note": "S’est pendue après le sacrifice de sa fille"
+    }
   ],
   "summary": "Née Florent, épouse de Stannis Baratheon, Selyse est une femme austère et fervente. Sa foi dans le Maître de la Lumière accompagne celle de son époux.",
   "bio": [
-    { "s": 3, "title": "Saison 3 — La recluse", "paragraphs": ["À Peyredragon, Selyse vit entre les bocaux où elle conserve ses fils mort-nés et une foi absolue dans le Maître de la Lumière. Elle traite sa fille Shireen avec froideur, comme une punition des dieux, et accepte que son mari couche avec Melisandre pour le bien de sa cause."] },
-    { "s": 4, "title": "Saison 4 — La ferveur", "paragraphs": ["Selyse assiste aux bûchers des infidèles, parmi lesquels son propre frère, et soutient Melisandre dans tout ce qu’elle exige. Elle accompagne Stannis vers le nord."] },
-    { "s": 5, "title": "Saison 5 — Le bûcher", "paragraphs": ["Devant Winterfell, quand Stannis décide de livrer Shireen aux flammes, Selyse approuve d’abord. Au moment où sa fille crie son nom, elle se jette vers le bûcher, retenue par les gardes. Le lendemain, on la retrouve pendue à un arbre."] }
+    {
+      "s": 3,
+      "title": "Saison 3 — La recluse",
+      "paragraphs": [
+        "Selyse est l’épouse de Stannis, née Florent. Elle a donné à son mari une fille malade et plusieurs fils morts à la naissance. Elle a trouvé dans la foi du Maître de la Lumière une consolation et une certitude.",
+        "À Peyredragon, Selyse vit entre les bocaux où elle conserve ses fils mort-nés et une foi absolue dans le Maître de la Lumière. Elle traite sa fille Shireen avec froideur, comme une punition des dieux, et accepte que son mari couche avec Melisandre pour le bien de sa cause."
+      ]
+    },
+    {
+      "s": 4,
+      "title": "Saison 4 — La ferveur",
+      "paragraphs": [
+        "Selyse assiste aux bûchers des infidèles, parmi lesquels son propre frère, et soutient Melisandre dans tout ce qu’elle exige. Elle accompagne Stannis vers le nord."
+      ]
+    },
+    {
+      "s": 5,
+      "title": "Saison 5 — Le bûcher",
+      "paragraphs": [
+        "Devant Winterfell, quand Stannis décide de livrer Shireen aux flammes, Selyse approuve d’abord. Au moment où sa fille crie son nom, elle se jette vers le bûcher, retenue par les gardes. Le lendemain, on la retrouve pendue à un arbre."
+      ]
+    }
   ],
   "keyMoments": [
-    { "s": 5, "title": "Le cri", "text": "Elle tente trop tard de sauver Shireen des flammes.", "place": "winterfell" }
+    {
+      "s": 5,
+      "title": "Le cri",
+      "text": "Elle tente trop tard de sauver Shireen des flammes.",
+      "place": "winterfell"
+    }
   ],
   "relations": [
-    { "to": "shireen-baratheon", "type": "enfant", "label": "Sa fille", "inverseLabel": "Sa mère", "s": 3 },
-    { "to": "melisandre", "type": "mentor", "label": "Sa guide spirituelle", "s": 3 }
+    {
+      "to": "shireen-baratheon",
+      "type": "enfant",
+      "label": "Sa fille",
+      "inverseLabel": "Sa mère",
+      "s": 3
+    },
+    {
+      "to": "melisandre",
+      "type": "mentor",
+      "label": "Sa guide spirituelle",
+      "s": 3
+    }
   ],
   "places": [
-    { "place": "peyredragon", "seasons": [3, 4] },
-    { "place": "chateaunoir", "seasons": [5] },
-    { "place": "winterfell", "seasons": [5] }
+    {
+      "place": "peyredragon",
+      "seasons": [
+        3,
+        4
+      ]
+    },
+    {
+      "place": "chateaunoir",
+      "seasons": [
+        5
+      ]
+    },
+    {
+      "place": "winterfell",
+      "seasons": [
+        5
+      ]
+    }
   ],
-  "codex": ["maitre-de-la-lumiere"],
+  "codex": [
+    "maitre-de-la-lumiere"
+  ],
   "portrait": "images/personnages/selyse-baratheon.webp",
-  "sources": [{ "label": "Wiki of Westeros — Selyse Baratheon", "url": "https://gameofthrones.fandom.com/wiki/Selyse_Baratheon" }]
+  "sources": [
+    {
+      "label": "Wiki of Westeros — Selyse Baratheon",
+      "url": "https://gameofthrones.fandom.com/wiki/Selyse_Baratheon"
+    }
+  ]
 }

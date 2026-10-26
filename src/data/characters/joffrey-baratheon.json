@@ -3,18 +3,45 @@
   "name": "Joffrey Baratheon",
   "short": "Joffrey",
   "principal": true,
-  "aliases": [{ "text": "le roi Joffrey", "s": 1 }],
+  "aliases": [
+    {
+      "text": "le roi Joffrey",
+      "s": 1
+    }
+  ],
   "house": "baratheon",
   "region": "Les Terres de la Couronne",
   "camp": "westeros",
-  "allegiances": [{ "to": "baratheon" }, { "to": "lannister" }],
+  "allegiances": [
+    {
+      "to": "baratheon"
+    },
+    {
+      "to": "lannister"
+    }
+  ],
   "origin": "port-real",
-  "titles": [{ "text": "Prince héritier" }, { "text": "Roi des Andals et des Premiers Hommes", "s": 1 }],
+  "titles": [
+    {
+      "text": "Prince héritier"
+    },
+    {
+      "text": "Roi des Andals et des Premiers Hommes",
+      "s": 1
+    }
+  ],
   "actor": "Jack Gleeson",
   "firstSeason": 1,
   "status": [
-    { "s": 1, "value": "vivant" },
-    { "s": 4, "value": "mort", "note": "Empoisonné au festin de ses noces" }
+    {
+      "s": 1,
+      "value": "vivant"
+    },
+    {
+      "s": 4,
+      "value": "mort",
+      "note": "Empoisonné au festin de ses noces"
+    }
   ],
   "summary": "Fils aîné de la reine Cersei et héritier du trône, Joffrey est fiancé à Sansa Stark. Derrière ses manières de prince, il aime surtout voir souffrir les autres.",
   "bio": [
@@ -23,52 +50,129 @@
       "title": "Saison 1 — Le prince",
       "paragraphs": [
         "Joffrey se présente à Winterfell comme un fiancé charmant. Le masque tombe vite : sur la route du Sud, il menace le fils d’un boucher avec son épée, se fait mordre par la louve d’Arya et ment pour faire punir les enfants Stark. Le fils du boucher est tué par le Limier, la louve de Sansa est abattue à la place de celle d’Arya.",
-        "À la mort de Robert, Joffrey monte sur le trône. Le jour où Eddard Stark accepte de se déclarer coupable en échange de l’exil, le jeune roi, sourd aux conseils de sa mère, ordonne qu’on lui tranche la tête. Il oblige ensuite Sansa à contempler la tête de son père sur les remparts."
+        "À la mort de Robert, Joffrey monte sur le trône. Le jour où Eddard Stark accepte de se déclarer coupable en échange de l’exil, le jeune roi, sourd aux conseils de sa mère, ordonne qu’on lui tranche la tête. Il oblige ensuite Sansa à contempler la tête de son père sur les remparts.",
+        "Joffrey est le fils aîné de la reine Cersei et l’héritier du roi Robert. Blond, élégant, gâté par sa mère et négligé par son père, il a treize ans au début de l’histoire et la cruauté d’un enfant qui n’a jamais été contredit. Il aime les armes mais pas le combat, les ordres mais pas la responsabilité. Il ignore qu’il est né de l’inceste entre sa mère et son oncle Jaime, et ce secret est le cœur de l’intrigue de la première saison.",
+        "Son exécution d’Eddard Stark, contre l’avis de tous ses conseillers, rend impossible toute paix avec le Nord et déclenche une guerre qui ravagera le royaume."
       ]
     },
     {
       "s": 2,
       "title": "Saison 2 — Le roi cruel",
       "paragraphs": [
-        "Joffrey fait battre Sansa chaque fois que Robb remporte une victoire et se divertit avec la souffrance des autres. Il ordonne de tuer tous les bâtards de Robert à Port-Réal. Pendant la bataille de la Néra, il quitte les remparts sous prétexte de rejoindre sa mère, laissant à Tyrion le soin de sauver la ville. Après la victoire, il rompt ses fiançailles avec Sansa pour épouser Margaery Tyrell."
+        "Joffrey fait battre Sansa chaque fois que Robb remporte une victoire et se divertit avec la souffrance des autres. Il ordonne de tuer tous les bâtards de Robert à Port-Réal. Pendant la bataille de la Néra, il quitte les remparts sous prétexte de rejoindre sa mère, laissant à Tyrion le soin de sauver la ville. Après la victoire, il rompt ses fiançailles avec Sansa pour épouser Margaery Tyrell.",
+        "Joffrey ne règne pas vraiment : sa mère, puis Tyrion, gouvernent à sa place. Mais il dispose du pouvoir de faire souffrir ceux qui l’entourent, et il en use. Il humilie le chevalier Dontos en le faisant bouffon, maltraite des prostituées que Tyrion lui offre et écoute avec délice les récits d’exécutions. Le peuple le hait ; lors d’une émeute dans les rues de Port-Réal, il manque d’être lynché après avoir été touché par une bouse lancée de la foule."
       ]
     },
     {
       "s": 3,
       "title": "Saison 3 — Le fiancé des Tyrell",
       "paragraphs": [
-        "Margaery flatte Joffrey avec habileté et apprend à le manipuler sans qu’il s’en rende compte. Le roi, lui, supporte mal l’autorité de son grand-père Tywin, qui le traite comme un enfant. Quand il apprend la mort de Robb Stark, il veut faire servir sa tête à Sansa au festin de ses noces."
+        "Margaery flatte Joffrey avec habileté et apprend à le manipuler sans qu’il s’en rende compte. Le roi, lui, supporte mal l’autorité de son grand-père Tywin, qui le traite comme un enfant. Quand il apprend la mort de Robb Stark, il veut faire servir sa tête à Sansa au festin de ses noces.",
+        "Il fait aussi bâtir son propre mythe : il commande des tapisseries de ses victoires imaginaires et parle de « sa » bataille de la Néra comme s’il l’avait gagnée. Dans un passage révélateur, Margaery le pousse à lui montrer comment on tient une arbalète ; il prend plaisir à décrire comment il tuerait. Tywin commence à comprendre que son petit-fils est ingouvernable."
       ]
     },
     {
       "s": 4,
       "title": "Saison 4 — Les noces pourpres du roi",
       "paragraphs": [
-        "Le jour de son mariage avec Margaery, Joffrey humilie son oncle Tyrion devant toute la cour, l’oblige à lui servir de valet et fait jouer des nains déguisés en rois de la guerre. En buvant dans sa coupe de noces, il s’étouffe, devient violet et meurt dans les bras de sa mère. Cersei accuse aussitôt Tyrion."
+        "Le jour de son mariage avec Margaery, Joffrey humilie son oncle Tyrion devant toute la cour, l’oblige à lui servir de valet et fait jouer des nains déguisés en rois de la guerre. En buvant dans sa coupe de noces, il s’étouffe, devient violet et meurt dans les bras de sa mère. Cersei accuse aussitôt Tyrion.",
+        "Sa mort, que personne ne pleure à part sa mère, est l’œuvre d’Olenna Tyrell et de Littlefinger, qui ont glissé du poison dans le collier de Sansa. Le meurtre est l’un des plus célèbres du royaume, et son coupable n’est révélé que bien plus tard.",
+        "Personne ne le pleure, sauf sa mère. Le roi qui voulait être craint n’a laissé derrière lui que du soulagement."
       ]
     }
   ],
   "keyMoments": [
-    { "s": 1, "title": "Le fils du boucher", "text": "Il ment pour faire punir Arya, et Lady est abattue.", "place": "winterfell" },
-    { "s": 1, "title": "L’exécution d’Eddard", "text": "Il ordonne la décapitation qu’on lui conseillait d’éviter.", "place": "port-real" },
-    { "s": 2, "title": "La fuite des remparts", "text": "Il abandonne la défense de la ville pendant la Néra.", "place": "port-real" },
-    { "s": 4, "title": "Le mariage", "text": "Il meurt empoisonné à son propre festin.", "place": "port-real" }
+    {
+      "s": 1,
+      "title": "Le fils du boucher",
+      "text": "Il ment pour faire punir Arya, et Lady est abattue.",
+      "place": "winterfell"
+    },
+    {
+      "s": 1,
+      "title": "L’exécution d’Eddard",
+      "text": "Il ordonne la décapitation qu’on lui conseillait d’éviter.",
+      "place": "port-real"
+    },
+    {
+      "s": 2,
+      "title": "La fuite des remparts",
+      "text": "Il abandonne la défense de la ville pendant la Néra.",
+      "place": "port-real"
+    },
+    {
+      "s": 4,
+      "title": "Le mariage",
+      "text": "Il meurt empoisonné à son propre festin.",
+      "place": "port-real"
+    }
   ],
   "relations": [
-    { "to": "myrcella-baratheon", "type": "fratrie", "label": "Sa sœur", "s": 1 },
-    { "to": "tommen-baratheon", "type": "fratrie", "label": "Son petit frère", "s": 1 },
-    { "to": "sandor-clegane", "type": "serviteur", "label": "Son garde du corps, le Limier", "inverseLabel": "Le roi qu’il garde", "s": 1 },
-    { "to": "margaery-tyrell", "type": "conjoint", "label": "Son épouse", "s": 4 },
-    { "to": "olenna-tyrell", "type": "ennemi", "label": "Celle qui l’a fait empoisonner", "inverseLabel": "Le roi qu’elle a fait empoisonner", "s": 7 },
-    { "to": "arya-stark", "type": "ennemi", "label": "La fille qui l’a humilié", "s": 1 }
+    {
+      "to": "myrcella-baratheon",
+      "type": "fratrie",
+      "label": "Sa sœur",
+      "s": 1
+    },
+    {
+      "to": "tommen-baratheon",
+      "type": "fratrie",
+      "label": "Son petit frère",
+      "s": 1
+    },
+    {
+      "to": "sandor-clegane",
+      "type": "serviteur",
+      "label": "Son garde du corps, le Limier",
+      "inverseLabel": "Le roi qu’il garde",
+      "s": 1
+    },
+    {
+      "to": "margaery-tyrell",
+      "type": "conjoint",
+      "label": "Son épouse",
+      "s": 4
+    },
+    {
+      "to": "olenna-tyrell",
+      "type": "ennemi",
+      "label": "Celle qui l’a fait empoisonner",
+      "inverseLabel": "Le roi qu’elle a fait empoisonner",
+      "s": 7
+    },
+    {
+      "to": "arya-stark",
+      "type": "ennemi",
+      "label": "La fille qui l’a humilié",
+      "s": 1
+    }
   ],
   "places": [
-    { "place": "winterfell", "seasons": [1] },
-    { "place": "port-real", "seasons": [1, 2, 3, 4] }
+    {
+      "place": "winterfell",
+      "seasons": [
+        1
+      ]
+    },
+    {
+      "place": "port-real",
+      "seasons": [
+        1,
+        2,
+        3,
+        4
+      ]
+    }
   ],
-  "codex": ["garde-royale", "foi-des-sept"],
+  "codex": [
+    "garde-royale",
+    "foi-des-sept"
+  ],
   "portrait": "images/personnages/joffrey-baratheon.webp",
   "sources": [
-    { "label": "Wiki of Westeros — Joffrey Baratheon", "url": "https://gameofthrones.fandom.com/wiki/Joffrey_Baratheon" }
+    {
+      "label": "Wiki of Westeros — Joffrey Baratheon",
+      "url": "https://gameofthrones.fandom.com/wiki/Joffrey_Baratheon"
+    }
   ]
 }

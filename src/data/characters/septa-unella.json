@@ -8,25 +8,77 @@
   "camp": "westeros",
   "allegiances": [],
   "origin": "port-real",
-  "titles": [{ "text": "Septa" }],
+  "titles": [
+    {
+      "text": "Septa"
+    }
+  ],
   "actor": "Hannah Waddingham",
   "firstSeason": 5,
   "status": [
-    { "s": 5, "value": "vivant" },
-    { "s": 6, "value": "inconnu", "note": "Livrée par Cersei à la Montagne, dans une cellule du Donjon Rouge" }
+    {
+      "s": 5,
+      "value": "vivant"
+    },
+    {
+      "s": 6,
+      "value": "inconnu",
+      "note": "Livrée par Cersei à la Montagne, dans une cellule du Donjon Rouge"
+    }
   ],
   "summary": "Septa austère au service du Grand Moineau, Unella garde les prisonnières de la Foi. Elle ne connaît qu’un mot pour les pécheurs : confession.",
   "bio": [
-    { "s": 5, "title": "Saison 5 — La geôlière", "paragraphs": ["Unella surveille Cersei dans sa cellule, la prive d’eau et la frappe pour obtenir une confession. Le jour de la marche d’expiation, elle marche derrière la reine en agitant une cloche et en répétant « Honte ! »."] },
-    { "s": 6, "title": "Saison 6 — La vengeance de Cersei", "paragraphs": ["Après l’explosion du septuor, Cersei fait attacher Unella sur une table et lui verse du vin sur le visage, comme on lui versait de l’eau en prison. Elle la laisse seule avec la Montagne et ferme la porte en répétant : « Honte »."] }
+    {
+      "s": 5,
+      "title": "Saison 5 — La geôlière",
+      "paragraphs": [
+        "Unella est une septa de la Foi militante, au service du Grand Moineau. Sévère, sans pitié et sans sourire, elle est chargée d’obtenir la confession des pécheurs, en commençant par ceux qui se croient au-dessus des lois.",
+        "Unella surveille Cersei dans sa cellule, la prive d’eau et la frappe pour obtenir une confession. Le jour de la marche d’expiation, elle marche derrière la reine en agitant une cloche et en répétant « Honte ! ».",
+        "Pour elle, l’humiliation n’est pas une cruauté mais un remède : le pécheur doit être brisé pour être sauvé."
+      ]
+    },
+    {
+      "s": 6,
+      "title": "Saison 6 — La vengeance de Cersei",
+      "paragraphs": [
+        "Après l’explosion du septuor, Cersei fait attacher Unella sur une table et lui verse du vin sur le visage, comme on lui versait de l’eau en prison. Elle la laisse seule avec la Montagne et ferme la porte en répétant : « Honte ».",
+        "Unella ne s’excuse jamais. Elle ne croit qu’à la confession et au châtiment ; elle subit les deux, mais pas comme elle l’entendait."
+      ]
+    }
   ],
   "keyMoments": [
-    { "s": 5, "title": "Honte", "text": "Elle accompagne la marche d’expiation de Cersei.", "place": "port-real" },
-    { "s": 6, "title": "La porte", "text": "Cersei la livre à la Montagne.", "place": "port-real" }
+    {
+      "s": 5,
+      "title": "Honte",
+      "text": "Elle accompagne la marche d’expiation de Cersei.",
+      "place": "port-real"
+    },
+    {
+      "s": 6,
+      "title": "La porte",
+      "text": "Cersei la livre à la Montagne.",
+      "place": "port-real"
+    }
   ],
   "relations": [],
-  "places": [{ "place": "port-real", "seasons": [5, 6] }],
-  "codex": ["foi-des-sept", "foi-militante"],
+  "places": [
+    {
+      "place": "port-real",
+      "seasons": [
+        5,
+        6
+      ]
+    }
+  ],
+  "codex": [
+    "foi-des-sept",
+    "foi-militante"
+  ],
   "portrait": null,
-  "sources": [{ "label": "Wiki of Westeros — Unella", "url": "https://gameofthrones.fandom.com/wiki/Unella" }]
+  "sources": [
+    {
+      "label": "Wiki of Westeros — Unella",
+      "url": "https://gameofthrones.fandom.com/wiki/Unella"
+    }
+  ]
 }

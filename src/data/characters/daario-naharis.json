@@ -6,36 +6,134 @@
   "house": null,
   "region": "La baie des Serfs",
   "camp": "essos",
-  "allegiances": [{ "to": "targaryen", "s": 3 }],
+  "allegiances": [
+    {
+      "to": "targaryen",
+      "s": 3
+    }
+  ],
   "origin": "meereen",
-  "titles": [{ "text": "Capitaine des Puînés" }],
+  "titles": [
+    {
+      "text": "Capitaine des Puînés"
+    }
+  ],
   "actor": "Ed Skrein, puis Michiel Huisman",
   "firstSeason": 3,
-  "status": [{ "s": 3, "value": "vivant" }],
+  "status": [
+    {
+      "s": 3,
+      "value": "vivant"
+    }
+  ],
   "summary": "Capitaine de la compagnie de mercenaires des Puînés, Daario est un combattant élégant et insolent. Il ne croit à rien, sauf peut-être à la beauté.",
   "bio": [
-    { "s": 3, "title": "Saison 3 — Le mercenaire", "paragraphs": ["Daario sert les maîtres de Yunkaï avec les Puînés. Chargé de tuer Daenerys, il tue plutôt ses deux autres capitaines et lui offre leurs têtes, avec son épée. Il ouvre ensuite à ses alliés une porte dérobée de Yunkaï."] },
-    { "s": 4, "title": "Saison 4 — L’amant", "paragraphs": ["Champion de la reine, Daario tue d’un seul coup le cavalier envoyé par Meereen pour la défier. Il pousse Daenerys à le voir autrement que comme une épée, et devient son amant. Elle l’envoie ensuite reprendre Yunkaï."] },
-    { "s": 5, "title": "Saison 5 — Le soldat", "paragraphs": ["Daario conseille à la reine de rouvrir les arènes et de frapper les maîtres. Après l’envol de Daenerys sur Drogon, il part à sa recherche avec Jorah."] },
-    { "s": 6, "title": "Saison 6 — Vaes Dothrak et Meereen", "paragraphs": ["Il retrouve Daenerys prisonnière à Vaes Dothrak et participe à sa libération. Il combat ensuite au siège de Meereen. Quand la reine part pour Westeros, elle le laisse gouverner Meereen ; il lui dit qu’il l’aime, et accepte de rester."] }
+    {
+      "s": 3,
+      "title": "Saison 3 — Le mercenaire",
+      "paragraphs": [
+        "Daario est un mercenaire de Tyrosh, beau, insolent et sûr de lui, qui se bat avec une grâce de danseur. Il ne croit à rien, sauf à ce qu’il aime, et il tombe amoureux de Daenerys au premier regard.",
+        "Daario sert les maîtres de Yunkaï avec les Puînés. Chargé de tuer Daenerys, il tue plutôt ses deux autres capitaines et lui offre leurs têtes, avec son épée. Il ouvre ensuite à ses alliés une porte dérobée de Yunkaï."
+      ]
+    },
+    {
+      "s": 4,
+      "title": "Saison 4 — L’amant",
+      "paragraphs": [
+        "Champion de la reine, Daario tue d’un seul coup le cavalier envoyé par Meereen pour la défier. Il pousse Daenerys à le voir autrement que comme une épée, et devient son amant. Elle l’envoie ensuite reprendre Yunkaï."
+      ]
+    },
+    {
+      "s": 5,
+      "title": "Saison 5 — Le soldat",
+      "paragraphs": [
+        "Daario conseille à la reine de rouvrir les arènes et de frapper les maîtres. Après l’envol de Daenerys sur Drogon, il part à sa recherche avec Jorah."
+      ]
+    },
+    {
+      "s": 6,
+      "title": "Saison 6 — Vaes Dothrak et Meereen",
+      "paragraphs": [
+        "Il retrouve Daenerys prisonnière à Vaes Dothrak et participe à sa libération. Il combat ensuite au siège de Meereen. Quand la reine part pour Westeros, elle le laisse gouverner Meereen ; il lui dit qu’il l’aime, et accepte de rester."
+      ]
+    }
   ],
   "keyMoments": [
-    { "s": 3, "title": "Les deux têtes", "text": "Il trahit ses employeurs et rejoint Daenerys.", "place": "yunkai" },
-    { "s": 4, "title": "Le champion", "text": "Il tue le champion de Meereen d’un seul coup.", "place": "meereen" },
-    { "s": 6, "title": "Rester", "text": "Daenerys le laisse à Meereen avant de traverser la mer.", "place": "meereen" }
+    {
+      "s": 3,
+      "title": "Les deux têtes",
+      "text": "Il trahit ses employeurs et rejoint Daenerys.",
+      "place": "yunkai"
+    },
+    {
+      "s": 4,
+      "title": "Le champion",
+      "text": "Il tue le champion de Meereen d’un seul coup.",
+      "place": "meereen"
+    },
+    {
+      "s": 6,
+      "title": "Rester",
+      "text": "Daenerys le laisse à Meereen avant de traverser la mer.",
+      "place": "meereen"
+    }
   ],
   "relations": [
-    { "to": "jorah-mormont", "type": "allie", "label": "Son rival, puis son compagnon de route", "s": 4 },
-    { "to": "tyrion-lannister", "type": "allie", "label": "Le conseiller qui l’a écarté", "s": 6 },
-    { "to": "hizdahr-zo-loraq", "type": "ennemi", "label": "Le mari de raison de la reine", "s": 5 }
+    {
+      "to": "jorah-mormont",
+      "type": "allie",
+      "label": "Son rival, puis son compagnon de route",
+      "s": 4
+    },
+    {
+      "to": "tyrion-lannister",
+      "type": "allie",
+      "label": "Le conseiller qui l’a écarté",
+      "s": 6
+    },
+    {
+      "to": "hizdahr-zo-loraq",
+      "type": "ennemi",
+      "label": "Le mari de raison de la reine",
+      "s": 5
+    }
   ],
   "places": [
-    { "place": "yunkai", "seasons": [3] },
-    { "place": "meereen", "seasons": [4, 5, 6] },
-    { "place": "mer-dothrak", "seasons": [6] },
-    { "place": "vaes-dothrak", "seasons": [6] }
+    {
+      "place": "yunkai",
+      "seasons": [
+        3
+      ]
+    },
+    {
+      "place": "meereen",
+      "seasons": [
+        4,
+        5,
+        6
+      ]
+    },
+    {
+      "place": "mer-dothrak",
+      "seasons": [
+        6
+      ]
+    },
+    {
+      "place": "vaes-dothrak",
+      "seasons": [
+        6
+      ]
+    }
   ],
-  "codex": ["puines"],
+  "codex": [
+    "puines"
+  ],
   "portrait": null,
-  "sources": [{ "label": "Wiki of Westeros — Daario Naharis", "url": "https://gameofthrones.fandom.com/wiki/Daario_Naharis" }]
+  "sources": [
+    {
+      "label": "Wiki of Westeros — Daario Naharis",
+      "url": "https://gameofthrones.fandom.com/wiki/Daario_Naharis"
+    }
+  ]
 }

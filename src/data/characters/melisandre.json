@@ -3,55 +3,84 @@
   "name": "Melisandre",
   "short": "Melisandre",
   "principal": true,
-  "aliases": [{ "text": "la Femme rouge" }],
+  "aliases": [
+    {
+      "text": "la Femme rouge"
+    }
+  ],
   "house": null,
   "region": "Asshai",
   "camp": "essos",
-  "allegiances": [{ "to": "baratheon", "until": 6 }],
+  "allegiances": [
+    {
+      "to": "baratheon",
+      "until": 6
+    }
+  ],
   "origin": null,
-  "titles": [{ "text": "Prêtresse rouge du Maître de la Lumière" }],
+  "titles": [
+    {
+      "text": "Prêtresse rouge du Maître de la Lumière"
+    }
+  ],
   "actor": "Carice van Houten",
   "firstSeason": 2,
   "status": [
-    { "s": 2, "value": "vivant" },
-    { "s": 8, "value": "mort", "note": "Morte de vieillesse à l’aube, après la Longue Nuit" }
+    {
+      "s": 2,
+      "value": "vivant"
+    },
+    {
+      "s": 8,
+      "value": "mort",
+      "note": "Morte de vieillesse à l’aube, après la Longue Nuit"
+    }
   ],
   "summary": "Prêtresse du Maître de la Lumière, Melisandre est venue d’Essos pour servir celui qu’elle croit être le héros promis : Stannis Baratheon. Elle voit l’avenir dans les flammes, et ne doute jamais.",
-  "quote": { "text": "La nuit est sombre et pleine de terreurs.", "s": 2 },
+  "quote": {
+    "text": "La nuit est sombre et pleine de terreurs.",
+    "s": 2
+  },
   "bio": [
     {
       "s": 2,
       "title": "Saison 2 — La prêtresse de Stannis",
       "paragraphs": [
-        "À Peyredragon, Melisandre fait brûler les statues des Sept et présente Stannis comme Azor Ahai, le héros revenu. Mestre Cressen tente de l’empoisonner ; elle boit le vin sans dommage, et c’est lui qui meurt. Elle séduit Stannis et, dans une grotte au pied d’Accalmie, donne naissance à une ombre qui assassine Renly. Stannis l’écarte de la bataille de la Néra, qu’il perd."
+        "À Peyredragon, Melisandre fait brûler les statues des Sept et présente Stannis comme Azor Ahai, le héros revenu. Mestre Cressen tente de l’empoisonner ; elle boit le vin sans dommage, et c’est lui qui meurt. Elle séduit Stannis et, dans une grotte au pied d’Accalmie, donne naissance à une ombre qui assassine Renly. Stannis l’écarte de la bataille de la Néra, qu’il perd.",
+        "Melisandre est une prêtresse rouge du Maître de la Lumière, originaire d’Asshai, aux confins de l’Orient, selon ce qu’on raconte. Elle porte des robes écarlates et un rubis autour du cou, et semble insensible au froid comme au poison. Elle croit avec une conviction absolue à la guerre entre la lumière et les ténèbres, et à la prophétie d’Azor Ahai, le héros qui doit renaître pour vaincre la nuit. Elle est persuadée de l’avoir trouvé en Stannis.",
+        "Elle n’est ni simplement manipulatrice ni simplement fanatique. Elle a de vrais pouvoirs, mais elle se trompe sur la façon de les lire, et ses erreurs coûtent cher à ceux qui la suivent."
       ]
     },
     {
       "s": 3,
       "title": "Saison 3 — Le sang du roi",
       "paragraphs": [
-        "Melisandre part chercher Gendry chez la Fraternité, rencontre Thoros et apprend qu’il a ramené Beric à la vie six fois, ce qui l’ébranle. Elle croise Arya et lui prédit qu’elle fermera des yeux bruns, verts et bleus. À Peyredragon, elle se sert du sang de Gendry pour maudire trois usurpateurs."
+        "Melisandre part chercher Gendry chez la Fraternité, rencontre Thoros et apprend qu’il a ramené Beric à la vie six fois, ce qui l’ébranle. Elle croise Arya et lui prédit qu’elle fermera des yeux bruns, verts et bleus. À Peyredragon, elle se sert du sang de Gendry pour maudire trois usurpateurs.",
+        "Avec Gendry, elle pratique un rituel de sang au moyen de sangsues, que Stannis jette au feu en prononçant les noms de trois usurpateurs : Robb Stark, Balon Greyjoy et Joffrey Baratheon. Les trois meurent dans les mois qui suivent."
       ]
     },
     {
       "s": 4,
       "title": "Saison 4 — Les bûchers",
       "paragraphs": [
-        "Melisandre fait brûler les infidèles, y compris le frère de Selyse, et prépare Shireen à la foi nouvelle. Elle suit Stannis au Mur, où elle remarque Jon Snow."
+        "Melisandre fait brûler les infidèles, y compris le frère de Selyse, et prépare Shireen à la foi nouvelle. Elle suit Stannis au Mur, où elle remarque Jon Snow.",
+        "Melisandre ne doute jamais en public. Elle enseigne à Shireen que les anciens dieux et les Sept sont faux, et que seule la lumière sauve. Selyse l’écoute avec ferveur ; Davos avec dégoût."
       ]
     },
     {
       "s": 5,
       "title": "Saison 5 — Shireen",
       "paragraphs": [
-        "Elle tente de séduire Jon, qui refuse. Dans la neige, devant Winterfell, elle convainc Stannis de sacrifier sa fille au Maître de la Lumière. Après le bûcher, la moitié de l’armée déserte. Elle s’enfuit à cheval, seule, et revient à Châteaunoir au moment où Jon est assassiné."
+        "Elle tente de séduire Jon, qui refuse. Dans la neige, devant Winterfell, elle convainc Stannis de sacrifier sa fille au Maître de la Lumière. Après le bûcher, la moitié de l’armée déserte. Elle s’enfuit à cheval, seule, et revient à Châteaunoir au moment où Jon est assassiné.",
+        "Ce sacrifice est son plus grand échec : Stannis perd tout dans les jours qui suivent, et elle comprend qu’elle s’est trompée d’élu."
       ]
     },
     {
       "s": 6,
       "title": "Saison 6 — La résurrection",
       "paragraphs": [
-        "Ébranlée, Melisandre retire son collier : c’est une très vieille femme qui se regarde dans le miroir. À la demande de Davos, elle prie sur le corps de Jon, sans y croire. Jon revient à la vie. Elle combat pour lui à la bataille des Bâtards. Davos découvre ensuite le sort de Shireen ; Jon la bannit du Nord."
+        "Ébranlée, Melisandre retire son collier : c’est une très vieille femme qui se regarde dans le miroir. À la demande de Davos, elle prie sur le corps de Jon, sans y croire. Jon revient à la vie. Elle combat pour lui à la bataille des Bâtards. Davos découvre ensuite le sort de Shireen ; Jon la bannit du Nord.",
+        "Après la résurrection de Jon, elle ne sait plus qui est l’élu, ni s’il existe. Ce doute la rend plus humaine qu’elle ne l’a jamais été."
       ]
     },
     {
@@ -65,30 +94,105 @@
       "s": 8,
       "title": "Saison 8 — La dernière flamme",
       "paragraphs": [
-        "Melisandre surgit dans la nuit, devant Winterfell, et enflamme d’un mot les lames des Dothraki. Pendant la bataille, elle allume la tranchée qui protège le château et rappelle à Arya la prophétie des yeux. À l’aube, la bataille gagnée, elle retire son collier et marche dans la neige jusqu’à tomber, vieillie de plusieurs siècles."
+        "Melisandre surgit dans la nuit, devant Winterfell, et enflamme d’un mot les lames des Dothraki. Pendant la bataille, elle allume la tranchée qui protège le château et rappelle à Arya la prophétie des yeux. À l’aube, la bataille gagnée, elle retire son collier et marche dans la neige jusqu’à tomber, vieillie de plusieurs siècles.",
+        "Elle avait annoncé à Varys qu’elle mourrait en Westeros, comme lui. Les deux prédictions se réalisent. Ce qu’elle laisse derrière elle est ambigu : un roi brûlé vif par sa faute, une enfant sacrifiée, mais aussi un homme ramené de la mort et une nuit gagnée."
       ]
     }
   ],
   "keyMoments": [
-    { "s": 2, "title": "L’ombre", "text": "Elle enfante l’ombre qui tue Renly.", "place": "accalmie" },
-    { "s": 3, "title": "Les sangsues", "text": "Elle maudit trois rois avec le sang de Gendry.", "place": "peyredragon" },
-    { "s": 5, "title": "Le bûcher de Shireen", "text": "Elle obtient le sacrifice de la fille de Stannis.", "place": "winterfell" },
-    { "s": 6, "title": "La prière", "text": "Elle ramène Jon Snow à la vie.", "place": "chateaunoir" },
-    { "s": 8, "title": "L’aube", "text": "Elle meurt après la victoire des vivants.", "place": "winterfell" }
+    {
+      "s": 2,
+      "title": "L’ombre",
+      "text": "Elle enfante l’ombre qui tue Renly.",
+      "place": "accalmie"
+    },
+    {
+      "s": 3,
+      "title": "Les sangsues",
+      "text": "Elle maudit trois rois avec le sang de Gendry.",
+      "place": "peyredragon"
+    },
+    {
+      "s": 5,
+      "title": "Le bûcher de Shireen",
+      "text": "Elle obtient le sacrifice de la fille de Stannis.",
+      "place": "winterfell"
+    },
+    {
+      "s": 6,
+      "title": "La prière",
+      "text": "Elle ramène Jon Snow à la vie.",
+      "place": "chateaunoir"
+    },
+    {
+      "s": 8,
+      "title": "L’aube",
+      "text": "Elle meurt après la victoire des vivants.",
+      "place": "winterfell"
+    }
   ],
   "relations": [
-    { "to": "arya-stark", "type": "autre", "label": "La jeune fille dont elle a prédit le destin", "s": 3 },
-    { "to": "daenerys-targaryen", "type": "allie", "label": "La reine qu’elle a conseillée", "s": 7 },
-    { "to": "kinvara", "type": "allie", "label": "Une autre prêtresse du même dieu", "s": 6 }
+    {
+      "to": "arya-stark",
+      "type": "autre",
+      "label": "La jeune fille dont elle a prédit le destin",
+      "s": 3
+    },
+    {
+      "to": "daenerys-targaryen",
+      "type": "allie",
+      "label": "La reine qu’elle a conseillée",
+      "s": 7
+    },
+    {
+      "to": "kinvara",
+      "type": "allie",
+      "label": "Une autre prêtresse du même dieu",
+      "s": 6
+    }
   ],
   "places": [
-    { "place": "peyredragon", "seasons": [2, 3, 4, 7] },
-    { "place": "accalmie", "seasons": [2] },
-    { "place": "le-conflans", "seasons": [3] },
-    { "place": "chateaunoir", "seasons": [4, 5, 6] },
-    { "place": "winterfell", "seasons": [5, 6, 8] }
+    {
+      "place": "peyredragon",
+      "seasons": [
+        2,
+        3,
+        4,
+        7
+      ]
+    },
+    {
+      "place": "accalmie",
+      "seasons": [
+        2
+      ]
+    },
+    {
+      "place": "le-conflans",
+      "seasons": [
+        3
+      ]
+    },
+    {
+      "place": "chateaunoir",
+      "seasons": [
+        4,
+        5,
+        6
+      ]
+    },
+    {
+      "place": "winterfell",
+      "seasons": [
+        5,
+        6,
+        8
+      ]
+    }
   ],
-  "codex": ["maitre-de-la-lumiere"],
+  "codex": [
+    "maitre-de-la-lumiere"
+  ],
   "booksVsShow": {
     "s": 6,
     "paragraphs": [
@@ -96,5 +200,10 @@
     ]
   },
   "portrait": null,
-  "sources": [{ "label": "Wiki of Westeros — Melisandre", "url": "https://gameofthrones.fandom.com/wiki/Melisandre" }]
+  "sources": [
+    {
+      "label": "Wiki of Westeros — Melisandre",
+      "url": "https://gameofthrones.fandom.com/wiki/Melisandre"
+    }
+  ]
 }

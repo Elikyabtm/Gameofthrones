@@ -2,37 +2,125 @@
   "slug": "lancel-lannister",
   "name": "Lancel Lannister",
   "short": "Lancel",
-  "aliases": [{ "text": "Frère Lancel", "s": 5 }],
+  "aliases": [
+    {
+      "text": "Frère Lancel",
+      "s": 5
+    }
+  ],
   "house": "lannister",
   "region": "L’Ouest",
   "camp": "westeros",
-  "allegiances": [{ "to": "lannister" }],
+  "allegiances": [
+    {
+      "to": "lannister"
+    }
+  ],
   "origin": "castral-roc",
-  "titles": [{ "text": "Écuyer du roi" }],
+  "titles": [
+    {
+      "text": "Écuyer du roi"
+    }
+  ],
   "actor": "Eugene Simon",
   "firstSeason": 1,
   "status": [
-    { "s": 1, "value": "vivant" },
-    { "s": 6, "value": "mort", "note": "Tué dans l’explosion du grand septuor de Baelor" }
+    {
+      "s": 1,
+      "value": "vivant"
+    },
+    {
+      "s": 6,
+      "value": "mort",
+      "note": "Tué dans l’explosion du grand septuor de Baelor"
+    }
   ],
   "summary": "Cousin de la reine, fils de Kevan Lannister, Lancel sert le roi Robert comme écuyer. Jeune et influençable, il fait ce qu’on attend de lui.",
   "bio": [
-    { "s": 1, "title": "Saison 1 — L’écuyer", "paragraphs": ["Lancel sert le vin du roi Robert. Lors de la chasse fatale, il lui en sert plus que de raison, sur ordre de la reine. Il est aussi l’amant de Cersei."] },
-    { "s": 2, "title": "Saison 2 — Le chevalier", "paragraphs": ["Fait chevalier, Lancel croit pouvoir intimider Tyrion, qui retourne contre lui ses secrets et en fait son informateur. Blessé pendant la bataille de la Néra, il disparaît de la cour."] },
-    { "s": 5, "title": "Saison 5 — Le converti", "paragraphs": ["Lancel revient en frère de la Foi militante, tête rasée, rongé par la culpabilité. Il demande pardon à Cersei, puis avoue au Grand Moineau ses péchés : ses relations avec la reine et le vin fort servi au roi. Cette confession mène Cersei en prison."] },
-    { "s": 6, "title": "Saison 6 — Les souterrains", "paragraphs": ["Le jour du procès, Lancel suit un enfant dans les souterrains du grand septuor et découvre les tonneaux de feu grégeois. Blessé, il rampe vers la mèche allumée, mais arrive trop tard."] }
+    {
+      "s": 1,
+      "title": "Saison 1 — L’écuyer",
+      "paragraphs": [
+        "Lancel est le fils de Kevan Lannister, cousin de Cersei, Jaime et Tyrion. Jeune écuyer ambitieux, il est flatté par l’attention de la reine et se laisse entraîner dans ses projets.",
+        "Lancel sert le vin du roi Robert. Lors de la chasse fatale, il lui en sert plus que de raison, sur ordre de la reine. Il est aussi l’amant de Cersei."
+      ]
+    },
+    {
+      "s": 2,
+      "title": "Saison 2 — Le chevalier",
+      "paragraphs": [
+        "Fait chevalier, Lancel croit pouvoir intimider Tyrion, qui retourne contre lui ses secrets et en fait son informateur. Blessé pendant la bataille de la Néra, il disparaît de la cour."
+      ]
+    },
+    {
+      "s": 5,
+      "title": "Saison 5 — Le converti",
+      "paragraphs": [
+        "Lancel revient en frère de la Foi militante, tête rasée, rongé par la culpabilité. Il demande pardon à Cersei, puis avoue au Grand Moineau ses péchés : ses relations avec la reine et le vin fort servi au roi. Cette confession mène Cersei en prison."
+      ]
+    },
+    {
+      "s": 6,
+      "title": "Saison 6 — Les souterrains",
+      "paragraphs": [
+        "Le jour du procès, Lancel suit un enfant dans les souterrains du grand septuor et découvre les tonneaux de feu grégeois. Blessé, il rampe vers la mèche allumée, mais arrive trop tard."
+      ]
+    }
   ],
   "keyMoments": [
-    { "s": 1, "title": "Le vin du roi", "text": "Il enivre Robert avant la chasse fatale.", "place": "port-real" },
-    { "s": 5, "title": "La confession", "text": "Il avoue ses péchés et ceux de la reine au Grand Moineau.", "place": "port-real" },
-    { "s": 6, "title": "La mèche", "text": "Il découvre le feu grégeois sous le septuor, trop tard.", "place": "port-real" }
+    {
+      "s": 1,
+      "title": "Le vin du roi",
+      "text": "Il enivre Robert avant la chasse fatale.",
+      "place": "port-real"
+    },
+    {
+      "s": 5,
+      "title": "La confession",
+      "text": "Il avoue ses péchés et ceux de la reine au Grand Moineau.",
+      "place": "port-real"
+    },
+    {
+      "s": 6,
+      "title": "La mèche",
+      "text": "Il découvre le feu grégeois sous le septuor, trop tard.",
+      "place": "port-real"
+    }
   ],
   "relations": [
-    { "to": "grand-moineau", "type": "mentor", "label": "Son guide dans la Foi", "inverseLabel": "Son disciple", "s": 5 },
-    { "to": "tyrion-lannister", "type": "autre", "label": "Le cousin qui l’a fait chanter", "s": 2 }
+    {
+      "to": "grand-moineau",
+      "type": "mentor",
+      "label": "Son guide dans la Foi",
+      "inverseLabel": "Son disciple",
+      "s": 5
+    },
+    {
+      "to": "tyrion-lannister",
+      "type": "autre",
+      "label": "Le cousin qui l’a fait chanter",
+      "s": 2
+    }
   ],
-  "places": [{ "place": "port-real", "seasons": [1, 2, 5, 6] }],
-  "codex": ["foi-militante"],
+  "places": [
+    {
+      "place": "port-real",
+      "seasons": [
+        1,
+        2,
+        5,
+        6
+      ]
+    }
+  ],
+  "codex": [
+    "foi-militante"
+  ],
   "portrait": null,
-  "sources": [{ "label": "Wiki of Westeros — Lancel Lannister", "url": "https://gameofthrones.fandom.com/wiki/Lancel_Lannister" }]
+  "sources": [
+    {
+      "label": "Wiki of Westeros — Lancel Lannister",
+      "url": "https://gameofthrones.fandom.com/wiki/Lancel_Lannister"
+    }
+  ]
 }

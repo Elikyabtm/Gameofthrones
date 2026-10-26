@@ -3,16 +3,49 @@
   "name": "Davos Mervault",
   "short": "Davos",
   "principal": true,
-  "aliases": [{ "text": "le Chevalier Oignon" }],
+  "aliases": [
+    {
+      "text": "le Chevalier Oignon"
+    }
+  ],
   "house": "mervault",
   "region": "Peyredragon",
   "camp": "westeros",
-  "allegiances": [{ "to": "mervault" }, { "to": "baratheon", "until": 6 }, { "to": "stark", "s": 6 }],
+  "allegiances": [
+    {
+      "to": "mervault"
+    },
+    {
+      "to": "baratheon",
+      "until": 6
+    },
+    {
+      "to": "stark",
+      "s": 6
+    }
+  ],
   "origin": "port-real",
-  "titles": [{ "text": "Chevalier" }, { "text": "Main du Roi", "s": 3 }, { "text": "Maître des navires", "s": 8 }],
+  "titles": [
+    {
+      "text": "Chevalier"
+    },
+    {
+      "text": "Main du Roi",
+      "s": 3
+    },
+    {
+      "text": "Maître des navires",
+      "s": 8
+    }
+  ],
   "actor": "Liam Cunningham",
   "firstSeason": 2,
-  "status": [{ "s": 2, "value": "vivant" }],
+  "status": [
+    {
+      "s": 2,
+      "value": "vivant"
+    }
+  ],
   "summary": "Ancien contrebandier né dans les bas quartiers de Port-Réal, Davos Mervault a été fait chevalier par Stannis Baratheon, qui lui a aussi raccourci les doigts d’une main pour ses crimes passés. Il garde les phalanges dans une bourse, autour du cou.",
   "bio": [
     {
@@ -20,14 +53,17 @@
       "title": "Saison 2 — Le Chevalier Oignon",
       "paragraphs": [
         "Pendant le siège d’Accalmie, des années plus tôt, Davos a sauvé la garnison de Stannis en faisant passer le blocus à un navire chargé d’oignons. Stannis l’a fait chevalier, puis lui a fait trancher les dernières phalanges d’une main pour ses années de contrebande. Davos trouve cela juste.",
-        "Il est le seul à oser dire à Stannis ce qu’il pense de Melisandre. Il voit pourtant la prêtresse donner naissance à une ombre dans une grotte. À la Néra, il commande un navire et voit le feu grégeois engloutir la flotte, et son fils avec elle. Il survit en s’accrochant à un rocher au milieu de la baie."
+        "Il est le seul à oser dire à Stannis ce qu’il pense de Melisandre. Il voit pourtant la prêtresse donner naissance à une ombre dans une grotte. À la Néra, il commande un navire et voit le feu grégeois engloutir la flotte, et son fils avec elle. Il survit en s’accrochant à un rocher au milieu de la baie.",
+        "Davos est né à Culpucier, le quartier le plus pauvre de Port-Réal, et a vécu de contrebande avant de devenir chevalier. Il ne sait ni lire ni écrire au début de l’histoire. Il garde dans une bourse, autour du cou, les phalanges que Stannis lui a fait couper : un porte-bonheur, et le rappel que son roi est juste, même quand la justice fait mal. Sa loyauté envers Stannis est entière, mais lucide. Il n’a jamais cru au Maître de la Lumière.",
+        "À la Néra, il perd son fils aîné, Matthos, qui croyait en Melisandre bien plus que lui. Davos tient la prêtresse pour responsable."
       ]
     },
     {
       "s": 3,
       "title": "Saison 3 — L’élève de Shireen",
       "paragraphs": [
-        "Rescapé, Davos revient à Peyredragon pour tuer Melisandre et finit au cachot. Shireen lui rend visite et lui apprend à lire. Libéré et nommé Main du Roi, il fait évader Gendry, menacé par la prêtresse. Il lit à Stannis une lettre de la Garde de Nuit, qui annonce le vrai danger : celui du nord."
+        "Rescapé, Davos revient à Peyredragon pour tuer Melisandre et finit au cachot. Shireen lui rend visite et lui apprend à lire. Libéré et nommé Main du Roi, il fait évader Gendry, menacé par la prêtresse. Il lit à Stannis une lettre de la Garde de Nuit, qui annonce le vrai danger : celui du nord.",
+        "En prison, il découvre en Shireen une enfant curieuse, enfermée par ses parents à cause de sa maladie. Il lui raconte Culpucier ; elle lui apprend les lettres. C’est l’une des amitiés les plus tendres de l’histoire."
       ]
     },
     {
@@ -41,7 +77,8 @@
       "s": 5,
       "title": "Saison 5 — Le cerf de bois",
       "paragraphs": [
-        "Au Mur, Davos sculpte pour Shireen un petit cerf de bois. Stannis l’envoie chercher des renforts avant la marche sur Winterfell. Il revient trop tard : à Châteaunoir, il apprend la défaite de son roi, puis découvre Jon Snow assassiné par ses frères."
+        "Au Mur, Davos sculpte pour Shireen un petit cerf de bois. Stannis l’envoie chercher des renforts avant la marche sur Winterfell. Il revient trop tard : à Châteaunoir, il apprend la défaite de son roi, puis découvre Jon Snow assassiné par ses frères.",
+        "Davos est, de tous les conseillers de l’histoire, celui qui dit le plus simplement la vérité aux puissants. Ce n’est pas du courage calculé : il ne sait pas faire autrement."
       ]
     },
     {
@@ -55,36 +92,110 @@
       "s": 7,
       "title": "Saison 7 — Le conseiller",
       "paragraphs": [
-        "Davos accompagne Jon à Peyredragon et le présente à Daenerys avec un sens très personnel du protocole. Il retourne à Port-Réal récupérer Gendry, qu’il emmène au Nord, et fait passer en contrebande Tyrion dans la capitale."
+        "Davos accompagne Jon à Peyredragon et le présente à Daenerys avec un sens très personnel du protocole. Il retourne à Port-Réal récupérer Gendry, qu’il emmène au Nord, et fait passer en contrebande Tyrion dans la capitale.",
+        "Davos est aussi l’un des rares à rester lui-même au milieu des rois. Il plaisante avec Gendry, se moque doucement de Jon, conseille Daenerys sans flatterie. Son humour de matelot est un soulagement dans un monde de serments solennels."
       ]
     },
     {
       "s": 8,
       "title": "Saison 8 — Le maître des navires",
       "paragraphs": [
-        "Davos survit à la Longue Nuit, à Winterfell. Après la chute de Port-Réal, il siège au conseil du roi Bran comme maître des navires."
+        "Davos survit à la Longue Nuit, à Winterfell. Après la chute de Port-Réal, il siège au conseil du roi Bran comme maître des navires.",
+        "Davos n’a jamais cherché le pouvoir ; il finit pourtant au conseil du roi, avec ses doigts coupés, son accent de Culpucier et sa franchise intacte."
       ]
     }
   ],
   "keyMoments": [
-    { "s": 2, "title": "La Néra", "text": "Il perd son fils dans le feu grégeois.", "place": "port-real" },
-    { "s": 3, "title": "Les leçons de lecture", "text": "Shireen lui apprend à lire dans sa cellule.", "place": "peyredragon" },
-    { "s": 4, "title": "Les doigts", "text": "Il convainc la Banque de Fer.", "place": "braavos" },
-    { "s": 6, "title": "Le cerf", "text": "Il découvre ce qu’on a fait de Shireen.", "place": "winterfell" }
+    {
+      "s": 2,
+      "title": "La Néra",
+      "text": "Il perd son fils dans le feu grégeois.",
+      "place": "port-real"
+    },
+    {
+      "s": 3,
+      "title": "Les leçons de lecture",
+      "text": "Shireen lui apprend à lire dans sa cellule.",
+      "place": "peyredragon"
+    },
+    {
+      "s": 4,
+      "title": "Les doigts",
+      "text": "Il convainc la Banque de Fer.",
+      "place": "braavos"
+    },
+    {
+      "s": 6,
+      "title": "Le cerf",
+      "text": "Il découvre ce qu’on a fait de Shireen.",
+      "place": "winterfell"
+    }
   ],
   "relations": [
-    { "to": "melisandre", "type": "ennemi", "label": "La prêtresse qu’il n’a jamais pardonnée", "s": 2 },
-    { "to": "jon-snow", "type": "suzerain", "label": "Le roi qu’il sert après Stannis", "inverseLabel": "Son conseiller", "s": 6 }
+    {
+      "to": "melisandre",
+      "type": "ennemi",
+      "label": "La prêtresse qu’il n’a jamais pardonnée",
+      "s": 2
+    },
+    {
+      "to": "jon-snow",
+      "type": "suzerain",
+      "label": "Le roi qu’il sert après Stannis",
+      "inverseLabel": "Son conseiller",
+      "s": 6
+    }
   ],
   "places": [
-    { "place": "peyredragon", "seasons": [2, 3, 7] },
-    { "place": "port-real", "seasons": [2, 7, 8] },
-    { "place": "braavos", "seasons": [4] },
-    { "place": "chateaunoir", "seasons": [5, 6] },
-    { "place": "winterfell", "seasons": [5, 6, 7, 8] },
-    { "place": "ile-aux-ours", "seasons": [6] }
+    {
+      "place": "peyredragon",
+      "seasons": [
+        2,
+        3,
+        7
+      ]
+    },
+    {
+      "place": "port-real",
+      "seasons": [
+        2,
+        7,
+        8
+      ]
+    },
+    {
+      "place": "braavos",
+      "seasons": [
+        4
+      ]
+    },
+    {
+      "place": "chateaunoir",
+      "seasons": [
+        5,
+        6
+      ]
+    },
+    {
+      "place": "winterfell",
+      "seasons": [
+        5,
+        6,
+        7,
+        8
+      ]
+    },
+    {
+      "place": "ile-aux-ours",
+      "seasons": [
+        6
+      ]
+    }
   ],
-  "codex": ["maitre-de-la-lumiere", "foi-des-sept"],
+  "codex": [
+    "maitre-de-la-lumiere",
+    "foi-des-sept"
+  ],
   "booksVsShow": {
     "s": 5,
     "paragraphs": [
@@ -92,5 +203,10 @@
     ]
   },
   "portrait": null,
-  "sources": [{ "label": "Wiki of Westeros — Davos Seaworth", "url": "https://gameofthrones.fandom.com/wiki/Davos_Seaworth" }]
+  "sources": [
+    {
+      "label": "Wiki of Westeros — Davos Seaworth",
+      "url": "https://gameofthrones.fandom.com/wiki/Davos_Seaworth"
+    }
+  ]
 }

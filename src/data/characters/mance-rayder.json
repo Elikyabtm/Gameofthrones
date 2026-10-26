@@ -2,38 +2,113 @@
   "slug": "mance-rayder",
   "name": "Mance Rayder",
   "short": "Mance",
-  "aliases": [{ "text": "le Roi d’au-delà du Mur" }],
+  "aliases": [
+    {
+      "text": "le Roi d’au-delà du Mur"
+    }
+  ],
   "house": null,
   "region": "Au-delà du Mur",
   "camp": "au-dela-du-mur",
   "allegiances": [],
   "origin": "au-dela-du-mur",
-  "titles": [{ "text": "Roi d’au-delà du Mur" }],
+  "titles": [
+    {
+      "text": "Roi d’au-delà du Mur"
+    }
+  ],
   "actor": "Ciarán Hinds",
   "firstSeason": 3,
   "status": [
-    { "s": 3, "value": "vivant" },
-    { "s": 5, "value": "mort", "note": "Brûlé sur ordre de Stannis, achevé d’une flèche par Jon Snow" }
+    {
+      "s": 3,
+      "value": "vivant"
+    },
+    {
+      "s": 5,
+      "value": "mort",
+      "note": "Brûlé sur ordre de Stannis, achevé d’une flèche par Jon Snow"
+    }
   ],
   "summary": "Ancien frère de la Garde de Nuit passé au Peuple libre, Mance Rayder a réussi ce que personne n’avait fait : unir des clans qui se haïssent. Il veut les mener au sud du Mur.",
   "bio": [
-    { "s": 3, "title": "Saison 3 — Le roi des sauvageons", "paragraphs": ["Mance reçoit Jon Snow dans sa tente et l’interroge longuement. Il comprend ce que Jon sait de la Garde et l’envoie avec Tormund franchir le Mur. Il explique son projet : faire passer le Peuple libre au sud, non pour conquérir, mais pour fuir ce qui vient du nord."] },
-    { "s": 4, "title": "Saison 4 — L’armée du Nord", "paragraphs": ["Mance attaque Châteaunoir avec une armée de géants, de mammouths et de milliers de guerriers. L’assaut échoue. Le lendemain, Jon vient parlementer et envisage de le tuer, quand la cavalerie de Stannis surgit et écrase le camp. Mance se rend."] },
-    { "s": 5, "title": "Saison 5 — Le bûcher", "paragraphs": ["Stannis lui offre la vie s’il plie le genou et rallie son peuple. Mance refuse : il ne trahira pas ceux qui l’ont choisi. Il est livré aux flammes devant tout Châteaunoir. Jon, pour lui épargner l’agonie, le tue d’une flèche."] }
+    {
+      "s": 3,
+      "title": "Saison 3 — Le roi des sauvageons",
+      "paragraphs": [
+        "Mance Rayder est un ancien frère de la Garde de Nuit qui a déserté pour rejoindre le peuple libre. Il dit être parti parce qu’il aimait trop la liberté, et peut-être pour une cape rapiécée qu’on lui interdisait de porter. Chanteur, rusé et charismatique, il a réussi ce qu’aucun chef sauvageon n’avait fait depuis des siècles : unir les clans, les géants et les Thenns sous une seule autorité.",
+        "Mance reçoit Jon Snow dans sa tente et l’interroge longuement. Il comprend ce que Jon sait de la Garde et l’envoie avec Tormund franchir le Mur. Il explique son projet : faire passer le Peuple libre au sud, non pour conquérir, mais pour fuir ce qui vient du nord."
+      ]
+    },
+    {
+      "s": 4,
+      "title": "Saison 4 — L’armée du Nord",
+      "paragraphs": [
+        "Mance attaque Châteaunoir avec une armée de géants, de mammouths et de milliers de guerriers. L’assaut échoue. Le lendemain, Jon vient parlementer et envisage de le tuer, quand la cavalerie de Stannis surgit et écrase le camp. Mance se rend."
+      ]
+    },
+    {
+      "s": 5,
+      "title": "Saison 5 — Le bûcher",
+      "paragraphs": [
+        "Stannis lui offre la vie s’il plie le genou et rallie son peuple. Mance refuse : il ne trahira pas ceux qui l’ont choisi. Il est livré aux flammes devant tout Châteaunoir. Jon, pour lui épargner l’agonie, le tue d’une flèche."
+      ]
+    }
   ],
   "keyMoments": [
-    { "s": 3, "title": "Le choix de Jon", "text": "Il interroge Jon et décide de lui faire confiance.", "place": "au-dela-du-mur" },
-    { "s": 4, "title": "La bataille du Mur", "text": "Son armée échoue devant Châteaunoir.", "place": "chateaunoir" },
-    { "s": 5, "title": "Le refus", "text": "Il préfère le bûcher à la soumission.", "place": "chateaunoir" }
+    {
+      "s": 3,
+      "title": "Le choix de Jon",
+      "text": "Il interroge Jon et décide de lui faire confiance.",
+      "place": "au-dela-du-mur"
+    },
+    {
+      "s": 4,
+      "title": "La bataille du Mur",
+      "text": "Son armée échoue devant Châteaunoir.",
+      "place": "chateaunoir"
+    },
+    {
+      "s": 5,
+      "title": "Le refus",
+      "text": "Il préfère le bûcher à la soumission.",
+      "place": "chateaunoir"
+    }
   ],
   "relations": [
-    { "to": "stannis-baratheon", "type": "ennemi", "label": "Le roi qui l’a fait brûler", "s": 4 }
+    {
+      "to": "stannis-baratheon",
+      "type": "ennemi",
+      "label": "Le roi qui l’a fait brûler",
+      "s": 4
+    }
   ],
   "places": [
-    { "place": "au-dela-du-mur", "seasons": [3, 4] },
-    { "place": "chateaunoir", "seasons": [4, 5] }
+    {
+      "place": "au-dela-du-mur",
+      "seasons": [
+        3,
+        4
+      ]
+    },
+    {
+      "place": "chateaunoir",
+      "seasons": [
+        4,
+        5
+      ]
+    }
   ],
-  "codex": ["peuple-libre", "geants", "garde-de-nuit"],
+  "codex": [
+    "peuple-libre",
+    "geants",
+    "garde-de-nuit"
+  ],
   "portrait": null,
-  "sources": [{ "label": "Wiki of Westeros — Mance Rayder", "url": "https://gameofthrones.fandom.com/wiki/Mance_Rayder" }]
+  "sources": [
+    {
+      "label": "Wiki of Westeros — Mance Rayder",
+      "url": "https://gameofthrones.fandom.com/wiki/Mance_Rayder"
+    }
+  ]
 }

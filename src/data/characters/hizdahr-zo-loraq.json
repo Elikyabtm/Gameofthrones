@@ -8,28 +8,93 @@
   "camp": "essos",
   "allegiances": [],
   "origin": "meereen",
-  "titles": [{ "text": "Noble de Meereen" }, { "text": "Roi consort de Meereen", "s": 5 }],
+  "titles": [
+    {
+      "text": "Noble de Meereen"
+    },
+    {
+      "text": "Roi consort de Meereen",
+      "s": 5
+    }
+  ],
   "actor": "Joel Fry",
   "firstSeason": 4,
   "status": [
-    { "s": 4, "value": "vivant" },
-    { "s": 5, "value": "mort", "note": "Tué par les Fils de la Harpie dans l’arène de Daznak" }
+    {
+      "s": 4,
+      "value": "vivant"
+    },
+    {
+      "s": 5,
+      "value": "mort",
+      "note": "Tué par les Fils de la Harpie dans l’arène de Daznak"
+    }
   ],
   "summary": "Noble d’une ancienne famille de Meereen, Hizdahr zo Loraq se présente devant la reine pour défendre l’honneur de son père. Il croit que l’on peut réformer la ville sans la briser.",
   "bio": [
-    { "s": 4, "title": "Saison 4 — La supplique", "paragraphs": ["Hizdahr demande à Daenerys le droit d’enterrer son père, crucifié avec les autres maîtres alors qu’il s’était opposé au supplice des enfants esclaves. La reine, troublée, accepte. Elle comprend que la justice de la conquête n’est pas toujours la justice."] },
-    { "s": 5, "title": "Saison 5 — Le roi des arènes", "paragraphs": ["Hizdahr plaide pour la réouverture des arènes de combat, tradition de Meereen. Daenerys finit par accepter et, pour s’assurer le soutien des grandes familles, annonce qu’elle l’épouse. Lors de la réouverture de l’arène de Daznak, les Fils de la Harpie surgissent ; Hizdahr, qu’on soupçonnait d’être leur chef, est l’un des premiers poignardés."] }
+    {
+      "s": 4,
+      "title": "Saison 4 — La supplique",
+      "paragraphs": [
+        "Hizdahr est un noble de Meereen, d’une ancienne famille de maîtres. Courtois et cultivé, il croit sincèrement que la ville ne peut être gouvernée sans ses traditions et ses grandes familles. Il est l’intermédiaire que Daenerys cherchait entre la conquérante et la cité qu’elle a soumise.",
+        "Il pense pouvoir réformer Meereen de l’intérieur ; il se trouve pris entre deux mondes qui ne se pardonnent rien.",
+        "Hizdahr demande à Daenerys le droit d’enterrer son père, crucifié avec les autres maîtres alors qu’il s’était opposé au supplice des enfants esclaves. La reine, troublée, accepte. Elle comprend que la justice de la conquête n’est pas toujours la justice."
+      ]
+    },
+    {
+      "s": 5,
+      "title": "Saison 5 — Le roi des arènes",
+      "paragraphs": [
+        "Hizdahr plaide pour la réouverture des arènes de combat, tradition de Meereen. Daenerys finit par accepter et, pour s’assurer le soutien des grandes familles, annonce qu’elle l’épouse. Lors de la réouverture de l’arène de Daznak, les Fils de la Harpie surgissent ; Hizdahr, qu’on soupçonnait d’être leur chef, est l’un des premiers poignardés."
+      ]
+    }
   ],
   "keyMoments": [
-    { "s": 4, "title": "Le père crucifié", "text": "Il obtient de Daenerys d’enterrer son père.", "place": "meereen" },
-    { "s": 5, "title": "L’arène de Daznak", "text": "Il meurt sous les coups des Fils de la Harpie.", "place": "meereen" }
+    {
+      "s": 4,
+      "title": "Le père crucifié",
+      "text": "Il obtient de Daenerys d’enterrer son père.",
+      "place": "meereen"
+    },
+    {
+      "s": 5,
+      "title": "L’arène de Daznak",
+      "text": "Il meurt sous les coups des Fils de la Harpie.",
+      "place": "meereen"
+    }
   ],
   "relations": [
-    { "to": "jorah-mormont", "type": "autre", "label": "Le combattant de l’arène", "s": 5 },
-    { "to": "missandei", "type": "autre", "label": "La conseillère de la reine", "s": 5 }
+    {
+      "to": "jorah-mormont",
+      "type": "autre",
+      "label": "Le combattant de l’arène",
+      "s": 5
+    },
+    {
+      "to": "missandei",
+      "type": "autre",
+      "label": "La conseillère de la reine",
+      "s": 5
+    }
   ],
-  "places": [{ "place": "meereen", "seasons": [4, 5] }],
-  "codex": ["ghiscaris", "fils-de-la-harpie"],
+  "places": [
+    {
+      "place": "meereen",
+      "seasons": [
+        4,
+        5
+      ]
+    }
+  ],
+  "codex": [
+    "ghiscaris",
+    "fils-de-la-harpie"
+  ],
   "portrait": null,
-  "sources": [{ "label": "Wiki of Westeros — Hizdahr zo Loraq", "url": "https://gameofthrones.fandom.com/wiki/Hizdahr_zo_Loraq" }]
+  "sources": [
+    {
+      "label": "Wiki of Westeros — Hizdahr zo Loraq",
+      "url": "https://gameofthrones.fandom.com/wiki/Hizdahr_zo_Loraq"
+    }
+  ]
 }

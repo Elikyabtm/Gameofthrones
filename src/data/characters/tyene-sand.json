@@ -2,39 +2,118 @@
   "slug": "tyene-sand",
   "name": "Tyene Sand",
   "short": "Tyene",
-  "aliases": [{ "text": "Aspic des Sables" }],
+  "aliases": [
+    {
+      "text": "Aspic des Sables"
+    }
+  ],
   "house": "martell",
   "region": "Dorne",
   "camp": "westeros",
-  "allegiances": [{ "to": "martell" }],
+  "allegiances": [
+    {
+      "to": "martell"
+    }
+  ],
   "origin": "lancehelion",
   "titles": [],
   "actor": "Rosabell Laurenti Sellers",
   "firstSeason": 5,
   "status": [
-    { "s": 5, "value": "vivant" },
-    { "s": 7, "value": "mort", "note": "Empoisonnée par Cersei d’un baiser dans les cachots du Donjon Rouge" }
+    {
+      "s": 5,
+      "value": "vivant"
+    },
+    {
+      "s": 7,
+      "value": "mort",
+      "note": "Empoisonnée par Cersei d’un baiser dans les cachots du Donjon Rouge"
+    }
   ],
   "summary": "Fille d’Oberyn et d’Ellaria, Tyene a l’air d’une jeune fille innocente. Elle connaît pourtant les poisons mieux que quiconque.",
   "bio": [
-    { "s": 5, "title": "Saison 5 — La lame empoisonnée", "paragraphs": ["Pendant la tentative d’enlèvement de Myrcella, Tyene blesse Bronn d’une lame enduite de poison. En prison, elle le provoque, puis lui donne l’antidote au moment où il commence à mourir."] },
-    { "s": 6, "title": "Saison 6 — Les jardins", "paragraphs": ["Tyene participe au coup d’État d’Ellaria en tuant le garde de Doran."] },
-    { "s": 7, "title": "Saison 7 — Le baiser", "paragraphs": ["Capturée avec sa mère par Euron, Tyene est enchaînée dans un cachot du Donjon Rouge. Cersei lui donne un baiser empoisonné, comme celui qui a tué Myrcella, et la condamne à mourir lentement sous les yeux d’Ellaria."] }
+    {
+      "s": 5,
+      "title": "Saison 5 — La lame empoisonnée",
+      "paragraphs": [
+        "Tyene est la fille d’Oberyn et d’Ellaria. Blonde, souriante et redoutable, elle cache ses lames empoisonnées sous des airs d’innocence. Elle est la plus séduisante des Aspics des Sables, et peut-être la plus dangereuse.",
+        "Pendant la tentative d’enlèvement de Myrcella, Tyene blesse Bronn d’une lame enduite de poison. En prison, elle le provoque, puis lui donne l’antidote au moment où il commence à mourir.",
+        "Son échange avec Bronn en prison, fait de provocations et de chansons, est l’un des rares moments de légèreté de Dorne."
+      ]
+    },
+    {
+      "s": 6,
+      "title": "Saison 6 — Les jardins",
+      "paragraphs": [
+        "Tyene participe au coup d’État d’Ellaria en tuant le garde de Doran."
+      ]
+    },
+    {
+      "s": 7,
+      "title": "Saison 7 — Le baiser",
+      "paragraphs": [
+        "Capturée avec sa mère par Euron, Tyene est enchaînée dans un cachot du Donjon Rouge. Cersei lui donne un baiser empoisonné, comme celui qui a tué Myrcella, et la condamne à mourir lentement sous les yeux d’Ellaria.",
+        "Elle meurt sans un mot, sous le regard de la mère qui l’avait entraînée dans la vengeance."
+      ]
+    }
   ],
   "keyMoments": [
-    { "s": 5, "title": "L’antidote", "text": "Elle sauve Bronn du poison qu’elle lui a infligé.", "place": "jardins-aquatiques" },
-    { "s": 7, "title": "Le baiser de la reine", "text": "Cersei l’empoisonne devant sa mère.", "place": "port-real" }
+    {
+      "s": 5,
+      "title": "L’antidote",
+      "text": "Elle sauve Bronn du poison qu’elle lui a infligé.",
+      "place": "jardins-aquatiques"
+    },
+    {
+      "s": 7,
+      "title": "Le baiser de la reine",
+      "text": "Cersei l’empoisonne devant sa mère.",
+      "place": "port-real"
+    }
   ],
   "relations": [
-    { "to": "bronn", "type": "autre", "label": "Le prisonnier qu’elle a empoisonné, puis sauvé", "s": 5 },
-    { "to": "cersei-lannister", "type": "ennemi", "label": "La reine qui l’a empoisonnée", "s": 7 }
+    {
+      "to": "bronn",
+      "type": "autre",
+      "label": "Le prisonnier qu’elle a empoisonné, puis sauvé",
+      "s": 5
+    },
+    {
+      "to": "cersei-lannister",
+      "type": "ennemi",
+      "label": "La reine qui l’a empoisonnée",
+      "s": 7
+    }
   ],
   "places": [
-    { "place": "jardins-aquatiques", "seasons": [5, 6] },
-    { "place": "peyredragon", "seasons": [7] },
-    { "place": "port-real", "seasons": [7] }
+    {
+      "place": "jardins-aquatiques",
+      "seasons": [
+        5,
+        6
+      ]
+    },
+    {
+      "place": "peyredragon",
+      "seasons": [
+        7
+      ]
+    },
+    {
+      "place": "port-real",
+      "seasons": [
+        7
+      ]
+    }
   ],
-  "codex": ["dorniens"],
+  "codex": [
+    "dorniens"
+  ],
   "portrait": "images/personnages/tyene-sand.webp",
-  "sources": [{ "label": "Wiki of Westeros — Tyene Sand", "url": "https://gameofthrones.fandom.com/wiki/Tyene_Sand" }]
+  "sources": [
+    {
+      "label": "Wiki of Westeros — Tyene Sand",
+      "url": "https://gameofthrones.fandom.com/wiki/Tyene_Sand"
+    }
+  ]
 }

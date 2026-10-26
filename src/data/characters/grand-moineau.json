@@ -2,34 +2,100 @@
   "slug": "grand-moineau",
   "name": "Le Grand Moineau",
   "short": "le Grand Moineau",
-  "aliases": [{ "text": "Grand Septon", "s": 5 }],
+  "aliases": [
+    {
+      "text": "Grand Septon",
+      "s": 5
+    }
+  ],
   "house": null,
   "region": "Les Terres de la Couronne",
   "camp": "westeros",
   "allegiances": [],
   "origin": "port-real",
-  "titles": [{ "text": "Grand Septon", "s": 5 }],
+  "titles": [
+    {
+      "text": "Grand Septon",
+      "s": 5
+    }
+  ],
   "actor": "Jonathan Pryce",
   "firstSeason": 5,
   "status": [
-    { "s": 5, "value": "vivant" },
-    { "s": 6, "value": "mort", "note": "Tué dans l’explosion du grand septuor de Baelor" }
+    {
+      "s": 5,
+      "value": "vivant"
+    },
+    {
+      "s": 6,
+      "value": "mort",
+      "note": "Tué dans l’explosion du grand septuor de Baelor"
+    }
   ],
   "summary": "Chef des « moineaux », des fidèles pauvres et pieux qui prêchent dans les rues de Port-Réal, le Grand Moineau marche pieds nus et nourrit les affamés. Il ne craint ni les nobles ni la reine.",
   "bio": [
-    { "s": 5, "title": "Saison 5 — Le prédicateur", "paragraphs": ["Le Grand Moineau sert la soupe aux pauvres quand Cersei vient le voir. Elle cherche une arme contre les Tyrell et lui offre de rétablir la Foi militante. Il accepte, devient Grand Septon et fait arrêter Loras, puis Margaery, puis Cersei elle-même. Il impose à la reine une marche d’expiation, nue, à travers la ville."] },
-    { "s": 6, "title": "Saison 6 — Le maître de la cour", "paragraphs": ["Le Grand Moineau gagne Tommen à sa cause et obtient la conversion apparente de Margaery. Il affronte sans peur l’armée des Tyrell venue libérer la reine. Le jour du procès de Cersei, il attend dans le grand septuor, s’étonne de son absence et comprend trop tard. Le feu grégeois le tue avec tous ceux qui sont présents."] }
+    {
+      "s": 5,
+      "title": "Saison 5 — Le prédicateur",
+      "paragraphs": [
+        "Le Grand Moineau est un prêtre de la Foi des Sept qui a renoncé à tous les biens pour vivre pieds nus parmi les pauvres. Il est cultivé, calme et inflexible. Il méprise le luxe des grands et les péchés de la noblesse, et il est convaincu que la Foi doit juger les puissants comme les humbles.",
+        "Le Grand Moineau sert la soupe aux pauvres quand Cersei vient le voir. Elle cherche une arme contre les Tyrell et lui offre de rétablir la Foi militante. Il accepte, devient Grand Septon et fait arrêter Loras, puis Margaery, puis Cersei elle-même. Il impose à la reine une marche d’expiation, nue, à travers la ville."
+      ]
+    },
+    {
+      "s": 6,
+      "title": "Saison 6 — Le maître de la cour",
+      "paragraphs": [
+        "Le Grand Moineau gagne Tommen à sa cause et obtient la conversion apparente de Margaery. Il affronte sans peur l’armée des Tyrell venue libérer la reine. Le jour du procès de Cersei, il attend dans le grand septuor, s’étonne de son absence et comprend trop tard. Le feu grégeois le tue avec tous ceux qui sont présents."
+      ]
+    }
   ],
   "keyMoments": [
-    { "s": 5, "title": "La soupe", "text": "Cersei lui offre le pouvoir pour affaiblir les Tyrell.", "place": "port-real" },
-    { "s": 5, "title": "La marche d’expiation", "text": "Il impose à la reine de traverser la ville nue.", "place": "port-real" },
-    { "s": 6, "title": "Le septuor", "text": "Il meurt dans l’explosion du feu grégeois.", "place": "port-real" }
+    {
+      "s": 5,
+      "title": "La soupe",
+      "text": "Cersei lui offre le pouvoir pour affaiblir les Tyrell.",
+      "place": "port-real"
+    },
+    {
+      "s": 5,
+      "title": "La marche d’expiation",
+      "text": "Il impose à la reine de traverser la ville nue.",
+      "place": "port-real"
+    },
+    {
+      "s": 6,
+      "title": "Le septuor",
+      "text": "Il meurt dans l’explosion du feu grégeois.",
+      "place": "port-real"
+    }
   ],
   "relations": [
-    { "to": "septa-unella", "type": "allie", "label": "Sa fidèle", "s": 5 }
+    {
+      "to": "septa-unella",
+      "type": "allie",
+      "label": "Sa fidèle",
+      "s": 5
+    }
   ],
-  "places": [{ "place": "port-real", "seasons": [5, 6] }],
-  "codex": ["foi-des-sept", "foi-militante"],
+  "places": [
+    {
+      "place": "port-real",
+      "seasons": [
+        5,
+        6
+      ]
+    }
+  ],
+  "codex": [
+    "foi-des-sept",
+    "foi-militante"
+  ],
   "portrait": null,
-  "sources": [{ "label": "Wiki of Westeros — High Sparrow", "url": "https://gameofthrones.fandom.com/wiki/High_Sparrow" }]
+  "sources": [
+    {
+      "label": "Wiki of Westeros — High Sparrow",
+      "url": "https://gameofthrones.fandom.com/wiki/High_Sparrow"
+    }
+  ]
 }

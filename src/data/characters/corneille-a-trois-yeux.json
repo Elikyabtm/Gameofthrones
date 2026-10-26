@@ -12,27 +12,87 @@
   "actor": "Struan Rodger, puis Max von Sydow",
   "firstSeason": 1,
   "status": [
-    { "s": 1, "value": "vivant" },
-    { "s": 6, "value": "mort", "note": "Tué par le Roi de la Nuit dans la grotte" }
+    {
+      "s": 1,
+      "value": "vivant"
+    },
+    {
+      "s": 6,
+      "value": "mort",
+      "note": "Tué par le Roi de la Nuit dans la grotte"
+    }
   ],
   "summary": "D’abord simple apparition dans les rêves de Bran, la corneille à trois yeux l’appelle vers le nord. Elle promet de lui apprendre à voler.",
   "bio": [
-    { "s": 1, "title": "Saison 1 — Le rêve", "paragraphs": ["Pendant son coma, puis dans ses rêves, Bran voit une corneille à trois yeux qui l’observe depuis les branches. Elle l’invite à la suivre. Personne ne sait ce qu’elle est."] },
-    { "s": 4, "title": "Saison 4 — L’homme dans l’arbre", "paragraphs": ["Au terme de leur voyage, Bran et les Reed trouvent dans une grotte un vieillard pris dans les racines d’un barral. Il a veillé sur le monde pendant mille ans, à travers les yeux des arbres. Il annonce à Bran qu’il ne remarchera jamais, mais qu’il volera."] },
-    { "s": 6, "title": "Saison 6 — La transmission", "paragraphs": ["La corneille enseigne à Bran à voyager dans le passé et le presse d’apprendre vite. Quand le Roi de la Nuit découvre la grotte, le vieillard transmet à Bran, dans l’urgence, tout ce qu’il sait, avant d’être tué. Bran devient à son tour la corneille à trois yeux."] }
+    {
+      "s": 1,
+      "title": "Saison 1 — Le rêve",
+      "paragraphs": [
+        "Pendant son coma, puis dans ses rêves, Bran voit une corneille à trois yeux qui l’observe depuis les branches. Elle l’invite à la suivre. Personne ne sait ce qu’elle est."
+      ]
+    },
+    {
+      "s": 4,
+      "title": "Saison 4 — L’homme dans l’arbre",
+      "paragraphs": [
+        "Il fut jadis un homme, et l’un des derniers à savoir voir à travers les arbres. Depuis, il est devenu une partie du barral lui-même, nourri par ses racines, gardien de la mémoire du monde.",
+        "Au terme de leur voyage, Bran et les Reed trouvent dans une grotte un vieillard pris dans les racines d’un barral. Il a veillé sur le monde pendant mille ans, à travers les yeux des arbres. Il annonce à Bran qu’il ne remarchera jamais, mais qu’il volera."
+      ]
+    },
+    {
+      "s": 6,
+      "title": "Saison 6 — La transmission",
+      "paragraphs": [
+        "La corneille enseigne à Bran à voyager dans le passé et le presse d’apprendre vite. Quand le Roi de la Nuit découvre la grotte, le vieillard transmet à Bran, dans l’urgence, tout ce qu’il sait, avant d’être tué. Bran devient à son tour la corneille à trois yeux."
+      ]
+    }
   ],
   "keyMoments": [
-    { "s": 4, "title": "La grotte", "text": "Il accueille Bran au pied du grand barral.", "place": "au-dela-du-mur" },
-    { "s": 6, "title": "La fin d’un gardien", "text": "Il meurt en transmettant sa mémoire à Bran.", "place": "au-dela-du-mur" }
+    {
+      "s": 4,
+      "title": "La grotte",
+      "text": "Il accueille Bran au pied du grand barral.",
+      "place": "au-dela-du-mur"
+    },
+    {
+      "s": 6,
+      "title": "La fin d’un gardien",
+      "text": "Il meurt en transmettant sa mémoire à Bran.",
+      "place": "au-dela-du-mur"
+    }
   ],
   "relations": [
-    { "to": "hodor", "type": "autre", "label": "Le garçon qu’il a vu dans le passé", "s": 6 }
+    {
+      "to": "hodor",
+      "type": "autre",
+      "label": "Le garçon qu’il a vu dans le passé",
+      "s": 6
+    }
   ],
   "places": [
-    { "place": "winterfell", "seasons": [1] },
-    { "place": "au-dela-du-mur", "seasons": [4, 6] }
+    {
+      "place": "winterfell",
+      "seasons": [
+        1
+      ]
+    },
+    {
+      "place": "au-dela-du-mur",
+      "seasons": [
+        4,
+        6
+      ]
+    }
   ],
-  "codex": ["enfants-de-la-foret", "anciens-dieux"],
+  "codex": [
+    "enfants-de-la-foret",
+    "anciens-dieux"
+  ],
   "portrait": null,
-  "sources": [{ "label": "Wiki of Westeros — Three-eyed raven", "url": "https://gameofthrones.fandom.com/wiki/Three-eyed_raven" }]
+  "sources": [
+    {
+      "label": "Wiki of Westeros — Three-eyed raven",
+      "url": "https://gameofthrones.fandom.com/wiki/Three-eyed_raven"
+    }
+  ]
 }

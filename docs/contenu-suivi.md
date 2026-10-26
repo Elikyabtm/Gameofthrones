@@ -46,113 +46,113 @@ Les chaînes témoins sont dans `tools/spoiler-witnesses.json` et contrôlées p
 | Slug | Rang | Mots (bio) | Moments | Relations | Portrait | Champs vides |
 |---|---|---|---|---|---|---|
 | aemon-targaryen | secondaire | 160 | 2 | 5 | non | quote, booksVsShow |
-| aerys-targaryen | secondaire | 142 ⚠ court | 1 | 5 | oui | quote, booksVsShow |
+| aerys-targaryen | secondaire | 181 | 1 | 5 | oui | quote, booksVsShow |
 | alliser-thorne | secondaire | 171 | 2 | 3 | non | quote, booksVsShow |
 | arya-stark | principal | 760 | 8 | 21 | oui | — |
-| balon-greyjoy | secondaire | 127 ⚠ court | 2 | 4 | oui | quote, booksVsShow |
-| barristan-selmy | secondaire | 125 ⚠ court | 3 | 7 | non | quote, booksVsShow |
+| balon-greyjoy | secondaire | 184 | 2 | 4 | oui | quote, booksVsShow |
+| barristan-selmy | secondaire | 171 | 3 | 7 | non | quote, booksVsShow |
 | benjen-stark | secondaire | 182 | 3 | 6 | oui | quote, booksVsShow |
 | beric-dondarrion | secondaire | 179 | 2 | 5 | non | quote, booksVsShow |
-| bran-stark | principal | 611 | 6 | 20 | oui | quote |
-| brienne-de-torth | principal | 386 ⚠ court | 5 | 11 | non | quote |
-| bronn | principal | 291 ⚠ court | 5 | 6 | non | quote, codex |
-| brynden-tully | secondaire | 87 ⚠ court | 2 | 7 | non | quote, booksVsShow, codex |
-| catelyn-stark | principal | 431 ⚠ court | 5 | 16 | oui | quote |
-| cersei-lannister | principal | 568 ⚠ court | 7 | 27 | oui | — |
-| corneille-a-trois-yeux | secondaire | 125 ⚠ court | 2 | 3 | non | quote, booksVsShow |
-| craster | secondaire | 75 ⚠ court | 1 | 3 | non | quote, booksVsShow |
-| daario-naharis | secondaire | 143 ⚠ court | 3 | 5 | non | quote, booksVsShow |
+| bran-stark | principal | 613 | 6 | 20 | oui | quote |
+| brienne-de-torth | principal | 620 | 5 | 11 | non | quote |
+| bronn | principal | 610 | 5 | 6 | non | quote, codex |
+| brynden-tully | secondaire | 168 | 2 | 7 | non | quote, booksVsShow, codex |
+| catelyn-stark | principal | 633 | 5 | 16 | oui | quote |
+| cersei-lannister | principal | 777 | 7 | 27 | oui | — |
+| corneille-a-trois-yeux | secondaire | 160 | 2 | 3 | non | quote, booksVsShow |
+| craster | secondaire | 158 | 1 | 3 | non | quote, booksVsShow |
+| daario-naharis | secondaire | 182 | 3 | 5 | non | quote, booksVsShow |
 | daenerys-targaryen | principal | 690 | 7 | 28 | oui | quote |
-| davos-mervault | principal | 366 ⚠ court | 4 | 9 | non | quote |
-| doran-martell | secondaire | 117 ⚠ court | 2 | 4 | oui | quote, booksVsShow |
-| eddard-stark | principal | 430 ⚠ court | 6 | 19 | oui | — |
+| davos-mervault | principal | 604 | 4 | 9 | non | quote |
+| doran-martell | secondaire | 167 | 2 | 4 | oui | quote, booksVsShow |
+| eddard-stark | principal | 628 | 6 | 19 | oui | — |
 | eddison-tollett | secondaire | 162 | 2 | 4 | non | quote, booksVsShow |
-| edmure-tully | secondaire | 147 ⚠ court | 3 | 6 | oui | quote, booksVsShow |
-| ellaria-sand | secondaire | 149 ⚠ court | 3 | 10 | oui | quote, booksVsShow |
+| edmure-tully | secondaire | 177 | 3 | 6 | oui | quote, booksVsShow |
+| ellaria-sand | secondaire | 179 | 3 | 10 | oui | quote, booksVsShow |
 | euron-greyjoy | secondaire | 159 | 3 | 9 | oui | quote, booksVsShow |
 | gendry | secondaire | 225 | 4 | 7 | oui | quote, booksVsShow |
 | gilly | secondaire | 195 | 2 | 5 | non | quote, booksVsShow |
-| grand-moineau | secondaire | 112 ⚠ court | 3 | 6 | non | quote, booksVsShow |
+| grand-moineau | secondaire | 169 | 3 | 6 | non | quote, booksVsShow |
 | gregor-clegane | secondaire | 172 | 2 | 7 | non | quote, booksVsShow |
-| hizdahr-zo-loraq | secondaire | 93 ⚠ court | 2 | 4 | non | quote, booksVsShow |
+| hizdahr-zo-loraq | secondaire | 159 | 2 | 4 | non | quote, booksVsShow |
 | hodor | secondaire | 171 | 2 | 5 | non | quote, booksVsShow, codex |
-| hoster-tully | secondaire | 53 ⚠ court | 1 | 4 | oui | quote, booksVsShow |
-| illyrio-mopatis | secondaire | 74 ⚠ court | 2 | 3 | non | quote, booksVsShow |
-| jaime-lannister | principal | 530 ⚠ court | 6 | 21 | oui | quote |
-| janos-slynt | secondaire | 120 ⚠ court | 2 | 4 | non | quote, booksVsShow |
+| hoster-tully | secondaire | 161 | 1 | 4 | oui | quote, booksVsShow |
+| illyrio-mopatis | secondaire | 152 | 2 | 3 | non | quote, booksVsShow |
+| jaime-lannister | principal | 774 | 6 | 21 | oui | quote |
+| janos-slynt | secondaire | 160 | 2 | 4 | non | quote, booksVsShow |
 | jaqen-hghar | secondaire | 163 | 2 | 3 | non | quote, booksVsShow |
 | jeor-mormont | secondaire | 152 | 2 | 7 | non | quote, booksVsShow |
-| joffrey-baratheon | principal | 293 ⚠ court | 4 | 15 | oui | quote, booksVsShow |
-| jojen-reed | secondaire | 89 ⚠ court | 2 | 4 | non | quote, booksVsShow |
-| jon-snow | principal | 575 ⚠ court | 8 | 32 | oui | quote |
-| jorah-mormont | principal | 367 ⚠ court | 5 | 14 | non | quote |
-| kevan-lannister | secondaire | 113 ⚠ court | 2 | 5 | non | quote, booksVsShow, codex |
-| khal-drogo | principal | 408 ⚠ court | 5 | 5 | non | quote |
-| kinvara | secondaire | 71 ⚠ court | 1 | 4 | non | quote, booksVsShow |
-| kraznys-mo-nakloz | secondaire | 70 ⚠ court | 1 | 3 | non | quote, booksVsShow |
-| la-gamine | secondaire | 94 ⚠ court | 1 | 2 | non | quote, booksVsShow |
-| lancel-lannister | secondaire | 138 ⚠ court | 3 | 5 | non | quote, booksVsShow |
+| joffrey-baratheon | principal | 609 | 4 | 15 | oui | quote, booksVsShow |
+| jojen-reed | secondaire | 150 | 2 | 4 | non | quote, booksVsShow |
+| jon-snow | principal | 677 | 8 | 32 | oui | quote |
+| jorah-mormont | principal | 624 | 5 | 14 | non | quote |
+| kevan-lannister | secondaire | 151 | 2 | 5 | non | quote, booksVsShow, codex |
+| khal-drogo | principal | 602 | 5 | 5 | non | quote |
+| kinvara | secondaire | 157 | 1 | 4 | non | quote, booksVsShow |
+| kraznys-mo-nakloz | secondaire | 151 | 1 | 3 | non | quote, booksVsShow |
+| la-gamine | secondaire | 163 | 1 | 2 | non | quote, booksVsShow |
+| lancel-lannister | secondaire | 169 | 3 | 5 | non | quote, booksVsShow |
 | loras-tyrell | secondaire | 202 | 2 | 7 | oui | quote, booksVsShow |
-| lyanna-mormont | secondaire | 141 ⚠ court | 3 | 4 | non | quote, booksVsShow, codex |
+| lyanna-mormont | secondaire | 175 | 3 | 4 | non | quote, booksVsShow, codex |
 | lyanna-stark | secondaire | 225 | 2 | 7 | oui | quote, booksVsShow |
-| lysa-arryn | secondaire | 139 ⚠ court | 3 | 7 | oui | quote, booksVsShow, codex |
-| mace-tyrell | secondaire | 106 ⚠ court | 2 | 5 | oui | quote, booksVsShow, codex |
-| mance-rayder | secondaire | 130 ⚠ court | 3 | 4 | non | quote, booksVsShow |
-| margaery-tyrell | principal | 284 ⚠ court | 4 | 11 | oui | quote |
-| meera-reed | secondaire | 139 ⚠ court | 2 | 4 | non | quote, booksVsShow |
-| melisandre | principal | 343 ⚠ court | 5 | 11 | non | — |
-| mirri-maz-duur | secondaire | 101 ⚠ court | 2 | 3 | non | quote, booksVsShow |
-| missandei | principal | 384 ⚠ court | 5 | 9 | non | — |
-| myrcella-baratheon | secondaire | 127 ⚠ court | 2 | 7 | oui | quote, booksVsShow, codex |
-| nymeria-sand | secondaire | 61 ⚠ court | 1 | 6 | oui | quote, booksVsShow |
-| obara-sand | secondaire | 88 ⚠ court | 2 | 6 | oui | quote, booksVsShow |
-| oberyn-martell | principal | 323 ⚠ court | 3 | 9 | oui | quote |
-| olenna-tyrell | principal | 342 ⚠ court | 5 | 13 | oui | codex |
-| osha | secondaire | 109 ⚠ court | 2 | 7 | non | quote, booksVsShow |
-| petyr-baelish | principal | 390 ⚠ court | 5 | 11 | non | codex |
+| lysa-arryn | secondaire | 175 | 3 | 7 | oui | quote, booksVsShow, codex |
+| mace-tyrell | secondaire | 160 | 2 | 5 | oui | quote, booksVsShow, codex |
+| mance-rayder | secondaire | 199 | 3 | 4 | non | quote, booksVsShow |
+| margaery-tyrell | principal | 606 | 4 | 11 | oui | quote |
+| meera-reed | secondaire | 196 | 2 | 4 | non | quote, booksVsShow |
+| melisandre | principal | 621 | 5 | 11 | non | — |
+| mirri-maz-duur | secondaire | 168 | 2 | 3 | non | quote, booksVsShow |
+| missandei | principal | 607 | 5 | 9 | non | — |
+| myrcella-baratheon | secondaire | 161 | 2 | 7 | oui | quote, booksVsShow, codex |
+| nymeria-sand | secondaire | 157 | 1 | 6 | oui | quote, booksVsShow |
+| obara-sand | secondaire | 152 | 2 | 6 | oui | quote, booksVsShow |
+| oberyn-martell | principal | 601 | 3 | 9 | oui | quote |
+| olenna-tyrell | principal | 603 | 5 | 13 | oui | codex |
+| osha | secondaire | 153 | 2 | 7 | non | quote, booksVsShow |
+| petyr-baelish | principal | 607 | 5 | 11 | non | codex |
 | podrick-payne | secondaire | 161 | 2 | 3 | non | quote, booksVsShow |
-| pyat-pree | secondaire | 65 ⚠ court | 2 | 2 | non | quote, booksVsShow, codex |
-| pycelle | secondaire | 129 ⚠ court | 2 | 3 | non | quote, booksVsShow |
-| qhorin-mimain | secondaire | 76 ⚠ court | 1 | 3 | non | quote, booksVsShow |
+| pyat-pree | secondaire | 155 | 2 | 2 | non | quote, booksVsShow, codex |
+| pycelle | secondaire | 165 | 2 | 3 | non | quote, booksVsShow |
+| qhorin-mimain | secondaire | 161 | 1 | 3 | non | quote, booksVsShow |
 | qyburn | secondaire | 178 | 2 | 4 | non | quote, booksVsShow |
-| rakharo | secondaire | 97 ⚠ court | 2 | 3 | non | quote, booksVsShow |
-| ramsay-bolton | principal | 355 ⚠ court | 5 | 8 | oui | quote, codex |
-| randyll-tarly | secondaire | 93 ⚠ court | 2 | 4 | non | quote, booksVsShow, codex |
-| renly-baratheon | secondaire | 135 ⚠ court | 3 | 6 | oui | quote, booksVsShow, codex |
-| rhaegar-targaryen | secondaire | 132 ⚠ court | 2 | 6 | oui | quote, booksVsShow |
+| rakharo | secondaire | 153 | 2 | 3 | non | quote, booksVsShow |
+| ramsay-bolton | principal | 607 | 5 | 8 | oui | quote, codex |
+| randyll-tarly | secondaire | 171 | 2 | 4 | non | quote, booksVsShow, codex |
+| renly-baratheon | secondaire | 175 | 3 | 6 | oui | quote, booksVsShow, codex |
+| rhaegar-targaryen | secondaire | 168 | 2 | 6 | oui | quote, booksVsShow |
 | rickon-stark | secondaire | 166 | 3 | 9 | oui | quote, booksVsShow |
-| robb-stark | principal | 410 ⚠ court | 6 | 17 | oui | quote |
-| robert-baratheon | principal | 195 ⚠ court | 3 | 14 | oui | quote |
-| robin-arryn | secondaire | 145 ⚠ court | 2 | 3 | oui | quote, booksVsShow, codex |
-| roi-de-la-nuit | principal | 367 ⚠ court | 5 | 6 | non | quote |
+| robb-stark | principal | 618 | 6 | 17 | oui | quote |
+| robert-baratheon | principal | 600 | 3 | 14 | oui | quote |
+| robin-arryn | secondaire | 177 | 2 | 3 | oui | quote, booksVsShow, codex |
+| roi-de-la-nuit | principal | 607 | 5 | 6 | non | quote |
 | roose-bolton | secondaire | 181 | 3 | 6 | oui | quote, booksVsShow, codex |
-| samwell-tarly | principal | 468 ⚠ court | 6 | 9 | non | quote |
-| sandor-clegane | principal | 349 ⚠ court | 5 | 9 | non | quote |
+| samwell-tarly | principal | 663 | 6 | 9 | non | quote |
+| sandor-clegane | principal | 616 | 5 | 9 | non | quote |
 | sansa-stark | principal | 665 | 8 | 21 | oui | quote |
-| selyse-baratheon | secondaire | 114 ⚠ court | 1 | 3 | oui | quote, booksVsShow |
-| septa-unella | secondaire | 82 ⚠ court | 2 | 3 | non | quote, booksVsShow |
-| ser-arthur-dayne | secondaire | 68 ⚠ court | 1 | 3 | non | quote, booksVsShow |
-| shae | secondaire | 136 ⚠ court | 2 | 4 | non | quote, booksVsShow, codex |
-| shireen-baratheon | secondaire | 122 ⚠ court | 3 | 5 | oui | quote, booksVsShow |
-| stannis-baratheon | principal | 299 ⚠ court | 5 | 13 | oui | quote |
-| syrio-forel | secondaire | 103 ⚠ court | 2 | 3 | non | quote, booksVsShow |
-| talisa-stark | secondaire | 124 ⚠ court | 2 | 4 | non | quote, booksVsShow |
-| theon-greyjoy | principal | 437 ⚠ court | 5 | 10 | oui | quote |
-| thoros-de-myr | secondaire | 101 ⚠ court | 2 | 4 | non | quote, booksVsShow |
+| selyse-baratheon | secondaire | 153 | 1 | 3 | oui | quote, booksVsShow |
+| septa-unella | secondaire | 161 | 2 | 3 | non | quote, booksVsShow |
+| ser-arthur-dayne | secondaire | 165 | 1 | 3 | non | quote, booksVsShow |
+| shae | secondaire | 164 | 2 | 4 | non | quote, booksVsShow, codex |
+| shireen-baratheon | secondaire | 164 | 3 | 5 | oui | quote, booksVsShow |
+| stannis-baratheon | principal | 622 | 5 | 13 | oui | quote |
+| syrio-forel | secondaire | 168 | 2 | 3 | non | quote, booksVsShow |
+| talisa-stark | secondaire | 153 | 2 | 4 | non | quote, booksVsShow |
+| theon-greyjoy | principal | 647 | 5 | 10 | oui | quote |
+| thoros-de-myr | secondaire | 168 | 2 | 4 | non | quote, booksVsShow |
 | tommen-baratheon | secondaire | 176 | 2 | 10 | oui | quote, booksVsShow |
-| tormund | principal | 384 ⚠ court | 5 | 6 | non | quote |
-| trystane-martell | secondaire | 75 ⚠ court | 1 | 4 | oui | quote, booksVsShow |
-| tycho-nestoris | secondaire | 118 ⚠ court | 2 | 4 | non | quote, booksVsShow |
-| tyene-sand | secondaire | 79 ⚠ court | 2 | 6 | oui | quote, booksVsShow |
-| tyrion-lannister | principal | 556 ⚠ court | 6 | 23 | oui | — |
-| tywin-lannister | principal | 461 ⚠ court | 6 | 18 | oui | quote, codex |
-| varys | principal | 375 ⚠ court | 5 | 9 | non | — |
-| ver-gris | principal | 387 ⚠ court | 5 | 6 | non | quote |
-| viserys-targaryen | secondaire | 136 ⚠ court | 2 | 6 | oui | quote, booksVsShow |
+| tormund | principal | 608 | 5 | 6 | non | quote |
+| trystane-martell | secondaire | 156 | 1 | 4 | oui | quote, booksVsShow |
+| tycho-nestoris | secondaire | 151 | 2 | 4 | non | quote, booksVsShow |
+| tyene-sand | secondaire | 151 | 2 | 6 | oui | quote, booksVsShow |
+| tyrion-lannister | principal | 773 | 6 | 23 | oui | — |
+| tywin-lannister | principal | 628 | 6 | 18 | oui | quote, codex |
+| varys | principal | 622 | 5 | 9 | non | — |
+| ver-gris | principal | 608 | 5 | 6 | non | quote |
+| viserys-targaryen | secondaire | 171 | 2 | 6 | oui | quote, booksVsShow |
 | walder-frey | secondaire | 155 | 3 | 9 | oui | quote, booksVsShow, codex |
-| xaro-xhoan-daxos | secondaire | 101 ⚠ court | 2 | 2 | non | quote, booksVsShow |
-| yara-greyjoy | principal | 265 ⚠ court | 5 | 6 | oui | quote |
-| ygritte | secondaire | 127 ⚠ court | 3 | 4 | non | booksVsShow |
+| xaro-xhoan-daxos | secondaire | 153 | 2 | 2 | non | quote, booksVsShow |
+| yara-greyjoy | principal | 609 | 5 | 6 | oui | quote |
+| ygritte | secondaire | 164 | 3 | 4 | non | booksVsShow |
 
 ### Lieux
 

@@ -8,25 +8,67 @@
   "camp": "essos",
   "allegiances": [],
   "origin": "qarth",
-  "titles": [{ "text": "Conjurateur" }],
+  "titles": [
+    {
+      "text": "Conjurateur"
+    }
+  ],
   "actor": "Ian Hanmore",
   "firstSeason": 2,
   "status": [
-    { "s": 2, "value": "vivant" },
-    { "s": 2, "value": "mort", "note": "Brûlé par les dragons dans la Maison des Éternels" }
+    {
+      "s": 2,
+      "value": "vivant"
+    },
+    {
+      "s": 2,
+      "value": "mort",
+      "note": "Brûlé par les dragons dans la Maison des Éternels"
+    }
   ],
   "summary": "Sorcier de Qarth aux lèvres bleuies, Pyat Pree appartient aux conjurateurs de la Maison des Éternels. Il propose à Daenerys des visions de son avenir.",
   "bio": [
-    { "s": 2, "title": "Saison 2 — La Maison des Éternels", "paragraphs": ["Pyat Pree se multiplie sous les yeux des Treize pour impressionner la ville. Allié à Xaro, il vole les dragons de Daenerys et les enferme dans la Maison des Éternels, une tour sans porte où la magie revient avec eux. Daenerys y entre pour les reprendre. Après les visions, elle se retrouve enchaînée ; elle prononce « Dracarys » et ses dragons brûlent le sorcier."] }
+    {
+      "s": 2,
+      "title": "Saison 2 — La Maison des Éternels",
+      "paragraphs": [
+        "Pyat Pree est un conjurateur de Qarth, membre d’un ordre de sorciers aux lèvres bleues qui prétendent maîtriser une magie ancienne. Leur pouvoir a décliné avec la disparition des dragons ; le retour des bêtes de Daenerys le réveille.",
+        "Pyat Pree se multiplie sous les yeux des Treize pour impressionner la ville. Allié à Xaro, il vole les dragons de Daenerys et les enferme dans la Maison des Éternels, une tour sans porte où la magie revient avec eux. Daenerys y entre pour les reprendre. Après les visions, elle se retrouve enchaînée ; elle prononce « Dracarys » et ses dragons brûlent le sorcier.",
+        "Les sorciers de Qarth voulaient les dragons parce qu’ils pensaient qu’ils rendraient leur magie plus forte. Ils avaient raison, mais ils n’ont pas pensé à ce que les dragons feraient d’eux.",
+        "Il est l’un des rares adversaires de Daenerys à disparaître sans laisser de trace : ses doubles s’évanouissent avec lui."
+      ]
+    }
   ],
   "keyMoments": [
-    { "s": 2, "title": "Le vol des dragons", "text": "Il enlève les dragons de Daenerys.", "place": "qarth" },
-    { "s": 2, "title": "Dracarys", "text": "Les dragons le brûlent dans sa propre tour.", "place": "qarth" }
+    {
+      "s": 2,
+      "title": "Le vol des dragons",
+      "text": "Il enlève les dragons de Daenerys.",
+      "place": "qarth"
+    },
+    {
+      "s": 2,
+      "title": "Dracarys",
+      "text": "Les dragons le brûlent dans sa propre tour.",
+      "place": "qarth"
+    }
   ],
   "relations": [],
-  "places": [{ "place": "qarth", "seasons": [2] }],
+  "places": [
+    {
+      "place": "qarth",
+      "seasons": [
+        2
+      ]
+    }
+  ],
   "codex": [],
   "portrait": null,
   "_doute": "Peu de relations : Daenerys et Xaro seulement.",
-  "sources": [{ "label": "Wiki of Westeros — Pyat Pree", "url": "https://gameofthrones.fandom.com/wiki/Pyat_Pree" }]
+  "sources": [
+    {
+      "label": "Wiki of Westeros — Pyat Pree",
+      "url": "https://gameofthrones.fandom.com/wiki/Pyat_Pree"
+    }
+  ]
 }

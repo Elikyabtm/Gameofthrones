@@ -12,23 +12,77 @@
   "actor": "Robert Pugh",
   "firstSeason": 2,
   "status": [
-    { "s": 2, "value": "vivant" },
-    { "s": 3, "value": "mort", "note": "Poignardé lors de la mutinerie des frères de la Garde" }
+    {
+      "s": 2,
+      "value": "vivant"
+    },
+    {
+      "s": 3,
+      "value": "mort",
+      "note": "Poignardé lors de la mutinerie des frères de la Garde"
+    }
   ],
   "summary": "Sauvageon vivant seul dans un manoir fortifié au-delà du Mur, Craster accueille la Garde de Nuit en échange de provisions. On évite de demander ce qu’il fait de ses fils.",
   "bio": [
-    { "s": 2, "title": "Saison 2 — Le manoir", "paragraphs": ["Craster épouse ses propres filles et règne sur elles comme sur un domaine. Il reçoit l’expédition de Mormont avec mépris. Jon découvre qu’il laisse ses fils nouveau-nés dans la forêt, où quelque chose vient les prendre."] },
-    { "s": 3, "title": "Saison 3 — La mutinerie", "paragraphs": ["Les survivants du Poing des Premiers Hommes se réfugient chez lui. Craster les nourrit mal et les insulte ; un frère le traite de bâtard et le poignarde. La mutinerie qui suit coûte aussi la vie au Lord Commandant."] }
+    {
+      "s": 2,
+      "title": "Saison 2 — Le manoir",
+      "paragraphs": [
+        "Craster est un sauvageon qui vit dans un fort de bois au nord du Mur, avec ses filles, qui sont aussi ses épouses. Il ne s’agenouille devant aucun roi, mais commerce avec la Garde de Nuit, qui le tolère parce qu’il l’abrite pendant ses expéditions. Il ne croit qu’aux dieux qui lui laissent la vie sauve.",
+        "Le peuple libre lui-même le méprise. Il est l’un des rares à savoir ce qui vit dans la forêt, et il a conclu un marché avec elle.",
+        "Craster épouse ses propres filles et règne sur elles comme sur un domaine. Il reçoit l’expédition de Mormont avec mépris. Jon découvre qu’il laisse ses fils nouveau-nés dans la forêt, où quelque chose vient les prendre."
+      ]
+    },
+    {
+      "s": 3,
+      "title": "Saison 3 — La mutinerie",
+      "paragraphs": [
+        "Les survivants du Poing des Premiers Hommes se réfugient chez lui. Craster les nourrit mal et les insulte ; un frère le traite de bâtard et le poignarde. La mutinerie qui suit coûte aussi la vie au Lord Commandant."
+      ]
+    }
   ],
   "keyMoments": [
-    { "s": 2, "title": "L’offrande", "text": "Jon le voit laisser un nouveau-né dans la forêt.", "place": "au-dela-du-mur" }
+    {
+      "s": 2,
+      "title": "L’offrande",
+      "text": "Jon le voit laisser un nouveau-né dans la forêt.",
+      "place": "au-dela-du-mur"
+    }
   ],
   "relations": [
-    { "to": "gilly", "type": "enfant", "label": "Sa fille, qu’il a prise pour épouse", "inverseLabel": "Son père, qui l’a prise pour épouse", "s": 2 },
-    { "to": "roi-de-la-nuit", "type": "autre", "label": "Celui à qui il offre ses fils", "inverseLabel": "Le sauvageon qui lui offre ses fils", "s": 4 }
+    {
+      "to": "gilly",
+      "type": "enfant",
+      "label": "Sa fille, qu’il a prise pour épouse",
+      "inverseLabel": "Son père, qui l’a prise pour épouse",
+      "s": 2
+    },
+    {
+      "to": "roi-de-la-nuit",
+      "type": "autre",
+      "label": "Celui à qui il offre ses fils",
+      "inverseLabel": "Le sauvageon qui lui offre ses fils",
+      "s": 4
+    }
   ],
-  "places": [{ "place": "au-dela-du-mur", "seasons": [2, 3] }],
-  "codex": ["peuple-libre", "marcheurs-blancs"],
+  "places": [
+    {
+      "place": "au-dela-du-mur",
+      "seasons": [
+        2,
+        3
+      ]
+    }
+  ],
+  "codex": [
+    "peuple-libre",
+    "marcheurs-blancs"
+  ],
   "portrait": null,
-  "sources": [{ "label": "Wiki of Westeros — Craster", "url": "https://gameofthrones.fandom.com/wiki/Craster" }]
+  "sources": [
+    {
+      "label": "Wiki of Westeros — Craster",
+      "url": "https://gameofthrones.fandom.com/wiki/Craster"
+    }
+  ]
 }

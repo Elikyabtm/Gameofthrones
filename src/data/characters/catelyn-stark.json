@@ -49,7 +49,8 @@
       "paragraphs": [
         "Catelyn vit à Winterfell depuis près de vingt ans, sans jamais s’être convertie aux anciens dieux de son mari : elle a fait bâtir un petit septuor pour prier les Sept. Elle aime Eddard d’un amour construit avec le temps, mais la présence de Jon Snow, le fils naturel que son mari a ramené de la guerre, reste une blessure qu’elle ne cache pas.",
         "Quand Bran tombe d’une tour et reste entre la vie et la mort, Catelyn veille sur lui jour et nuit. Un tueur s’introduit dans la chambre de l’enfant avec une dague d’acier valyrien ; elle l’arrête de ses mains. Persuadée que les Lannister sont derrière l’attentat, elle part en secret pour Port-Réal, où Petyr Baelish, son ami d’enfance, attribue la dague à Tyrion. Sur le chemin du retour, croisant Tyrion dans une auberge du Conflans, elle le fait arrêter et l’emmène chez sa sœur Lysa, aux Eyrié. Ce geste déclenche la guerre entre les Lannister et les Stark.",
-        "Après l’arrestation d’Eddard, Catelyn rejoint son fils Robb, qui a levé les bannières du Nord. Elle négocie avec Walder Frey le passage du Trident en échange d’un mariage, puis apprend l’exécution de son mari."
+        "Après l’arrestation d’Eddard, Catelyn rejoint son fils Robb, qui a levé les bannières du Nord. Elle négocie avec Walder Frey le passage du Trident en échange d’un mariage, puis apprend l’exécution de son mari.",
+        "Catelyn est née Tully, à Vivesaigues, fille aînée de Lord Hoster. Promise à Brandon Stark, elle a épousé son frère Eddard après la mort de Brandon, sans le connaître. Leurs cinq enfants, Robb, Sansa, Arya, Bran et Rickon, sont le centre de sa vie. Sa sœur Lysa est l’épouse de Jon Arryn, et son ami d’enfance, Petyr Baelish, siège au conseil du roi."
       ]
     },
     {
@@ -57,7 +58,8 @@
       "title": "Saison 2 — L’ambassade et l’échange",
       "paragraphs": [
         "Pendant que Robb gagne bataille après bataille, Catelyn tente de lui trouver des alliés. Elle rencontre Renly Baratheon dans son camp pour lui proposer une alliance, et assiste à sa mort mystérieuse dans sa tente. Elle fuit avec Brienne de Torth, à qui elle offre sa protection et qui lui jure fidélité.",
-        "De retour au camp de son fils, elle apprend que Bran et Rickon auraient été tués à Winterfell. Désespérée à l’idée de perdre aussi ses filles, elle libère Jaime Lannister, prisonnier de Robb, et le confie à Brienne pour l’échanger contre Sansa et Arya. Ce geste, accompli sans l’accord du roi du Nord, divise le camp et la brouille avec son fils."
+        "De retour au camp de son fils, elle apprend que Bran et Rickon auraient été tués à Winterfell. Désespérée à l’idée de perdre aussi ses filles, elle libère Jaime Lannister, prisonnier de Robb, et le confie à Brienne pour l’échanger contre Sansa et Arya. Ce geste, accompli sans l’accord du roi du Nord, divise le camp et la brouille avec son fils.",
+        "Catelyn est aussi une diplomate. Chez Renly, elle voit tout de suite la faiblesse d’une armée qui joue au tournoi plutôt qu’à la guerre, et elle reconnaît la loyauté de Brienne au premier regard. Elle tente de faire comprendre à Robb que les rois ont besoin d’alliés plus que de victoires."
       ]
     },
     {
@@ -65,7 +67,9 @@
       "title": "Saison 3 — Vivesaigues et les Jumeaux",
       "paragraphs": [
         "Catelyn retrouve Vivesaigues pour les funérailles de son père, Hoster Tully. Elle avoue à Talisa la culpabilité qu’elle porte envers Jon Snow : elle avait prié pour la mort de l’enfant quand il était malade, puis pour sa guérison, en jurant de l’aimer s’il survivait, sans jamais tenir parole.",
-        "Robb a rompu sa promesse d’épouser une fille de Walder Frey. Pour réparer l’offense, Edmure accepte d’épouser Roslin Frey, et toute la cour du Nord se rend aux Jumeaux. Pendant le festin, Catelyn reconnaît les premières mesures d’un chant lannister. Les portes se ferment et le massacre commence. Elle voit mourir Talisa puis son fils, et tranche la gorge de la jeune épouse de Walder Frey avant d’être tuée à son tour."
+        "Robb a rompu sa promesse d’épouser une fille de Walder Frey. Pour réparer l’offense, Edmure accepte d’épouser Roslin Frey, et toute la cour du Nord se rend aux Jumeaux. Pendant le festin, Catelyn reconnaît les premières mesures d’un chant lannister. Les portes se ferment et le massacre commence. Elle voit mourir Talisa puis son fils, et tranche la gorge de la jeune épouse de Walder Frey avant d’être tuée à son tour.",
+        "Catelyn est une mère avant tout, et c’est ce qui guide chacune de ses décisions, des meilleures aux plus désastreuses. La libération de Jaime coûte à Robb la loyauté de Lord Karstark, dont les fils avaient été tués par le Régicide. Elle le sait, et l’assume. Elle n’a cessé de mettre son fils en garde contre l’orgueil des Frey ; elle a raison trop tard.",
+        "Son corps est jeté dans la rivière, ironie cruelle pour une Tully, dont les morts sont confiés à l’eau sur des barques enflammées."
       ]
     }
   ],
@@ -206,26 +210,40 @@
   "places": [
     {
       "place": "winterfell",
-      "seasons": [1]
+      "seasons": [
+        1
+      ]
     },
     {
       "place": "port-real",
-      "seasons": [1]
+      "seasons": [
+        1
+      ]
     },
     {
       "place": "les-eyrie",
-      "seasons": [1]
+      "seasons": [
+        1
+      ]
     },
     {
       "place": "les-jumeaux",
-      "seasons": [1, 3]
+      "seasons": [
+        1,
+        3
+      ]
     },
     {
       "place": "vivesaigues",
-      "seasons": [2, 3]
+      "seasons": [
+        2,
+        3
+      ]
     }
   ],
-  "codex": ["foi-des-sept"],
+  "codex": [
+    "foi-des-sept"
+  ],
   "booksVsShow": {
     "s": 3,
     "paragraphs": [

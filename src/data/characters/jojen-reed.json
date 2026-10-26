@@ -6,30 +6,94 @@
   "house": "reed",
   "region": "Le Neck",
   "camp": "westeros",
-  "allegiances": [{ "to": "reed" }, { "to": "stark" }],
+  "allegiances": [
+    {
+      "to": "reed"
+    },
+    {
+      "to": "stark"
+    }
+  ],
   "origin": "griseaux",
   "titles": [],
   "actor": "Thomas Brodie-Sangster",
   "firstSeason": 3,
   "status": [
-    { "s": 3, "value": "vivant" },
-    { "s": 4, "value": "mort", "note": "Tué par les morts au pied du grand barral" }
+    {
+      "s": 3,
+      "value": "vivant"
+    },
+    {
+      "s": 4,
+      "value": "mort",
+      "note": "Tué par les morts au pied du grand barral"
+    }
   ],
   "summary": "Fils de Howland Reed, Jojen fait des rêves qui se réalisent : des « rêves verts ». Il est venu trouver Bran parce qu’il l’a vu en songe.",
   "bio": [
-    { "s": 3, "title": "Saison 3 — Le rêveur", "paragraphs": ["Jojen explique à Bran qu’il est un change-peau, capable de se glisser dans l’esprit des animaux, et qu’il doit suivre la corneille à trois yeux au-delà du Mur. Ses visions l’épuisent jusqu’aux convulsions. Il guide le groupe vers le nord."] },
-    { "s": 4, "title": "Saison 4 — Le dernier rêve", "paragraphs": ["Prisonnier chez Craster, Jojen révèle aux mutins ce qu’il a vu de leur mort. Au pied du grand barral, il annonce qu’il ne reviendra pas. Les morts surgissent du sol ; il est poignardé, et sa sœur abrège ses souffrances avant que l’enfant de la forêt n’embrase son corps."] }
+    {
+      "s": 3,
+      "title": "Saison 3 — Le rêveur",
+      "paragraphs": [
+        "Jojen est le fils de Howland Reed, l’ami d’Eddard Stark. Il fait des rêves verts, des visions de l’avenir qui se réalisent toujours. Il sait depuis longtemps qu’il ne survivra pas au voyage, et accepte ce destin avec un calme qui étonne ceux qui l’entourent.",
+        "Jojen explique à Bran qu’il est un change-peau, capable de se glisser dans l’esprit des animaux, et qu’il doit suivre la corneille à trois yeux au-delà du Mur. Ses visions l’épuisent jusqu’aux convulsions. Il guide le groupe vers le nord.",
+        "Sa sœur Meera le protège, l’arme à la main, pendant qu’il voit pour eux le chemin."
+      ]
+    },
+    {
+      "s": 4,
+      "title": "Saison 4 — Le dernier rêve",
+      "paragraphs": [
+        "Prisonnier chez Craster, Jojen révèle aux mutins ce qu’il a vu de leur mort. Au pied du grand barral, il annonce qu’il ne reviendra pas. Les morts surgissent du sol ; il est poignardé, et sa sœur abrège ses souffrances avant que l’enfant de la forêt n’embrase son corps."
+      ]
+    }
   ],
   "keyMoments": [
-    { "s": 3, "title": "Le change-peau", "text": "Il révèle à Bran la nature de son don.", "place": "au-dela-du-mur" },
-    { "s": 4, "title": "La fin du voyage", "text": "Il meurt au seuil de la grotte qu’il avait vue en rêve.", "place": "au-dela-du-mur" }
+    {
+      "s": 3,
+      "title": "Le change-peau",
+      "text": "Il révèle à Bran la nature de son don.",
+      "place": "au-dela-du-mur"
+    },
+    {
+      "s": 4,
+      "title": "La fin du voyage",
+      "text": "Il meurt au seuil de la grotte qu’il avait vue en rêve.",
+      "place": "au-dela-du-mur"
+    }
   ],
   "relations": [
-    { "to": "hodor", "type": "allie", "label": "Son compagnon de route", "s": 3 },
-    { "to": "osha", "type": "autre", "label": "La sauvageonne qui l’a accueilli", "s": 3 }
+    {
+      "to": "hodor",
+      "type": "allie",
+      "label": "Son compagnon de route",
+      "s": 3
+    },
+    {
+      "to": "osha",
+      "type": "autre",
+      "label": "La sauvageonne qui l’a accueilli",
+      "s": 3
+    }
   ],
-  "places": [{ "place": "au-dela-du-mur", "seasons": [3, 4] }],
-  "codex": ["anciens-dieux", "enfants-de-la-foret"],
+  "places": [
+    {
+      "place": "au-dela-du-mur",
+      "seasons": [
+        3,
+        4
+      ]
+    }
+  ],
+  "codex": [
+    "anciens-dieux",
+    "enfants-de-la-foret"
+  ],
   "portrait": null,
-  "sources": [{ "label": "Wiki of Westeros — Jojen Reed", "url": "https://gameofthrones.fandom.com/wiki/Jojen_Reed" }]
+  "sources": [
+    {
+      "label": "Wiki of Westeros — Jojen Reed",
+      "url": "https://gameofthrones.fandom.com/wiki/Jojen_Reed"
+    }
+  ]
 }

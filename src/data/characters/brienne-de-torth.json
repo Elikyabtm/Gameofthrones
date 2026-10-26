@@ -3,16 +3,50 @@
   "name": "Brienne de Torth",
   "short": "Brienne",
   "principal": true,
-  "aliases": [{ "text": "Brienne la Belle" }, { "text": "Ser Brienne", "s": 8 }],
+  "aliases": [
+    {
+      "text": "Brienne la Belle"
+    },
+    {
+      "text": "Ser Brienne",
+      "s": 8
+    }
+  ],
   "house": "torth",
   "region": "Les Terres de l’Orage",
   "camp": "westeros",
-  "allegiances": [{ "to": "torth" }, { "to": "baratheon", "until": 3 }, { "to": "stark", "s": 2 }],
+  "allegiances": [
+    {
+      "to": "torth"
+    },
+    {
+      "to": "baratheon",
+      "until": 3
+    },
+    {
+      "to": "stark",
+      "s": 2
+    }
+  ],
   "origin": "ile-de-torth",
-  "titles": [{ "text": "Chevalier", "s": 8 }, { "text": "Lord Commandant de la Garde Royale", "s": 8 }],
+  "titles": [
+    {
+      "text": "Chevalier",
+      "s": 8
+    },
+    {
+      "text": "Lord Commandant de la Garde Royale",
+      "s": 8
+    }
+  ],
   "actor": "Gwendoline Christie",
   "firstSeason": 2,
-  "status": [{ "s": 2, "value": "vivant" }],
+  "status": [
+    {
+      "s": 2,
+      "value": "vivant"
+    }
+  ],
   "summary": "Fille unique du seigneur de Torth, immense et puissante, Brienne veut être chevalier dans un monde qui se moque d’elle. Elle se bat pour servir quelqu’un de juste.",
   "bio": [
     {
@@ -20,21 +54,24 @@
       "title": "Saison 2 — La garde de Renly",
       "paragraphs": [
         "Brienne gagne un tournoi en battant Loras Tyrell et obtient une place dans la garde de Renly Baratheon, qu’elle aime sans espoir. La nuit où une ombre tue Renly sous sa tente, elle est accusée et ne doit son salut qu’à Catelyn Stark, qui la fait fuir avec elle.",
-        "Brienne jure fidélité à Catelyn. Quand celle-ci libère Jaime Lannister pour l’échanger contre ses filles, c’est Brienne qui est chargée de le conduire à Port-Réal."
+        "Brienne jure fidélité à Catelyn. Quand celle-ci libère Jaime Lannister pour l’échanger contre ses filles, c’est Brienne qui est chargée de le conduire à Port-Réal.",
+        "Brienne est la fille unique de Lord Selwyn Torth, seigneur d’une petite île des Terres de l’Orage. Très grande, très forte, mal à l’aise dans les robes, elle a été moquée toute sa vie par les jeunes nobles qui la courtisaient pour rire. Elle a choisi l’épée parce qu’elle y était bonne, et parce que c’était la seule voie où sa taille devenait un avantage. Elle rêve de chevalerie au sens le plus pur : protéger, servir, tenir parole. Ce rêve, que tout le monde trouve ridicule, est précisément ce qui la rend si solide."
       ]
     },
     {
       "s": 3,
       "title": "Saison 3 — Jaime",
       "paragraphs": [
-        "Sur la route, Jaime ne cesse de la provoquer ; elle le bat à l’épée sur un pont. Capturés par les hommes de Roose Bolton, ils sont emmenés à Harrenhal. Jaime perd sa main en la protégeant. Plus tard, il revient la chercher dans une fosse où on l’a jetée face à un ours, et saute à ses côtés pour la sauver. Entre eux naît un respect que personne d’autre ne comprend."
+        "Sur la route, Jaime ne cesse de la provoquer ; elle le bat à l’épée sur un pont. Capturés par les hommes de Roose Bolton, ils sont emmenés à Harrenhal. Jaime perd sa main en la protégeant. Plus tard, il revient la chercher dans une fosse où on l’a jetée face à un ours, et saute à ses côtés pour la sauver. Entre eux naît un respect que personne d’autre ne comprend.",
+        "Leur voyage transforme la relation. Jaime découvre que Brienne n’est ni naïve ni sotte, et Brienne comprend que le Régicide a eu ses raisons. Dans les bains de Harrenhal, il lui raconte pour la première fois pourquoi il a tué le roi Aerys. Elle est la première à l’écouter sans le juger."
       ]
     },
     {
       "s": 4,
       "title": "Saison 4 — Féale",
       "paragraphs": [
-        "À Port-Réal, Jaime lui offre une épée forgée dans l’acier de Glace, l’épée d’Eddard Stark, et une armure, pour qu’elle tienne sa promesse : retrouver les filles de Catelyn. Elle baptise l’épée Féale et part avec Podrick. Elle trouve Arya, protégée par le Limier, qui refuse de la lui confier. Ils se battent. Brienne gagne, mais Arya a disparu."
+        "À Port-Réal, Jaime lui offre une épée forgée dans l’acier de Glace, l’épée d’Eddard Stark, et une armure, pour qu’elle tienne sa promesse : retrouver les filles de Catelyn. Elle baptise l’épée Féale et part avec Podrick. Elle trouve Arya, protégée par le Limier, qui refuse de la lui confier. Ils se battent. Brienne gagne, mais Arya a disparu.",
+        "Brienne et Podrick forment un duo improbable : un écuyer maladroit qui ne sait pas monter à cheval et une chevalière sans titre qui n’a jamais voulu d’écuyer. Ils apprennent l’un de l’autre, sur les routes du Conflans, à ne pas renoncer."
       ]
     },
     {
@@ -62,31 +99,112 @@
       "s": 8,
       "title": "Saison 8 — Ser Brienne",
       "paragraphs": [
-        "La veille de la Longue Nuit, Jaime l’arme chevalier devant un feu, ce qu’aucun homme n’avait jamais fait. Elle survit à la bataille, devient l’amante de Jaime et le voit repartir vers Cersei. Après la guerre, elle écrit sa page dans le livre de la Garde Royale, dont elle est désormais Lord Commandant."
+        "La veille de la Longue Nuit, Jaime l’arme chevalier devant un feu, ce qu’aucun homme n’avait jamais fait. Elle survit à la bataille, devient l’amante de Jaime et le voit repartir vers Cersei. Après la guerre, elle écrit sa page dans le livre de la Garde Royale, dont elle est désormais Lord Commandant.",
+        "Elle est la première femme à commander la Garde royale. En complétant la page de Jaime dans le Livre blanc, elle choisit d’y inscrire ce qu’il a fait de bien, plutôt que ce qu’on disait de lui. C’est sa façon de tenir un dernier serment."
       ]
     }
   ],
   "keyMoments": [
-    { "s": 2, "title": "La tente de Renly", "text": "Elle voit son roi mourir sous les coups d’une ombre.", "place": "accalmie" },
-    { "s": 3, "title": "La fosse à l’ours", "text": "Jaime revient la sauver à Harrenhal.", "place": "harrenhal" },
-    { "s": 4, "title": "Le duel du Limier", "text": "Elle bat Sandor Clegane mais perd Arya.", "place": "le-conflans" },
-    { "s": 5, "title": "Stannis", "text": "Elle exécute l’assassin de Renly.", "place": "winterfell" },
-    { "s": 8, "title": "Ser Brienne de Torth", "text": "Jaime l’arme chevalier la veille de la bataille.", "place": "winterfell" }
+    {
+      "s": 2,
+      "title": "La tente de Renly",
+      "text": "Elle voit son roi mourir sous les coups d’une ombre.",
+      "place": "accalmie"
+    },
+    {
+      "s": 3,
+      "title": "La fosse à l’ours",
+      "text": "Jaime revient la sauver à Harrenhal.",
+      "place": "harrenhal"
+    },
+    {
+      "s": 4,
+      "title": "Le duel du Limier",
+      "text": "Elle bat Sandor Clegane mais perd Arya.",
+      "place": "le-conflans"
+    },
+    {
+      "s": 5,
+      "title": "Stannis",
+      "text": "Elle exécute l’assassin de Renly.",
+      "place": "winterfell"
+    },
+    {
+      "s": 8,
+      "title": "Ser Brienne de Torth",
+      "text": "Jaime l’arme chevalier la veille de la bataille.",
+      "place": "winterfell"
+    }
   ],
   "relations": [
-    { "to": "podrick-payne", "type": "serviteur", "label": "Son écuyer", "inverseLabel": "Sa dame", "s": 4 },
-    { "to": "sandor-clegane", "type": "ennemi", "label": "L’adversaire qu’elle a vaincu", "s": 4 }
+    {
+      "to": "podrick-payne",
+      "type": "serviteur",
+      "label": "Son écuyer",
+      "inverseLabel": "Sa dame",
+      "s": 4
+    },
+    {
+      "to": "sandor-clegane",
+      "type": "ennemi",
+      "label": "L’adversaire qu’elle a vaincu",
+      "s": 4
+    }
   ],
   "places": [
-    { "place": "accalmie", "seasons": [2] },
-    { "place": "le-conflans", "seasons": [2, 3, 4] },
-    { "place": "harrenhal", "seasons": [3] },
-    { "place": "port-real", "seasons": [4, 7, 8] },
-    { "place": "winterfell", "seasons": [5, 6, 7, 8] },
-    { "place": "chateaunoir", "seasons": [6] },
-    { "place": "vivesaigues", "seasons": [6] }
+    {
+      "place": "accalmie",
+      "seasons": [
+        2
+      ]
+    },
+    {
+      "place": "le-conflans",
+      "seasons": [
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "place": "harrenhal",
+      "seasons": [
+        3
+      ]
+    },
+    {
+      "place": "port-real",
+      "seasons": [
+        4,
+        7,
+        8
+      ]
+    },
+    {
+      "place": "winterfell",
+      "seasons": [
+        5,
+        6,
+        7,
+        8
+      ]
+    },
+    {
+      "place": "chateaunoir",
+      "seasons": [
+        6
+      ]
+    },
+    {
+      "place": "vivesaigues",
+      "seasons": [
+        6
+      ]
+    }
   ],
-  "codex": ["garde-royale"],
+  "codex": [
+    "garde-royale"
+  ],
   "booksVsShow": {
     "s": 5,
     "paragraphs": [
@@ -94,5 +212,10 @@
     ]
   },
   "portrait": null,
-  "sources": [{ "label": "Wiki of Westeros — Brienne of Tarth", "url": "https://gameofthrones.fandom.com/wiki/Brienne_of_Tarth" }]
+  "sources": [
+    {
+      "label": "Wiki of Westeros — Brienne of Tarth",
+      "url": "https://gameofthrones.fandom.com/wiki/Brienne_of_Tarth"
+    }
+  ]
 }

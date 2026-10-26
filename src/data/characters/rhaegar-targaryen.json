@@ -2,22 +2,41 @@
   "slug": "rhaegar-targaryen",
   "name": "Rhaegar Targaryen",
   "short": "Rhaegar",
-  "aliases": [{ "text": "le Dernier Dragon" }],
+  "aliases": [
+    {
+      "text": "le Dernier Dragon"
+    }
+  ],
   "house": "targaryen",
   "region": "Les Terres de la Couronne",
   "camp": "westeros",
-  "allegiances": [{ "to": "targaryen" }],
+  "allegiances": [
+    {
+      "to": "targaryen"
+    }
+  ],
   "origin": "port-real",
-  "titles": [{ "text": "Prince de Peyredragon" }],
+  "titles": [
+    {
+      "text": "Prince de Peyredragon"
+    }
+  ],
   "actor": "Wilf Scolding",
   "firstSeason": 1,
-  "status": [{ "s": 1, "value": "mort", "note": "Tué par Robert Baratheon au gué du Trident, pendant la Rébellion" }],
+  "status": [
+    {
+      "s": 1,
+      "value": "mort",
+      "note": "Tué par Robert Baratheon au gué du Trident, pendant la Rébellion"
+    }
+  ],
   "summary": "Fils aîné du roi Aerys et héritier du trône, Rhaegar est mort pendant la Rébellion, des années avant le début de l’histoire. Les chansons du Sud en ont fait le ravisseur de Lyanna Stark.",
   "bio": [
     {
       "s": 1,
       "title": "Saison 1 — Le prince des récits",
       "paragraphs": [
+        "Rhaegar était le fils aîné du roi Aerys, l’héritier du Trône de Fer. Il était marié à Elia Martell, dont il avait eu deux enfants. Musicien et lettré, il passait pour un homme plus porté à la mélancolie qu’à la guerre.",
         "Rhaegar n’existe d’abord que dans la bouche des autres. Pour Robert Baratheon, il est l’homme qui a enlevé et violé Lyanna Stark, et qu’il a tué d’un coup de masse au milieu du Trident, en écrasant les rubis de son armure. Pour d’autres, il était un prince cultivé, mélancolique et aimé du peuple, bien différent de son père. Le récit officiel de la Rébellion ne laisse pas de place à la seconde version."
       ]
     },
@@ -25,24 +44,61 @@
       "s": 7,
       "title": "Saison 7 — Le mariage secret",
       "paragraphs": [
-        "Samwell Tarly découvre, dans le journal d’un grand septon, que le mariage de Rhaegar avec Elia Martell avait été annulé et qu’il avait épousé Lyanna Stark en secret, à Dorne. Bran voit la cérémonie dans une vision. Le fils né de cette union n’est pas un bâtard : c’est l’héritier légitime de la dynastie, et Lyanna l’avait appelé Aegon."
+        "Samwell Tarly découvre, dans le journal d’un grand septon, que le mariage de Rhaegar avec Elia Martell avait été annulé et qu’il avait épousé Lyanna Stark en secret, à Dorne. Bran voit la cérémonie dans une vision. Le fils né de cette union n’est pas un bâtard : c’est l’héritier légitime de la dynastie."
       ]
     }
   ],
   "keyMoments": [
-    { "s": 1, "title": "Le Trident", "text": "Robert raconte l’avoir tué au gué, d’un coup de masse.", "place": "le-conflans" },
-    { "s": 7, "title": "Le mariage", "text": "Bran le voit épouser Lyanna en secret.", "place": "dorne" }
+    {
+      "s": 1,
+      "title": "Le Trident",
+      "text": "Robert raconte l’avoir tué au gué, d’un coup de masse.",
+      "place": "le-conflans"
+    },
+    {
+      "s": 7,
+      "title": "Le mariage",
+      "text": "Bran le voit épouser Lyanna en secret.",
+      "place": "dorne"
+    }
   ],
   "relations": [
-    { "to": "viserys-targaryen", "type": "fratrie", "label": "Son frère cadet", "s": 1 },
-    { "to": "daenerys-targaryen", "type": "fratrie", "label": "Sa petite sœur, née après sa mort", "s": 1 }
+    {
+      "to": "viserys-targaryen",
+      "type": "fratrie",
+      "label": "Son frère cadet",
+      "s": 1
+    },
+    {
+      "to": "daenerys-targaryen",
+      "type": "fratrie",
+      "label": "Sa petite sœur, née après sa mort",
+      "s": 1
+    }
   ],
   "places": [
-    { "place": "le-conflans", "seasons": [1] },
-    { "place": "dorne", "seasons": [7] }
+    {
+      "place": "le-conflans",
+      "seasons": [
+        1
+      ]
+    },
+    {
+      "place": "dorne",
+      "seasons": [
+        7
+      ]
+    }
   ],
-  "codex": ["rebellion"],
+  "codex": [
+    "rebellion"
+  ],
   "portrait": "images/personnages/rhaegar-targaryen.webp",
   "_doute": "Lieu exact du mariage de Rhaegar et Lyanna dans la série : « Dorne », sans plus de précision à l’écran.",
-  "sources": [{ "label": "Wiki of Westeros — Rhaegar Targaryen", "url": "https://gameofthrones.fandom.com/wiki/Rhaegar_Targaryen" }]
+  "sources": [
+    {
+      "label": "Wiki of Westeros — Rhaegar Targaryen",
+      "url": "https://gameofthrones.fandom.com/wiki/Rhaegar_Targaryen"
+    }
+  ]
 }

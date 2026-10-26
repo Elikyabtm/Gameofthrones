@@ -2,39 +2,118 @@
   "slug": "nymeria-sand",
   "name": "Nymeria Sand",
   "short": "Nymeria",
-  "aliases": [{ "text": "Aspic des Sables" }],
+  "aliases": [
+    {
+      "text": "Aspic des Sables"
+    }
+  ],
   "house": "martell",
   "region": "Dorne",
   "camp": "westeros",
-  "allegiances": [{ "to": "martell" }],
+  "allegiances": [
+    {
+      "to": "martell"
+    }
+  ],
   "origin": "lancehelion",
   "titles": [],
   "actor": "Jessica Henwick",
   "firstSeason": 5,
   "status": [
-    { "s": 5, "value": "vivant" },
-    { "s": 7, "value": "mort", "note": "Étranglée par Euron Greyjoy avec son propre fouet" }
+    {
+      "s": 5,
+      "value": "vivant"
+    },
+    {
+      "s": 7,
+      "value": "mort",
+      "note": "Étranglée par Euron Greyjoy avec son propre fouet"
+    }
   ],
   "summary": "Fille d’Oberyn, Nymeria est une cavalière accomplie, redoutable au fouet. Elle partage avec ses sœurs le désir de venger leur père.",
   "bio": [
-    { "s": 5, "title": "Saison 5 — Le fouet", "paragraphs": ["Nymeria rejoint Ellaria et ses sœurs pour enlever Myrcella et se heurte aux gardes de Doran. Elle est emprisonnée avec Obara et Tyene."] },
-    { "s": 6, "title": "Saison 6 — La prise du pouvoir", "paragraphs": ["Avec Obara, elle élimine Trystane sur le navire qui l’attendait au large de Port-Réal."] },
-    { "s": 7, "title": "Saison 7 — La mer", "paragraphs": ["Sur le navire de Yara, Nymeria combat Euron Greyjoy, qui la tue avec son propre fouet et laisse son corps pendu à la proue."] }
+    {
+      "s": 5,
+      "title": "Saison 5 — Le fouet",
+      "paragraphs": [
+        "Nymeria est l’une des filles naturelles d’Oberyn Martell, les Aspics des Sables. Élégante et cruelle, elle se bat avec un fouet et défend, comme ses sœurs, la vengeance de leur père. Elle porte le nom de la reine rhoynar qui fonda Dorne.",
+        "Nymeria rejoint Ellaria et ses sœurs pour enlever Myrcella et se heurte aux gardes de Doran. Elle est emprisonnée avec Obara et Tyene.",
+        "Les trois sœurs sont différentes et inséparables. Obara est la guerrière, Tyene l’empoisonneuse, Nymeria la plus froide des trois."
+      ]
+    },
+    {
+      "s": 6,
+      "title": "Saison 6 — La prise du pouvoir",
+      "paragraphs": [
+        "Avec Obara, elle élimine Trystane sur le navire qui l’attendait au large de Port-Réal.",
+        "Le meurtre de Trystane, leur propre cousin, montre jusqu’où les Aspics sont prêtes à aller pour leur père."
+      ]
+    },
+    {
+      "s": 7,
+      "title": "Saison 7 — La mer",
+      "paragraphs": [
+        "Sur le navire de Yara, Nymeria combat Euron Greyjoy, qui la tue avec son propre fouet et laisse son corps pendu à la proue.",
+        "Sa mort, comme celle d’Obara, met fin à la vengeance des filles d’Oberyn en une seule nuit."
+      ]
+    }
   ],
   "keyMoments": [
-    { "s": 7, "title": "La proue", "text": "Euron la tue avec son propre fouet.", "place": "peyredragon" }
+    {
+      "s": 7,
+      "title": "La proue",
+      "text": "Euron la tue avec son propre fouet.",
+      "place": "peyredragon"
+    }
   ],
   "relations": [
-    { "to": "tyene-sand", "type": "fratrie", "label": "Sa demi-sœur", "s": 5 },
-    { "to": "euron-greyjoy", "type": "ennemi", "label": "Son assassin", "s": 7 },
-    { "to": "trystane-martell", "type": "ennemi", "label": "Le cousin qu’elle a contribué à tuer", "s": 6 }
+    {
+      "to": "tyene-sand",
+      "type": "fratrie",
+      "label": "Sa demi-sœur",
+      "s": 5
+    },
+    {
+      "to": "euron-greyjoy",
+      "type": "ennemi",
+      "label": "Son assassin",
+      "s": 7
+    },
+    {
+      "to": "trystane-martell",
+      "type": "ennemi",
+      "label": "Le cousin qu’elle a contribué à tuer",
+      "s": 6
+    }
   ],
   "places": [
-    { "place": "jardins-aquatiques", "seasons": [5] },
-    { "place": "port-real", "seasons": [6] },
-    { "place": "peyredragon", "seasons": [7] }
+    {
+      "place": "jardins-aquatiques",
+      "seasons": [
+        5
+      ]
+    },
+    {
+      "place": "port-real",
+      "seasons": [
+        6
+      ]
+    },
+    {
+      "place": "peyredragon",
+      "seasons": [
+        7
+      ]
+    }
   ],
-  "codex": ["dorniens"],
+  "codex": [
+    "dorniens"
+  ],
   "portrait": "images/personnages/nymeria-sand.webp",
-  "sources": [{ "label": "Wiki of Westeros — Nymeria Sand", "url": "https://gameofthrones.fandom.com/wiki/Nymeria_Sand" }]
+  "sources": [
+    {
+      "label": "Wiki of Westeros — Nymeria Sand",
+      "url": "https://gameofthrones.fandom.com/wiki/Nymeria_Sand"
+    }
+  ]
 }

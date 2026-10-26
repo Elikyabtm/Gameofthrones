@@ -3,16 +3,41 @@
   "name": "Samwell Tarly",
   "short": "Samwell",
   "principal": true,
-  "aliases": [{ "text": "Sam" }, { "text": "Sam le Tueur", "s": 3 }],
+  "aliases": [
+    {
+      "text": "Sam"
+    },
+    {
+      "text": "Sam le Tueur",
+      "s": 3
+    }
+  ],
   "house": "tarly",
   "region": "Le Bief",
   "camp": "westeros",
-  "allegiances": [{ "to": "tarly" }],
+  "allegiances": [
+    {
+      "to": "tarly"
+    }
+  ],
   "origin": "corcolline",
-  "titles": [{ "text": "Frère juré de la Garde de Nuit" }, { "text": "Grand mestre", "s": 8 }],
+  "titles": [
+    {
+      "text": "Frère juré de la Garde de Nuit"
+    },
+    {
+      "text": "Grand mestre",
+      "s": 8
+    }
+  ],
   "actor": "John Bradley",
   "firstSeason": 1,
-  "status": [{ "s": 1, "value": "vivant" }],
+  "status": [
+    {
+      "s": 1,
+      "value": "vivant"
+    }
+  ],
   "summary": "Fils aîné d’un seigneur du Bief qui le jugeait indigne, Samwell a été envoyé de force à la Garde de Nuit. Peureux et maladroit à l’épée, il aime les livres plus que tout.",
   "bio": [
     {
@@ -20,7 +45,8 @@
       "title": "Saison 1 — La nouvelle recrue",
       "paragraphs": [
         "Samwell arrive à Châteaunoir en pleurant presque, avoue sa lâcheté à tout le monde et se fait rouer de coups à l’entraînement. Jon Snow prend sa défense et convainc les autres recrues de le laisser tranquille. Samwell raconte que son père lui a donné le choix entre le noir et un « accident de chasse », pour que son frère cadet hérite à sa place.",
-        "Il prononce ses vœux devant un barral aux côtés de Jon, puis devient intendant auprès de mestre Aemon, au milieu des livres et des corbeaux. C’est là, enfin, qu’il se sent utile."
+        "Il prononce ses vœux devant un barral aux côtés de Jon, puis devient intendant auprès de mestre Aemon, au milieu des livres et des corbeaux. C’est là, enfin, qu’il se sent utile.",
+        "Samwell est le fils aîné de Lord Randyll Tarly, seigneur de Corcolline et l’un des meilleurs commandants du Bief. Rond, doux, peureux et passionné de livres, il est tout ce que son père méprise. Il ne cache rien de ses faiblesses : il se présente lui-même comme un lâche. C’est justement cette franchise qui lui vaut l’amitié de Jon, et qui fait de lui, peu à peu, l’un des personnages les plus courageux de l’histoire, parce qu’il agit en ayant peur."
       ]
     },
     {
@@ -34,7 +60,8 @@
       "s": 3,
       "title": "Saison 3 — Sam le Tueur",
       "paragraphs": [
-        "Les survivants de l’expédition se réfugient chez Craster, où les frères se mutinent. Samwell s’enfuit avec Gilly et son nouveau-né. Quand un Marcheur blanc vient prendre l’enfant, Samwell le frappe avec le poignard d’obsidienne, et la créature se brise en éclats. Ils rejoignent le Mur par un passage secret."
+        "Les survivants de l’expédition se réfugient chez Craster, où les frères se mutinent. Samwell s’enfuit avec Gilly et son nouveau-né. Quand un Marcheur blanc vient prendre l’enfant, Samwell le frappe avec le poignard d’obsidienne, et la créature se brise en éclats. Ils rejoignent le Mur par un passage secret.",
+        "Samwell est le premier homme depuis des millénaires à tuer un Marcheur blanc. Il ne le fait pas en guerrier, mais en protégeant une femme et un enfant, avec une arme trouvée par hasard. Il comprend aussitôt l’importance de sa découverte, et cherche dans les livres ce que d’autres ont oublié."
       ]
     },
     {
@@ -48,7 +75,8 @@
       "s": 5,
       "title": "Saison 5 — Le soutien de Jon",
       "paragraphs": [
-        "Samwell prononce le discours qui fait élire Jon Lord Commandant. Il veille mestre Aemon jusqu’à sa mort et devient l’amant de Gilly. Jon l’envoie à Villevieille avec elle et l’enfant, pour qu’il devienne mestre et que la Garde ait à nouveau quelqu’un qui sache."
+        "Samwell prononce le discours qui fait élire Jon Lord Commandant. Il veille mestre Aemon jusqu’à sa mort et devient l’amant de Gilly. Jon l’envoie à Villevieille avec elle et l’enfant, pour qu’il devienne mestre et que la Garde ait à nouveau quelqu’un qui sache.",
+        "Sa relation avec Gilly le transforme. Lui qui n’a jamais été aimé de son père découvre qu’il peut protéger quelqu’un et en être aimé. Il élève le petit Sam comme son propre fils."
       ]
     },
     {
@@ -62,7 +90,8 @@
       "s": 7,
       "title": "Saison 7 — La Citadelle",
       "paragraphs": [
-        "À la Citadelle, Samwell vide des pots de chambre et trouve dans les archives la mention d’une montagne de verre-dragon sous Peyredragon. Il soigne en secret Jorah Mormont de la léprose grise. Gilly lit à voix haute le journal d’un grand septon : le prince Rhaegar a fait annuler son mariage. Déçu par les mestres, Samwell vole des livres et part pour Winterfell."
+        "À la Citadelle, Samwell vide des pots de chambre et trouve dans les archives la mention d’une montagne de verre-dragon sous Peyredragon. Il soigne en secret Jorah Mormont de la léprose grise. Gilly lit à voix haute le journal d’un grand septon : le prince Rhaegar a fait annuler son mariage. Déçu par les mestres, Samwell vole des livres et part pour Winterfell.",
+        "Les archimestres se méfient de ses conclusions et le renvoient à ses pots de chambre. Samwell apprend que le savoir ne suffit pas quand ceux qui le gardent refusent d’agir."
       ]
     },
     {
@@ -74,27 +103,111 @@
     }
   ],
   "keyMoments": [
-    { "s": 1, "title": "Le serment", "text": "Il prononce ses vœux avec Jon devant un barral.", "place": "chateaunoir" },
-    { "s": 3, "title": "Le Marcheur blanc", "text": "Il tue une créature avec un poignard d’obsidienne.", "place": "au-dela-du-mur" },
-    { "s": 5, "title": "L’élection", "text": "Son discours fait de Jon le Lord Commandant.", "place": "chateaunoir" },
-    { "s": 6, "title": "Corvenin", "text": "Il quitte son père en emportant l’épée familiale.", "place": "corcolline" },
-    { "s": 7, "title": "La guérison de Jorah", "text": "Il soigne la léprose grise en secret.", "place": "villevieille" },
-    { "s": 8, "title": "La vérité", "text": "Il révèle à Jon le secret de sa naissance.", "place": "winterfell" }
+    {
+      "s": 1,
+      "title": "Le serment",
+      "text": "Il prononce ses vœux avec Jon devant un barral.",
+      "place": "chateaunoir"
+    },
+    {
+      "s": 3,
+      "title": "Le Marcheur blanc",
+      "text": "Il tue une créature avec un poignard d’obsidienne.",
+      "place": "au-dela-du-mur"
+    },
+    {
+      "s": 5,
+      "title": "L’élection",
+      "text": "Son discours fait de Jon le Lord Commandant.",
+      "place": "chateaunoir"
+    },
+    {
+      "s": 6,
+      "title": "Corvenin",
+      "text": "Il quitte son père en emportant l’épée familiale.",
+      "place": "corcolline"
+    },
+    {
+      "s": 7,
+      "title": "La guérison de Jorah",
+      "text": "Il soigne la léprose grise en secret.",
+      "place": "villevieille"
+    },
+    {
+      "s": 8,
+      "title": "La vérité",
+      "text": "Il révèle à Jon le secret de sa naissance.",
+      "place": "winterfell"
+    }
   ],
   "relations": [
-    { "to": "jorah-mormont", "type": "autre", "label": "Le malade qu’il a guéri", "s": 7 },
-    { "to": "bran-stark", "type": "allie", "label": "Son allié dans la recherche de la vérité", "s": 7 },
-    { "to": "eddison-tollett", "type": "allie", "label": "Son frère juré", "s": 2 }
+    {
+      "to": "jorah-mormont",
+      "type": "autre",
+      "label": "Le malade qu’il a guéri",
+      "s": 7
+    },
+    {
+      "to": "bran-stark",
+      "type": "allie",
+      "label": "Son allié dans la recherche de la vérité",
+      "s": 7
+    },
+    {
+      "to": "eddison-tollett",
+      "type": "allie",
+      "label": "Son frère juré",
+      "s": 2
+    }
   ],
   "places": [
-    { "place": "chateaunoir", "seasons": [1, 4, 5] },
-    { "place": "au-dela-du-mur", "seasons": [2, 3] },
-    { "place": "corcolline", "seasons": [6] },
-    { "place": "villevieille", "seasons": [6, 7] },
-    { "place": "winterfell", "seasons": [7, 8] },
-    { "place": "port-real", "seasons": [8] }
+    {
+      "place": "chateaunoir",
+      "seasons": [
+        1,
+        4,
+        5
+      ]
+    },
+    {
+      "place": "au-dela-du-mur",
+      "seasons": [
+        2,
+        3
+      ]
+    },
+    {
+      "place": "corcolline",
+      "seasons": [
+        6
+      ]
+    },
+    {
+      "place": "villevieille",
+      "seasons": [
+        6,
+        7
+      ]
+    },
+    {
+      "place": "winterfell",
+      "seasons": [
+        7,
+        8
+      ]
+    },
+    {
+      "place": "port-real",
+      "seasons": [
+        8
+      ]
+    }
   ],
-  "codex": ["garde-de-nuit", "mestres", "marcheurs-blancs"],
+  "codex": [
+    "garde-de-nuit",
+    "mestres",
+    "marcheurs-blancs"
+  ],
   "booksVsShow": {
     "s": 3,
     "paragraphs": [
@@ -102,5 +215,10 @@
     ]
   },
   "portrait": null,
-  "sources": [{ "label": "Wiki of Westeros — Samwell Tarly", "url": "https://gameofthrones.fandom.com/wiki/Samwell_Tarly" }]
+  "sources": [
+    {
+      "label": "Wiki of Westeros — Samwell Tarly",
+      "url": "https://gameofthrones.fandom.com/wiki/Samwell_Tarly"
+    }
+  ]
 }

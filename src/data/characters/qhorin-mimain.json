@@ -8,26 +8,77 @@
   "camp": "westeros",
   "allegiances": [],
   "origin": "chateaunoir",
-  "titles": [{ "text": "Patrouilleur de Tour-Ombreuse" }],
+  "titles": [
+    {
+      "text": "Patrouilleur de Tour-Ombreuse"
+    }
+  ],
   "actor": "Simon Armstrong",
   "firstSeason": 2,
   "status": [
-    { "s": 2, "value": "vivant" },
-    { "s": 2, "value": "mort", "note": "Tué par Jon Snow, à sa demande, pour gagner la confiance des sauvageons" }
+    {
+      "s": 2,
+      "value": "vivant"
+    },
+    {
+      "s": 2,
+      "value": "mort",
+      "note": "Tué par Jon Snow, à sa demande, pour gagner la confiance des sauvageons"
+    }
   ],
   "summary": "Patrouilleur légendaire de la Garde de Nuit, venu de Tour-Ombreuse, Qhorin Mimain a perdu des doigts au combat. Il connaît les montagnes et les sauvageons mieux que personne.",
   "bio": [
-    { "s": 2, "title": "Saison 2 — Le patrouilleur", "paragraphs": ["Qhorin rejoint Mormont au Poing des Premiers Hommes et emmène Jon en éclaireur dans les Crocs de Givre. Il juge la décision de Jon d’épargner Ygritte, puis le groupe est capturé par les sauvageons.", "Qhorin comprend que seul Jon peut s’infiltrer chez Mance Rayder. Il provoque un duel devant leurs ravisseurs et laisse son jeune frère le tuer, pour que les sauvageons croient que Jon a renié la Garde. Il meurt en lui murmurant de continuer."] }
+    {
+      "s": 2,
+      "title": "Saison 2 — Le patrouilleur",
+      "paragraphs": [
+        "Qhorin, surnommé Mimain parce qu’il a perdu des doigts, est l’un des patrouilleurs les plus respectés de la Garde de Nuit. Il connaît mieux que personne les terres d’au-delà du Mur et les ruses du peuple libre.",
+        "Qhorin rejoint Mormont au Poing des Premiers Hommes et emmène Jon en éclaireur dans les Crocs de Givre. Il juge la décision de Jon d’épargner Ygritte, puis le groupe est capturé par les sauvageons.",
+        "Qhorin comprend que seul Jon peut s’infiltrer chez Mance Rayder. Il provoque un duel devant leurs ravisseurs et laisse son jeune frère le tuer, pour que les sauvageons croient que Jon a renié la Garde. Il meurt en lui murmurant de continuer.",
+        "Son sacrifice est l’un des actes les plus lucides de la Garde : il comprend que l’information vaut plus que sa vie, et confie à un garçon le soin de la rapporter.",
+        "Jon gardera de lui l’idée que la Garde vaut plus que l’honneur personnel de ses frères."
+      ]
+    }
   ],
   "keyMoments": [
-    { "s": 2, "title": "Le sacrifice", "text": "Il se fait tuer par Jon pour en faire un espion chez les sauvageons.", "place": "au-dela-du-mur" }
+    {
+      "s": 2,
+      "title": "Le sacrifice",
+      "text": "Il se fait tuer par Jon pour en faire un espion chez les sauvageons.",
+      "place": "au-dela-du-mur"
+    }
   ],
   "relations": [
-    { "to": "jeor-mormont", "type": "suzerain", "label": "Son Lord Commandant", "s": 2 },
-    { "to": "ygritte", "type": "ennemi", "label": "La sauvageonne de leur captivité", "s": 2 }
+    {
+      "to": "jeor-mormont",
+      "type": "suzerain",
+      "label": "Son Lord Commandant",
+      "s": 2
+    },
+    {
+      "to": "ygritte",
+      "type": "ennemi",
+      "label": "La sauvageonne de leur captivité",
+      "s": 2
+    }
   ],
-  "places": [{ "place": "au-dela-du-mur", "seasons": [2] }],
-  "codex": ["garde-de-nuit", "peuple-libre"],
+  "places": [
+    {
+      "place": "au-dela-du-mur",
+      "seasons": [
+        2
+      ]
+    }
+  ],
+  "codex": [
+    "garde-de-nuit",
+    "peuple-libre"
+  ],
   "portrait": null,
-  "sources": [{ "label": "Wiki of Westeros — Qhorin", "url": "https://gameofthrones.fandom.com/wiki/Qhorin" }]
+  "sources": [
+    {
+      "label": "Wiki of Westeros — Qhorin",
+      "url": "https://gameofthrones.fandom.com/wiki/Qhorin"
+    }
+  ]
 }

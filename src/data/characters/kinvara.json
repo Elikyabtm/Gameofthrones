@@ -8,23 +8,69 @@
   "camp": "essos",
   "allegiances": [],
   "origin": "volantis",
-  "titles": [{ "text": "Grande prêtresse du temple rouge de Volantis" }],
+  "titles": [
+    {
+      "text": "Grande prêtresse du temple rouge de Volantis"
+    }
+  ],
   "actor": "Ania Bukstein",
   "firstSeason": 6,
-  "status": [{ "s": 6, "value": "vivant" }],
+  "status": [
+    {
+      "s": 6,
+      "value": "vivant"
+    }
+  ],
   "summary": "Grande prêtresse du temple rouge de Volantis, Kinvara croit que Daenerys est la reine promise par le Maître de la Lumière. Elle vient le dire en personne à Meereen.",
   "bio": [
-    { "s": 6, "title": "Saison 6 — La prêtresse de Volantis", "paragraphs": ["Tyrion, qui cherche à apaiser Meereen, invite des prêtres rouges à prêcher la gloire de Daenerys. Kinvara répond en personne. Elle affirme que la reine est l’élue de son dieu et promet que ses fidèles la soutiendront. Varys se méfie ; Kinvara le désarme en lui rappelant, mot pour mot, ce que le sorcier lui a dit le jour de sa mutilation, et la voix qu’il a entendue dans les flammes."] }
+    {
+      "s": 6,
+      "title": "Saison 6 — La prêtresse de Volantis",
+      "paragraphs": [
+        "Kinvara est la grande prêtresse du temple rouge de Volantis. Elle partage avec Melisandre la foi en la prophétie du prince promis, mais elle l’a reconnu, elle, en Daenerys. Elle est sereine, sûre d’elle, et sait des choses qu’elle ne devrait pas savoir.",
+        "Tyrion, qui cherche à apaiser Meereen, invite des prêtres rouges à prêcher la gloire de Daenerys. Kinvara répond en personne. Elle affirme que la reine est l’élue de son dieu et promet que ses fidèles la soutiendront. Varys se méfie ; Kinvara le désarme en lui rappelant, mot pour mot, ce que le sorcier lui a dit le jour de sa mutilation, et la voix qu’il a entendue dans les flammes.",
+        "Elle ordonne aussi à ses prêtres de répandre dans les rues de Meereen et de Volantis l’idée que Daenerys est la libératrice promise. Tyrion y voit un outil politique ; Varys, un danger. Ni l’un ni l’autre ne sait vraiment ce qu’elle cherche."
+      ]
+    }
   ],
   "keyMoments": [
-    { "s": 6, "title": "La voix dans les flammes", "text": "Elle ébranle Varys en évoquant le secret de sa mutilation.", "place": "meereen" }
+    {
+      "s": 6,
+      "title": "La voix dans les flammes",
+      "text": "Elle ébranle Varys en évoquant le secret de sa mutilation.",
+      "place": "meereen"
+    }
   ],
   "relations": [
-    { "to": "tyrion-lannister", "type": "allie", "label": "Celui qui l’a fait venir", "s": 6 },
-    { "to": "daenerys-targaryen", "type": "autre", "label": "La reine qu’elle croit élue", "s": 6 }
+    {
+      "to": "tyrion-lannister",
+      "type": "allie",
+      "label": "Celui qui l’a fait venir",
+      "s": 6
+    },
+    {
+      "to": "daenerys-targaryen",
+      "type": "autre",
+      "label": "La reine qu’elle croit élue",
+      "s": 6
+    }
   ],
-  "places": [{ "place": "meereen", "seasons": [6] }],
-  "codex": ["maitre-de-la-lumiere"],
+  "places": [
+    {
+      "place": "meereen",
+      "seasons": [
+        6
+      ]
+    }
+  ],
+  "codex": [
+    "maitre-de-la-lumiere"
+  ],
   "portrait": null,
-  "sources": [{ "label": "Wiki of Westeros — Kinvara", "url": "https://gameofthrones.fandom.com/wiki/Kinvara" }]
+  "sources": [
+    {
+      "label": "Wiki of Westeros — Kinvara",
+      "url": "https://gameofthrones.fandom.com/wiki/Kinvara"
+    }
+  ]
 }

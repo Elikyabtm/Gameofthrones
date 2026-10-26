@@ -3,20 +3,54 @@
   "name": "Sandor Clegane",
   "short": "Sandor",
   "principal": true,
-  "aliases": [{ "text": "le Limier" }],
+  "aliases": [
+    {
+      "text": "le Limier"
+    }
+  ],
   "house": "clegane",
   "region": "L’Ouest",
   "camp": "westeros",
-  "allegiances": [{ "to": "lannister", "until": 2 }, { "to": "clegane" }],
+  "allegiances": [
+    {
+      "to": "lannister",
+      "until": 2
+    },
+    {
+      "to": "clegane"
+    }
+  ],
   "origin": "terres-de-l-ouest",
-  "titles": [{ "text": "Garde du prince Joffrey" }, { "text": "Chevalier de la Garde Royale", "s": 2 }],
+  "titles": [
+    {
+      "text": "Garde du prince Joffrey"
+    },
+    {
+      "text": "Chevalier de la Garde Royale",
+      "s": 2
+    }
+  ],
   "actor": "Rory McCann",
   "firstSeason": 1,
   "status": [
-    { "s": 1, "value": "vivant" },
-    { "s": 4, "value": "inconnu", "note": "Laissé pour mort par Arya après son duel contre Brienne" },
-    { "s": 6, "value": "vivant" },
-    { "s": 8, "value": "mort", "note": "Tombé dans les flammes avec son frère Gregor" }
+    {
+      "s": 1,
+      "value": "vivant"
+    },
+    {
+      "s": 4,
+      "value": "inconnu",
+      "note": "Laissé pour mort par Arya après son duel contre Brienne"
+    },
+    {
+      "s": 6,
+      "value": "vivant"
+    },
+    {
+      "s": 8,
+      "value": "mort",
+      "note": "Tombé dans les flammes avec son frère Gregor"
+    }
   ],
   "summary": "Garde du corps du prince Joffrey, Sandor Clegane porte sur le visage les brûlures que lui a infligées son frère quand il était enfant. Il méprise les chevaliers, les mensonges et le feu.",
   "bio": [
@@ -24,7 +58,9 @@
       "s": 1,
       "title": "Saison 1 — Le Limier",
       "paragraphs": [
-        "Le Limier exécute sans un mot les ordres de Joffrey, jusqu’à tuer le fils du boucher sur la route royale. Il raconte à Sansa, au tournoi de la Main, l’histoire de ses brûlures : son frère Gregor lui a écrasé le visage dans un brasier pour un jouet. Quand Gregor attaque Loras après une défaite, Sandor s’interpose et se bat contre lui."
+        "Le Limier exécute sans un mot les ordres de Joffrey, jusqu’à tuer le fils du boucher sur la route royale. Il raconte à Sansa, au tournoi de la Main, l’histoire de ses brûlures : son frère Gregor lui a écrasé le visage dans un brasier pour un jouet. Quand Gregor attaque Loras après une défaite, Sandor s’interpose et se bat contre lui.",
+        "Sandor Clegane, le Limier, est le garde du corps de Joffrey et le frère cadet de Gregor, la Montagne. Enfant, son frère lui a plongé le visage dans un brasero pour un jouet ; il en garde une moitié de visage brûlée et une terreur du feu. Il méprise les chevaliers, qu’il tient pour des menteurs, et refuse d’en devenir un. Il est brutal, cynique et ivre la plupart du temps. Il dit pourtant la vérité, toujours, ce qui le rend plus honnête que la plupart des gens de cour.",
+        "Au tournoi de la Main, quand Gregor tente de tuer Loras Tyrell, Sandor s’interpose et défie son frère. Le roi doit les séparer."
       ]
     },
     {
@@ -45,50 +81,123 @@
       "s": 4,
       "title": "Saison 4 — Le maître d’Arya",
       "paragraphs": [
-        "Sandor voyage avec Arya et lui enseigne une vision sans illusion du monde. Mordu lors d’une rixe, il refuse les soins. Brienne de Torth les retrouve ; le duel est d’une violence inouïe, et Sandor tombe d’une falaise. Il supplie Arya de l’achever ; elle prend son argent et part."
+        "Sandor voyage avec Arya et lui enseigne une vision sans illusion du monde. Mordu lors d’une rixe, il refuse les soins. Brienne de Torth les retrouve ; le duel est d’une violence inouïe, et Sandor tombe d’une falaise. Il supplie Arya de l’achever ; elle prend son argent et part.",
+        "Peu à peu, Arya et lui deviennent une étrange paire. Il lui apprend à tuer sans hésiter ; elle lui apprend, sans le vouloir, qu’il tient encore à quelque chose. Il lui raconte l’histoire de son visage. Mais elle a gardé son nom sur sa liste."
       ]
     },
     {
       "s": 6,
       "title": "Saison 6 — La paix brisée",
       "paragraphs": [
-        "Un septon a recueilli Sandor et l’a fait travailler avec une petite communauté pacifique. Des hors-la-loi massacrent ses compagnons. Le Limier reprend une hache, traque les assassins et rejoint la Fraternité, qui lui offre un but."
+        "Un septon a recueilli Sandor et l’a fait travailler avec une petite communauté pacifique. Des hors-la-loi massacrent ses compagnons. Le Limier reprend une hache, traque les assassins et rejoint la Fraternité, qui lui offre un but.",
+        "Le septon Ray lui a enseigné qu’il n’était pas trop tard pour faire le bien. Sa mort pousse le Limier à rejoindre la Fraternité, et peu à peu à croire à une cause."
       ]
     },
     {
       "s": 7,
       "title": "Saison 7 — Les flammes",
       "paragraphs": [
-        "En voyant des visions dans les flammes, Sandor découvre l’armée des morts. Il part au-delà du Mur avec Jon pour capturer un mort, et l’attrape lui-même, avant de le présenter à Cersei à Fosse-aux-Dragons. Il y croise son frère, et lui promet qu’ils se reverront."
+        "En voyant des visions dans les flammes, Sandor découvre l’armée des morts. Il part au-delà du Mur avec Jon pour capturer un mort, et l’attrape lui-même, avant de le présenter à Cersei à Fosse-aux-Dragons. Il y croise son frère, et lui promet qu’ils se reverront.",
+        "Avec la Fraternité, il enterre une famille de fermiers qu’il avait dépouillée des années plus tôt, et prononce pour eux une prière maladroite. C’est l’une des scènes les plus discrètes de son histoire, et l’une des plus révélatrices."
       ]
     },
     {
       "s": 8,
       "title": "Saison 8 — Le duel des frères",
       "paragraphs": [
-        "Après la bataille de Winterfell, Sandor part vers le sud avec Arya. Dans le Donjon Rouge qui s’effondre, il la convainc d’abandonner sa vengeance et de vivre. Puis il affronte Gregor dans un escalier ravagé par le feu dragon. Le combat ne peut finir que d’une façon : il se jette avec son frère dans les flammes."
+        "Après la bataille de Winterfell, Sandor part vers le sud avec Arya. Dans le Donjon Rouge qui s’effondre, il la convainc d’abandonner sa vengeance et de vivre. Puis il affronte Gregor dans un escalier ravagé par le feu dragon. Le combat ne peut finir que d’une façon : il se jette avec son frère dans les flammes.",
+        "Sa dernière décision résume son évolution : lui qui a vécu pour la haine de son frère convainc Arya de ne pas lui ressembler. Il a vaincu Gregor et sa peur du feu dans le même geste."
       ]
     }
   ],
   "keyMoments": [
-    { "s": 1, "title": "Le récit des brûlures", "text": "Il raconte à Sansa ce que son frère lui a fait.", "place": "port-real" },
-    { "s": 2, "title": "La désertion", "text": "Il abandonne la bataille de la Néra.", "place": "port-real" },
-    { "s": 3, "title": "Le duel de la Fraternité", "text": "Il tue Beric, qui revient à la vie.", "place": "le-conflans" },
-    { "s": 4, "title": "Le duel de Brienne", "text": "Il est laissé pour mort par Arya.", "place": "le-conflans" },
-    { "s": 8, "title": "Le duel des frères", "text": "Il affronte son frère jusqu’à la mort.", "place": "port-real" }
+    {
+      "s": 1,
+      "title": "Le récit des brûlures",
+      "text": "Il raconte à Sansa ce que son frère lui a fait.",
+      "place": "port-real"
+    },
+    {
+      "s": 2,
+      "title": "La désertion",
+      "text": "Il abandonne la bataille de la Néra.",
+      "place": "port-real"
+    },
+    {
+      "s": 3,
+      "title": "Le duel de la Fraternité",
+      "text": "Il tue Beric, qui revient à la vie.",
+      "place": "le-conflans"
+    },
+    {
+      "s": 4,
+      "title": "Le duel de Brienne",
+      "text": "Il est laissé pour mort par Arya.",
+      "place": "le-conflans"
+    },
+    {
+      "s": 8,
+      "title": "Le duel des frères",
+      "text": "Il affronte son frère jusqu’à la mort.",
+      "place": "port-real"
+    }
   ],
   "relations": [
-    { "to": "beric-dondarrion", "type": "ennemi", "label": "Son juge, puis son compagnon", "s": 3 },
-    { "to": "thoros-de-myr", "type": "allie", "label": "Son compagnon de la Fraternité", "s": 6 }
+    {
+      "to": "beric-dondarrion",
+      "type": "ennemi",
+      "label": "Son juge, puis son compagnon",
+      "s": 3
+    },
+    {
+      "to": "thoros-de-myr",
+      "type": "allie",
+      "label": "Son compagnon de la Fraternité",
+      "s": 6
+    }
   ],
   "places": [
-    { "place": "winterfell", "seasons": [1, 8] },
-    { "place": "port-real", "seasons": [1, 2, 7, 8] },
-    { "place": "le-conflans", "seasons": [3, 4, 6] },
-    { "place": "les-jumeaux", "seasons": [3] },
-    { "place": "au-dela-du-mur", "seasons": [7] }
+    {
+      "place": "winterfell",
+      "seasons": [
+        1,
+        8
+      ]
+    },
+    {
+      "place": "port-real",
+      "seasons": [
+        1,
+        2,
+        7,
+        8
+      ]
+    },
+    {
+      "place": "le-conflans",
+      "seasons": [
+        3,
+        4,
+        6
+      ]
+    },
+    {
+      "place": "les-jumeaux",
+      "seasons": [
+        3
+      ]
+    },
+    {
+      "place": "au-dela-du-mur",
+      "seasons": [
+        7
+      ]
+    }
   ],
-  "codex": ["fraternite-sans-bannieres", "garde-royale"],
+  "codex": [
+    "fraternite-sans-bannieres",
+    "garde-royale"
+  ],
   "booksVsShow": {
     "s": 6,
     "paragraphs": [
@@ -96,5 +205,10 @@
     ]
   },
   "portrait": null,
-  "sources": [{ "label": "Wiki of Westeros — Sandor Clegane", "url": "https://gameofthrones.fandom.com/wiki/Sandor_Clegane" }]
+  "sources": [
+    {
+      "label": "Wiki of Westeros — Sandor Clegane",
+      "url": "https://gameofthrones.fandom.com/wiki/Sandor_Clegane"
+    }
+  ]
 }

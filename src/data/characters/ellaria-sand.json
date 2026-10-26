@@ -6,42 +6,153 @@
   "house": "martell",
   "region": "Dorne",
   "camp": "westeros",
-  "allegiances": [{ "to": "martell" }],
+  "allegiances": [
+    {
+      "to": "martell"
+    }
+  ],
   "origin": "lancehelion",
   "titles": [],
   "actor": "Indira Varma",
   "firstSeason": 4,
   "status": [
-    { "s": 4, "value": "vivant" },
-    { "s": 7, "value": "inconnu", "note": "Enchaînée dans les cachots du Donjon Rouge, condamnée à voir mourir sa fille" }
+    {
+      "s": 4,
+      "value": "vivant"
+    },
+    {
+      "s": 7,
+      "value": "inconnu",
+      "note": "Enchaînée dans les cachots du Donjon Rouge, condamnée à voir mourir sa fille"
+    }
   ],
   "summary": "Fille naturelle d’un seigneur dornien, Ellaria est la compagne d’Oberyn Martell. Elle partage sa liberté, son goût du défi et son mépris des usages de Westeros.",
   "bio": [
-    { "s": 4, "title": "Saison 4 — La compagne d’Oberyn", "paragraphs": ["Ellaria accompagne Oberyn à Port-Réal et répond avec aplomb à Cersei, qui méprise sa naissance. Elle assiste au duel contre la Montagne et hurle quand son amant est tué sous ses yeux."] },
-    { "s": 5, "title": "Saison 5 — La vengeance", "paragraphs": ["De retour à Dorne, Ellaria pousse Doran à la guerre et monte avec les filles d’Oberyn une tentative d’enlèvement de Myrcella. Arrêtée puis pardonnée en apparence, elle embrasse la princesse en lui disant adieu, avec un poison sur les lèvres."] },
-    { "s": 6, "title": "Saison 6 — Le coup d’État", "paragraphs": ["Ellaria tue Doran, tandis que les Aspics des Sables tuent Trystane. Elle prend le pouvoir à Dorne. Olenna Tyrell vient la voir, et Varys les rallie toutes deux à Daenerys."] },
-    { "s": 7, "title": "Saison 7 — Le baiser de Cersei", "paragraphs": ["En route vers Dorne avec Yara, Ellaria et sa fille Tyene sont capturées par Euron Greyjoy. Cersei les fait enchaîner face à face dans une cellule et embrasse Tyene avec le même poison que celui qui a tué Myrcella. Ellaria est condamnée à regarder sa fille mourir."] }
+    {
+      "s": 4,
+      "title": "Saison 4 — La compagne d’Oberyn",
+      "paragraphs": [
+        "Ellaria est une fille naturelle de Dorne, compagne d’Oberyn depuis des années et mère de quatre de ses filles. Elle partage sa liberté, ses amants et sa haine des Lannister.",
+        "Ellaria accompagne Oberyn à Port-Réal et répond avec aplomb à Cersei, qui méprise sa naissance. Elle assiste au duel contre la Montagne et hurle quand son amant est tué sous ses yeux."
+      ]
+    },
+    {
+      "s": 5,
+      "title": "Saison 5 — La vengeance",
+      "paragraphs": [
+        "De retour à Dorne, Ellaria pousse Doran à la guerre et monte avec les filles d’Oberyn une tentative d’enlèvement de Myrcella. Arrêtée puis pardonnée en apparence, elle embrasse la princesse en lui disant adieu, avec un poison sur les lèvres."
+      ]
+    },
+    {
+      "s": 6,
+      "title": "Saison 6 — Le coup d’État",
+      "paragraphs": [
+        "Ellaria tue Doran, tandis que les Aspics des Sables tuent Trystane. Elle prend le pouvoir à Dorne. Olenna Tyrell vient la voir, et Varys les rallie toutes deux à Daenerys."
+      ]
+    },
+    {
+      "s": 7,
+      "title": "Saison 7 — Le baiser de Cersei",
+      "paragraphs": [
+        "En route vers Dorne avec Yara, Ellaria et sa fille Tyene sont capturées par Euron Greyjoy. Cersei les fait enchaîner face à face dans une cellule et embrasse Tyene avec le même poison que celui qui a tué Myrcella. Ellaria est condamnée à regarder sa fille mourir."
+      ]
+    }
   ],
   "keyMoments": [
-    { "s": 4, "title": "Le duel", "text": "Elle voit Oberyn mourir sous les coups de la Montagne.", "place": "port-real" },
-    { "s": 5, "title": "Le baiser", "text": "Elle empoisonne Myrcella d’un baiser d’adieu.", "place": "jardins-aquatiques" },
-    { "s": 7, "title": "La cellule", "text": "Cersei lui inflige la mort de sa fille.", "place": "port-real" }
+    {
+      "s": 4,
+      "title": "Le duel",
+      "text": "Elle voit Oberyn mourir sous les coups de la Montagne.",
+      "place": "port-real"
+    },
+    {
+      "s": 5,
+      "title": "Le baiser",
+      "text": "Elle empoisonne Myrcella d’un baiser d’adieu.",
+      "place": "jardins-aquatiques"
+    },
+    {
+      "s": 7,
+      "title": "La cellule",
+      "text": "Cersei lui inflige la mort de sa fille.",
+      "place": "port-real"
+    }
   ],
   "relations": [
-    { "to": "tyene-sand", "type": "enfant", "label": "Sa fille", "inverseLabel": "Sa mère", "s": 4 },
-    { "to": "obara-sand", "type": "allie", "label": "Fille d’Oberyn, son alliée", "s": 5 },
-    { "to": "nymeria-sand", "type": "allie", "label": "Fille d’Oberyn, son alliée", "s": 5 },
-    { "to": "cersei-lannister", "type": "ennemi", "label": "La reine qui l’a capturée", "s": 4 },
-    { "to": "yara-greyjoy", "type": "allie", "label": "Son alliée dans la flotte de Daenerys", "s": 7 },
-    { "to": "euron-greyjoy", "type": "ennemi", "label": "Celui qui l’a capturée", "s": 7 }
+    {
+      "to": "tyene-sand",
+      "type": "enfant",
+      "label": "Sa fille",
+      "inverseLabel": "Sa mère",
+      "s": 4
+    },
+    {
+      "to": "obara-sand",
+      "type": "allie",
+      "label": "Fille d’Oberyn, son alliée",
+      "s": 5
+    },
+    {
+      "to": "nymeria-sand",
+      "type": "allie",
+      "label": "Fille d’Oberyn, son alliée",
+      "s": 5
+    },
+    {
+      "to": "cersei-lannister",
+      "type": "ennemi",
+      "label": "La reine qui l’a capturée",
+      "s": 4
+    },
+    {
+      "to": "yara-greyjoy",
+      "type": "allie",
+      "label": "Son alliée dans la flotte de Daenerys",
+      "s": 7
+    },
+    {
+      "to": "euron-greyjoy",
+      "type": "ennemi",
+      "label": "Celui qui l’a capturée",
+      "s": 7
+    }
   ],
   "places": [
-    { "place": "port-real", "seasons": [4, 7] },
-    { "place": "jardins-aquatiques", "seasons": [5, 6] },
-    { "place": "lancehelion", "seasons": [6] },
-    { "place": "peyredragon", "seasons": [7] }
+    {
+      "place": "port-real",
+      "seasons": [
+        4,
+        7
+      ]
+    },
+    {
+      "place": "jardins-aquatiques",
+      "seasons": [
+        5,
+        6
+      ]
+    },
+    {
+      "place": "lancehelion",
+      "seasons": [
+        6
+      ]
+    },
+    {
+      "place": "peyredragon",
+      "seasons": [
+        7
+      ]
+    }
   ],
-  "codex": ["dorniens"],
+  "codex": [
+    "dorniens"
+  ],
   "portrait": "images/personnages/ellaria-sand.webp",
-  "sources": [{ "label": "Wiki of Westeros — Ellaria Sand", "url": "https://gameofthrones.fandom.com/wiki/Ellaria_Sand" }]
+  "sources": [
+    {
+      "label": "Wiki of Westeros — Ellaria Sand",
+      "url": "https://gameofthrones.fandom.com/wiki/Ellaria_Sand"
+    }
+  ]
 }

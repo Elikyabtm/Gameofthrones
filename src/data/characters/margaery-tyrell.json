@@ -7,14 +7,30 @@
   "house": "tyrell",
   "region": "Le Bief",
   "camp": "westeros",
-  "allegiances": [{ "to": "tyrell" }],
+  "allegiances": [
+    {
+      "to": "tyrell"
+    }
+  ],
   "origin": "hautjardin",
-  "titles": [{ "text": "Reine", "s": 2 }],
+  "titles": [
+    {
+      "text": "Reine",
+      "s": 2
+    }
+  ],
   "actor": "Natalie Dormer",
   "firstSeason": 2,
   "status": [
-    { "s": 2, "value": "vivant" },
-    { "s": 6, "value": "mort", "note": "Tuée dans l’explosion du grand septuor de Baelor" }
+    {
+      "s": 2,
+      "value": "vivant"
+    },
+    {
+      "s": 6,
+      "value": "mort",
+      "note": "Tuée dans l’explosion du grand septuor de Baelor"
+    }
   ],
   "summary": "Fille de Mace Tyrell, Margaery sait se faire aimer du peuple comme des rois. Elle ne cache pas son ambition : elle veut être reine.",
   "bio": [
@@ -22,55 +38,119 @@
       "s": 2,
       "title": "Saison 2 — L’épouse de Renly",
       "paragraphs": [
-        "Margaery a épousé Renly Baratheon, qui s’est proclamé roi. Elle sait que son mari aime son frère Loras et ne s’en offusque pas : elle propose même de les aider à avoir un héritier. Quand Renly est assassiné, elle confie à Littlefinger qu’elle ne veut pas être « une » reine, mais « la » reine. Après la bataille de la Néra, où l’armée Tyrell sauve la ville, elle est promise à Joffrey."
+        "Margaery a épousé Renly Baratheon, qui s’est proclamé roi. Elle sait que son mari aime son frère Loras et ne s’en offusque pas : elle propose même de les aider à avoir un héritier. Quand Renly est assassiné, elle confie à Littlefinger qu’elle ne veut pas être « une » reine, mais « la » reine. Après la bataille de la Néra, où l’armée Tyrell sauve la ville, elle est promise à Joffrey.",
+        "Margaery a grandi à Hautjardin, entourée de cousines, de chanteurs et de jardins, sous l’œil de sa grand-mère Olenna, qui lui a appris tout ce qu’une femme doit savoir pour gouverner sans en avoir l’air. Elle est belle, gracieuse et beaucoup plus intelligente qu’elle ne le montre. Son ambition est simple : être reine. Elle a compris très jeune qu’on n’y arrive pas par la force, mais par l’affection, la patience et les alliances."
       ]
     },
     {
       "s": 3,
       "title": "Saison 3 — La fiancée du roi",
       "paragraphs": [
-        "À Port-Réal, Margaery visite les orphelinats, distribue du pain et se fait acclamer. Elle apprivoise Joffrey en flattant sa cruauté sans jamais la partager. Avec sa grand-mère, elle prend Sansa sous son aile, à la fois par amitié et par calcul, et sent en Cersei une ennemie."
+        "À Port-Réal, Margaery visite les orphelinats, distribue du pain et se fait acclamer. Elle apprivoise Joffrey en flattant sa cruauté sans jamais la partager. Avec sa grand-mère, elle prend Sansa sous son aile, à la fois par amitié et par calcul, et sent en Cersei une ennemie.",
+        "Elle apprend aussi à Sansa ce que valent les sourires à la cour. Sansa lui confie la vérité sur Joffrey ; Margaery l’écoute, la remercie et ne change rien à ses projets. Elle épousera le monstre, en sachant ce qu’il est.",
+        "Margaery n’est jamais tout à fait sincère ni tout à fait fausse. Elle aime sincèrement son frère et sa grand-mère, éprouve une vraie pitié pour Sansa et une vraie tendresse pour Tommen, mais aucun de ces sentiments ne l’écarte de son but."
       ]
     },
     {
       "s": 4,
       "title": "Saison 4 — Deux mariages",
       "paragraphs": [
-        "Margaery épouse Joffrey, qui meurt empoisonné le jour même. Veuve sans avoir été vraiment épouse, elle suit le conseil d’Olenna et rend visite la nuit au jeune Tommen, le nouveau roi, qu’elle séduit avec tendresse. Cersei, qui sent la menace, ne peut empêcher le mariage."
+        "Margaery épouse Joffrey, qui meurt empoisonné le jour même. Veuve sans avoir été vraiment épouse, elle suit le conseil d’Olenna et rend visite la nuit au jeune Tommen, le nouveau roi, qu’elle séduit avec tendresse. Cersei, qui sent la menace, ne peut empêcher le mariage.",
+        "Pendant le banquet, elle est l’une des rares à rester digne au milieu des humiliations que Joffrey inflige à tous. Elle ignore que sa grand-mère a préparé le poison ; elle comprend vite, en revanche, que la mort de son mari la sert.",
+        "Avec Tommen, elle est douce et patiente, et elle s’attache sincèrement à cet enfant-roi timide, si différent de son frère. Elle sait aussi que, par lui, elle peut enfin gouverner."
       ]
     },
     {
       "s": 5,
       "title": "Saison 5 — La prisonnière de la Foi",
       "paragraphs": [
-        "Mariée à Tommen, Margaery devient reine et pousse son mari à éloigner sa mère. Cersei réplique en armant la Foi militante. Margaery est arrêtée pour avoir menti en défendant son frère Loras, accusé de sodomie, et jetée dans une cellule du grand septuor."
+        "Mariée à Tommen, Margaery devient reine et pousse son mari à éloigner sa mère. Cersei réplique en armant la Foi militante. Margaery est arrêtée pour avoir menti en défendant son frère Loras, accusé de sodomie, et jetée dans une cellule du grand septuor.",
+        "Dans sa cellule, privée de ses robes et de ses servantes, Margaery découvre la faim, le froid et l’humiliation. Elle ne cède pas. La septa Unella répète chaque jour qu’elle doit confesser ses péchés ; Margaery répond qu’elle n’en a aucun à confesser."
       ]
     },
     {
       "s": 6,
       "title": "Saison 6 — Le jeu de la pénitente",
       "paragraphs": [
-        "En prison, Margaery feint de se convertir pour sauver Loras et retrouver sa liberté. Elle convainc le Grand Moineau, et même Tommen, au point d’inquiéter sa grand-mère, à qui elle glisse discrètement un dessin de rose pour lui signifier qu’elle n’a pas changé. Le jour du procès, elle est la seule à comprendre que l’absence de Cersei cache un piège. Elle essaie de faire sortir tout le monde. Les portes sont gardées. Le feu grégeois explose."
+        "En prison, Margaery feint de se convertir pour sauver Loras et retrouver sa liberté. Elle convainc le Grand Moineau, et même Tommen, au point d’inquiéter sa grand-mère, à qui elle glisse discrètement un dessin de rose pour lui signifier qu’elle n’a pas changé. Le jour du procès, elle est la seule à comprendre que l’absence de Cersei cache un piège. Elle essaie de faire sortir tout le monde. Les portes sont gardées. Le feu grégeois explose.",
+        "Margaery est, avec Olenna et Tyrion, l’un des rares personnages de Port-Réal à jouer le jeu politique sans jamais recourir à la cruauté. Sa mort, avec son frère et son père, met fin d’un coup à l’avenir de la maison Tyrell et laisse Cersei seule maîtresse de la capitale."
       ]
     }
   ],
   "keyMoments": [
-    { "s": 2, "title": "« La » reine", "text": "Elle annonce à Littlefinger qu’elle veut être la reine.", "place": "accalmie" },
-    { "s": 3, "title": "Les orphelins", "text": "Elle gagne le cœur du peuple de Port-Réal.", "place": "port-real" },
-    { "s": 4, "title": "Le mariage", "text": "Elle épouse Joffrey, qui meurt au festin.", "place": "port-real" },
-    { "s": 6, "title": "Le septuor", "text": "Elle comprend le piège trop tard.", "place": "port-real" }
+    {
+      "s": 2,
+      "title": "« La » reine",
+      "text": "Elle annonce à Littlefinger qu’elle veut être la reine.",
+      "place": "accalmie"
+    },
+    {
+      "s": 3,
+      "title": "Les orphelins",
+      "text": "Elle gagne le cœur du peuple de Port-Réal.",
+      "place": "port-real"
+    },
+    {
+      "s": 4,
+      "title": "Le mariage",
+      "text": "Elle épouse Joffrey, qui meurt au festin.",
+      "place": "port-real"
+    },
+    {
+      "s": 6,
+      "title": "Le septuor",
+      "text": "Elle comprend le piège trop tard.",
+      "place": "port-real"
+    }
   ],
   "relations": [
-    { "to": "loras-tyrell", "type": "fratrie", "label": "Son frère, son plus proche allié", "s": 2 },
-    { "to": "petyr-baelish", "type": "autre", "label": "L’homme qui a arrangé ses alliances", "s": 2 },
-    { "to": "grand-moineau", "type": "ennemi", "label": "Son geôlier", "s": 5 },
-    { "to": "septa-unella", "type": "ennemi", "label": "La septa qui la surveille", "s": 5 }
+    {
+      "to": "loras-tyrell",
+      "type": "fratrie",
+      "label": "Son frère, son plus proche allié",
+      "s": 2
+    },
+    {
+      "to": "petyr-baelish",
+      "type": "autre",
+      "label": "L’homme qui a arrangé ses alliances",
+      "s": 2
+    },
+    {
+      "to": "grand-moineau",
+      "type": "ennemi",
+      "label": "Son geôlier",
+      "s": 5
+    },
+    {
+      "to": "septa-unella",
+      "type": "ennemi",
+      "label": "La septa qui la surveille",
+      "s": 5
+    }
   ],
   "places": [
-    { "place": "accalmie", "seasons": [2] },
-    { "place": "port-real", "seasons": [2, 3, 4, 5, 6] }
+    {
+      "place": "accalmie",
+      "seasons": [
+        2
+      ]
+    },
+    {
+      "place": "port-real",
+      "seasons": [
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    }
   ],
-  "codex": ["foi-des-sept", "foi-militante"],
+  "codex": [
+    "foi-des-sept",
+    "foi-militante"
+  ],
   "booksVsShow": {
     "s": 2,
     "paragraphs": [
@@ -78,5 +158,10 @@
     ]
   },
   "portrait": "images/personnages/margaery-tyrell.webp",
-  "sources": [{ "label": "Wiki of Westeros — Margaery Tyrell", "url": "https://gameofthrones.fandom.com/wiki/Margaery_Tyrell" }]
+  "sources": [
+    {
+      "label": "Wiki of Westeros — Margaery Tyrell",
+      "url": "https://gameofthrones.fandom.com/wiki/Margaery_Tyrell"
+    }
+  ]
 }

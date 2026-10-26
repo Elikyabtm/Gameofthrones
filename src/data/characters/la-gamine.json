@@ -12,21 +12,63 @@
   "actor": "Faye Marsay",
   "firstSeason": 5,
   "status": [
-    { "s": 5, "value": "vivant" },
-    { "s": 6, "value": "mort", "note": "Tuée par Arya dans l’obscurité" }
+    {
+      "s": 5,
+      "value": "vivant"
+    },
+    {
+      "s": 6,
+      "value": "mort",
+      "note": "Tuée par Arya dans l’obscurité"
+    }
   ],
   "summary": "Jeune servante de la Maison du Noir et du Blanc, la Gamine n’a pas de nom et ne croit pas qu’Arya puisse un jour renoncer au sien.",
   "bio": [
-    { "s": 5, "title": "Saison 5 — Le jeu des mensonges", "paragraphs": ["La Gamine accueille Arya au temple avec mépris. Elle lui fait laver les corps des morts et l’interroge avec un bâton : à chaque mensonge, un coup. Elle prétend avoir une histoire différente chaque jour, pour montrer qu’aucune n’a d’importance."] },
-    { "s": 6, "title": "Saison 6 — La chasse", "paragraphs": ["Elle entraîne Arya, aveugle, à se battre dans les rues. Quand Arya refuse de tuer l’actrice qui lui était désignée, la Gamine reçoit l’ordre de l’éliminer. Elle la poignarde au ventre et la poursuit dans Braavos, jusqu’à une pièce sans lumière où Arya, qui a appris à se battre dans le noir, la tue."] }
+    {
+      "s": 5,
+      "title": "Saison 5 — Le jeu des mensonges",
+      "paragraphs": [
+        "La Gamine est une servante du Dieu Multiface, plus âgée qu’Arya dans l’apprentissage. Elle ne dit jamais son nom. Elle juge que la jeune fille de Westeros ne mérite pas sa place au temple, et ne le lui cache pas.",
+        "La Gamine accueille Arya au temple avec mépris. Elle lui fait laver les corps des morts et l’interroge avec un bâton : à chaque mensonge, un coup. Elle prétend avoir une histoire différente chaque jour, pour montrer qu’aucune n’a d’importance."
+      ]
+    },
+    {
+      "s": 6,
+      "title": "Saison 6 — La chasse",
+      "paragraphs": [
+        "Elle entraîne Arya, aveugle, à se battre dans les rues. Quand Arya refuse de tuer l’actrice qui lui était désignée, la Gamine reçoit l’ordre de l’éliminer. Elle la poignarde au ventre et la poursuit dans Braavos, jusqu’à une pièce sans lumière où Arya, qui a appris à se battre dans le noir, la tue.",
+        "Sa haine d’Arya tient autant de la jalousie que du devoir : elle a renoncé à tout pour servir, et voit cette étrangère garder ce qu’elle-même a dû abandonner."
+      ]
+    }
   ],
   "keyMoments": [
-    { "s": 6, "title": "Dans le noir", "text": "Elle traque Arya jusqu’à une pièce sans lumière, où elle meurt.", "place": "braavos" }
+    {
+      "s": 6,
+      "title": "Dans le noir",
+      "text": "Elle traque Arya jusqu’à une pièce sans lumière, où elle meurt.",
+      "place": "braavos"
+    }
   ],
   "relations": [],
-  "places": [{ "place": "braavos", "seasons": [5, 6] }],
-  "codex": ["sans-visage", "dieu-multiface"],
+  "places": [
+    {
+      "place": "braavos",
+      "seasons": [
+        5,
+        6
+      ]
+    }
+  ],
+  "codex": [
+    "sans-visage",
+    "dieu-multiface"
+  ],
   "portrait": null,
   "_doute": "Nom français du personnage (« the Waif ») : « la Gamine » retenu, à confirmer avec la VF. Peu de relations : Arya et Jaqen seulement à l’écran.",
-  "sources": [{ "label": "Wiki of Westeros — The Waif", "url": "https://gameofthrones.fandom.com/wiki/Waif" }]
+  "sources": [
+    {
+      "label": "Wiki of Westeros — The Waif",
+      "url": "https://gameofthrones.fandom.com/wiki/Waif"
+    }
+  ]
 }

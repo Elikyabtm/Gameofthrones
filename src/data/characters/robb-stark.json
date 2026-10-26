@@ -52,7 +52,9 @@
       "paragraphs": [
         "Quand Eddard part pour Port-Réal, Robb reste à Winterfell avec sa mère et ses jeunes frères. À quinze ans à peine, il tient la place de son père : il reçoit les visiteurs, juge les affaires courantes et apprend à se méfier des sourires des seigneurs du Sud. Son loup géant, Vent Gris, ne le quitte plus.",
         "L’arrestation d’Eddard change tout. Robb convoque les bannerets du Nord et descend vers le Conflans avec une armée de vingt mille hommes. Il doit d’abord s’imposer face à de vieux seigneurs qui le jugent trop jeune, comme le Grand-Jon Omble, qu’il fait plier grâce à son loup et à son sang-froid. Pour franchir le Trident, il accepte le marché de Walder Frey : il épousera l’une de ses filles. Puis il tend un piège : il sacrifie une partie de ses troupes en diversion et capture Jaime Lannister au Bois-aux-Murmures.",
-        "La nouvelle de l’exécution de son père tombe comme une sentence. Ses bannerets refusent de se soumettre au roi Joffrey comme au frère de Robert, et le proclament roi du Nord, comme l’étaient ses ancêtres avant la Conquête."
+        "La nouvelle de l’exécution de son père tombe comme une sentence. Ses bannerets refusent de se soumettre au roi Joffrey comme au frère de Robert, et le proclament roi du Nord, comme l’étaient ses ancêtres avant la Conquête.",
+        "Robb est le fils aîné d’Eddard et de Catelyn, l’héritier de Winterfell. Il a grandi avec Jon Snow, son demi-frère, et Theon Greyjoy, le pupille de son père. Il est généreux, courageux, droit comme son père, et plus impulsif que lui. Il n’a jamais imaginé devoir commander une armée si tôt.",
+        "Il se révèle un chef militaire remarquable. Au Bois-aux-Murmures, il capture Jaime Lannister en laissant sacrifier deux mille hommes pour attirer l’armée de Tywin ailleurs. Le Nord découvre qu’il a un roi."
       ]
     },
     {
@@ -60,7 +62,9 @@
       "title": "Saison 2 — Le roi qui ne perd aucune bataille",
       "paragraphs": [
         "Robb remporte victoire sur victoire dans les terres de l’Ouest, mais une guerre ne se gagne pas seulement sur le champ de bataille. Il envoie Theon Greyjoy négocier une alliance avec son père Balon, et Theon revient en ennemi. Pendant ce temps, Robb rencontre Talisa Maegyr, une guérisseuse venue de Volantis qui soigne indifféremment les blessés des deux camps. Il tombe amoureux d’elle.",
-        "Quand sa mère libère Jaime Lannister sans son accord, il la fait garder et s’éloigne d’elle. Puis il épouse Talisa en secret, devant un arbre-cœur, en sachant qu’il trahit la promesse faite aux Frey."
+        "Quand sa mère libère Jaime Lannister sans son accord, il la fait garder et s’éloigne d’elle. Puis il épouse Talisa en secret, devant un arbre-cœur, en sachant qu’il trahit la promesse faite aux Frey.",
+        "Son mariage avec Talisa est un choix d’amour et une faute politique. Il prive le Nord de l’alliance des Frey, dont il a besoin pour tenir le Conflans, et blesse un vieillard rancunier qui sait attendre.",
+        "Robb est un roi aimé de ses hommes. Il se bat en première ligne, partage leurs repas et pleure leurs morts. Il tient à l’honneur comme son père, mais il découvre que la guerre oblige à des choix que l’honneur ne règle pas."
       ]
     },
     {
@@ -68,7 +72,8 @@
       "title": "Saison 3 — Les Noces pourpres",
       "paragraphs": [
         "Le roi du Nord commence à perdre ce qui le rendait invincible : la confiance de ses hommes. Lord Karstark tue deux jeunes prisonniers Lannister pour venger ses fils ; Robb le fait exécuter de sa main, comme son père l’aurait fait, et perd la moitié de son armée. Il conçoit alors un plan audacieux contre Castral Roc, qui suppose de récupérer l’alliance des Frey.",
-        "Walder Frey accepte que son oncle Edmure épouse sa fille Roslin pour réparer l’offense. Robb se rend aux Jumeaux avec Talisa, enceinte, et sa mère. Au milieu du festin, les portes se ferment. Les arbalétriers frappent, Talisa meurt la première, Vent Gris est abattu dans son enclos, et Roose Bolton achève Robb d’un coup de dague en lui transmettant les salutations des Lannister."
+        "Walder Frey accepte que son oncle Edmure épouse sa fille Roslin pour réparer l’offense. Robb se rend aux Jumeaux avec Talisa, enceinte, et sa mère. Au milieu du festin, les portes se ferment. Les arbalétriers frappent, Talisa meurt la première, Vent Gris est abattu dans son enclos, et Roose Bolton achève Robb d’un coup de dague en lui transmettant les salutations des Lannister.",
+        "Robb paie ses erreurs plus cher que quiconque. Il a eu raison sur le champ de bataille et tort partout ailleurs, et ce sont ses vertus mêmes, l’honneur, l’amour, la confiance, qui le perdent. Sa mort met fin à la royauté du Nord pour plusieurs années."
       ]
     }
   ],
@@ -196,22 +201,35 @@
   "places": [
     {
       "place": "winterfell",
-      "seasons": [1]
+      "seasons": [
+        1
+      ]
     },
     {
       "place": "vivesaigues",
-      "seasons": [1, 3]
+      "seasons": [
+        1,
+        3
+      ]
     },
     {
       "place": "les-jumeaux",
-      "seasons": [1, 3]
+      "seasons": [
+        1,
+        3
+      ]
     },
     {
       "place": "terres-de-l-ouest",
-      "seasons": [2]
+      "seasons": [
+        2
+      ]
     }
   ],
-  "codex": ["anciens-dieux", "loups-geants"],
+  "codex": [
+    "anciens-dieux",
+    "loups-geants"
+  ],
   "booksVsShow": {
     "s": 3,
     "paragraphs": [

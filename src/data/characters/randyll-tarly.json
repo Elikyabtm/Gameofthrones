@@ -6,35 +6,118 @@
   "house": "tarly",
   "region": "Le Bief",
   "camp": "westeros",
-  "allegiances": [{ "to": "tarly" }, { "to": "tyrell", "until": 7 }, { "to": "lannister", "s": 7 }],
+  "allegiances": [
+    {
+      "to": "tarly"
+    },
+    {
+      "to": "tyrell",
+      "until": 7
+    },
+    {
+      "to": "lannister",
+      "s": 7
+    }
+  ],
   "origin": "corcolline",
-  "titles": [{ "text": "Seigneur de Corcolline" }],
+  "titles": [
+    {
+      "text": "Seigneur de Corcolline"
+    }
+  ],
   "actor": "James Faulkner",
   "firstSeason": 6,
   "status": [
-    { "s": 6, "value": "vivant" },
-    { "s": 7, "value": "mort", "note": "Brûlé par Drogon sur ordre de Daenerys" }
+    {
+      "s": 6,
+      "value": "vivant"
+    },
+    {
+      "s": 7,
+      "value": "mort",
+      "note": "Brûlé par Drogon sur ordre de Daenerys"
+    }
   ],
   "summary": "Seigneur de Corcolline, vassal des Tyrell et l’un des meilleurs commandants du royaume, Randyll Tarly n’a jamais accepté que son fils aîné préfère les livres à l’épée.",
   "bio": [
-    { "s": 6, "title": "Saison 6 — Le dîner de Corcolline", "paragraphs": ["Samwell revient chez ses parents avec Gilly et son enfant. Au dîner, Randyll comprend qu’elle vient d’au-delà du Mur et l’humilie, puis méprise son fils devant tous. Il accepte que Gilly et l’enfant restent comme domestiques, mais exige que Samwell parte. La nuit même, Samwell part avec eux, en emportant Corvenin."] },
-    { "s": 7, "title": "Saison 7 — Le refus de plier", "paragraphs": ["Randyll trahit les Tyrell pour les Lannister et participe avec Jaime à la prise de Hautjardin. Après la défaite du convoi face à Daenerys, il refuse de plier le genou devant une reine étrangère. Il est brûlé vif avec son fils Dickon."] }
+    {
+      "s": 6,
+      "title": "Saison 6 — Le dîner de Corcolline",
+      "paragraphs": [
+        "Lord Randyll Tarly est le seigneur de Corcolline, vassal des Tyrell et l’un des meilleurs commandants du Bief. Rude, orgueilleux, il ne respecte que la force et a toujours méprisé son fils aîné, Samwell, qu’il a forcé à prendre le noir pour laisser son héritage au cadet, Dickon.",
+        "Samwell revient chez ses parents avec Gilly et son enfant. Au dîner, Randyll comprend qu’elle vient d’au-delà du Mur et l’humilie, puis méprise son fils devant tous. Il accepte que Gilly et l’enfant restent comme domestiques, mais exige que Samwell parte. La nuit même, Samwell part avec eux, en emportant Corvenin."
+      ]
+    },
+    {
+      "s": 7,
+      "title": "Saison 7 — Le refus de plier",
+      "paragraphs": [
+        "Randyll trahit les Tyrell pour les Lannister et participe avec Jaime à la prise de Hautjardin. Après la défaite du convoi face à Daenerys, il refuse de plier le genou devant une reine étrangère. Il est brûlé vif avec son fils Dickon.",
+        "Tarly meurt fidèle à ses principes : il préfère le feu à l’agenouillement. Sa mort, et celle de Dickon, font de Samwell, sans qu’il le sache encore, l’héritier de Corcolline."
+      ]
+    }
   ],
   "keyMoments": [
-    { "s": 6, "title": "Le dîner", "text": "Il humilie son fils et Gilly à sa table.", "place": "corcolline" },
-    { "s": 7, "title": "Le refus", "text": "Il préfère le feu de dragon à la soumission.", "place": "hautjardin" }
+    {
+      "s": 6,
+      "title": "Le dîner",
+      "text": "Il humilie son fils et Gilly à sa table.",
+      "place": "corcolline"
+    },
+    {
+      "s": 7,
+      "title": "Le refus",
+      "text": "Il préfère le feu de dragon à la soumission.",
+      "place": "hautjardin"
+    }
   ],
   "relations": [
-    { "to": "samwell-tarly", "type": "enfant", "label": "Son fils aîné, qu’il a déshérité", "inverseLabel": "Son père, qui l’a renié", "s": 6 },
-    { "to": "gilly", "type": "ennemi", "label": "La sauvageonne qu’il méprise", "s": 6 },
-    { "to": "daenerys-targaryen", "type": "ennemi", "label": "La reine qui l’a fait brûler", "s": 7 },
-    { "to": "jaime-lannister", "type": "allie", "label": "Son allié à Hautjardin", "s": 7 }
+    {
+      "to": "samwell-tarly",
+      "type": "enfant",
+      "label": "Son fils aîné, qu’il a déshérité",
+      "inverseLabel": "Son père, qui l’a renié",
+      "s": 6
+    },
+    {
+      "to": "gilly",
+      "type": "ennemi",
+      "label": "La sauvageonne qu’il méprise",
+      "s": 6
+    },
+    {
+      "to": "daenerys-targaryen",
+      "type": "ennemi",
+      "label": "La reine qui l’a fait brûler",
+      "s": 7
+    },
+    {
+      "to": "jaime-lannister",
+      "type": "allie",
+      "label": "Son allié à Hautjardin",
+      "s": 7
+    }
   ],
   "places": [
-    { "place": "corcolline", "seasons": [6] },
-    { "place": "hautjardin", "seasons": [7] }
+    {
+      "place": "corcolline",
+      "seasons": [
+        6
+      ]
+    },
+    {
+      "place": "hautjardin",
+      "seasons": [
+        7
+      ]
+    }
   ],
   "codex": [],
   "portrait": null,
-  "sources": [{ "label": "Wiki of Westeros — Randyll Tarly", "url": "https://gameofthrones.fandom.com/wiki/Randyll_Tarly" }]
+  "sources": [
+    {
+      "label": "Wiki of Westeros — Randyll Tarly",
+      "url": "https://gameofthrones.fandom.com/wiki/Randyll_Tarly"
+    }
+  ]
 }

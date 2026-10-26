@@ -9,12 +9,23 @@
   "camp": "au-dela-du-mur",
   "allegiances": [],
   "origin": "au-dela-du-mur",
-  "titles": [{ "text": "Chef des Marcheurs blancs" }],
+  "titles": [
+    {
+      "text": "Chef des Marcheurs blancs"
+    }
+  ],
   "actor": "Richard Brake, puis Vladimír Furdík",
   "firstSeason": 4,
   "status": [
-    { "s": 4, "value": "vivant" },
-    { "s": 8, "value": "mort", "note": "Détruit d’un coup de dague d’acier valyrien pendant la bataille de Winterfell" }
+    {
+      "s": 4,
+      "value": "vivant"
+    },
+    {
+      "s": 8,
+      "value": "mort",
+      "note": "Détruit d’un coup de dague d’acier valyrien pendant la bataille de Winterfell"
+    }
   ],
   "summary": "Silhouette couronnée de glace, le Roi de la Nuit commande les Marcheurs blancs et l’armée des morts. Il ne dit jamais un mot.",
   "bio": [
@@ -23,56 +34,122 @@
       "title": "Saison 4 — Le dernier fils de Craster",
       "paragraphs": [
         "Le dernier fils de Craster est emporté par un Marcheur blanc à cheval, à travers des terres de glace, jusqu’à un cercle de piliers. Là, une créature à la couronne de pointes de glace prend l’enfant dans ses bras et pose un doigt sur sa joue. Les yeux du nouveau-né deviennent bleus. C’est ainsi que naissent les Marcheurs blancs : chaque fils offert par Craster rejoint leurs rangs.",
-        "Personne au sud du Mur ne connaît encore son visage. On ignore même qu’il a un nom."
+        "Personne au sud du Mur ne connaît encore son visage. On ignore même qu’il a un nom.",
+        "Le Roi de la Nuit est le chef des Marcheurs blancs. Il ne parle jamais, ne montre aucune émotion et semble animé par une seule volonté : avancer. Sa peau est d’un bleu de glace, ses yeux brillent, et une couronne de pointes de glace sort de son crâne. Il est le plus ancien et le plus puissant des Autres, celui qui peut relever les morts d’un simple geste."
       ]
     },
     {
       "s": 5,
       "title": "Saison 5 — Durlieu",
       "paragraphs": [
-        "Le Roi de la Nuit attaque Durlieu, où Jon Snow tente d’évacuer le Peuple libre. Il assiste au massacre depuis une falaise. Quand les derniers survivants s’éloignent en barque, il marche jusqu’au bord de l’eau, regarde Jon droit dans les yeux et lève lentement les bras. Des milliers de morts se relèvent autour de lui."
+        "Le Roi de la Nuit attaque Durlieu, où Jon Snow tente d’évacuer le Peuple libre. Il assiste au massacre depuis une falaise. Quand les derniers survivants s’éloignent en barque, il marche jusqu’au bord de l’eau, regarde Jon droit dans les yeux et lève lentement les bras. Des milliers de morts se relèvent autour de lui.",
+        "Le Roi de la Nuit ne se bat presque jamais lui-même. Il observe, choisit le moment, et laisse ses morts faire le travail. Cette patience inhumaine est ce qui le rend si effrayant : il n’a ni colère, ni orgueil, ni hâte."
       ]
     },
     {
       "s": 6,
       "title": "Saison 6 — Les origines",
       "paragraphs": [
-        "Dans une vision, Bran découvre comment il est né : il y a des milliers d’années, les enfants de la forêt ont enfoncé un éclat de verre-dragon dans le cœur d’un Premier Homme attaché à un barral, pour créer une arme contre les envahisseurs. L’arme leur a échappé. En s’aventurant seul dans le passé, Bran croise le regard du Roi de la Nuit, qui lui saisit le bras et le marque. La protection de la grotte se brise ; les morts attaquent, et la corneille à trois yeux est tuée."
+        "Dans une vision, Bran découvre comment il est né : il y a des milliers d’années, les enfants de la forêt ont enfoncé un éclat de verre-dragon dans le cœur d’un Premier Homme attaché à un barral, pour créer une arme contre les envahisseurs. L’arme leur a échappé. En s’aventurant seul dans le passé, Bran croise le regard du Roi de la Nuit, qui lui saisit le bras et le marque. La protection de la grotte se brise ; les morts attaquent, et la corneille à trois yeux est tuée.",
+        "Ce qui fut un homme est devenu une arme qui a échappé à ceux qui l’avaient créée. L’ironie est cruelle : les enfants de la forêt voulaient se protéger des hommes, et ils ont fabriqué la menace qui a failli effacer tous les vivants."
       ]
     },
     {
       "s": 7,
       "title": "Saison 7 — Le dragon mort",
       "paragraphs": [
-        "Le Roi de la Nuit tend un piège à l’expédition de Jon sur un lac gelé. Quand Daenerys arrive avec ses dragons, il saisit une lance de glace et abat Viserion en plein vol. Il fait sortir le dragon de l’eau et le relève, les yeux bleus. Monté sur lui, il souffle un feu bleu sur le Mur, qui s’effondre à Fort-Levant. L’armée des morts entre dans les Sept Couronnes."
+        "Le Roi de la Nuit tend un piège à l’expédition de Jon sur un lac gelé. Quand Daenerys arrive avec ses dragons, il saisit une lance de glace et abat Viserion en plein vol. Il fait sortir le dragon de l’eau et le relève, les yeux bleus. Monté sur lui, il souffle un feu bleu sur le Mur, qui s’effondre à Fort-Levant. L’armée des morts entre dans les Sept Couronnes.",
+        "Pour la première fois, les vivants voient de leurs yeux ce qu’il est capable de faire : prendre leurs propres armes et les retourner contre eux. Même un dragon peut devenir un mort."
       ]
     },
     {
       "s": 8,
       "title": "Saison 8 — La Longue Nuit",
       "paragraphs": [
-        "L’armée des morts déferle sur Winterfell. Le Roi de la Nuit survit au feu de dragon et relève les morts de la bataille, puis marche jusqu’au bois sacré, où Bran l’attend sous le barral. Au moment où il lève son épée, Arya Stark surgit et lui plante une dague d’acier valyrien dans le corps. Il se brise en éclats de glace, et avec lui toute son armée."
+        "L’armée des morts déferle sur Winterfell. Le Roi de la Nuit survit au feu de dragon et relève les morts de la bataille, puis marche jusqu’au bois sacré, où Bran l’attend sous le barral. Au moment où il lève son épée, Arya Stark surgit et lui plante une dague d’acier valyrien dans le corps. Il se brise en éclats de glace, et avec lui toute son armée.",
+        "Le Roi de la Nuit ne veut pas seulement la guerre : il veut Bran, la Corneille à trois yeux, la mémoire du monde. Effacer cette mémoire, c’est effacer les hommes une seconde fois. Sa fin, par une jeune fille que personne n’attendait, rappelle que la mort ne sait pas tout prévoir."
       ]
     }
   ],
   "keyMoments": [
-    { "s": 4, "title": "Le cercle de glace", "text": "Il transforme le fils de Craster en Marcheur blanc.", "place": "au-dela-du-mur" },
-    { "s": 5, "title": "Durlieu", "text": "Il relève les morts sous les yeux de Jon.", "place": "durlieu" },
-    { "s": 6, "title": "La marque", "text": "Il saisit Bran dans une vision et brise la protection de la grotte.", "place": "au-dela-du-mur" },
-    { "s": 7, "title": "Viserion", "text": "Il abat un dragon et en fait sa monture.", "place": "au-dela-du-mur" },
-    { "s": 8, "title": "Le bois sacré", "text": "Arya le détruit au moment où il atteint Bran.", "place": "winterfell" }
+    {
+      "s": 4,
+      "title": "Le cercle de glace",
+      "text": "Il transforme le fils de Craster en Marcheur blanc.",
+      "place": "au-dela-du-mur"
+    },
+    {
+      "s": 5,
+      "title": "Durlieu",
+      "text": "Il relève les morts sous les yeux de Jon.",
+      "place": "durlieu"
+    },
+    {
+      "s": 6,
+      "title": "La marque",
+      "text": "Il saisit Bran dans une vision et brise la protection de la grotte.",
+      "place": "au-dela-du-mur"
+    },
+    {
+      "s": 7,
+      "title": "Viserion",
+      "text": "Il abat un dragon et en fait sa monture.",
+      "place": "au-dela-du-mur"
+    },
+    {
+      "s": 8,
+      "title": "Le bois sacré",
+      "text": "Arya le détruit au moment où il atteint Bran.",
+      "place": "winterfell"
+    }
   ],
   "relations": [
-    { "to": "corneille-a-trois-yeux", "type": "ennemi", "label": "Le gardien de la mémoire qu’il a tué", "s": 6 },
-    { "to": "arya-stark", "type": "ennemi", "label": "Celle qui l’a détruit", "s": 8 },
-    { "to": "daenerys-targaryen", "type": "ennemi", "label": "La reine dont il a pris un dragon", "s": 7 }
+    {
+      "to": "corneille-a-trois-yeux",
+      "type": "ennemi",
+      "label": "Le gardien de la mémoire qu’il a tué",
+      "s": 6
+    },
+    {
+      "to": "arya-stark",
+      "type": "ennemi",
+      "label": "Celle qui l’a détruit",
+      "s": 8
+    },
+    {
+      "to": "daenerys-targaryen",
+      "type": "ennemi",
+      "label": "La reine dont il a pris un dragon",
+      "s": 7
+    }
   ],
   "places": [
-    { "place": "au-dela-du-mur", "seasons": [4, 6, 7] },
-    { "place": "durlieu", "seasons": [5] },
-    { "place": "winterfell", "seasons": [8] }
+    {
+      "place": "au-dela-du-mur",
+      "seasons": [
+        4,
+        6,
+        7
+      ]
+    },
+    {
+      "place": "durlieu",
+      "seasons": [
+        5
+      ]
+    },
+    {
+      "place": "winterfell",
+      "seasons": [
+        8
+      ]
+    }
   ],
-  "codex": ["marcheurs-blancs", "enfants-de-la-foret", "premiers-hommes"],
+  "codex": [
+    "marcheurs-blancs",
+    "enfants-de-la-foret",
+    "premiers-hommes"
+  ],
   "booksVsShow": {
     "s": 4,
     "paragraphs": [
@@ -80,5 +157,10 @@
     ]
   },
   "portrait": null,
-  "sources": [{ "label": "Wiki of Westeros — Night King", "url": "https://gameofthrones.fandom.com/wiki/Night_King" }]
+  "sources": [
+    {
+      "label": "Wiki of Westeros — Night King",
+      "url": "https://gameofthrones.fandom.com/wiki/Night_King"
+    }
+  ]
 }

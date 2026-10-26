@@ -3,18 +3,37 @@
   "name": "Oberyn Martell",
   "short": "Oberyn",
   "principal": true,
-  "aliases": [{ "text": "la Vipère Rouge" }],
+  "aliases": [
+    {
+      "text": "la Vipère Rouge"
+    }
+  ],
   "house": "martell",
   "region": "Dorne",
   "camp": "westeros",
-  "allegiances": [{ "to": "martell" }],
+  "allegiances": [
+    {
+      "to": "martell"
+    }
+  ],
   "origin": "lancehelion",
-  "titles": [{ "text": "Prince de Dorne" }],
+  "titles": [
+    {
+      "text": "Prince de Dorne"
+    }
+  ],
   "actor": "Pedro Pascal",
   "firstSeason": 4,
   "status": [
-    { "s": 4, "value": "vivant" },
-    { "s": 4, "value": "mort", "note": "Tué par la Montagne lors du duel judiciaire de Tyrion" }
+    {
+      "s": 4,
+      "value": "vivant"
+    },
+    {
+      "s": 4,
+      "value": "mort",
+      "note": "Tué par la Montagne lors du duel judiciaire de Tyrion"
+    }
   ],
   "summary": "Frère cadet du prince de Dorne, Oberyn Martell est un savant, un combattant redouté et un voyageur qui ne cache rien de ses passions. Il vient à Port-Réal avec une seule idée en tête.",
   "bio": [
@@ -26,27 +45,101 @@
         "Oberyn ne cache pas la raison de sa venue. Sa sœur Elia, épouse du prince Rhaegar, a été violée et tuée pendant le sac de Port-Réal, avec ses enfants, par Gregor Clegane, la Montagne. Tout le monde sait que l’ordre venait de Tywin Lannister. Oberyn veut entendre un aveu, et voir le meurtrier payer.",
         "À la cour, il se montre aussi cultivé que provocateur : il raille les manières de Westeros, défend le droit des bâtards, parle de poisons et d’Essos avec Tyrion. Il est assis au mariage du roi quand celui-ci meurt empoisonné, et Tywin le nomme parmi les trois juges du procès de Tyrion, avec Mace Tyrell.",
         "Oberyn rend visite à Tyrion dans sa cellule. Il lui raconte sa première rencontre avec lui, à Castral Roc, quand il était venu voir le « monstre » que la famille cachait, et n’avait trouvé qu’un bébé. Lorsque Tyrion réclame un duel judiciaire et que Cersei choisit la Montagne pour champion, Oberyn se propose pour défendre l’accusé : ce combat est l’occasion qu’il attendait.",
-        "Le duel commence sous les yeux de toute la ville. Oberyn danse autour du colosse, le touche avec sa lance, le blesse, puis le fait tomber en criant le nom de sa sœur. Il veut l’entendre avouer. Il tourne autour de lui en répétant : « Vous avez violé ma sœur. Vous avez tué ses enfants. » Gregor, à terre, le fauche par la jambe, l’écrase sous son poids, avoue enfin le meurtre d’Elia… et lui écrase le crâne entre ses mains."
+        "Le duel commence sous les yeux de toute la ville. Oberyn danse autour du colosse, le touche avec sa lance, le blesse, puis le fait tomber en criant le nom de sa sœur. Il veut l’entendre avouer. Il tourne autour de lui en répétant : « Vous avez violé ma sœur. Vous avez tué ses enfants. » Gregor, à terre, le fauche par la jambe, l’écrase sous son poids, avoue enfin le meurtre d’Elia… et lui écrase le crâne entre ses mains.",
+        "Oberyn est le frère cadet du prince Doran, souverain de Dorne. On le surnomme la Vipère Rouge, pour sa lance empoisonnée et son caractère. Il a étudié à la Citadelle, sans aller au bout de sa chaîne, puis a voyagé en Essos et servi dans une compagnie de mercenaires. Il connaît les poisons mieux que n’importe quel mestre. Il a huit filles naturelles, les Aspics des Sables, qu’il a élevées comme des héritières, et partage sa vie avec Ellaria Sand, dont il partage aussi les amants.",
+        "Il incarne Dorne aux yeux du reste du royaume : libre, raffiné, sensuel, et plein d’une rancune vieille de dix-sept ans. Il ne pardonne ni aux Lannister ni à la Montagne, et il n’a accepté de venir à Port-Réal que parce qu’il espérait y obtenir justice.",
+        "S’il accepte d’être le champion de Tyrion, ce n’est pas par amitié : c’est l’occasion qu’il attendait d’affronter Gregor Clegane, l’homme qui a tué sa sœur, devant toute la cour, et de lui arracher un aveu.",
+        "Il avait obtenu l’aveu ; il voulait aussi le nom de celui qui avait donné l’ordre. Son orgueil lui a coûté la victoire et la vie de Tyrion, condamné par sa défaite. À Dorne, sa mort réveille toutes les rancunes et pousse Ellaria vers la vengeance.",
+        "Oberyn reste, dans le souvenir de ceux qui l’ont croisé, l’homme le plus vivant de la cour : il aime, rit, provoque et ne craint personne. Ellaria l’a aimé tel qu’il était. Elle ne lui survivra que pour le venger.",
+        "Ses filles, les Aspics des Sables, portent son héritage. Tyrion, lui, n’oubliera jamais qu’un prince de Dorne est mort en se battant pour lui."
       ]
     }
   ],
   "keyMoments": [
-    { "s": 4, "title": "L’arrivée", "text": "Il entre dans Port-Réal par un bordel et une provocation.", "place": "port-real" },
-    { "s": 4, "title": "Le récit du nourrisson", "text": "Il raconte à Tyrion leur première rencontre, quand Tyrion était bébé.", "place": "port-real" },
-    { "s": 4, "title": "Le duel", "text": "Il meurt en combattant la Montagne pour Tyrion.", "place": "port-real" }
+    {
+      "s": 4,
+      "title": "L’arrivée",
+      "text": "Il entre dans Port-Réal par un bordel et une provocation.",
+      "place": "port-real"
+    },
+    {
+      "s": 4,
+      "title": "Le récit du nourrisson",
+      "text": "Il raconte à Tyrion leur première rencontre, quand Tyrion était bébé.",
+      "place": "port-real"
+    },
+    {
+      "s": 4,
+      "title": "Le duel",
+      "text": "Il meurt en combattant la Montagne pour Tyrion.",
+      "place": "port-real"
+    }
   ],
   "relations": [
-    { "to": "doran-martell", "type": "fratrie", "label": "Son frère aîné, prince de Dorne", "s": 4 },
-    { "to": "ellaria-sand", "type": "amour", "label": "Sa compagne", "s": 4 },
-    { "to": "obara-sand", "type": "enfant", "label": "Sa fille aînée", "inverseLabel": "Son père", "s": 4 },
-    { "to": "nymeria-sand", "type": "enfant", "label": "Sa fille", "inverseLabel": "Son père", "s": 4 },
-    { "to": "tyene-sand", "type": "enfant", "label": "Sa fille", "inverseLabel": "Son père", "s": 4 },
-    { "to": "gregor-clegane", "type": "ennemi", "label": "L’assassin de sa sœur", "s": 4 },
-    { "to": "tywin-lannister", "type": "ennemi", "label": "Le seigneur qui a ordonné le meurtre de sa sœur", "s": 4 },
-    { "to": "cersei-lannister", "type": "autre", "label": "La reine avec qui il a fait une trêve", "s": 4 }
+    {
+      "to": "doran-martell",
+      "type": "fratrie",
+      "label": "Son frère aîné, prince de Dorne",
+      "s": 4
+    },
+    {
+      "to": "ellaria-sand",
+      "type": "amour",
+      "label": "Sa compagne",
+      "s": 4
+    },
+    {
+      "to": "obara-sand",
+      "type": "enfant",
+      "label": "Sa fille aînée",
+      "inverseLabel": "Son père",
+      "s": 4
+    },
+    {
+      "to": "nymeria-sand",
+      "type": "enfant",
+      "label": "Sa fille",
+      "inverseLabel": "Son père",
+      "s": 4
+    },
+    {
+      "to": "tyene-sand",
+      "type": "enfant",
+      "label": "Sa fille",
+      "inverseLabel": "Son père",
+      "s": 4
+    },
+    {
+      "to": "gregor-clegane",
+      "type": "ennemi",
+      "label": "L’assassin de sa sœur",
+      "s": 4
+    },
+    {
+      "to": "tywin-lannister",
+      "type": "ennemi",
+      "label": "Le seigneur qui a ordonné le meurtre de sa sœur",
+      "s": 4
+    },
+    {
+      "to": "cersei-lannister",
+      "type": "autre",
+      "label": "La reine avec qui il a fait une trêve",
+      "s": 4
+    }
   ],
-  "places": [{ "place": "port-real", "seasons": [4] }],
-  "codex": ["dorniens", "rhoynar"],
+  "places": [
+    {
+      "place": "port-real",
+      "seasons": [
+        4
+      ]
+    }
+  ],
+  "codex": [
+    "dorniens",
+    "rhoynar"
+  ],
   "booksVsShow": {
     "s": 4,
     "paragraphs": [
@@ -54,5 +147,10 @@
     ]
   },
   "portrait": "images/personnages/oberyn-martell.webp",
-  "sources": [{ "label": "Wiki of Westeros — Oberyn Martell", "url": "https://gameofthrones.fandom.com/wiki/Oberyn_Martell" }]
+  "sources": [
+    {
+      "label": "Wiki of Westeros — Oberyn Martell",
+      "url": "https://gameofthrones.fandom.com/wiki/Oberyn_Martell"
+    }
+  ]
 }

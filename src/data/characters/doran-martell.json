@@ -6,31 +6,101 @@
   "house": "martell",
   "region": "Dorne",
   "camp": "westeros",
-  "allegiances": [{ "to": "martell" }],
+  "allegiances": [
+    {
+      "to": "martell"
+    }
+  ],
   "origin": "lancehelion",
-  "titles": [{ "text": "Prince de Dorne" }],
+  "titles": [
+    {
+      "text": "Prince de Dorne"
+    }
+  ],
   "actor": "Alexander Siddig",
   "firstSeason": 5,
   "status": [
-    { "s": 5, "value": "vivant" },
-    { "s": 6, "value": "mort", "note": "Poignardé par Ellaria Sand dans les Jardins Aquatiques" }
+    {
+      "s": 5,
+      "value": "vivant"
+    },
+    {
+      "s": 6,
+      "value": "mort",
+      "note": "Poignardé par Ellaria Sand dans les Jardins Aquatiques"
+    }
   ],
   "summary": "Prince de Dorne, cloué dans un fauteuil par la goutte, Doran Martell est patient et prudent. Il préfère attendre son heure plutôt que la forcer, au risque de passer pour faible.",
   "bio": [
-    { "s": 5, "title": "Saison 5 — La patience", "paragraphs": ["Doran gouverne Dorne depuis les Jardins Aquatiques, où il regarde les enfants jouer dans les bassins. Ellaria et les filles d’Oberyn réclament vengeance après la mort du prince ; Doran refuse de déclarer la guerre aux Lannister. Quand Jaime vient chercher Myrcella, il l’accueille comme un invité, emprisonne les Aspics des Sables pour leur tentative d’enlèvement, et accepte de rendre la princesse, en envoyant son fils Trystane avec elle pour siéger au Conseil restreint."] },
-    { "s": 6, "title": "Saison 6 — La fin des Martell", "paragraphs": ["Doran apprend la mort de Myrcella, empoisonnée sur le chemin du retour. Avant qu’il ait pu réagir, Ellaria le poignarde dans ses propres jardins. Son garde est tué par Tyene et Obara. Ellaria lui dit que les hommes faibles ne gouverneront plus Dorne."] }
+    {
+      "s": 5,
+      "title": "Saison 5 — La patience",
+      "paragraphs": [
+        "Doran est le prince de Dorne, frère aîné d’Oberyn et d’Elia. Rongé par la goutte, il se déplace en fauteuil. Patient et prudent, il pense que la vengeance se prépare sur des années et que la guerre ouverte ruinerait son peuple. Ses proches prennent cette prudence pour de la faiblesse.",
+        "Doran gouverne Dorne depuis les Jardins Aquatiques, où il regarde les enfants jouer dans les bassins. Ellaria et les filles d’Oberyn réclament vengeance après la mort du prince ; Doran refuse de déclarer la guerre aux Lannister. Quand Jaime vient chercher Myrcella, il l’accueille comme un invité, emprisonne les Aspics des Sables pour leur tentative d’enlèvement, et accepte de rendre la princesse, en envoyant son fils Trystane avec elle pour siéger au Conseil restreint."
+      ]
+    },
+    {
+      "s": 6,
+      "title": "Saison 6 — La fin des Martell",
+      "paragraphs": [
+        "Doran apprend la mort de Myrcella, empoisonnée sur le chemin du retour. Avant qu’il ait pu réagir, Ellaria le poignarde dans ses propres jardins. Son garde est tué par Tyene et Obara. Ellaria lui dit que les hommes faibles ne gouverneront plus Dorne."
+      ]
+    }
   ],
   "keyMoments": [
-    { "s": 5, "title": "Les Jardins Aquatiques", "text": "Il refuse la guerre que réclament les Aspics des Sables.", "place": "jardins-aquatiques" },
-    { "s": 6, "title": "La trahison", "text": "Ellaria le poignarde dans ses jardins.", "place": "jardins-aquatiques" }
+    {
+      "s": 5,
+      "title": "Les Jardins Aquatiques",
+      "text": "Il refuse la guerre que réclament les Aspics des Sables.",
+      "place": "jardins-aquatiques"
+    },
+    {
+      "s": 6,
+      "title": "La trahison",
+      "text": "Ellaria le poignarde dans ses jardins.",
+      "place": "jardins-aquatiques"
+    }
   ],
   "relations": [
-    { "to": "trystane-martell", "type": "enfant", "label": "Son fils et héritier", "inverseLabel": "Son père", "s": 5 },
-    { "to": "ellaria-sand", "type": "ennemi", "label": "Celle qui l’a assassiné", "s": 5 },
-    { "to": "jaime-lannister", "type": "autre", "label": "Son hôte venu chercher Myrcella", "s": 5 }
+    {
+      "to": "trystane-martell",
+      "type": "enfant",
+      "label": "Son fils et héritier",
+      "inverseLabel": "Son père",
+      "s": 5
+    },
+    {
+      "to": "ellaria-sand",
+      "type": "ennemi",
+      "label": "Celle qui l’a assassiné",
+      "s": 5
+    },
+    {
+      "to": "jaime-lannister",
+      "type": "autre",
+      "label": "Son hôte venu chercher Myrcella",
+      "s": 5
+    }
   ],
-  "places": [{ "place": "jardins-aquatiques", "seasons": [5, 6] }],
-  "codex": ["dorniens", "rhoynar"],
+  "places": [
+    {
+      "place": "jardins-aquatiques",
+      "seasons": [
+        5,
+        6
+      ]
+    }
+  ],
+  "codex": [
+    "dorniens",
+    "rhoynar"
+  ],
   "portrait": "images/personnages/doran-martell.webp",
-  "sources": [{ "label": "Wiki of Westeros — Doran Martell", "url": "https://gameofthrones.fandom.com/wiki/Doran_Martell" }]
+  "sources": [
+    {
+      "label": "Wiki of Westeros — Doran Martell",
+      "url": "https://gameofthrones.fandom.com/wiki/Doran_Martell"
+    }
+  ]
 }

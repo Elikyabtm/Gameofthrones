@@ -3,18 +3,51 @@
   "name": "Theon Greyjoy",
   "short": "Theon",
   "principal": true,
-  "aliases": [{ "text": "Schlingue", "s": 4 }, { "text": "le Prince de Winterfell", "s": 2 }],
+  "aliases": [
+    {
+      "text": "Schlingue",
+      "s": 4
+    },
+    {
+      "text": "le Prince de Winterfell",
+      "s": 2
+    }
+  ],
   "house": "greyjoy",
   "region": "Les Îles de Fer",
   "camp": "westeros",
-  "allegiances": [{ "to": "stark", "until": 2 }, { "to": "greyjoy", "s": 2 }],
+  "allegiances": [
+    {
+      "to": "stark",
+      "until": 2
+    },
+    {
+      "to": "greyjoy",
+      "s": 2
+    }
+  ],
   "origin": "pyk",
-  "titles": [{ "text": "Pupille de Lord Stark" }, { "text": "Prince des Îles de Fer", "s": 2 }],
+  "titles": [
+    {
+      "text": "Pupille de Lord Stark"
+    },
+    {
+      "text": "Prince des Îles de Fer",
+      "s": 2
+    }
+  ],
   "actor": "Alfie Allen",
   "firstSeason": 1,
   "status": [
-    { "s": 1, "value": "vivant" },
-    { "s": 8, "value": "mort", "note": "Tué par le Roi de la Nuit en défendant Bran dans le bois sacré" }
+    {
+      "s": 1,
+      "value": "vivant"
+    },
+    {
+      "s": 8,
+      "value": "mort",
+      "note": "Tué par le Roi de la Nuit en défendant Bran dans le bois sacré"
+    }
   ],
   "summary": "Seul fils survivant de Balon Greyjoy, Theon a grandi à Winterfell comme pupille et otage d’Eddard Stark. Il se rêve à la fois Stark et Fer-né, et n’est tout à fait ni l’un ni l’autre.",
   "bio": [
@@ -22,14 +55,16 @@
       "s": 1,
       "title": "Saison 1 — Le pupille",
       "paragraphs": [
-        "Theon partage la vie des enfants Stark, chasse avec Robb, plaisante avec Jon, et fréquente les bordels de la ville d’hiver. Il rappelle volontiers qu’il est prince des Îles de Fer, mais il n’a pas vu sa famille depuis l’âge de dix ans, quand Eddard l’a emmené en otage après la rébellion manquée de son père. Quand Robb lève les bannières, Theon le suit et se bat à ses côtés."
+        "Theon partage la vie des enfants Stark, chasse avec Robb, plaisante avec Jon, et fréquente les bordels de la ville d’hiver. Il rappelle volontiers qu’il est prince des Îles de Fer, mais il n’a pas vu sa famille depuis l’âge de dix ans, quand Eddard l’a emmené en otage après la rébellion manquée de son père. Quand Robb lève les bannières, Theon le suit et se bat à ses côtés.",
+        "Theon a grandi entre deux mondes, sans appartenir à aucun. À Winterfell, il est le pupille d’Eddard, presque un frère pour Robb, mais il reste l’otage qui garantit la soumission de son père ; Eddard le traite bien, et ne le laisse jamais oublier pourquoi il est là. Il compense par l’arrogance, les sourires et les fanfaronnades. Il se croit plus Greyjoy qu’il ne l’est, et plus aimé des Stark qu’il ne le croit."
       ]
     },
     {
       "s": 2,
       "title": "Saison 2 — La trahison",
       "paragraphs": [
-        "Robb envoie Theon à Pyk négocier l’alliance de son père. Balon l’accueille comme un étranger, et sa sœur Yara le ridiculise. Pour prouver qu’il est un vrai Fer-né, Theon trahit Robb : il prend Winterfell par surprise avec une poignée d’hommes. Il exécute Ser Rodrik pour asseoir son autorité, puis, quand Bran et Rickon s’échappent, fait brûler deux enfants de meunier pour les faire passer pour les princes. Ses hommes l’assomment et le livrent aux Bolton."
+        "Robb envoie Theon à Pyk négocier l’alliance de son père. Balon l’accueille comme un étranger, et sa sœur Yara le ridiculise. Pour prouver qu’il est un vrai Fer-né, Theon trahit Robb : il prend Winterfell par surprise avec une poignée d’hommes. Il exécute Ser Rodrik pour asseoir son autorité, puis, quand Bran et Rickon s’échappent, fait brûler deux enfants de meunier pour les faire passer pour les princes. Ses hommes l’assomment et le livrent aux Bolton.",
+        "La prise de Winterfell est la grande erreur de sa vie, et il le sait presque aussitôt. Il ne voulait pas tant conquérir qu’être reconnu par un père qui ne l’a jamais regardé. Son mestre, Luwin, lui conseille de prendre le noir pour sauver sa vie. Il hésite. Il est trop tard."
       ]
     },
     {
@@ -50,7 +85,8 @@
       "s": 5,
       "title": "Saison 5 — Le retour",
       "paragraphs": [
-        "À Winterfell, Theon assiste au mariage de Ramsay avec Sansa Stark et aux violences qu’elle subit. Il finit par lui avouer qu’il n’a pas tué Bran et Rickon. Quand Stannis attaque, il retrouve un peu de lui-même : il tue Myranda, la complice de Ramsay, et saute des remparts avec Sansa."
+        "À Winterfell, Theon assiste au mariage de Ramsay avec Sansa Stark et aux violences qu’elle subit. Il finit par lui avouer qu’il n’a pas tué Bran et Rickon. Quand Stannis attaque, il retrouve un peu de lui-même : il tue Myranda, la complice de Ramsay, et saute des remparts avec Sansa.",
+        "Le retour de Theon est l’un des plus longs chemins de l’histoire. Il ne se sauve pas d’un coup : il doit d’abord se souvenir de son nom, puis de ce qu’il a fait, puis accepter qu’on ne le lui pardonne pas forcément."
       ]
     },
     {
@@ -71,32 +107,116 @@
       "s": 8,
       "title": "Saison 8 — Le défenseur de Bran",
       "paragraphs": [
-        "Theon libère Yara, puis revient à Winterfell pour se battre aux côtés des Stark. Il garde Bran dans le bois sacré pendant la Longue Nuit. Quand le Roi de la Nuit approche, Bran lui dit qu’il est un homme bon. Theon charge seul, et meurt sous le barral."
+        "Theon libère Yara, puis revient à Winterfell pour se battre aux côtés des Stark. Il garde Bran dans le bois sacré pendant la Longue Nuit. Quand le Roi de la Nuit approche, Bran lui dit qu’il est un homme bon. Theon charge seul, et meurt sous le barral.",
+        "Sa mort est une réparation. Il défend le dernier fils d’Eddard dans le bois sacré de Winterfell, le lieu même qu’il avait trahi, et meurt en Stark autant qu’en Greyjoy. Sansa, qu’il avait aidée à fuir Ramsay, pleure sur son corps."
       ]
     }
   ],
   "keyMoments": [
-    { "s": 2, "title": "La prise de Winterfell", "text": "Il trahit Robb pour gagner l’estime de son père.", "place": "winterfell" },
-    { "s": 3, "title": "La croix", "text": "Il tombe entre les mains de Ramsay.", "place": "fort-terreur" },
-    { "s": 5, "title": "Le saut", "text": "Il fuit Winterfell avec Sansa.", "place": "winterfell" },
-    { "s": 6, "title": "L’assemblée", "text": "Il soutient Yara pour le trône de sel.", "place": "pyk" },
-    { "s": 8, "title": "Le bois sacré", "text": "Il meurt en protégeant Bran.", "place": "winterfell" }
+    {
+      "s": 2,
+      "title": "La prise de Winterfell",
+      "text": "Il trahit Robb pour gagner l’estime de son père.",
+      "place": "winterfell"
+    },
+    {
+      "s": 3,
+      "title": "La croix",
+      "text": "Il tombe entre les mains de Ramsay.",
+      "place": "fort-terreur"
+    },
+    {
+      "s": 5,
+      "title": "Le saut",
+      "text": "Il fuit Winterfell avec Sansa.",
+      "place": "winterfell"
+    },
+    {
+      "s": 6,
+      "title": "L’assemblée",
+      "text": "Il soutient Yara pour le trône de sel.",
+      "place": "pyk"
+    },
+    {
+      "s": 8,
+      "title": "Le bois sacré",
+      "text": "Il meurt en protégeant Bran.",
+      "place": "winterfell"
+    }
   ],
   "relations": [
-    { "to": "yara-greyjoy", "type": "fratrie", "label": "Sa sœur aînée", "s": 2 },
-    { "to": "ramsay-bolton", "type": "ennemi", "label": "Son bourreau", "s": 3 },
-    { "to": "euron-greyjoy", "type": "ennemi", "label": "Son oncle, usurpateur", "s": 6 },
-    { "to": "jon-snow", "type": "allie", "label": "Son ami de Winterfell", "s": 1 },
-    { "to": "osha", "type": "ennemi", "label": "La sauvageonne qui l’a trompé", "s": 2 }
+    {
+      "to": "yara-greyjoy",
+      "type": "fratrie",
+      "label": "Sa sœur aînée",
+      "s": 2
+    },
+    {
+      "to": "ramsay-bolton",
+      "type": "ennemi",
+      "label": "Son bourreau",
+      "s": 3
+    },
+    {
+      "to": "euron-greyjoy",
+      "type": "ennemi",
+      "label": "Son oncle, usurpateur",
+      "s": 6
+    },
+    {
+      "to": "jon-snow",
+      "type": "allie",
+      "label": "Son ami de Winterfell",
+      "s": 1
+    },
+    {
+      "to": "osha",
+      "type": "ennemi",
+      "label": "La sauvageonne qui l’a trompé",
+      "s": 2
+    }
   ],
   "places": [
-    { "place": "winterfell", "seasons": [1, 2, 5, 8] },
-    { "place": "pyk", "seasons": [2, 6] },
-    { "place": "fort-terreur", "seasons": [3, 4] },
-    { "place": "meereen", "seasons": [6] },
-    { "place": "peyredragon", "seasons": [7] }
+    {
+      "place": "winterfell",
+      "seasons": [
+        1,
+        2,
+        5,
+        8
+      ]
+    },
+    {
+      "place": "pyk",
+      "seasons": [
+        2,
+        6
+      ]
+    },
+    {
+      "place": "fort-terreur",
+      "seasons": [
+        3,
+        4
+      ]
+    },
+    {
+      "place": "meereen",
+      "seasons": [
+        6
+      ]
+    },
+    {
+      "place": "peyredragon",
+      "seasons": [
+        7
+      ]
+    }
   ],
-  "codex": ["fer-nes", "dieu-noye"],
+  "codex": [
+    "fer-nes",
+    "dieu-noye"
+  ],
   "booksVsShow": {
     "s": 3,
     "paragraphs": [
@@ -104,5 +224,10 @@
     ]
   },
   "portrait": "images/personnages/theon-greyjoy.webp",
-  "sources": [{ "label": "Wiki of Westeros — Theon Greyjoy", "url": "https://gameofthrones.fandom.com/wiki/Theon_Greyjoy" }]
+  "sources": [
+    {
+      "label": "Wiki of Westeros — Theon Greyjoy",
+      "url": "https://gameofthrones.fandom.com/wiki/Theon_Greyjoy"
+    }
+  ]
 }

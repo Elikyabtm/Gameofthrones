@@ -12,29 +12,97 @@
   "actor": "Rose Leslie",
   "firstSeason": 2,
   "status": [
-    { "s": 2, "value": "vivant" },
-    { "s": 4, "value": "mort", "note": "Tuée d’une flèche pendant l’assaut de Châteaunoir" }
+    {
+      "s": 2,
+      "value": "vivant"
+    },
+    {
+      "s": 4,
+      "value": "mort",
+      "note": "Tuée d’une flèche pendant l’assaut de Châteaunoir"
+    }
   ],
   "summary": "Jeune archère du Peuple libre, rousse comme ceux qu’on dit « embrassés par le feu », Ygritte a la langue aussi vive que ses flèches. Elle ne laisse jamais le dernier mot à personne.",
-  "quote": { "text": "Tu ne sais rien, Jon Snow.", "s": 2 },
+  "quote": {
+    "text": "Tu ne sais rien, Jon Snow.",
+    "s": 2
+  },
   "bio": [
-    { "s": 2, "title": "Saison 2 — La captive", "paragraphs": ["Capturée par Qhorin Mimain et Jon, Ygritte est confiée à Jon, chargé de l’exécuter. Il n’y parvient pas. Pendant la nuit, elle le provoque, le trouble, puis s’échappe et l’attire dans un piège : c’est lui qui devient prisonnier."] },
-    { "s": 3, "title": "Saison 3 — L’amour au sud du Mur", "paragraphs": ["Ygritte défend Jon devant Mance Rayder et devient son amante dans une grotte aux sources chaudes. Elle franchit le Mur avec lui. Quand il refuse de tuer un vieil homme et s’enfuit, elle le rattrape, pleure, et lui tire trois flèches."] },
-    { "s": 4, "title": "Saison 4 — Châteaunoir", "paragraphs": ["Ygritte participe aux massacres des villages au sud du Mur avec les Thenns, puis à l’assaut de Châteaunoir. Elle retrouve Jon dans la cour, l’arc tendu, et hésite. Une flèche du jeune Olly la frappe. Elle meurt dans les bras de Jon, en lui rappelant la grotte."] }
+    {
+      "s": 2,
+      "title": "Saison 2 — La captive",
+      "paragraphs": [
+        "Ygritte est une jeune femme du peuple libre, archère, rousse, « embrassée par le feu » comme on dit au-delà du Mur. Elle est fière, moqueuse et libre, et elle méprise les « agenouillés » du Sud.",
+        "Capturée par Qhorin Mimain et Jon, Ygritte est confiée à Jon, chargé de l’exécuter. Il n’y parvient pas. Pendant la nuit, elle le provoque, le trouble, puis s’échappe et l’attire dans un piège : c’est lui qui devient prisonnier."
+      ]
+    },
+    {
+      "s": 3,
+      "title": "Saison 3 — L’amour au sud du Mur",
+      "paragraphs": [
+        "Ygritte défend Jon devant Mance Rayder et devient son amante dans une grotte aux sources chaudes. Elle franchit le Mur avec lui. Quand il refuse de tuer un vieil homme et s’enfuit, elle le rattrape, pleure, et lui tire trois flèches."
+      ]
+    },
+    {
+      "s": 4,
+      "title": "Saison 4 — Châteaunoir",
+      "paragraphs": [
+        "Ygritte participe aux massacres des villages au sud du Mur avec les Thenns, puis à l’assaut de Châteaunoir. Elle retrouve Jon dans la cour, l’arc tendu, et hésite. Une flèche du jeune Olly la frappe. Elle meurt dans les bras de Jon, en lui rappelant la grotte."
+      ]
+    }
   ],
   "keyMoments": [
-    { "s": 2, "title": "La nuit de garde", "text": "Elle s’échappe et fait de Jon son prisonnier.", "place": "au-dela-du-mur" },
-    { "s": 3, "title": "La grotte", "text": "Elle devient l’amante de Jon.", "place": "au-dela-du-mur" },
-    { "s": 4, "title": "La cour de Châteaunoir", "text": "Elle meurt dans les bras de Jon.", "place": "chateaunoir" }
+    {
+      "s": 2,
+      "title": "La nuit de garde",
+      "text": "Elle s’échappe et fait de Jon son prisonnier.",
+      "place": "au-dela-du-mur"
+    },
+    {
+      "s": 3,
+      "title": "La grotte",
+      "text": "Elle devient l’amante de Jon.",
+      "place": "au-dela-du-mur"
+    },
+    {
+      "s": 4,
+      "title": "La cour de Châteaunoir",
+      "text": "Elle meurt dans les bras de Jon.",
+      "place": "chateaunoir"
+    }
   ],
   "relations": [
-    { "to": "mance-rayder", "type": "suzerain", "label": "Son roi", "inverseLabel": "Une de ses guerrières", "s": 3 }
+    {
+      "to": "mance-rayder",
+      "type": "suzerain",
+      "label": "Son roi",
+      "inverseLabel": "Une de ses guerrières",
+      "s": 3
+    }
   ],
   "places": [
-    { "place": "au-dela-du-mur", "seasons": [2, 3] },
-    { "place": "chateaunoir", "seasons": [4] }
+    {
+      "place": "au-dela-du-mur",
+      "seasons": [
+        2,
+        3
+      ]
+    },
+    {
+      "place": "chateaunoir",
+      "seasons": [
+        4
+      ]
+    }
   ],
-  "codex": ["peuple-libre"],
+  "codex": [
+    "peuple-libre"
+  ],
   "portrait": null,
-  "sources": [{ "label": "Wiki of Westeros — Ygritte", "url": "https://gameofthrones.fandom.com/wiki/Ygritte" }]
+  "sources": [
+    {
+      "label": "Wiki of Westeros — Ygritte",
+      "url": "https://gameofthrones.fandom.com/wiki/Ygritte"
+    }
+  ]
 }

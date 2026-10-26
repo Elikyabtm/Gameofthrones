@@ -2,18 +2,40 @@
   "slug": "talisa-stark",
   "name": "Talisa Stark",
   "short": "Talisa",
-  "aliases": [{ "text": "Talisa Maegyr", "s": 2 }],
+  "aliases": [
+    {
+      "text": "Talisa Maegyr",
+      "s": 2
+    }
+  ],
   "house": "stark",
   "region": "Volantis",
   "camp": "essos",
-  "allegiances": [{ "to": "stark", "s": 2 }],
+  "allegiances": [
+    {
+      "to": "stark",
+      "s": 2
+    }
+  ],
   "origin": "volantis",
-  "titles": [{ "text": "Reine du Nord", "s": 2 }],
+  "titles": [
+    {
+      "text": "Reine du Nord",
+      "s": 2
+    }
+  ],
   "actor": "Oona Chaplin",
   "firstSeason": 2,
   "status": [
-    { "s": 2, "value": "vivant" },
-    { "s": 3, "value": "mort", "note": "Poignardée aux Noces pourpres" }
+    {
+      "s": 2,
+      "value": "vivant"
+    },
+    {
+      "s": 3,
+      "value": "mort",
+      "note": "Poignardée aux Noces pourpres"
+    }
   ],
   "summary": "Née dans une grande famille de Volantis, Talisa a choisi de soigner les blessés plutôt que de vivre dans le luxe. Elle croise la route de Robb Stark sur un champ de bataille.",
   "bio": [
@@ -21,6 +43,7 @@
       "s": 2,
       "title": "Saison 2 — La guérisseuse",
       "paragraphs": [
+        "Talisa Maegyr est une jeune femme de Volantis, guérisseuse, qui a choisi de soigner les blessés de la guerre plutôt que de vivre dans le luxe de sa famille.",
         "Talisa soigne les blessés après une bataille dans les terres de l’Ouest, sans se soucier de leur camp. Elle ne s’en laisse pas imposer par Robb, à qui elle reproche la guerre qu’il mène. Fille d’une famille noble de Volantis, elle raconte avoir renoncé à sa vie de privilèges après avoir vu son frère sauvé de la noyade par un esclave. Robb tombe amoureux d’elle. Ils se marient en secret, devant un arbre-cœur, au mépris de la promesse faite aux Frey."
       ]
     },
@@ -53,14 +76,36 @@
       "label": "Le seigneur dont elle a pris la place promise",
       "s": 3
     },
-    { "to": "roose-bolton", "type": "autre", "label": "Le banneret du roi", "s": 3 }
+    {
+      "to": "roose-bolton",
+      "type": "autre",
+      "label": "Le banneret du roi",
+      "s": 3
+    }
   ],
   "places": [
-    { "place": "terres-de-l-ouest", "seasons": [2] },
-    { "place": "vivesaigues", "seasons": [3] },
-    { "place": "les-jumeaux", "seasons": [3] }
+    {
+      "place": "terres-de-l-ouest",
+      "seasons": [
+        2
+      ]
+    },
+    {
+      "place": "vivesaigues",
+      "seasons": [
+        3
+      ]
+    },
+    {
+      "place": "les-jumeaux",
+      "seasons": [
+        3
+      ]
+    }
   ],
-  "codex": ["bas-valyrien"],
+  "codex": [
+    "bas-valyrien"
+  ],
   "portrait": null,
   "sources": [
     {

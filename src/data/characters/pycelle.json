@@ -2,39 +2,139 @@
   "slug": "pycelle",
   "name": "Pycelle",
   "short": "Pycelle",
-  "aliases": [{ "text": "le Grand Mestre" }],
+  "aliases": [
+    {
+      "text": "le Grand Mestre"
+    }
+  ],
   "house": null,
   "region": "Les Terres de la Couronne",
   "camp": "westeros",
-  "allegiances": [{ "to": "lannister" }],
+  "allegiances": [
+    {
+      "to": "lannister"
+    }
+  ],
   "origin": "villevieille",
-  "titles": [{ "text": "Grand mestre" }],
+  "titles": [
+    {
+      "text": "Grand mestre"
+    }
+  ],
   "actor": "Julian Glover",
   "firstSeason": 1,
   "status": [
-    { "s": 1, "value": "vivant" },
-    { "s": 6, "value": "mort", "note": "Poignardé par les « petits oiseaux » de Qyburn" }
+    {
+      "s": 1,
+      "value": "vivant"
+    },
+    {
+      "s": 6,
+      "value": "mort",
+      "note": "Poignardé par les « petits oiseaux » de Qyburn"
+    }
   ],
   "summary": "Grand mestre du Conseil restreint depuis plusieurs règnes, Pycelle joue les vieillards chancelants. Sous la barbe blanche, il est plus vif et plus fidèle aux Lannister qu’il ne le montre.",
   "bio": [
-    { "s": 1, "title": "Saison 1 — Le vieux mestre", "paragraphs": ["Pycelle raconte à Eddard la mort de Jon Arryn et lui prête le livre des lignées. Plus tard, une fois seul avec une prostituée, il retrouve une démarche alerte et un esprit vif : sa sénilité est un masque."] },
-    { "s": 2, "title": "Saison 2 — Le piège de Tyrion", "paragraphs": ["Tyrion donne à chaque membre du Conseil une version différente de ses projets pour Myrcella. Pycelle rapporte la sienne à Cersei ; Tyrion le fait jeter en prison et raser sa barbe."] },
-    { "s": 3, "title": "Saison 3 — Le conseil de Tywin", "paragraphs": ["Libéré, Pycelle se fait discret et flatte Tywin, revenu au pouvoir."] },
-    { "s": 4, "title": "Saison 4 — Le poison", "paragraphs": ["Après la mort de Joffrey, Pycelle identifie le poison et témoigne au procès de Tyrion."] },
-    { "s": 5, "title": "Saison 5 — Le rival", "paragraphs": ["Il assiste, impuissant, à l’ascension de Qyburn, que Cersei fait entrer au Conseil."] },
-    { "s": 6, "title": "Saison 6 — Les petits oiseaux", "paragraphs": ["Le jour du procès de Cersei, des enfants attirent Pycelle dans les appartements de Qyburn, où ils le poignardent."] }
+    {
+      "s": 1,
+      "title": "Saison 1 — Le vieux mestre",
+      "paragraphs": [
+        "Pycelle est le Grand Mestre du royaume, un vieil homme qui a servi plusieurs rois. Il se présente comme un vieillard lent et radoteur. C’est un comédien. Il est depuis toujours l’homme des Lannister au Conseil.",
+        "Pycelle raconte à Eddard la mort de Jon Arryn et lui prête le livre des lignées. Plus tard, une fois seul avec une prostituée, il retrouve une démarche alerte et un esprit vif : sa sénilité est un masque."
+      ]
+    },
+    {
+      "s": 2,
+      "title": "Saison 2 — Le piège de Tyrion",
+      "paragraphs": [
+        "Tyrion donne à chaque membre du Conseil une version différente de ses projets pour Myrcella. Pycelle rapporte la sienne à Cersei ; Tyrion le fait jeter en prison et raser sa barbe."
+      ]
+    },
+    {
+      "s": 3,
+      "title": "Saison 3 — Le conseil de Tywin",
+      "paragraphs": [
+        "Libéré, Pycelle se fait discret et flatte Tywin, revenu au pouvoir."
+      ]
+    },
+    {
+      "s": 4,
+      "title": "Saison 4 — Le poison",
+      "paragraphs": [
+        "Après la mort de Joffrey, Pycelle identifie le poison et témoigne au procès de Tyrion."
+      ]
+    },
+    {
+      "s": 5,
+      "title": "Saison 5 — Le rival",
+      "paragraphs": [
+        "Il assiste, impuissant, à l’ascension de Qyburn, que Cersei fait entrer au Conseil."
+      ]
+    },
+    {
+      "s": 6,
+      "title": "Saison 6 — Les petits oiseaux",
+      "paragraphs": [
+        "Le jour du procès de Cersei, des enfants attirent Pycelle dans les appartements de Qyburn, où ils le poignardent."
+      ]
+    }
   ],
   "keyMoments": [
-    { "s": 1, "title": "Le masque", "text": "Sa sénilité est une comédie.", "place": "port-real" },
-    { "s": 6, "title": "Les dagues", "text": "Les enfants de Qyburn le tuent.", "place": "port-real" }
+    {
+      "s": 1,
+      "title": "Le masque",
+      "text": "Sa sénilité est une comédie.",
+      "place": "port-real"
+    },
+    {
+      "s": 6,
+      "title": "Les dagues",
+      "text": "Les enfants de Qyburn le tuent.",
+      "place": "port-real"
+    }
   ],
   "relations": [
-    { "to": "tywin-lannister", "type": "allie", "label": "Le seigneur qu’il sert en secret", "s": 1 },
-    { "to": "tyrion-lannister", "type": "ennemi", "label": "Celui qui l’a fait emprisonner", "s": 2 },
-    { "to": "qyburn", "type": "ennemi", "label": "Son rival et son assassin", "s": 5 }
+    {
+      "to": "tywin-lannister",
+      "type": "allie",
+      "label": "Le seigneur qu’il sert en secret",
+      "s": 1
+    },
+    {
+      "to": "tyrion-lannister",
+      "type": "ennemi",
+      "label": "Celui qui l’a fait emprisonner",
+      "s": 2
+    },
+    {
+      "to": "qyburn",
+      "type": "ennemi",
+      "label": "Son rival et son assassin",
+      "s": 5
+    }
   ],
-  "places": [{ "place": "port-real", "seasons": [1, 2, 3, 4, 5, 6] }],
-  "codex": ["mestres"],
+  "places": [
+    {
+      "place": "port-real",
+      "seasons": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    }
+  ],
+  "codex": [
+    "mestres"
+  ],
   "portrait": null,
-  "sources": [{ "label": "Wiki of Westeros — Pycelle", "url": "https://gameofthrones.fandom.com/wiki/Pycelle" }]
+  "sources": [
+    {
+      "label": "Wiki of Westeros — Pycelle",
+      "url": "https://gameofthrones.fandom.com/wiki/Pycelle"
+    }
+  ]
 }

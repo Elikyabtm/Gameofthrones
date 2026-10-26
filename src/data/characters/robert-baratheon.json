@@ -3,18 +3,40 @@
   "name": "Robert Baratheon",
   "short": "Robert",
   "principal": true,
-  "aliases": [{ "text": "l’Usurpateur" }],
+  "aliases": [
+    {
+      "text": "l’Usurpateur"
+    }
+  ],
   "house": "baratheon",
   "region": "Les Terres de l’Orage",
   "camp": "westeros",
-  "allegiances": [{ "to": "baratheon" }],
+  "allegiances": [
+    {
+      "to": "baratheon"
+    }
+  ],
   "origin": "accalmie",
-  "titles": [{ "text": "Roi des Andals et des Premiers Hommes" }, { "text": "Protecteur du royaume" }],
+  "titles": [
+    {
+      "text": "Roi des Andals et des Premiers Hommes"
+    },
+    {
+      "text": "Protecteur du royaume"
+    }
+  ],
   "actor": "Mark Addy",
   "firstSeason": 1,
   "status": [
-    { "s": 1, "value": "vivant" },
-    { "s": 1, "value": "mort", "note": "Éventré par un sanglier à la chasse, ivre, avec la complicité de son écuyer" }
+    {
+      "s": 1,
+      "value": "vivant"
+    },
+    {
+      "s": 1,
+      "value": "mort",
+      "note": "Éventré par un sanglier à la chasse, ivre, avec la complicité de son écuyer"
+    }
   ],
   "summary": "Vainqueur de la Rébellion qui a renversé les Targaryen, Robert règne depuis dix-sept ans sur les Sept Couronnes. Grand guerrier devenu roi sans goût pour le pouvoir, il boit, chasse et regrette sa jeunesse.",
   "bio": [
@@ -24,33 +46,131 @@
       "paragraphs": [
         "Robert arrive à Winterfell avec toute sa cour, ventru et bruyant, pour retrouver Eddard Stark, son ami de jeunesse. Il descend d’abord dans les cryptes, devant la tombe de Lyanna, la femme qu’il aimait et qu’il n’a jamais épousée. Puis il demande à Eddard de devenir sa Main, et propose d’unir leurs familles en fiançant Sansa à son fils Joffrey.",
         "À Port-Réal, Robert laisse le gouvernement à son Conseil et les dettes s’accumulent. Il se montre plus vivant quand il raconte ses batailles, comme celle du Trident où il a tué le prince Rhaegar d’un coup de masse, que quand il siège sur le trône. Il méprise sa femme Cersei, qui le lui rend bien, et ne voit pas ce qui se trame sous ses yeux. Quand il apprend que Daenerys Targaryen attend un enfant, il ordonne de la faire assassiner, ce qui le brouille avec Eddard.",
-        "Lors d’une chasse, ivre de vin fort que lui sert son écuyer Lancel sur ordre de la reine, il est éventré par un sanglier. Sur son lit de mort, il dicte son testament à Eddard, qui y glisse « l’héritier légitime » au lieu du nom de Joffrey."
+        "Lors d’une chasse, ivre de vin fort que lui sert son écuyer Lancel sur ordre de la reine, il est éventré par un sanglier. Sur son lit de mort, il dicte son testament à Eddard, qui y glisse « l’héritier légitime » au lieu du nom de Joffrey.",
+        "Dix-sept ans plus tôt, Robert était le plus redoutable guerrier du royaume. Seigneur d’Accalmie, élevé avec Eddard Stark aux Eyrié sous la tutelle de Jon Arryn, il était fiancé à Lyanna Stark quand le prince Rhaegar disparut avec elle. Il prit les armes, mena la Rébellion et fut couronné après la chute de Port-Réal. Il n’a jamais cessé de croire que Rhaegar avait enlevé et violé Lyanna, et sa haine des Targaryen est restée intacte.",
+        "Roi, il s’est vite ennuyé. La paix ne lui convient pas : il chasse, boit, fréquente les bordels et laisse le soin de gouverner à Jon Arryn, puis au petit conseil. Il a épousé Cersei Lannister pour sceller l’alliance avec Tywin, sans jamais l’aimer ; il a eu de nombreux enfants naturels, dont Gendry, qu’il ne connaît pas. La couronne doit des millions aux Lannister et à la Banque de Fer, et Robert ne s’en soucie guère : « compter les pièces » est le travail des autres.",
+        "Sous l’ivrogne subsiste un homme lucide sur lui-même. Il confie à Cersei, dans une rare conversation sincère, que son mariage n’a jamais eu la moindre chance, et à Eddard qu’il n’a jamais voulu être roi. Il aime son ami Ned comme un frère et se fâche avec lui comme un frère. Sa mort laisse le royaume entre les mains d’un enfant qui n’est pas le sien.",
+        "Robert reste, pour ceux qui l’ont connu jeune, l’homme qui a renversé une dynastie. Pour les autres, il est surtout le roi qui a laissé le royaume s’endetter pendant qu’il chassait. Ces deux images sont vraies, et c’est sans doute ce qui le rend si triste quand il se regarde.",
+        "Ses relations avec les autres le peignent mieux que ses discours. Il méprise Cersei et le lui fait sentir, ignore Joffrey, à qui il ne trouve aucune ressemblance avec lui, et s’attendrit sur ses bâtards sans jamais s’en occuper. Avec Eddard, il redevient le jeune homme qu’il était : il rit, se bat, se dispute, pardonne. Il cherche dans cette amitié une loyauté qu’il ne trouve nulle part ailleurs à la cour.",
+        "Sa mort ouvre la guerre des Cinq Rois. Son frère Stannis, son frère Renly, Robb Stark, Balon Greyjoy et Joffrey se disputent sa couronne. Aucun d’eux ne la portera longtemps.",
+        "Sur son lit de mort, il demande pardon à Eddard d’avoir voulu tuer Daenerys, et ordonne d’épargner la jeune fille. L’ordre arrive trop tard."
       ]
     }
   ],
   "keyMoments": [
-    { "s": 1, "title": "La tombe de Lyanna", "text": "Il se recueille dans les cryptes de Winterfell devant celle qu’il aimait.", "place": "winterfell" },
-    { "s": 1, "title": "L’ordre d’assassinat", "text": "Il veut faire tuer Daenerys et son enfant à naître.", "place": "port-real" },
-    { "s": 1, "title": "Le sanglier", "text": "Il est mortellement blessé lors d’une chasse.", "place": "port-real" }
+    {
+      "s": 1,
+      "title": "La tombe de Lyanna",
+      "text": "Il se recueille dans les cryptes de Winterfell devant celle qu’il aimait.",
+      "place": "winterfell"
+    },
+    {
+      "s": 1,
+      "title": "L’ordre d’assassinat",
+      "text": "Il veut faire tuer Daenerys et son enfant à naître.",
+      "place": "port-real"
+    },
+    {
+      "s": 1,
+      "title": "Le sanglier",
+      "text": "Il est mortellement blessé lors d’une chasse.",
+      "place": "port-real"
+    }
   ],
   "relations": [
-    { "to": "stannis-baratheon", "type": "fratrie", "label": "Son frère cadet", "s": 1 },
-    { "to": "renly-baratheon", "type": "fratrie", "label": "Son plus jeune frère", "s": 1 },
-    { "to": "joffrey-baratheon", "type": "enfant", "label": "Son fils et héritier, selon la loi", "inverseLabel": "Son père selon la loi", "s": 1 },
-    { "to": "myrcella-baratheon", "type": "enfant", "label": "Sa fille, selon la loi", "inverseLabel": "Son père selon la loi", "s": 1 },
-    { "to": "tommen-baratheon", "type": "enfant", "label": "Son fils cadet, selon la loi", "inverseLabel": "Son père selon la loi", "s": 1 },
-    { "to": "gendry", "type": "enfant", "label": "Son fils naturel", "inverseLabel": "Son père, qu’il n’a jamais connu", "s": 1 },
-    { "to": "lancel-lannister", "type": "serviteur", "label": "Son écuyer", "inverseLabel": "Le roi qu’il sert", "s": 1 },
-    { "to": "barristan-selmy", "type": "serviteur", "label": "Son Lord Commandant", "inverseLabel": "Le roi qu’il sert", "s": 1 },
-    { "to": "rhaegar-targaryen", "type": "ennemi", "label": "Le prince qu’il a tué au Trident", "inverseLabel": "L’homme qui l’a tué", "s": 1 },
-    { "to": "daenerys-targaryen", "type": "ennemi", "label": "L’héritière qu’il a voulu faire tuer", "s": 1 },
-    { "to": "aerys-targaryen", "type": "ennemi", "label": "Le roi qu’il a renversé", "s": 1 }
+    {
+      "to": "stannis-baratheon",
+      "type": "fratrie",
+      "label": "Son frère cadet",
+      "s": 1
+    },
+    {
+      "to": "renly-baratheon",
+      "type": "fratrie",
+      "label": "Son plus jeune frère",
+      "s": 1
+    },
+    {
+      "to": "joffrey-baratheon",
+      "type": "enfant",
+      "label": "Son fils et héritier, selon la loi",
+      "inverseLabel": "Son père selon la loi",
+      "s": 1
+    },
+    {
+      "to": "myrcella-baratheon",
+      "type": "enfant",
+      "label": "Sa fille, selon la loi",
+      "inverseLabel": "Son père selon la loi",
+      "s": 1
+    },
+    {
+      "to": "tommen-baratheon",
+      "type": "enfant",
+      "label": "Son fils cadet, selon la loi",
+      "inverseLabel": "Son père selon la loi",
+      "s": 1
+    },
+    {
+      "to": "gendry",
+      "type": "enfant",
+      "label": "Son fils naturel",
+      "inverseLabel": "Son père, qu’il n’a jamais connu",
+      "s": 1
+    },
+    {
+      "to": "lancel-lannister",
+      "type": "serviteur",
+      "label": "Son écuyer",
+      "inverseLabel": "Le roi qu’il sert",
+      "s": 1
+    },
+    {
+      "to": "barristan-selmy",
+      "type": "serviteur",
+      "label": "Son Lord Commandant",
+      "inverseLabel": "Le roi qu’il sert",
+      "s": 1
+    },
+    {
+      "to": "rhaegar-targaryen",
+      "type": "ennemi",
+      "label": "Le prince qu’il a tué au Trident",
+      "inverseLabel": "L’homme qui l’a tué",
+      "s": 1
+    },
+    {
+      "to": "daenerys-targaryen",
+      "type": "ennemi",
+      "label": "L’héritière qu’il a voulu faire tuer",
+      "s": 1
+    },
+    {
+      "to": "aerys-targaryen",
+      "type": "ennemi",
+      "label": "Le roi qu’il a renversé",
+      "s": 1
+    }
   ],
   "places": [
-    { "place": "winterfell", "seasons": [1] },
-    { "place": "port-real", "seasons": [1] }
+    {
+      "place": "winterfell",
+      "seasons": [
+        1
+      ]
+    },
+    {
+      "place": "port-real",
+      "seasons": [
+        1
+      ]
+    }
   ],
-  "codex": ["foi-des-sept", "garde-royale", "rebellion"],
+  "codex": [
+    "foi-des-sept",
+    "garde-royale",
+    "rebellion"
+  ],
   "booksVsShow": {
     "s": 1,
     "paragraphs": [
@@ -59,7 +179,13 @@
   },
   "portrait": "images/personnages/robert-baratheon.webp",
   "sources": [
-    { "label": "Wiki of Westeros — Robert Baratheon", "url": "https://gameofthrones.fandom.com/wiki/Robert_Baratheon" },
-    { "label": "A Wiki of Ice and Fire — Robert I Baratheon", "url": "https://awoiaf.westeros.org/index.php/Robert_I_Baratheon" }
+    {
+      "label": "Wiki of Westeros — Robert Baratheon",
+      "url": "https://gameofthrones.fandom.com/wiki/Robert_Baratheon"
+    },
+    {
+      "label": "A Wiki of Ice and Fire — Robert I Baratheon",
+      "url": "https://awoiaf.westeros.org/index.php/Robert_I_Baratheon"
+    }
   ]
 }

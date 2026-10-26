@@ -2,39 +2,116 @@
   "slug": "brynden-tully",
   "name": "Brynden Tully",
   "short": "le Silure",
-  "aliases": [{ "text": "le Silure" }],
+  "aliases": [
+    {
+      "text": "le Silure"
+    }
+  ],
   "house": "tully",
   "region": "Le Conflans",
   "camp": "westeros",
-  "allegiances": [{ "to": "tully" }],
+  "allegiances": [
+    {
+      "to": "tully"
+    }
+  ],
   "origin": "vivesaigues",
   "titles": [],
   "actor": "Clive Russell",
   "firstSeason": 3,
   "status": [
-    { "s": 3, "value": "vivant" },
-    { "s": 6, "value": "mort", "note": "Tué en combattant lors de la prise de Vivesaigues" }
+    {
+      "s": 3,
+      "value": "vivant"
+    },
+    {
+      "s": 6,
+      "value": "mort",
+      "note": "Tué en combattant lors de la prise de Vivesaigues"
+    }
   ],
   "summary": "Frère cadet de Hoster Tully, Brynden, dit le Silure, est un vieux soldat bourru et respecté. Il n’a jamais voulu se marier, et ne s’est jamais incliné devant personne.",
   "bio": [
-    { "s": 3, "title": "Saison 3 — Le vieux soldat", "paragraphs": ["Brynden conseille Robb sur la guerre et ne ménage pas Edmure, dont il méprise l’impulsivité. Il allume d’une flèche le bûcher de son frère après les ratés de son neveu. Aux Jumeaux, il sort du château pour se soulager au moment où le massacre commence, et parvient à s’enfuir."] },
-    { "s": 6, "title": "Saison 6 — Vivesaigues", "paragraphs": ["Le Silure a repris Vivesaigues aux Frey et refuse toute reddition, même à Brienne, venue de la part de Sansa. Quand Edmure fait ouvrir les portes, Brynden refuse de fuir. Il meurt l’épée à la main, hors champ."] }
+    {
+      "s": 3,
+      "title": "Saison 3 — Le vieux soldat",
+      "paragraphs": [
+        "Brynden, surnommé le Silure, est le frère cadet de Lord Hoster Tully. Il a refusé tous les mariages qu’on lui proposait, ce qui l’a brouillé avec son frère pendant des années, et a fait carrière comme soldat. Il est l’un des meilleurs commandants du royaume, franc, ironique et d’une loyauté sans faille envers sa famille. Il prend au sérieux la devise des Tully : la famille d’abord.",
+        "Au service de Robb, il commande les éclaireurs et rapporte les mouvements de l’ennemi.",
+        "Brynden conseille Robb sur la guerre et ne ménage pas Edmure, dont il méprise l’impulsivité. Il allume d’une flèche le bûcher de son frère après les ratés de son neveu. Aux Jumeaux, il sort du château pour se soulager au moment où le massacre commence, et parvient à s’enfuir."
+      ]
+    },
+    {
+      "s": 6,
+      "title": "Saison 6 — Vivesaigues",
+      "paragraphs": [
+        "Le Silure a repris Vivesaigues aux Frey et refuse toute reddition, même à Brienne, venue de la part de Sansa. Quand Edmure fait ouvrir les portes, Brynden refuse de fuir. Il meurt l’épée à la main, hors champ."
+      ]
+    }
   ],
   "keyMoments": [
-    { "s": 3, "title": "La flèche", "text": "Il allume le bûcher de son frère.", "place": "vivesaigues" },
-    { "s": 6, "title": "Le dernier combat", "text": "Il meurt en défendant Vivesaigues.", "place": "vivesaigues" }
+    {
+      "s": 3,
+      "title": "La flèche",
+      "text": "Il allume le bûcher de son frère.",
+      "place": "vivesaigues"
+    },
+    {
+      "s": 6,
+      "title": "Le dernier combat",
+      "text": "Il meurt en défendant Vivesaigues.",
+      "place": "vivesaigues"
+    }
   ],
   "relations": [
-    { "to": "edmure-tully", "type": "autre", "label": "Son neveu, qu’il juge sévèrement", "inverseLabel": "Son oncle", "s": 3 },
-    { "to": "lysa-arryn", "type": "autre", "label": "Sa nièce", "inverseLabel": "Son oncle", "s": 3 },
-    { "to": "walder-frey", "type": "ennemi", "label": "L’homme dont il a repris le château", "s": 6 },
-    { "to": "brienne-de-torth", "type": "autre", "label": "L’émissaire de Sansa", "s": 6 }
+    {
+      "to": "edmure-tully",
+      "type": "autre",
+      "label": "Son neveu, qu’il juge sévèrement",
+      "inverseLabel": "Son oncle",
+      "s": 3
+    },
+    {
+      "to": "lysa-arryn",
+      "type": "autre",
+      "label": "Sa nièce",
+      "inverseLabel": "Son oncle",
+      "s": 3
+    },
+    {
+      "to": "walder-frey",
+      "type": "ennemi",
+      "label": "L’homme dont il a repris le château",
+      "s": 6
+    },
+    {
+      "to": "brienne-de-torth",
+      "type": "autre",
+      "label": "L’émissaire de Sansa",
+      "s": 6
+    }
   ],
   "places": [
-    { "place": "vivesaigues", "seasons": [3, 6] },
-    { "place": "les-jumeaux", "seasons": [3] }
+    {
+      "place": "vivesaigues",
+      "seasons": [
+        3,
+        6
+      ]
+    },
+    {
+      "place": "les-jumeaux",
+      "seasons": [
+        3
+      ]
+    }
   ],
   "codex": [],
   "portrait": null,
-  "sources": [{ "label": "Wiki of Westeros — Brynden Tully", "url": "https://gameofthrones.fandom.com/wiki/Brynden_Tully" }]
+  "sources": [
+    {
+      "label": "Wiki of Westeros — Brynden Tully",
+      "url": "https://gameofthrones.fandom.com/wiki/Brynden_Tully"
+    }
+  ]
 }

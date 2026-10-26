@@ -3,18 +3,37 @@
   "name": "Khal Drogo",
   "short": "Drogo",
   "principal": true,
-  "aliases": [{ "text": "Drogo" }, { "text": "le soleil étoilé", "s": 1 }],
+  "aliases": [
+    {
+      "text": "Drogo"
+    },
+    {
+      "text": "le soleil étoilé",
+      "s": 1
+    }
+  ],
   "house": null,
   "region": "La mer Dothrak",
   "camp": "essos",
   "allegiances": [],
   "origin": "mer-dothrak",
-  "titles": [{ "text": "Khal" }],
+  "titles": [
+    {
+      "text": "Khal"
+    }
+  ],
   "actor": "Jason Momoa",
   "firstSeason": 1,
   "status": [
-    { "s": 1, "value": "vivant" },
-    { "s": 1, "value": "mort", "note": "Étouffé par Daenerys après la trahison de Mirri Maz Duur" }
+    {
+      "s": 1,
+      "value": "vivant"
+    },
+    {
+      "s": 1,
+      "value": "mort",
+      "note": "Étouffé par Daenerys après la trahison de Mirri Maz Duur"
+    }
   ],
   "summary": "Chef d’un des plus grands khalasars de la mer Dothrak, Drogo n’a jamais perdu un combat. Il épouse Daenerys Targaryen, sans savoir encore ce que cette union changera.",
   "bio": [
@@ -25,37 +44,112 @@
         "Drogo arrive à Pentos avec la réputation d’un guerrier invaincu : sa longue tresse, jamais coupée, en est la preuve, car chez les Dothraki on ne coupe ses cheveux qu’après une défaite. Il accepte d’épouser Daenerys, la sœur de Viserys Targaryen, et promet en échange une armée. Le mariage est célébré en plein air, au bord de la mer, dans un tumulte de danses, de combats et de morts, comme il sied à une noce dothrak. Il ne parle pas la langue de sa femme, et leurs premières nuits sont celles d’un conquérant.",
         "Dans la mer Dothrak, la relation change. Daenerys apprend sa langue, prend l’initiative, le regarde en face ; Drogo s’étonne, puis s’attache à elle. Il l’appelle « lune de ma vie », elle le nomme « mon soleil étoilé ». Quand elle tombe enceinte, la prophétie annonce que leur fils sera l’Étalon qui montera le monde. À Vaes Dothrak, Viserys menace la khaleesi et l’enfant à naître : Drogo lui offre la couronne d’or qu’il réclame en lui versant du métal fondu sur la tête.",
         "Drogo ne s’intéresse guère aux trônes de l’autre côté de la mer, que les Dothraki appellent « l’eau empoisonnée ». Tout change quand un marchand de vin, envoyé par le roi Robert, tente d’empoisonner Daenerys. Furieux, Drogo jure devant son peuple de traverser la mer, de ramener la chaise de fer et de brûler les maisons de pierre des hommes qui ont voulu tuer sa femme. Pour financer ce voyage, son khalasar attaque les villages du peuple agneau, les Lhazaréens.",
-        "Pendant ces razzias, un guerrier conteste son autorité et l’entaille à la poitrine. Drogo le tue à mains nues en lui arrachant la langue, mais la blessure s’infecte. Daenerys demande à Mirri Maz Duur, une prêtresse lhazaréenne qu’elle a sauvée du viol, de le soigner. La plaie empire ; Drogo tombe de cheval, et dans la tradition dothrak, un khal qui ne peut plus monter n’est plus un khal. Le khalasar se disperse. Mirri pratique un rituel de sang qui ramène Drogo à la vie, mais vide de toute conscience : un corps qui respire et ne voit plus rien. Daenerys l’étouffe avec un coussin, puis le place sur son bûcher funéraire, d’où elle sortira avec trois dragons."
+        "Pendant ces razzias, un guerrier conteste son autorité et l’entaille à la poitrine. Drogo le tue à mains nues en lui arrachant la langue, mais la blessure s’infecte. Daenerys demande à Mirri Maz Duur, une prêtresse lhazaréenne qu’elle a sauvée du viol, de le soigner. La plaie empire ; Drogo tombe de cheval, et dans la tradition dothrak, un khal qui ne peut plus monter n’est plus un khal. Le khalasar se disperse. Mirri pratique un rituel de sang qui ramène Drogo à la vie, mais vide de toute conscience : un corps qui respire et ne voit plus rien. Daenerys l’étouffe avec un coussin, puis le place sur son bûcher funéraire, d’où elle sortira avec trois dragons.",
+        "Drogo est le khal le plus puissant de la mer Dothrak : son khalasar compte quarante mille cavaliers. Il ne parle pas la langue commune et n’en voit pas l’utilité. Pour lui, le monde se divise entre ceux qui montent à cheval et ceux qui méritent d’être pillés. Il est silencieux, impassible et redoutablement efficace au combat. Son mariage avec Daenerys est d’abord une transaction : Viserys échange sa sœur contre la promesse d’une armée.",
+        "Quand Viserys le menace sous sa tente de Vaes Dothrak, Drogo lui offre la couronne d’or qu’il réclame : de l’or fondu, versé sur sa tête. Daenerys assiste à la scène sans un geste. C’est le seul moment où l’on voit Drogo rire.",
+        "Drogo est l’homme qui révèle Daenerys à elle-même. En quelques mois, la jeune fille vendue devient une khaleesi que les guerriers respectent, puis une reine qui ne pliera plus devant personne. Elle continuera longtemps à l’évoquer, et à se mesurer à lui.",
+        "Drogo meurt sans avoir jamais vu la mer qu’il voulait traverser."
       ]
     },
     {
       "s": 2,
       "title": "Saison 2 — Une vision",
       "paragraphs": [
-        "Dans la Maison des Éternels de Qarth, Daenerys traverse une vision où Drogo l’attend sous une tente, avec leur fils dans les bras. Elle choisit de le quitter pour retrouver ses dragons."
+        "Dans la Maison des Éternels de Qarth, Daenerys traverse une vision où Drogo l’attend sous une tente, avec leur fils dans les bras. Elle choisit de le quitter pour retrouver ses dragons.",
+        "Pour Daenerys, il reste le seul homme qu’elle ait aimé sans calcul, et le point de départ de tout ce qu’elle est devenue."
       ]
     }
   ],
   "keyMoments": [
-    { "s": 1, "title": "Les noces", "text": "Il épouse Daenerys au bord de la mer, près de Pentos.", "place": "pentos" },
-    { "s": 1, "title": "La couronne d’or", "text": "Il verse de l’or fondu sur la tête de Viserys.", "place": "vaes-dothrak" },
-    { "s": 1, "title": "Le serment", "text": "Il jure de traverser la mer pour donner le Trône de Fer à son fils.", "place": "vaes-dothrak" },
-    { "s": 1, "title": "La blessure", "text": "Une entaille infectée fait tomber le khal de son cheval.", "place": "lhazar" },
-    { "s": 1, "title": "Le bûcher", "text": "Son corps brûle, et trois dragons naissent des flammes.", "place": "mer-dothrak" }
+    {
+      "s": 1,
+      "title": "Les noces",
+      "text": "Il épouse Daenerys au bord de la mer, près de Pentos.",
+      "place": "pentos"
+    },
+    {
+      "s": 1,
+      "title": "La couronne d’or",
+      "text": "Il verse de l’or fondu sur la tête de Viserys.",
+      "place": "vaes-dothrak"
+    },
+    {
+      "s": 1,
+      "title": "Le serment",
+      "text": "Il jure de traverser la mer pour donner le Trône de Fer à son fils.",
+      "place": "vaes-dothrak"
+    },
+    {
+      "s": 1,
+      "title": "La blessure",
+      "text": "Une entaille infectée fait tomber le khal de son cheval.",
+      "place": "lhazar"
+    },
+    {
+      "s": 1,
+      "title": "Le bûcher",
+      "text": "Son corps brûle, et trois dragons naissent des flammes.",
+      "place": "mer-dothrak"
+    }
   ],
   "relations": [
-    { "to": "rakharo", "type": "serviteur", "label": "Un de ses sang-coureurs", "inverseLabel": "Son khal", "s": 1 },
-    { "to": "mirri-maz-duur", "type": "ennemi", "label": "La prêtresse qui l’a trahi", "s": 1 },
-    { "to": "jorah-mormont", "type": "autre", "label": "Le chevalier exilé de son khalasar", "s": 1 }
+    {
+      "to": "rakharo",
+      "type": "serviteur",
+      "label": "Un de ses sang-coureurs",
+      "inverseLabel": "Son khal",
+      "s": 1
+    },
+    {
+      "to": "mirri-maz-duur",
+      "type": "ennemi",
+      "label": "La prêtresse qui l’a trahi",
+      "s": 1
+    },
+    {
+      "to": "jorah-mormont",
+      "type": "autre",
+      "label": "Le chevalier exilé de son khalasar",
+      "s": 1
+    }
   ],
   "places": [
-    { "place": "pentos", "seasons": [1] },
-    { "place": "mer-dothrak", "seasons": [1] },
-    { "place": "vaes-dothrak", "seasons": [1] },
-    { "place": "lhazar", "seasons": [1] },
-    { "place": "qarth", "seasons": [2] }
+    {
+      "place": "pentos",
+      "seasons": [
+        1
+      ]
+    },
+    {
+      "place": "mer-dothrak",
+      "seasons": [
+        1
+      ]
+    },
+    {
+      "place": "vaes-dothrak",
+      "seasons": [
+        1
+      ]
+    },
+    {
+      "place": "lhazar",
+      "seasons": [
+        1
+      ]
+    },
+    {
+      "place": "qarth",
+      "seasons": [
+        2
+      ]
+    }
   ],
-  "codex": ["dothrakis", "grand-etalon", "langue-dothrakie"],
+  "codex": [
+    "dothrakis",
+    "grand-etalon",
+    "langue-dothrakie"
+  ],
   "booksVsShow": {
     "s": 1,
     "paragraphs": [
@@ -63,5 +157,10 @@
     ]
   },
   "portrait": null,
-  "sources": [{ "label": "Wiki of Westeros — Drogo", "url": "https://gameofthrones.fandom.com/wiki/Drogo" }]
+  "sources": [
+    {
+      "label": "Wiki of Westeros — Drogo",
+      "url": "https://gameofthrones.fandom.com/wiki/Drogo"
+    }
+  ]
 }

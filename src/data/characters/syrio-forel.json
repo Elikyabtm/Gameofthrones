@@ -8,27 +8,80 @@
   "camp": "essos",
   "allegiances": [],
   "origin": "braavos",
-  "titles": [{ "text": "Ancien premier épée de Braavos" }],
+  "titles": [
+    {
+      "text": "Ancien premier épée de Braavos"
+    }
+  ],
   "actor": "Miltos Yerolemou",
   "firstSeason": 1,
   "status": [
-    { "s": 1, "value": "vivant" },
-    { "s": 1, "value": "inconnu", "note": "Resté seul face aux gardes Lannister ; son sort n’est pas montré" }
+    {
+      "s": 1,
+      "value": "vivant"
+    },
+    {
+      "s": 1,
+      "value": "inconnu",
+      "note": "Resté seul face aux gardes Lannister ; son sort n’est pas montré"
+    }
   ],
   "summary": "Ancien premier épée du Seigneur de la Mer de Braavos, Syrio Forel est engagé par Eddard Stark pour enseigner l’escrime à Arya. Il enseigne surtout une manière de regarder.",
   "bio": [
-    { "s": 1, "title": "Saison 1 — Le maître à danser", "paragraphs": ["Syrio arrive à Port-Réal pour donner à Arya des « leçons de danse », comme on le dit à la maison. Il lui apprend la danse de l’eau, le style braavien, fait de vitesse et d’équilibre, et surtout l’art de voir ce qui est vraiment là. À la mort, dit-il, il n’y a qu’une chose à répondre : « pas aujourd’hui ». Le jour où les gardes Lannister viennent arrêter Arya, Syrio les affronte avec une épée de bois pour lui laisser le temps de fuir. Il reste seul face à Meryn Trant, de la Garde Royale, et on ne le revoit plus."] }
+    {
+      "s": 1,
+      "title": "Saison 1 — Le maître à danser",
+      "paragraphs": [
+        "Syrio est l’ancien premier épée du Seigneur de la Mer de Braavos, un maître d’armes réputé que l’on a fait venir à Port-Réal. Il voit en Arya, petite et vive, l’élève idéale pour son art.",
+        "Syrio arrive à Port-Réal pour donner à Arya des « leçons de danse », comme on le dit à la maison. Il lui apprend la danse de l’eau, le style braavien, fait de vitesse et d’équilibre, et surtout l’art de voir ce qui est vraiment là. À la mort, dit-il, il n’y a qu’une chose à répondre : « pas aujourd’hui ». Le jour où les gardes Lannister viennent arrêter Arya, Syrio les affronte avec une épée de bois pour lui laisser le temps de fuir. Il reste seul face à Meryn Trant, de la Garde Royale, et on ne le revoit plus.",
+        "Son enseignement suit Arya tout au long de son voyage : elle répète ses leçons, ses formules et ses exercices, et s’en sert jusqu’à Braavos, la ville de son maître."
+      ]
+    }
   ],
   "keyMoments": [
-    { "s": 1, "title": "La danse de l’eau", "text": "Il enseigne à Arya à voir et à se battre.", "place": "port-real" },
-    { "s": 1, "title": "L’épée de bois", "text": "Il retient les gardes Lannister pour qu’Arya s’échappe.", "place": "port-real" }
+    {
+      "s": 1,
+      "title": "La danse de l’eau",
+      "text": "Il enseigne à Arya à voir et à se battre.",
+      "place": "port-real"
+    },
+    {
+      "s": 1,
+      "title": "L’épée de bois",
+      "text": "Il retient les gardes Lannister pour qu’Arya s’échappe.",
+      "place": "port-real"
+    }
   ],
   "relations": [
-    { "to": "eddard-stark", "type": "autre", "label": "Le seigneur qui l’a engagé", "s": 1 },
-    { "to": "cersei-lannister", "type": "ennemi", "label": "La reine dont les gardes viennent arrêter Arya", "s": 1 }
+    {
+      "to": "eddard-stark",
+      "type": "autre",
+      "label": "Le seigneur qui l’a engagé",
+      "s": 1
+    },
+    {
+      "to": "cersei-lannister",
+      "type": "ennemi",
+      "label": "La reine dont les gardes viennent arrêter Arya",
+      "s": 1
+    }
   ],
-  "places": [{ "place": "port-real", "seasons": [1] }],
-  "codex": ["braaviens"],
+  "places": [
+    {
+      "place": "port-real",
+      "seasons": [
+        1
+      ]
+    }
+  ],
+  "codex": [
+    "braaviens"
+  ],
   "portrait": null,
-  "sources": [{ "label": "Wiki of Westeros — Syrio Forel", "url": "https://gameofthrones.fandom.com/wiki/Syrio_Forel" }]
+  "sources": [
+    {
+      "label": "Wiki of Westeros — Syrio Forel",
+      "url": "https://gameofthrones.fandom.com/wiki/Syrio_Forel"
+    }
+  ]
 }

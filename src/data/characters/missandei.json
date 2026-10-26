@@ -3,42 +3,72 @@
   "name": "Missandei",
   "short": "Missandei",
   "principal": true,
-  "aliases": [{ "text": "Missandei de Naath" }],
+  "aliases": [
+    {
+      "text": "Missandei de Naath"
+    }
+  ],
   "house": null,
   "region": "La baie des Serfs",
   "camp": "essos",
-  "allegiances": [{ "to": "targaryen", "s": 3 }],
+  "allegiances": [
+    {
+      "to": "targaryen",
+      "s": 3
+    }
+  ],
   "origin": "naath",
-  "titles": [{ "text": "Interprète" }, { "text": "Conseillère de la reine", "s": 4 }],
+  "titles": [
+    {
+      "text": "Interprète"
+    },
+    {
+      "text": "Conseillère de la reine",
+      "s": 4
+    }
+  ],
   "actor": "Nathalie Emmanuel",
   "firstSeason": 3,
   "status": [
-    { "s": 3, "value": "vivant" },
-    { "s": 8, "value": "mort", "note": "Exécutée sur ordre de Cersei, sur les remparts de Port-Réal" }
+    {
+      "s": 3,
+      "value": "vivant"
+    },
+    {
+      "s": 8,
+      "value": "mort",
+      "note": "Exécutée sur ordre de Cersei, sur les remparts de Port-Réal"
+    }
   ],
   "summary": "Enlevée enfant sur l’île de Naath, Missandei a été vendue comme esclave et formée aux langues. Au début de son histoire, elle sert d’interprète à un marchand d’esclaves d’Astapor.",
-  "quote": { "text": "Dracarys.", "s": 8 },
+  "quote": {
+    "text": "Dracarys.",
+    "s": 8
+  },
   "bio": [
     {
       "s": 3,
       "title": "Saison 3 — L’interprète",
       "paragraphs": [
         "Missandei parle dix-neuf langues. À Astapor, elle traduit pour Kraznys mo Nakloz, qui insulte Daenerys en haut valyrien sans se douter que la reine le comprend parfaitement. Missandei, elle, le devine, et choisit de traduire fidèlement, avec une prudente neutralité.",
-        "Le jour de l’échange, Daenerys reçoit les Immaculés et, avec eux, l’interprète. Elle donne l’ordre de tuer les maîtres et libère Missandei, qui choisit de rester à son service. Pendant la marche vers Yunkaï, la jeune femme découvre une liberté dont elle ne sait d’abord que faire, et se lie à Ver Gris, le commandant des Immaculés, en lui apprenant la langue commune."
+        "Le jour de l’échange, Daenerys reçoit les Immaculés et, avec eux, l’interprète. Elle donne l’ordre de tuer les maîtres et libère Missandei, qui choisit de rester à son service. Pendant la marche vers Yunkaï, la jeune femme découvre une liberté dont elle ne sait d’abord que faire, et se lie à Ver Gris, le commandant des Immaculés, en lui apprenant la langue commune.",
+        "Missandei est née sur l’île de Naath, au large d’Essos, chez un peuple pacifique qui ne connaît ni la guerre ni les armes. Elle a été enlevée enfant par des marchands d’esclaves et vendue à Astapor, où son intelligence et son don pour les langues lui ont valu de devenir interprète. Elle ne parle jamais de ce qu’elle a vécu avant d’être libérée."
       ]
     },
     {
       "s": 4,
       "title": "Saison 4 — La voix de la reine",
       "paragraphs": [
-        "À Meereen, Missandei devient la voix de Daenerys : c’est elle qui annonce aux esclaves que leur reine vient les libérer et qui proclame ses titres devant chaque visiteur. Entre elle et Ver Gris naît une tendresse maladroite. Elle parle de son île natale, Naath, où l’on ne fait pas la guerre et où les papillons dansent sur la plage."
+        "À Meereen, Missandei devient la voix de Daenerys : c’est elle qui annonce aux esclaves que leur reine vient les libérer et qui proclame ses titres devant chaque visiteur. Entre elle et Ver Gris naît une tendresse maladroite. Elle parle de son île natale, Naath, où l’on ne fait pas la guerre et où les papillons dansent sur la plage.",
+        "Elle apprend à Ver Gris la langue commune, mot après mot, et découvre en lui un homme qui a choisi son nom parce qu’il lui avait porté chance le jour de sa libération."
       ]
     },
     {
       "s": 5,
       "title": "Saison 5 — Les Fils de la Harpie",
       "paragraphs": [
-        "Quand Ver Gris est grièvement blessé par les Fils de la Harpie, Missandei veille à son chevet et lui avoue qu’elle tient à lui. Elle conseille Daenerys, qui la consulte désormais sur les affaires de la ville. Pendant l’attaque de l’arène, elle se retrouve encerclée avec la reine et voit celle-ci s’envoler sur Drogon."
+        "Quand Ver Gris est grièvement blessé par les Fils de la Harpie, Missandei veille à son chevet et lui avoue qu’elle tient à lui. Elle conseille Daenerys, qui la consulte désormais sur les affaires de la ville. Pendant l’attaque de l’arène, elle se retrouve encerclée avec la reine et voit celle-ci s’envoler sur Drogon.",
+        "Elle donne aussi des leçons de langue commune à Ver Gris et aux Immaculés, et devient peu à peu la conseillère la plus proche de la reine, celle à qui Daenerys demande son avis sur les décisions qu’elle prend seule."
       ]
     },
     {
@@ -52,40 +82,129 @@
       "s": 7,
       "title": "Saison 7 — Westeros",
       "paragraphs": [
-        "Arrivée à Peyredragon, Missandei rappelle à Jon Snow que Daenerys n’a pas hérité son titre de reine mais l’a gagné, en libérant les esclaves de la baie. Avant que Ver Gris ne parte attaquer Castral Roc, ils passent enfin une nuit ensemble."
+        "Arrivée à Peyredragon, Missandei rappelle à Jon Snow que Daenerys n’a pas hérité son titre de reine mais l’a gagné, en libérant les esclaves de la baie. Avant que Ver Gris ne parte attaquer Castral Roc, ils passent enfin une nuit ensemble.",
+        "Missandei est aussi la mémoire des esclaves libérés. Elle rappelle à tous ceux qui l’oublient ce que Daenerys a fait pour elle, et ce qu’elle représente pour des milliers de personnes."
       ]
     },
     {
       "s": 8,
       "title": "Saison 8 — La fin",
       "paragraphs": [
-        "À Winterfell, Missandei se sent étrangère parmi des gens qui la dévisagent. Ver Gris lui promet de l’emmener à Naath après la guerre. Après la bataille contre les morts, son navire est attaqué par la flotte d’Euron Greyjoy et elle est faite prisonnière. Enchaînée sur les remparts de Port-Réal, face à Daenerys, elle prononce son dernier mot : « Dracarys ». La Montagne la décapite sur ordre de Cersei."
+        "À Winterfell, Missandei se sent étrangère parmi des gens qui la dévisagent. Ver Gris lui promet de l’emmener à Naath après la guerre. Après la bataille contre les morts, son navire est attaqué par la flotte d’Euron Greyjoy et elle est faite prisonnière. Enchaînée sur les remparts de Port-Réal, face à Daenerys, elle prononce son dernier mot : « Dracarys ». La Montagne la décapite sur ordre de Cersei.",
+        "Sa mort pèse lourd sur la suite. Missandei était la dernière personne à qui Daenerys faisait entièrement confiance, et le lien le plus fort entre la reine et ceux qu’elle avait libérés. Ver Gris, privé d’elle, devient implacable. Après la guerre, il part pour Naath avec les Immaculés survivants, pour protéger l’île qu’elle voulait lui montrer."
       ]
     }
   ],
   "keyMoments": [
-    { "s": 3, "title": "La traduction", "text": "Elle traduit pour un maître qui insulte une reine qu’il croit sourde à sa langue.", "place": "astapor" },
-    { "s": 3, "title": "La liberté", "text": "Daenerys la libère et elle choisit de rester.", "place": "astapor" },
-    { "s": 4, "title": "Naath", "text": "Elle raconte à Ver Gris l’île de son enfance.", "place": "meereen" },
-    { "s": 7, "title": "Une reine choisie", "text": "Elle explique à Jon pourquoi les affranchis suivent Daenerys.", "place": "peyredragon" },
-    { "s": 8, "title": "Le dernier mot", "text": "Elle est exécutée sur les remparts de Port-Réal.", "place": "port-real" }
+    {
+      "s": 3,
+      "title": "La traduction",
+      "text": "Elle traduit pour un maître qui insulte une reine qu’il croit sourde à sa langue.",
+      "place": "astapor"
+    },
+    {
+      "s": 3,
+      "title": "La liberté",
+      "text": "Daenerys la libère et elle choisit de rester.",
+      "place": "astapor"
+    },
+    {
+      "s": 4,
+      "title": "Naath",
+      "text": "Elle raconte à Ver Gris l’île de son enfance.",
+      "place": "meereen"
+    },
+    {
+      "s": 7,
+      "title": "Une reine choisie",
+      "text": "Elle explique à Jon pourquoi les affranchis suivent Daenerys.",
+      "place": "peyredragon"
+    },
+    {
+      "s": 8,
+      "title": "Le dernier mot",
+      "text": "Elle est exécutée sur les remparts de Port-Réal.",
+      "place": "port-real"
+    }
   ],
   "relations": [
-    { "to": "ver-gris", "type": "amour", "label": "L’homme qu’elle aime", "s": 4 },
-    { "to": "kraznys-mo-nakloz", "type": "ennemi", "label": "Son ancien maître", "inverseLabel": "Son esclave interprète", "s": 3 },
-    { "to": "cersei-lannister", "type": "ennemi", "label": "La reine qui l’a fait exécuter", "s": 8 },
-    { "to": "gregor-clegane", "type": "ennemi", "label": "Son bourreau", "s": 8 },
-    { "to": "varys", "type": "allie", "label": "Son collègue au conseil", "s": 6 }
+    {
+      "to": "ver-gris",
+      "type": "amour",
+      "label": "L’homme qu’elle aime",
+      "s": 4
+    },
+    {
+      "to": "kraznys-mo-nakloz",
+      "type": "ennemi",
+      "label": "Son ancien maître",
+      "inverseLabel": "Son esclave interprète",
+      "s": 3
+    },
+    {
+      "to": "cersei-lannister",
+      "type": "ennemi",
+      "label": "La reine qui l’a fait exécuter",
+      "s": 8
+    },
+    {
+      "to": "gregor-clegane",
+      "type": "ennemi",
+      "label": "Son bourreau",
+      "s": 8
+    },
+    {
+      "to": "varys",
+      "type": "allie",
+      "label": "Son collègue au conseil",
+      "s": 6
+    }
   ],
   "places": [
-    { "place": "astapor", "seasons": [3] },
-    { "place": "yunkai", "seasons": [3] },
-    { "place": "meereen", "seasons": [4, 5, 6] },
-    { "place": "peyredragon", "seasons": [7] },
-    { "place": "winterfell", "seasons": [8] },
-    { "place": "port-real", "seasons": [8] }
+    {
+      "place": "astapor",
+      "seasons": [
+        3
+      ]
+    },
+    {
+      "place": "yunkai",
+      "seasons": [
+        3
+      ]
+    },
+    {
+      "place": "meereen",
+      "seasons": [
+        4,
+        5,
+        6
+      ]
+    },
+    {
+      "place": "peyredragon",
+      "seasons": [
+        7
+      ]
+    },
+    {
+      "place": "winterfell",
+      "seasons": [
+        8
+      ]
+    },
+    {
+      "place": "port-real",
+      "seasons": [
+        8
+      ]
+    }
   ],
-  "codex": ["haut-valyrien", "langue-ghiscarie", "immacules"],
+  "codex": [
+    "haut-valyrien",
+    "langue-ghiscarie",
+    "immacules"
+  ],
   "booksVsShow": {
     "s": 3,
     "paragraphs": [
@@ -93,5 +212,10 @@
     ]
   },
   "portrait": null,
-  "sources": [{ "label": "Wiki of Westeros — Missandei", "url": "https://gameofthrones.fandom.com/wiki/Missandei" }]
+  "sources": [
+    {
+      "label": "Wiki of Westeros — Missandei",
+      "url": "https://gameofthrones.fandom.com/wiki/Missandei"
+    }
+  ]
 }

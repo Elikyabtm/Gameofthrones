@@ -6,33 +6,120 @@
   "house": "greyjoy",
   "region": "Les Îles de Fer",
   "camp": "westeros",
-  "allegiances": [{ "to": "greyjoy" }],
+  "allegiances": [
+    {
+      "to": "greyjoy"
+    }
+  ],
   "origin": "pyk",
-  "titles": [{ "text": "Seigneur de Pyk" }, { "text": "Roi des Îles de Fer et du Nord", "s": 2 }],
+  "titles": [
+    {
+      "text": "Seigneur de Pyk"
+    },
+    {
+      "text": "Roi des Îles de Fer et du Nord",
+      "s": 2
+    }
+  ],
   "actor": "Patrick Malahide",
   "firstSeason": 2,
   "status": [
-    { "s": 2, "value": "vivant" },
-    { "s": 6, "value": "mort", "note": "Jeté d’un pont de Pyk par son frère Euron" }
+    {
+      "s": 2,
+      "value": "vivant"
+    },
+    {
+      "s": 6,
+      "value": "mort",
+      "note": "Jeté d’un pont de Pyk par son frère Euron"
+    }
   ],
   "summary": "Seigneur des Îles de Fer, Balon Greyjoy n’a jamais renoncé à l’indépendance de son peuple. Sa première rébellion lui a coûté deux fils et le troisième, livré en otage aux Stark.",
   "bio": [
-    { "s": 2, "title": "Saison 2 — Le roi des Îles", "paragraphs": ["Theon revient à Pyk après neuf ans, avec une offre d’alliance de Robb Stark. Balon accueille ce fils élevé chez l’ennemi avec mépris, refuse toute alliance et se proclame roi. Il envoie Yara et sa flotte piller les côtes du Nord, et donne à Theon un seul navire."] },
-    { "s": 3, "title": "Saison 3 — Le refus", "paragraphs": ["Ramsay Bolton envoie à Pyk un coffret contenant une partie de l’anatomie de Theon, avec une menace. Balon refuse de céder : son fils n’est plus un homme, et la lignée ne passe plus par lui. Yara décide de partir le chercher malgré lui."] },
-    { "s": 6, "title": "Saison 6 — Le pont", "paragraphs": ["Balon traverse un pont suspendu de Pyk sous la tempête. Une silhouette l’attend au milieu : son frère Euron, revenu après des années d’exil. Ils échangent quelques mots, puis Euron le jette par-dessus la rambarde."] }
+    {
+      "s": 2,
+      "title": "Saison 2 — Le roi des Îles",
+      "paragraphs": [
+        "Balon est le seigneur des Îles de Fer, un homme dur, amer, qui n’a jamais pardonné l’échec de sa première révolte, neuf ans plus tôt. Il y a perdu deux fils et dû livrer le troisième aux Stark. Il rêve de rendre aux Fer-nés leur indépendance et leur ancienne voie. Il ne voit en Theon qu’un étranger.",
+        "Theon revient à Pyk après neuf ans, avec une offre d’alliance de Robb Stark. Balon accueille ce fils élevé chez l’ennemi avec mépris, refuse toute alliance et se proclame roi. Il envoie Yara et sa flotte piller les côtes du Nord, et donne à Theon un seul navire."
+      ]
+    },
+    {
+      "s": 3,
+      "title": "Saison 3 — Le refus",
+      "paragraphs": [
+        "Ramsay Bolton envoie à Pyk un coffret contenant une partie de l’anatomie de Theon, avec une menace. Balon refuse de céder : son fils n’est plus un homme, et la lignée ne passe plus par lui. Yara décide de partir le chercher malgré lui."
+      ]
+    },
+    {
+      "s": 6,
+      "title": "Saison 6 — Le pont",
+      "paragraphs": [
+        "Balon traverse un pont suspendu de Pyk sous la tempête. Une silhouette l’attend au milieu : son frère Euron, revenu après des années d’exil. Ils échangent quelques mots, puis Euron le jette par-dessus la rambarde."
+      ]
+    }
   ],
   "keyMoments": [
-    { "s": 2, "title": "Le retour de Theon", "text": "Il méprise le fils revenu de chez les Stark.", "place": "pyk" },
-    { "s": 6, "title": "La tempête", "text": "Euron le jette d’un pont de Pyk.", "place": "pyk" }
+    {
+      "s": 2,
+      "title": "Le retour de Theon",
+      "text": "Il méprise le fils revenu de chez les Stark.",
+      "place": "pyk"
+    },
+    {
+      "s": 6,
+      "title": "La tempête",
+      "text": "Euron le jette d’un pont de Pyk.",
+      "place": "pyk"
+    }
   ],
   "relations": [
-    { "to": "theon-greyjoy", "type": "enfant", "label": "Son dernier fils, qu’il a livré en otage", "inverseLabel": "Son père", "s": 2 },
-    { "to": "yara-greyjoy", "type": "enfant", "label": "Sa fille, qu’il préfère à son fils", "inverseLabel": "Son père", "s": 2 },
-    { "to": "euron-greyjoy", "type": "fratrie", "label": "Son frère, qui l’a tué", "s": 6 },
-    { "to": "robb-stark", "type": "ennemi", "label": "Le roi qui a demandé son alliance", "s": 2 }
+    {
+      "to": "theon-greyjoy",
+      "type": "enfant",
+      "label": "Son dernier fils, qu’il a livré en otage",
+      "inverseLabel": "Son père",
+      "s": 2
+    },
+    {
+      "to": "yara-greyjoy",
+      "type": "enfant",
+      "label": "Sa fille, qu’il préfère à son fils",
+      "inverseLabel": "Son père",
+      "s": 2
+    },
+    {
+      "to": "euron-greyjoy",
+      "type": "fratrie",
+      "label": "Son frère, qui l’a tué",
+      "s": 6
+    },
+    {
+      "to": "robb-stark",
+      "type": "ennemi",
+      "label": "Le roi qui a demandé son alliance",
+      "s": 2
+    }
   ],
-  "places": [{ "place": "pyk", "seasons": [2, 3, 6] }],
-  "codex": ["fer-nes", "dieu-noye"],
+  "places": [
+    {
+      "place": "pyk",
+      "seasons": [
+        2,
+        3,
+        6
+      ]
+    }
+  ],
+  "codex": [
+    "fer-nes",
+    "dieu-noye"
+  ],
   "portrait": "images/personnages/balon-greyjoy.webp",
-  "sources": [{ "label": "Wiki of Westeros — Balon Greyjoy", "url": "https://gameofthrones.fandom.com/wiki/Balon_Greyjoy" }]
+  "sources": [
+    {
+      "label": "Wiki of Westeros — Balon Greyjoy",
+      "url": "https://gameofthrones.fandom.com/wiki/Balon_Greyjoy"
+    }
+  ]
 }

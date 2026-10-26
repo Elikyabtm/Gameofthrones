@@ -7,12 +7,27 @@
   "house": null,
   "region": "La baie des Serfs",
   "camp": "essos",
-  "allegiances": [{ "to": "targaryen", "s": 3 }],
+  "allegiances": [
+    {
+      "to": "targaryen",
+      "s": 3
+    }
+  ],
   "origin": "astapor",
-  "titles": [{ "text": "Commandant des Immaculés", "s": 3 }],
+  "titles": [
+    {
+      "text": "Commandant des Immaculés",
+      "s": 3
+    }
+  ],
   "actor": "Jacob Anderson",
   "firstSeason": 3,
-  "status": [{ "s": 3, "value": "vivant" }],
+  "status": [
+    {
+      "s": 3,
+      "value": "vivant"
+    }
+  ],
   "summary": "Arraché enfant à sa famille et formé dans les casernes d’Astapor, Ver Gris est un Immaculé : un soldat-esclave entraîné à ne rien craindre et à ne rien désirer. Il n’a jamais choisi son propre nom.",
   "bio": [
     {
@@ -20,28 +35,32 @@
       "title": "Saison 3 — L’Immaculé",
       "paragraphs": [
         "Ver Gris fait partie des huit mille Immaculés que Daenerys achète à Astapor. Chaque matin, les soldats tirent leur nom au hasard parmi des noms de vermine, pour ne jamais s’attacher à aucun. Le jour où Daenerys les libère, elle leur laisse le choix de partir ou de la suivre ; tous restent. Elle leur propose de choisir un nom, et il garde « Ver Gris », parce que c’était son nom le jour où elle l’a libéré.",
-        "Élu commandant par ses frères, Ver Gris mène la prise de Yunkaï avec Daario Naharis et Jorah. Missandei lui apprend la langue commune, et il découvre avec elle une curiosité nouvelle pour le monde."
+        "Élu commandant par ses frères, Ver Gris mène la prise de Yunkaï avec Daario Naharis et Jorah. Missandei lui apprend la langue commune, et il découvre avec elle une curiosité nouvelle pour le monde.",
+        "Ver Gris a été enlevé enfant et vendu aux Bons Maîtres d’Astapor. Il ne se souvient presque pas de sa vie d’avant. Castré, dressé pendant des années, il a appris à obéir, à ne pas sentir la douleur et à ne rien vouloir. Il est l’un des meilleurs combattants de son unité, et ses frères le respectent pour son calme. Avec la liberté, il découvre une chose qu’on lui avait retirée : le choix."
       ]
     },
     {
       "s": 4,
       "title": "Saison 4 — Meereen",
       "paragraphs": [
-        "Ver Gris entre dans Meereen par les égouts avec ses hommes et distribue des armes aux esclaves, qui se soulèvent. Il commence à regarder Missandei autrement, et lui dit, gêné, qu’il est désolé de l’avoir vue se baigner. Les Immaculés n’ont pas oublié ce qu’on leur a pris ; lui commence à se demander ce qu’il pourrait encore vouloir."
+        "Ver Gris entre dans Meereen par les égouts avec ses hommes et distribue des armes aux esclaves, qui se soulèvent. Il commence à regarder Missandei autrement, et lui dit, gêné, qu’il est désolé de l’avoir vue se baigner. Les Immaculés n’ont pas oublié ce qu’on leur a pris ; lui commence à se demander ce qu’il pourrait encore vouloir.",
+        "Leurs leçons de langue commune deviennent des conversations, puis des confidences. Entre un soldat à qui l’on a tout pris et une interprète arrachée à son île, quelque chose de rare prend forme : de la tendresse."
       ]
     },
     {
       "s": 5,
       "title": "Saison 5 — L’embuscade",
       "paragraphs": [
-        "Les Fils de la Harpie tuent des Immaculés la nuit dans les rues de la ville. Ver Gris tombe dans une embuscade avec Barristan Selmy ; le vieux chevalier meurt, et lui survit de justesse. À son réveil, il avoue à Missandei qu’il a eu peur de ne plus jamais la revoir."
+        "Les Fils de la Harpie tuent des Immaculés la nuit dans les rues de la ville. Ver Gris tombe dans une embuscade avec Barristan Selmy ; le vieux chevalier meurt, et lui survit de justesse. À son réveil, il avoue à Missandei qu’il a eu peur de ne plus jamais la revoir.",
+        "Ver Gris et Missandei forment le couple le plus improbable de la cour de Daenerys, et le plus sincère."
       ]
     },
     {
       "s": 6,
       "title": "Saison 6 — Le refus des maîtres",
       "paragraphs": [
-        "Ver Gris ne fait pas confiance à Tyrion, qui négocie avec les maîtres esclavagistes. Il le dit sans détour. Quand les maîtres attaquent Meereen, Ver Gris et Daario tiennent la ville. Au moment de la victoire, il exécute deux des maîtres sur ordre de Daenerys."
+        "Ver Gris ne fait pas confiance à Tyrion, qui négocie avec les maîtres esclavagistes. Il le dit sans détour. Quand les maîtres attaquent Meereen, Ver Gris et Daario tiennent la ville. Au moment de la victoire, il exécute deux des maîtres sur ordre de Daenerys.",
+        "Ver Gris est loyal sans servilité. Il obéit à Daenerys parce qu’il l’a choisie, et il ne cache pas ses doutes quand il en a. Les Immaculés sont désormais une armée d’hommes libres, et il leur parle comme à des hommes."
       ]
     },
     {
@@ -55,32 +74,114 @@
       "s": 8,
       "title": "Saison 8 — Naath",
       "paragraphs": [
-        "Ver Gris défend Winterfell pendant la Longue Nuit, puis perd Missandei, exécutée par Cersei. Il ne fait plus de quartier : pendant la chute de Port-Réal, il tue des soldats qui se rendent, puis exécute les prisonniers sur ordre de la reine. Après la mort de Daenerys, il garde Jon prisonnier jusqu’à la décision des seigneurs, puis embarque avec les Immaculés pour Naath, l’île dont Missandei lui avait parlé."
+        "Ver Gris défend Winterfell pendant la Longue Nuit, puis perd Missandei, exécutée par Cersei. Il ne fait plus de quartier : pendant la chute de Port-Réal, il tue des soldats qui se rendent, puis exécute les prisonniers sur ordre de la reine. Après la mort de Daenerys, il garde Jon prisonnier jusqu’à la décision des seigneurs, puis embarque avec les Immaculés pour Naath, l’île dont Missandei lui avait parlé.",
+        "Sa colère après la mort de Missandei révèle ce que les maîtres d’Astapor lui avaient appris : obéir sans pitié. Il redevient, un temps, le soldat qu’on avait fait de lui. Son départ pour Naath est sa façon de choisir, une dernière fois, ce qu’il veut faire de sa liberté."
       ]
     }
   ],
   "keyMoments": [
-    { "s": 3, "title": "Le nom choisi", "text": "Il garde son nom d’esclave, devenu celui d’un homme libre.", "place": "astapor" },
-    { "s": 4, "title": "Les égouts de Meereen", "text": "Il arme les esclaves de la ville de l’intérieur.", "place": "meereen" },
-    { "s": 5, "title": "L’embuscade", "text": "Il survit à l’attaque des Fils de la Harpie.", "place": "meereen" },
-    { "s": 7, "title": "Castral Roc", "text": "Il prend la forteresse des Lannister, presque vide.", "place": "castral-roc" },
-    { "s": 8, "title": "Vers Naath", "text": "Il part pour l’île de Missandei.", "place": "port-real" }
+    {
+      "s": 3,
+      "title": "Le nom choisi",
+      "text": "Il garde son nom d’esclave, devenu celui d’un homme libre.",
+      "place": "astapor"
+    },
+    {
+      "s": 4,
+      "title": "Les égouts de Meereen",
+      "text": "Il arme les esclaves de la ville de l’intérieur.",
+      "place": "meereen"
+    },
+    {
+      "s": 5,
+      "title": "L’embuscade",
+      "text": "Il survit à l’attaque des Fils de la Harpie.",
+      "place": "meereen"
+    },
+    {
+      "s": 7,
+      "title": "Castral Roc",
+      "text": "Il prend la forteresse des Lannister, presque vide.",
+      "place": "castral-roc"
+    },
+    {
+      "s": 8,
+      "title": "Vers Naath",
+      "text": "Il part pour l’île de Missandei.",
+      "place": "port-real"
+    }
   ],
   "relations": [
-    { "to": "kraznys-mo-nakloz", "type": "ennemi", "label": "Son ancien maître", "inverseLabel": "Son esclave", "s": 3 },
-    { "to": "daario-naharis", "type": "allie", "label": "Son compagnon d’armes", "s": 3 },
-    { "to": "barristan-selmy", "type": "allie", "label": "Son frère d’armes dans l’embuscade", "s": 5 },
-    { "to": "jon-snow", "type": "ennemi", "label": "Son prisonnier, après la mort de la reine", "s": 8 }
+    {
+      "to": "kraznys-mo-nakloz",
+      "type": "ennemi",
+      "label": "Son ancien maître",
+      "inverseLabel": "Son esclave",
+      "s": 3
+    },
+    {
+      "to": "daario-naharis",
+      "type": "allie",
+      "label": "Son compagnon d’armes",
+      "s": 3
+    },
+    {
+      "to": "barristan-selmy",
+      "type": "allie",
+      "label": "Son frère d’armes dans l’embuscade",
+      "s": 5
+    },
+    {
+      "to": "jon-snow",
+      "type": "ennemi",
+      "label": "Son prisonnier, après la mort de la reine",
+      "s": 8
+    }
   ],
   "places": [
-    { "place": "astapor", "seasons": [3] },
-    { "place": "yunkai", "seasons": [3] },
-    { "place": "meereen", "seasons": [4, 5, 6] },
-    { "place": "castral-roc", "seasons": [7] },
-    { "place": "winterfell", "seasons": [8] },
-    { "place": "port-real", "seasons": [8] }
+    {
+      "place": "astapor",
+      "seasons": [
+        3
+      ]
+    },
+    {
+      "place": "yunkai",
+      "seasons": [
+        3
+      ]
+    },
+    {
+      "place": "meereen",
+      "seasons": [
+        4,
+        5,
+        6
+      ]
+    },
+    {
+      "place": "castral-roc",
+      "seasons": [
+        7
+      ]
+    },
+    {
+      "place": "winterfell",
+      "seasons": [
+        8
+      ]
+    },
+    {
+      "place": "port-real",
+      "seasons": [
+        8
+      ]
+    }
   ],
-  "codex": ["immacules", "langue-ghiscarie"],
+  "codex": [
+    "immacules",
+    "langue-ghiscarie"
+  ],
   "booksVsShow": {
     "s": 3,
     "paragraphs": [
@@ -88,5 +189,10 @@
     ]
   },
   "portrait": null,
-  "sources": [{ "label": "Wiki of Westeros — Grey Worm", "url": "https://gameofthrones.fandom.com/wiki/Grey_Worm" }]
+  "sources": [
+    {
+      "label": "Wiki of Westeros — Grey Worm",
+      "url": "https://gameofthrones.fandom.com/wiki/Grey_Worm"
+    }
+  ]
 }

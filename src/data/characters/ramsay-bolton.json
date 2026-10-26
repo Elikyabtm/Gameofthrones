@@ -3,18 +3,45 @@
   "name": "Ramsay Bolton",
   "short": "Ramsay",
   "principal": true,
-  "aliases": [{ "text": "Ramsay Snow" }],
+  "aliases": [
+    {
+      "text": "Ramsay Snow"
+    }
+  ],
   "house": "bolton",
   "region": "Le Nord",
   "camp": "westeros",
-  "allegiances": [{ "to": "bolton" }],
+  "allegiances": [
+    {
+      "to": "bolton"
+    }
+  ],
   "origin": "fort-terreur",
-  "titles": [{ "text": "Bâtard de Fort-Terreur" }, { "text": "Seigneur de Fort-Terreur", "s": 6 }, { "text": "Gouverneur du Nord", "s": 6 }],
+  "titles": [
+    {
+      "text": "Bâtard de Fort-Terreur"
+    },
+    {
+      "text": "Seigneur de Fort-Terreur",
+      "s": 6
+    },
+    {
+      "text": "Gouverneur du Nord",
+      "s": 6
+    }
+  ],
   "actor": "Iwan Rheon",
   "firstSeason": 3,
   "status": [
-    { "s": 3, "value": "vivant" },
-    { "s": 6, "value": "mort", "note": "Dévoré par ses propres chiens à Winterfell" }
+    {
+      "s": 3,
+      "value": "vivant"
+    },
+    {
+      "s": 6,
+      "value": "mort",
+      "note": "Dévoré par ses propres chiens à Winterfell"
+    }
   ],
   "summary": "Fils bâtard de Roose Bolton, Ramsay n’a rien du calme de son père : il aime chasser, torturer et jouer avec ceux qu’il tient. Il veut plus que tout être reconnu comme un vrai Bolton.",
   "bio": [
@@ -22,44 +49,92 @@
       "s": 3,
       "title": "Saison 3 — Le libérateur",
       "paragraphs": [
-        "Un jeune homme sans nom se présente à Theon Greyjoy comme un serviteur envoyé par sa sœur. Il le libère, le guide dans la campagne, l’écoute raconter ses remords, puis le ramène tranquillement au lieu de sa captivité. C’était un jeu. Ramsay torture Theon pendant des semaines, le fait douter de tout, le mutile, puis envoie à Pyk une partie de son corps dans un coffret. Il ne dit jamais son nom ; Theon finit par le deviner."
+        "Un jeune homme sans nom se présente à Theon Greyjoy comme un serviteur envoyé par sa sœur. Il le libère, le guide dans la campagne, l’écoute raconter ses remords, puis le ramène tranquillement au lieu de sa captivité. C’était un jeu. Ramsay torture Theon pendant des semaines, le fait douter de tout, le mutile, puis envoie à Pyk une partie de son corps dans un coffret. Il ne dit jamais son nom ; Theon finit par le deviner.",
+        "Ramsay est le fils naturel de Lord Roose Bolton, né d’une meunière que Roose avait violée sous un arbre après avoir fait pendre son mari. Il porte d’abord le nom de Snow, celui des bâtards du Nord, et en souffre. Il est intelligent, inventif et totalement dépourvu de pitié. Il aime la chasse, les chiens et la souffrance des autres, surtout quand elle dure.",
+        "Ce qu’il fait à Theon Greyjoy n’a pas de but politique : il veut le briser jusqu’à ce qu’il oublie son propre nom. Il y parvient."
       ]
     },
     {
       "s": 4,
       "title": "Saison 4 — Schlingue et Moat Cailin",
       "paragraphs": [
-        "Ramsay a fait de Theon un serviteur brisé, qu’il appelle Schlingue et qu’il oblige à lui raser la gorge pour mesurer sa soumission. Quand Yara vient chercher son frère, Ramsay la repousse avec ses chiens, et Theon lui-même refuse de partir. Roose s’indigne d’abord du sort réservé à un otage précieux, puis charge son fils de reprendre Moat Cailin. Ramsay y envoie Theon déguisé en prince fer-né pour convaincre la garnison de se rendre, puis fait écorcher les hommes qui ont cru à sa parole. Pour sa récompense, son père le légitime : il devient Ramsay Bolton."
+        "Ramsay a fait de Theon un serviteur brisé, qu’il appelle Schlingue et qu’il oblige à lui raser la gorge pour mesurer sa soumission. Quand Yara vient chercher son frère, Ramsay la repousse avec ses chiens, et Theon lui-même refuse de partir. Roose s’indigne d’abord du sort réservé à un otage précieux, puis charge son fils de reprendre Moat Cailin. Ramsay y envoie Theon déguisé en prince fer-né pour convaincre la garnison de se rendre, puis fait écorcher les hommes qui ont cru à sa parole. Pour sa récompense, son père le légitime : il devient Ramsay Bolton.",
+        "Pour récompenser la prise de Moat Cailin, son père obtient du roi Tommen qu’il soit légitimé. Ramsay Snow devient Ramsay Bolton, héritier de Fort-Terreur. Il ne l’oublie pas : il sait désormais que son père peut tout lui reprendre."
       ]
     },
     {
       "s": 5,
       "title": "Saison 5 — Le mari de Sansa",
       "paragraphs": [
-        "À Winterfell, Ramsay épouse Sansa Stark, arrangement imaginé par Littlefinger, et viole sa femme la nuit de leurs noces en forçant Theon à regarder. Il apprend que son père va avoir un fils légitime et craint pour son héritage. Quand Stannis marche sur Winterfell, Ramsay mène vingt hommes dans la nuit, incendie ses vivres et ses chevaux, et réduit son armée à néant avant même la bataille. Il perd pourtant Sansa, qui s’enfuit avec Theon par-dessus les remparts."
+        "À Winterfell, Ramsay épouse Sansa Stark, arrangement imaginé par Littlefinger, et viole sa femme la nuit de leurs noces en forçant Theon à regarder. Il apprend que son père va avoir un fils légitime et craint pour son héritage. Quand Stannis marche sur Winterfell, Ramsay mène vingt hommes dans la nuit, incendie ses vivres et ses chevaux, et réduit son armée à néant avant même la bataille. Il perd pourtant Sansa, qui s’enfuit avec Theon par-dessus les remparts.",
+        "Il chasse aussi une jeune femme dans les bois avec ses chiens, pour le plaisir, en compagnie de sa maîtresse Myranda, qui finira elle-même tuée par Theon. Quand Stannis arrive devant Winterfell, Ramsay le harcèle de nuit avec vingt cavaliers et brûle ses vivres.",
+        "Ramsay se méfie de son propre statut. Quand Walda annonce qu’elle attend un fils, il comprend que l’héritier légitime pourrait lui prendre sa place, et son père le lui laisse entendre."
       ]
     },
     {
       "s": 6,
       "title": "Saison 6 — La bataille des Bâtards",
       "paragraphs": [
-        "Ramsay tue son père le jour de la naissance de son demi-frère, puis livre sa belle-mère et l’enfant à ses chiens. Il reçoit des Omble le petit Rickon Stark en otage et écrit à Jon une lettre de défi. Devant Winterfell, il libère Rickon et le tue d’une flèche alors que l’enfant court vers son frère, puis encercle l’armée de Jon dans un piège de boucliers. La charge des chevaliers du Val renverse tout. Jon le poursuit jusque dans la cour et le roue de coups. Sansa le fait attacher dans les chenils, où ses chiens, affamés depuis sept jours, le dévorent."
+        "Ramsay tue son père le jour de la naissance de son demi-frère, puis livre sa belle-mère et l’enfant à ses chiens. Il reçoit des Omble le petit Rickon Stark en otage et écrit à Jon une lettre de défi. Devant Winterfell, il libère Rickon et le tue d’une flèche alors que l’enfant court vers son frère, puis encercle l’armée de Jon dans un piège de boucliers. La charge des chevaliers du Val renverse tout. Jon le poursuit jusque dans la cour et le roue de coups. Sansa le fait attacher dans les chenils, où ses chiens, affamés depuis sept jours, le dévorent.",
+        "Ramsay n’a jamais eu d’autre plan que le pouvoir pour lui-même. Il n’est ni fidèle à son père ni à son nom, seulement à son plaisir. C’est ce qui le rend dangereux, et ce qui le laisse seul face à Jon le jour où son armée se disperse."
       ]
     }
   ],
   "keyMoments": [
-    { "s": 3, "title": "La fausse évasion", "text": "Il libère Theon pour mieux le reprendre.", "place": "fort-terreur" },
-    { "s": 4, "title": "Moat Cailin", "text": "Il obtient sa légitimation par une trahison.", "place": "fort-terreur" },
-    { "s": 5, "title": "Les vingt hommes", "text": "Il détruit l’armée de Stannis avant la bataille.", "place": "winterfell" },
-    { "s": 6, "title": "La bataille des Bâtards", "text": "Il perd Winterfell face à Jon et Sansa.", "place": "winterfell" },
-    { "s": 6, "title": "Les chiens", "text": "Sansa le livre à ses propres chiens.", "place": "winterfell" }
+    {
+      "s": 3,
+      "title": "La fausse évasion",
+      "text": "Il libère Theon pour mieux le reprendre.",
+      "place": "fort-terreur"
+    },
+    {
+      "s": 4,
+      "title": "Moat Cailin",
+      "text": "Il obtient sa légitimation par une trahison.",
+      "place": "fort-terreur"
+    },
+    {
+      "s": 5,
+      "title": "Les vingt hommes",
+      "text": "Il détruit l’armée de Stannis avant la bataille.",
+      "place": "winterfell"
+    },
+    {
+      "s": 6,
+      "title": "La bataille des Bâtards",
+      "text": "Il perd Winterfell face à Jon et Sansa.",
+      "place": "winterfell"
+    },
+    {
+      "s": 6,
+      "title": "Les chiens",
+      "text": "Sansa le livre à ses propres chiens.",
+      "place": "winterfell"
+    }
   ],
   "relations": [
-    { "to": "jon-snow", "type": "ennemi", "label": "L’autre bâtard, son adversaire", "s": 6 }
+    {
+      "to": "jon-snow",
+      "type": "ennemi",
+      "label": "L’autre bâtard, son adversaire",
+      "s": 6
+    }
   ],
   "places": [
-    { "place": "fort-terreur", "seasons": [3, 4] },
-    { "place": "winterfell", "seasons": [5, 6] }
+    {
+      "place": "fort-terreur",
+      "seasons": [
+        3,
+        4
+      ]
+    },
+    {
+      "place": "winterfell",
+      "seasons": [
+        5,
+        6
+      ]
+    }
   ],
   "codex": [],
   "booksVsShow": {
@@ -69,5 +144,10 @@
     ]
   },
   "portrait": "images/personnages/ramsay-bolton.webp",
-  "sources": [{ "label": "Wiki of Westeros — Ramsay Bolton", "url": "https://gameofthrones.fandom.com/wiki/Ramsay_Bolton" }]
+  "sources": [
+    {
+      "label": "Wiki of Westeros — Ramsay Bolton",
+      "url": "https://gameofthrones.fandom.com/wiki/Ramsay_Bolton"
+    }
+  ]
 }

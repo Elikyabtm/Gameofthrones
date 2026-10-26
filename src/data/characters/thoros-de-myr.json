@@ -8,32 +8,102 @@
   "camp": "westeros",
   "allegiances": [],
   "origin": "myr",
-  "titles": [{ "text": "Prêtre rouge" }],
+  "titles": [
+    {
+      "text": "Prêtre rouge"
+    }
+  ],
   "actor": "Paul Kaye",
   "firstSeason": 3,
   "status": [
-    { "s": 3, "value": "vivant" },
-    { "s": 7, "value": "mort", "note": "Mort de ses blessures au-delà du Mur" }
+    {
+      "s": 3,
+      "value": "vivant"
+    },
+    {
+      "s": 7,
+      "value": "mort",
+      "note": "Mort de ses blessures au-delà du Mur"
+    }
   ],
   "summary": "Prêtre rouge venu de Myr, Thoros a perdu la foi en vivant trop longtemps à la cour de Robert. Il l’a retrouvée le jour où ses prières ont ramené un ami d’entre les morts.",
   "bio": [
-    { "s": 3, "title": "Saison 3 — Le prêtre buveur", "paragraphs": ["Thoros accompagne la Fraternité sans bannières, boit plus que de raison et prie sans y croire. Quand Beric meurt sous l’épée du Limier, il récite la prière du Maître de la Lumière, et Beric se relève. Il explique à Melisandre, stupéfaite, qu’il l’a déjà fait six fois."] },
-    { "s": 6, "title": "Saison 6 — La Fraternité", "paragraphs": ["Thoros accueille Sandor Clegane dans la Fraternité et partage avec lui la conviction qu’une guerre plus grande se prépare."] },
-    { "s": 7, "title": "Saison 7 — Le froid", "paragraphs": ["Thoros part au-delà du Mur avec Jon. Il est mordu par un ours mort, puis meurt de froid pendant la nuit, encerclé par l’armée des morts. On brûle son corps avant qu’il ne se relève."] }
+    {
+      "s": 3,
+      "title": "Saison 3 — Le prêtre buveur",
+      "paragraphs": [
+        "Thoros est un prêtre rouge de Myr envoyé jadis à la cour de Robert pour le convertir. Il était surtout devenu son compagnon de beuverie. Il ne croyait plus vraiment en rien, jusqu’au jour où sa prière a ramené un mort.",
+        "Thoros accompagne la Fraternité sans bannières, boit plus que de raison et prie sans y croire. Quand Beric meurt sous l’épée du Limier, il récite la prière du Maître de la Lumière, et Beric se relève. Il explique à Melisandre, stupéfaite, qu’il l’a déjà fait six fois.",
+        "Thoros est un prêtre désabusé que le miracle a rendu croyant. Il ne comprend pas pourquoi son dieu lui répond, mais il ne s’en plaint pas."
+      ]
+    },
+    {
+      "s": 6,
+      "title": "Saison 6 — La Fraternité",
+      "paragraphs": [
+        "Thoros accueille Sandor Clegane dans la Fraternité et partage avec lui la conviction qu’une guerre plus grande se prépare."
+      ]
+    },
+    {
+      "s": 7,
+      "title": "Saison 7 — Le froid",
+      "paragraphs": [
+        "Thoros part au-delà du Mur avec Jon. Il est mordu par un ours mort, puis meurt de froid pendant la nuit, encerclé par l’armée des morts. On brûle son corps avant qu’il ne se relève."
+      ]
+    }
   ],
   "keyMoments": [
-    { "s": 3, "title": "La prière", "text": "Il ramène Beric à la vie.", "place": "le-conflans" },
-    { "s": 7, "title": "La nuit sur le lac", "text": "Il meurt de froid au-delà du Mur.", "place": "au-dela-du-mur" }
+    {
+      "s": 3,
+      "title": "La prière",
+      "text": "Il ramène Beric à la vie.",
+      "place": "le-conflans"
+    },
+    {
+      "s": 7,
+      "title": "La nuit sur le lac",
+      "text": "Il meurt de froid au-delà du Mur.",
+      "place": "au-dela-du-mur"
+    }
   ],
   "relations": [
-    { "to": "melisandre", "type": "autre", "label": "La prêtresse rouge qu’il a étonnée", "s": 3 },
-    { "to": "jon-snow", "type": "allie", "label": "Son compagnon d’expédition", "s": 7 }
+    {
+      "to": "melisandre",
+      "type": "autre",
+      "label": "La prêtresse rouge qu’il a étonnée",
+      "s": 3
+    },
+    {
+      "to": "jon-snow",
+      "type": "allie",
+      "label": "Son compagnon d’expédition",
+      "s": 7
+    }
   ],
   "places": [
-    { "place": "le-conflans", "seasons": [3, 6] },
-    { "place": "au-dela-du-mur", "seasons": [7] }
+    {
+      "place": "le-conflans",
+      "seasons": [
+        3,
+        6
+      ]
+    },
+    {
+      "place": "au-dela-du-mur",
+      "seasons": [
+        7
+      ]
+    }
   ],
-  "codex": ["maitre-de-la-lumiere", "fraternite-sans-bannieres"],
+  "codex": [
+    "maitre-de-la-lumiere",
+    "fraternite-sans-bannieres"
+  ],
   "portrait": null,
-  "sources": [{ "label": "Wiki of Westeros — Thoros of Myr", "url": "https://gameofthrones.fandom.com/wiki/Thoros_of_Myr" }]
+  "sources": [
+    {
+      "label": "Wiki of Westeros — Thoros of Myr",
+      "url": "https://gameofthrones.fandom.com/wiki/Thoros_of_Myr"
+    }
+  ]
 }

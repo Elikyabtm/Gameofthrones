@@ -7,14 +7,33 @@
   "house": "baratheon",
   "region": "Peyredragon",
   "camp": "westeros",
-  "allegiances": [{ "to": "baratheon" }],
+  "allegiances": [
+    {
+      "to": "baratheon"
+    }
+  ],
   "origin": "accalmie",
-  "titles": [{ "text": "Seigneur de Peyredragon" }, { "text": "Prétendant au Trône de Fer", "s": 2 }],
+  "titles": [
+    {
+      "text": "Seigneur de Peyredragon"
+    },
+    {
+      "text": "Prétendant au Trône de Fer",
+      "s": 2
+    }
+  ],
   "actor": "Stephen Dillane",
   "firstSeason": 2,
   "status": [
-    { "s": 2, "value": "vivant" },
-    { "s": 5, "value": "mort", "note": "Exécuté par Brienne de Torth après sa défaite devant Winterfell" }
+    {
+      "s": 2,
+      "value": "vivant"
+    },
+    {
+      "s": 5,
+      "value": "mort",
+      "note": "Exécuté par Brienne de Torth après sa défaite devant Winterfell"
+    }
   ],
   "summary": "Frère cadet du roi Robert et seigneur de Peyredragon, Stannis est un homme rigide, juste à sa manière, qui ne transige jamais sur ce qu’il estime dû. Il revendique le trône au nom de la loi.",
   "bio": [
@@ -23,57 +42,167 @@
       "title": "Saison 2 — Le roi légitime",
       "paragraphs": [
         "Stannis apprend, comme Eddard avant lui, que les enfants de Cersei ne sont pas ceux de son frère. Il se proclame héritier légitime et l’écrit à tout le royaume. Sous l’influence de Melisandre, prêtresse du Maître de la Lumière, il fait brûler les statues des Sept sur la plage de Peyredragon.",
-        "Son frère cadet Renly refuse de s’effacer devant lui. Melisandre donne naissance, dans une grotte, à une ombre qui assassine Renly sous sa tente. Stannis récupère une partie de son armée et attaque Port-Réal par la mer. À la Néra, il mène lui-même l’assaut des murs, mais le feu grégeois de Tyrion détruit sa flotte et l’arrivée de Tywin achève sa défaite."
+        "Son frère cadet Renly refuse de s’effacer devant lui. Melisandre donne naissance, dans une grotte, à une ombre qui assassine Renly sous sa tente. Stannis récupère une partie de son armée et attaque Port-Réal par la mer. À la Néra, il mène lui-même l’assaut des murs, mais le feu grégeois de Tyrion détruit sa flotte et l’arrivée de Tywin achève sa défaite.",
+        "Stannis est le cadet des trois frères Baratheon. Pendant la Rébellion, il a tenu Accalmie un an contre les Tyrell, au point que ses hommes ont mangé des rats ; c’est Davos, le contrebandier, qui les a sauvés en forçant le blocus. Pour sa récompense, Robert lui a donné Peyredragon, une île aride, pendant qu’il offrait Accalmie, le siège de leur famille, au jeune Renly. Stannis ne l’a jamais oublié.",
+        "C’est un homme inflexible, sans humour, qui place la loi au-dessus de tout. Il ne cherche pas à être aimé et ne sait pas l’être. Marié sans amour à Selyse Florent, il a une fille, Shireen, défigurée par la léprose grise dans son enfance, qu’il aime sincèrement à sa façon. Il est convaincu que la couronne lui revient par le droit, et non parce qu’il la désire. Sa rigueur a pourtant ses vertus : c’est lui qui, le premier, entend l’appel du Mur."
       ]
     },
     {
       "s": 3,
       "title": "Saison 3 — Le feu et le sang",
       "paragraphs": [
-        "Replié à Peyredragon, Stannis s’enferme avec Melisandre et fait emprisonner Davos, qui ose le contredire. La prêtresse lui assure que le sang d’un roi a du pouvoir : elle utilise celui de Gendry, fils naturel de Robert. Davos libère le jeune homme. Une lettre venue du Mur, que Davos lit grâce aux leçons de Shireen, convainc Stannis qu’une autre guerre se prépare au nord."
+        "Replié à Peyredragon, Stannis s’enferme avec Melisandre et fait emprisonner Davos, qui ose le contredire. La prêtresse lui assure que le sang d’un roi a du pouvoir : elle utilise celui de Gendry, fils naturel de Robert. Davos libère le jeune homme. Une lettre venue du Mur, que Davos lit grâce aux leçons de Shireen, convainc Stannis qu’une autre guerre se prépare au nord.",
+        "Stannis n’est pas un homme cruel par goût. Il croit simplement que la justice doit être faite, quel qu’en soit le prix, et que son droit au trône est une vérité qu’il n’a pas le droit d’abandonner. Melisandre lui offre ce qui lui a toujours manqué : la certitude d’être choisi."
       ]
     },
     {
       "s": 4,
       "title": "Saison 4 — La Banque de Fer",
       "paragraphs": [
-        "Sans argent, Stannis se rend à Braavos avec Davos et obtient un prêt de la Banque de Fer. Il fait voile vers le nord et arrive au Mur au moment où l’armée de Mance Rayder l’attaque : ses cavaliers écrasent le camp du Peuple libre."
+        "Sans argent, Stannis se rend à Braavos avec Davos et obtient un prêt de la Banque de Fer. Il fait voile vers le nord et arrive au Mur au moment où l’armée de Mance Rayder l’attaque : ses cavaliers écrasent le camp du Peuple libre.",
+        "À Braavos, face aux banquiers qui hésitent, c’est Davos qui emporte la décision en rappelant que Stannis tient toujours ses engagements. Le prêt permet de payer des mercenaires et des vivres pour la campagne du Nord."
       ]
     },
     {
       "s": 5,
       "title": "Saison 5 — Le sacrifice",
       "paragraphs": [
-        "À Châteaunoir, Stannis offre à Jon Snow d’être légitimé, ce que Jon refuse. Il marche sur Winterfell pour reprendre le Nord aux Bolton. Bloqué par la neige, à court de vivres, il accepte ce que Melisandre exige : brûler sa propre fille Shireen. Le lendemain, la moitié de ses hommes désertent et sa femme se pend. Son armée est écrasée devant Winterfell. Blessé, il est retrouvé par Brienne de Torth, qui l’exécute pour le meurtre de Renly."
+        "À Châteaunoir, Stannis offre à Jon Snow d’être légitimé, ce que Jon refuse. Il marche sur Winterfell pour reprendre le Nord aux Bolton. Bloqué par la neige, à court de vivres, il accepte ce que Melisandre exige : brûler sa propre fille Shireen. Le lendemain, la moitié de ses hommes désertent et sa femme se pend. Son armée est écrasée devant Winterfell. Blessé, il est retrouvé par Brienne de Torth, qui l’exécute pour le meurtre de Renly.",
+        "La fin de Stannis est celle d’un homme qui a tout sacrifié à une certitude. Il voulait être juste ; il a brûlé sa fille pour une victoire qui ne vint jamais. Face à Brienne, il ne demande pas grâce : il lui dit simplement de faire son devoir.",
+        "Il reste l’un des personnages les plus discutés de l’histoire : le seul roi prétendant à avoir répondu à l’appel du Mur, et celui qui a commis le crime le plus difficile à pardonner."
       ]
     }
   ],
   "keyMoments": [
-    { "s": 2, "title": "Le bûcher des Sept", "text": "Il fait brûler les statues des dieux de Westeros sur la plage.", "place": "peyredragon" },
-    { "s": 2, "title": "La Néra", "text": "Il mène l’assaut des remparts de Port-Réal et perd la bataille.", "place": "port-real" },
-    { "s": 4, "title": "Le Mur", "text": "Ses cavaliers écrasent l’armée du Peuple libre.", "place": "chateaunoir" },
-    { "s": 5, "title": "Shireen", "text": "Il laisse brûler sa fille pour obtenir la victoire.", "place": "winterfell" },
-    { "s": 5, "title": "La fin", "text": "Brienne l’exécute au nom de Renly.", "place": "winterfell" }
+    {
+      "s": 2,
+      "title": "Le bûcher des Sept",
+      "text": "Il fait brûler les statues des dieux de Westeros sur la plage.",
+      "place": "peyredragon"
+    },
+    {
+      "s": 2,
+      "title": "La Néra",
+      "text": "Il mène l’assaut des remparts de Port-Réal et perd la bataille.",
+      "place": "port-real"
+    },
+    {
+      "s": 4,
+      "title": "Le Mur",
+      "text": "Ses cavaliers écrasent l’armée du Peuple libre.",
+      "place": "chateaunoir"
+    },
+    {
+      "s": 5,
+      "title": "Shireen",
+      "text": "Il laisse brûler sa fille pour obtenir la victoire.",
+      "place": "winterfell"
+    },
+    {
+      "s": 5,
+      "title": "La fin",
+      "text": "Brienne l’exécute au nom de Renly.",
+      "place": "winterfell"
+    }
   ],
   "relations": [
-    { "to": "renly-baratheon", "type": "fratrie", "label": "Son frère cadet et rival", "s": 2 },
-    { "to": "selyse-baratheon", "type": "conjoint", "label": "Son épouse", "s": 3 },
-    { "to": "shireen-baratheon", "type": "enfant", "label": "Sa fille unique", "inverseLabel": "Son père", "s": 2 },
-    { "to": "davos-mervault", "type": "serviteur", "label": "Sa Main et sa conscience", "inverseLabel": "Son roi", "s": 2 },
-    { "to": "melisandre", "type": "autre", "label": "Sa prêtresse rouge", "inverseLabel": "Le roi qu’elle croit élu", "s": 2 },
-    { "to": "jon-snow", "type": "allie", "label": "Son allié au Mur", "s": 5 },
-    { "to": "gendry", "type": "autre", "label": "Son neveu bâtard", "inverseLabel": "Son oncle", "s": 3 },
-    { "to": "ramsay-bolton", "type": "ennemi", "label": "Celui qui a brûlé ses vivres", "s": 5 },
-    { "to": "brienne-de-torth", "type": "ennemi", "label": "Celle qui l’a exécuté", "s": 5 }
+    {
+      "to": "renly-baratheon",
+      "type": "fratrie",
+      "label": "Son frère cadet et rival",
+      "s": 2
+    },
+    {
+      "to": "selyse-baratheon",
+      "type": "conjoint",
+      "label": "Son épouse",
+      "s": 3
+    },
+    {
+      "to": "shireen-baratheon",
+      "type": "enfant",
+      "label": "Sa fille unique",
+      "inverseLabel": "Son père",
+      "s": 2
+    },
+    {
+      "to": "davos-mervault",
+      "type": "serviteur",
+      "label": "Sa Main et sa conscience",
+      "inverseLabel": "Son roi",
+      "s": 2
+    },
+    {
+      "to": "melisandre",
+      "type": "autre",
+      "label": "Sa prêtresse rouge",
+      "inverseLabel": "Le roi qu’elle croit élu",
+      "s": 2
+    },
+    {
+      "to": "jon-snow",
+      "type": "allie",
+      "label": "Son allié au Mur",
+      "s": 5
+    },
+    {
+      "to": "gendry",
+      "type": "autre",
+      "label": "Son neveu bâtard",
+      "inverseLabel": "Son oncle",
+      "s": 3
+    },
+    {
+      "to": "ramsay-bolton",
+      "type": "ennemi",
+      "label": "Celui qui a brûlé ses vivres",
+      "s": 5
+    },
+    {
+      "to": "brienne-de-torth",
+      "type": "ennemi",
+      "label": "Celle qui l’a exécuté",
+      "s": 5
+    }
   ],
   "places": [
-    { "place": "peyredragon", "seasons": [2, 3, 4] },
-    { "place": "port-real", "seasons": [2] },
-    { "place": "braavos", "seasons": [4] },
-    { "place": "chateaunoir", "seasons": [4, 5] },
-    { "place": "winterfell", "seasons": [5] }
+    {
+      "place": "peyredragon",
+      "seasons": [
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "place": "port-real",
+      "seasons": [
+        2
+      ]
+    },
+    {
+      "place": "braavos",
+      "seasons": [
+        4
+      ]
+    },
+    {
+      "place": "chateaunoir",
+      "seasons": [
+        4,
+        5
+      ]
+    },
+    {
+      "place": "winterfell",
+      "seasons": [
+        5
+      ]
+    }
   ],
-  "codex": ["maitre-de-la-lumiere"],
+  "codex": [
+    "maitre-de-la-lumiere"
+  ],
   "booksVsShow": {
     "s": 5,
     "paragraphs": [
@@ -82,6 +211,9 @@
   },
   "portrait": "images/personnages/stannis-baratheon.webp",
   "sources": [
-    { "label": "Wiki of Westeros — Stannis Baratheon", "url": "https://gameofthrones.fandom.com/wiki/Stannis_Baratheon" }
+    {
+      "label": "Wiki of Westeros — Stannis Baratheon",
+      "url": "https://gameofthrones.fandom.com/wiki/Stannis_Baratheon"
+    }
   ]
 }

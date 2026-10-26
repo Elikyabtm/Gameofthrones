@@ -6,33 +6,118 @@
   "house": "tully",
   "region": "Le Conflans",
   "camp": "westeros",
-  "allegiances": [{ "to": "tully" }],
+  "allegiances": [
+    {
+      "to": "tully"
+    }
+  ],
   "origin": "vivesaigues",
-  "titles": [{ "text": "Héritier de Vivesaigues" }, { "text": "Seigneur de Vivesaigues", "s": 3 }],
+  "titles": [
+    {
+      "text": "Héritier de Vivesaigues"
+    },
+    {
+      "text": "Seigneur de Vivesaigues",
+      "s": 3
+    }
+  ],
   "actor": "Tobias Menzies",
   "firstSeason": 3,
-  "status": [{ "s": 3, "value": "vivant" }],
+  "status": [
+    {
+      "s": 3,
+      "value": "vivant"
+    }
+  ],
   "summary": "Frère cadet de Catelyn et héritier de Vivesaigues, Edmure est courageux au combat mais manque de patience politique. Il aime briller plus que réfléchir.",
   "bio": [
-    { "s": 3, "title": "Saison 3 — Les noces", "paragraphs": ["Edmure désobéit à Robb en défendant un gué qu’il devait abandonner, ce qui fait échouer un piège tendu à la Montagne. Il rate trois fois la flèche des funérailles de son père. Pour réparer l’offense faite aux Frey, il accepte d’épouser Roslin, qu’il n’a jamais vue, et se réjouit en découvrant qu’elle est belle. La nuit de ses noces, pendant qu’il est au lit avec elle, le massacre commence. Il est fait prisonnier."] },
-    { "s": 6, "title": "Saison 6 — L’otage", "paragraphs": ["Captif des Frey depuis des années, Edmure est amené devant Vivesaigues, que son oncle a reconquis. Jaime menace de catapulter dans le château l’enfant qu’il a eu avec Roslin. Edmure cède, entre dans le château et ordonne aux hommes d’ouvrir les portes."] },
-    { "s": 8, "title": "Saison 8 — Le conseil", "paragraphs": ["Seigneur de Vivesaigues, Edmure siège au conseil qui choisit le roi après la guerre. Il propose sa propre candidature dans un long discours ; Sansa l’interrompt d’un simple « Oncle, asseyez-vous »."] }
+    {
+      "s": 3,
+      "title": "Saison 3 — Les noces",
+      "paragraphs": [
+        "Edmure est l’héritier de Vivesaigues, le frère cadet de Catelyn et de Lysa. Il est courageux, généreux et désireux de bien faire, mais impulsif et peu doué pour la stratégie.",
+        "Edmure désobéit à Robb en défendant un gué qu’il devait abandonner, ce qui fait échouer un piège tendu à la Montagne. Il rate trois fois la flèche des funérailles de son père. Pour réparer l’offense faite aux Frey, il accepte d’épouser Roslin, qu’il n’a jamais vue, et se réjouit en découvrant qu’elle est belle. La nuit de ses noces, pendant qu’il est au lit avec elle, le massacre commence. Il est fait prisonnier."
+      ]
+    },
+    {
+      "s": 6,
+      "title": "Saison 6 — L’otage",
+      "paragraphs": [
+        "Captif des Frey depuis des années, Edmure est amené devant Vivesaigues, que son oncle a reconquis. Jaime menace de catapulter dans le château l’enfant qu’il a eu avec Roslin. Edmure cède, entre dans le château et ordonne aux hommes d’ouvrir les portes."
+      ]
+    },
+    {
+      "s": 8,
+      "title": "Saison 8 — Le conseil",
+      "paragraphs": [
+        "Seigneur de Vivesaigues, Edmure siège au conseil qui choisit le roi après la guerre. Il propose sa propre candidature dans un long discours ; Sansa l’interrompt d’un simple « Oncle, asseyez-vous »."
+      ]
+    }
   ],
   "keyMoments": [
-    { "s": 3, "title": "Les trois flèches", "text": "Il manque le bûcher de son père.", "place": "vivesaigues" },
-    { "s": 3, "title": "La nuit de noces", "text": "Il survit au massacre comme prisonnier.", "place": "les-jumeaux" },
-    { "s": 6, "title": "La reddition", "text": "Il ouvre les portes de Vivesaigues à Jaime.", "place": "vivesaigues" }
+    {
+      "s": 3,
+      "title": "Les trois flèches",
+      "text": "Il manque le bûcher de son père.",
+      "place": "vivesaigues"
+    },
+    {
+      "s": 3,
+      "title": "La nuit de noces",
+      "text": "Il survit au massacre comme prisonnier.",
+      "place": "les-jumeaux"
+    },
+    {
+      "s": 6,
+      "title": "La reddition",
+      "text": "Il ouvre les portes de Vivesaigues à Jaime.",
+      "place": "vivesaigues"
+    }
   ],
   "relations": [
-    { "to": "walder-frey", "type": "autre", "label": "Son beau-père, puis son geôlier", "s": 3 },
-    { "to": "robb-stark", "type": "suzerain", "label": "Son neveu et roi", "inverseLabel": "Son oncle", "s": 3 }
+    {
+      "to": "walder-frey",
+      "type": "autre",
+      "label": "Son beau-père, puis son geôlier",
+      "s": 3
+    },
+    {
+      "to": "robb-stark",
+      "type": "suzerain",
+      "label": "Son neveu et roi",
+      "inverseLabel": "Son oncle",
+      "s": 3
+    }
   ],
   "places": [
-    { "place": "vivesaigues", "seasons": [3, 6] },
-    { "place": "les-jumeaux", "seasons": [3] },
-    { "place": "port-real", "seasons": [8] }
+    {
+      "place": "vivesaigues",
+      "seasons": [
+        3,
+        6
+      ]
+    },
+    {
+      "place": "les-jumeaux",
+      "seasons": [
+        3
+      ]
+    },
+    {
+      "place": "port-real",
+      "seasons": [
+        8
+      ]
+    }
   ],
-  "codex": ["foi-des-sept"],
+  "codex": [
+    "foi-des-sept"
+  ],
   "portrait": "images/personnages/edmure-tully.webp",
-  "sources": [{ "label": "Wiki of Westeros — Edmure Tully", "url": "https://gameofthrones.fandom.com/wiki/Edmure_Tully" }]
+  "sources": [
+    {
+      "label": "Wiki of Westeros — Edmure Tully",
+      "url": "https://gameofthrones.fandom.com/wiki/Edmure_Tully"
+    }
+  ]
 }
