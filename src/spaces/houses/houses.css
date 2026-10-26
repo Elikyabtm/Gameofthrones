@@ -249,12 +249,18 @@
 
 .tree-card {
   position: absolute;
+  width: 128px;
+  height: 176px;
+}
+
+.tree-link {
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 128px;
-  height: 176px;
+  width: 100%;
+  height: 100%;
   text-align: center;
+  color: inherit;
   text-decoration: none;
 }
 

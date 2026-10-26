@@ -120,7 +120,9 @@ function entryView(root, e, rubric, data, ctx) {
                 (b) =>
                   `<div class="bio-block"><h3>${esc(b.title ?? `Saison ${b.s}`)}</h3>${b.paragraphs.map((p) => `<p>${link(p, e.slug)}</p>`).join('')}</div>`,
               )
-              .join('')}${series.hidden ? `<p class="masked">${series.hidden} passage${series.hidden > 1 ? 's' : ''} masqué${series.hidden > 1 ? 's' : ''} · saison ${series.next ?? ''}</p>` : ''}`
+              .join(
+                '',
+              )}${series.hidden ? `<p class="masked">${series.hidden} passage${series.hidden > 1 ? 's' : ''} masqué${series.hidden > 1 ? 's' : ''} · saison ${series.next ?? ''}</p>` : ''}`
           : ''
       }
       ${e.facts?.length ? `<h2 class="section-title">Repères</h2><dl class="identity">${e.facts.map((f) => `<div><dt>${esc(f.label)}</dt><dd>${esc(f.value)}</dd></div>`).join('')}</dl>` : ''}

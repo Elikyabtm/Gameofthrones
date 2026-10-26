@@ -71,6 +71,7 @@
 /* Carrousel : un portrait au centre, voisins à moitié visibles et assombris. */
 .carousel {
   position: relative;
+  overflow-x: clip; /* les vignettes voisines débordent de l'écran sans le faire défiler */
   height: min(calc(100vh - var(--header-h) - var(--bar-h) - 220px), 680px);
   min-height: 380px;
   outline: none;

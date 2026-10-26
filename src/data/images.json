@@ -1,1 +1,648 @@
-{}
+{
+  "images/andals.webp": {
+    "w": 1672,
+    "h": 941,
+    "variants": [
+      480,
+      960,
+      1600
+    ]
+  },
+  "images/barral.webp": {
+    "w": 1672,
+    "h": 941,
+    "variants": [
+      480,
+      960,
+      1600
+    ]
+  },
+  "images/braavos.webp": {
+    "w": 1672,
+    "h": 941,
+    "variants": [
+      480,
+      960,
+      1600
+    ]
+  },
+  "images/compagnie-doree.webp": {
+    "w": 1672,
+    "h": 941,
+    "variants": [
+      480,
+      960,
+      1600
+    ]
+  },
+  "images/couronne.webp": {
+    "w": 1672,
+    "h": 941,
+    "variants": [
+      480,
+      960,
+      1600
+    ]
+  },
+  "images/dieu-noye.webp": {
+    "w": 1672,
+    "h": 941,
+    "variants": [
+      480,
+      960,
+      1600
+    ]
+  },
+  "images/dorniens.webp": {
+    "w": 1672,
+    "h": 941,
+    "variants": [
+      480,
+      960,
+      1600
+    ]
+  },
+  "images/dothraki.webp": {
+    "w": 1672,
+    "h": 941,
+    "variants": [
+      480,
+      960,
+      1600
+    ]
+  },
+  "images/dragon.webp": {
+    "w": 1672,
+    "h": 941,
+    "variants": [
+      480,
+      960,
+      1600
+    ]
+  },
+  "images/enfants-de-la-foret.webp": {
+    "w": 1672,
+    "h": 941,
+    "variants": [
+      480,
+      960,
+      1600
+    ]
+  },
+  "images/fer-nes.webp": {
+    "w": 1672,
+    "h": 941,
+    "variants": [
+      480,
+      960,
+      1600
+    ]
+  },
+  "images/fils-de-la-harpie.webp": {
+    "w": 1672,
+    "h": 941,
+    "variants": [
+      480,
+      960,
+      1600
+    ]
+  },
+  "images/foi-des-sept.webp": {
+    "w": 1672,
+    "h": 941,
+    "variants": [
+      480,
+      960,
+      1600
+    ]
+  },
+  "images/foi-militante.webp": {
+    "w": 1672,
+    "h": 941,
+    "variants": [
+      480,
+      960,
+      1600
+    ]
+  },
+  "images/fraternite-sans-bannieres.webp": {
+    "w": 1672,
+    "h": 941,
+    "variants": [
+      480,
+      960,
+      1600
+    ]
+  },
+  "images/garde-de-nuit.webp": {
+    "w": 1672,
+    "h": 941,
+    "variants": [
+      480,
+      960,
+      1600
+    ]
+  },
+  "images/garde-royale.webp": {
+    "w": 1672,
+    "h": 941,
+    "variants": [
+      480,
+      960,
+      1600
+    ]
+  },
+  "images/geants.webp": {
+    "w": 1672,
+    "h": 941,
+    "variants": [
+      480,
+      960,
+      1600
+    ]
+  },
+  "images/ghiscari.webp": {
+    "w": 1672,
+    "h": 941,
+    "variants": [
+      480,
+      960,
+      1600
+    ]
+  },
+  "images/immacules.webp": {
+    "w": 1672,
+    "h": 941,
+    "variants": [
+      480,
+      960,
+      1600
+    ]
+  },
+  "images/lhazareens.webp": {
+    "w": 1672,
+    "h": 941,
+    "variants": [
+      480,
+      960,
+      1600
+    ]
+  },
+  "images/loup-geant.webp": {
+    "w": 1672,
+    "h": 941,
+    "variants": [
+      480,
+      960,
+      1600
+    ]
+  },
+  "images/maitre-de-la-lumiere.webp": {
+    "w": 1672,
+    "h": 941,
+    "variants": [
+      480,
+      960,
+      1600
+    ]
+  },
+  "images/mestres.webp": {
+    "w": 1672,
+    "h": 941,
+    "variants": [
+      480,
+      960,
+      1600
+    ]
+  },
+  "images/mur.webp": {
+    "w": 1672,
+    "h": 941,
+    "variants": [
+      480,
+      960,
+      1600
+    ]
+  },
+  "images/nord.webp": {
+    "w": 1672,
+    "h": 941,
+    "variants": [
+      480,
+      960,
+      1600
+    ]
+  },
+  "images/personnages/aegon-targaryen.webp": {
+    "w": 362,
+    "h": 362,
+    "variants": []
+  },
+  "images/personnages/aeron-greyjoy.webp": {
+    "w": 362,
+    "h": 362,
+    "variants": []
+  },
+  "images/personnages/aerys-targaryen.webp": {
+    "w": 362,
+    "h": 362,
+    "variants": []
+  },
+  "images/personnages/alannys-greyjoy.webp": {
+    "w": 362,
+    "h": 362,
+    "variants": []
+  },
+  "images/personnages/alerie-tyrell.webp": {
+    "w": 362,
+    "h": 362,
+    "variants": []
+  },
+  "images/personnages/arya-stark.webp": {
+    "w": 362,
+    "h": 362,
+    "variants": []
+  },
+  "images/personnages/balon-greyjoy.webp": {
+    "w": 362,
+    "h": 362,
+    "variants": []
+  },
+  "images/personnages/benjen-stark.webp": {
+    "w": 362,
+    "h": 362,
+    "variants": []
+  },
+  "images/personnages/bran-stark.webp": {
+    "w": 362,
+    "h": 362,
+    "variants": []
+  },
+  "images/personnages/brandon-stark.webp": {
+    "w": 362,
+    "h": 362,
+    "variants": []
+  },
+  "images/personnages/cassana-baratheon.webp": {
+    "w": 362,
+    "h": 362,
+    "variants": []
+  },
+  "images/personnages/catelyn-stark.webp": {
+    "w": 362,
+    "h": 362,
+    "variants": []
+  },
+  "images/personnages/cersei-lannister.webp": {
+    "w": 362,
+    "h": 362,
+    "variants": []
+  },
+  "images/personnages/daenerys-targaryen.webp": {
+    "w": 362,
+    "h": 362,
+    "variants": []
+  },
+  "images/personnages/doran-martell.webp": {
+    "w": 362,
+    "h": 362,
+    "variants": []
+  },
+  "images/personnages/eddard-stark.webp": {
+    "w": 362,
+    "h": 362,
+    "variants": []
+  },
+  "images/personnages/edmure-tully.webp": {
+    "w": 362,
+    "h": 362,
+    "variants": []
+  },
+  "images/personnages/elia-martell.webp": {
+    "w": 362,
+    "h": 362,
+    "variants": []
+  },
+  "images/personnages/ellaria-sand.webp": {
+    "w": 362,
+    "h": 362,
+    "variants": []
+  },
+  "images/personnages/euron-greyjoy.webp": {
+    "w": 362,
+    "h": 362,
+    "variants": []
+  },
+  "images/personnages/gendry.webp": {
+    "w": 362,
+    "h": 362,
+    "variants": []
+  },
+  "images/personnages/hoster-tully.webp": {
+    "w": 362,
+    "h": 362,
+    "variants": []
+  },
+  "images/personnages/jaime-lannister.webp": {
+    "w": 362,
+    "h": 362,
+    "variants": []
+  },
+  "images/personnages/joanna-lannister.webp": {
+    "w": 362,
+    "h": 362,
+    "variants": []
+  },
+  "images/personnages/joffrey-baratheon.webp": {
+    "w": 362,
+    "h": 362,
+    "variants": []
+  },
+  "images/personnages/jon-arryn.webp": {
+    "w": 362,
+    "h": 362,
+    "variants": []
+  },
+  "images/personnages/jon-snow.webp": {
+    "w": 362,
+    "h": 362,
+    "variants": []
+  },
+  "images/personnages/loras-tyrell.webp": {
+    "w": 362,
+    "h": 362,
+    "variants": []
+  },
+  "images/personnages/luthor-tyrell.webp": {
+    "w": 362,
+    "h": 362,
+    "variants": []
+  },
+  "images/personnages/lyanna-stark.webp": {
+    "w": 362,
+    "h": 362,
+    "variants": []
+  },
+  "images/personnages/lyarra-stark.webp": {
+    "w": 362,
+    "h": 362,
+    "variants": []
+  },
+  "images/personnages/lysa-arryn.webp": {
+    "w": 362,
+    "h": 362,
+    "variants": []
+  },
+  "images/personnages/mace-tyrell.webp": {
+    "w": 362,
+    "h": 362,
+    "variants": []
+  },
+  "images/personnages/margaery-tyrell.webp": {
+    "w": 362,
+    "h": 362,
+    "variants": []
+  },
+  "images/personnages/minisa-tully.webp": {
+    "w": 362,
+    "h": 362,
+    "variants": []
+  },
+  "images/personnages/myrcella-baratheon.webp": {
+    "w": 362,
+    "h": 362,
+    "variants": []
+  },
+  "images/personnages/nymeria-sand.webp": {
+    "w": 443,
+    "h": 444,
+    "variants": []
+  },
+  "images/personnages/obara-sand.webp": {
+    "w": 443,
+    "h": 444,
+    "variants": []
+  },
+  "images/personnages/oberyn-martell.webp": {
+    "w": 362,
+    "h": 362,
+    "variants": []
+  },
+  "images/personnages/olenna-tyrell.webp": {
+    "w": 362,
+    "h": 362,
+    "variants": []
+  },
+  "images/personnages/quellon-greyjoy.webp": {
+    "w": 362,
+    "h": 362,
+    "variants": []
+  },
+  "images/personnages/ramsay-bolton.webp": {
+    "w": 443,
+    "h": 443,
+    "variants": []
+  },
+  "images/personnages/renly-baratheon.webp": {
+    "w": 362,
+    "h": 362,
+    "variants": []
+  },
+  "images/personnages/rhaegar-targaryen.webp": {
+    "w": 362,
+    "h": 362,
+    "variants": []
+  },
+  "images/personnages/rhaella-targaryen.webp": {
+    "w": 362,
+    "h": 362,
+    "variants": []
+  },
+  "images/personnages/rhaenys-targaryen.webp": {
+    "w": 362,
+    "h": 362,
+    "variants": []
+  },
+  "images/personnages/rickard-stark.webp": {
+    "w": 362,
+    "h": 362,
+    "variants": []
+  },
+  "images/personnages/rickon-stark.webp": {
+    "w": 362,
+    "h": 362,
+    "variants": []
+  },
+  "images/personnages/robb-stark.webp": {
+    "w": 362,
+    "h": 362,
+    "variants": []
+  },
+  "images/personnages/robert-baratheon.webp": {
+    "w": 362,
+    "h": 362,
+    "variants": []
+  },
+  "images/personnages/robin-arryn.webp": {
+    "w": 362,
+    "h": 362,
+    "variants": []
+  },
+  "images/personnages/roose-bolton.webp": {
+    "w": 444,
+    "h": 443,
+    "variants": []
+  },
+  "images/personnages/roslin-frey.webp": {
+    "w": 362,
+    "h": 362,
+    "variants": []
+  },
+  "images/personnages/sansa-stark.webp": {
+    "w": 362,
+    "h": 362,
+    "variants": []
+  },
+  "images/personnages/selyse-baratheon.webp": {
+    "w": 362,
+    "h": 362,
+    "variants": []
+  },
+  "images/personnages/shireen-baratheon.webp": {
+    "w": 362,
+    "h": 362,
+    "variants": []
+  },
+  "images/personnages/stannis-baratheon.webp": {
+    "w": 362,
+    "h": 362,
+    "variants": []
+  },
+  "images/personnages/steffon-baratheon.webp": {
+    "w": 362,
+    "h": 362,
+    "variants": []
+  },
+  "images/personnages/theon-greyjoy.webp": {
+    "w": 362,
+    "h": 362,
+    "variants": []
+  },
+  "images/personnages/tommen-baratheon.webp": {
+    "w": 362,
+    "h": 362,
+    "variants": []
+  },
+  "images/personnages/trystane-martell.webp": {
+    "w": 444,
+    "h": 444,
+    "variants": []
+  },
+  "images/personnages/tyene-sand.webp": {
+    "w": 444,
+    "h": 444,
+    "variants": []
+  },
+  "images/personnages/tyrion-lannister.webp": {
+    "w": 362,
+    "h": 362,
+    "variants": []
+  },
+  "images/personnages/tywin-lannister.webp": {
+    "w": 362,
+    "h": 362,
+    "variants": []
+  },
+  "images/personnages/viserys-targaryen.webp": {
+    "w": 362,
+    "h": 362,
+    "variants": []
+  },
+  "images/personnages/walda-bolton.webp": {
+    "w": 443,
+    "h": 443,
+    "variants": []
+  },
+  "images/personnages/walder-frey.webp": {
+    "w": 444,
+    "h": 443,
+    "variants": []
+  },
+  "images/personnages/yara-greyjoy.webp": {
+    "w": 362,
+    "h": 362,
+    "variants": []
+  },
+  "images/peuple-libre.webp": {
+    "w": 1672,
+    "h": 941,
+    "variants": [
+      480,
+      960,
+      1600
+    ]
+  },
+  "images/premiers-hommes.webp": {
+    "w": 1672,
+    "h": 941,
+    "variants": [
+      480,
+      960,
+      1600
+    ]
+  },
+  "images/puines.webp": {
+    "w": 1672,
+    "h": 941,
+    "variants": [
+      480,
+      960,
+      1600
+    ]
+  },
+  "images/rhoynar.webp": {
+    "w": 1672,
+    "h": 941,
+    "variants": [
+      480,
+      960,
+      1600
+    ]
+  },
+  "images/sans-visage.webp": {
+    "w": 1672,
+    "h": 941,
+    "variants": [
+      480,
+      960,
+      1600
+    ]
+  },
+  "images/thenns.webp": {
+    "w": 1672,
+    "h": 941,
+    "variants": [
+      480,
+      960,
+      1600
+    ]
+  },
+  "images/trone-de-fer.webp": {
+    "w": 1672,
+    "h": 941,
+    "variants": [
+      480,
+      960,
+      1600
+    ]
+  },
+  "images/valyriens.webp": {
+    "w": 1672,
+    "h": 941,
+    "variants": [
+      480,
+      960,
+      1600
+    ]
+  }
+}

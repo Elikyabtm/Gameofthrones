@@ -11,7 +11,7 @@ const SEED = 1789; // seed fixe : carte identique à chaque chargement
 
 // Intensité des normales, en multiple de la pente réelle du relief déplacé. Le cahier donne
 // 2,5 ; appliqué à la pente réelle, cela donnait un relief charbonneux (taches sombres
-// partout). 1,0 fait coïncider l'ombrage avec la géométrie. À valider dans lab.html.
+// partout). 1,0 fait coïncider l'ombrage avec la géométrie. À régler dans lab.html.
 export const NORMAL_STRENGTH = 1.0;
 
 /** Lit un canal (0 = R, 1 = G…) d'un canvas en tableau 0–255. */

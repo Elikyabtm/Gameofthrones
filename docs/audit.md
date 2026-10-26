@@ -6,49 +6,49 @@
 
 ## 1. Modules
 
-| Module | Ce qu'il fait | Qualité | Décision |
-|---|---|---|---|
-| `vite.config.js` | Build statique, `base: './'` | Bon | **Adapter** : `base: '/'` (URLs propres, §4.2), module virtuel d'index des contenus |
-| `index.html` | Page unique : voyage, annexes, HUD, modale | Correct mais monolithique | **Réécrire** : coquille d'application (cadre, en-tête, barre du bas, conteneur d'espace) |
-| `src/main.js` | Branche voyage, annexes, HUD, monde 3D | Lisible | **Réécrire** autour du routeur |
-| `src/map/scene.js` | Renderer, caméra, lumières ×π, boucle de rendu, pause onglet caché | Bon | **Garder** → `src/world/scene.js`, ajout ciel, exposition et rendu à la demande |
-| `src/map/noise.js`, `distance.js`, `draw.js` | Bruit, distance signée par chanfrein, tracés | Bon, sans dépendance | **Garder** → `src/world/` |
-| `src/map/textures.js` | Relief, distance au rivage, rivières, Mur, lacs, montagnes, normales | Bon, coûteux (~1,6 s) | **Adapter** : Essos, massifs plus marqués, exécution dans un Worker |
-| `src/map/parchment.js`, `palettes.js` | Couleur « parchemin » sépia, hachures, routes en pointillés | Soigné mais hors cible (§2.3, §6.3) | **Supprimer** → remplacés par `world/biomes.js` (peinture par biomes) |
-| `src/map/terrain.js` | Plan déplacé 1024 × 512 | Bon | **Garder** (élargi : Westeros et Essos sont déjà dans les bornes 2600 × 1300) |
-| `src/map/sea.js` | Mer à vagues légères, transparence des hauts-fonds | Bon | **Adapter** : mer jusqu'à l'horizon, spéculaire, écume côtière |
-| `src/map/camera-path.js` | Cadrages, vols en arc, dérive de palier, décalage optique | Bon | **Adapter** : inclinaison 30 à 40°, séquence en 5 temps du §6.2 |
-| `src/map/markers.js` | Losange, colonne de lumière, étiquettes projetées | Bon | **Garder** (étiquettes 22/16 px, noms de mers) |
-| `src/map/miniatures/*`, `forests.js` | Maquettes de châteaux, hameaux, forêts instanciées | Joli mais « plateau de jeu » (§2.3) | **Supprimer** → silhouettes à l'échelle avec lumières (`world/cities.js`), forêts peintes dans les biomes |
-| `src/map/world.js` | Assemble la scène | Bon | **Réécrire** : monde persistant (mode carte net / mode assombri) |
-| `src/journey/*` | Rendu des étapes, pilote de scroll, panneaux, HUD | Bon pilote de scroll | **Adapter** : `scroll.js` gardé, panneaux remplacés par la plongée (§6.2) |
-| `src/ui/archive.js` | Modale de fiche | Correct | **Supprimer** → aperçu en panneau latéral (§8.3) et vraies pages |
-| `src/ui/menu.js` | Menu avec piège du focus | Bon | **Adapter** au nouveau menu |
-| `src/ui/audio.js` | Nappe WebAudio, coupée par défaut | Bon | **Adapter** : couleur sonore par zone (§8.4) |
-| `src/annexes/tree*.js` | Arbre de toutes les familles | Bon algorithme de générations | **Adapter** : arbre d'une maison à la fois (§7.3), vue « Toutes les lignées » |
-| `src/annexes/index.js`, `timeline.js`, `sources.js` | Index, frise, crédits | Correct | **Réécrire** dans Codex et À propos |
-| `src/content/*` | Contenus extraits de l'ancien site | Textes courts | **Migrer** vers `src/data/**/*.json` (§5), puis supprimer |
-| `src/styles/*` | Tokens, HUD, voyage, annexes | Correct | **Réécrire** selon la DA §3 (tokens gardés et complétés) |
-| `tools/check.mjs` | Build, preview, Playwright SwiftShader, attentes par état | Robuste | **Adapter** aux routes v2 |
-| `tools/extract-content.mjs`, `corrections.mjs`, `asset-names.mjs`, `copy-assets.mjs` | Migration v0 | Ponctuels, déjà joués | **Supprimer** (historique dans git) |
-| `tools/lab-shots.mjs`, `lab-vol.mjs`, `lab.html` | Captures et vidéo de vol | Utile | **Adapter** au nouveau monde |
-| `tools/images.mjs` | Coquille vide | — | **Réécrire** (§10.3) |
+| Module                                                                               | Ce qu'il fait                                                        | Qualité                             | Décision                                                                                                  |
+| ------------------------------------------------------------------------------------ | -------------------------------------------------------------------- | ----------------------------------- | --------------------------------------------------------------------------------------------------------- |
+| `vite.config.js`                                                                     | Build statique, `base: './'`                                         | Bon                                 | **Adapter** : `base: '/'` (URLs propres, §4.2), module virtuel d'index des contenus                       |
+| `index.html`                                                                         | Page unique : voyage, annexes, HUD, modale                           | Correct mais monolithique           | **Réécrire** : coquille d'application (cadre, en-tête, barre du bas, conteneur d'espace)                  |
+| `src/main.js`                                                                        | Branche voyage, annexes, HUD, monde 3D                               | Lisible                             | **Réécrire** autour du routeur                                                                            |
+| `src/map/scene.js`                                                                   | Renderer, caméra, lumières ×π, boucle de rendu, pause onglet caché   | Bon                                 | **Garder** → `src/world/scene.js`, ajout ciel, exposition et rendu à la demande                           |
+| `src/map/noise.js`, `distance.js`, `draw.js`                                         | Bruit, distance signée par chanfrein, tracés                         | Bon, sans dépendance                | **Garder** → `src/world/`                                                                                 |
+| `src/map/textures.js`                                                                | Relief, distance au rivage, rivières, Mur, lacs, montagnes, normales | Bon, coûteux (~1,6 s)               | **Adapter** : Essos, massifs plus marqués, exécution dans un Worker                                       |
+| `src/map/parchment.js`, `palettes.js`                                                | Couleur « parchemin » sépia, hachures, routes en pointillés          | Soigné mais hors cible (§2.3, §6.3) | **Supprimer** → remplacés par `world/biomes.js` (peinture par biomes)                                     |
+| `src/map/terrain.js`                                                                 | Plan déplacé 1024 × 512                                              | Bon                                 | **Garder** (élargi : Westeros et Essos sont déjà dans les bornes 2600 × 1300)                             |
+| `src/map/sea.js`                                                                     | Mer à vagues légères, transparence des hauts-fonds                   | Bon                                 | **Adapter** : mer jusqu'à l'horizon, spéculaire, écume côtière                                            |
+| `src/map/camera-path.js`                                                             | Cadrages, vols en arc, dérive de palier, décalage optique            | Bon                                 | **Adapter** : inclinaison 30 à 40°, séquence en 5 temps du §6.2                                           |
+| `src/map/markers.js`                                                                 | Losange, colonne de lumière, étiquettes projetées                    | Bon                                 | **Garder** (étiquettes 22/16 px, noms de mers)                                                            |
+| `src/map/miniatures/*`, `forests.js`                                                 | Maquettes de châteaux, hameaux, forêts instanciées                   | Joli mais « plateau de jeu » (§2.3) | **Supprimer** → silhouettes à l'échelle avec lumières (`world/cities.js`), forêts peintes dans les biomes |
+| `src/map/world.js`                                                                   | Assemble la scène                                                    | Bon                                 | **Réécrire** : monde persistant (mode carte net / mode assombri)                                          |
+| `src/journey/*`                                                                      | Rendu des étapes, pilote de scroll, panneaux, HUD                    | Bon pilote de scroll                | **Adapter** : `scroll.js` gardé, panneaux remplacés par la plongée (§6.2)                                 |
+| `src/ui/archive.js`                                                                  | Modale de fiche                                                      | Correct                             | **Supprimer** → aperçu en panneau latéral (§8.3) et vraies pages                                          |
+| `src/ui/menu.js`                                                                     | Menu avec piège du focus                                             | Bon                                 | **Adapter** au nouveau menu                                                                               |
+| `src/ui/audio.js`                                                                    | Nappe WebAudio, coupée par défaut                                    | Bon                                 | **Adapter** : couleur sonore par zone (§8.4)                                                              |
+| `src/annexes/tree*.js`                                                               | Arbre de toutes les familles                                         | Bon algorithme de générations       | **Adapter** : arbre d'une maison à la fois (§7.3), vue « Toutes les lignées »                             |
+| `src/annexes/index.js`, `timeline.js`, `sources.js`                                  | Index, frise, crédits                                                | Correct                             | **Réécrire** dans Codex et À propos                                                                       |
+| `src/content/*`                                                                      | Contenus extraits de l'ancien site                                   | Textes courts                       | **Migrer** vers `src/data/**/*.json` (§5), puis supprimer                                                 |
+| `src/styles/*`                                                                       | Tokens, HUD, voyage, annexes                                         | Correct                             | **Réécrire** selon la DA §3 (tokens gardés et complétés)                                                  |
+| `tools/check.mjs`                                                                    | Build, preview, Playwright SwiftShader, attentes par état            | Robuste                             | **Adapter** aux routes v2                                                                                 |
+| `tools/extract-content.mjs`, `corrections.mjs`, `asset-names.mjs`, `copy-assets.mjs` | Migration v0                                                         | Ponctuels, déjà joués               | **Supprimer** (historique dans git)                                                                       |
+| `tools/lab-shots.mjs`, `lab-vol.mjs`, `lab.html`                                     | Captures et vidéo de vol                                             | Utile                               | **Adapter** au nouveau monde                                                                              |
+| `tools/images.mjs`                                                                   | Coquille vide                                                        | —                                   | **Réécrire** (§10.3)                                                                                      |
 
 ## 2. Contenus existants
 
-| Type | Nombre | Remarques |
-|---|---|---|
-| Peuples, armées, ordres | 22 | 1 à 2 paragraphes chacun, image présente |
-| Maisons | 10 | 1 paragraphe, devise, blason SVG, pas de source |
-| Langues | 9 | Courtes, avec source |
-| Croyances | 6 | Courtes |
-| Créatures | 5 | Courtes |
-| Périodes | 4 | Frise |
-| Lieux | 28 (13 Westeros + 15 Essos) | 1 paragraphe |
-| Personnages (arbre) | 67 | Biographie de 1 à 2 phrases (7 d'origine + 60 rédigées en v1) |
-| Illustrations | 34 (16:9, 1672 × 941) | Générées |
-| Portraits | 68 (carrés, 362 × 362) | Générés |
-| Blasons | 10 SVG sous CC BY-SA 3.0, crédités | |
+| Type                    | Nombre                             | Remarques                                                     |
+| ----------------------- | ---------------------------------- | ------------------------------------------------------------- |
+| Peuples, armées, ordres | 22                                 | 1 à 2 paragraphes chacun, image présente                      |
+| Maisons                 | 10                                 | 1 paragraphe, devise, blason SVG, pas de source               |
+| Langues                 | 9                                  | Courtes, avec source                                          |
+| Croyances               | 6                                  | Courtes                                                       |
+| Créatures               | 5                                  | Courtes                                                       |
+| Périodes                | 4                                  | Frise                                                         |
+| Lieux                   | 28 (13 Westeros + 15 Essos)        | 1 paragraphe                                                  |
+| Personnages (arbre)     | 67                                 | Biographie de 1 à 2 phrases (7 d'origine + 60 rédigées en v1) |
+| Illustrations           | 34 (16:9, 1672 × 941)              | Générées                                                      |
+| Portraits               | 68 (carrés, 362 × 362)             | Générés                                                       |
+| Blasons                 | 10 SVG sous CC BY-SA 3.0, crédités |                                                               |
 
 ## 3. Écarts avec la v2
 
@@ -79,3 +79,24 @@
 6. **Saisons** : leurs titres sont ceux des premiers épisodes en VF.
 7. **Périodes historiques** : elles rejoignent la rubrique « Peuples et civilisations » du Codex (kicker « Époque »).
 8. **Images des étapes** : les illustrations existantes sont réutilisées quand elles conviennent. Sinon, un placeholder s'affiche et un prompt est écrit.
+9. **Sièges sans lieu sur la carte** : Castel Clegane et les terres de Davos n'existent pas dans les données de lieux. Les maisons Clegane et Mervault affichent un siège en texte (`seatName`) ; le monde 3D se cale sur l'Ouest et sur Peyredragon.
+10. **Devise des Frey** : elle est reprise des romans (« Nous nous tenons ensemble »), car la série n'en cite pas. Les blasons des maisons ajoutées sont des créations simples.
+11. **Codex** : le texte intemporel (`body`) est séparé de ce qui dépend de la série (`inTheSeries`, filtré par saison), sur le modèle des maisons.
+12. **Fiche d'un personnage pas encore apparu** (URL tapée directement) : elle affiche « Fiche masquée », sans nom, blason ni onglets.
+
+## 6. État à la livraison de la v2
+
+| Domaine                                                                             | État                                                                                                                                                              |
+| ----------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Socle (routeur, état, anti-spoilers, graphe, recherche)                             | Fait                                                                                                                                                              |
+| Cadre et DA (en-tête, barre du bas, menu, sélecteur de saison, aperçu latéral, son) | Fait                                                                                                                                                              |
+| Paysage 3D (Westeros + Essos, biomes, mer, ciel, nuages, villes, lumière par étape) | Fait, à affiner esthétiquement (aplats de couleur, désert trop clair)                                                                                             |
+| Voyage (19 étapes, traversée, écran de fin, clavier, URL par étape)                 | Fait                                                                                                                                                              |
+| Personnages (galerie carrousel/grille, fiche à onglets, graphe radial)              | Fait — 108 fiches, principaux ≥ 600 mots, secondaires ≥ 150                                                                                                       |
+| Maisons (17, histoire, chronique par saison, arbres avec filiations secrètes)       | Fait — grandes maisons ≈ 280-320 mots, petites ≈ 260-290                                                                                                          |
+| Codex (46 entrées, 5 rubriques)                                                     | Fait — 90 à 280 mots de texte intemporel + chronique par saison ; langues plus courtes, faute de matière dans la série                                            |
+| Images                                                                              | 49 fiches avec portrait (carré, à refaire), 59 placeholders ; 28 lieux, 4 étapes et 13 entrées du Codex sans illustration — prompts dans `docs/images-prompts.md` |
+| Outils                                                                              | `check:data`, `check` (routes, axe, contraste, voyage, recherche, témoins anti-spoilers, animations réduites, sans WebGL, budgets), `images`, lab du paysage      |
+| Rendu                                                                               | À la demande ; en mode ambiance (monde flouté), 20 i/s et demi-résolution                                                                                         |
+
+**Écarts restants** : longueur du Codex sous la cible de 300 mots pour la plupart des entrées ; portraits à générer ou refaire (3:4, sans ressemblance) ; illustrations des lieux ; relecture humaine de tous les textes (« Rédigé, à relire » dans `docs/contenu-suivi.md`) et des 20 `_doute`.

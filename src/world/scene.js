@@ -49,7 +49,8 @@ export function createScene(canvas, { lowEnd = isLowEnd() } = {}) {
     antialias: true,
     powerPreference: 'high-performance',
   });
-  renderer.setPixelRatio(Math.min(window.devicePixelRatio, lowEnd ? 1.5 : 1.75));
+  const fullRatio = Math.min(window.devicePixelRatio, lowEnd ? 1.5 : 1.75);
+  renderer.setPixelRatio(fullRatio);
   renderer.toneMapping = ACESFilmicToneMapping;
   renderer.toneMappingExposure = 1.0;
   renderer.outputColorSpace = SRGBColorSpace;
@@ -75,7 +76,11 @@ export function createScene(canvas, { lowEnd = isLowEnd() } = {}) {
 
   // Horloge de la scène (secondes). `timeScale` < 1 ralentit les animations (vidéos du lab).
   let clock = 0;
+  let minFrameMs = 0; // 0 : chaque image ; sinon cadence plafonnée (mode ambiance)
+  let lastDrawn = 0;
   function frame(now) {
+    if (continuous && minFrameMs && now - lastDrawn < minFrameMs - 2) return;
+    lastDrawn = now;
     const dt = Math.min(0.1, (now - last) / 1000) * api.timeScale;
     last = now;
     clock += dt;
@@ -105,6 +110,18 @@ export function createScene(canvas, { lowEnd = isLowEnd() } = {}) {
       pending = true;
       last = performance.now();
       renderer.setAnimationLoop(frame);
+    },
+    /**
+     * Qualité de rendu : en mode ambiance, le monde est flouté et assombri derrière les
+     * pages, une cadence et une résolution réduites suffisent (économie de batterie, §9).
+     */
+    setQuality({ fps = 0, ratio = 1 } = {}) {
+      minFrameMs = fps ? 1000 / fps : 0;
+      const r = fullRatio * ratio;
+      if (renderer.getPixelRatio() !== r) {
+        renderer.setPixelRatio(r);
+        api.resize();
+      }
     },
     setContinuous(on) {
       continuous = on;

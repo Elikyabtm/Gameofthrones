@@ -1,0 +1,20 @@
+{
+  "$comment": "Témoins anti-spoilers (§3.4, §13) : à la saison donnée, aucun de ces mots ne doit apparaître dans le DOM de la route (texte, attributs, aperçus). Insensible à la casse et aux accents.",
+  "witnesses": [
+    { "season": 1, "route": "/personnages/robb-stark", "absent": ["Noces pourpres", "Talisa", "Roose Bolton le poignarde"], "note": "Mort de Robb, saison 3" },
+    { "season": 1, "route": "/personnages/jon-snow/liens", "absent": ["Rhaegar", "Aegon", "Ygritte", "Daenerys"], "note": "Filiation révélée en saison 7" },
+    { "season": 6, "route": "/personnages/jon-snow/liens", "absent": ["Rhaegar", "Aegon"], "note": "Filiation encore secrète en saison 6" },
+    { "season": 7, "route": "/personnages/jon-snow", "absent": ["Aegon Targaryen"], "note": "Le nom n’est dit qu’en saison 8" },
+    { "season": 1, "route": "/personnages/arya-stark", "absent": ["Sans-Visage", "Jaqen", "Demeure du Noir", "Roi de la Nuit"], "note": "Apprentissage à Braavos, saisons 5-6" },
+    { "season": 1, "route": "/personnages/joffrey-baratheon", "absent": ["empoisonn", "Margaery"], "note": "Mort de Joffrey, saison 4" },
+    { "season": 1, "route": "/personnages", "absent": ["Oberyn", "Missandei", "Tormund", "Ramsay", "Roi de la Nuit"], "note": "Personnages apparus plus tard" },
+    { "season": 2, "route": "/personnages/missandei", "absent": ["Missandei"], "note": "Fiche inexistante avant la saison 3" },
+    { "season": 1, "route": "/maisons/stark", "absent": ["Talisa", "Noces pourpres", "reine du Nord", "bataille des Bâtards"], "note": "Arbre et chronique de la maison" },
+    { "season": 2, "route": "/maisons/lannister", "absent": ["Sansa", "Tommen se donne la mort", "grand septuor"], "note": "Mariage de Tyrion, saison 3" },
+    { "season": 1, "route": "/maisons/targaryen", "absent": ["Jon Snow"], "note": "Filiation secrète de Jon" },
+    { "season": 1, "route": "/codex/creatures/marcheurs-blancs", "absent": ["Roi de la Nuit", "Viserion", "Arya tue"], "note": "Révélés en saisons 4 à 8" },
+    { "season": 3, "route": "/codex/creatures/dragons", "absent": ["Viserion est tué", "Rhaegal est tué", "fait fondre le Trône"], "note": "Morts des dragons, saisons 7-8" },
+    { "season": 1, "route": "/carte/winterfell", "absent": ["Ramsay", "bataille des Bâtards", "Theon prend"], "note": "Habitants et événements ultérieurs" },
+    { "season": 4, "route": "/personnages/daenerys-targaryen", "absent": ["Port-Réal en cendres", "Il la tue", "Jon Snow"], "note": "Fin de Daenerys, saison 8" }
+  ]
+}

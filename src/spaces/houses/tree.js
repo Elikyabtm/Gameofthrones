@@ -128,14 +128,13 @@ function personCard(p, houseSlug, graph, season, at) {
   const media = src
     ? `<img ${srcAttrs(src, '128px')} alt="" loading="lazy" decoding="async" />`
     : portraitPlaceholder(name, graph.houses.get(p.house ?? houseSlug)?.sigil);
-  const tag = c ? 'a' : 'div';
-  const href = c ? ` href="/personnages/${c.slug}"` : '';
-  return `<${tag} class="tree-card${dead ? ' is-dead' : ''}${c ? '' : ' is-static'}"${href} style="left:${at.x}px;top:${at.y}px" aria-label="${esc(
-    `${name}${dead ? ', mort' : ''}`,
-  )}">
-    <span class="tree-portrait">${media}${dead ? '<span class="tree-cross" aria-hidden="true">✝</span>' : ''}</span>
+  // Le lien et le bouton de blason sont frères (pas d'élément interactif imbriqué).
+  const label = esc(`${name}${dead ? ', mort' : ''}`);
+  const body = `<span class="tree-portrait">${media}${dead ? '<span class="tree-cross" aria-hidden="true">✝</span>' : ''}</span>
     <span class="tree-name">${esc(name)}</span>
-    ${p.note ? `<span class="tree-note">${esc(p.note)}</span>` : ''}
+    ${p.note ? `<span class="tree-note">${esc(p.note)}</span>` : ''}`;
+  return `<div class="tree-card${dead ? ' is-dead' : ''}${c ? '' : ' is-static'}" style="left:${at.x}px;top:${at.y}px">
+    ${c ? `<a class="tree-link" href="/personnages/${c.slug}" aria-label="${label}">${body}</a>` : `<div class="tree-link" role="img" aria-label="${label}">${body}</div>`}
     ${
       foreign
         ? `<button type="button" class="tree-foreign" data-house="${foreign.slug}" title="${esc(foreign.name)}" aria-label="${esc(
@@ -143,7 +142,7 @@ function personCard(p, houseSlug, graph, season, at) {
           )}"><img src="/${foreign.sigil}" alt="" width="22" height="22" /></button>`
         : ''
     }
-  </${tag}>`;
+  </div>`;
 }
 
 /** Rend l'arbre dans `el` et branche zoom, déplacement et vue d'ensemble. */

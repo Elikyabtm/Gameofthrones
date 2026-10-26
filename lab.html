@@ -3,126 +3,46 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Lab — terrain et vol</title>
+    <title>Lab du paysage</title>
     <style>
       html,
       body {
         margin: 0;
-        background: #0a1012;
-        color: #ece6d2;
+        height: 100%;
+        overflow: hidden;
+        background: #0b0d0e;
+        color: #e8e4da;
         font-family: system-ui, sans-serif;
       }
-      .vues body {
-        overflow: hidden;
-      }
-      /* Scène 3D fixe, contenu au-dessus (§5.3). */
       #world {
         position: fixed;
         inset: 0;
         width: 100%;
         height: 100%;
-        z-index: 0;
       }
-      #lab-journey {
-        position: relative;
-        z-index: 1;
-      }
-      .intro {
-        height: 120vh;
-        display: grid;
-        place-items: center;
-      }
-      .outro {
-        height: 60vh;
-        display: grid;
-        place-items: center;
-      }
-      .stop {
-        height: 160vh;
-      }
-      @media (max-width: 699px) {
-        .stop {
-          height: 140vh;
-        }
-      }
-      /* Panneau collant, centré verticalement, à gauche ou à droite. */
-      .stop-panel {
-        position: sticky;
-        top: calc(50vh - 130px);
-        width: min(460px, 38vw);
-        margin: 0 48px;
-        padding: 40px 44px;
-        background: #0a1112cc;
-        backdrop-filter: blur(12px);
-        border-right: 1px solid #bba47666;
-        opacity: 0;
-        visibility: hidden;
-        box-sizing: border-box;
-      }
-      .stop[data-side='right'] .stop-panel {
-        margin-left: auto;
-        border-right: 0;
-        border-left: 1px solid #bba47666;
-      }
-      @media (max-width: 699px) {
-        .stop-panel,
-        .stop[data-side='right'] .stop-panel {
-          top: calc(100vh - 48vh - 12px);
-          width: calc(100% - 24px);
-          max-height: 48vh;
-          margin: 0 12px;
-          border: 0;
-          border-top: 1px solid #bba47666;
-        }
-      }
-      .stop-region {
-        margin: 0;
-        font-size: 12px;
-        letter-spacing: 0.22em;
-        text-transform: uppercase;
-        color: #bba476;
-      }
-      .stop-num {
-        margin: 0;
-        font-size: 64px;
-        line-height: 1;
-        color: #bba47633;
-      }
-      .stop h2 {
-        margin: 0 0 12px;
-        font:
-          500 48px/0.95 Georgia,
-          serif;
-      }
-      #lab-fade {
+      #world-labels {
         position: fixed;
         inset: 0;
-        z-index: 5;
-        background: #000;
-        opacity: 0;
         pointer-events: none;
       }
       #lab-info {
         position: fixed;
-        left: 16px;
-        bottom: 16px;
-        z-index: 6;
-        color: #c9cbbd;
+        left: 12px;
+        bottom: 12px;
         font:
-          12px/1.5 ui-monospace,
+          12px/1.4 ui-monospace,
           monospace;
-        white-space: pre;
-        pointer-events: none;
-      }
-      .shots #lab-info,
-      .shots .lil-gui {
-        display: none;
+        background: rgb(0 0 0 / 0.55);
+        padding: 6px 10px;
       }
     </style>
   </head>
   <body>
-    <canvas id="world" aria-hidden="true"></canvas>
-    <div id="lab-info">Génération des textures…</div>
+    <!-- Page de travail hors build (vite.config.js n'a qu'index.html en entrée) :
+         npm run dev puis http://localhost:5173/lab.html -->
+    <canvas id="world"></canvas>
+    <div id="world-labels"></div>
+    <div id="lab-info">chargement…</div>
     <script type="module" src="/src/lab.js"></script>
   </body>
 </html>

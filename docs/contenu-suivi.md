@@ -212,18 +212,18 @@ Les chaînes témoins sont dans `tools/spoiler-witnesses.json` et contrôlées p
 | arryn | 283 | 4 | 2 |
 | baratheon | 282 | 6 | 9 |
 | bolton | 285 | 4 | 2 |
-| clegane | 213 | 5 | 2 |
+| clegane | 272 | 5 | 2 |
 | frey | 315 | 4 | 1 |
 | greyjoy | 298 | 5 | 4 |
 | lannister | 260 | 8 | 6 |
 | martell | 295 | 4 | 7 |
-| mervault | 214 | 4 | 1 |
-| mormont | 220 | 4 | 3 |
-| reed | 207 | 4 | 2 |
+| mervault | 285 | 4 | 1 |
+| mormont | 291 | 4 | 3 |
+| reed | 267 | 4 | 2 |
 | stark | 266 | 7 | 11 |
 | targaryen | 283 | 6 | 5 |
-| tarly | 199 | 4 | 2 |
-| torth | 187 | 4 | 1 |
+| tarly | 267 | 4 | 2 |
+| torth | 258 | 4 | 1 |
 | tully | 291 | 4 | 5 |
 | tyrell | 288 | 6 | 4 |
 
@@ -287,10 +287,11 @@ Les chaînes témoins sont dans `tools/spoiler-witnesses.json` et contrôlées p
 - `characters/pyat-pree` : Peu de relations : Daenerys et Xaro seulement.
 - `characters/rhaegar-targaryen` : Lieu exact du mariage de Rhaegar et Lyanna dans la série : « Dorne », sans plus de précision à l’écran.
 - `characters/xaro-xhoan-daxos` : Peu de relations : Daenerys et Pyat Pree à l’écran (Jorah se méfie de lui sans échange notable).
-- `houses/clegane` : Prénom et date de mort du père inconnus dans la série.
+- `houses/clegane` : Prénom et date de mort du père inconnus dans la série. Incendie du château familial : détail des romans, non montré dans la série.
 - `houses/frey` : Devise et blason absents de la série ; Walda présentée comme petite-fille de Walder (à vérifier).
 - `houses/mervault` : Marya n’apparaît pas à l’écran ; nom des terres de Davos.
 - `houses/mormont` : Mort de Maege Mormont avant la saison 6 : la série ne la montre pas.
+- `houses/torth` : Paysage de l’île (falaises, oiseaux) : description libre, non montrée dans la série.
 - `places/blancport` : Blancport n’apparaît presque pas à l’écran ; fiche gardée pour la carte.
 - `places/lorath` : Lorath n’apparaît pas à l’écran ; on la connaît par Jaqen H’ghar.
 - `places/lys` : Lys n’est jamais montrée à l’écran ; fiche gardée pour la carte. Origine lysienne de Varys reprise des romans, à confirmer pour la série.

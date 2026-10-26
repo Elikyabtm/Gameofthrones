@@ -14,6 +14,12 @@ export function build() {
 
 /** Démarre `vite preview` et attend qu'il réponde en HTTP. */
 export async function startServer() {
+  // Un ancien serveur encore actif servirait un autre build : on refuse de continuer.
+  const busy = await fetch(BASE).then(
+    () => true,
+    () => false,
+  );
+  if (busy) throw new Error(`Le port ${PORT} est déjà occupé (ancien vite preview ?)`);
   const server = spawn(
     process.execPath,
     [VITE, 'preview', '--port', String(PORT), '--strictPort'],

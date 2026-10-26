@@ -32,8 +32,23 @@ const pick = (o, keys) =>
  * sans les biographies ni les longs textes (chargés fiche par fiche).
  */
 const HOUSE_ORDER = [
-  'stark', 'lannister', 'baratheon', 'targaryen', 'greyjoy', 'tyrell', 'martell', 'tully',
-  'arryn', 'bolton', 'frey', 'mormont', 'tarly', 'reed', 'clegane', 'torth', 'mervault',
+  'stark',
+  'lannister',
+  'baratheon',
+  'targaryen',
+  'greyjoy',
+  'tyrell',
+  'martell',
+  'tully',
+  'arryn',
+  'bolton',
+  'frey',
+  'mormont',
+  'tarly',
+  'reed',
+  'clegane',
+  'torth',
+  'mervault',
 ];
 
 /** Ordre d'affichage fixe : grandes maisons d'abord, puis vassales. */

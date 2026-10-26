@@ -126,6 +126,7 @@ export function renderFiche(root, { full, tab, season, data, order, query }) {
 
   let panel;
   if (!visibleNow) {
+    // Rien du personnage dans le DOM : ni nom, ni blason, ni onglets (§3.4).
     panel = `<p class="masked">Ce personnage apparaît à partir de la saison ${full.firstSeason}. Sa fiche est masquée pour ne rien vous révéler. <button type="button" class="link-btn" data-open-season>Changer de saison</button></p>`;
   } else if (tab === 'liens') {
     const rels = graph.relationsOf(c.slug, season);
@@ -139,17 +140,21 @@ export function renderFiche(root, { full, tab, season, data, order, query }) {
     <div class="fiche-media">
       ${visibleNow ? portrait(base, { sigil: house?.sigil, sizes: '(max-width: 700px) 100vw, 58vw', eager: true }) : ''}
       <div class="fiche-media-shade"></div>
-      <nav class="fiche-tabs" aria-label="Sections de la fiche">${TABS.map(
-        (t) =>
-          `<a href="/personnages/${c.slug}${t.id ? `/${t.id}` : ''}" ${(tab ?? '') === t.id ? 'aria-current="page"' : ''}>${t.label}</a>`,
-      ).join('<span class="dot" aria-hidden="true">·</span>')}</nav>
+      ${
+        visibleNow
+          ? `<nav class="fiche-tabs" aria-label="Sections de la fiche">${TABS.map(
+              (t) =>
+                `<a href="/personnages/${c.slug}${t.id ? `/${t.id}` : ''}" ${(tab ?? '') === t.id ? 'aria-current="page"' : ''}>${t.label}</a>`,
+            ).join('<span class="dot" aria-hidden="true">·</span>')}</nav>`
+          : ''
+      }
       ${visibleNow && c.quote ? `<blockquote class="fiche-quote"><p>« ${esc(c.quote.text)} »</p><cite>${esc(c.name)}</cite></blockquote>` : ''}
     </div>
     <div class="fiche-body">
       <a class="back" href="${back}">${ornament('arrow-left')}<span>Retour</span></a>
       <header class="fiche-head">
-        ${house ? `<img class="fiche-sigil" src="/${house.sigil}" alt="" width="36" height="36" />` : ''}
-        <h1 id="fiche-name">${esc(c.name)}</h1>
+        ${visibleNow && house ? `<img class="fiche-sigil" src="/${house.sigil}" alt="" width="36" height="36" />` : ''}
+        <h1 id="fiche-name">${visibleNow ? esc(c.name) : 'Fiche masquée'}</h1>
       </header>
       ${visibleNow ? `${identity(c, graph, season)}<p class="fiche-summary">${link(c.summary, c.slug)}</p>` : ''}
       <div class="fiche-panel" data-tab="${tab || 'bio'}">${panel}</div>
@@ -159,10 +164,10 @@ export function renderFiche(root, { full, tab, season, data, order, query }) {
 
   const last = visibleNow
     ? [...c.places].sort((a, b) => Math.max(...b.seasons) - Math.max(...a.seasons))[0]?.place
-    : full.origin;
+    : null;
   return {
-    name: c.name,
-    summary: c.summary,
+    name: visibleNow ? c.name : 'Fiche masquée',
+    summary: visibleNow ? c.summary : 'Ce personnage apparaît plus tard dans la série.',
     place: last,
     prev: idx > 0 ? graph.chars.get(order[idx - 1]) : null,
     next: idx >= 0 && idx < order.length - 1 ? graph.chars.get(order[idx + 1]) : null,

@@ -155,6 +155,7 @@ export async function initWorld({ canvas, labelsRoot, reducedMotion = () => fals
     /** Mode 'map' (net) ou 'ambient' (dérive au-dessus de `place` {x, y}). */
     setMode(m, { place, light } = {}) {
       mode = m;
+      world.setQuality(m === 'map' ? {} : { fps: 20, ratio: 0.5 });
       if (place) ambientTarget = toWorld(place.x, place.y, new Vector3()).setY(0.1);
       ambientLight = light ? parseLight(light) : lights.intro;
       if (m !== 'map') covered = false;
