@@ -1,0 +1,27 @@
+{
+  "slug": "langue-lhazareenne",
+  "rubric": "langues",
+  "name": "Le lhazaréen",
+  "kicker": "Essos · Lhazar",
+  "lead": "La voix des communautés de l’est des steppes.",
+  "body": [
+    "La langue lhazaréenne appartient aux peuples de Lhazar. Son existence rappelle qu’Essos comprend bien davantage de cultures que les seuls groupes longuement montrés à l’écran.",
+    "Comme pour d’autres langues peu documentées de l’univers, mieux vaut distinguer ce qui est attesté de ce qui reste indécrit. Aucun lexique complet n’est proposé ici."
+  ],
+  "facts": [
+    {
+      "label": "Où la retrouver",
+      "value": "Lhazar · communautés pastorales"
+    }
+  ],
+  "terms": [],
+  "places": [],
+  "characters": [],
+  "image": null,
+  "sources": [
+    {
+      "label": "A Wiki of Ice and Fire",
+      "url": "https://awoiaf.westeros.org/index.php/Languages"
+    }
+  ]
+}

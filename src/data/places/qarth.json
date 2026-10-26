@@ -1,0 +1,14 @@
+{
+  "slug": "qarth",
+  "name": "Qarth",
+  "kind": "cité",
+  "region": "Carrefour commercial",
+  "continent": "essos",
+  "description": [
+    "Qarth se situe à la jonction de grandes routes de commerce. Ses élites et ses institutions forment un monde différent des khalasars comme des Cités libres occidentales. La ville montre à Daenerys qu’un accueil peut aussi être une manière de contrôler."
+  ],
+  "history": [],
+  "events": [],
+  "image": "images/braavos.webp",
+  "sources": []
+}

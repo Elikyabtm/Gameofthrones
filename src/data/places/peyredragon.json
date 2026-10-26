@@ -1,0 +1,18 @@
+{
+  "slug": "peyredragon",
+  "name": "Peyredragon",
+  "kind": "cité",
+  "region": "Les Terres de la Couronne",
+  "continent": "westeros",
+  "coords": {
+    "x": 583.04,
+    "y": 717.78
+  },
+  "description": [
+    "Une île forteresse à l’entrée de la baie de la Néra. Son architecture et son histoire portent la marque de l’héritage Targaryen."
+  ],
+  "history": [],
+  "events": [],
+  "image": null,
+  "sources": []
+}

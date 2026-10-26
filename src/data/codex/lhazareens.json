@@ -1,0 +1,44 @@
+{
+  "slug": "lhazareens",
+  "rubric": "peuples",
+  "name": "Les Lhazaréens",
+  "kicker": "Essos · Lhazar",
+  "lead": "Des communautés pastorales dont le récit rappelle le coût des conquêtes.",
+  "body": [
+    "Lhazar se trouve au sud-est de la mer Dothrak. Les communautés qui y vivent sont associées à l’élevage et au culte du Grand Pâtre. Elles subissent les raids de groupes plus puissants, qui emportent des personnes réduites en esclavage.",
+    "Mirri Maz Duur donne un visage à ces populations. Son apparition déplace le regard : ce qui est raconté comme un triomphe par les conquérants peut être une catastrophe pour ceux qui en subissent le passage."
+  ],
+  "facts": [
+    {
+      "label": "Langue",
+      "value": "Lhazaréen"
+    },
+    {
+      "label": "Visages & repères",
+      "value": "Mirri Maz Duur"
+    }
+  ],
+  "terms": [
+    {
+      "term": "Territoire",
+      "def": "Lhazar"
+    },
+    {
+      "term": "Vie",
+      "def": "pastoralisme"
+    },
+    {
+      "term": "Culte",
+      "def": "Grand Pâtre"
+    }
+  ],
+  "places": [],
+  "characters": [],
+  "image": "images/lhazareens.webp",
+  "sources": [
+    {
+      "label": "A Wiki of Ice and Fire",
+      "url": "https://awoiaf.westeros.org/index.php/Lhazareen"
+    }
+  ]
+}

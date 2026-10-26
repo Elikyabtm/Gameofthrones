@@ -1,0 +1,18 @@
+{
+  "slug": "port-real",
+  "name": "Port-Réal",
+  "kind": "cité",
+  "region": "Les Terres de la Couronne",
+  "continent": "westeros",
+  "coords": {
+    "x": 475.67,
+    "y": 780.73
+  },
+  "description": [
+    "La capitale des Sept Couronnes. Le Donjon Rouge domine la ville ; sous ses voûtes, le Trône de Fer concentre les ambitions."
+  ],
+  "history": [],
+  "events": [],
+  "image": null,
+  "sources": []
+}

@@ -1,0 +1,17 @@
+{
+  "slug": "stark",
+  "name": "Maison Stark",
+  "words": "L’hiver vient.",
+  "sigil": "sigils/stark.svg",
+  "sigilDescription": "Un loup géant gris sur champ blanc.",
+  "sigilCredit": null,
+  "seat": "winterfell",
+  "region": "Le Nord",
+  "history": [
+    "Les Stark gouvernent un territoire immense, séparé du Sud par les distances et par une mémoire ancienne. Leurs liens avec les Premiers Hommes et les anciens dieux restent visibles dans le bois sacré de Winterfell. Leur conception du devoir se heurte à la politique plus mobile de la cour."
+  ],
+  "inTheSeries": [],
+  "figures": [],
+  "members": [],
+  "sources": []
+}

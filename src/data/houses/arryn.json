@@ -1,0 +1,17 @@
+{
+  "slug": "arryn",
+  "name": "Maison Arryn",
+  "words": "Aussi haute qu’honneur.",
+  "sigil": "sigils/arryn.svg",
+  "sigilDescription": "Un faucon et une lune blanche sur champ bleu.",
+  "sigilCredit": null,
+  "seat": "les-eyrie",
+  "region": "Le Val",
+  "history": [
+    "Le Val s’abrite derrière les montagnes de la Lune et les défenses des Eyrié. Jon Arryn a joué un rôle de tuteur politique et familial auprès de Robert et de Ned. Sa maison rappelle qu’un personnage absent peut laisser des liens décisifs dans toute l’histoire du royaume."
+  ],
+  "inTheSeries": [],
+  "figures": [],
+  "members": [],
+  "sources": []
+}

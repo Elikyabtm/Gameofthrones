@@ -1,0 +1,14 @@
+{
+  "slug": "qohor",
+  "name": "Qohor",
+  "kind": "cité",
+  "region": "Cité libre",
+  "continent": "essos",
+  "description": [
+    "Plus à l’intérieur des terres, Qohor se distingue notamment par ses traditions métallurgiques et son culte du Bouc Noir. Dans l’histoire des Immaculés, la défense de cette cité occupe une place importante dans leur réputation militaire."
+  ],
+  "history": [],
+  "events": [],
+  "image": "images/immacules.webp",
+  "sources": []
+}

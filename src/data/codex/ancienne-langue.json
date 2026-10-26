@@ -1,0 +1,27 @@
+{
+  "slug": "ancienne-langue",
+  "rubric": "langues",
+  "name": "L’ancienne langue",
+  "kicker": "Westeros · Premiers Hommes & Grand Nord",
+  "lead": "Des voix plus anciennes que les royaumes actuels.",
+  "body": [
+    "L’ancienne langue est associée aux Premiers Hommes. Elle a largement cédé la place à la langue commune dans les Sept Couronnes, mais demeure connue dans certaines communautés au-delà du Mur.",
+    "Les géants et une partie du Peuple libre en conservent des usages. Elle marque la distance historique et culturelle entre le monde que les seigneurs administrent et celui que les récits du Sud connaissent mal."
+  ],
+  "facts": [
+    {
+      "label": "Où la retrouver",
+      "value": "Au-delà du Mur · mémoire des Premiers Hommes"
+    }
+  ],
+  "terms": [],
+  "places": [],
+  "characters": [],
+  "image": null,
+  "sources": [
+    {
+      "label": "A Wiki of Ice and Fire",
+      "url": "https://awoiaf.westeros.org/index.php/Old_Tongue"
+    }
+  ]
+}

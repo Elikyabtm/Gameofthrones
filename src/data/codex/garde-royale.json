@@ -1,0 +1,44 @@
+{
+  "slug": "garde-royale",
+  "rubric": "ordres",
+  "name": "La Garde Royale",
+  "kicker": "Westeros · La Couronne",
+  "lead": "Des chevaliers chargés de protéger le souverain, même lorsque le devoir devient un dilemme.",
+  "body": [
+    "La Garde Royale est un ordre de chevaliers reconnaissable à ses manteaux blancs. La protection du monarque et de sa famille passe avant les intérêts de naissance de ses membres.",
+    "Le serment paraît simple jusqu’au moment où la fidélité au roi entre en conflit avec d’autres obligations morales. Jaime et Barristan illustrent deux façons de vivre le poids de cette institution et le jugement qu’elle porte sur ses propres membres."
+  ],
+  "facts": [
+    {
+      "label": "Langue",
+      "value": "Langue commune"
+    },
+    {
+      "label": "Visages & repères",
+      "value": "Barristan Selmy · Jaime Lannister · Arthur Dayne"
+    }
+  ],
+  "terms": [
+    {
+      "term": "Signe",
+      "def": "manteau blanc"
+    },
+    {
+      "term": "Mission",
+      "def": "protéger"
+    },
+    {
+      "term": "Tension",
+      "def": "obéissance"
+    }
+  ],
+  "places": [],
+  "characters": [],
+  "image": "images/garde-royale.webp",
+  "sources": [
+    {
+      "label": "A Wiki of Ice and Fire",
+      "url": "https://awoiaf.westeros.org/index.php/Kingsguard"
+    }
+  ]
+}

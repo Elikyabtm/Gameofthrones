@@ -1,0 +1,44 @@
+{
+  "slug": "fraternite-sans-bannieres",
+  "rubric": "ordres",
+  "name": "La Fraternité sans Bannières",
+  "kicker": "Westeros · Le Conflans",
+  "lead": "Un groupe né de la guerre, au contact des populations prises entre les armées.",
+  "body": [
+    "La Fraternité se développe dans les terres dévastées du Conflans. Elle se présente comme une force qui défend ceux que les grandes maisons laissent sans protection, plutôt que comme une troupe portant la bannière d’un souverain.",
+    "Ses membres ne partagent pas tous la même origine sociale. La présence de Thoros et de Beric donne aussi une place importante au culte du Maître de la Lumière. Les trajectoires de cette fraternité divergent entre l’adaptation et les romans."
+  ],
+  "facts": [
+    {
+      "label": "Langue",
+      "value": "Langue commune"
+    },
+    {
+      "label": "Visages & repères",
+      "value": "Beric Dondarrion · Thoros de Myr"
+    }
+  ],
+  "terms": [
+    {
+      "term": "Territoire",
+      "def": "Conflans"
+    },
+    {
+      "term": "Enjeu",
+      "def": "petites gens"
+    },
+    {
+      "term": "Figures",
+      "def": "Beric et Thoros"
+    }
+  ],
+  "places": [],
+  "characters": [],
+  "image": "images/fraternite-sans-bannieres.webp",
+  "sources": [
+    {
+      "label": "A Wiki of Ice and Fire",
+      "url": "https://awoiaf.westeros.org/index.php/Brotherhood_without_banners"
+    }
+  ]
+}

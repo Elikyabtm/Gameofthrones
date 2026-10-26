@@ -1,0 +1,18 @@
+{
+  "slug": "blancport",
+  "name": "Blancport",
+  "kind": "cité",
+  "region": "Le Nord",
+  "continent": "westeros",
+  "coords": {
+    "x": 433.17,
+    "y": 424.95
+  },
+  "description": [
+    "Le grand port du Nord relie les terres Stark aux échanges maritimes du continent."
+  ],
+  "history": [],
+  "events": [],
+  "image": null,
+  "sources": []
+}

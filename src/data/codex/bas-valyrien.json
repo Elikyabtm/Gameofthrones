@@ -1,0 +1,27 @@
+{
+  "slug": "bas-valyrien",
+  "rubric": "langues",
+  "name": "Les valyriens d’Essos",
+  "kicker": "Essos · Cités libres & baie des Serfs",
+  "lead": "Des langues apparentées, avec des histoires locales.",
+  "body": [
+    "« Bas valyrien » recouvre des variétés descendantes de la langue de Valyria. Les Cités libres ne parlent pas toutes exactement de la même manière ; l’histoire et les contacts ont fait évoluer les langues.",
+    "Les variétés de la baie des Serfs ont notamment reçu une influence ghiscarie. Le valyrien d’Astapor ne doit donc pas être présenté comme une simple répétition du haut valyrien appris par les élites."
+  ],
+  "facts": [
+    {
+      "label": "Où la retrouver",
+      "value": "Braavos · Pentos · Astapor · Meereen"
+    }
+  ],
+  "terms": [],
+  "places": [],
+  "characters": [],
+  "image": null,
+  "sources": [
+    {
+      "label": "A Wiki of Ice and Fire",
+      "url": "https://awoiaf.westeros.org/index.php/High_Valyrian"
+    }
+  ]
+}

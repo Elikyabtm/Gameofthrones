@@ -1,0 +1,18 @@
+{
+  "slug": "hautjardin",
+  "name": "Hautjardin",
+  "kind": "cité",
+  "region": "Le Bief",
+  "continent": "westeros",
+  "coords": {
+    "x": 305.89,
+    "y": 917.23
+  },
+  "description": [
+    "Le domaine des Tyrell au cœur du Bief. Ses terres fertiles rappellent que le ravitaillement est aussi une forme de pouvoir."
+  ],
+  "history": [],
+  "events": [],
+  "image": null,
+  "sources": []
+}

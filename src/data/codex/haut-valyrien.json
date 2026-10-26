@@ -1,0 +1,40 @@
+{
+  "slug": "haut-valyrien",
+  "rubric": "langues",
+  "name": "Le haut valyrien",
+  "kicker": "Valyria · Héritage & savoir",
+  "lead": "Le prestige d’un empire dont le centre a disparu.",
+  "body": [
+    "Le haut valyrien est lié à l’ancienne civilisation de Valyria et à des usages savants, religieux ou dynastiques. Sa connaissance peut signaler une éducation, une tradition familiale ou une ambition de pouvoir.",
+    "Pour la télévision, David J. Peterson a construit une langue développée à partir des expressions déjà présentes dans les livres. Les tournures conservées dans le monde de Game of Thrones ont parfois une portée rituelle autant que pratique."
+  ],
+  "facts": [
+    {
+      "label": "Où la retrouver",
+      "value": "Héritage valyrien · savants · Targaryen"
+    }
+  ],
+  "terms": [
+    {
+      "term": "Valar morghulis",
+      "def": "Tout homme doit mourir."
+    },
+    {
+      "term": "Valar dohaeris",
+      "def": "Tout homme doit servir."
+    },
+    {
+      "term": "Dracarys",
+      "def": "Feu de dragon ; utilisé comme ordre aux dragons."
+    }
+  ],
+  "places": [],
+  "characters": [],
+  "image": null,
+  "sources": [
+    {
+      "label": "dedalvs.com",
+      "url": "https://dedalvs.com/work/game-of-thrones/game_of_thrones_master_dialogue.pdf"
+    }
+  ]
+}

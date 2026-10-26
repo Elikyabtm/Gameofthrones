@@ -1,0 +1,44 @@
+{
+  "slug": "ghiscaris",
+  "rubric": "peuples",
+  "name": "Les Ghiscari",
+  "kicker": "Essos · Baie des Serfs",
+  "lead": "Des cités héritières de Ghis, au cœur du récit de l’esclavage et de son abolition.",
+  "body": [
+    "Les villes de la baie des Serfs gardent des traces de l’ancien monde ghiscari dans leur architecture, leurs symboles et leurs institutions. Les harpies, les pyramides et les grandes familles de maîtres composent un paysage politique différent de celui des royaumes de Westeros.",
+    "Ces cités ne sont pas interchangeables : Astapor est notamment associée à la formation des Immaculés, tandis que Meereen devient un lieu central des difficultés du gouvernement après une libération. La langue quotidienne appartient aux variétés locales du valyrien, marquées par l’histoire ghiscarie."
+  ],
+  "facts": [
+    {
+      "label": "Langue",
+      "value": "Valyrien local ; ancien ghiscari dans l’histoire"
+    },
+    {
+      "label": "Visages & repères",
+      "value": "Astapor · Yunkaï · Meereen"
+    }
+  ],
+  "terms": [
+    {
+      "term": "Cités",
+      "def": "trois grands centres"
+    },
+    {
+      "term": "Symbole",
+      "def": "harpie"
+    },
+    {
+      "term": "Héritage",
+      "def": "Ghis"
+    }
+  ],
+  "places": [],
+  "characters": [],
+  "image": "images/ghiscari.webp",
+  "sources": [
+    {
+      "label": "Wiki of Westeros",
+      "url": "https://gameofthrones.fandom.com/wiki/Ghiscari"
+    }
+  ]
+}

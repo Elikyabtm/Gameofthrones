@@ -1,0 +1,14 @@
+{
+  "slug": "volantis",
+  "name": "Volantis",
+  "kind": "cité",
+  "region": "Cité libre",
+  "continent": "essos",
+  "description": [
+    "Volantis revendique fortement l’héritage de Valyria. Ses vieilles familles et ses quartiers marquent une hiérarchie sociale profonde. Le commerce et le culte du Maître de la Lumière donnent à la cité une influence qui traverse une partie du continent."
+  ],
+  "history": [],
+  "events": [],
+  "image": "images/braavos.webp",
+  "sources": []
+}

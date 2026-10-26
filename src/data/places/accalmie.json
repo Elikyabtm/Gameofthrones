@@ -1,0 +1,18 @@
+{
+  "slug": "accalmie",
+  "name": "Accalmie",
+  "kind": "cité",
+  "region": "Les Terres de l’Orage",
+  "continent": "westeros",
+  "coords": {
+    "x": 549.84,
+    "y": 873.65
+  },
+  "description": [
+    "Une forteresse de la maison Baratheon bâtie pour résister aux colères de la mer et de l’orage."
+  ],
+  "history": [],
+  "events": [],
+  "image": null,
+  "sources": []
+}

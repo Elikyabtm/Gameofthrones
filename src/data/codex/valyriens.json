@@ -1,0 +1,44 @@
+{
+  "slug": "valyriens",
+  "rubric": "peuples",
+  "name": "Les Valyriens",
+  "kicker": "Essos · Ancienne Valyria",
+  "lead": "Un empire disparu dont les langues, l’acier et les dragons continuent d’agir sur le monde.",
+  "body": [
+    "La puissance de Valyria s’appuyait sur les dragons et un vaste système impérial, marqué aussi par l’esclavage. Le Fléau de Valyria détruit son centre et transforme la région en territoire redouté. Sa disparition n’efface cependant ni ses héritiers ni ses techniques.",
+    "Les Targaryen conservent une part de cette tradition à Peyredragon, puis à Westeros. L’acier valyrien et le prestige de la langue ancienne montrent comment un empire peut survivre dans des objets, des usages et des revendications bien après sa chute."
+  ],
+  "facts": [
+    {
+      "label": "Langue",
+      "value": "Haut valyrien et langues descendantes"
+    },
+    {
+      "label": "Visages & repères",
+      "value": "Targaryen · Velaryon · anciens seigneurs dragons"
+    }
+  ],
+  "terms": [
+    {
+      "term": "Langue",
+      "def": "haut valyrien"
+    },
+    {
+      "term": "Héritage",
+      "def": "dragons"
+    },
+    {
+      "term": "Objet",
+      "def": "acier valyrien"
+    }
+  ],
+  "places": [],
+  "characters": [],
+  "image": "images/valyriens.webp",
+  "sources": [
+    {
+      "label": "A Wiki of Ice and Fire",
+      "url": "https://awoiaf.westeros.org/index.php/Valyria"
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "slug": "langue-ghiscarie",
+  "rubric": "langues",
+  "name": "L’ancien ghiscari",
+  "kicker": "Essos · Ghis & sa mémoire",
+  "lead": "Une langue ancienne dont les traces ont survécu à la disparition.",
+  "body": [
+    "L’ancien ghiscari appartient à l’histoire de l’empire de Ghis. Au temps de la série, il est considéré comme une langue morte, tandis que les habitants des cités de la baie des Serfs parlent des variétés locales du valyrien.",
+    "Son influence ne s’efface pas entièrement : des mots et des particularités ont été conservés dans les langues qui l’ont remplacé. Une trace linguistique peut ainsi survivre à l’ordre politique qui l’a produite."
+  ],
+  "facts": [
+    {
+      "label": "Où la retrouver",
+      "value": "Ghis · traces dans la baie des Serfs"
+    }
+  ],
+  "terms": [],
+  "places": [],
+  "characters": [],
+  "image": null,
+  "sources": [
+    {
+      "label": "Wiki of Westeros",
+      "url": "https://gameofthrones.fandom.com/wiki/Old_Ghiscari"
+    }
+  ]
+}

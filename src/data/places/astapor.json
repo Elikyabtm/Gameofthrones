@@ -1,0 +1,14 @@
+{
+  "slug": "astapor",
+  "name": "Astapor",
+  "kind": "cité",
+  "region": "Baie des Serfs",
+  "continent": "essos",
+  "description": [
+    "Astapor est associée à la formation et à la vente des Immaculés. La cité met en évidence la façon dont un ordre économique peut transformer des personnes en instrument de puissance militaire. Son histoire devient centrale dans la rencontre entre Daenerys et les sociétés de la baie."
+  ],
+  "history": [],
+  "events": [],
+  "image": "images/immacules.webp",
+  "sources": []
+}

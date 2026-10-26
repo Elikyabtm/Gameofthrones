@@ -1,4 +1,4 @@
-/* Base : remise à zéro, typographie courante, focus, lien d'évitement. */
+/* Base : remise à zéro, typographie courante, focus, utilitaires. */
 *,
 *::before,
 *::after {
@@ -8,6 +8,7 @@
 html {
   -webkit-text-size-adjust: 100%;
   text-size-adjust: 100%;
+  background: var(--bg);
 }
 
 body {
@@ -20,15 +21,17 @@ body {
   line-height: var(--lh-body);
   -webkit-font-smoothing: antialiased;
   text-rendering: optimizeLegibility;
+  overflow-x: hidden;
 }
 
 h1,
 h2,
-h3 {
+h3,
+h4 {
   margin: 0;
   font-family: var(--serif);
   font-weight: 500;
-  line-height: 1.05;
+  line-height: 1.08;
 }
 
 p {
@@ -43,31 +46,47 @@ canvas {
 }
 
 a {
-  color: var(--gold);
+  color: inherit;
+  text-decoration-color: var(--line-strong);
+  text-underline-offset: 0.2em;
+}
+
+a:hover {
+  text-decoration-color: var(--accent);
 }
 
 button {
   font: inherit;
   color: inherit;
+  background: none;
+  border: 0;
+  padding: 0;
+  cursor: pointer;
 }
 
-/* Focus toujours visible (§9). */
+ul,
+ol {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+/* Focus toujours visible (§12). */
 :focus-visible {
-  outline: 2px solid var(--gold);
+  outline: 1px solid var(--accent);
   outline-offset: 3px;
 }
 
-/* Lien d'évitement : invisible jusqu'au focus clavier. */
 .skip-link {
-  position: absolute;
-  top: var(--frame);
-  left: var(--frame);
-  z-index: 100;
+  position: fixed;
+  top: calc(var(--frame) + 8px);
+  left: calc(var(--frame) + 8px);
+  z-index: 200;
   padding: 8px 14px;
   background: var(--bg-2);
-  color: var(--ink);
+  border: 1px solid var(--line-strong);
   font-size: var(--fs-small);
-  transform: translateY(-200%);
+  transform: translateY(-300%);
 }
 
 .skip-link:focus {
@@ -75,7 +94,7 @@ button {
 }
 
 .visually-hidden {
-  position: absolute;
+  position: absolute !important;
   width: 1px;
   height: 1px;
   overflow: hidden;
@@ -83,12 +102,85 @@ button {
   white-space: nowrap;
 }
 
-/* Petites capitales réutilisables (étiquettes, régions). */
+/* Petites capitales d'interface (sans, espacées de 0,18 em). */
 .label {
+  font-family: var(--sans);
   font-size: var(--fs-label);
-  letter-spacing: 0.22em;
+  font-weight: 500;
+  letter-spacing: 0.18em;
   text-transform: uppercase;
-  color: var(--gold);
+  color: var(--ink-2);
+}
+
+.label-accent {
+  color: var(--accent);
+}
+
+.serif {
+  font-family: var(--serif);
+}
+
+/* Filet horizontal terminé par des losanges « ─◆ ». */
+.rule {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: var(--line-strong);
+}
+
+.rule::before,
+.rule::after {
+  content: '';
+  flex: 1;
+  height: 1px;
+  background: var(--line);
+}
+
+.diamond {
+  width: 6px;
+  height: 6px;
+  border: 1px solid currentColor;
+  transform: rotate(45deg);
+  flex: none;
+}
+
+/* Bouton fin réutilisable. */
+.btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  min-height: 44px;
+  padding: 10px 22px;
+  border: 1px solid var(--line-strong);
+  font-family: var(--sans);
+  font-size: var(--fs-label);
+  font-weight: 500;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: var(--ink);
+  transition:
+    border-color 400ms var(--ease),
+    background-color 400ms var(--ease);
+}
+
+.btn:hover {
+  border-color: var(--accent);
+  background: #c9b27c14;
+}
+
+.btn-accent {
+  border-color: var(--accent);
+  color: var(--accent);
+}
+
+.reduced-motion *,
+.reduced-motion *::before,
+.reduced-motion *::after {
+  animation-duration: 0.01ms !important;
+  animation-iteration-count: 1 !important;
+  transition-duration: 0.01ms !important;
+  scroll-behavior: auto !important;
 }
 
 @media (prefers-reduced-motion: reduce) {

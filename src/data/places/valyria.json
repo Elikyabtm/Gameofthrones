@@ -1,0 +1,14 @@
+{
+  "slug": "valyria",
+  "name": "Valyria",
+  "kind": "cité",
+  "region": "Ruines de l’ancien empire",
+  "continent": "essos",
+  "description": [
+    "Le Fléau a détruit le cœur de l’ancienne puissance valyrienne. Les ruines sont devenues un lieu redouté, mais son héritage demeure ailleurs : dans les langues, l’acier, les dragons et les familles qui revendiquent encore son prestige."
+  ],
+  "history": [],
+  "events": [],
+  "image": "images/dragon.webp",
+  "sources": []
+}

@@ -1,0 +1,49 @@
+{
+  "slug": "immacules",
+  "rubric": "ordres",
+  "name": "Les Immaculés",
+  "kicker": "Essos · Astapor",
+  "lead": "Une infanterie de formation, dont l’histoire pose la question de l’obéissance et de la liberté.",
+  "body": [
+    "Les Immaculés ne constituent pas un peuple : ce sont des soldats réduits en esclavage et formés à Astapor. Leur réputation vient d’un entraînement collectif extrêmement violent, de leur endurance et de leur capacité à tenir une ligne. La lance, le bouclier rond et le casque à pointe composent leur silhouette.",
+    "Leur efficacité repose sur la coordination. Là où une charge de cavalerie cherche le mouvement et le choc, leur force tient à la cohésion des rangs. Les villes de la baie des Serfs les vendent comme une marchandise militaire, effaçant jusqu’à leurs noms et à leur individualité.",
+    "Leur rencontre avec Daenerys change ce cadre. La liberté de rester ou de partir devient un enjeu du récit, et Ver Gris incarne progressivement une parole propre au groupe. Comprendre les Immaculés, c’est donc regarder au-delà de la discipline pour retrouver les personnes que cette institution voulait rendre interchangeables."
+  ],
+  "facts": [
+    {
+      "label": "Langue",
+      "value": "Valyrien d’Astapor ; apprentissage de la langue commune"
+    },
+    {
+      "label": "Visages & repères",
+      "value": "Ver Gris · Daenerys · Missandei"
+    }
+  ],
+  "terms": [
+    {
+      "term": "Nature",
+      "def": "infanterie"
+    },
+    {
+      "term": "Formation",
+      "def": "rangs serrés"
+    },
+    {
+      "term": "Origine",
+      "def": "Astapor"
+    },
+    {
+      "term": "Figure",
+      "def": "Ver Gris"
+    }
+  ],
+  "places": [],
+  "characters": [],
+  "image": "images/immacules.webp",
+  "sources": [
+    {
+      "label": "Wiki of Westeros",
+      "url": "https://gameofthrones.fandom.com/wiki/Unsullied"
+    }
+  ]
+}

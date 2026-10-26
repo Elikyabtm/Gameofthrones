@@ -1,0 +1,44 @@
+{
+  "slug": "fils-de-la-harpie",
+  "rubric": "ordres",
+  "name": "Les Fils de la Harpie",
+  "kicker": "Essos · Meereen",
+  "lead": "Une résistance clandestine à la fin de l’ancien ordre esclavagiste.",
+  "body": [
+    "Les Fils de la Harpie apparaissent à Meereen après le bouleversement du pouvoir des maîtres. Dans la série, leurs masques dorés transforment des personnes anonymes en une menace collective immédiatement reconnaissable.",
+    "Le groupe agit dans les rues et dans l’ombre, plutôt que sur un champ de bataille ouvert. Son existence montre la difficulté de transformer une société : renverser ceux qui gouvernaient ne suffit pas à faire disparaître leurs réseaux et leurs intérêts."
+  ],
+  "facts": [
+    {
+      "label": "Langue",
+      "value": "Valyrien meereenien"
+    },
+    {
+      "label": "Visages & repères",
+      "value": "Aucune figure nommée : des anonymes masqués"
+    }
+  ],
+  "terms": [
+    {
+      "term": "Signe",
+      "def": "masque de harpie"
+    },
+    {
+      "term": "Nature",
+      "def": "clandestinité"
+    },
+    {
+      "term": "Conflit",
+      "def": "ordre social"
+    }
+  ],
+  "places": [],
+  "characters": [],
+  "image": "images/fils-de-la-harpie.webp",
+  "sources": [
+    {
+      "label": "A Wiki of Ice and Fire",
+      "url": "https://awoiaf.westeros.org/index.php/Sons_of_the_Harpy"
+    }
+  ]
+}

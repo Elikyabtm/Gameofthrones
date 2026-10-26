@@ -1,0 +1,44 @@
+{
+  "slug": "thenns",
+  "rubric": "peuples",
+  "name": "Les Thenns",
+  "kicker": "Westeros · Au-delà du Mur",
+  "lead": "Un groupe du Peuple libre qui révèle les différences entre clans et entre adaptations.",
+  "body": [
+    "Les Thenns viennent de régions très septentrionales. Ils possèdent une identité propre à l’intérieur du vaste ensemble que les habitants du Sud appellent les sauvageons.",
+    "Leur représentation diffère fortement entre les supports. Les romans insistent sur leur organisation et le travail du bronze ; la série leur donne une image beaucoup plus menaçante. Les deux descriptions ne doivent pas être fusionnées comme s’il s’agissait d’une seule tradition uniforme."
+  ],
+  "facts": [
+    {
+      "label": "Langue",
+      "value": "Ancienne langue et langue commune selon le contexte"
+    },
+    {
+      "label": "Visages & repères",
+      "value": "Styr · Loboda dans la série"
+    }
+  ],
+  "terms": [
+    {
+      "term": "Ensemble",
+      "def": "Peuple libre"
+    },
+    {
+      "term": "Particularité",
+      "def": "clan distinct"
+    },
+    {
+      "term": "Lecture",
+      "def": "série / romans"
+    }
+  ],
+  "places": [],
+  "characters": [],
+  "image": "images/thenns.webp",
+  "sources": [
+    {
+      "label": "Wiki of Westeros",
+      "url": "https://gameofthrones.fandom.com/wiki/Thenns"
+    }
+  ]
+}

@@ -1,90 +1,66 @@
-// Captures de lab.html (phase 1) : 4 vues en palette du cahier + 2 variantes de palette.
-// Lance le serveur de dev Vite (lab.html est exclu du build), puis Playwright.
-// Usage : node tools/lab-shots.mjs [--mobile]
-import { spawn } from 'node:child_process';
+// Captures du paysage (phase 2) : intro, étapes au cadrage haut et rapproché.
+// Usage : node tools/lab-shots.mjs [--mobile] [--steps=winterfell,braavos] [--no-build]
+// Les étapes sont visitées par l'URL /carte/{étape} puis repositionnées à u donné.
 import { mkdirSync } from 'node:fs';
-import { chromium } from 'playwright';
+import { BASE, build, launch, sleep, startServer, waitUntil } from './browser.mjs';
 
-const PORT = 5174;
-const VITE = new URL('../node_modules/vite/bin/vite.js', import.meta.url).pathname;
-const SHOTS = new URL('./shots/', import.meta.url);
-const mobile = process.argv.includes('--mobile');
+const args = process.argv.slice(2);
+const mobile = args.includes('--mobile');
+const only = args
+  .find((a) => a.startsWith('--steps='))
+  ?.slice(8)
+  .split(',');
+const us = (args.find((a) => a.startsWith('--u='))?.slice(4) ?? '0.2,0.45').split(',').map(Number);
+const OUT = new URL('./shots/lab/', import.meta.url);
+mkdirSync(OUT, { recursive: true });
 
-const server = spawn(process.execPath, [VITE, '--port', String(PORT), '--strictPort'], {
-  stdio: ['ignore', 'ignore', 'inherit'],
+if (!args.includes('--no-build')) build();
+const server = await startServer();
+const browser = await launch();
+const page = await browser.newPage({
+  viewport: mobile ? { width: 390, height: 844 } : { width: 1440, height: 900 },
 });
-for (let i = 0; ; i++) {
-  if (i > 200) throw new Error('vite ne démarre pas');
-  try {
-    if ((await fetch(`http://localhost:${PORT}/lab.html`)).ok) break;
-  } catch {
-    // pas encore prêt
-  }
-  await new Promise((r) => setTimeout(r, 100));
-}
-
-const browser = await chromium.launch({
-  args: ['--use-gl=swiftshader', '--enable-webgl', '--ignore-gpu-blocklist'],
-});
-mkdirSync(SHOTS, { recursive: true });
-const errors = [];
+page.on('console', (m) => m.type() === 'error' && console.log('  console :', m.text()));
+page.on('pageerror', (e) => console.log('  exception :', e.message));
 try {
-  const page = await browser.newPage({
-    viewport: mobile ? { width: 390, height: 844 } : { width: 1440, height: 900 },
-  });
-  page.on('console', (m) => {
-    if (m.type() === 'error') errors.push(m.text());
-    if (m.text().startsWith('[lab]')) console.log(m.text());
-  });
-  page.on('pageerror', (e) => errors.push(e.message));
-  await page.goto(`http://localhost:${PORT}/lab.html?shots&vues${mobile ? '&mobile' : ''}`);
-  await page.waitForFunction(() => window.lab?.ready, null, { timeout: 120000 });
-  const prefix = mobile ? 'phase1-mobile' : 'phase1';
-
-  const views = { 0: 'ensemble', 1: 'mur', 2: 'winterfell', 3: 'port-real' };
-  for (const [n, name] of Object.entries(views)) {
-    await page.evaluate((v) => window.lab.view(Number(v)), n);
-    await page.screenshot({ path: new URL(`${prefix}-${n}-${name}.png`, SHOTS).pathname });
-    console.log(`capture : tools/shots/${prefix}-${n}-${name}.png`);
-  }
-  if (!mobile) {
-    for (const key of ['sepia', 'encre']) {
-      await page.evaluate((k) => window.lab.palette(k), key);
-      for (const [n, name] of [
-        [0, 'ensemble'],
-        [2, 'winterfell'],
-      ]) {
-        await page.evaluate((v) => window.lab.view(v), n);
-        const file = `${prefix}-palette-${key}-${name}.png`;
-        await page.screenshot({ path: new URL(file, SHOTS).pathname });
-        console.log(`capture : tools/shots/${file}`);
-      }
+  await page.goto(`${BASE}/`);
+  // Saison déjà choisie : pas de sélecteur.
+  await page.evaluate(() => window.realm.store.set({ season: 8 }));
+  const t0 = Date.now();
+  await waitUntil(page, () => window.realm.world?.state?.ready, null, 180000);
+  const w = await page.evaluate(() => ({
+    init: window.realm.world.initMs,
+    timings: window.realm.world.timings,
+    worker: window.realm.world.usedWorker,
+  }));
+  console.log(`Monde prêt en ${Date.now() - t0} ms`, JSON.stringify(w));
+  await sleep(2500);
+  await page.screenshot({ path: new URL(`intro${mobile ? '-m' : ''}.png`, OUT).pathname });
+  const steps = await page.evaluate(() =>
+    [...document.querySelectorAll('.step')].map((e) => e.id.slice(6)),
+  );
+  for (const slug of steps.filter((s) => !only || only.includes(s))) {
+    for (const u of us) {
+      await page.evaluate(
+        ({ slug, u }) => {
+          const el = document.getElementById(`etape-${slug}`);
+          const top = el.getBoundingClientRect().top + scrollY;
+          scrollTo(0, Math.round(top + u * (el.offsetHeight - innerHeight)));
+        },
+        { slug, u },
+      );
+      await waitUntil(page, (slug) => window.realm.state?.slug === slug, slug, 30000);
+      await sleep(2600); // quelques images en rendu logiciel
+      await page.screenshot({
+        path: new URL(`${slug}-${u}${mobile ? '-m' : ''}.png`, OUT).pathname,
+      });
+      console.log(
+        `  ${slug} u=${u}`,
+        JSON.stringify(await page.evaluate(() => window.realm.state.world)),
+      );
     }
   }
-  if (!mobile && process.argv.includes('--maquettes')) {
-    // Planche de contrôle : chaque cité en gros plan.
-    const cities = await page.evaluate(() =>
-      fetch('/src/data/map.json')
-        .then((r) => r.json())
-        .then((m) => m.cities.map((c) => c.name)),
-    );
-    for (const name of cities) {
-      await page.evaluate((n) => window.lab.lieu(n), name);
-      const file = `maquette-${name
-        .normalize('NFD')
-        .replace(/[\u0300-\u036f]/g, '')
-        .replace(/\W+/g, '-')
-        .toLowerCase()}.png`;
-      await page.screenshot({ path: new URL(file, SHOTS).pathname });
-      console.log(`capture : tools/shots/${file}`);
-    }
-  }
-  console.log('Durées :', await page.evaluate(() => window.lab.timings));
 } finally {
   await browser.close();
   server.kill();
-}
-if (errors.length) {
-  console.error('Erreurs console :', errors);
-  process.exit(1);
 }

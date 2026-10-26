@@ -1,0 +1,17 @@
+{
+  "slug": "lannister",
+  "name": "Maison Lannister",
+  "words": "Je rugis !",
+  "sigil": "sigils/lannister.svg",
+  "sigilDescription": "Un lion d’or sur champ rouge.",
+  "sigilCredit": null,
+  "seat": "castral-roc",
+  "region": "Les Terres de l’Ouest",
+  "history": [
+    "Les Lannister associent une forte implantation territoriale à une influence financière et dynastique. La richesse de l’Ouest ne suffit pourtant pas à garantir la cohésion familiale : Tywin, Cersei, Jaime et Tyrion donnent des sens très différents à la fidélité au nom. « Un Lannister paie toujours ses dettes » est une formule célèbre, distincte de la devise officielle."
+  ],
+  "inTheSeries": [],
+  "figures": [],
+  "members": [],
+  "sources": []
+}

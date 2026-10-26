@@ -1,0 +1,14 @@
+{
+  "slug": "tyrosh",
+  "name": "Tyrosh",
+  "kind": "cité",
+  "region": "Cité libre",
+  "continent": "essos",
+  "description": [
+    "Tyrosh est une puissance insulaire située sur les routes maritimes entre l’ouest d’Essos et les degrés de Pierre. Ses échanges et ses rivalités l’inscrivent dans un ensemble de cités qui s’allient et s’opposent sans relever d’une autorité commune."
+  ],
+  "history": [],
+  "events": [],
+  "image": "images/braavos.webp",
+  "sources": []
+}

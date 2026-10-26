@@ -1,0 +1,18 @@
+{
+  "slug": "chateaunoir",
+  "name": "Châteaunoir",
+  "kind": "cité",
+  "region": "Le Don",
+  "continent": "westeros",
+  "coords": {
+    "x": 471.98,
+    "y": 151.26
+  },
+  "description": [
+    "Adossée au Mur, cette forteresse abrite la Garde de Nuit. Les titres et les anciennes querelles s’effacent devant le devoir de veiller."
+  ],
+  "history": [],
+  "events": [],
+  "image": null,
+  "sources": []
+}

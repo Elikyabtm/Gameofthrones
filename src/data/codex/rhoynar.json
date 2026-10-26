@@ -1,0 +1,44 @@
+{
+  "slug": "rhoynar",
+  "rubric": "peuples",
+  "name": "Les Rhoynar",
+  "kicker": "Essos · Rhoyne / Westeros · Dorne",
+  "lead": "La mémoire d’un peuple fluvial, transportée jusqu’au sud de Westeros.",
+  "body": [
+    "Les Rhoynar sont associés au grand fleuve Rhoyne et à ses cités. Leur affrontement avec l’expansion valyrienne conduit à une diaspora dont la migration de Nymeria vers Dorne est l’épisode le plus connu.",
+    "Leur histoire devient à Dorne une mémoire d’exil, de résistance et de fondation. La langue et certaines pratiques ont reculé ou se sont transformées, mais l’héritage rhoynais continue de distinguer la principauté dans l’ensemble des Sept Couronnes."
+  ],
+  "facts": [
+    {
+      "label": "Langue",
+      "value": "Rhoynais ; puis langue commune à Dorne"
+    },
+    {
+      "label": "Visages & repères",
+      "value": "Nymeria · l’héritage des Martell"
+    }
+  ],
+  "terms": [
+    {
+      "term": "Fleuve",
+      "def": "Rhoyne"
+    },
+    {
+      "term": "Migration",
+      "def": "Nymeria"
+    },
+    {
+      "term": "Héritage",
+      "def": "Dorne"
+    }
+  ],
+  "places": [],
+  "characters": [],
+  "image": "images/rhoynar.webp",
+  "sources": [
+    {
+      "label": "A Wiki of Ice and Fire",
+      "url": "https://awoiaf.westeros.org/index.php/Rhoynar"
+    }
+  ]
+}

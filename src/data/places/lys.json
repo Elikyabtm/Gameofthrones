@@ -1,0 +1,14 @@
+{
+  "slug": "lys",
+  "name": "Lys",
+  "kind": "cité",
+  "region": "Cité libre",
+  "continent": "essos",
+  "description": [
+    "Lys est une cité insulaire des mers du sud-ouest d’Essos. Elle appartient aux réseaux commerciaux des Cités libres, avec ses rivalités et ses traditions propres. Les noms des lieux d’Essos ne désignent donc pas des quartiers d’un même royaume, mais des centres politiques distincts."
+  ],
+  "history": [],
+  "events": [],
+  "image": "images/braavos.webp",
+  "sources": []
+}

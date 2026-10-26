@@ -1,0 +1,27 @@
+{
+  "slug": "langue-rhoynienne",
+  "rubric": "langues",
+  "name": "Le rhoynais",
+  "kicker": "Essos · Rhoyne / héritage dornien",
+  "lead": "La langue d’un peuple de fleuve et d’exil.",
+  "body": [
+    "Les Rhoynar possédaient leur propre langue. La migration vers Dorne et les contacts avec les autres populations ont transformé sa place dans la vie quotidienne.",
+    "L’héritage rhoynais reste perceptible dans la culture dornienne, sans signifier que tous les Dorniens parlent encore la langue de leurs ancêtres. Il faut distinguer une langue vivante d’un héritage linguistique."
+  ],
+  "facts": [
+    {
+      "label": "Où la retrouver",
+      "value": "Rhoyne · mémoire de Dorne"
+    }
+  ],
+  "terms": [],
+  "places": [],
+  "characters": [],
+  "image": null,
+  "sources": [
+    {
+      "label": "A Wiki of Ice and Fire",
+      "url": "https://awoiaf.westeros.org/index.php/Rhoynar"
+    }
+  ]
+}

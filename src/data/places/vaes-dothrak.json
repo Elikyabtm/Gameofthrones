@@ -1,0 +1,14 @@
+{
+  "slug": "vaes-dothrak",
+  "name": "Vaes Dothrak",
+  "kind": "cité",
+  "region": "Cité sacrée",
+  "continent": "essos",
+  "description": [
+    "Au pied de la Mère des Montagnes, Vaes Dothrak est le grand centre sacré des Dothraki. Les khalasars y convergent, et les dosh khaleen y possèdent une autorité religieuse. Le lieu constitue un point fixe dans une culture de la mobilité."
+  ],
+  "history": [],
+  "events": [],
+  "image": "images/dothraki.webp",
+  "sources": []
+}

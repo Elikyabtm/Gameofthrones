@@ -1,0 +1,18 @@
+{
+  "slug": "vivesaigues",
+  "name": "Vivesaigues",
+  "kind": "cité",
+  "region": "Le Conflans",
+  "continent": "westeros",
+  "coords": {
+    "x": 358.69,
+    "y": 667.63
+  },
+  "description": [
+    "Le château des Tully au confluent des rivières. Un passage stratégique et un point de rencontre entre les grandes maisons."
+  ],
+  "history": [],
+  "events": [],
+  "image": null,
+  "sources": []
+}

@@ -1,0 +1,18 @@
+{
+  "slug": "villevieille",
+  "name": "Villevieille",
+  "kind": "cité",
+  "region": "Le Bief",
+  "continent": "westeros",
+  "coords": {
+    "x": 245.48,
+    "y": 994.47
+  },
+  "description": [
+    "Une ancienne cité du Bief. La Citadelle y forme les mestres qui serviront les grandes maisons de Westeros."
+  ],
+  "history": [],
+  "events": [],
+  "image": null,
+  "sources": []
+}

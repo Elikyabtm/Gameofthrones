@@ -1,0 +1,17 @@
+{
+  "slug": "martell",
+  "name": "Maison Martell",
+  "words": "Insoumis, invaincus, intacts.",
+  "sigil": "sigils/martell.svg",
+  "sigilDescription": "Un soleil rouge transpercé d’une lance d’or sur champ orange.",
+  "sigilCredit": null,
+  "seat": "lancehelion",
+  "region": "Dorne",
+  "history": [
+    "Les Martell gouvernent une principauté dont l’histoire avec les Targaryen diffère de celle des royaumes conquis. Leur nom conserve l’héritage de Nymeria et des Rhoynar. La retenue de Doran et l’énergie d’Oberyn expriment deux manières d’envisager la défense de la famille et de Dorne."
+  ],
+  "inTheSeries": [],
+  "figures": [],
+  "members": [],
+  "sources": []
+}

@@ -1,0 +1,44 @@
+{
+  "slug": "foi-militante",
+  "rubric": "ordres",
+  "name": "La Foi Militante",
+  "kicker": "Westeros · La Foi des Sept",
+  "lead": "Lorsque l’autorité religieuse se donne une force armée.",
+  "body": [
+    "La Foi Militante rassemble des fidèles combattants attachés au culte des Sept. Sa présence met en question la place des couronnes face à une autorité qui affirme parler au nom du sacré.",
+    "Dans la série, le retour de cette force s’accompagne de l’ascension des Moineaux. Le conflit ne concerne donc pas seulement des croyances : il touche aux privilèges, à la richesse et au pouvoir de juger les membres des grandes maisons."
+  ],
+  "facts": [
+    {
+      "label": "Langue",
+      "value": "Langue commune"
+    },
+    {
+      "label": "Visages & repères",
+      "value": "Le Grand Moineau · Lancel Lannister"
+    }
+  ],
+  "terms": [
+    {
+      "term": "Institution",
+      "def": "Foi des Sept"
+    },
+    {
+      "term": "Force",
+      "def": "fidèles armés"
+    },
+    {
+      "term": "Enjeu",
+      "def": "autorité"
+    }
+  ],
+  "places": [],
+  "characters": [],
+  "image": "images/foi-militante.webp",
+  "sources": [
+    {
+      "label": "A Wiki of Ice and Fire",
+      "url": "https://awoiaf.westeros.org/index.php/Faith_Militant"
+    }
+  ]
+}

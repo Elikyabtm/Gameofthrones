@@ -1,0 +1,69 @@
+{
+  "$id": "house",
+  "type": "object",
+  "required": ["slug", "name", "words", "sigil", "seat", "region", "history", "members", "sources"],
+  "additionalProperties": false,
+  "properties": {
+    "slug": { "$ref": "common#/$defs/slug" },
+    "name": { "$ref": "common#/$defs/text" },
+    "words": { "$ref": "common#/$defs/text" },
+    "wordsNote": { "type": "string" },
+    "sigil": { "type": "string", "pattern": "^sigils/.+\\.svg$" },
+    "sigilDescription": { "type": "string" },
+    "sigilCredit": { "type": ["string", "null"] },
+    "color": { "type": "string" },
+    "seat": { "$ref": "common#/$defs/slug" },
+    "region": { "$ref": "common#/$defs/text" },
+    "summary": { "type": "string" },
+    "overlord": {
+      "type": "array",
+      "items": {
+        "type": "object", "required": ["to"], "additionalProperties": false,
+        "properties": { "to": { "$ref": "common#/$defs/slug" }, "s": { "$ref": "common#/$defs/season" } }
+      }
+    },
+    "vassals": { "type": "array", "items": { "type": "string" } },
+    "founded": { "type": "string" },
+    "history": { "$ref": "common#/$defs/paragraphs" },
+    "inTheSeries": { "type": "array", "items": { "$ref": "common#/$defs/seasonParagraphs" } },
+    "figures": { "type": "array", "items": { "type": "string" } },
+    "members": { "type": "array", "items": { "$ref": "common#/$defs/slug" } },
+    "tree": {
+      "type": "object", "required": ["people", "unions"], "additionalProperties": false,
+      "properties": {
+        "people": {
+          "type": "array",
+          "items": {
+            "type": "object", "required": ["id"], "additionalProperties": false,
+            "properties": {
+              "id": { "$ref": "common#/$defs/slug" },
+              "character": { "$ref": "common#/$defs/slug" },
+              "name": { "type": "string" },
+              "house": { "$ref": "common#/$defs/slug" },
+              "note": { "type": "string" },
+              "dead": { "$ref": "common#/$defs/season" },
+              "deadBefore": { "type": "boolean" },
+              "s": { "$ref": "common#/$defs/season" }
+            }
+          }
+        },
+        "unions": {
+          "type": "array",
+          "items": {
+            "type": "object", "required": ["a", "children"], "additionalProperties": false,
+            "properties": {
+              "a": { "$ref": "common#/$defs/slug" },
+              "b": { "$ref": "common#/$defs/slug" },
+              "children": { "type": "array", "items": { "$ref": "common#/$defs/slug" } },
+              "s": { "$ref": "common#/$defs/season" },
+              "hideFrom": { "$ref": "common#/$defs/season" },
+              "secret": { "type": "boolean" }
+            }
+          }
+        }
+      }
+    },
+    "sources": { "$ref": "common#/$defs/sources" },
+    "_doute": { "$ref": "common#/$defs/doute" }
+  }
+}

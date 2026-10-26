@@ -1,0 +1,48 @@
+{
+  "slug": "dorniens",
+  "rubric": "peuples",
+  "name": "Les Dorniens",
+  "kicker": "Westeros · Dorne",
+  "lead": "Un Sud aux héritages mêlés, dont l’histoire ne se confond pas avec celle des autres royaumes.",
+  "body": [
+    "Dorne réunit des paysages et des communautés variés : littoraux, déserts, vallées et montagnes. L’héritage des Rhoynar, arrivés avec Nymeria, s’y est mêlé à ceux des Premiers Hommes et des Andals. Les Martell portent cette mémoire dans leurs titres et leurs traditions.",
+    "La résistance de Dorne à la conquête Targaryen a nourri une identité politique distincte. La principauté a rejoint les Sept Couronnes plus tard par une union dynastique. Les coutumes de succession et les rapports sociaux y diffèrent de ceux de nombreuses maisons du Nord et de l’Ouest."
+  ],
+  "facts": [
+    {
+      "label": "Langue",
+      "value": "Langue commune, avec des influences rhoynaises"
+    },
+    {
+      "label": "Visages & repères",
+      "value": "Doran · Oberyn · Ellaria · les Martell"
+    }
+  ],
+  "terms": [
+    {
+      "term": "Siège",
+      "def": "Lancehélion"
+    },
+    {
+      "term": "Héritage",
+      "def": "Rhoynar"
+    },
+    {
+      "term": "Maison",
+      "def": "Martell"
+    },
+    {
+      "term": "Identité",
+      "def": "principauté"
+    }
+  ],
+  "places": [],
+  "characters": [],
+  "image": "images/dorniens.webp",
+  "sources": [
+    {
+      "label": "A Wiki of Ice and Fire",
+      "url": "https://awoiaf.westeros.org/index.php/Dorne"
+    }
+  ]
+}

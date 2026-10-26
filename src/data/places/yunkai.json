@@ -1,0 +1,14 @@
+{
+  "slug": "yunkai",
+  "name": "Yunkaï",
+  "kind": "cité",
+  "region": "Baie des Serfs",
+  "continent": "essos",
+  "description": [
+    "Yunkaï est l’un des grands centres esclavagistes de la baie des Serfs. Ses maîtres, son architecture et ses stratégies ne se confondent pas avec ceux d’Astapor ou de Meereen. Les trois cités partagent un système économique, mais conservent leurs intérêts particuliers."
+  ],
+  "history": [],
+  "events": [],
+  "image": "images/immacules.webp",
+  "sources": []
+}

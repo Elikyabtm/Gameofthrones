@@ -1,0 +1,895 @@
+{
+  "intro": {
+    "kicker": "Guide non officiel · Westeros & Essos",
+    "title": "A Realm Divided",
+    "hook": "Du pays sans seigneurs au nord de la glace jusqu’aux ruines brûlantes de Valyria, un voyage à travers les terres, les peuples et les mémoires d’un monde divisé.",
+    "cta": "Commencer le voyage",
+    "light": {
+      "sunColor": "#e8dcc0",
+      "sunElevation": 25,
+      "sunAzimuth": 220,
+      "skyTop": "#1c2733",
+      "skyHorizon": "#6d7c86",
+      "fogColor": "#4a565e",
+      "fogDensity": 0.012,
+      "exposure": 1.0
+    }
+  },
+  "crossing": {
+    "after": "dorne",
+    "label": "La mer Étroite",
+    "light": {
+      "sunColor": "#9fb3ff",
+      "sunElevation": 22,
+      "sunAzimuth": 120,
+      "skyTop": "#05070f",
+      "skyHorizon": "#1d2846",
+      "fogColor": "#1a2238",
+      "fogDensity": 0.012,
+      "exposure": 0.9
+    }
+  },
+  "end": {
+    "kicker": "Fin du voyage",
+    "title": "Le monde continue",
+    "text": "Le voyage s’arrête au bord des cendres, mais chaque lieu traversé a ses habitants, ses lignées et ses croyances. Trois portes restent ouvertes.",
+    "doors": [
+      {
+        "href": "/personnages",
+        "label": "Personnages",
+        "text": "Ceux qui vivent, règnent et meurent sur ces terres.",
+        "image": "images/garde-de-nuit.webp"
+      },
+      {
+        "href": "/maisons",
+        "label": "Maisons",
+        "text": "Les grandes familles, leurs devises et leurs arbres.",
+        "image": "images/couronne.webp"
+      },
+      {
+        "href": "/codex",
+        "label": "Codex",
+        "text": "Peuples, ordres, croyances, langues et créatures.",
+        "image": "images/premiers-hommes.webp"
+      }
+    ]
+  },
+  "steps": [
+    {
+      "slug": "au-dela-du-mur",
+      "num": "01",
+      "place": "au-dela-du-mur",
+      "title": "Au-delà du Mur",
+      "region": "Le Grand Nord",
+      "hook": "Au nord de la glace commence un pays sans seigneurs, où chaque hiver se compte en vies et où chaque clan garde sa propre loi.",
+      "text": [
+        "La forêt Hantée couvre des lieues entières, si dense que la lumière y arrive déjà fatiguée. Au-delà s’ouvrent des vallées de glace, des lacs gelés et des crêtes où le vent ne retombe jamais. Ceux qui vivent ici n’ont ni château ni bannière : ils ont des campements que l’on démonte en une heure, des peaux tendues sur des perches et une mémoire qui se transmet autour du feu.",
+        "Les gens du Sud parlent de « sauvageons ». Eux se disent libres, et ce mot désigne une manière de vivre plus qu’un royaume : on suit un chef parce qu’on l’a choisi, pas parce qu’il est né au bon endroit. Entre les clans, les alliances sont brèves et les rancunes longues, et chacun sait que l’hiver tranche plus durement que n’importe quelle guerre.",
+        "Plus au nord encore, les récits deviennent plus sombres. On y parle de morts qui ne restent pas couchés et d’un froid qui marche. Au Sud, on en sourit ; ici, on ferme les portes la nuit."
+      ],
+      "transition": "Vers le sud, une muraille de glace barre l’horizon : c’est là que veillent les frères en noir.",
+      "focus": {
+        "x": 470,
+        "y": 92
+      },
+      "camera": {
+        "dist": 4.2,
+        "height": 3.2,
+        "azimuth": 0
+      },
+      "light": {
+        "sunColor": "#cfe0ff",
+        "sunElevation": 6,
+        "sunAzimuth": 150,
+        "skyTop": "#1b2a3c",
+        "skyHorizon": "#8aa2b8",
+        "fogColor": "#9fb3c4",
+        "fogDensity": 0.05,
+        "exposure": 0.95
+      },
+      "arc": "normal",
+      "image": "images/geants.webp",
+      "imageAlt": "Illustration : une colonne du Peuple libre et un géant traversent une vallée enneigée.",
+      "textSide": "left",
+      "characters": ["tormund", "ygritte", "mance-rayder", "roi-de-la-nuit", "craster", "gilly"],
+      "links": [
+        "peuple-libre",
+        "thenns",
+        "geants",
+        "marcheurs-blancs",
+        "enfants-de-la-foret",
+        "ancienne-langue"
+      ]
+    },
+    {
+      "slug": "le-mur",
+      "num": "02",
+      "place": "chateaunoir",
+      "title": "Le Mur",
+      "region": "Le Don",
+      "hook": "Une muraille de glace sépare deux mondes. Ceux qui la gardent ont renoncé à tout pour ne plus servir qu’elle.",
+      "text": [
+        "Haute de plusieurs centaines de pieds, la muraille court d’une côte à l’autre sans jamais fléchir. Sa glace est veinée de gris, sale par endroits, éclatante quand le soleil la frappe. On la dit vieille de huit mille ans, et personne ne sait vraiment comment elle tient encore debout.",
+        "Châteaunoir s’adosse à son pied comme un abri contre une falaise. Des tours à moitié vides, des escaliers de bois accrochés à la paroi, une cage qui monte et descend en grinçant : la Garde de Nuit occupe des forteresses bâties pour dix fois plus d’hommes. Ses frères viennent de partout, fils cadets, voleurs graciés, bâtards sans héritage. En prononçant leur serment, ils laissent derrière eux leur nom, leurs terres et l’idée même d’avoir des enfants.",
+        "Du sommet, on voit la forêt au nord et les terres du Don au sud. Entre les deux, il n’y a que le vent."
+      ],
+      "transition": "Plus au sud, au cœur des forêts, une vieille forteresse garde la mémoire du Nord.",
+      "focus": {
+        "x": 472,
+        "y": 156
+      },
+      "camera": {
+        "dist": 3.6,
+        "height": 2.7,
+        "azimuth": 0.1
+      },
+      "light": {
+        "sunColor": "#d8e6ff",
+        "sunElevation": 8,
+        "sunAzimuth": 140,
+        "skyTop": "#1d2c3e",
+        "skyHorizon": "#93a9bd",
+        "fogColor": "#a3b6c6",
+        "fogDensity": 0.045,
+        "exposure": 1.0
+      },
+      "arc": "normal",
+      "image": "images/mur.webp",
+      "imageAlt": "Illustration : la muraille de glace du Mur sous un ciel nocturne.",
+      "textSide": "right",
+      "characters": [
+        "jon-snow",
+        "jeor-mormont",
+        "samwell-tarly",
+        "aemon-targaryen",
+        "alliser-thorne",
+        "eddison-tollett"
+      ],
+      "links": ["garde-de-nuit", "chateaunoir", "peuple-libre"]
+    },
+    {
+      "slug": "winterfell",
+      "num": "03",
+      "place": "winterfell",
+      "title": "Winterfell",
+      "region": "Le Nord",
+      "hook": "Des murs gris, des sources chaudes et un arbre au visage sculpté : le Nord se gouverne ici, au rythme lent des hivers.",
+      "text": [
+        "Winterfell est bâti sur des sources chaudes, et l’eau qui court dans ses murs garde les salles tièdes quand tout gèle au-dehors. Le château n’a rien d’élégant : il a grandi par ajouts successifs, une tour après l’autre, sans plan d’ensemble, comme une ville fortifiée qui aurait oublié de s’arrêter.",
+        "Au centre, le bois sacré a gardé ses arbres anciens. Sous le barral blanc aux feuilles rouges, un visage sculpté regarde ceux qui viennent prier les anciens dieux, sans septon ni chant. Sous le château, dans les cryptes, les seigneurs du Nord reposent en rang, une épée de fer posée sur les genoux de leurs statues.",
+        "Le Nord est plus vaste que tout le reste du royaume réuni, et presque vide. On y respecte la parole donnée, on y juge en personne, et on s’y méfie des gens du Sud qui parlent trop bien."
+      ],
+      "transition": "À l’ouest, au-delà des côtes, des îles battues par le vent vivent tournées vers la mer.",
+      "focus": {
+        "x": 385,
+        "y": 320
+      },
+      "camera": {
+        "dist": 3.4,
+        "height": 2.6,
+        "azimuth": -0.15
+      },
+      "light": {
+        "sunColor": "#e8e8e4",
+        "sunElevation": 25,
+        "sunAzimuth": 200,
+        "skyTop": "#3a4550",
+        "skyHorizon": "#a7adb0",
+        "fogColor": "#9aa1a4",
+        "fogDensity": 0.035,
+        "exposure": 1.0
+      },
+      "arc": "normal",
+      "image": "images/nord.webp",
+      "imageAlt": "Illustration : un château aux murs gris au milieu des forêts enneigées du Nord.",
+      "textSide": "left",
+      "characters": [
+        "eddard-stark",
+        "catelyn-stark",
+        "robb-stark",
+        "sansa-stark",
+        "arya-stark",
+        "bran-stark",
+        "rickon-stark",
+        "theon-greyjoy",
+        "hodor",
+        "osha"
+      ],
+      "links": ["stark", "winterfell", "anciens-dieux", "loups-geants", "premiers-hommes", "bolton"]
+    },
+    {
+      "slug": "iles-de-fer",
+      "num": "04",
+      "place": "pyk",
+      "title": "Les Îles de Fer",
+      "region": "Les Îles de Fer",
+      "hook": "Sur ces rochers, la richesse ne pousse pas : elle se prend en mer. Les tours de Pyk regardent les vagues plutôt que les champs.",
+      "text": [
+        "Rien ne pousse bien sur ces îles de roche grise. Le sol est maigre, les arbres rares, et la pluie arrive de côté. Alors les Fer-nés ont fait de la mer leur seule terre : leurs drakkars longs et bas ont longtemps pillé les côtes du continent, et leur vieille loi distingue ce que l’on paie de ce que l’on prend par le fer.",
+        "Pyk se dresse sur un éperon fendu par les vagues. Ses tours sont reliées par des ponts suspendus qui oscillent au-dessus du ressac, et l’on dit qu’il faut avoir le pied marin pour aller d’une chambre à l’autre. Sur les plages, les prêtres du Dieu Noyé baptisent les fidèles en leur maintenant la tête sous l’eau, puis les ramènent à la vie.",
+        "Ici, on mesure un homme à ce qu’il ose. La prudence ressemble à une faiblesse, et la défaite ne se pardonne pas."
+      ],
+      "transition": "Retour sur le continent : entre fleuves et montagnes, deux maisons alliées tiennent le cœur du royaume.",
+      "focus": {
+        "x": 242,
+        "y": 636
+      },
+      "camera": {
+        "dist": 3.6,
+        "height": 2.6,
+        "azimuth": 0.35
+      },
+      "light": {
+        "sunColor": "#b8c4cc",
+        "sunElevation": 20,
+        "sunAzimuth": 250,
+        "skyTop": "#1e2428",
+        "skyHorizon": "#59646a",
+        "fogColor": "#4b5459",
+        "fogDensity": 0.04,
+        "exposure": 0.9
+      },
+      "arc": "normal",
+      "image": "images/fer-nes.webp",
+      "imageAlt": "Illustration : un drakkar fer-né dans une mer agitée, au pied de falaises noires.",
+      "textSide": "left",
+      "characters": ["balon-greyjoy", "theon-greyjoy", "yara-greyjoy", "euron-greyjoy"],
+      "links": ["greyjoy", "fer-nes", "dieu-noye", "pyk"]
+    },
+    {
+      "slug": "conflans",
+      "num": "05",
+      "place": "vivesaigues",
+      "title": "Le Conflans",
+      "region": "Le Conflans",
+      "hook": "Ici les rivières se rejoignent et les armées se croisent : une terre riche, ouverte à tous les vents et à toutes les guerres.",
+      "text": [
+        "Le Conflans est une terre de gués, de moulins et de champs qui descendent jusqu’à l’eau. Les trois fourches du Trident y dessinent un pays fertile, sans frontière naturelle, que chaque armée du royaume finit par traverser. Les petits seigneurs y sont nombreux, les fidélités changeantes, et les villages ont appris à cacher leurs récoltes.",
+        "Vivesaigues se tient au confluent de deux rivières. Quand on lève les vannes, l’eau remplit un fossé qui fait du château une île. Les Tully y règnent depuis des générations avec une devise qui place la famille avant tout, puis le devoir, puis l’honneur.",
+        "Plus au nord, sur la Verfurque, deux tours jumelles gardent l’unique pont à des lieues à la ronde. Leur seigneur fait payer chaque passage, et il n’oublie jamais une dette."
+      ],
+      "transition": "À l’est, des montagnes s’élèvent d’un seul coup : au sommet de l’une d’elles, un château blanc semble suspendu dans le ciel.",
+      "focus": {
+        "x": 359,
+        "y": 668
+      },
+      "camera": {
+        "dist": 3.6,
+        "height": 2.6,
+        "azimuth": 0
+      },
+      "light": {
+        "sunColor": "#f2dfb8",
+        "sunElevation": 30,
+        "sunAzimuth": 220,
+        "skyTop": "#3d5470",
+        "skyHorizon": "#b9c4c4",
+        "fogColor": "#a9b4b2",
+        "fogDensity": 0.028,
+        "exposure": 1.05
+      },
+      "arc": "normal",
+      "image": "images/fraternite-sans-bannieres.webp",
+      "imageAlt": "Illustration : un campement dans une forêt du Conflans, au bord d’une rivière.",
+      "textSide": "right",
+      "characters": [
+        "hoster-tully",
+        "edmure-tully",
+        "brynden-tully",
+        "walder-frey",
+        "catelyn-stark"
+      ],
+      "links": [
+        "tully",
+        "frey",
+        "vivesaigues",
+        "les-jumeaux",
+        "fraternite-sans-bannieres",
+        "foi-des-sept"
+      ]
+    },
+    {
+      "slug": "le-val",
+      "num": "06",
+      "place": "les-eyrie",
+      "title": "Le Val d’Arryn",
+      "region": "Le Val",
+      "hook": "Une vallée fermée par les montagnes de la Lune, et tout en haut, un château que nulle armée n’a jamais pris.",
+      "text": [
+        "Le Val est une vallée verte et riche, protégée de tous côtés par des montagnes que seuls les clans des hauteurs savent traverser. On y entre par la Porte Sanglante, un défilé si étroit qu’une poignée d’hommes suffit à le tenir. Les chevaliers du Val sont fiers, bien armés et peu pressés de se mêler des querelles d’en bas.",
+        "Les Eyrié dominent la vallée depuis le flanc d’un pic. Pour y monter, il faut une journée de sentier, de relais en relais, et le dernier passage se fait à dos de mulet ou dans un panier hissé à la corde. Le château est petit, blanc, magnifique. L’une de ses salles s’ouvre sur le vide par une porte que l’on appelle la porte de la Lune.",
+        "Rien ne peut atteindre les Eyrié. C’est leur force, et c’est aussi ce qui rend leurs maîtres étrangers au reste du monde."
+      ],
+      "transition": "À l’ouest, les collines cachent des mines d’or : c’est le domaine d’un lion qui ne pardonne rien.",
+      "focus": {
+        "x": 494,
+        "y": 612
+      },
+      "camera": {
+        "dist": 3.4,
+        "height": 2.8,
+        "azimuth": -0.2
+      },
+      "light": {
+        "sunColor": "#f6e8cc",
+        "sunElevation": 35,
+        "sunAzimuth": 160,
+        "skyTop": "#3f5f86",
+        "skyHorizon": "#c3d0d8",
+        "fogColor": "#b2c0c8",
+        "fogDensity": 0.025,
+        "exposure": 1.05
+      },
+      "arc": "normal",
+      "image": null,
+      "imageAlt": "Illustration à venir : le château blanc des Eyrié accroché à un pic.",
+      "textSide": "left",
+      "characters": ["lysa-arryn", "robin-arryn", "petyr-baelish"],
+      "links": ["arryn", "les-eyrie", "andals"]
+    },
+    {
+      "slug": "ouest",
+      "num": "07",
+      "place": "castral-roc",
+      "title": "Les Terres de l’Ouest",
+      "region": "L’Ouest",
+      "hook": "Un château taillé dans le roc veille sur les mines les plus riches du royaume. Ici, l’or fait la politique autant que l’épée.",
+      "text": [
+        "Castral Roc n’a pas été bâti : il a été creusé. La forteresse occupe l’intérieur d’une montagne dressée au-dessus de la mer, avec ses salles, ses écuries et ses cachots taillés à même la pierre. Sous elle, des galeries d’or ont nourri pendant des siècles la fortune d’une seule famille.",
+        "Les Lannister ne sont pas les plus anciens seigneurs du royaume, ni les plus nombreux. Ils sont les plus riches, et ils ont appris à faire de cette richesse une arme : un prêt, une dot, une rançon valent parfois mieux qu’une armée. On raconte qu’un Lannister paie toujours ses dettes, et l’on sait ce que cela signifie pour ceux qui leur doivent quelque chose.",
+        "Le lion d’or flotte sur les collines, sur les ports et sur les mines. Dans l’Ouest, il n’y a pas de neutralité."
+      ],
+      "transition": "Toutes les routes mènent vers l’est, à la ville où siège le trône.",
+      "focus": {
+        "x": 238,
+        "y": 754
+      },
+      "camera": {
+        "dist": 3.4,
+        "height": 2.6,
+        "azimuth": 0.25
+      },
+      "light": {
+        "sunColor": "#ffd9a0",
+        "sunElevation": 22,
+        "sunAzimuth": 240,
+        "skyTop": "#42506a",
+        "skyHorizon": "#d8b88a",
+        "fogColor": "#b89f80",
+        "fogDensity": 0.026,
+        "exposure": 1.05
+      },
+      "arc": "normal",
+      "image": null,
+      "imageAlt": "Illustration à venir : Castral Roc, une forteresse creusée dans une montagne au-dessus de la mer.",
+      "textSide": "left",
+      "characters": [
+        "tywin-lannister",
+        "cersei-lannister",
+        "jaime-lannister",
+        "tyrion-lannister",
+        "kevan-lannister"
+      ],
+      "links": ["lannister", "castral-roc", "clegane"]
+    },
+    {
+      "slug": "port-real",
+      "num": "08",
+      "place": "port-real",
+      "title": "Port-Réal",
+      "region": "Les Terres de la Couronne",
+      "hook": "Une ville immense et serrée, dominée par un donjon rouge : chaque intrigue du royaume finit un jour par passer ses portes.",
+      "text": [
+        "Port-Réal s’étale sur trois collines au bord de la Néra. En bas, des ruelles de terre battue, des marchés, des tavernes et une odeur qu’on sent avant de voir les murs. En haut, trois monuments se regardent : le grand septuor de Baelor, la colline de Rhaenys et le Donjon Rouge, où se trouve la salle du trône.",
+        "Le trône lui-même est un siège de lames fondues, forgé à partir des épées des vaincus. Il n’est pas confortable, et c’est voulu : un roi ne devrait jamais s’y asseoir à son aise. Autour de lui gravitent des conseillers, des espions, des gardes en manteau blanc et des courtisans qui sourient à tout le monde.",
+        "La ville a moins de trois siècles. Elle ressemble pourtant déjà à toutes les capitales : on y vient pour réussir, on y reste pour survivre."
+      ],
+      "transition": "Au large de la baie, une île de pierre noire garde le souvenir des dragons.",
+      "focus": {
+        "x": 476,
+        "y": 781
+      },
+      "camera": {
+        "dist": 3.4,
+        "height": 2.5,
+        "azimuth": 0
+      },
+      "light": {
+        "sunColor": "#ffc77a",
+        "sunElevation": 14,
+        "sunAzimuth": 250,
+        "skyTop": "#3b4566",
+        "skyHorizon": "#e0a970",
+        "fogColor": "#b88a62",
+        "fogDensity": 0.026,
+        "exposure": 1.1
+      },
+      "arc": "normal",
+      "image": "images/couronne.webp",
+      "imageAlt": "Illustration : Port-Réal au coucher du soleil, ses collines et son donjon au-dessus de la baie.",
+      "textSide": "left",
+      "characters": [
+        "robert-baratheon",
+        "joffrey-baratheon",
+        "cersei-lannister",
+        "varys",
+        "petyr-baelish",
+        "pycelle",
+        "qyburn",
+        "grand-moineau",
+        "bronn",
+        "sandor-clegane"
+      ],
+      "links": [
+        "baratheon",
+        "lannister",
+        "garde-royale",
+        "foi-des-sept",
+        "foi-militante",
+        "port-real"
+      ]
+    },
+    {
+      "slug": "peyredragon",
+      "num": "09",
+      "place": "peyredragon",
+      "title": "Peyredragon",
+      "region": "La baie de la Néra",
+      "hook": "Sur cette île volcanique, les premiers conquérants ont laissé des murs sculptés en forme de dragons, et une ambition intacte.",
+      "text": [
+        "Peyredragon est la dernière avancée de l’ancienne Valyria vers l’ouest. Les Targaryen y ont vécu un siècle avant de traverser la baie, et leurs bâtisseurs ont façonné la pierre noire de l’île avec un art qu’on ne connaît plus : les tours ont des formes de dragons, les gargouilles semblent prêtes à s’envoler, et une montagne fume encore derrière le château.",
+        "L’île est austère, humide, isolée. Elle ne nourrit presque personne et ne commande qu’une poignée de vassaux. Mais elle tient l’entrée de la baie, et elle porte un nom qui pèse lourd. Celui qui en est le seigneur garde toujours un œil sur la capitale, de l’autre côté de l’eau."
+      ],
+      "transition": "Vers le sud, la terre s’adoucit : champs dorés, vergers et vignes, jusqu’aux remparts d’une ville de savants.",
+      "focus": {
+        "x": 583,
+        "y": 718
+      },
+      "camera": {
+        "dist": 3.2,
+        "height": 2.4,
+        "azimuth": -0.3
+      },
+      "light": {
+        "sunColor": "#ff8a5c",
+        "sunElevation": 6,
+        "sunAzimuth": 260,
+        "skyTop": "#2a2036",
+        "skyHorizon": "#a4503c",
+        "fogColor": "#5c3a36",
+        "fogDensity": 0.035,
+        "exposure": 1.0
+      },
+      "arc": "normal",
+      "image": "images/dragon.webp",
+      "imageAlt": "Illustration : un dragon aux ailes déployées au-dessus d’une île de pierre noire, sous un ciel rouge.",
+      "textSide": "left",
+      "characters": [
+        "stannis-baratheon",
+        "selyse-baratheon",
+        "shireen-baratheon",
+        "davos-mervault",
+        "melisandre"
+      ],
+      "links": [
+        "targaryen",
+        "baratheon",
+        "mervault",
+        "maitre-de-la-lumiere",
+        "dragons",
+        "peyredragon"
+      ]
+    },
+    {
+      "slug": "le-bief",
+      "num": "10",
+      "place": "hautjardin",
+      "title": "Le Bief",
+      "region": "Le Bief",
+      "hook": "Le grenier du royaume : des champs à perte de vue, des fêtes de chevalerie et, au bout du fleuve, la ville où l’on forge les mestres.",
+      "text": [
+        "Le Bief est la région la plus riche en blé, en vin et en chevaliers. Ses routes passent entre des vergers et des vignes, ses rivières sont larges et calmes, et ses seigneurs aiment les tournois autant que les festins. On y cultive les manières comme on cultive la terre, avec patience et sens du rendement.",
+        "Hautjardin, siège des Tyrell, est un château de jardins : des terrasses fleuries, des arcades, des fontaines et des labyrinthes de haies. On le croirait fait pour la paix, et c’est peut-être sa ruse la plus habile.",
+        "Plus au sud-ouest, Villevieille garde la Citadelle, où de jeunes hommes apprennent l’histoire, la médecine et l’art de dresser les corbeaux. Chaque maillon de leur chaîne représente une science. Le phare de la ville, le Haut-Tour, est le plus ancien du continent."
+      ],
+      "transition": "Au sud, les montagnes Rouges barrent la route. Derrière elles commence le désert.",
+      "focus": {
+        "x": 300,
+        "y": 930
+      },
+      "camera": {
+        "dist": 4.0,
+        "height": 3.0,
+        "azimuth": 0.15
+      },
+      "light": {
+        "sunColor": "#ffe6b0",
+        "sunElevation": 40,
+        "sunAzimuth": 200,
+        "skyTop": "#4b6d95",
+        "skyHorizon": "#d9d3b0",
+        "fogColor": "#c7c3a6",
+        "fogDensity": 0.022,
+        "exposure": 1.1
+      },
+      "arc": "normal",
+      "image": "images/mestres.webp",
+      "imageAlt": "Illustration : un vieux mestre penché sur ses livres, à la lumière des bougies.",
+      "textSide": "right",
+      "characters": [
+        "olenna-tyrell",
+        "margaery-tyrell",
+        "loras-tyrell",
+        "mace-tyrell",
+        "samwell-tarly"
+      ],
+      "links": ["tyrell", "tarly", "hautjardin", "villevieille", "mestres", "andals"]
+    },
+    {
+      "slug": "dorne",
+      "num": "11",
+      "place": "lancehelion",
+      "title": "Dorne",
+      "region": "Dorne",
+      "hook": "Le royaume que les dragons n’ont jamais soumis : du sable, des oasis et des princes qui n’oublient rien.",
+      "text": [
+        "Au sud des montagnes Rouges, la terre se fait sable et pierre. Les rivières sont rares, les villes se serrent autour de l’eau, et l’on voyage la nuit pour échapper à la chaleur. Dorne a résisté aux conquérants venus de Peyredragon, et elle n’a rejoint le royaume que par un mariage, à ses propres conditions.",
+        "Les Dorniens ont gardé des usages qui étonnent le reste de Westeros. Une fille peut hériter avant ses frères, les enfants nés hors mariage n’y sont pas méprisés, et l’on parle de désir sans baisser la voix. Ces libertés viennent en partie des Rhoynar, un peuple venu d’Essos par la mer, il y a mille ans, et que les Martell ont accueilli.",
+        "Lancehélion, siège du prince, est une ville de dômes et de tours au bord de la mer. Plus loin, dans les Jardins Aquatiques, des enfants jouent dans des bassins de marbre à l’ombre des orangers."
+      ],
+      "transition": "Au-delà de la mer Étroite, un autre continent attend : Essos et ses cités libres.",
+      "focus": {
+        "x": 588,
+        "y": 1042
+      },
+      "camera": {
+        "dist": 3.6,
+        "height": 2.6,
+        "azimuth": -0.2
+      },
+      "light": {
+        "sunColor": "#fff6e6",
+        "sunElevation": 70,
+        "sunAzimuth": 180,
+        "skyTop": "#6f93bd",
+        "skyHorizon": "#f0e2c8",
+        "fogColor": "#e3d2b4",
+        "fogDensity": 0.02,
+        "exposure": 1.15
+      },
+      "arc": "normal",
+      "image": "images/dorniens.webp",
+      "imageAlt": "Illustration : une cour dornienne à l’ombre des palmiers, au-dessus de la mer.",
+      "textSide": "right",
+      "characters": [
+        "oberyn-martell",
+        "doran-martell",
+        "ellaria-sand",
+        "trystane-martell",
+        "obara-sand",
+        "nymeria-sand",
+        "tyene-sand"
+      ],
+      "links": ["martell", "dorniens", "rhoynar", "lancehelion"]
+    },
+    {
+      "slug": "braavos",
+      "num": "12",
+      "place": "braavos",
+      "title": "Braavos",
+      "region": "Les cités libres",
+      "hook": "Une ville d’îles et de canaux, fondée par des esclaves en fuite, où une banque fait et défait les rois.",
+      "text": [
+        "On entre à Braavos en passant entre les jambes d’un géant de pierre et de bronze. Le Titan garde la passe depuis des siècles ; ses yeux s’allument la nuit, et sa trompe annonce chaque navire. Derrière lui s’ouvre une lagune semée d’îles, reliées par des ponts et sillonnées de bateaux-serpents.",
+        "La ville a été fondée par des fugitifs qui voulaient se cacher de Valyria. Elle en a gardé une haine profonde de l’esclavage et un goût pour la discrétion. Ici, on adore tous les dieux à la fois, et dans un temple aux portes noir et blanc, on sert une divinité dont personne ne parle à voix haute.",
+        "Braavos n’a pas de roi. Elle a la Banque de Fer, dont les coffres financent des guerres à l’autre bout du monde. La Banque n’oublie jamais un prêt, et elle a ses propres façons de se faire rembourser."
+      ],
+      "transition": "En suivant la côte vers le sud, une autre cité libre attend, plus riche et plus discrète encore.",
+      "focus": {
+        "x": 800,
+        "y": 512
+      },
+      "camera": {
+        "dist": 3.6,
+        "height": 2.6,
+        "azimuth": 0.2
+      },
+      "light": {
+        "sunColor": "#b8c8ff",
+        "sunElevation": 14,
+        "sunAzimuth": 300,
+        "skyTop": "#1d2a4c",
+        "skyHorizon": "#6a7fa8",
+        "fogColor": "#4a5a80",
+        "fogDensity": 0.03,
+        "exposure": 1.15
+      },
+      "arc": "high",
+      "image": "images/braavos.webp",
+      "imageAlt": "Illustration : le port de Braavos à l’heure bleue, avec la statue du Titan au loin.",
+      "textSide": "left",
+      "characters": ["jaqen-hghar", "la-gamine", "syrio-forel", "tycho-nestoris", "arya-stark"],
+      "links": ["braaviens", "sans-visage", "dieu-multiface", "bas-valyrien", "braavos"]
+    },
+    {
+      "slug": "pentos",
+      "num": "13",
+      "place": "pentos",
+      "title": "Pentos",
+      "region": "Les cités libres",
+      "hook": "Une ville de marchands où les fortunes se négocient à l’ombre des jardins, et les couronnes aussi.",
+      "text": [
+        "Pentos est une cité de briques claires et de toits rouges, posée sur une baie tranquille face à Westeros. Elle vit du commerce, et elle a appris à payer plutôt qu’à combattre : quand les cavaliers de la steppe approchent, les magistres leur offrent des présents, et les cavaliers repartent.",
+        "La ville est gouvernée par un prince choisi parmi les grandes familles, mais le vrai pouvoir appartient aux magistres, ces marchands immensément riches dont les demeures ont des jardins clos, des bassins et des serviteurs qui ne disent jamais rien. Chez eux, on reçoit volontiers des exilés de marque : on ne sait jamais ce qu’un nom pourra valoir un jour."
+      ],
+      "transition": "Vers l’est, les cités s’effacent : commence une mer d’herbe sans fin.",
+      "focus": {
+        "x": 778,
+        "y": 770
+      },
+      "camera": {
+        "dist": 3.4,
+        "height": 2.5,
+        "azimuth": 0
+      },
+      "light": {
+        "sunColor": "#ffdcaa",
+        "sunElevation": 30,
+        "sunAzimuth": 210,
+        "skyTop": "#4a6d96",
+        "skyHorizon": "#e0cfac",
+        "fogColor": "#cdbd9e",
+        "fogDensity": 0.022,
+        "exposure": 1.1
+      },
+      "arc": "normal",
+      "image": null,
+      "imageAlt": "Illustration à venir : la baie de Pentos et ses toits rouges.",
+      "textSide": "right",
+      "characters": ["illyrio-mopatis", "viserys-targaryen", "daenerys-targaryen"],
+      "links": ["targaryen", "bas-valyrien", "valyriens", "pentos"]
+    },
+    {
+      "slug": "mer-dothrak",
+      "num": "14",
+      "place": "vaes-dothrak",
+      "title": "La mer Dothrak",
+      "region": "Essos central",
+      "hook": "Des herbes plus hautes qu’un cavalier, ondulant jusqu’à l’horizon : ici, la seule richesse est le cheval.",
+      "text": [
+        "La mer Dothrak est une plaine immense où l’herbe bouge comme une houle. On peut y marcher des jours sans voir un arbre ni une pierre. Les Dothraki y vivent à cheval, en hordes appelées khalasars, chacune menée par un khal. Ils ne bâtissent rien, ne sèment rien, et considèrent que ce qui se transmet par l’écrit ne vaut rien.",
+        "Une seule ville se dresse au milieu de cette mer : Vaes Dothrak, au pied de la Mère des Montagnes. Elle n’a pas de murs, et ses rues sont bordées des statues et des portes volées à toutes les cités vaincues. Dans la ville sacrée, nul n’a le droit de porter une arme ni de verser le sang.",
+        "Le cheval, ici, nourrit, transporte et honore. On boit son lait, on mange sa chair, et l’on monte avant même de savoir marcher."
+      ],
+      "transition": "Plus loin vers le sud-est, le désert Rouge brûle tout. De l’autre côté, une ville se dit la plus grande qui soit.",
+      "focus": {
+        "x": 1760,
+        "y": 610
+      },
+      "camera": {
+        "dist": 4.6,
+        "height": 3.0,
+        "azimuth": 0
+      },
+      "light": {
+        "sunColor": "#ffb36b",
+        "sunElevation": 9,
+        "sunAzimuth": 270,
+        "skyTop": "#3d4d6c",
+        "skyHorizon": "#e6a46a",
+        "fogColor": "#c69a6c",
+        "fogDensity": 0.022,
+        "exposure": 1.1
+      },
+      "arc": "normal",
+      "image": "images/dothraki.webp",
+      "imageAlt": "Illustration : des cavaliers dothraki dans les hautes herbes au soleil couchant.",
+      "textSide": "right",
+      "characters": ["khal-drogo", "daenerys-targaryen", "jorah-mormont", "rakharo"],
+      "links": ["dothrakis", "grand-etalon", "langue-dothrakie", "vaes-dothrak"]
+    },
+    {
+      "slug": "qarth",
+      "num": "15",
+      "place": "qarth",
+      "title": "Qarth et le désert Rouge",
+      "region": "L’Est",
+      "hook": "Après des jours de sable rouge, une cité aux triples murailles promet tout ce qu’un voyageur peut désirer, à condition de savoir payer.",
+      "text": [
+        "Le désert Rouge porte bien son nom : une terre de poussière ocre, presque sans eau, où les puits sont rares et souvent empoisonnés. Ceux qui le traversent comptent leurs chevaux et leurs morts. Les Dothraki eux-mêmes l’évitent.",
+        "Au bout de l’épreuve se trouve Qarth, sur un détroit qui relie deux mers. Ses trois murailles sont sculptées de scènes de chasse, de guerre et d’amour, et ses portes ne s’ouvrent qu’à ceux que la ville accepte. La cité vit des épices, de la soie et des pierres précieuses qui passent par son port.",
+        "Qarth est gouvernée par des cercles de marchands et de grandes familles, et l’on y croise des magiciens qui disent lire l’avenir. On y est reçu avec faste ; on n’y est jamais tout à fait le bienvenu."
+      ],
+      "transition": "Retour vers l’ouest, le long des côtes d’une baie où l’on vend des êtres humains.",
+      "focus": {
+        "x": 2270,
+        "y": 1210
+      },
+      "camera": {
+        "dist": 4.0,
+        "height": 2.8,
+        "azimuth": 0.2
+      },
+      "light": {
+        "sunColor": "#ffae68",
+        "sunElevation": 10,
+        "sunAzimuth": 280,
+        "skyTop": "#3f4566",
+        "skyHorizon": "#e3a06c",
+        "fogColor": "#c48f66",
+        "fogDensity": 0.022,
+        "exposure": 1.1
+      },
+      "arc": "normal",
+      "image": null,
+      "imageAlt": "Illustration à venir : les murailles sculptées de Qarth au bord du détroit.",
+      "textSide": "left",
+      "characters": ["xaro-xhoan-daxos", "pyat-pree"],
+      "links": ["langue-qartheenne", "lhazareens", "qarth"]
+    },
+    {
+      "slug": "astapor",
+      "num": "16",
+      "place": "astapor",
+      "title": "Astapor",
+      "region": "La baie des Serfs",
+      "hook": "Une ville de brique rouge qui vend la plus redoutée des armées : des soldats qui n’ont plus ni nom ni peur.",
+      "text": [
+        "Astapor est la plus méridionale des trois cités de la baie des Serfs. Ses rues sont rouges de poussière, ses places ornées de harpies de bronze, et ses pyramides de brique rappellent l’ancien empire de Ghis, détruit par Valyria il y a très longtemps.",
+        "La ville vend des esclaves de toutes sortes, mais sa marchandise la plus célèbre se forme ailleurs, dans des casernes fermées. Des garçons y sont achetés très jeunes et soumis à un entraînement si dur que peu y survivent. Ceux qui restent deviennent les Immaculés : des fantassins qui ne reculent pas, ne pillent pas et obéissent à leur maître, quel qu’il soit.",
+        "Les maîtres d’Astapor parlent le haut valyrien des anciens conquérants et la langue de Ghis. Ils supposent volontiers que ceux qui leur font face ne comprennent ni l’un ni l’autre."
+      ],
+      "transition": "En remontant la baie vers le nord, une ville jaune puis une grande cité aux pyramides se dressent sur la côte.",
+      "focus": {
+        "x": 1605,
+        "y": 1150
+      },
+      "camera": {
+        "dist": 3.6,
+        "height": 2.6,
+        "azimuth": 0.2
+      },
+      "light": {
+        "sunColor": "#fff0d0",
+        "sunElevation": 55,
+        "sunAzimuth": 190,
+        "skyTop": "#5c86b4",
+        "skyHorizon": "#ecd8b0",
+        "fogColor": "#dcc8a2",
+        "fogDensity": 0.02,
+        "exposure": 1.15
+      },
+      "arc": "normal",
+      "image": "images/immacules.webp",
+      "imageAlt": "Illustration : des rangs de soldats immaculés devant les murs de brique d’Astapor.",
+      "textSide": "left",
+      "characters": ["ver-gris", "missandei", "kraznys-mo-nakloz"],
+      "links": ["immacules", "ghiscaris", "langue-ghiscarie", "haut-valyrien", "astapor"]
+    },
+    {
+      "slug": "meereen",
+      "num": "17",
+      "place": "meereen",
+      "title": "Yunkaï et Meereen",
+      "region": "La baie des Serfs",
+      "hook": "Au fond de la baie, une cité de pyramides surmontées de harpies : la plus grande et la plus fière des villes esclavagistes.",
+      "text": [
+        "Yunkaï, la cité jaune, forme des esclaves d’agrément et de maison, éduqués aux arts et aux langues. Plus au nord, à l’embouchure du Skahazadhan, Meereen est la plus vaste des trois cités. Ses murailles de brique enferment des marchés, des arènes de combat et des quartiers de pauvres, et ses pyramides à degrés abritent les grandes familles, chacune sur ses terrasses fleuries.",
+        "La plus haute pyramide porte au sommet une harpie de bronze, symbole de l’ancien empire de Ghis : une femme aux ailes de chauve-souris tenant des chaînes dans ses serres. Les maîtres de Meereen se disent les héritiers de cette grandeur, et ils vivent comme s’ils ne l’avaient jamais perdue.",
+        "Dans les arènes, on se bat pour le spectacle. Dans les rues, sous des masques, d’autres se battent pour que rien ne change."
+      ],
+      "transition": "À l’ouest, l’ancienne route du démon mène vers la plus vieille et la plus orgueilleuse des cités libres.",
+      "focus": {
+        "x": 1725,
+        "y": 985
+      },
+      "camera": {
+        "dist": 3.6,
+        "height": 2.6,
+        "azimuth": 0
+      },
+      "light": {
+        "sunColor": "#ffe2a8",
+        "sunElevation": 50,
+        "sunAzimuth": 210,
+        "skyTop": "#5a83b0",
+        "skyHorizon": "#efd3a2",
+        "fogColor": "#dcbd8e",
+        "fogDensity": 0.02,
+        "exposure": 1.15
+      },
+      "arc": "normal",
+      "image": "images/ghiscari.webp",
+      "imageAlt": "Illustration : une place de Meereen dominée par une grande pyramide.",
+      "textSide": "right",
+      "characters": [
+        "daenerys-targaryen",
+        "daario-naharis",
+        "hizdahr-zo-loraq",
+        "barristan-selmy",
+        "missandei",
+        "ver-gris",
+        "tyrion-lannister"
+      ],
+      "links": ["ghiscaris", "fils-de-la-harpie", "puines", "immacules", "meereen", "yunkai"]
+    },
+    {
+      "slug": "volantis",
+      "num": "18",
+      "place": "volantis",
+      "title": "Volantis",
+      "region": "Les cités libres",
+      "hook": "À l’embouchure de la Rhoyne, la plus ancienne des filles de Valyria compte cinq esclaves pour chaque homme libre.",
+      "text": [
+        "Volantis s’étend sur les deux rives de la Rhoyne, là où le fleuve rejoint la mer d’Été. Un pont si large qu’on y a bâti des boutiques et des tavernes relie ses deux moitiés. À l’est se trouve la ville ancienne, enfermée dans une muraille noire et sans joint, que seuls les descendants de Valyria ont le droit de franchir.",
+        "La cité se gouverne par trois triarques élus chaque année, mais ses habitants sont surtout des esclaves, reconnaissables aux tatouages de leur visage. Beaucoup d’entre eux se tournent vers le Maître de la Lumière, dont le temple rouge est le plus grand du monde connu. On y prêche, au crépuscule, la venue d’un sauveur.",
+        "Volantis rêve depuis toujours de redevenir Valyria. Elle n’en a gardé que l’orgueil et les chaînes."
+      ],
+      "transition": "Plus au sud-est, la mer change de couleur et l’air sent le soufre : le voyage touche à sa fin.",
+      "focus": {
+        "x": 1180,
+        "y": 1110
+      },
+      "camera": {
+        "dist": 3.6,
+        "height": 2.6,
+        "azimuth": 0
+      },
+      "light": {
+        "sunColor": "#ffcf96",
+        "sunElevation": 18,
+        "sunAzimuth": 240,
+        "skyTop": "#445a80",
+        "skyHorizon": "#e4bc90",
+        "fogColor": "#c9a582",
+        "fogDensity": 0.024,
+        "exposure": 1.08
+      },
+      "arc": "normal",
+      "image": "images/rhoynar.webp",
+      "imageAlt": "Illustration : des bateaux sur un large fleuve, devant une cité aux pierres claires.",
+      "textSide": "left",
+      "characters": ["kinvara", "tyrion-lannister", "varys"],
+      "links": ["maitre-de-la-lumiere", "rhoynar", "bas-valyrien", "volantis"]
+    },
+    {
+      "slug": "valyria",
+      "num": "19",
+      "place": "valyria",
+      "title": "Les ruines de Valyria",
+      "region": "La mer Fumeuse",
+      "hook": "Ici régnait le plus grand empire du monde. Il n’en reste que des volcans, des cendres et une mer qui fume.",
+      "text": [
+        "Valyria commandait la moitié du monde connu. Ses seigneurs-dragons bâtissaient des routes qui ne s’usent pas, forgeaient un acier qui ne s’émousse pas, et ne connaissaient pas d’ennemi à leur mesure. Puis, en un seul jour, les Quatorze Flammes se sont réveillées, la terre s’est ouverte, et la péninsule s’est brisée en îles.",
+        "Personne ne sait vraiment ce qui s’est passé. On parle du Fléau, comme d’une punition ou d’un accident. Depuis, la mer autour des ruines bout et fume, les marins évitent ses brumes, et ceux qui s’en approchent racontent des choses qu’on préfère ne pas croire.",
+        "De cette grandeur, il reste des langues, quelques épées et des familles qui se disent héritières. Le monde entier vit encore dans les débris de Valyria."
+      ],
+      "transition": "Le voyage s’achève ici. Le monde, lui, continue.",
+      "focus": {
+        "x": 1390,
+        "y": 1215
+      },
+      "camera": {
+        "dist": 4.0,
+        "height": 2.8,
+        "azimuth": 0
+      },
+      "light": {
+        "sunColor": "#ff5a2a",
+        "sunElevation": 3,
+        "sunAzimuth": 200,
+        "skyTop": "#12090d",
+        "skyHorizon": "#5a1c14",
+        "fogColor": "#2a1210",
+        "fogDensity": 0.04,
+        "exposure": 1.0
+      },
+      "arc": "normal",
+      "image": "images/valyriens.webp",
+      "imageAlt": "Illustration : une cité valyrienne au crépuscule, des volcans en éruption à l’horizon.",
+      "textSide": "left",
+      "characters": [],
+      "links": ["valyriens", "haut-valyrien", "dragons", "targaryen", "valyria"]
+    }
+  ]
+}

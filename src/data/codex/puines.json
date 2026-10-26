@@ -1,0 +1,44 @@
+{
+  "slug": "puines",
+  "rubric": "ordres",
+  "name": "Les Puînés",
+  "kicker": "Essos · Compagnies de mercenaires",
+  "lead": "Des soldats qui vendent leur service plutôt que de servir une couronne héréditaire.",
+  "body": [
+    "Les Puînés sont une compagnie de mercenaires active en Essos. Leur organisation suit les intérêts d’un contrat et la fidélité à des capitaines, plutôt qu’une obligation féodale envers une maison.",
+    "Dans un monde où les cités achètent des forces militaires, ces compagnies peuvent changer un équilibre politique. Leur présence rappelle que les armées de Game of Thrones ne sont pas toutes les prolongements d’un peuple ou d’une dynastie."
+  ],
+  "facts": [
+    {
+      "label": "Langue",
+      "value": "Langues des contrats et des recrues"
+    },
+    {
+      "label": "Visages & repères",
+      "value": "Daario Naharis · capitaines de la compagnie"
+    }
+  ],
+  "terms": [
+    {
+      "term": "Nature",
+      "def": "compagnie"
+    },
+    {
+      "term": "Engagement",
+      "def": "contrat"
+    },
+    {
+      "term": "Théâtre",
+      "def": "Essos"
+    }
+  ],
+  "places": [],
+  "characters": [],
+  "image": "images/puines.webp",
+  "sources": [
+    {
+      "label": "A Wiki of Ice and Fire",
+      "url": "https://awoiaf.westeros.org/index.php/Second_Sons"
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "slug": "castral-roc",
+  "name": "Castral Roc",
+  "kind": "cité",
+  "region": "Les Terres de l’Ouest",
+  "continent": "westeros",
+  "coords": {
+    "x": 237.64,
+    "y": 754.44
+  },
+  "description": [
+    "Siège ancestral des Lannister, ce bastion de l’Ouest incarne leur richesse et leur influence sur les affaires du royaume."
+  ],
+  "history": [],
+  "events": [],
+  "image": null,
+  "sources": []
+}

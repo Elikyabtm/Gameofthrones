@@ -1,0 +1,44 @@
+{
+  "slug": "sans-visage",
+  "rubric": "ordres",
+  "name": "Les Sans-Visage",
+  "kicker": "Essos · Braavos",
+  "lead": "Un ordre religieux et un art de l’effacement de soi.",
+  "body": [
+    "Les Sans-Visage sont liés à la Maison du Noir et du Blanc et au Dieu Multiface. Ils envisagent la mort à travers une tradition qui traverse les identités, les origines et les multiples cultes du monde connu.",
+    "Leur pratique associe les arts de l’assassinat à une discipline de l’observation, du mensonge et du changement d’identité. Le parcours d’Arya pose une question centrale : peut-on renoncer à son propre nom lorsque les souvenirs et les fidélités continuent de le porter ?"
+  ],
+  "facts": [
+    {
+      "label": "Langue",
+      "value": "Plusieurs langues selon les missions"
+    },
+    {
+      "label": "Visages & repères",
+      "value": "Jaqen H’ghar · Arya Stark"
+    }
+  ],
+  "terms": [
+    {
+      "term": "Lieu",
+      "def": "Maison du Noir et du Blanc"
+    },
+    {
+      "term": "Culte",
+      "def": "Dieu Multiface"
+    },
+    {
+      "term": "Pratique",
+      "def": "identité"
+    }
+  ],
+  "places": [],
+  "characters": [],
+  "image": "images/sans-visage.webp",
+  "sources": [
+    {
+      "label": "A Wiki of Ice and Fire",
+      "url": "https://awoiaf.westeros.org/index.php/Faceless_Men"
+    }
+  ]
+}

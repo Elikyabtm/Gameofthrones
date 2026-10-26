@@ -1,0 +1,48 @@
+{
+  "slug": "garde-de-nuit",
+  "rubric": "ordres",
+  "name": "La Garde de Nuit",
+  "kicker": "Westeros · Le Mur",
+  "lead": "Un ordre de frères jurés chargé de garder la frontière du Nord.",
+  "body": [
+    "La Garde de Nuit recrute parmi les volontaires, les bannis et les condamnés. Le serment engage une vie entière et impose de renoncer aux terres, aux titres et à la fondation d’une famille. Le noir porté par les frères matérialise ce passage hors des anciennes appartenances.",
+    "Patrouilleurs, constructeurs et intendants remplissent des missions différentes : explorer, entretenir et faire vivre les forteresses. L’ordre se veut à l’écart des querelles des couronnes, mais il dépend du reste du continent pour ses ressources et ses recrues. Sa mission se complique lorsque les dangers d’au-delà du Mur ne correspondent plus aux habitudes de ses membres."
+  ],
+  "facts": [
+    {
+      "label": "Langue",
+      "value": "Langue commune"
+    },
+    {
+      "label": "Visages & repères",
+      "value": "Jeor Mormont · Jon Snow · Samwell Tarly"
+    }
+  ],
+  "terms": [
+    {
+      "term": "Siège",
+      "def": "Châteaunoir"
+    },
+    {
+      "term": "Engagement",
+      "def": "à vie"
+    },
+    {
+      "term": "Devise",
+      "def": "veiller"
+    },
+    {
+      "term": "Fonctions",
+      "def": "trois corps"
+    }
+  ],
+  "places": [],
+  "characters": [],
+  "image": "images/garde-de-nuit.webp",
+  "sources": [
+    {
+      "label": "A Wiki of Ice and Fire",
+      "url": "https://awoiaf.westeros.org/index.php/Night%27s_Watch"
+    }
+  ]
+}

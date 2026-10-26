@@ -1,0 +1,14 @@
+{
+  "slug": "lorath",
+  "name": "Lorath",
+  "kind": "cité",
+  "region": "Cité libre",
+  "continent": "essos",
+  "description": [
+    "Lorath complète l’ensemble des neuf Cités libres. Située sur des îles du nord-ouest d’Essos, elle rappelle l’étendue et la diversité de cette constellation politique : aucune seule cité n’en représente toutes les coutumes."
+  ],
+  "history": [],
+  "events": [],
+  "image": "images/braavos.webp",
+  "sources": []
+}

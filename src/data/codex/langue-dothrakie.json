@@ -1,0 +1,40 @@
+{
+  "slug": "langue-dothrakie",
+  "rubric": "langues",
+  "name": "Le dothraki",
+  "kicker": "Essos · La mer Dothrak",
+  "lead": "Une langue de la steppe, développée pour la série.",
+  "body": [
+    "La langue des Dothraki accompagne leur vie nomade et leur culture du cheval. Le vocabulaire contient des titres et des notions que la traduction par « roi », « reine » ou « armée » simplifie trop vite.",
+    "David J. Peterson a développé cette langue à partir des éléments donnés par George R. R. Martin. Son travail ne se limite pas à une liste de sons : il comprend une grammaire et des usages qui permettent de construire des dialogues."
+  ],
+  "facts": [
+    {
+      "label": "Où la retrouver",
+      "value": "Khalasars · Vaes Dothrak"
+    }
+  ],
+  "terms": [
+    {
+      "term": "M’athchomaroon",
+      "def": "Salutation exprimant le respect."
+    },
+    {
+      "term": "Khal",
+      "def": "Chef d’un khalasar."
+    },
+    {
+      "term": "Khaleesi",
+      "def": "Titre de l’épouse d’un khal."
+    }
+  ],
+  "places": [],
+  "characters": [],
+  "image": null,
+  "sources": [
+    {
+      "label": "David J. Peterson — Dothraki",
+      "url": "https://dothraki.com/about-dothraki/"
+    }
+  ]
+}

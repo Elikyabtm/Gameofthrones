@@ -1,0 +1,17 @@
+{
+  "slug": "greyjoy",
+  "name": "Maison Greyjoy",
+  "words": "Nous ne semons pas.",
+  "sigil": "sigils/greyjoy.svg",
+  "sigilDescription": "Un kraken d’or sur champ noir.",
+  "sigilCredit": null,
+  "seat": "pyk",
+  "region": "Les Îles de Fer",
+  "history": [
+    "Les Greyjoy sont inséparables de la mer et des traditions des Fer-nés. Leur pouvoir dépend des capitaines, des flottes et d’une identité insulaire qui valorise l’indépendance. Le parcours de Theon, élevé au contact des Stark, rend particulièrement visibles les tensions entre origine, éducation et fidélité."
+  ],
+  "inTheSeries": [],
+  "figures": [],
+  "members": [],
+  "sources": []
+}

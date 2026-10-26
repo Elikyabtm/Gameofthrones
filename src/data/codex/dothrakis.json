@@ -1,0 +1,49 @@
+{
+  "slug": "dothrakis",
+  "rubric": "peuples",
+  "name": "Les Dothraki",
+  "kicker": "Essos · Mer Dothrak",
+  "lead": "Un peuple de cavaliers, dont le territoire se mesure en routes et en horizons.",
+  "body": [
+    "Les Dothraki parcourent les grandes plaines d’Essos dans des communautés nomades appelées khalasars. Autour des cavaliers se déplacent les familles, les troupeaux et tout ce qui permet à une société de vivre en mouvement. Un khal commande le groupe ; khaleesi est un titre porté par son épouse.",
+    "Le cheval organise la mobilité, la richesse et une grande partie de leur imaginaire. La puissance d’un chef repose sur sa capacité à entraîner les autres et à conserver leur fidélité. Un khalasar peut se diviser lorsque son autorité disparaît : le nom d’un père ne suffit pas à assurer la succession.",
+    "Vaes Dothrak est leur centre sacré, un lieu de rencontre au pied de la Mère des Montagnes. Les dosh khaleen, veuves de khals, y occupent une place religieuse. À travers Daenerys, cette culture de la steppe entre en contact avec les cités, les langues et les ambitions du monde méditerranéen d’Essos."
+  ],
+  "facts": [
+    {
+      "label": "Langue",
+      "value": "Dothraki"
+    },
+    {
+      "label": "Visages & repères",
+      "value": "Khal Drogo · Daenerys · les dosh khaleen"
+    }
+  ],
+  "terms": [
+    {
+      "term": "Khal",
+      "def": "chef"
+    },
+    {
+      "term": "Khalasar",
+      "def": "communauté nomade"
+    },
+    {
+      "term": "Khaleesi",
+      "def": "titre"
+    },
+    {
+      "term": "Vaes Dothrak",
+      "def": "cité sacrée"
+    }
+  ],
+  "places": [],
+  "characters": [],
+  "image": "images/dothraki.webp",
+  "sources": [
+    {
+      "label": "David J. Peterson — Dothraki",
+      "url": "https://dothraki.com/about-dothraki/"
+    }
+  ]
+}

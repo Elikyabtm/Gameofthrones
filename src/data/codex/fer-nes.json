@@ -1,0 +1,48 @@
+{
+  "slug": "fer-nes",
+  "rubric": "peuples",
+  "name": "Les Fer-nés",
+  "kicker": "Westeros · Îles de Fer",
+  "lead": "Une culture insulaire façonnée par la mer, les navires et le Dieu Noyé.",
+  "body": [
+    "La vie des Fer-nés s’organise autour d’îles pauvres en terres fertiles et ouvertes sur une mer dangereuse. Les traditions de navigation et de raid occupent une place centrale dans leur identité. Les Greyjoy dominent Pyk, mais les autres maisons des îles possèdent leurs propres capitaines et intérêts.",
+    "Le Dieu Noyé donne une dimension sacrée à cette relation à l’eau. Le prix de fer désigne une acquisition obtenue par la force, contrairement à un achat payé en or. Cette valeur proclamée ne résume pourtant pas tous les choix des personnages : Theon et Yara montrent combien une appartenance peut être vécue différemment."
+  ],
+  "facts": [
+    {
+      "label": "Langue",
+      "value": "Langue commune"
+    },
+    {
+      "label": "Visages & repères",
+      "value": "Balon · Yara · Theon · Euron Greyjoy"
+    }
+  ],
+  "terms": [
+    {
+      "term": "Territoire",
+      "def": "archipel"
+    },
+    {
+      "term": "Culte",
+      "def": "Dieu Noyé"
+    },
+    {
+      "term": "Force",
+      "def": "flotte"
+    },
+    {
+      "term": "Symbole",
+      "def": "kraken"
+    }
+  ],
+  "places": [],
+  "characters": [],
+  "image": "images/fer-nes.webp",
+  "sources": [
+    {
+      "label": "A Wiki of Ice and Fire",
+      "url": "https://awoiaf.westeros.org/index.php/Ironborn"
+    }
+  ]
+}

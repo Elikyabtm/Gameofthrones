@@ -1,0 +1,14 @@
+{
+  "slug": "norvos",
+  "name": "Norvos",
+  "kind": "cité",
+  "region": "Cité libre",
+  "continent": "essos",
+  "description": [
+    "Norvos est une cité de l’intérieur d’Essos, marquée par ses prêtres et par une vie urbaine différente de celle des grands ports. Sa présence rappelle que l’identité des Cités libres ne peut pas être réduite au commerce maritime."
+  ],
+  "history": [],
+  "events": [],
+  "image": "images/braavos.webp",
+  "sources": []
+}

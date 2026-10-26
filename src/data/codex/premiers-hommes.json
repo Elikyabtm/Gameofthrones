@@ -1,0 +1,44 @@
+{
+  "slug": "premiers-hommes",
+  "rubric": "peuples",
+  "name": "Les Premiers Hommes",
+  "kicker": "Westeros · Héritage ancien",
+  "lead": "Une migration ancienne, dont la mémoire demeure surtout dans le Nord.",
+  "body": [
+    "Les Premiers Hommes appartiennent aux grandes strates historiques du continent. Leurs premiers contacts avec les Enfants de la Forêt passent par le conflit, puis par des accords que les récits ultérieurs ont transformés en mémoire fondatrice.",
+    "Leur héritage ne signifie pas qu’une population serait restée inchangée. Il subsiste dans des lignées, des coutumes et le culte des anciens dieux, tandis que les langues et les alliances ont évolué. Le Nord revendique particulièrement cette profondeur historique."
+  ],
+  "facts": [
+    {
+      "label": "Langue",
+      "value": "Ancienne langue à l’origine"
+    },
+    {
+      "label": "Visages & repères",
+      "value": "Lignées du Nord · récits de l’Âge des Héros"
+    }
+  ],
+  "terms": [
+    {
+      "term": "Langue",
+      "def": "ancienne langue"
+    },
+    {
+      "term": "Mémoire",
+      "def": "Âge des Héros"
+    },
+    {
+      "term": "Culte",
+      "def": "anciens dieux"
+    }
+  ],
+  "places": [],
+  "characters": [],
+  "image": "images/premiers-hommes.webp",
+  "sources": [
+    {
+      "label": "A Wiki of Ice and Fire",
+      "url": "https://awoiaf.westeros.org/index.php/First_Men"
+    }
+  ]
+}

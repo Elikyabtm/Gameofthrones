@@ -1,0 +1,17 @@
+{
+  "slug": "tully",
+  "name": "Maison Tully",
+  "words": "Famille, devoir, honneur.",
+  "sigil": "sigils/tully.svg",
+  "sigilDescription": "Une truite argentée sur un champ rouge et bleu ondé.",
+  "sigilCredit": null,
+  "seat": "vivesaigues",
+  "region": "Le Conflans",
+  "history": [
+    "À travers Catelyn et Lysa, les Tully relient le Conflans au Nord et au Val. Vivesaigues occupe un espace de passage, exposé aux mouvements des armées. La devise familiale devient un ensemble d’obligations qui peuvent se soutenir ou se contredire lorsque les alliances sont mises à l’épreuve."
+  ],
+  "inTheSeries": [],
+  "figures": [],
+  "members": [],
+  "sources": []
+}

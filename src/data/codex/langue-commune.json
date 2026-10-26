@@ -1,0 +1,27 @@
+{
+  "slug": "langue-commune",
+  "rubric": "langues",
+  "name": "La langue commune",
+  "kicker": "Westeros · Les échanges du monde connu",
+  "lead": "Le langage partagé des Sept Couronnes.",
+  "body": [
+    "Les régions de Westeros possèdent des accents et des usages sociaux distincts, mais la langue commune permet généralement de communiquer du Nord à Dorne. Les mestres, marchands et voyageurs la transportent aussi au-delà du détroit.",
+    "Le langage ne fait pas disparaître les différences : la manière de parler peut signaler une origine, une éducation ou une position sociale. Dans la série, elle est principalement représentée par l’anglais des dialogues."
+  ],
+  "facts": [
+    {
+      "label": "Où la retrouver",
+      "value": "Westeros · comptoirs et échanges d’Essos"
+    }
+  ],
+  "terms": [],
+  "places": [],
+  "characters": [],
+  "image": null,
+  "sources": [
+    {
+      "label": "A Wiki of Ice and Fire",
+      "url": "https://awoiaf.westeros.org/index.php/Common_Tongue"
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "slug": "pentos",
+  "name": "Pentos",
+  "kind": "cité",
+  "region": "Cité libre",
+  "continent": "essos",
+  "description": [
+    "Pentos est l’une des portes occidentales d’Essos. Sa position commerciale et ses grandes fortunes en font un lieu où les projets politiques peuvent se négocier à l’abri des regards de Westeros. Le début du parcours de Daenerys y passe par la demeure d’Illyrio Mopatis."
+  ],
+  "history": [],
+  "events": [],
+  "image": "images/braavos.webp",
+  "sources": []
+}

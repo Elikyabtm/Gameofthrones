@@ -1,0 +1,17 @@
+{
+  "slug": "tyrell",
+  "name": "Maison Tyrell",
+  "words": "Plus haut, plus fort.",
+  "sigil": "sigils/tyrell.svg",
+  "sigilDescription": "Une rose d’or sur champ vert.",
+  "sigilCredit": null,
+  "seat": "hautjardin",
+  "region": "Le Bief",
+  "history": [
+    "Le Bief apporte au royaume des terres fertiles, des réserves agricoles et une force politique considérable. Les Tyrell associent cette base matérielle à l’art des alliances. Olenna et Margaery montrent que l’influence peut se construire par les usages de la cour autant que par les armes."
+  ],
+  "inTheSeries": [],
+  "figures": [],
+  "members": [],
+  "sources": []
+}

@@ -1,0 +1,44 @@
+{
+  "slug": "mestres",
+  "rubric": "ordres",
+  "name": "Les Mestres",
+  "kicker": "Westeros · La Citadelle",
+  "lead": "Le savoir circule à travers ceux qui conseillent, soignent et transmettent les nouvelles.",
+  "body": [
+    "Formés à la Citadelle de Villevieille, les mestres étudient plusieurs disciplines avant de servir une forteresse ou une maison. Leur chaîne rassemble des maillons associés à des champs de connaissance.",
+    "Ils remplissent des fonctions concrètes : soins, enseignement, tenue des archives et correspondance par corbeaux. Cette place au cœur de l’information leur donne une influence qui ne ressemble ni à celle d’une armée ni à celle d’une lignée."
+  ],
+  "facts": [
+    {
+      "label": "Langue",
+      "value": "Langue commune et langues étudiées"
+    },
+    {
+      "label": "Visages & repères",
+      "value": "Aemon · Luwin · Pycelle · Samwell"
+    }
+  ],
+  "terms": [
+    {
+      "term": "Centre",
+      "def": "Citadelle"
+    },
+    {
+      "term": "Signe",
+      "def": "chaîne"
+    },
+    {
+      "term": "Réseau",
+      "def": "corbeaux"
+    }
+  ],
+  "places": [],
+  "characters": [],
+  "image": "images/mestres.webp",
+  "sources": [
+    {
+      "label": "A Wiki of Ice and Fire",
+      "url": "https://awoiaf.westeros.org/index.php/Maesters"
+    }
+  ]
+}

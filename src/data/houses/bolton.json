@@ -1,0 +1,17 @@
+{
+  "slug": "bolton",
+  "name": "Maison Bolton",
+  "words": "Nos lames sont acérées.",
+  "sigil": "sigils/bolton.svg",
+  "sigilDescription": "Un homme écorché rouge sur champ rose semé de gouttes.",
+  "sigilCredit": null,
+  "seat": "fort-terreur",
+  "region": "Le Nord",
+  "history": [
+    "Les Bolton représentent une autre tradition de pouvoir du Nord, associée à la crainte et à la violence. Leur emblème oppose à l’honneur proclamé par les Stark un avertissement immédiat. Les relations de Roose et Ramsay avec les autres lignées font de leur maison un enjeu important des conflits septentrionaux."
+  ],
+  "inTheSeries": [],
+  "figures": [],
+  "members": [],
+  "sources": []
+}

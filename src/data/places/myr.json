@@ -1,0 +1,14 @@
+{
+  "slug": "myr",
+  "name": "Myr",
+  "kind": "cité",
+  "region": "Cité libre",
+  "continent": "essos",
+  "description": [
+    "Myr appartient au groupe des Cités libres occidentales. Elle est réputée pour certains métiers d’artisanat et de fabrication. Son nom apparaît aussi à travers des personnages qui transportent leurs savoirs et leurs croyances vers d’autres terres, comme Thoros de Myr."
+  ],
+  "history": [],
+  "events": [],
+  "image": "images/braavos.webp",
+  "sources": []
+}

@@ -1,0 +1,14 @@
+{
+  "slug": "meereen",
+  "name": "Meereen",
+  "kind": "cité",
+  "region": "Baie des Serfs",
+  "continent": "essos",
+  "description": [
+    "Les pyramides dominent Meereen, où les rapports entre anciennes élites, personnes libérées et nouvelles autorités rendent le gouvernement particulièrement difficile. Les Fils de la Harpie sont l’une des expressions les plus visibles de cette lutte autour de l’ordre social."
+  ],
+  "history": [],
+  "events": [],
+  "image": "images/immacules.webp",
+  "sources": []
+}

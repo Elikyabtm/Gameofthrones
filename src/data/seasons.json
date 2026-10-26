@@ -1,0 +1,45 @@
+[
+  {
+    "s": 1,
+    "title": "L’hiver vient",
+    "year": 2011,
+    "summary": "Une famille du Nord est appelée au Sud, pendant qu’une princesse exilée grandit de l’autre côté de la mer."
+  },
+  {
+    "s": 2,
+    "title": "Le Nord se souvient",
+    "year": 2012,
+    "summary": "Plusieurs prétendants revendiquent la couronne, et le royaume se divise."
+  },
+  {
+    "s": 3,
+    "title": "Valar Dohaeris",
+    "year": 2013,
+    "summary": "Les alliances se négocient sur les champs de bataille comme dans les salles de banquet."
+  },
+  {
+    "s": 4,
+    "title": "Deux épées",
+    "year": 2014,
+    "summary": "La capitale célèbre, le Nord se défend, et une reine cherche sa place à l’est."
+  },
+  {
+    "s": 5,
+    "title": "La guerre à venir",
+    "year": 2015,
+    "summary": "Chacun prépare la suite, loin des certitudes du début."
+  },
+  {
+    "s": 6,
+    "title": "La Femme rouge",
+    "year": 2016,
+    "summary": "Des retours, des reconquêtes et des héritages réclamés."
+  },
+  {
+    "s": 7,
+    "title": "Peyredragon",
+    "year": 2017,
+    "summary": "Les grandes maisons se comptent avant l’hiver."
+  },
+  { "s": 8, "title": "Winterfell", "year": 2019, "summary": "Les derniers chapitres." }
+]

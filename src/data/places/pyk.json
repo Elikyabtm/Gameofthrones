@@ -1,0 +1,18 @@
+{
+  "slug": "pyk",
+  "name": "Pyk",
+  "kind": "cité",
+  "region": "Les Îles de Fer",
+  "continent": "westeros",
+  "coords": {
+    "x": 241.56,
+    "y": 636.04
+  },
+  "description": [
+    "Au large de l’Ouest, les tours des Greyjoy affrontent les vents et les vagues des Îles de Fer."
+  ],
+  "history": [],
+  "events": [],
+  "image": null,
+  "sources": []
+}

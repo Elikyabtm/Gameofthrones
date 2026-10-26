@@ -1,0 +1,27 @@
+{
+  "slug": "langue-qartheenne",
+  "rubric": "langues",
+  "name": "Le qarthien",
+  "kicker": "Essos · Qarth",
+  "lead": "Une autre voix du vaste continent oriental.",
+  "body": [
+    "Qarth possède une identité urbaine et linguistique distincte, située sur des routes commerciales qui relient plusieurs mondes. La cité ne relève ni de la culture dothraki ni de celle des Sept Couronnes.",
+    "Les informations disponibles sur sa langue sont moins développées que pour le dothraki et le haut valyrien de la télévision. Cette fiche indique sa présence dans l’univers sans inventer de grammaire ni de phrases."
+  ],
+  "facts": [
+    {
+      "label": "Où la retrouver",
+      "value": "Qarth · routes maritimes d’Essos"
+    }
+  ],
+  "terms": [],
+  "places": [],
+  "characters": [],
+  "image": null,
+  "sources": [
+    {
+      "label": "A Wiki of Ice and Fire",
+      "url": "https://awoiaf.westeros.org/index.php/Languages"
+    }
+  ]
+}

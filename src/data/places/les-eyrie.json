@@ -1,0 +1,18 @@
+{
+  "slug": "les-eyrie",
+  "name": "Les Eyrié",
+  "kind": "cité",
+  "region": "Le Val",
+  "continent": "westeros",
+  "coords": {
+    "x": 494.04,
+    "y": 611.72
+  },
+  "description": [
+    "Une forteresse suspendue au-dessus du Val. Les montagnes de la Lune offrent aux Arryn une protection aussi spectaculaire que redoutable."
+  ],
+  "history": [],
+  "events": [],
+  "image": null,
+  "sources": []
+}

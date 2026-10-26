@@ -1,0 +1,17 @@
+{
+  "slug": "targaryen",
+  "name": "Maison Targaryen",
+  "words": "Feu et sang.",
+  "sigil": "sigils/targaryen.svg",
+  "sigilDescription": "Un dragon rouge à trois têtes sur champ noir.",
+  "sigilCredit": null,
+  "seat": "peyredragon",
+  "region": "Héritage de Valyria",
+  "history": [
+    "Héritiers de Valyria, les Targaryen ont imposé leur domination sur une grande partie de Westeros à l’aide de dragons. Leur histoire oscille entre la construction d’un pouvoir commun et les conflits de succession. Après la rébellion de Robert, l’exil transforme le nom de famille en revendication et en souvenir d’un ordre disparu."
+  ],
+  "inTheSeries": [],
+  "figures": [],
+  "members": [],
+  "sources": []
+}

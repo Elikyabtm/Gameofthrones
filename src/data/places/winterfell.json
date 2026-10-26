@@ -1,0 +1,18 @@
+{
+  "slug": "winterfell",
+  "name": "Winterfell",
+  "kind": "cité",
+  "region": "Le Nord",
+  "continent": "westeros",
+  "coords": {
+    "x": 384.75,
+    "y": 318.89
+  },
+  "description": [
+    "Au cœur du Nord, la demeure ancestrale des Stark. Ses remparts protègent un bois sacré et la mémoire des générations."
+  ],
+  "history": [],
+  "events": [],
+  "image": null,
+  "sources": []
+}

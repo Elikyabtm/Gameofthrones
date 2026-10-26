@@ -1,0 +1,14 @@
+{
+  "slug": "braavos",
+  "name": "Braavos",
+  "kind": "cité",
+  "region": "Cité libre",
+  "continent": "essos",
+  "description": [
+    "Canaux, commerce, temples et Banque de Fer. Braavos est une puissance maritime dont l’histoire de fondation est liée à la fuite de l’esclavage valyrien. Le Titan annonce l’entrée dans son port, tandis que la Maison du Noir et du Blanc ouvre une autre face de la cité."
+  ],
+  "history": [],
+  "events": [],
+  "image": "images/braavos.webp",
+  "sources": []
+}

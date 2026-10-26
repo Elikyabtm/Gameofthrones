@@ -1,0 +1,44 @@
+{
+  "slug": "andals",
+  "rubric": "peuples",
+  "name": "Les Andals",
+  "kicker": "Essos → Westeros",
+  "lead": "Une autre grande migration, associée aux armes, à l’écriture et aux Sept.",
+  "body": [
+    "Les Andals arrivent d’Essos dans un continent déjà occupé. Conquêtes, mariages et intégrations successives remodèlent les royaumes du Sud. Leurs traditions religieuses font de la Foi des Sept une institution majeure de Westeros.",
+    "Cette histoire explique une partie des contrastes entre le Nord et les régions méridionales. Elle ne produit pas deux blocs parfaitement séparés : les familles et les cultures se sont mêlées pendant des générations, et les identités racontées par les personnages restent aussi des constructions politiques."
+  ],
+  "facts": [
+    {
+      "label": "Langue",
+      "value": "Héritage lié à la langue commune"
+    },
+    {
+      "label": "Visages & repères",
+      "value": "Royaumes méridionaux · Foi des Sept"
+    }
+  ],
+  "terms": [
+    {
+      "term": "Origine",
+      "def": "Andalos"
+    },
+    {
+      "term": "Foi",
+      "def": "les Sept"
+    },
+    {
+      "term": "Héritage",
+      "def": "royaumes du Sud"
+    }
+  ],
+  "places": [],
+  "characters": [],
+  "image": "images/andals.webp",
+  "sources": [
+    {
+      "label": "A Wiki of Ice and Fire",
+      "url": "https://awoiaf.westeros.org/index.php/Andals"
+    }
+  ]
+}

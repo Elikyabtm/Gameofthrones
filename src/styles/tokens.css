@@ -1,29 +1,34 @@
-/* Jetons de design (PROJET.md §8.1). Règle absolue : aucun texte sous 11px. */
+/* Jetons de design (PROJET.md v2 §3.3). Règle absolue : aucun texte sous 11 px. */
 :root {
-  --bg: #0a1012;
-  --bg-2: #0e1719;
-  --panel: #0a1112cc;
-  --ink: #ece6d2;
-  --ink-2: #c9cbbd;
-  --ink-3: #a9b3a8;
-  --gold: #bba476;
-  --gold-line: #bba47655;
-  --gold-soft: #bba47622;
+  --bg: #0b0d0e;
+  --bg-2: #111416;
+  --ink: #e8e4da;
+  --ink-2: #b9b6ac;
+  --ink-3: #8a877f;
+  --line: #e8e4da26; /* filets d'interface */
+  --line-strong: #e8e4da55;
+  --accent: #c9b27c; /* or pâle, avec parcimonie : état actif, losange */
+  --blood: #8e2b25; /* rare : morts, alertes spoiler */
+  --blood-ink: #d0695f; /* variante lisible (contraste AA) pour du texte « mort » */
   --serif: 'Cormorant Garamond', Georgia, serif;
   --sans: 'Manrope', system-ui, sans-serif;
-  --fs-label: 12px; /* petites capitales — jamais moins de 11px nulle part */
+  --fs-label: 12px;
   --fs-small: 14px;
   --fs-body: 17px;
   --fs-lead: 22px;
-  --lh-body: 1.65;
-  --frame: 24px; /* 12px sous 700px */
-  --hud-top: 64px;
-  --hud-bottom: 60px;
-  --ease: cubic-bezier(0.2, 0.7, 0.2, 1);
+  --fs-title: clamp(48px, 6vw, 96px);
+  --lh-body: 1.7;
+  --frame: 28px; /* 12 px sous 700 px */
+  --header-h: 64px;
+  --bar-h: 56px;
+  --ease: cubic-bezier(0.22, 0.61, 0.36, 1);
+  --fade: 600ms;
 }
 
 @media (max-width: 699px) {
   :root {
     --frame: 12px;
+    --header-h: 52px;
+    --bar-h: 48px;
   }
 }

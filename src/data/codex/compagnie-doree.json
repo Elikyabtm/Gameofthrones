@@ -1,0 +1,44 @@
+{
+  "slug": "compagnie-doree",
+  "rubric": "ordres",
+  "name": "La Compagnie Dorée",
+  "kicker": "Essos · Héritage d’exilés de Westeros",
+  "lead": "Une force de mercenaires dont la réputation est elle-même une arme.",
+  "body": [
+    "La Compagnie Dorée rassemble des soldats organisés au service de contrats. Son histoire est liée aux exilés de Westeros et, dans les livres, aux conflits dynastiques des Feunoyr.",
+    "Elle se distingue par sa réputation de discipline et de fidélité à la parole donnée. Le rôle de la compagnie et ses alliances diffèrent sensiblement entre la série et les romans : cette fiche décrit son identité générale, sans mélanger les deux intrigues."
+  ],
+  "facts": [
+    {
+      "label": "Langue",
+      "value": "Langue commune et langues d’Essos"
+    },
+    {
+      "label": "Visages & repères",
+      "value": "Harry Strickland dans la série"
+    }
+  ],
+  "terms": [
+    {
+      "term": "Nature",
+      "def": "mercenaires"
+    },
+    {
+      "term": "Héritage",
+      "def": "exil"
+    },
+    {
+      "term": "Valeur",
+      "def": "réputation"
+    }
+  ],
+  "places": [],
+  "characters": [],
+  "image": "images/compagnie-doree.webp",
+  "sources": [
+    {
+      "label": "A Wiki of Ice and Fire",
+      "url": "https://awoiaf.westeros.org/index.php/Golden_Company"
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "slug": "braaviens",
+  "rubric": "peuples",
+  "name": "Les Braaviens",
+  "kicker": "Essos · Braavos",
+  "lead": "Une cité de canaux, de commerce et de multiples croyances.",
+  "body": [
+    "Braavos appartient aux neuf Cités libres de l’ouest d’Essos. Son récit de fondation est lié à la fuite d’esclaves de Valyria. L’accueil de populations d’origines diverses explique la diversité des temples et des traditions de cette ville maritime.",
+    "Le Titan garde son entrée ; la Banque de Fer étend son influence bien au-delà des canaux. La danse de l’eau de Syrio Forel et la Maison du Noir et du Blanc constituent d’autres portes d’entrée dans une cité dont l’identité ne se réduit pas à une seule famille régnante."
+  ],
+  "facts": [
+    {
+      "label": "Langue",
+      "value": "Valyrien braavien ; langue commune dans les échanges"
+    },
+    {
+      "label": "Visages & repères",
+      "value": "Syrio Forel · le Seigneur de la Mer · la Banque de Fer"
+    }
+  ],
+  "terms": [
+    {
+      "term": "Statut",
+      "def": "Cité libre"
+    },
+    {
+      "term": "Repère",
+      "def": "Titan"
+    },
+    {
+      "term": "Puissance",
+      "def": "commerce"
+    }
+  ],
+  "places": [],
+  "characters": [],
+  "image": "images/braavos.webp",
+  "sources": [
+    {
+      "label": "A Wiki of Ice and Fire",
+      "url": "https://awoiaf.westeros.org/index.php/Braavos"
+    }
+  ]
+}

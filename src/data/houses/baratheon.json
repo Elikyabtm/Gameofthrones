@@ -1,0 +1,17 @@
+{
+  "slug": "baratheon",
+  "name": "Maison Baratheon",
+  "words": "Nôtre est la fureur.",
+  "sigil": "sigils/baratheon.svg",
+  "sigilDescription": "Un cerf noir sur champ d’or.",
+  "sigilCredit": null,
+  "seat": "accalmie",
+  "region": "Les Terres de l’Orage",
+  "history": [
+    "La rébellion porte Robert au trône et place une maison des Terres de l’Orage au centre du royaume. Robert, Stannis et Renly ne partagent cependant ni la même vision du droit, ni la même manière de convaincre. Leur parenté ne les protège pas des rivalités que suscite le pouvoir."
+  ],
+  "inTheSeries": [],
+  "figures": [],
+  "members": [],
+  "sources": []
+}

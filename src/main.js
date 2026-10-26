@@ -1,125 +1,176 @@
-// Point d'entrée : rend le voyage en HTML, branche le scroll et la modale, puis charge la
-// scène 3D (import dynamique, après le premier affichage).
+// Point d'entrée : cadre, routeur, espaces chargés à la demande et monde 3D persistant.
 import './styles/fonts.css';
 import './styles/tokens.css';
 import './styles/base.css';
+import './styles/chrome.css';
+import './styles/overlays.css';
 import './styles/journey.css';
-import './styles/archive.css';
-import './styles/hud.css';
-import './styles/menu.css';
-import './styles/annexes.css';
-import './styles/tree.css';
-import { STEPS, TOTAL_STEPS, panelSide } from './data/journey.js';
-import { renderJourney } from './journey/render.js';
-import { createScrollDriver } from './journey/scroll.js';
-import { applyPanel } from './journey/panels.js';
-import { initArchive } from './ui/archive.js';
-import { initHud } from './journey/hud.js';
+import { router, setMeta } from './core/router.js';
+import { store } from './core/store.js';
+import { announce, toast, wait } from './ui/dom.js';
+import { initChrome } from './ui/chrome.js';
 import { initMenu } from './ui/menu.js';
-import { initAudio } from './ui/audio.js';
-import { FICHES, getFiche } from './content/index.js';
-import { renderTree } from './annexes/tree.js';
-import { renderIndex } from './annexes/index.js';
-import { renderTimeline } from './annexes/timeline.js';
-import { renderSources } from './annexes/sources.js';
+import { initSeasonPicker } from './ui/season-picker.js';
+import { audio } from './ui/audio.js';
+import * as mapSpace from './spaces/map/index.js';
 
-const reducedMotion = matchMedia('(prefers-reduced-motion: reduce)').matches;
-const articles = renderJourney();
-const panels = articles.map((a) => a.querySelector('.stop-panel'));
-initArchive();
+const SPACES = {
+  map: () => Promise.resolve(mapSpace),
+  characters: () => import('./spaces/characters/index.js'),
+  houses: () => import('./spaces/houses/index.js'),
+  codex: () => import('./spaces/codex/index.js'),
+  about: () => import('./spaces/about/index.js'),
+  notfound: () => import('./spaces/notfound.js'),
+};
 
-// Annexes : arbre, index, chronologie, sources (rendues au chargement, sous le voyage).
-const tree = renderTree(document.getElementById('arbre'));
-renderIndex(document.getElementById('index'));
-renderTimeline(document.getElementById('chronologie'));
-renderSources(document.getElementById('sources'));
+const root = document.documentElement;
+const spaceEl = document.getElementById('space');
+const chrome = initChrome();
+const picker = initSeasonPicker();
 
-// « Voir la lignée » : défile jusqu'à l'arbre et le centre sur la maison.
-document.addEventListener('click', (e) => {
-  const b = e.target.closest('[data-lineage]');
-  if (!b) return;
-  document
-    .getElementById('arbre')
-    .scrollIntoView({ behavior: reducedMotion ? 'instant' : 'smooth' });
-  tree.showFamily(b.dataset.lineage);
+const applyMotion = () => root.classList.toggle('reduced-motion', store.get('reducedMotion'));
+applyMotion();
+
+// Son : bouton de la barre du bas et réglage du menu.
+const soundBtn = document.querySelector('.sound-btn');
+function toggleSound() {
+  audio.setEnabled(!audio.enabled);
+  store.set({ sound: audio.enabled });
+  soundBtn.setAttribute('aria-pressed', String(audio.enabled));
+  soundBtn.setAttribute(
+    'aria-label',
+    audio.enabled ? 'Couper le son d’ambiance' : 'Activer le son d’ambiance',
+  );
+}
+soundBtn.addEventListener('click', toggleSound);
+
+const menu = initMenu({
+  onSeason: () => picker.open(),
+  onSound: toggleSound,
+  onSearch: () => openSearch(),
 });
+document.querySelector('.season-btn').addEventListener('click', () => picker.open());
 
-const announcer = document.getElementById('announcer');
-const fade = document.getElementById('cut-fade');
+// Monde 3D : chargé après le premier affichage. Sans WebGL, repli 2D (§12).
 let world = null;
-
-let hud = null;
-let menu = null;
-const driver = createScrollDriver(articles, {
-  onUpdate(s) {
-    panels.forEach((p, i) => applyPanel(p, i === s.index ? s.u : 0, { reducedMotion }));
-    world?.setScroll(s);
-  },
-  onStepChange(i) {
-    hud?.update(i);
-    menu?.setCurrent(i);
-    if (i >= 0) {
-      const step = STEPS[i];
-      announcer.textContent = `Étape ${step.num} sur ${TOTAL_STEPS} : ${step.place}`;
-    }
-    // Mouvement réduit : la caméra coupe, masquée par un fondu noir de 300 ms.
-    if (reducedMotion && world) {
-      fade.style.transition = 'none';
-      fade.style.opacity = '1';
-      requestAnimationFrame(() => {
-        fade.style.transition = 'opacity 300ms linear';
-        fade.style.opacity = '0';
-      });
-    }
-  },
-});
-
-// Navigation : vol doux vers le palier d'une étape (coupe directe en mouvement réduit).
-const goTo = (i) => driver.goTo(i, { smooth: !reducedMotion });
-const toIntro = () => window.scrollTo({ top: 0, behavior: reducedMotion ? 'instant' : 'smooth' });
-hud = initHud({ steps: STEPS, total: TOTAL_STEPS, goTo, toIntro });
-menu = initMenu({ steps: STEPS, goTo });
-hud.update(driver.index);
-menu.setCurrent(driver.index);
-initAudio();
-
-// Bouton « Commencer le voyage » : défile jusqu'au palier de l'étape 01.
-document.querySelector('.intro-cta').addEventListener('click', (e) => {
-  e.preventDefault();
-  goTo(0);
-});
-
-// Scène 3D : après le premier affichage, pour que le texte soit là immédiatement.
-requestAnimationFrame(() =>
-  setTimeout(async () => {
+const worldReady = new Promise((resolve) => {
+  const start = async () => {
     try {
-      const { initWorld } = await import('./map/world.js');
-      world = initWorld({
+      const { initWorld } = await import('./world/world.js');
+      world = await initWorld({
         canvas: document.getElementById('world'),
         labelsRoot: document.getElementById('world-labels'),
-        steps: STEPS,
-        sides: STEPS.map(panelSide),
-        placeTitle: (id) => getFiche('place', id).title,
-        reducedMotion,
+        reducedMotion: () => store.get('reducedMotion'),
       });
-      driver.refresh();
-      document.documentElement.classList.add('is-world-ready');
-    } catch (err) {
-      // Sans WebGL : le voyage reste lisible ; le repli 2D arrive en phase 7.
-      console.warn('Carte 3D indisponible :', err.message);
-      document.documentElement.classList.add('no-webgl', 'is-world-ready');
+      root.classList.add('is-world-ready');
+    } catch (e) {
+      console.info('WebGL indisponible, repli 2D :', e.message);
+      const { initFallback } = await import('./world/fallback.js');
+      world = initFallback(document.querySelector('.world'));
+      root.classList.add('no-webgl', 'is-world-ready');
     }
-  }, 0),
-);
+    window.realm.world = world;
+    resolve(world);
+  };
+  requestAnimationFrame(() => setTimeout(start, 0));
+});
 
-// Accès pour les vérifications automatiques (tools/check.mjs).
-window.__realmContent = { FICHES };
-window.realm = {
-  get state() {
-    return world?.state ?? null;
+// Recherche globale (§8.5) : bouton, Ctrl+K / Cmd+K et « / ».
+let search = null;
+async function openSearch() {
+  search ??= (await import('./ui/search-modal.js')).initSearch();
+  search.open();
+}
+document.querySelector('.search-btn').addEventListener('click', openSearch);
+addEventListener('keydown', (e) => {
+  const typing = /^(INPUT|TEXTAREA|SELECT)$/.test(document.activeElement?.tagName);
+  if ((e.key === 'k' && (e.ctrlKey || e.metaKey)) || (e.key === '/' && !typing)) {
+    if (root.classList.contains('has-modal') && !document.getElementById('search').hidden) return;
+    e.preventDefault();
+    openSearch();
+  }
+});
+
+// Aperçus en surimpression (§8.3) : tout lien [data-preview] d'un texte.
+document.addEventListener('click', async (e) => {
+  const a = e.target.closest('a[data-preview]');
+  if (!a || e.metaKey || e.ctrlKey || e.shiftKey) return;
+  e.preventDefault();
+  const { openPreview } = await import('./ui/preview.js');
+  openPreview(a.dataset.kind, a.dataset.slug, a);
+});
+
+const ctx = {
+  store,
+  chrome,
+  menu,
+  picker,
+  audio,
+  announce,
+  setMeta,
+  get world() {
+    return world;
   },
-  get ready() {
-    return document.documentElement.classList.contains('is-world-ready');
-  },
-  goTo: (i, opts) => driver.goTo(i, opts),
+  worldReady,
+  navigate: (url, o) => router.navigate(url, o),
 };
+
+let active = null; // { space, handle }
+let seq = 0;
+
+async function onRoute(route, { initial } = {}) {
+  const token = ++seq;
+  menu.close({ restoreFocus: false });
+  if (active?.space === route.space && active.handle.update) {
+    await active.handle.update(route);
+    return;
+  }
+  const reduced = store.get('reducedMotion');
+  if (!initial) {
+    spaceEl.classList.add('is-leaving');
+    await wait(reduced ? 150 : 600);
+    if (token !== seq) return;
+  }
+  active?.handle.unmount?.();
+  const mod = await SPACES[route.space]();
+  if (token !== seq) return;
+  spaceEl.innerHTML = '';
+  spaceEl.dataset.space = route.space;
+  store.set({ space: route.space });
+  chrome.setSpace(route.space);
+  root.dataset.worldMode = route.space === 'map' ? 'map' : 'ambient';
+  if (route.space !== 'map') window.scrollTo(0, 0);
+  const handle = (await mod.mount(spaceEl, route, ctx)) ?? {};
+  if (token !== seq) return handle.unmount?.();
+  active = { space: route.space, handle };
+  spaceEl.classList.remove('is-leaving');
+  if (!initial) spaceEl.focus({ preventScroll: true });
+}
+
+// Changement de saison : mise à jour en place, fondu de 300 ms et notification (§9).
+store.on(async (keys) => {
+  if (keys.includes('reducedMotion')) applyMotion();
+  if (!keys.includes('season') || !active?.handle.refresh) return;
+  spaceEl.classList.add('is-refreshing');
+  await wait(300);
+  await active.handle.refresh();
+  spaceEl.classList.remove('is-refreshing');
+  const msg = `Contenu affiché jusqu’à la saison ${store.season}`;
+  toast(msg);
+  announce(msg);
+});
+
+window.realm = {
+  store,
+  router,
+  get space() {
+    return active?.space ?? null;
+  },
+  get state() {
+    return active?.handle.state ?? null;
+  },
+  world: null,
+  worldReady,
+};
+
+router.start(onRoute);

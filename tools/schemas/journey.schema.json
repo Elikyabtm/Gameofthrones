@@ -1,0 +1,37 @@
+{
+  "$id": "journey",
+  "type": "object",
+  "required": ["intro", "crossing", "steps", "end"],
+  "properties": {
+    "steps": {
+      "type": "array", "minItems": 19, "maxItems": 19,
+      "items": {
+        "type": "object",
+        "required": ["slug", "num", "place", "title", "region", "hook", "text", "transition", "focus", "light", "arc", "image", "characters", "links"],
+        "additionalProperties": false,
+        "properties": {
+          "slug": { "$ref": "common#/$defs/slug" },
+          "num": { "type": "string", "pattern": "^\\d\\d$" },
+          "place": { "$ref": "common#/$defs/slug" },
+          "title": { "type": "string" },
+          "region": { "type": "string" },
+          "hook": { "type": "string" },
+          "text": { "$ref": "common#/$defs/paragraphs" },
+          "transition": { "type": "string" },
+          "focus": { "type": "object" },
+          "camera": { "type": "object" },
+          "light": {
+            "type": "object",
+            "required": ["sunColor", "sunElevation", "sunAzimuth", "skyTop", "skyHorizon", "fogColor", "fogDensity", "exposure"]
+          },
+          "arc": { "enum": ["normal", "high"] },
+          "image": { "$ref": "common#/$defs/image" },
+          "imageAlt": { "type": "string" },
+          "textSide": { "enum": ["left", "right"] },
+          "characters": { "type": "array", "items": { "$ref": "common#/$defs/slug" } },
+          "links": { "type": "array", "items": { "$ref": "common#/$defs/slug" } }
+        }
+      }
+    }
+  }
+}
