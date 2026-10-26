@@ -63,6 +63,19 @@ export const norm = (s) =>
  * Construit le graphe à partir de l'index des contenus.
  * @param {object} index { characters, houses, places, codex }
  */
+// Alias trop communs ou partagés pour un lien automatique (la recherche les trouve quand même) :
+// « Personne ne sait… », le khaleesi générique, le Grand Mestre qui change au fil des saisons…
+const AMBIGUOUS = new Set([
+  'Personne',
+  'Khaleesi',
+  'Grand Septon',
+  'le Grand Mestre',
+  'Sam',
+  'le Roi du Nord',
+  'l’Andal',
+  'Lady Stark',
+]);
+
 export function createGraph(index) {
   const chars = new Map(index.characters.map((c) => [c.slug, c]));
   const houses = new Map(index.houses.map((h) => [h.slug, h]));
@@ -161,7 +174,8 @@ export function createGraph(index) {
         if (!characterVisible(c, season)) continue;
         add(c.name, 'character', c.slug);
         add(c.short, 'character', c.slug);
-        for (const a of c.aliases ?? []) if (visible(a, season)) add(a.text, 'character', c.slug);
+        for (const a of c.aliases ?? [])
+          if (visible(a, season) && !AMBIGUOUS.has(a.text)) add(a.text, 'character', c.slug);
       }
       // Noms d'institutions : aussi sans article ni « Maison » (« la Garde de Nuit »).
       const bare = (t) => t.replace(/^(Maison |Le |La |Les |L’|L')/, '');

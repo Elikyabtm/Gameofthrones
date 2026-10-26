@@ -144,11 +144,11 @@ async function lineagesView(root, data, ctx) {
   root.innerHTML = `
   <section class="page lineages" aria-labelledby="lin-title">
     <header class="page-head"><p class="label label-accent">Pour les curieux</p><h1 id="lin-title">Toutes les lignées</h1></header>
-    ${houses.map((h) => `<section class="house-tree"><h2 class="section-title"><a href="/maisons/${h.slug}">${esc(h.name)}</a></h2><div class="tree-host" data-house="${h.slug}"></div></section>`).join('')}
+    ${houses.map((h) => `<section class="house-tree"><h2 class="section-title"><a href="/maisons/${h.slug}">${esc(h.name)}</a></h2><div class="tree-host" data-tree-of="${h.slug}"></div></section>`).join('')}
     ${footer()}
   </section>`;
   for (const h of houses)
-    renderHouseTree(root.querySelector(`[data-house="${h.slug}"]`), h, data.graph, season, {
+    renderHouseTree(root.querySelector(`[data-tree-of="${h.slug}"]`), h, data.graph, season, {
       onHouse: (slug) => ctx.navigate(`/maisons/${slug}#arbre`),
     });
   ctx.setMeta('Toutes les lignées');

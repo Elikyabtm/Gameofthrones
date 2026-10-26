@@ -14,7 +14,24 @@
 }
 
 .intro-inner {
+  position: relative;
+  isolation: isolate;
   max-width: 760px;
+}
+
+/* Voile sombre derrière le titre : lisible même au-dessus du désert d'Essos (§3.3). */
+.intro-inner::before {
+  content: '';
+  position: absolute;
+  inset: -90px -160px;
+  z-index: -1;
+  background: radial-gradient(
+    closest-side,
+    rgb(8 10 11 / 0.82),
+    rgb(8 10 11 / 0.55) 60%,
+    transparent
+  );
+  pointer-events: none;
 }
 
 .intro-fleuron {
