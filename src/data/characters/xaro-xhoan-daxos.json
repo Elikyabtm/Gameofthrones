@@ -1,0 +1,34 @@
+{
+  "slug": "xaro-xhoan-daxos",
+  "name": "Xaro Xhoan Daxos",
+  "short": "Xaro",
+  "aliases": [],
+  "house": null,
+  "region": "Qarth",
+  "camp": "essos",
+  "allegiances": [],
+  "origin": "qarth",
+  "titles": [{ "text": "Membre des Treize de Qarth" }],
+  "actor": "Nonso Anozie",
+  "firstSeason": 2,
+  "status": [
+    { "s": 2, "value": "vivant" },
+    { "s": 2, "value": "mort", "note": "Enfermé par Daenerys dans sa propre chambre forte vide" }
+  ],
+  "summary": "Marchand immensément riche de Qarth, l’un des Treize qui gouvernent la cité, Xaro Xhoan Daxos ouvre ses portes à Daenerys. Il aime les cadeaux, surtout ceux qui rapportent.",
+  "bio": [
+    { "s": 2, "title": "Saison 2 — Le marchand des Treize", "paragraphs": ["Xaro se porte garant de Daenerys pour qu’elle entre dans Qarth, puis l’installe dans son palais. Il raconte qu’il est arrivé dans la ville sans rien et qu’il possède désormais une chambre forte pleine de trésors. Il lui propose de l’épouser, ce qui lui donnerait des navires.", "En réalité, il complote avec le sorcier Pyat Pree pour voler les dragons et prendre le pouvoir de la cité : il fait massacrer les autres membres des Treize. Daenerys découvre la trahison, retrouve ses dragons et fait ouvrir la chambre forte de Xaro. Elle est vide. Elle l’y enferme avec sa servante complice."] }
+  ],
+  "keyMoments": [
+    { "s": 2, "title": "Le garant", "text": "Il permet à Daenerys d’entrer dans Qarth.", "place": "qarth" },
+    { "s": 2, "title": "La chambre forte", "text": "Daenerys l’enferme dans son coffre vide.", "place": "qarth" }
+  ],
+  "relations": [
+    { "to": "pyat-pree", "type": "allie", "label": "Son complice dans le coup de force", "s": 2 }
+  ],
+  "places": [{ "place": "qarth", "seasons": [2] }],
+  "codex": ["langue-qartheenne"],
+  "portrait": null,
+  "_doute": "Peu de relations : Daenerys et Pyat Pree à l’écran (Jorah se méfie de lui sans échange notable).",
+  "sources": [{ "label": "Wiki of Westeros — Xaro Xhoan Daxos", "url": "https://gameofthrones.fandom.com/wiki/Xaro_Xhoan_Daxos" }]
+}

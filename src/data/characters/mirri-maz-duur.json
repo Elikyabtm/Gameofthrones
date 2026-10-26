@@ -1,0 +1,36 @@
+{
+  "slug": "mirri-maz-duur",
+  "name": "Mirri Maz Duur",
+  "short": "Mirri",
+  "aliases": [],
+  "house": null,
+  "region": "Lhazar",
+  "camp": "essos",
+  "allegiances": [],
+  "origin": "lhazar",
+  "titles": [{ "text": "Prêtresse du Grand Berger" }],
+  "actor": "Mia Soteriou",
+  "firstSeason": 1,
+  "status": [
+    { "s": 1, "value": "vivant" },
+    { "s": 1, "value": "mort", "note": "Brûlée sur le bûcher funéraire de Khal Drogo" }
+  ],
+  "summary": "Prêtresse et guérisseuse lhazaréenne, Mirri Maz Duur voit son village détruit par le khalasar de Drogo. Daenerys la sauve, et lui demande en retour un service.",
+  "bio": [
+    { "s": 1, "title": "Saison 1 — La vengeance", "paragraphs": ["Daenerys arrache Mirri aux guerriers qui la violentent après le pillage de son village. Quand Drogo est blessé, la prêtresse soigne sa plaie, puis propose un rituel de sang pour le sauver quand il tombe de cheval. Le rituel coûte la vie à l’enfant que porte Daenerys et ne rend à Drogo qu’un souffle sans conscience.", "Mirri explique sa vengeance sans détour : elle a vu son temple brûlé, son peuple massacré, et elle ne doit rien à celle qui l’a sauvée trop tard. Daenerys la fait attacher au bûcher de Drogo. Mirri meurt dans les flammes, d’où naissent les dragons."] }
+  ],
+  "keyMoments": [
+    { "s": 1, "title": "Le rituel de sang", "text": "Elle rend à Drogo un souffle sans vie.", "place": "lhazar" },
+    { "s": 1, "title": "Le bûcher", "text": "Elle brûle sur le bûcher du khal.", "place": "mer-dothrak" }
+  ],
+  "relations": [
+    { "to": "jorah-mormont", "type": "ennemi", "label": "L’exilé qui se méfiait d’elle", "s": 1 }
+  ],
+  "places": [
+    { "place": "lhazar", "seasons": [1] },
+    { "place": "mer-dothrak", "seasons": [1] }
+  ],
+  "codex": ["lhazareens"],
+  "portrait": null,
+  "sources": [{ "label": "Wiki of Westeros — Mirri Maz Duur", "url": "https://gameofthrones.fandom.com/wiki/Mirri_Maz_Duur" }]
+}

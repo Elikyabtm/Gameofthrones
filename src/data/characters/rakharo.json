@@ -1,0 +1,38 @@
+{
+  "slug": "rakharo",
+  "name": "Rakharo",
+  "short": "Rakharo",
+  "aliases": [],
+  "house": null,
+  "region": "La mer Dothrak",
+  "camp": "essos",
+  "allegiances": [],
+  "origin": "mer-dothrak",
+  "titles": [{ "text": "Sang-coureur" }, { "text": "Ko de la khaleesi", "s": 1 }],
+  "actor": "Elyes Gabel",
+  "firstSeason": 1,
+  "status": [
+    { "s": 1, "value": "vivant" },
+    { "s": 2, "value": "mort", "note": "Tué en éclaireur dans le désert Rouge" }
+  ],
+  "summary": "Sang-coureur du khal Drogo, Rakharo est l’un des guerriers qui partagent la vie et la mort de leur khal. Il enseigne à Daenerys les rudiments de la langue dothrak.",
+  "bio": [
+    { "s": 1, "title": "Saison 1 — Le sang-coureur", "paragraphs": ["Rakharo est l’un des trois sang-coureurs de Drogo, ces guerriers liés à leur khal par le sang et qui doivent mourir avec lui. Il apprend à Daenerys quelques mots de dothraki et lui reste fidèle quand presque tout le khalasar se disperse après la chute de Drogo. Elle en fait l’un de ses kos."] },
+    { "s": 2, "title": "Saison 2 — Le désert Rouge", "paragraphs": ["Daenerys envoie Rakharo explorer le désert Rouge à la recherche d’une issue. Son cheval revient seul, avec sa tête dans une sacoche : un khal ennemi l’a tué pour défier la khaleesi. Daenerys jure de le venger et lui offre des funérailles dothrak."] }
+  ],
+  "keyMoments": [
+    { "s": 1, "title": "Les mots dothraki", "text": "Il aide Daenerys à apprendre la langue de son peuple.", "place": "mer-dothrak" },
+    { "s": 2, "title": "Le cheval revenu seul", "text": "Sa tête revient du désert dans une sacoche.", "place": "desert-rouge" }
+  ],
+  "relations": [
+    { "to": "daenerys-targaryen", "type": "suzerain", "label": "Sa khaleesi", "inverseLabel": "Son ko", "s": 1 },
+    { "to": "jorah-mormont", "type": "allie", "label": "Son compagnon de route", "s": 1 }
+  ],
+  "places": [
+    { "place": "mer-dothrak", "seasons": [1] },
+    { "place": "desert-rouge", "seasons": [2] }
+  ],
+  "codex": ["dothrakis", "langue-dothrakie"],
+  "portrait": null,
+  "sources": [{ "label": "Wiki of Westeros — Rakharo", "url": "https://gameofthrones.fandom.com/wiki/Rakharo" }]
+}

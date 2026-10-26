@@ -1,0 +1,310 @@
+{
+  "slug": "tyrion-lannister",
+  "name": "Tyrion Lannister",
+  "short": "Tyrion",
+  "principal": true,
+  "aliases": [
+    {
+      "text": "le Lutin"
+    },
+    {
+      "text": "Demi-Homme"
+    }
+  ],
+  "house": "lannister",
+  "region": "L’Ouest",
+  "camp": "westeros",
+  "allegiances": [
+    {
+      "to": "lannister"
+    },
+    {
+      "to": "targaryen",
+      "s": 6
+    }
+  ],
+  "origin": "castral-roc",
+  "titles": [
+    {
+      "text": "Main du Roi par intérim",
+      "s": 2
+    },
+    {
+      "text": "Grand argentier",
+      "s": 3
+    },
+    {
+      "text": "Main de la Reine",
+      "s": 6
+    },
+    {
+      "text": "Main du Roi",
+      "s": 8
+    }
+  ],
+  "actor": "Peter Dinklage",
+  "firstSeason": 1,
+  "status": [
+    {
+      "s": 1,
+      "value": "vivant"
+    }
+  ],
+  "summary": "Fils cadet de Tywin Lannister, Tyrion est né nain dans une famille qui ne le lui pardonne pas. Il compense par l’esprit, la lecture et le vin, et voit souvent plus loin que tous ceux qui le méprisent.",
+  "quote": {
+    "text": "C’est ce que je fais : je bois et je sais des choses.",
+    "s": 6
+  },
+  "bio": [
+    {
+      "s": 1,
+      "title": "Saison 1 — Le Lutin",
+      "paragraphs": [
+        "Tyrion arrive à Winterfell avec la cour, puis suit Benjen Stark jusqu’au Mur, par curiosité. Il y noue une amitié improbable avec Jon Snow, à qui il conseille de porter son statut de bâtard comme une armure. Sur le chemin du retour, Catelyn Stark le fait arrêter, persuadée qu’il a voulu tuer Bran.",
+        "Emprisonné aux Eyrié dans une cellule ouverte sur le vide, il réclame un duel judiciaire. Un mercenaire, Bronn, se bat pour lui et gagne. Libre, il rejoint l’armée de son père avec des montagnards du Val, puis Tywin l’envoie à Port-Réal pour tenir le jeune roi Joffrey."
+      ]
+    },
+    {
+      "s": 2,
+      "title": "Saison 2 — La Main du Roi",
+      "paragraphs": [
+        "Tyrion se révèle un dirigeant habile : il remplace le commandant du Guet, découvre qui, au Conseil, rapporte tout à Cersei, et promet Myrcella aux Martell pour s’assurer leur neutralité. Il cache sa compagne, Shae, dans la cuisine du château.",
+        "Quand Stannis attaque la ville par la mer, Tyrion fait tendre une chaîne et piéger la baie au feu grégeois. Puis, alors que Joffrey a fui le rempart, il mène lui-même la sortie. Pendant le combat, un garde royal tente de le tuer. Tyrion se réveille défiguré, et dépossédé de sa charge par l’arrivée de son père."
+      ]
+    },
+    {
+      "s": 3,
+      "title": "Saison 3 — Le mariage forcé",
+      "paragraphs": [
+        "Tywin refuse à Tyrion tout héritage et le nomme grand argentier, poste où il découvre l’ampleur des dettes envers la Banque de Fer. Son père lui impose ensuite d’épouser Sansa Stark. Tyrion, mal à l’aise, refuse de consommer le mariage et tente de traiter sa jeune épouse avec respect, au moment où les Noces pourpres détruisent ce qui lui restait de famille."
+      ]
+    },
+    {
+      "s": 4,
+      "title": "Saison 4 — Le procès",
+      "paragraphs": [
+        "Au festin de ses noces, Joffrey humilie Tyrion, puis s’effondre, empoisonné. Cersei accuse aussitôt son frère. Lors d’un procès joué d’avance, Shae témoigne contre lui. Tyrion explose et réclame un duel judiciaire. Oberyn Martell se bat pour lui contre la Montagne et meurt. Jaime le libère ; Tyrion tue Shae, qu’il trouve dans le lit de son père, puis Tywin lui-même, et fuit la ville dans une caisse, avec l’aide de Varys."
+      ]
+    },
+    {
+      "s": 5,
+      "title": "Saison 5 — Vers Meereen",
+      "paragraphs": [
+        "Arrivé à Pentos, Tyrion boit pour oublier. Varys le convainc de rejoindre Daenerys Targaryen. À Volantis, il est enlevé par Jorah Mormont, qui veut l’offrir à la reine pour regagner sa faveur. Après une traversée des ruines de Valyria où ils échappent aux hommes-pierre, ils finissent vendus comme esclaves, puis combattent dans une arène devant Daenerys. Tyrion devient son conseiller."
+      ]
+    },
+    {
+      "s": 6,
+      "title": "Saison 6 — La Main de la Reine",
+      "paragraphs": [
+        "En l’absence de Daenerys, Tyrion gouverne Meereen avec Varys, Missandei et Ver Gris. Il libère les dragons enchaînés et négocie avec les maîtres esclavagistes, un pari qui échoue quand ceux-ci attaquent la ville. Au retour de Daenerys, il la convainc de ne pas tout brûler. Elle fait de lui sa Main, et ils embarquent pour Westeros."
+      ]
+    },
+    {
+      "s": 7,
+      "title": "Saison 7 — Les plans",
+      "paragraphs": [
+        "À Peyredragon, Tyrion conseille une guerre prudente qui tourne mal : ses alliés sont détruits par Euron et Cersei. Il organise la rencontre de Fosse-aux-Dragons et retrouve sa sœur en tête à tête, pour la convaincre d’une trêve. Il comprend trop tard qu’elle mentait."
+      ]
+    },
+    {
+      "s": 8,
+      "title": "Saison 8 — Le dernier conseil",
+      "paragraphs": [
+        "Tyrion survit à la bataille de Winterfell caché dans les cryptes. Il trahit le secret de Jon à Varys, puis le dénonce à Daenerys, qui fait exécuter Varys. Quand la reine brûle Port-Réal, Tyrion comprend qu’il s’est trompé sur elle et pousse Jon à agir. Emprisonné, il propose aux seigneurs d’élire Bran roi. Le nouveau roi fait de lui sa Main, pour réparer ses erreurs."
+      ]
+    }
+  ],
+  "keyMoments": [
+    {
+      "s": 1,
+      "title": "Le duel des Eyrié",
+      "text": "Bronn se bat pour lui et lui sauve la vie.",
+      "place": "les-eyrie"
+    },
+    {
+      "s": 2,
+      "title": "La Néra",
+      "text": "Le feu grégeois et la sortie qu’il mène sauvent la ville.",
+      "place": "port-real"
+    },
+    {
+      "s": 4,
+      "title": "Le procès",
+      "text": "Il réclame un duel judiciaire plutôt que d’accepter une condamnation injuste.",
+      "place": "port-real"
+    },
+    {
+      "s": 4,
+      "title": "Le parricide",
+      "text": "Il tue son père d’un carreau d’arbalète.",
+      "place": "port-real"
+    },
+    {
+      "s": 5,
+      "title": "L’arène de Meereen",
+      "text": "Il rencontre enfin Daenerys et devient son conseiller.",
+      "place": "meereen"
+    },
+    {
+      "s": 8,
+      "title": "Le choix du roi",
+      "text": "Il propose de faire de Bran le roi des Six Couronnes.",
+      "place": "port-real"
+    }
+  ],
+  "relations": [
+    {
+      "to": "bronn",
+      "type": "allie",
+      "label": "Son épée achetée, puis son ami",
+      "s": 1
+    },
+    {
+      "to": "shae",
+      "type": "amour",
+      "label": "Sa compagne, qui l’a trahi",
+      "s": 2
+    },
+    {
+      "to": "podrick-payne",
+      "type": "serviteur",
+      "label": "Son écuyer",
+      "inverseLabel": "Son maître",
+      "s": 2
+    },
+    {
+      "to": "varys",
+      "type": "allie",
+      "label": "Son allié et confident",
+      "s": 2
+    },
+    {
+      "to": "joffrey-baratheon",
+      "type": "ennemi",
+      "label": "Son neveu, qui le hait",
+      "s": 1
+    },
+    {
+      "to": "jon-snow",
+      "type": "allie",
+      "label": "Son ami de Châteaunoir",
+      "s": 1
+    },
+    {
+      "to": "daenerys-targaryen",
+      "type": "suzerain",
+      "label": "La reine qu’il sert",
+      "inverseLabel": "Sa Main",
+      "s": 5
+    },
+    {
+      "to": "jorah-mormont",
+      "type": "autre",
+      "label": "Son ravisseur, puis son compagnon",
+      "s": 5
+    },
+    {
+      "to": "missandei",
+      "type": "allie",
+      "label": "Sa compagne de conseil",
+      "s": 6
+    },
+    {
+      "to": "bran-stark",
+      "type": "suzerain",
+      "label": "Le roi qu’il sert",
+      "inverseLabel": "Sa Main",
+      "s": 8
+    },
+    {
+      "to": "oberyn-martell",
+      "type": "allie",
+      "label": "Son champion",
+      "s": 4
+    }
+  ],
+  "places": [
+    {
+      "place": "winterfell",
+      "seasons": [
+        1,
+        8
+      ]
+    },
+    {
+      "place": "chateaunoir",
+      "seasons": [
+        1
+      ]
+    },
+    {
+      "place": "les-eyrie",
+      "seasons": [
+        1
+      ]
+    },
+    {
+      "place": "port-real",
+      "seasons": [
+        1,
+        2,
+        3,
+        4,
+        7,
+        8
+      ]
+    },
+    {
+      "place": "pentos",
+      "seasons": [
+        5
+      ]
+    },
+    {
+      "place": "volantis",
+      "seasons": [
+        5
+      ]
+    },
+    {
+      "place": "meereen",
+      "seasons": [
+        5,
+        6
+      ]
+    },
+    {
+      "place": "valyria",
+      "seasons": [
+        5
+      ]
+    },
+    {
+      "place": "peyredragon",
+      "seasons": [
+        7
+      ]
+    }
+  ],
+  "codex": [
+    "mestres"
+  ],
+  "booksVsShow": {
+    "s": 2,
+    "paragraphs": [
+      "Dans les romans, la blessure de Tyrion à la Néra lui coûte presque tout le nez, et il est décrit comme bien plus laid que son interprète. Sa route vers Daenerys y est aussi plus longue : il ne l’a pas encore rencontrée à la fin des livres publiés."
+    ]
+  },
+  "portrait": "images/personnages/tyrion-lannister.webp",
+  "sources": [
+    {
+      "label": "Wiki of Westeros — Tyrion Lannister",
+      "url": "https://gameofthrones.fandom.com/wiki/Tyrion_Lannister"
+    },
+    {
+      "label": "A Wiki of Ice and Fire — Tyrion Lannister",
+      "url": "https://awoiaf.westeros.org/index.php/Tyrion_Lannister"
+    }
+  ]
+}

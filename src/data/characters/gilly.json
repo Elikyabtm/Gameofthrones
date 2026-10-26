@@ -1,0 +1,42 @@
+{
+  "slug": "gilly",
+  "name": "Gilly",
+  "short": "Gilly",
+  "aliases": [],
+  "house": null,
+  "region": "Au-delà du Mur",
+  "camp": "au-dela-du-mur",
+  "allegiances": [],
+  "origin": "au-dela-du-mur",
+  "titles": [],
+  "actor": "Hannah Murray",
+  "firstSeason": 2,
+  "status": [{ "s": 2, "value": "vivant" }],
+  "summary": "Fille et épouse de Craster, Gilly n’a jamais connu d’autre monde que le manoir de son père. Elle porte un enfant et redoute qu’il soit un garçon.",
+  "bio": [
+    { "s": 2, "title": "Saison 2 — Le manoir de Craster", "paragraphs": ["Gilly supplie Samwell de l’emmener loin de son père. Elle sait ce que deviennent les fils de Craster."] },
+    { "s": 3, "title": "Saison 3 — La fuite", "paragraphs": ["Gilly accouche d’un garçon au moment où la Garde se mutine. Samwell l’aide à fuir avec l’enfant. Quand un Marcheur blanc vient le prendre, Samwell le détruit. Ils franchissent le Mur ensemble, et elle nomme son fils Sam."] },
+    { "s": 4, "title": "Saison 4 — La Mole", "paragraphs": ["Installée à la Mole, Gilly survit au massacre du village par les Thenns, grâce à Ygritte qui l’épargne. Elle rejoint Châteaunoir et passe la bataille cachée avec son enfant."] },
+    { "s": 5, "title": "Saison 5 — L’apprentie lectrice", "paragraphs": ["Gilly apprend à lire avec Shireen Baratheon. Samwell la protège de deux frères violents, et ils deviennent amants. Jon les envoie tous deux vers Villevieille."] },
+    { "s": 6, "title": "Saison 6 — Corcolline", "paragraphs": ["À Corcolline, la mère et la sœur de Samwell accueillent Gilly avec chaleur, mais son père l’humilie. Samwell refuse de la laisser seule et l’emmène à Villevieille."] },
+    { "s": 7, "title": "Saison 7 — La lectrice", "paragraphs": ["Dans la Citadelle, Gilly lit à voix haute un vieux journal où un grand septon rapporte l’annulation du mariage du prince Rhaegar et un remariage secret. Samwell, distrait, ne relève pas l’information."] },
+    { "s": 8, "title": "Saison 8 — Un enfant", "paragraphs": ["Gilly survit à la Longue Nuit dans les cryptes de Winterfell, avec les femmes et les enfants. Elle annonce à Samwell qu’elle attend un autre enfant."] }
+  ],
+  "keyMoments": [
+    { "s": 3, "title": "Le fils", "text": "Elle sauve son fils nouveau-né de Craster et des Marcheurs blancs.", "place": "au-dela-du-mur" },
+    { "s": 7, "title": "Le journal du septon", "text": "Elle lit la preuve d’un mariage secret.", "place": "villevieille" }
+  ],
+  "relations": [
+    { "to": "samwell-tarly", "type": "amour", "label": "Son compagnon", "s": 3 }
+  ],
+  "places": [
+    { "place": "au-dela-du-mur", "seasons": [2, 3] },
+    { "place": "chateaunoir", "seasons": [4, 5] },
+    { "place": "corcolline", "seasons": [6] },
+    { "place": "villevieille", "seasons": [6, 7] },
+    { "place": "winterfell", "seasons": [7, 8] }
+  ],
+  "codex": ["peuple-libre"],
+  "portrait": null,
+  "sources": [{ "label": "Wiki of Westeros — Gilly", "url": "https://gameofthrones.fandom.com/wiki/Gilly" }]
+}

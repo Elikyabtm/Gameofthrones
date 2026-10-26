@@ -1,0 +1,144 @@
+{
+  "slug": "tommen-baratheon",
+  "name": "Tommen Baratheon",
+  "short": "Tommen",
+  "aliases": [
+    {
+      "text": "le roi Tommen",
+      "s": 4
+    }
+  ],
+  "house": "baratheon",
+  "region": "Les Terres de la Couronne",
+  "camp": "westeros",
+  "allegiances": [
+    {
+      "to": "baratheon"
+    }
+  ],
+  "origin": "port-real",
+  "titles": [
+    {
+      "text": "Prince"
+    },
+    {
+      "text": "Roi des Andals et des Premiers Hommes",
+      "s": 4
+    }
+  ],
+  "actor": "Callum Wharry, puis Dean-Charles Chapman",
+  "firstSeason": 1,
+  "status": [
+    {
+      "s": 1,
+      "value": "vivant"
+    },
+    {
+      "s": 6,
+      "value": "mort",
+      "note": "S’est jeté d’une fenêtre du Donjon Rouge"
+    }
+  ],
+  "summary": "Fils cadet de la reine Cersei, Tommen est un enfant tendre qui préfère son chat aux armes. Rien ne le prépare aux jeux du pouvoir.",
+  "bio": [
+    {
+      "s": 1,
+      "title": "Saison 1 — Le petit prince",
+      "paragraphs": [
+        "Tommen voyage avec la cour jusqu’à Winterfell, où Bran et lui s’entraînent à l’épée de bois. À Port-Réal, il reste dans l’ombre de son frère aîné."
+      ]
+    },
+    {
+      "s": 2,
+      "title": "Saison 2 — La Néra",
+      "paragraphs": [
+        "Pendant la bataille de la Néra, Cersei le garde près d’elle et s’apprête à l’empoisonner plutôt que de le voir tomber aux mains de Stannis. L’arrivée de Tywin interrompt son geste."
+      ]
+    },
+    {
+      "s": 4,
+      "title": "Saison 4 — Le roi enfant",
+      "paragraphs": [
+        "La mort de Joffrey fait de Tommen le roi. Tywin entreprend de lui apprendre ce qu’est un bon roi, devant le corps de son frère. Margaery, veuve de Joffrey, rend visite au jeune roi la nuit et le charme sans peine."
+      ]
+    },
+    {
+      "s": 5,
+      "title": "Saison 5 — Le mari de Margaery",
+      "paragraphs": [
+        "Tommen épouse Margaery et s’éloigne de sa mère. Quand le Grand Moineau fait arrêter sa femme puis Cersei, le jeune roi n’ose pas employer la force contre la Foi."
+      ]
+    },
+    {
+      "s": 6,
+      "title": "Saison 6 — La fenêtre",
+      "paragraphs": [
+        "Le Grand Moineau gagne Tommen à sa cause, et le roi interdit les duels judiciaires, privant sa mère de son champion. Le jour du procès, le grand septuor explose avec Margaery à l’intérieur. Tommen regarde la fumée depuis sa chambre, retire sa couronne et se jette par la fenêtre."
+      ]
+    }
+  ],
+  "keyMoments": [
+    {
+      "s": 4,
+      "title": "Le couronnement",
+      "text": "Il devient roi après la mort de son frère.",
+      "place": "port-real"
+    },
+    {
+      "s": 6,
+      "title": "La chute",
+      "text": "Il se donne la mort après l’explosion du septuor.",
+      "place": "port-real"
+    }
+  ],
+  "relations": [
+    {
+      "to": "margaery-tyrell",
+      "type": "conjoint",
+      "label": "Son épouse",
+      "s": 5
+    },
+    {
+      "to": "grand-moineau",
+      "type": "mentor",
+      "label": "Celui qui l’a converti à la Foi",
+      "inverseLabel": "Le roi qu’il a gagné à sa cause",
+      "s": 6
+    },
+    {
+      "to": "bran-stark",
+      "type": "autre",
+      "label": "Son partenaire d’entraînement à Winterfell",
+      "s": 1
+    }
+  ],
+  "places": [
+    {
+      "place": "winterfell",
+      "seasons": [
+        1
+      ]
+    },
+    {
+      "place": "port-real",
+      "seasons": [
+        1,
+        2,
+        4,
+        5,
+        6
+      ]
+    }
+  ],
+  "codex": [
+    "foi-des-sept",
+    "foi-militante"
+  ],
+  "portrait": "images/personnages/tommen-baratheon.webp",
+  "sources": [
+    {
+      "label": "Wiki of Westeros — Tommen Baratheon",
+      "url": "https://gameofthrones.fandom.com/wiki/Tommen_Baratheon"
+    }
+  ]
+}

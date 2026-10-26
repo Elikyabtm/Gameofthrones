@@ -110,8 +110,12 @@ for (const c of all.characters)
 for (const c of all.characters) {
   const f = `characters/${c.slug}.json`;
   if (c.house === undefined) err(f, 'house manquant (mettre null si aucune maison)');
-  if (relCount.get(c.slug).size < 3)
-    err(f, `seulement ${relCount.get(c.slug).size} relation(s), 3 minimum`);
+  // Moins de 3 relations : erreur, sauf exception justifiée dans `_doute` (personnage isolé).
+  if (relCount.get(c.slug).size < 3) {
+    const msg = `seulement ${relCount.get(c.slug).size} relation(s), 3 minimum`;
+    if (/relations/i.test(c._doute ?? '')) warnings.push(`${f} : ${msg} (exception justifiée)`);
+    else err(f, msg);
+  }
   for (const r of c.relations) {
     const back = declared.get(`${r.to}>${c.slug}`);
     if (back && back !== INVERSE[r.type] && !(back === 'autre' || r.type === 'autre'))

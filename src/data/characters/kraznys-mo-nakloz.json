@@ -1,0 +1,30 @@
+{
+  "slug": "kraznys-mo-nakloz",
+  "name": "Kraznys mo Nakloz",
+  "short": "Kraznys",
+  "aliases": [],
+  "house": null,
+  "region": "Astapor",
+  "camp": "essos",
+  "allegiances": [],
+  "origin": "astapor",
+  "titles": [{ "text": "Bon Maître d’Astapor" }],
+  "actor": "Dan Hildebrand",
+  "firstSeason": 3,
+  "status": [
+    { "s": 3, "value": "vivant" },
+    { "s": 3, "value": "mort", "note": "Brûlé par un dragon sur ordre de Daenerys" }
+  ],
+  "summary": "Marchand d’esclaves d’Astapor, Kraznys mo Nakloz vend la plus redoutée des armées : les Immaculés. Il ne parle qu’en haut valyrien devant ses clients, qu’il méprise.",
+  "bio": [
+    { "s": 3, "title": "Saison 3 — Le marché", "paragraphs": ["Kraznys présente ses Immaculés à Daenerys et insulte la reine dans sa langue, persuadé qu’elle ne le comprend pas, pendant que Missandei traduit avec prudence. Il accepte d’échanger toute son armée contre un seul dragon. Une fois le marché conclu, Daenerys lui répond en haut valyrien : c’est la dernière chose qu’il entend avant que le dragon ne le brûle et que les Immaculés ne se retournent contre leurs maîtres."] }
+  ],
+  "keyMoments": [
+    { "s": 3, "title": "Le marché des Immaculés", "text": "Il vend son armée contre un dragon.", "place": "astapor" }
+  ],
+  "relations": [],
+  "places": [{ "place": "astapor", "seasons": [3] }],
+  "codex": ["immacules", "haut-valyrien", "ghiscaris"],
+  "portrait": null,
+  "sources": [{ "label": "Wiki of Westeros — Kraznys mo Nakloz", "url": "https://gameofthrones.fandom.com/wiki/Kraznys_mo_Nakloz" }]
+}

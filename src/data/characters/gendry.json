@@ -1,0 +1,46 @@
+{
+  "slug": "gendry",
+  "name": "Gendry",
+  "short": "Gendry",
+  "aliases": [{ "text": "Gendry Baratheon", "s": 8 }],
+  "house": "baratheon",
+  "region": "Les Terres de la Couronne",
+  "camp": "westeros",
+  "allegiances": [{ "to": "baratheon", "s": 8 }],
+  "origin": "port-real",
+  "titles": [{ "text": "Seigneur d’Accalmie", "s": 8 }],
+  "actor": "Joe Dempsie",
+  "firstSeason": 1,
+  "status": [{ "s": 1, "value": "vivant" }],
+  "summary": "Apprenti forgeron à Port-Réal, Gendry ne connaît ni son père ni sa mère. Il a la carrure et la colère des Baratheon, sans le savoir.",
+  "bio": [
+    { "s": 1, "title": "Saison 1 — L’apprenti", "paragraphs": ["Eddard Stark, sur la piste de Jon Arryn, rend visite au forgeron chez qui Gendry travaille. En regardant le jeune homme, il comprend qu’il est un fils naturel de Robert. Peu après, Gendry est confié à Yoren, recruteur de la Garde de Nuit, pour le mettre à l’abri."] },
+    { "s": 2, "title": "Saison 2 — La route", "paragraphs": ["Sur la route du nord, Gendry découvre que le petit Arry est une fille, Arya Stark, et garde son secret. Les manteaux d’or le cherchent sur ordre de Joffrey, qui fait tuer les bâtards de Robert. Capturés, Arya et lui deviennent prisonniers à Harrenhal, puis s’enfuient."] },
+    { "s": 3, "title": "Saison 3 — Le sang du roi", "paragraphs": ["La Fraternité sans bannières vend Gendry à Melisandre. Elle l’emmène à Peyredragon, le séduit et pose des sangsues sur lui pour en tirer le sang d’un roi. Davos le libère en secret et le met dans une barque vers Port-Réal."] },
+    { "s": 7, "title": "Saison 7 — Le marteau", "paragraphs": ["Davos le retrouve dans une forge de Port-Réal. Gendry, qui l’attendait, prend un marteau de guerre et suit Jon Snow au-delà du Mur pour capturer un mort. Quand le groupe est encerclé, c’est lui qui court jusqu’à Châteaunoir pour envoyer un corbeau à Daenerys."] },
+    { "s": 8, "title": "Saison 8 — Le seigneur", "paragraphs": ["À Winterfell, Gendry forge des armes de verre-dragon et retrouve Arya, qui lui commande une lance. Ils deviennent amants la veille de la bataille. Après la victoire, Daenerys le légitime et fait de lui le seigneur d’Accalmie. Il demande Arya en mariage ; elle refuse, avec douceur."] }
+  ],
+  "keyMoments": [
+    { "s": 1, "title": "Le casque au taureau", "text": "Eddard comprend en le voyant qu’il est le fils de Robert.", "place": "port-real" },
+    { "s": 3, "title": "Les sangsues", "text": "Melisandre utilise son sang de roi.", "place": "peyredragon" },
+    { "s": 7, "title": "La course", "text": "Il court jusqu’au Mur pour sauver l’expédition.", "place": "au-dela-du-mur" },
+    { "s": 8, "title": "Seigneur d’Accalmie", "text": "Daenerys le légitime sous le nom de Baratheon.", "place": "winterfell" }
+  ],
+  "relations": [
+    { "to": "davos-mervault", "type": "allie", "label": "Celui qui l’a libéré", "s": 3 },
+    { "to": "melisandre", "type": "ennemi", "label": "Celle qui a voulu son sang", "s": 3 },
+    { "to": "beric-dondarrion", "type": "autre", "label": "Le chef qui l’a vendu", "s": 3 },
+    { "to": "jon-snow", "type": "allie", "label": "Son compagnon d’expédition", "s": 7 }
+  ],
+  "places": [
+    { "place": "port-real", "seasons": [1, 7] },
+    { "place": "harrenhal", "seasons": [2] },
+    { "place": "le-conflans", "seasons": [3] },
+    { "place": "peyredragon", "seasons": [3] },
+    { "place": "au-dela-du-mur", "seasons": [7] },
+    { "place": "winterfell", "seasons": [8] }
+  ],
+  "codex": ["fraternite-sans-bannieres"],
+  "portrait": "images/personnages/gendry.webp",
+  "sources": [{ "label": "Wiki of Westeros — Gendry", "url": "https://gameofthrones.fandom.com/wiki/Gendry" }]
+}

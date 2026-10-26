@@ -1,0 +1,45 @@
+{
+  "slug": "eddison-tollett",
+  "name": "Eddison Tollett",
+  "short": "Edd",
+  "aliases": [{ "text": "Edd-la-Douleur" }],
+  "house": null,
+  "region": "Le Mur",
+  "camp": "westeros",
+  "allegiances": [],
+  "origin": "chateaunoir",
+  "titles": [{ "text": "Lord Commandant par intérim", "s": 6 }],
+  "actor": "Ben Crompton",
+  "firstSeason": 2,
+  "status": [
+    { "s": 2, "value": "vivant" },
+    { "s": 8, "value": "mort", "note": "Tué en sauvant Samwell pendant la bataille de Winterfell" }
+  ],
+  "summary": "Frère de la Garde de Nuit à l’humour lugubre, Edd est l’un des rares à rester fidèle à Jon Snow. Il a vu trop de choses pour s’étonner encore.",
+  "bio": [
+    { "s": 2, "title": "Saison 2 — L’expédition", "paragraphs": ["Edd accompagne l’expédition de Mormont au-delà du Mur, en commentant chaque malheur avec le même fatalisme."] },
+    { "s": 3, "title": "Saison 3 — Les survivants", "paragraphs": ["Il survit à l’attaque du Poing des Premiers Hommes et à la mutinerie chez Craster, et regagne le Mur avec les rares rescapés."] },
+    { "s": 4, "title": "Saison 4 — Chez Craster", "paragraphs": ["Il suit Jon dans l’expédition punitive contre les mutins réfugiés chez Craster, puis défend Châteaunoir pendant l’attaque du Peuple libre."] },
+    { "s": 5, "title": "Saison 5 — Durlieu", "paragraphs": ["Edd accompagne Jon à Durlieu et assiste à l’attaque des morts. Pendant qu’on assassine Jon, il est envoyé loin du château."] },
+    { "s": 6, "title": "Saison 6 — La garde du corps", "paragraphs": ["Edd veille le corps de Jon avec Davos, ramène le Peuple libre pour reprendre le château et assiste à la résurrection. Jon lui confie le commandement de Châteaunoir avant de partir."] },
+    { "s": 7, "title": "Saison 7 — Le commandant", "paragraphs": ["Lord Commandant par intérim, Edd tient le Mur avec trop peu d’hommes. C’est lui qui ouvre la porte de Châteaunoir à Bran et Meera, revenus d’au-delà du Mur."] },
+    { "s": 8, "title": "Saison 8 — La Longue Nuit", "paragraphs": ["À Winterfell, Edd combat aux côtés des vivants. Il sauve Samwell, encerclé par les morts, et meurt d’un coup d’épée dans le dos."] }
+  ],
+  "keyMoments": [
+    { "s": 6, "title": "La veillée", "text": "Il protège le corps de Jon jusqu’à son retour.", "place": "chateaunoir" },
+    { "s": 8, "title": "Le dernier geste", "text": "Il meurt en sauvant Samwell.", "place": "winterfell" }
+  ],
+  "relations": [
+    { "to": "tormund", "type": "allie", "label": "Son allié du Peuple libre", "s": 5 },
+    { "to": "davos-mervault", "type": "allie", "label": "Son compagnon de veillée", "s": 6 }
+  ],
+  "places": [
+    { "place": "au-dela-du-mur", "seasons": [2, 3] },
+    { "place": "chateaunoir", "seasons": [3, 4, 5, 6, 7] },
+    { "place": "durlieu", "seasons": [5] },
+    { "place": "winterfell", "seasons": [8] }
+  ],
+  "codex": ["garde-de-nuit"],
+  "portrait": null,
+  "sources": [{ "label": "Wiki of Westeros — Eddison Tollett", "url": "https://gameofthrones.fandom.com/wiki/Eddison_Tollett" }]
+}

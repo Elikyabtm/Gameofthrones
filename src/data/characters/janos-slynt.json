@@ -1,0 +1,41 @@
+{
+  "slug": "janos-slynt",
+  "name": "Janos Slynt",
+  "short": "Janos",
+  "aliases": [],
+  "house": null,
+  "region": "Les Terres de la Couronne",
+  "camp": "westeros",
+  "allegiances": [],
+  "origin": "port-real",
+  "titles": [{ "text": "Commandant du Guet de Port-Réal" }],
+  "actor": "Dominic Carter",
+  "firstSeason": 1,
+  "status": [
+    { "s": 1, "value": "vivant" },
+    { "s": 5, "value": "mort", "note": "Décapité par Jon Snow pour insubordination" }
+  ],
+  "summary": "Commandant des manteaux d’or de Port-Réal, Janos Slynt sert celui qui le paie le mieux. Il incarne la corruption ordinaire de la capitale.",
+  "bio": [
+    { "s": 1, "title": "Saison 1 — Le manteau d’or", "paragraphs": ["Eddard Stark compte sur le Guet pour faire valoir le testament de Robert. Janos Slynt a déjà été acheté : au moment décisif, ses hommes se retournent contre Eddard et tuent sa garde."] },
+    { "s": 2, "title": "Saison 2 — Le massacre des bâtards", "paragraphs": ["Sur ordre de Joffrey, Janos fait tuer tous les bâtards de Robert dans la ville, enfants compris. Tyrion, devenu Main du Roi, le fait arrêter et l’expédie au Mur."] },
+    { "s": 4, "title": "Saison 4 — Le lâche", "paragraphs": ["À Châteaunoir, Janos se range derrière Alliser Thorne. Pendant l’attaque du Peuple libre, il se cache dans un cellier, terrifié."] },
+    { "s": 5, "title": "Saison 5 — L’ordre refusé", "paragraphs": ["Devenu Lord Commandant, Jon ordonne à Janos de remettre en état un fort abandonné. Janos refuse en public. Jon le fait conduire dehors et le décapite lui-même, sous les yeux de Stannis, qui approuve d’un signe de tête."] }
+  ],
+  "keyMoments": [
+    { "s": 1, "title": "La trahison", "text": "Ses hommes se retournent contre Eddard Stark.", "place": "port-real" },
+    { "s": 5, "title": "La sentence", "text": "Jon Snow le décapite pour avoir refusé un ordre.", "place": "chateaunoir" }
+  ],
+  "relations": [
+    { "to": "eddard-stark", "type": "ennemi", "label": "La Main qu’il a trahie", "s": 1 },
+    { "to": "tyrion-lannister", "type": "ennemi", "label": "Celui qui l’a envoyé au Mur", "s": 2 },
+    { "to": "jon-snow", "type": "ennemi", "label": "Le Lord Commandant qui l’a exécuté", "s": 5 }
+  ],
+  "places": [
+    { "place": "port-real", "seasons": [1, 2] },
+    { "place": "chateaunoir", "seasons": [4, 5] }
+  ],
+  "codex": ["garde-de-nuit"],
+  "portrait": null,
+  "sources": [{ "label": "Wiki of Westeros — Janos Slynt", "url": "https://gameofthrones.fandom.com/wiki/Janos_Slynt" }]
+}

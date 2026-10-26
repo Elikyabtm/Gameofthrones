@@ -1,0 +1,40 @@
+{
+  "slug": "aemon-targaryen",
+  "name": "Aemon Targaryen",
+  "short": "Aemon",
+  "aliases": [{ "text": "mestre Aemon" }],
+  "house": "targaryen",
+  "region": "Le Mur",
+  "camp": "westeros",
+  "allegiances": [{ "to": "targaryen" }],
+  "origin": "port-real",
+  "titles": [{ "text": "Mestre de Châteaunoir" }],
+  "actor": "Peter Vaughan",
+  "firstSeason": 1,
+  "status": [
+    { "s": 1, "value": "vivant" },
+    { "s": 5, "value": "mort", "note": "Mort de vieillesse à Châteaunoir" }
+  ],
+  "summary": "Vieux mestre aveugle de la Garde de Nuit, Aemon conseille les Lord Commandants depuis des décennies. Il porte en silence un nom qui fut autrefois celui des rois.",
+  "bio": [
+    { "s": 1, "title": "Saison 1 — Le mestre aveugle", "paragraphs": ["Aemon sert Châteaunoir avec une patience infinie. Quand Jon Snow veut déserter pour rejoindre Robb, le vieillard lui révèle qui il est : un Targaryen, frère du roi Aegon V, qui a renoncé au trône pour le savoir et le serment. Il sait ce que coûte un choix entre l’amour et le devoir."] },
+    { "s": 2, "title": "Saison 2 — Le gardien", "paragraphs": ["Pendant l’expédition au-delà du Mur, Aemon reste à Châteaunoir, où il garde les corbeaux, les registres et la mémoire de l’ordre."] },
+    { "s": 3, "title": "Saison 3 — Les corbeaux", "paragraphs": ["Aemon envoie les appels à l’aide de la Garde à tout le royaume. Peu de seigneurs répondent. Il apprend que Samwell a tué un Marcheur blanc et en mesure la portée."] },
+    { "s": 4, "title": "Saison 4 — Le siège", "paragraphs": ["Pendant l’attaque du Peuple libre, Aemon soigne les blessés et partage avec Samwell sa sagesse sur l’amour et la peur."] },
+    { "s": 5, "title": "Saison 5 — Le dernier Targaryen du Mur", "paragraphs": ["Aemon joue un rôle décisif dans l’élection de Jon comme Lord Commandant. Il apprend, bouleversé, que sa petite-nièce Daenerys vit seule à l’autre bout du monde. Il meurt peu après, rêvant de son frère Aegon."] }
+  ],
+  "keyMoments": [
+    { "s": 1, "title": "La confession", "text": "Il révèle à Jon qu’il est un Targaryen qui a renoncé au trône.", "place": "chateaunoir" },
+    { "s": 5, "title": "L’élection", "text": "Sa voix fait pencher l’élection en faveur de Jon.", "place": "chateaunoir" }
+  ],
+  "relations": [
+    { "to": "samwell-tarly", "type": "eleve", "label": "Son assistant et élève", "inverseLabel": "Son maître", "s": 1 },
+    { "to": "jeor-mormont", "type": "allie", "label": "Son Lord Commandant", "s": 1 },
+    { "to": "gilly", "type": "autre", "label": "La sauvageonne qu’il a accueillie", "s": 4 }
+  ],
+  "places": [{ "place": "chateaunoir", "seasons": [1, 2, 3, 4, 5] }],
+  "codex": ["garde-de-nuit", "mestres", "valyriens"],
+  "portrait": null,
+  "_doute": "Présence d’Aemon à l’écran en saison 2 à vérifier (le mestre reste à Châteaunoir).",
+  "sources": [{ "label": "Wiki of Westeros — Aemon", "url": "https://gameofthrones.fandom.com/wiki/Aemon" }]
+}

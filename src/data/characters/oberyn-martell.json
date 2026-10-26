@@ -1,0 +1,58 @@
+{
+  "slug": "oberyn-martell",
+  "name": "Oberyn Martell",
+  "short": "Oberyn",
+  "principal": true,
+  "aliases": [{ "text": "la Vipère Rouge" }],
+  "house": "martell",
+  "region": "Dorne",
+  "camp": "westeros",
+  "allegiances": [{ "to": "martell" }],
+  "origin": "lancehelion",
+  "titles": [{ "text": "Prince de Dorne" }],
+  "actor": "Pedro Pascal",
+  "firstSeason": 4,
+  "status": [
+    { "s": 4, "value": "vivant" },
+    { "s": 4, "value": "mort", "note": "Tué par la Montagne lors du duel judiciaire de Tyrion" }
+  ],
+  "summary": "Frère cadet du prince de Dorne, Oberyn Martell est un savant, un combattant redouté et un voyageur qui ne cache rien de ses passions. Il vient à Port-Réal avec une seule idée en tête.",
+  "bio": [
+    {
+      "s": 4,
+      "title": "Saison 4 — La Vipère Rouge",
+      "paragraphs": [
+        "Oberyn arrive à Port-Réal pour représenter Dorne au mariage du roi Joffrey. Il entre dans la ville par un bordel, où il choisit hommes et femmes avec la même gourmandise, accompagné de sa compagne Ellaria Sand. Quand des soldats Lannister se moquent de lui, il plante un couteau dans la main de l’un d’eux, avec une politesse parfaite. La cour le craint et le désire à la fois.",
+        "Oberyn ne cache pas la raison de sa venue. Sa sœur Elia, épouse du prince Rhaegar, a été violée et tuée pendant le sac de Port-Réal, avec ses enfants, par Gregor Clegane, la Montagne. Tout le monde sait que l’ordre venait de Tywin Lannister. Oberyn veut entendre un aveu, et voir le meurtrier payer.",
+        "À la cour, il se montre aussi cultivé que provocateur : il raille les manières de Westeros, défend le droit des bâtards, parle de poisons et d’Essos avec Tyrion. Il est assis au mariage du roi quand celui-ci meurt empoisonné, et Tywin le nomme parmi les trois juges du procès de Tyrion, avec Mace Tyrell.",
+        "Oberyn rend visite à Tyrion dans sa cellule. Il lui raconte sa première rencontre avec lui, à Castral Roc, quand il était venu voir le « monstre » que la famille cachait, et n’avait trouvé qu’un bébé. Lorsque Tyrion réclame un duel judiciaire et que Cersei choisit la Montagne pour champion, Oberyn se propose pour défendre l’accusé : ce combat est l’occasion qu’il attendait.",
+        "Le duel commence sous les yeux de toute la ville. Oberyn danse autour du colosse, le touche avec sa lance, le blesse, puis le fait tomber en criant le nom de sa sœur. Il veut l’entendre avouer. Il tourne autour de lui en répétant : « Vous avez violé ma sœur. Vous avez tué ses enfants. » Gregor, à terre, le fauche par la jambe, l’écrase sous son poids, avoue enfin le meurtre d’Elia… et lui écrase le crâne entre ses mains."
+      ]
+    }
+  ],
+  "keyMoments": [
+    { "s": 4, "title": "L’arrivée", "text": "Il entre dans Port-Réal par un bordel et une provocation.", "place": "port-real" },
+    { "s": 4, "title": "Le récit du nourrisson", "text": "Il raconte à Tyrion leur première rencontre, quand Tyrion était bébé.", "place": "port-real" },
+    { "s": 4, "title": "Le duel", "text": "Il meurt en combattant la Montagne pour Tyrion.", "place": "port-real" }
+  ],
+  "relations": [
+    { "to": "doran-martell", "type": "fratrie", "label": "Son frère aîné, prince de Dorne", "s": 4 },
+    { "to": "ellaria-sand", "type": "amour", "label": "Sa compagne", "s": 4 },
+    { "to": "obara-sand", "type": "enfant", "label": "Sa fille aînée", "inverseLabel": "Son père", "s": 4 },
+    { "to": "nymeria-sand", "type": "enfant", "label": "Sa fille", "inverseLabel": "Son père", "s": 4 },
+    { "to": "tyene-sand", "type": "enfant", "label": "Sa fille", "inverseLabel": "Son père", "s": 4 },
+    { "to": "gregor-clegane", "type": "ennemi", "label": "L’assassin de sa sœur", "s": 4 },
+    { "to": "tywin-lannister", "type": "ennemi", "label": "Le seigneur qui a ordonné le meurtre de sa sœur", "s": 4 },
+    { "to": "cersei-lannister", "type": "autre", "label": "La reine avec qui il a fait une trêve", "s": 4 }
+  ],
+  "places": [{ "place": "port-real", "seasons": [4] }],
+  "codex": ["dorniens", "rhoynar"],
+  "booksVsShow": {
+    "s": 4,
+    "paragraphs": [
+      "Dans les romans, Oberyn a huit filles, et non trois, appelées les Aspics des Sables. Le duel contre la Montagne est très fidèle au livre, y compris la répétition obsessionnelle du nom d’Elia."
+    ]
+  },
+  "portrait": "images/personnages/oberyn-martell.webp",
+  "sources": [{ "label": "Wiki of Westeros — Oberyn Martell", "url": "https://gameofthrones.fandom.com/wiki/Oberyn_Martell" }]
+}

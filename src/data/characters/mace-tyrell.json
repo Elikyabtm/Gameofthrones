@@ -1,0 +1,40 @@
+{
+  "slug": "mace-tyrell",
+  "name": "Mace Tyrell",
+  "short": "Mace",
+  "aliases": [],
+  "house": "tyrell",
+  "region": "Le Bief",
+  "camp": "westeros",
+  "allegiances": [{ "to": "tyrell" }],
+  "origin": "hautjardin",
+  "titles": [{ "text": "Seigneur de Hautjardin" }, { "text": "Grand argentier", "s": 4 }],
+  "actor": "Roger Ashton-Griffiths",
+  "firstSeason": 4,
+  "status": [
+    { "s": 4, "value": "vivant" },
+    { "s": 6, "value": "mort", "note": "Tué dans l’explosion du grand septuor de Baelor" }
+  ],
+  "summary": "Seigneur de Hautjardin, Mace Tyrell est puissant par ses terres et son armée. Pour la finesse politique, il s’en remet à sa mère et à ses enfants.",
+  "bio": [
+    { "s": 4, "title": "Saison 4 — Le seigneur jovial", "paragraphs": ["Mace assiste aux noces de sa fille avec Joffrey et siège au conseil de Tywin, qui le traite avec une politesse condescendante. Il est l’un des trois juges du procès de Tyrion, et ne voit rien de ce qui se trame autour de lui."] },
+    { "s": 5, "title": "Saison 5 — L’ambassade", "paragraphs": ["Cersei envoie Mace à Braavos négocier avec la Banque de Fer, pour l’éloigner pendant qu’elle frappe ses enfants. Il chante, festoie et ne comprend que trop tard."] },
+    { "s": 6, "title": "Saison 6 — La marche ridicule", "paragraphs": ["Mace mène une armée Tyrell jusqu’au grand septuor pour libérer Margaery, mais arrive au moment où elle annonce elle-même sa pénitence. Le jour du procès, il est dans le septuor quand le feu grégeois explose."] }
+  ],
+  "keyMoments": [
+    { "s": 4, "title": "Le juge", "text": "Il siège au procès de Tyrion.", "place": "port-real" },
+    { "s": 6, "title": "Le septuor", "text": "Il meurt dans l’explosion avec ses enfants.", "place": "port-real" }
+  ],
+  "relations": [
+    { "to": "margaery-tyrell", "type": "enfant", "label": "Sa fille", "inverseLabel": "Son père", "s": 4 },
+    { "to": "loras-tyrell", "type": "enfant", "label": "Son fils et héritier", "inverseLabel": "Son père", "s": 4 },
+    { "to": "tywin-lannister", "type": "allie", "label": "La Main du Roi, son allié", "s": 4 }
+  ],
+  "places": [
+    { "place": "port-real", "seasons": [4, 5, 6] },
+    { "place": "braavos", "seasons": [5] }
+  ],
+  "codex": [],
+  "portrait": "images/personnages/mace-tyrell.webp",
+  "sources": [{ "label": "Wiki of Westeros — Mace Tyrell", "url": "https://gameofthrones.fandom.com/wiki/Mace_Tyrell" }]
+}

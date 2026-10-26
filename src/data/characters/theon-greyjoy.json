@@ -1,0 +1,108 @@
+{
+  "slug": "theon-greyjoy",
+  "name": "Theon Greyjoy",
+  "short": "Theon",
+  "principal": true,
+  "aliases": [{ "text": "Schlingue", "s": 4 }, { "text": "le Prince de Winterfell", "s": 2 }],
+  "house": "greyjoy",
+  "region": "Les Îles de Fer",
+  "camp": "westeros",
+  "allegiances": [{ "to": "stark", "until": 2 }, { "to": "greyjoy", "s": 2 }],
+  "origin": "pyk",
+  "titles": [{ "text": "Pupille de Lord Stark" }, { "text": "Prince des Îles de Fer", "s": 2 }],
+  "actor": "Alfie Allen",
+  "firstSeason": 1,
+  "status": [
+    { "s": 1, "value": "vivant" },
+    { "s": 8, "value": "mort", "note": "Tué par le Roi de la Nuit en défendant Bran dans le bois sacré" }
+  ],
+  "summary": "Seul fils survivant de Balon Greyjoy, Theon a grandi à Winterfell comme pupille et otage d’Eddard Stark. Il se rêve à la fois Stark et Fer-né, et n’est tout à fait ni l’un ni l’autre.",
+  "bio": [
+    {
+      "s": 1,
+      "title": "Saison 1 — Le pupille",
+      "paragraphs": [
+        "Theon partage la vie des enfants Stark, chasse avec Robb, plaisante avec Jon, et fréquente les bordels de la ville d’hiver. Il rappelle volontiers qu’il est prince des Îles de Fer, mais il n’a pas vu sa famille depuis l’âge de dix ans, quand Eddard l’a emmené en otage après la rébellion manquée de son père. Quand Robb lève les bannières, Theon le suit et se bat à ses côtés."
+      ]
+    },
+    {
+      "s": 2,
+      "title": "Saison 2 — La trahison",
+      "paragraphs": [
+        "Robb envoie Theon à Pyk négocier l’alliance de son père. Balon l’accueille comme un étranger, et sa sœur Yara le ridiculise. Pour prouver qu’il est un vrai Fer-né, Theon trahit Robb : il prend Winterfell par surprise avec une poignée d’hommes. Il exécute Ser Rodrik pour asseoir son autorité, puis, quand Bran et Rickon s’échappent, fait brûler deux enfants de meunier pour les faire passer pour les princes. Ses hommes l’assomment et le livrent aux Bolton."
+      ]
+    },
+    {
+      "s": 3,
+      "title": "Saison 3 — Le prisonnier",
+      "paragraphs": [
+        "Theon se réveille attaché à une croix de bois. Un jeune homme qui se dit envoyé par sa sœur le libère, puis le ramène au même endroit : c’est Ramsay Snow, fils bâtard de Roose Bolton. S’ensuivent des semaines de torture et de mutilation. Ramsay envoie à Balon une partie de son corps."
+      ]
+    },
+    {
+      "s": 4,
+      "title": "Saison 4 — Schlingue",
+      "paragraphs": [
+        "Brisé, Theon répond désormais au nom de Schlingue et sert Ramsay comme un chien. Quand Yara attaque le château pour le libérer, il refuse de la suivre et se réfugie dans sa cage. Ramsay l’envoie, déguisé en Theon, convaincre les Fer-nés de Moat Cailin de se rendre ; il obéit."
+      ]
+    },
+    {
+      "s": 5,
+      "title": "Saison 5 — Le retour",
+      "paragraphs": [
+        "À Winterfell, Theon assiste au mariage de Ramsay avec Sansa Stark et aux violences qu’elle subit. Il finit par lui avouer qu’il n’a pas tué Bran et Rickon. Quand Stannis attaque, il retrouve un peu de lui-même : il tue Myranda, la complice de Ramsay, et saute des remparts avec Sansa."
+      ]
+    },
+    {
+      "s": 6,
+      "title": "Saison 6 — Le choix de Yara",
+      "paragraphs": [
+        "Theon accompagne Sansa jusqu’à Brienne, puis rentre à Pyk. Lors de l’assemblée qui doit élire le nouveau roi, il renonce à ses droits et soutient la candidature de sa sœur. Euron l’emporte ; Theon et Yara s’enfuient avec la flotte vers Meereen, où ils s’allient à Daenerys."
+      ]
+    },
+    {
+      "s": 7,
+      "title": "Saison 7 — La fuite",
+      "paragraphs": [
+        "Quand Euron attaque la flotte, Theon voit sa sœur prisonnière, menacée d’une hache. Il panique et saute à la mer. Rongé par la honte, il demande pardon à Jon à Peyredragon, puis convainc ses hommes de partir à la recherche de Yara."
+      ]
+    },
+    {
+      "s": 8,
+      "title": "Saison 8 — Le défenseur de Bran",
+      "paragraphs": [
+        "Theon libère Yara, puis revient à Winterfell pour se battre aux côtés des Stark. Il garde Bran dans le bois sacré pendant la Longue Nuit. Quand le Roi de la Nuit approche, Bran lui dit qu’il est un homme bon. Theon charge seul, et meurt sous le barral."
+      ]
+    }
+  ],
+  "keyMoments": [
+    { "s": 2, "title": "La prise de Winterfell", "text": "Il trahit Robb pour gagner l’estime de son père.", "place": "winterfell" },
+    { "s": 3, "title": "La croix", "text": "Il tombe entre les mains de Ramsay.", "place": "fort-terreur" },
+    { "s": 5, "title": "Le saut", "text": "Il fuit Winterfell avec Sansa.", "place": "winterfell" },
+    { "s": 6, "title": "L’assemblée", "text": "Il soutient Yara pour le trône de sel.", "place": "pyk" },
+    { "s": 8, "title": "Le bois sacré", "text": "Il meurt en protégeant Bran.", "place": "winterfell" }
+  ],
+  "relations": [
+    { "to": "yara-greyjoy", "type": "fratrie", "label": "Sa sœur aînée", "s": 2 },
+    { "to": "ramsay-bolton", "type": "ennemi", "label": "Son bourreau", "s": 3 },
+    { "to": "euron-greyjoy", "type": "ennemi", "label": "Son oncle, usurpateur", "s": 6 },
+    { "to": "jon-snow", "type": "allie", "label": "Son ami de Winterfell", "s": 1 },
+    { "to": "osha", "type": "ennemi", "label": "La sauvageonne qui l’a trompé", "s": 2 }
+  ],
+  "places": [
+    { "place": "winterfell", "seasons": [1, 2, 5, 8] },
+    { "place": "pyk", "seasons": [2, 6] },
+    { "place": "fort-terreur", "seasons": [3, 4] },
+    { "place": "meereen", "seasons": [6] },
+    { "place": "peyredragon", "seasons": [7] }
+  ],
+  "codex": ["fer-nes", "dieu-noye"],
+  "booksVsShow": {
+    "s": 3,
+    "paragraphs": [
+      "Dans les romans, la captivité de Theon n’est pas montrée au moment où elle a lieu : le lecteur ne le retrouve que bien plus tard, déjà devenu Schlingue. La série a choisi de montrer ces tortures en détail, ce qui a été très discuté."
+    ]
+  },
+  "portrait": "images/personnages/theon-greyjoy.webp",
+  "sources": [{ "label": "Wiki of Westeros — Theon Greyjoy", "url": "https://gameofthrones.fandom.com/wiki/Theon_Greyjoy" }]
+}

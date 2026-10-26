@@ -1,0 +1,32 @@
+{
+  "slug": "pyat-pree",
+  "name": "Pyat Pree",
+  "short": "Pyat Pree",
+  "aliases": [],
+  "house": null,
+  "region": "Qarth",
+  "camp": "essos",
+  "allegiances": [],
+  "origin": "qarth",
+  "titles": [{ "text": "Conjurateur" }],
+  "actor": "Ian Hanmore",
+  "firstSeason": 2,
+  "status": [
+    { "s": 2, "value": "vivant" },
+    { "s": 2, "value": "mort", "note": "Brûlé par les dragons dans la Maison des Éternels" }
+  ],
+  "summary": "Sorcier de Qarth aux lèvres bleuies, Pyat Pree appartient aux conjurateurs de la Maison des Éternels. Il propose à Daenerys des visions de son avenir.",
+  "bio": [
+    { "s": 2, "title": "Saison 2 — La Maison des Éternels", "paragraphs": ["Pyat Pree se multiplie sous les yeux des Treize pour impressionner la ville. Allié à Xaro, il vole les dragons de Daenerys et les enferme dans la Maison des Éternels, une tour sans porte où la magie revient avec eux. Daenerys y entre pour les reprendre. Après les visions, elle se retrouve enchaînée ; elle prononce « Dracarys » et ses dragons brûlent le sorcier."] }
+  ],
+  "keyMoments": [
+    { "s": 2, "title": "Le vol des dragons", "text": "Il enlève les dragons de Daenerys.", "place": "qarth" },
+    { "s": 2, "title": "Dracarys", "text": "Les dragons le brûlent dans sa propre tour.", "place": "qarth" }
+  ],
+  "relations": [],
+  "places": [{ "place": "qarth", "seasons": [2] }],
+  "codex": [],
+  "portrait": null,
+  "_doute": "Peu de relations : Daenerys et Xaro seulement.",
+  "sources": [{ "label": "Wiki of Westeros — Pyat Pree", "url": "https://gameofthrones.fandom.com/wiki/Pyat_Pree" }]
+}

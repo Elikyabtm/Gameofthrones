@@ -1,0 +1,41 @@
+{
+  "slug": "renly-baratheon",
+  "name": "Renly Baratheon",
+  "short": "Renly",
+  "aliases": [],
+  "house": "baratheon",
+  "region": "Les Terres de l’Orage",
+  "camp": "westeros",
+  "allegiances": [{ "to": "baratheon" }],
+  "origin": "accalmie",
+  "titles": [{ "text": "Seigneur d’Accalmie" }, { "text": "Maître des lois" }, { "text": "Prétendant au Trône de Fer", "s": 2 }],
+  "actor": "Gethin Anthony",
+  "firstSeason": 1,
+  "status": [
+    { "s": 1, "value": "vivant" },
+    { "s": 2, "value": "mort", "note": "Assassiné sous sa tente par une ombre" }
+  ],
+  "summary": "Le plus jeune des frères Baratheon, Renly est charmant, élégant et aimé de la cour. Il siège au Conseil restreint comme maître des lois.",
+  "bio": [
+    { "s": 1, "title": "Saison 1 — Le frère charmant", "paragraphs": ["Renly siège au Conseil restreint de son frère Robert. Il se moque volontiers de la rigidité d’Eddard Stark, mais lui propose son aide quand le roi est mourant : cent épées pour s’emparer des enfants de Cersei avant qu’il ne soit trop tard. Eddard refuse, et Renly quitte la ville en pleine nuit avec Loras Tyrell, son amant secret."] },
+    { "s": 2, "title": "Saison 2 — Le roi d’été", "paragraphs": ["Renly se proclame roi alors que Stannis, son aîné, est l’héritier légitime selon la loi. Il a pour lui le charme, la jeunesse et surtout l’armée des Tyrell, gagnée en épousant Margaery. Il reçoit Catelyn Stark dans son camp, refuse de s’effacer devant son frère lors d’une rencontre tendue, et nomme Brienne de Torth dans sa garde. La nuit précédant la bataille, une ombre surgit de nulle part et le poignarde dans les bras de Brienne."] }
+  ],
+  "keyMoments": [
+    { "s": 1, "title": "Les cent épées", "text": "Il propose à Eddard de prendre les enfants de Cersei de vitesse.", "place": "port-real" },
+    { "s": 2, "title": "La rencontre des frères", "text": "Il refuse de s’incliner devant Stannis.", "place": "accalmie" },
+    { "s": 2, "title": "L’ombre", "text": "Il est tué sous sa tente par une ombre née de Melisandre.", "place": "accalmie" }
+  ],
+  "relations": [
+    { "to": "loras-tyrell", "type": "amour", "label": "Son amant", "s": 1 },
+    { "to": "margaery-tyrell", "type": "conjoint", "label": "Son épouse", "s": 2 },
+    { "to": "brienne-de-torth", "type": "serviteur", "label": "Sa garde dévouée", "inverseLabel": "Le roi qu’elle aimait servir", "s": 2 },
+    { "to": "melisandre", "type": "ennemi", "label": "Celle qui a enfanté son assassin", "s": 2 }
+  ],
+  "places": [
+    { "place": "port-real", "seasons": [1] },
+    { "place": "accalmie", "seasons": [2] }
+  ],
+  "codex": [],
+  "portrait": "images/personnages/renly-baratheon.webp",
+  "sources": [{ "label": "Wiki of Westeros — Renly Baratheon", "url": "https://gameofthrones.fandom.com/wiki/Renly_Baratheon" }]
+}

@@ -1,0 +1,106 @@
+{
+  "slug": "samwell-tarly",
+  "name": "Samwell Tarly",
+  "short": "Samwell",
+  "principal": true,
+  "aliases": [{ "text": "Sam" }, { "text": "Sam le Tueur", "s": 3 }],
+  "house": "tarly",
+  "region": "Le Bief",
+  "camp": "westeros",
+  "allegiances": [{ "to": "tarly" }],
+  "origin": "corcolline",
+  "titles": [{ "text": "Frère juré de la Garde de Nuit" }, { "text": "Grand mestre", "s": 8 }],
+  "actor": "John Bradley",
+  "firstSeason": 1,
+  "status": [{ "s": 1, "value": "vivant" }],
+  "summary": "Fils aîné d’un seigneur du Bief qui le jugeait indigne, Samwell a été envoyé de force à la Garde de Nuit. Peureux et maladroit à l’épée, il aime les livres plus que tout.",
+  "bio": [
+    {
+      "s": 1,
+      "title": "Saison 1 — La nouvelle recrue",
+      "paragraphs": [
+        "Samwell arrive à Châteaunoir en pleurant presque, avoue sa lâcheté à tout le monde et se fait rouer de coups à l’entraînement. Jon Snow prend sa défense et convainc les autres recrues de le laisser tranquille. Samwell raconte que son père lui a donné le choix entre le noir et un « accident de chasse », pour que son frère cadet hérite à sa place.",
+        "Il prononce ses vœux devant un barral aux côtés de Jon, puis devient intendant auprès de mestre Aemon, au milieu des livres et des corbeaux. C’est là, enfin, qu’il se sent utile."
+      ]
+    },
+    {
+      "s": 2,
+      "title": "Saison 2 — Le Poing des Premiers Hommes",
+      "paragraphs": [
+        "Samwell accompagne l’expédition au-delà du Mur comme intendant. Chez Craster, il rencontre Gilly, une des filles et épouses du sauvageon, et tente de l’aider. Sur le Poing des Premiers Hommes, il trouve sous la neige un poignard d’obsidienne, puis se retrouve seul face à l’armée des morts qui défile devant lui sans le voir."
+      ]
+    },
+    {
+      "s": 3,
+      "title": "Saison 3 — Sam le Tueur",
+      "paragraphs": [
+        "Les survivants de l’expédition se réfugient chez Craster, où les frères se mutinent. Samwell s’enfuit avec Gilly et son nouveau-né. Quand un Marcheur blanc vient prendre l’enfant, Samwell le frappe avec le poignard d’obsidienne, et la créature se brise en éclats. Ils rejoignent le Mur par un passage secret."
+      ]
+    },
+    {
+      "s": 4,
+      "title": "Saison 4 — La Mole",
+      "paragraphs": [
+        "Pour protéger Gilly des frères, Samwell l’installe à la Mole, un village au sud du Mur, puis la ramène à Châteaunoir juste avant l’attaque du Peuple libre. Pendant la bataille, il tue un sauvageon à l’arbalète et confie Gilly à la garde des celliers."
+      ]
+    },
+    {
+      "s": 5,
+      "title": "Saison 5 — Le soutien de Jon",
+      "paragraphs": [
+        "Samwell prononce le discours qui fait élire Jon Lord Commandant. Il veille mestre Aemon jusqu’à sa mort et devient l’amant de Gilly. Jon l’envoie à Villevieille avec elle et l’enfant, pour qu’il devienne mestre et que la Garde ait à nouveau quelqu’un qui sache."
+      ]
+    },
+    {
+      "s": 6,
+      "title": "Saison 6 — Corcolline",
+      "paragraphs": [
+        "Sur la route de Villevieille, Samwell fait étape chez ses parents, à Corcolline. Son père humilie Gilly à table. Samwell part dans la nuit, en emportant Corvenin, l’épée d’acier valyrien de la famille. Il arrive enfin à la Citadelle, devant une bibliothèque plus grande que tout ce qu’il a imaginé."
+      ]
+    },
+    {
+      "s": 7,
+      "title": "Saison 7 — La Citadelle",
+      "paragraphs": [
+        "À la Citadelle, Samwell vide des pots de chambre et trouve dans les archives la mention d’une montagne de verre-dragon sous Peyredragon. Il soigne en secret Jorah Mormont de la léprose grise. Gilly lit à voix haute le journal d’un grand septon : le prince Rhaegar a fait annuler son mariage. Déçu par les mestres, Samwell vole des livres et part pour Winterfell."
+      ]
+    },
+    {
+      "s": 8,
+      "title": "Saison 8 — Le grand mestre",
+      "paragraphs": [
+        "À Winterfell, Samwell apprend de Daenerys qu’elle a fait brûler son père et son frère. Il révèle alors à Jon le secret de sa naissance. Il survit à la bataille contre les morts et, après la guerre, devient grand mestre au conseil du roi Bran. Il présente à ses collègues l’histoire des guerres qu’il a commencé à écrire, sous le titre « Le Trône de Fer »."
+      ]
+    }
+  ],
+  "keyMoments": [
+    { "s": 1, "title": "Le serment", "text": "Il prononce ses vœux avec Jon devant un barral.", "place": "chateaunoir" },
+    { "s": 3, "title": "Le Marcheur blanc", "text": "Il tue une créature avec un poignard d’obsidienne.", "place": "au-dela-du-mur" },
+    { "s": 5, "title": "L’élection", "text": "Son discours fait de Jon le Lord Commandant.", "place": "chateaunoir" },
+    { "s": 6, "title": "Corvenin", "text": "Il quitte son père en emportant l’épée familiale.", "place": "corcolline" },
+    { "s": 7, "title": "La guérison de Jorah", "text": "Il soigne la léprose grise en secret.", "place": "villevieille" },
+    { "s": 8, "title": "La vérité", "text": "Il révèle à Jon le secret de sa naissance.", "place": "winterfell" }
+  ],
+  "relations": [
+    { "to": "jorah-mormont", "type": "autre", "label": "Le malade qu’il a guéri", "s": 7 },
+    { "to": "bran-stark", "type": "allie", "label": "Son allié dans la recherche de la vérité", "s": 7 },
+    { "to": "eddison-tollett", "type": "allie", "label": "Son frère juré", "s": 2 }
+  ],
+  "places": [
+    { "place": "chateaunoir", "seasons": [1, 4, 5] },
+    { "place": "au-dela-du-mur", "seasons": [2, 3] },
+    { "place": "corcolline", "seasons": [6] },
+    { "place": "villevieille", "seasons": [6, 7] },
+    { "place": "winterfell", "seasons": [7, 8] },
+    { "place": "port-real", "seasons": [8] }
+  ],
+  "codex": ["garde-de-nuit", "mestres", "marcheurs-blancs"],
+  "booksVsShow": {
+    "s": 3,
+    "paragraphs": [
+      "Dans les romans, Samwell est un narrateur à part entière. Son voyage vers Villevieille y passe par Braavos, où il retrouve Arya sans le savoir. Sa visite à Corcolline et le vol de Corvenin sont des ajouts de la série."
+    ]
+  },
+  "portrait": null,
+  "sources": [{ "label": "Wiki of Westeros — Samwell Tarly", "url": "https://gameofthrones.fandom.com/wiki/Samwell_Tarly" }]
+}

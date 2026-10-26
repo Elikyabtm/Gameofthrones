@@ -1,0 +1,87 @@
+{
+  "slug": "stannis-baratheon",
+  "name": "Stannis Baratheon",
+  "short": "Stannis",
+  "principal": true,
+  "aliases": [],
+  "house": "baratheon",
+  "region": "Peyredragon",
+  "camp": "westeros",
+  "allegiances": [{ "to": "baratheon" }],
+  "origin": "accalmie",
+  "titles": [{ "text": "Seigneur de Peyredragon" }, { "text": "Prétendant au Trône de Fer", "s": 2 }],
+  "actor": "Stephen Dillane",
+  "firstSeason": 2,
+  "status": [
+    { "s": 2, "value": "vivant" },
+    { "s": 5, "value": "mort", "note": "Exécuté par Brienne de Torth après sa défaite devant Winterfell" }
+  ],
+  "summary": "Frère cadet du roi Robert et seigneur de Peyredragon, Stannis est un homme rigide, juste à sa manière, qui ne transige jamais sur ce qu’il estime dû. Il revendique le trône au nom de la loi.",
+  "bio": [
+    {
+      "s": 2,
+      "title": "Saison 2 — Le roi légitime",
+      "paragraphs": [
+        "Stannis apprend, comme Eddard avant lui, que les enfants de Cersei ne sont pas ceux de son frère. Il se proclame héritier légitime et l’écrit à tout le royaume. Sous l’influence de Melisandre, prêtresse du Maître de la Lumière, il fait brûler les statues des Sept sur la plage de Peyredragon.",
+        "Son frère cadet Renly refuse de s’effacer devant lui. Melisandre donne naissance, dans une grotte, à une ombre qui assassine Renly sous sa tente. Stannis récupère une partie de son armée et attaque Port-Réal par la mer. À la Néra, il mène lui-même l’assaut des murs, mais le feu grégeois de Tyrion détruit sa flotte et l’arrivée de Tywin achève sa défaite."
+      ]
+    },
+    {
+      "s": 3,
+      "title": "Saison 3 — Le feu et le sang",
+      "paragraphs": [
+        "Replié à Peyredragon, Stannis s’enferme avec Melisandre et fait emprisonner Davos, qui ose le contredire. La prêtresse lui assure que le sang d’un roi a du pouvoir : elle utilise celui de Gendry, fils naturel de Robert. Davos libère le jeune homme. Une lettre venue du Mur, que Davos lit grâce aux leçons de Shireen, convainc Stannis qu’une autre guerre se prépare au nord."
+      ]
+    },
+    {
+      "s": 4,
+      "title": "Saison 4 — La Banque de Fer",
+      "paragraphs": [
+        "Sans argent, Stannis se rend à Braavos avec Davos et obtient un prêt de la Banque de Fer. Il fait voile vers le nord et arrive au Mur au moment où l’armée de Mance Rayder l’attaque : ses cavaliers écrasent le camp du Peuple libre."
+      ]
+    },
+    {
+      "s": 5,
+      "title": "Saison 5 — Le sacrifice",
+      "paragraphs": [
+        "À Châteaunoir, Stannis offre à Jon Snow d’être légitimé, ce que Jon refuse. Il marche sur Winterfell pour reprendre le Nord aux Bolton. Bloqué par la neige, à court de vivres, il accepte ce que Melisandre exige : brûler sa propre fille Shireen. Le lendemain, la moitié de ses hommes désertent et sa femme se pend. Son armée est écrasée devant Winterfell. Blessé, il est retrouvé par Brienne de Torth, qui l’exécute pour le meurtre de Renly."
+      ]
+    }
+  ],
+  "keyMoments": [
+    { "s": 2, "title": "Le bûcher des Sept", "text": "Il fait brûler les statues des dieux de Westeros sur la plage.", "place": "peyredragon" },
+    { "s": 2, "title": "La Néra", "text": "Il mène l’assaut des remparts de Port-Réal et perd la bataille.", "place": "port-real" },
+    { "s": 4, "title": "Le Mur", "text": "Ses cavaliers écrasent l’armée du Peuple libre.", "place": "chateaunoir" },
+    { "s": 5, "title": "Shireen", "text": "Il laisse brûler sa fille pour obtenir la victoire.", "place": "winterfell" },
+    { "s": 5, "title": "La fin", "text": "Brienne l’exécute au nom de Renly.", "place": "winterfell" }
+  ],
+  "relations": [
+    { "to": "renly-baratheon", "type": "fratrie", "label": "Son frère cadet et rival", "s": 2 },
+    { "to": "selyse-baratheon", "type": "conjoint", "label": "Son épouse", "s": 3 },
+    { "to": "shireen-baratheon", "type": "enfant", "label": "Sa fille unique", "inverseLabel": "Son père", "s": 2 },
+    { "to": "davos-mervault", "type": "serviteur", "label": "Sa Main et sa conscience", "inverseLabel": "Son roi", "s": 2 },
+    { "to": "melisandre", "type": "autre", "label": "Sa prêtresse rouge", "inverseLabel": "Le roi qu’elle croit élu", "s": 2 },
+    { "to": "jon-snow", "type": "allie", "label": "Son allié au Mur", "s": 5 },
+    { "to": "gendry", "type": "autre", "label": "Son neveu bâtard", "inverseLabel": "Son oncle", "s": 3 },
+    { "to": "ramsay-bolton", "type": "ennemi", "label": "Celui qui a brûlé ses vivres", "s": 5 },
+    { "to": "brienne-de-torth", "type": "ennemi", "label": "Celle qui l’a exécuté", "s": 5 }
+  ],
+  "places": [
+    { "place": "peyredragon", "seasons": [2, 3, 4] },
+    { "place": "port-real", "seasons": [2] },
+    { "place": "braavos", "seasons": [4] },
+    { "place": "chateaunoir", "seasons": [4, 5] },
+    { "place": "winterfell", "seasons": [5] }
+  ],
+  "codex": ["maitre-de-la-lumiere"],
+  "booksVsShow": {
+    "s": 5,
+    "paragraphs": [
+      "Dans les romans publiés, Stannis est toujours vivant et marche sur Winterfell dans la neige. Le sacrifice de Shireen n’y a pas eu lieu, même si l’auteur aurait confirmé aux scénaristes qu’il faisait partie de ses projets."
+    ]
+  },
+  "portrait": "images/personnages/stannis-baratheon.webp",
+  "sources": [
+    { "label": "Wiki of Westeros — Stannis Baratheon", "url": "https://gameofthrones.fandom.com/wiki/Stannis_Baratheon" }
+  ]
+}

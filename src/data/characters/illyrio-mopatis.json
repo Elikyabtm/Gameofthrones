@@ -1,0 +1,84 @@
+{
+  "slug": "illyrio-mopatis",
+  "name": "Illyrio Mopatis",
+  "short": "Illyrio",
+  "aliases": [
+    {
+      "text": "le magistre Illyrio"
+    }
+  ],
+  "house": null,
+  "region": "Pentos",
+  "camp": "essos",
+  "allegiances": [],
+  "origin": "pentos",
+  "titles": [
+    {
+      "text": "Magistre de Pentos"
+    }
+  ],
+  "actor": "Roger Allam",
+  "firstSeason": 1,
+  "status": [
+    {
+      "s": 1,
+      "value": "vivant"
+    }
+  ],
+  "summary": "Riche magistre de Pentos, Illyrio héberge les derniers Targaryen et arrange le mariage de Daenerys avec Khal Drogo. Ses véritables intentions restent prudemment cachées.",
+  "bio": [
+    {
+      "s": 1,
+      "title": "Saison 1 — L’hôte des exilés",
+      "paragraphs": [
+        "Dans sa demeure de Pentos, Illyrio offre à Viserys et Daenerys un toit, des robes et l’espoir d’une armée. C’est lui qui organise la rencontre avec Drogo, et qui offre à Daenerys, le jour de ses noces, trois œufs de dragon pétrifiés. On l’aperçoit plus tard à Port-Réal, dans les souterrains du Donjon Rouge, en grande conversation avec Varys, à qui il reproche que les choses aillent trop vite. Arya les entend sans comprendre."
+      ]
+    }
+  ],
+  "keyMoments": [
+    {
+      "s": 1,
+      "title": "Les œufs",
+      "text": "Il offre à Daenerys trois œufs de dragon pétrifiés.",
+      "place": "pentos"
+    },
+    {
+      "s": 1,
+      "title": "Les souterrains",
+      "text": "Il conspire avec Varys dans les sous-sols du Donjon Rouge.",
+      "place": "port-real"
+    }
+  ],
+  "relations": [
+    {
+      "to": "varys",
+      "type": "allie",
+      "label": "Son vieux complice",
+      "s": 1
+    }
+  ],
+  "places": [
+    {
+      "place": "pentos",
+      "seasons": [
+        1
+      ]
+    },
+    {
+      "place": "port-real",
+      "seasons": [
+        1
+      ]
+    }
+  ],
+  "codex": [
+    "dragons"
+  ],
+  "portrait": null,
+  "sources": [
+    {
+      "label": "Wiki of Westeros — Illyrio Mopatis",
+      "url": "https://gameofthrones.fandom.com/wiki/Illyrio_Mopatis"
+    }
+  ]
+}

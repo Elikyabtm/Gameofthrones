@@ -1,0 +1,234 @@
+{
+  "slug": "tywin-lannister",
+  "name": "Tywin Lannister",
+  "short": "Tywin",
+  "principal": true,
+  "aliases": [],
+  "house": "lannister",
+  "region": "L’Ouest",
+  "camp": "westeros",
+  "allegiances": [
+    {
+      "to": "lannister"
+    }
+  ],
+  "origin": "castral-roc",
+  "titles": [
+    {
+      "text": "Seigneur de Castral Roc"
+    },
+    {
+      "text": "Gouverneur de l’Ouest"
+    },
+    {
+      "text": "Main du Roi",
+      "s": 2
+    }
+  ],
+  "actor": "Charles Dance",
+  "firstSeason": 1,
+  "status": [
+    {
+      "s": 1,
+      "value": "vivant"
+    },
+    {
+      "s": 4,
+      "value": "mort",
+      "note": "Tué d’un carreau d’arbalète par son fils Tyrion"
+    }
+  ],
+  "summary": "Seigneur de Castral Roc et chef de la maison Lannister, Tywin place la grandeur du nom au-dessus de tout, y compris de ses enfants. Stratège redouté, il a déjà fait plier des royaumes avant le début de l’histoire.",
+  "bio": [
+    {
+      "s": 1,
+      "title": "Saison 1 — Le chef de guerre",
+      "paragraphs": [
+        "On découvre Tywin en train de dépecer un cerf dans son camp, pendant qu’il sermonne Jaime sur l’héritage de la famille. Tout est dit : il ne parle jamais pour ne rien dire, il ne pardonne aucune faiblesse, et chaque geste de sa maison doit servir la suivante. Il méprise Tyrion, dont la naissance a coûté la vie à sa femme, et le considère comme une honte vivante.",
+        "Quand Catelyn Stark fait arrêter Tyrion, Tywin lance ses armées sur le Conflans. Il n’agit pas par affection, mais parce qu’on ne touche pas impunément à un Lannister. Il place Tyrion et ses montagnards en première ligne d’une bataille, en espérant presque le voir mourir. Après la capture de Jaime par Robb Stark et l’exécution d’Eddard, qu’il juge stupide, il envoie Tyrion à Port-Réal comme Main du Roi par intérim, pour tenir Joffrey en bride."
+      ]
+    },
+    {
+      "s": 2,
+      "title": "Saison 2 — Harrenhal et la Néra",
+      "paragraphs": [
+        "Tywin s’installe dans la forteresse en ruine de Harrenhal, d’où il dirige la guerre. Il y prend comme échanson une petite fille du Nord, sans savoir qu’il s’agit d’Arya Stark. Avec elle, il se montre presque bavard : il parle d’histoire, de conquêtes, et devine qu’elle n’est pas une simple roturière.",
+        "Au moment où Stannis Baratheon attaque Port-Réal par la mer, Tywin surgit avec l’armée des Lannister et des Tyrell, qu’il a ralliés. La bataille de la Néra tourne au triomphe. Il entre à cheval dans la salle du trône, sauveur de la ville, et reprend officiellement la charge de Main du Roi."
+      ]
+    },
+    {
+      "s": 3,
+      "title": "Saison 3 — Le maître du jeu",
+      "paragraphs": [
+        "Tywin gouverne en fait à la place de Joffrey. Il refuse à Tyrion la seigneurie de Castral Roc, impose à Cersei un remariage avec Loras Tyrell et marie Tyrion à Sansa Stark pour s’emparer du Nord. Face à Olenna Tyrell, il trouve une adversaire à sa mesure et l’emporte de justesse.",
+        "Surtout, il prépare dans l’ombre la fin de la guerre. En s’entendant avec Walder Frey et Roose Bolton, il organise le massacre des Jumeaux. Il le justifie devant Joffrey comme une économie de vies : mieux vaut tuer une douzaine de convives à table que des milliers de soldats sur le champ de bataille."
+      ]
+    },
+    {
+      "s": 4,
+      "title": "Saison 4 — La chute du lion",
+      "paragraphs": [
+        "Après la mort de Joffrey, empoisonné à son mariage, Tywin prend en main l’éducation de Tommen et l’accusation de Tyrion. Pendant le procès, il ne cache pas qu’il souhaite la mort de son fils, mais propose en coulisses de l’envoyer au Mur s’il plaide coupable. Tyrion réclame un duel judiciaire et le perd.",
+        "Libéré par Jaime la nuit précédant son exécution, Tyrion monte jusqu’à la chambre de son père. Il y trouve Shae, son ancienne compagne, dans le lit de Tywin. Il la tue, puis rejoint son père aux latrines et l’abat d’un carreau d’arbalète. Tywin Lannister, le plus puissant seigneur des Sept Couronnes, meurt sur un siège de commodité."
+      ]
+    }
+  ],
+  "keyMoments": [
+    {
+      "s": 1,
+      "title": "Le cerf",
+      "text": "Il explique à Jaime ce que doit être un Lannister, en dépeçant lui-même un cerf.",
+      "place": "le-conflans"
+    },
+    {
+      "s": 2,
+      "title": "L’échanson de Harrenhal",
+      "text": "Il se prend d’intérêt pour une servante du Nord qui n’est autre qu’Arya Stark.",
+      "place": "harrenhal"
+    },
+    {
+      "s": 2,
+      "title": "La Néra",
+      "text": "Il surgit avec l’armée des Tyrell et sauve Port-Réal.",
+      "place": "port-real"
+    },
+    {
+      "s": 3,
+      "title": "Les Noces pourpres",
+      "text": "Il organise avec les Frey et les Bolton la fin du roi du Nord.",
+      "place": "les-jumeaux"
+    },
+    {
+      "s": 4,
+      "title": "Le procès",
+      "text": "Il juge son propre fils pour la mort de Joffrey.",
+      "place": "port-real"
+    },
+    {
+      "s": 4,
+      "title": "Les latrines",
+      "text": "Tyrion le tue d’un carreau d’arbalète.",
+      "place": "port-real"
+    }
+  ],
+  "relations": [
+    {
+      "to": "cersei-lannister",
+      "type": "enfant",
+      "label": "Sa fille",
+      "inverseLabel": "Son père",
+      "s": 1
+    },
+    {
+      "to": "jaime-lannister",
+      "type": "enfant",
+      "label": "Son fils aîné et héritier",
+      "inverseLabel": "Son père",
+      "s": 1
+    },
+    {
+      "to": "tyrion-lannister",
+      "type": "enfant",
+      "label": "Son fils cadet, qu’il méprise",
+      "inverseLabel": "Son père, qui le méprise",
+      "s": 1
+    },
+    {
+      "to": "kevan-lannister",
+      "type": "fratrie",
+      "label": "Son frère et bras droit",
+      "s": 1
+    },
+    {
+      "to": "joffrey-baratheon",
+      "type": "autre",
+      "label": "Son petit-fils, le roi",
+      "inverseLabel": "Son grand-père",
+      "s": 1
+    },
+    {
+      "to": "tommen-baratheon",
+      "type": "autre",
+      "label": "Son petit-fils",
+      "inverseLabel": "Son grand-père",
+      "s": 1
+    },
+    {
+      "to": "gregor-clegane",
+      "type": "serviteur",
+      "label": "Son chevalier le plus brutal",
+      "inverseLabel": "Son seigneur",
+      "s": 1
+    },
+    {
+      "to": "olenna-tyrell",
+      "type": "allie",
+      "label": "Son alliée et adversaire",
+      "s": 3
+    },
+    {
+      "to": "walder-frey",
+      "type": "allie",
+      "label": "Son complice aux Jumeaux",
+      "s": 3
+    },
+    {
+      "to": "roose-bolton",
+      "type": "allie",
+      "label": "Son complice contre Robb Stark",
+      "s": 3
+    },
+    {
+      "to": "stannis-baratheon",
+      "type": "ennemi",
+      "label": "Le prétendant qu’il a vaincu",
+      "s": 2
+    },
+    {
+      "to": "shae",
+      "type": "amour",
+      "label": "Sa maîtresse secrète",
+      "s": 4
+    }
+  ],
+  "places": [
+    {
+      "place": "le-conflans",
+      "seasons": [
+        1
+      ]
+    },
+    {
+      "place": "harrenhal",
+      "seasons": [
+        2
+      ]
+    },
+    {
+      "place": "port-real",
+      "seasons": [
+        2,
+        3,
+        4
+      ]
+    }
+  ],
+  "codex": [],
+  "booksVsShow": {
+    "s": 2,
+    "paragraphs": [
+      "Les scènes entre Tywin et Arya à Harrenhal n’existent pas dans les romans, où Tywin quitte le château avant l’arrivée d’Arya. La série en a fait l’un des duos les plus marquants de la saison 2."
+    ]
+  },
+  "portrait": "images/personnages/tywin-lannister.webp",
+  "sources": [
+    {
+      "label": "Wiki of Westeros — Tywin Lannister",
+      "url": "https://gameofthrones.fandom.com/wiki/Tywin_Lannister"
+    },
+    {
+      "label": "A Wiki of Ice and Fire — Tywin Lannister",
+      "url": "https://awoiaf.westeros.org/index.php/Tywin_Lannister"
+    }
+  ]
+}

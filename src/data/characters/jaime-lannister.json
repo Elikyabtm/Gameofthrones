@@ -1,0 +1,285 @@
+{
+  "slug": "jaime-lannister",
+  "name": "Jaime Lannister",
+  "short": "Jaime",
+  "principal": true,
+  "aliases": [
+    {
+      "text": "le Régicide"
+    }
+  ],
+  "house": "lannister",
+  "region": "L’Ouest",
+  "camp": "westeros",
+  "allegiances": [
+    {
+      "to": "lannister"
+    }
+  ],
+  "origin": "castral-roc",
+  "titles": [
+    {
+      "text": "Chevalier de la Garde Royale"
+    },
+    {
+      "text": "Lord Commandant de la Garde Royale",
+      "s": 4
+    }
+  ],
+  "actor": "Nikolaj Coster-Waldau",
+  "firstSeason": 1,
+  "status": [
+    {
+      "s": 1,
+      "value": "vivant"
+    },
+    {
+      "s": 8,
+      "value": "mort",
+      "note": "Enseveli avec Cersei sous les ruines du Donjon Rouge"
+    }
+  ],
+  "summary": "Frère jumeau de la reine Cersei et chevalier de la Garde Royale, Jaime est l’un des meilleurs épéistes du royaume. Depuis qu’il a tué le roi qu’il avait juré de protéger, on l’appelle le Régicide.",
+  "bio": [
+    {
+      "s": 1,
+      "title": "Saison 1 — Le Régicide",
+      "paragraphs": [
+        "Beau, insolent et sûr de lui, Jaime traîne une réputation qui ne le quitte jamais : pendant le sac de Port-Réal, il a tué le roi Aerys, à qui il avait juré fidélité. Personne ne lui a demandé pourquoi, et il ne l’a jamais expliqué. Il méprise Eddard Stark, qui l’a trouvé assis sur le trône ce jour-là.",
+        "À Winterfell, surpris par Bran avec sa sœur Cersei, il pousse l’enfant par la fenêtre d’une tour. Plus tard, à Port-Réal, il attaque Eddard en pleine rue pour venger l’arrestation de Tyrion. Puis il prend la tête d’une armée dans le Conflans, jusqu’à ce que Robb Stark le capture au Bois-aux-Murmures."
+      ]
+    },
+    {
+      "s": 2,
+      "title": "Saison 2 — Le prisonnier",
+      "paragraphs": [
+        "Enchaîné dans le camp du Nord, Jaime provoque ses gardiens et tente une évasion qui coûte la vie au jeune Torrhen Karstark. Catelyn vient le voir et ils s’affrontent en paroles. Elle finit par le libérer en secret et le confie à Brienne de Torth, chargée de l’échanger à Port-Réal contre Sansa et Arya."
+      ]
+    },
+    {
+      "s": 3,
+      "title": "Saison 3 — La main",
+      "paragraphs": [
+        "Sur la route, Jaime nargue Brienne, puis apprend à la respecter. Ils sont capturés par les hommes de Roose Bolton. Pour l’empêcher d’être violée, Jaime invente une rançon ; un des geôliers lui tranche la main droite, celle de l’épée. Dans les bains de Harrenhal, fiévreux, il raconte enfin à Brienne la vérité sur le roi Aerys : le roi fou voulait brûler la ville entière au feu grégeois, et Jaime l’a tué pour sauver un demi-million de personnes. Plus tard, il revient sur ses pas pour la sauver d’un ours."
+      ]
+    },
+    {
+      "s": 4,
+      "title": "Saison 4 — Le Lord Commandant",
+      "paragraphs": [
+        "Revenu à Port-Réal avec une main d’or, Jaime retrouve une sœur qui le rejette. Il assiste à la mort de Joffrey, son fils secret, et à l’accusation de Tyrion. Il offre à Brienne une épée forgée dans l’acier de Glace, l’arme d’Eddard Stark, pour qu’elle retrouve Sansa. Puis il libère Tyrion la veille de son exécution, sans se douter de ce que son frère fera de cette liberté."
+      ]
+    },
+    {
+      "s": 5,
+      "title": "Saison 5 — Dorne",
+      "paragraphs": [
+        "Une menace pèse sur Myrcella, fiancée au prince de Dorne. Jaime part la chercher avec Bronn, en secret. Le prince Doran accepte de la laisser partir, mais sur le bateau du retour, Myrcella, qui vient de reconnaître Jaime comme son père, meurt dans ses bras, empoisonnée par Ellaria Sand."
+      ]
+    },
+    {
+      "s": 6,
+      "title": "Saison 6 — Vivesaigues",
+      "paragraphs": [
+        "Écarté de Port-Réal par le Grand Moineau, Jaime est envoyé reprendre Vivesaigues, que le Silure a reconquis. Il obtient la reddition du château en menaçant Edmure Tully, sans combat. De retour, il découvre le septuor en ruine et sa sœur couronnée reine. Tommen est mort."
+      ]
+    },
+    {
+      "s": 7,
+      "title": "Saison 7 — Le doute",
+      "paragraphs": [
+        "Jaime mène les armées de Cersei. Il prend Hautjardin, où Olenna Tyrell lui révèle avant de mourir qu’elle a fait empoisonner Joffrey. Il charge seul contre Daenerys pendant la bataille du convoi de butin et n’en réchappe que de justesse. Quand Cersei refuse de tenir sa promesse de combattre les morts, Jaime la quitte et part vers le nord, seul."
+      ]
+    },
+    {
+      "s": 8,
+      "title": "Saison 8 — Le retour",
+      "paragraphs": [
+        "À Winterfell, Jaime doit affronter Bran, qu’il a jeté d’une tour. Il se bat aux côtés des vivants, arme Brienne chevalier et devient son amant. Puis il repart vers le sud quand il apprend que Port-Réal va tomber. Il retrouve Cersei dans les souterrains du Donjon Rouge et meurt avec elle sous les décombres."
+      ]
+    }
+  ],
+  "keyMoments": [
+    {
+      "s": 1,
+      "title": "La tour",
+      "text": "Il pousse Bran par la fenêtre pour protéger son secret.",
+      "place": "winterfell"
+    },
+    {
+      "s": 3,
+      "title": "La main tranchée",
+      "text": "Il perd sa main d’épée en protégeant Brienne.",
+      "place": "le-conflans"
+    },
+    {
+      "s": 3,
+      "title": "Les bains de Harrenhal",
+      "text": "Il raconte la vérité sur la mort du roi Aerys.",
+      "place": "harrenhal"
+    },
+    {
+      "s": 4,
+      "title": "Féale",
+      "text": "Il offre à Brienne une épée forgée dans l’acier de Glace.",
+      "place": "port-real"
+    },
+    {
+      "s": 6,
+      "title": "Vivesaigues",
+      "text": "Il reprend le château sans livrer bataille.",
+      "place": "vivesaigues"
+    },
+    {
+      "s": 8,
+      "title": "Ser Brienne",
+      "text": "Il arme Brienne chevalier, la veille de la Longue Nuit.",
+      "place": "winterfell"
+    }
+  ],
+  "relations": [
+    {
+      "to": "tyrion-lannister",
+      "type": "fratrie",
+      "label": "Son frère cadet, le seul à l’aimer",
+      "s": 1
+    },
+    {
+      "to": "joffrey-baratheon",
+      "type": "enfant",
+      "label": "Son fils secret",
+      "inverseLabel": "Son père véritable",
+      "s": 1
+    },
+    {
+      "to": "myrcella-baratheon",
+      "type": "enfant",
+      "label": "Sa fille secrète",
+      "inverseLabel": "Son père véritable",
+      "s": 1
+    },
+    {
+      "to": "tommen-baratheon",
+      "type": "enfant",
+      "label": "Son fils secret",
+      "inverseLabel": "Son père véritable",
+      "s": 1
+    },
+    {
+      "to": "brienne-de-torth",
+      "type": "allie",
+      "label": "Sa gardienne, puis son amie",
+      "s": 2,
+      "until": 8
+    },
+    {
+      "to": "brienne-de-torth",
+      "type": "amour",
+      "label": "La femme qu’il a armée chevalier et aimée",
+      "s": 8
+    },
+    {
+      "to": "bronn",
+      "type": "allie",
+      "label": "Son compagnon d’armes",
+      "s": 4
+    },
+    {
+      "to": "aerys-targaryen",
+      "type": "ennemi",
+      "label": "Le roi qu’il a tué",
+      "inverseLabel": "Le chevalier qui l’a tué",
+      "s": 1
+    },
+    {
+      "to": "barristan-selmy",
+      "type": "autre",
+      "label": "Son ancien frère de la Garde Royale",
+      "s": 1
+    },
+    {
+      "to": "olenna-tyrell",
+      "type": "ennemi",
+      "label": "La matriarche qu’il a fait exécuter",
+      "s": 7
+    },
+    {
+      "to": "edmure-tully",
+      "type": "ennemi",
+      "label": "L’otage qu’il a menacé",
+      "s": 6
+    }
+  ],
+  "places": [
+    {
+      "place": "winterfell",
+      "seasons": [
+        1,
+        8
+      ]
+    },
+    {
+      "place": "port-real",
+      "seasons": [
+        1,
+        4,
+        5,
+        6,
+        7,
+        8
+      ]
+    },
+    {
+      "place": "le-conflans",
+      "seasons": [
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "place": "harrenhal",
+      "seasons": [
+        3
+      ]
+    },
+    {
+      "place": "jardins-aquatiques",
+      "seasons": [
+        5
+      ]
+    },
+    {
+      "place": "vivesaigues",
+      "seasons": [
+        6
+      ]
+    },
+    {
+      "place": "hautjardin",
+      "seasons": [
+        7
+      ]
+    }
+  ],
+  "codex": [
+    "garde-royale"
+  ],
+  "booksVsShow": {
+    "s": 5,
+    "paragraphs": [
+      "Dans les romans, Jaime ne va pas à Dorne : c’est un autre groupe, mené par une jeune princesse dornienne, qui tente d’utiliser Myrcella. L’expédition de Jaime et Bronn est une invention de la série, souvent jugée comme l’un de ses arcs les plus faibles."
+    ]
+  },
+  "portrait": "images/personnages/jaime-lannister.webp",
+  "sources": [
+    {
+      "label": "Wiki of Westeros — Jaime Lannister",
+      "url": "https://gameofthrones.fandom.com/wiki/Jaime_Lannister"
+    },
+    {
+      "label": "A Wiki of Ice and Fire — Jaime Lannister",
+      "url": "https://awoiaf.westeros.org/index.php/Jaime_Lannister"
+    }
+  ]
+}

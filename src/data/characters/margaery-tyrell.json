@@ -1,0 +1,82 @@
+{
+  "slug": "margaery-tyrell",
+  "name": "Margaery Tyrell",
+  "short": "Margaery",
+  "principal": true,
+  "aliases": [],
+  "house": "tyrell",
+  "region": "Le Bief",
+  "camp": "westeros",
+  "allegiances": [{ "to": "tyrell" }],
+  "origin": "hautjardin",
+  "titles": [{ "text": "Reine", "s": 2 }],
+  "actor": "Natalie Dormer",
+  "firstSeason": 2,
+  "status": [
+    { "s": 2, "value": "vivant" },
+    { "s": 6, "value": "mort", "note": "Tuée dans l’explosion du grand septuor de Baelor" }
+  ],
+  "summary": "Fille de Mace Tyrell, Margaery sait se faire aimer du peuple comme des rois. Elle ne cache pas son ambition : elle veut être reine.",
+  "bio": [
+    {
+      "s": 2,
+      "title": "Saison 2 — L’épouse de Renly",
+      "paragraphs": [
+        "Margaery a épousé Renly Baratheon, qui s’est proclamé roi. Elle sait que son mari aime son frère Loras et ne s’en offusque pas : elle propose même de les aider à avoir un héritier. Quand Renly est assassiné, elle confie à Littlefinger qu’elle ne veut pas être « une » reine, mais « la » reine. Après la bataille de la Néra, où l’armée Tyrell sauve la ville, elle est promise à Joffrey."
+      ]
+    },
+    {
+      "s": 3,
+      "title": "Saison 3 — La fiancée du roi",
+      "paragraphs": [
+        "À Port-Réal, Margaery visite les orphelinats, distribue du pain et se fait acclamer. Elle apprivoise Joffrey en flattant sa cruauté sans jamais la partager. Avec sa grand-mère, elle prend Sansa sous son aile, à la fois par amitié et par calcul, et sent en Cersei une ennemie."
+      ]
+    },
+    {
+      "s": 4,
+      "title": "Saison 4 — Deux mariages",
+      "paragraphs": [
+        "Margaery épouse Joffrey, qui meurt empoisonné le jour même. Veuve sans avoir été vraiment épouse, elle suit le conseil d’Olenna et rend visite la nuit au jeune Tommen, le nouveau roi, qu’elle séduit avec tendresse. Cersei, qui sent la menace, ne peut empêcher le mariage."
+      ]
+    },
+    {
+      "s": 5,
+      "title": "Saison 5 — La prisonnière de la Foi",
+      "paragraphs": [
+        "Mariée à Tommen, Margaery devient reine et pousse son mari à éloigner sa mère. Cersei réplique en armant la Foi militante. Margaery est arrêtée pour avoir menti en défendant son frère Loras, accusé de sodomie, et jetée dans une cellule du grand septuor."
+      ]
+    },
+    {
+      "s": 6,
+      "title": "Saison 6 — Le jeu de la pénitente",
+      "paragraphs": [
+        "En prison, Margaery feint de se convertir pour sauver Loras et retrouver sa liberté. Elle convainc le Grand Moineau, et même Tommen, au point d’inquiéter sa grand-mère, à qui elle glisse discrètement un dessin de rose pour lui signifier qu’elle n’a pas changé. Le jour du procès, elle est la seule à comprendre que l’absence de Cersei cache un piège. Elle essaie de faire sortir tout le monde. Les portes sont gardées. Le feu grégeois explose."
+      ]
+    }
+  ],
+  "keyMoments": [
+    { "s": 2, "title": "« La » reine", "text": "Elle annonce à Littlefinger qu’elle veut être la reine.", "place": "accalmie" },
+    { "s": 3, "title": "Les orphelins", "text": "Elle gagne le cœur du peuple de Port-Réal.", "place": "port-real" },
+    { "s": 4, "title": "Le mariage", "text": "Elle épouse Joffrey, qui meurt au festin.", "place": "port-real" },
+    { "s": 6, "title": "Le septuor", "text": "Elle comprend le piège trop tard.", "place": "port-real" }
+  ],
+  "relations": [
+    { "to": "loras-tyrell", "type": "fratrie", "label": "Son frère, son plus proche allié", "s": 2 },
+    { "to": "petyr-baelish", "type": "autre", "label": "L’homme qui a arrangé ses alliances", "s": 2 },
+    { "to": "grand-moineau", "type": "ennemi", "label": "Son geôlier", "s": 5 },
+    { "to": "septa-unella", "type": "ennemi", "label": "La septa qui la surveille", "s": 5 }
+  ],
+  "places": [
+    { "place": "accalmie", "seasons": [2] },
+    { "place": "port-real", "seasons": [2, 3, 4, 5, 6] }
+  ],
+  "codex": ["foi-des-sept", "foi-militante"],
+  "booksVsShow": {
+    "s": 2,
+    "paragraphs": [
+      "Dans les romans, Margaery est plus jeune et reste plus mystérieuse : elle n’a jamais de point de vue propre, et son arrestation par la Foi y est la conséquence d’accusations montées par Cersei, pas de son mensonge pour Loras."
+    ]
+  },
+  "portrait": "images/personnages/margaery-tyrell.webp",
+  "sources": [{ "label": "Wiki of Westeros — Margaery Tyrell", "url": "https://gameofthrones.fandom.com/wiki/Margaery_Tyrell" }]
+}

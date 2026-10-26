@@ -1,0 +1,38 @@
+{
+  "slug": "alliser-thorne",
+  "name": "Alliser Thorne",
+  "short": "Thorne",
+  "aliases": [{ "text": "Ser Alliser" }],
+  "house": null,
+  "region": "Le Mur",
+  "camp": "westeros",
+  "allegiances": [],
+  "origin": "chateaunoir",
+  "titles": [{ "text": "Maître d’armes de Châteaunoir" }, { "text": "Premier patrouilleur", "s": 5 }],
+  "actor": "Owen Teale",
+  "firstSeason": 1,
+  "status": [
+    { "s": 1, "value": "vivant" },
+    { "s": 6, "value": "mort", "note": "Pendu pour trahison sur ordre de Jon Snow" }
+  ],
+  "summary": "Maître d’armes de Châteaunoir, Alliser Thorne forme les recrues avec mépris et brutalité. Il n’aime ni les nobles, ni les bâtards, ni ceux qui se croient au-dessus du rang.",
+  "bio": [
+    { "s": 1, "title": "Saison 1 — Le maître d’armes", "paragraphs": ["Thorne humilie les recrues, en particulier Jon Snow, qu’il surnomme Lord Snow, et Samwell, qu’il appelle Ser Cochon. Ancien partisan des Targaryen, envoyé au Mur après la Rébellion, il garde une rancune tenace contre ceux qui ont gagné la guerre."] },
+    { "s": 3, "title": "Saison 3 — Le gardien du château", "paragraphs": ["En l’absence de Mormont, Thorne commande Châteaunoir. Il ne croit pas aux récits de Jon sur l’armée de Mance Rayder."] },
+    { "s": 4, "title": "Saison 4 — La défense du Mur", "paragraphs": ["Thorne refuse de suivre les conseils de Jon, puis se bat avec courage pendant l’attaque du Peuple libre. Blessé, il reconnaît du bout des lèvres que Jon avait raison."] },
+    { "s": 5, "title": "Saison 5 — Pour la Garde", "paragraphs": ["Candidat malheureux au poste de Lord Commandant, Thorne voit Jon élu et devient son premier patrouilleur. Il obéit, mais juge que laisser passer les sauvageons trahit la mission de la Garde. Il attire Jon dans un piège et le poignarde le premier, avant que les autres frères, et le jeune Olly, ne l’imitent."] },
+    { "s": 6, "title": "Saison 6 — La corde", "paragraphs": ["Jon revient à la vie. Thorne, condamné, ne demande pas pardon : il répète qu’il a fait ce qu’il croyait juste pour la Garde. Jon tranche lui-même la corde."] }
+  ],
+  "keyMoments": [
+    { "s": 5, "title": "Pour la Garde", "text": "Il mène l’assassinat de Jon Snow.", "place": "chateaunoir" },
+    { "s": 6, "title": "La pendaison", "text": "Jon le fait exécuter pour trahison.", "place": "chateaunoir" }
+  ],
+  "relations": [
+    { "to": "samwell-tarly", "type": "ennemi", "label": "La recrue qu’il méprise", "s": 1 },
+    { "to": "janos-slynt", "type": "allie", "label": "Son allié contre Jon", "s": 4 }
+  ],
+  "places": [{ "place": "chateaunoir", "seasons": [1, 3, 4, 5, 6] }],
+  "codex": ["garde-de-nuit"],
+  "portrait": null,
+  "sources": [{ "label": "Wiki of Westeros — Alliser Thorne", "url": "https://gameofthrones.fandom.com/wiki/Alliser_Thorne" }]
+}

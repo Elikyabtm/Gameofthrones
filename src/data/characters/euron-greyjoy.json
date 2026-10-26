@@ -1,0 +1,41 @@
+{
+  "slug": "euron-greyjoy",
+  "name": "Euron Greyjoy",
+  "short": "Euron",
+  "aliases": [{ "text": "Œil-de-Choucas" }],
+  "house": "greyjoy",
+  "region": "Les Îles de Fer",
+  "camp": "westeros",
+  "allegiances": [{ "to": "greyjoy" }],
+  "origin": "pyk",
+  "titles": [{ "text": "Roi des Îles de Fer", "s": 6 }],
+  "actor": "Pilou Asbæk",
+  "firstSeason": 6,
+  "status": [
+    { "s": 6, "value": "vivant" },
+    { "s": 8, "value": "mort", "note": "Tué par Jaime Lannister sur la plage du Donjon Rouge" }
+  ],
+  "summary": "Frère cadet de Balon, longtemps exilé en mer, Euron Greyjoy revient à Pyk après des années d’absence. On dit qu’il a navigué jusqu’aux confins du monde, et qu’il en est revenu fou.",
+  "bio": [
+    { "s": 6, "title": "Saison 6 — Le retour", "paragraphs": ["Euron revient à Pyk et tue son frère Balon sur un pont, sous la tempête. Il se présente à l’assemblée des capitaines, se vante de ses voyages et promet d’offrir la flotte des Îles de Fer à Daenerys, en l’épousant. Les capitaines le choisissent. Il est noyé selon le rite du Dieu Noyé, puis revient. Ses neveux lui ayant volé ses meilleurs navires, il ordonne d’en construire mille autres."] },
+    { "s": 7, "title": "Saison 7 — Le pirate", "paragraphs": ["Euron se présente à Port-Réal avec sa flotte et demande la main de Cersei. Il détruit la flotte de Yara, tue Obara et Nymeria Sand, et offre à la reine Ellaria et Tyene en guise de cadeau. Il anéantit ensuite la flotte des Immaculés devant Castral Roc."] },
+    { "s": 8, "title": "Saison 8 — La plage", "paragraphs": ["Euron abat Rhaegal avec ses balistes et capture Missandei. Quand Daenerys attaque Port-Réal, sa flotte est incendiée. Rejeté sur la plage, il croise Jaime et l’affronte, en se vantant de mourir comme l’homme qui a tué Jaime Lannister. Il meurt sur le sable."] }
+  ],
+  "keyMoments": [
+    { "s": 6, "title": "Le pont", "text": "Il tue son frère et réclame le trône de sel.", "place": "pyk" },
+    { "s": 7, "title": "La flotte de Yara", "text": "Il détruit la flotte alliée de Daenerys.", "place": "peyredragon" },
+    { "s": 8, "title": "Rhaegal", "text": "Il abat un dragon avec ses balistes.", "place": "peyredragon" }
+  ],
+  "relations": [
+    { "to": "jaime-lannister", "type": "ennemi", "label": "Son rival auprès de Cersei", "s": 7 },
+    { "to": "missandei", "type": "ennemi", "label": "Sa prisonnière", "s": 8 }
+  ],
+  "places": [
+    { "place": "pyk", "seasons": [6] },
+    { "place": "port-real", "seasons": [7, 8] },
+    { "place": "peyredragon", "seasons": [7, 8] }
+  ],
+  "codex": ["fer-nes", "dieu-noye"],
+  "portrait": "images/personnages/euron-greyjoy.webp",
+  "sources": [{ "label": "Wiki of Westeros — Euron Greyjoy", "url": "https://gameofthrones.fandom.com/wiki/Euron_Greyjoy" }]
+}

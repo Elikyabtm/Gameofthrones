@@ -1,0 +1,36 @@
+{
+  "slug": "trystane-martell",
+  "name": "Trystane Martell",
+  "short": "Trystane",
+  "aliases": [],
+  "house": "martell",
+  "region": "Dorne",
+  "camp": "westeros",
+  "allegiances": [{ "to": "martell" }],
+  "origin": "lancehelion",
+  "titles": [{ "text": "Prince héritier de Dorne" }],
+  "actor": "Toby Sebastian",
+  "firstSeason": 5,
+  "status": [
+    { "s": 5, "value": "vivant" },
+    { "s": 6, "value": "mort", "note": "Tué par Obara Sand sur le navire qui le conduisait à Port-Réal" }
+  ],
+  "summary": "Fils de Doran et héritier de Lancehélion, Trystane est fiancé à la princesse Myrcella, qu’il aime sincèrement. Il ne s’intéresse guère à la politique.",
+  "bio": [
+    { "s": 5, "title": "Saison 5 — Le fiancé", "paragraphs": ["Trystane se promène avec Myrcella dans les jardins de Lancehélion et rêve de mariage. Son père l’envoie à Port-Réal avec Jaime et la princesse, pour occuper le siège de Dorne au Conseil restreint. Myrcella meurt pendant la traversée."] },
+    { "s": 6, "title": "Saison 6 — La mort à bord", "paragraphs": ["Resté à bord du navire au large de Port-Réal, Trystane voit arriver Obara et Nymeria Sand. Il refuse de se battre contre ses cousines ; Obara le tue d’un coup de lance dans le dos du crâne."] }
+  ],
+  "keyMoments": [
+    { "s": 6, "title": "La lance", "text": "Ses cousines le tuent pour prendre le pouvoir.", "place": "port-real" }
+  ],
+  "relations": [
+    { "to": "obara-sand", "type": "ennemi", "label": "Sa cousine et son assassin", "s": 6 }
+  ],
+  "places": [
+    { "place": "jardins-aquatiques", "seasons": [5] },
+    { "place": "port-real", "seasons": [6] }
+  ],
+  "codex": ["dorniens"],
+  "portrait": "images/personnages/trystane-martell.webp",
+  "sources": [{ "label": "Wiki of Westeros — Trystane Martell", "url": "https://gameofthrones.fandom.com/wiki/Trystane_Martell" }]
+}

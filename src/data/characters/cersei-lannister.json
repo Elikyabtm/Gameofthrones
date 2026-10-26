@@ -1,0 +1,306 @@
+{
+  "slug": "cersei-lannister",
+  "name": "Cersei Lannister",
+  "short": "Cersei",
+  "principal": true,
+  "aliases": [
+    {
+      "text": "Cersei Baratheon"
+    },
+    {
+      "text": "la reine régente",
+      "s": 2
+    }
+  ],
+  "house": "lannister",
+  "region": "L’Ouest",
+  "camp": "westeros",
+  "allegiances": [
+    {
+      "to": "lannister"
+    },
+    {
+      "to": "baratheon"
+    }
+  ],
+  "origin": "castral-roc",
+  "titles": [
+    {
+      "text": "Reine des Sept Couronnes"
+    },
+    {
+      "text": "Reine régente",
+      "s": 2
+    },
+    {
+      "text": "Reine mère",
+      "s": 4
+    },
+    {
+      "text": "Reine des Andals et des Premiers Hommes",
+      "s": 6
+    }
+  ],
+  "actor": "Lena Headey",
+  "firstSeason": 1,
+  "status": [
+    {
+      "s": 1,
+      "value": "vivant"
+    },
+    {
+      "s": 8,
+      "value": "mort",
+      "note": "Ensevelie avec Jaime sous les ruines du Donjon Rouge"
+    }
+  ],
+  "summary": "Fille aînée de Tywin Lannister et épouse du roi Robert, Cersei est reine des Sept Couronnes. Intelligente et orgueilleuse, elle ne supporte pas d’être tenue à l’écart du pouvoir parce qu’elle est une femme.",
+  "quote": {
+    "text": "Quand on joue au jeu des trônes, on gagne ou on meurt.",
+    "s": 1
+  },
+  "bio": [
+    {
+      "s": 1,
+      "title": "Saison 1 — La reine",
+      "paragraphs": [
+        "Mariée par son père au roi Robert, Cersei vit un mariage sans amour avec un homme qui pense encore à une autre femme. Son seul attachement véritable va à ses enfants et à son frère jumeau Jaime, dont elle est l’amante depuis toujours. À Winterfell, quand le petit Bran les surprend, c’est Jaime qui le pousse ; c’est Cersei qui vit dans la peur que l’enfant se réveille.",
+        "À Port-Réal, Eddard Stark découvre le secret des enfants royaux et commet l’erreur de la prévenir. Cersei agit avant lui : Robert meurt d’une blessure de chasse, Joffrey monte sur le trône, et Eddard est arrêté. Elle compte le garder en otage, mais son fils la prend de court en le faisant exécuter."
+      ]
+    },
+    {
+      "s": 2,
+      "title": "Saison 2 — La régente contrariée",
+      "paragraphs": [
+        "Régente d’un roi qu’elle ne contrôle plus, Cersei voit arriver Tyrion, envoyé par leur père. Les deux s’affrontent sur tout : les nominations, les alliances, le sort de Myrcella, que Tyrion promet aux Martell. Pendant la bataille de la Néra, elle se réfugie avec les dames de la cour dans une salle du Donjon Rouge, boit, et s’apprête à empoisonner Tommen plutôt que de le livrer à Stannis. L’arrivée de son père renverse la situation."
+      ]
+    },
+    {
+      "s": 3,
+      "title": "Saison 3 — Les Tyrell",
+      "paragraphs": [
+        "Cersei se méfie de Margaery Tyrell, qui séduit le peuple et le roi. Tywin lui annonce qu’il la remariera à Loras Tyrell. Elle tente de résister, sans succès, et confie sa peine à Tyrion lors d’une des rares conversations sincères entre eux."
+      ]
+    },
+    {
+      "s": 4,
+      "title": "Saison 4 — La mère endeuillée",
+      "paragraphs": [
+        "Joffrey meurt empoisonné le jour de ses noces, dans les bras de sa mère. Cersei accuse aussitôt Tyrion et pèse de tout son poids sur son procès. Elle obtient que la Montagne défende la couronne en duel judiciaire. Après la mort de son père, elle se retrouve seule face aux Tyrell."
+      ]
+    },
+    {
+      "s": 5,
+      "title": "Saison 5 — L’humiliation",
+      "paragraphs": [
+        "Une prophétie entendue dans sa jeunesse la hante : une sorcière lui avait annoncé qu’elle serait reine, qu’une plus jeune et plus belle prendrait sa place, et qu’elle verrait mourir ses enfants.",
+        "Pour affaiblir les Tyrell, Cersei donne des armes à la Foi militante du Grand Moineau, qui fait arrêter Loras puis Margaery. Le piège se retourne contre elle : Lancel, devenu fanatique, avoue leurs relations, et Cersei est emprisonnée à son tour. Pour retrouver sa liberté, elle doit traverser la ville nue, tondue, sous les insultes de la foule, pendant qu’une septa répète « Honte ! » à chaque pas."
+      ]
+    },
+    {
+      "s": 6,
+      "title": "Saison 6 — Le feu grégeois",
+      "paragraphs": [
+        "Cersei prépare sa vengeance en silence, protégée par la Montagne ressuscitée par Qyburn. Le jour de son procès, elle ne se rend pas au grand septuor de Baelor. Le feu grégeois caché sous l’édifice explose et tue le Grand Moineau, Margaery, Loras, Mace Tyrell et des centaines d’autres. Tommen se jette du haut d’une fenêtre. Cersei se fait couronner reine dans une salle du trône silencieuse."
+      ]
+    },
+    {
+      "s": 7,
+      "title": "Saison 7 — La reine assiégée",
+      "paragraphs": [
+        "Cersei règne sur un royaume réduit et menacé par l’arrivée de Daenerys. Elle s’allie à Euron Greyjoy, détruit les alliés de la reine dragon et fait payer ses dettes à la Banque de Fer. Lors de la rencontre de Fosse-aux-Dragons, elle promet d’envoyer ses armées combattre les morts, puis avoue à Jaime qu’elle n’en fera rien. Elle est enceinte."
+      ]
+    },
+    {
+      "s": 8,
+      "title": "Saison 8 — La fin",
+      "paragraphs": [
+        "Pendant que les vivants affrontent les morts à Winterfell, Cersei attend, avec la Compagnie dorée et la flotte d’Euron. Elle fait exécuter Missandei sous les remparts. Quand Daenerys brûle la ville, Cersei tente de fuir par les souterrains du Donjon Rouge. Jaime la retrouve ; ils meurent ensemble, écrasés par l’effondrement du château."
+      ]
+    }
+  ],
+  "keyMoments": [
+    {
+      "s": 1,
+      "title": "Le jeu des trônes",
+      "text": "Elle prévient Eddard qu’il n’y a pas de position intermédiaire dans ce jeu.",
+      "place": "port-real"
+    },
+    {
+      "s": 2,
+      "title": "La nuit de la Néra",
+      "text": "Elle attend la chute de la ville en buvant, une fiole de poison à portée de main.",
+      "place": "port-real"
+    },
+    {
+      "s": 4,
+      "title": "Le mariage pourpre",
+      "text": "Joffrey meurt empoisonné dans ses bras.",
+      "place": "port-real"
+    },
+    {
+      "s": 5,
+      "title": "La marche d’expiation",
+      "text": "Elle traverse Port-Réal nue sous les insultes de la foule.",
+      "place": "port-real"
+    },
+    {
+      "s": 6,
+      "title": "Le grand septuor",
+      "text": "Elle fait exploser le septuor et ses ennemis avec.",
+      "place": "port-real"
+    },
+    {
+      "s": 7,
+      "title": "Fosse-aux-Dragons",
+      "text": "Elle promet une trêve qu’elle n’a aucune intention de respecter.",
+      "place": "port-real"
+    },
+    {
+      "s": 8,
+      "title": "La chute",
+      "text": "Elle meurt avec Jaime sous les ruines du Donjon Rouge.",
+      "place": "port-real"
+    }
+  ],
+  "relations": [
+    {
+      "to": "jaime-lannister",
+      "type": "amour",
+      "label": "Son frère jumeau et son amant",
+      "s": 1
+    },
+    {
+      "to": "tyrion-lannister",
+      "type": "fratrie",
+      "label": "Son frère cadet, qu’elle hait",
+      "s": 1
+    },
+    {
+      "to": "robert-baratheon",
+      "type": "conjoint",
+      "label": "Son époux",
+      "s": 1
+    },
+    {
+      "to": "joffrey-baratheon",
+      "type": "enfant",
+      "label": "Son fils aîné",
+      "inverseLabel": "Sa mère",
+      "s": 1
+    },
+    {
+      "to": "myrcella-baratheon",
+      "type": "enfant",
+      "label": "Sa fille",
+      "inverseLabel": "Sa mère",
+      "s": 1
+    },
+    {
+      "to": "tommen-baratheon",
+      "type": "enfant",
+      "label": "Son fils cadet",
+      "inverseLabel": "Sa mère",
+      "s": 1
+    },
+    {
+      "to": "lancel-lannister",
+      "type": "amour",
+      "label": "Son cousin et amant",
+      "s": 1
+    },
+    {
+      "to": "margaery-tyrell",
+      "type": "ennemi",
+      "label": "Sa rivale à la cour",
+      "s": 3
+    },
+    {
+      "to": "olenna-tyrell",
+      "type": "ennemi",
+      "label": "La matriarche des Tyrell",
+      "s": 4
+    },
+    {
+      "to": "grand-moineau",
+      "type": "ennemi",
+      "label": "L’homme qui l’a humiliée",
+      "s": 5
+    },
+    {
+      "to": "septa-unella",
+      "type": "ennemi",
+      "label": "Sa geôlière",
+      "s": 5
+    },
+    {
+      "to": "qyburn",
+      "type": "serviteur",
+      "label": "Son conseiller le plus loyal",
+      "inverseLabel": "Sa reine",
+      "s": 4
+    },
+    {
+      "to": "gregor-clegane",
+      "type": "serviteur",
+      "label": "Son garde du corps",
+      "inverseLabel": "Sa reine",
+      "s": 5
+    },
+    {
+      "to": "euron-greyjoy",
+      "type": "allie",
+      "label": "Son allié et prétendant",
+      "s": 7
+    },
+    {
+      "to": "daenerys-targaryen",
+      "type": "ennemi",
+      "label": "La reine qui vient prendre son trône",
+      "s": 7
+    }
+  ],
+  "places": [
+    {
+      "place": "winterfell",
+      "seasons": [
+        1
+      ]
+    },
+    {
+      "place": "port-real",
+      "seasons": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ]
+    }
+  ],
+  "codex": [
+    "foi-des-sept",
+    "foi-militante",
+    "garde-royale"
+  ],
+  "booksVsShow": {
+    "s": 5,
+    "paragraphs": [
+      "Les romans racontent une partie de l’histoire de Cersei de son propre point de vue, avec ses peurs et sa paranoïa, notamment la prophétie de Maggy la Grenouille, qui annonçait aussi qu’un « petit frère » la tuerait. La série a gardé la prophétie mais en a supprimé cette dernière partie."
+    ]
+  },
+  "portrait": "images/personnages/cersei-lannister.webp",
+  "sources": [
+    {
+      "label": "Wiki of Westeros — Cersei Lannister",
+      "url": "https://gameofthrones.fandom.com/wiki/Cersei_Lannister"
+    },
+    {
+      "label": "A Wiki of Ice and Fire — Cersei Lannister",
+      "url": "https://awoiaf.westeros.org/index.php/Cersei_Lannister"
+    }
+  ]
+}

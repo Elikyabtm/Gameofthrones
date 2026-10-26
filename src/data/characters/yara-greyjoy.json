@@ -1,0 +1,90 @@
+{
+  "slug": "yara-greyjoy",
+  "name": "Yara Greyjoy",
+  "short": "Yara",
+  "principal": true,
+  "aliases": [],
+  "house": "greyjoy",
+  "region": "Les Îles de Fer",
+  "camp": "westeros",
+  "allegiances": [{ "to": "greyjoy" }],
+  "origin": "pyk",
+  "titles": [{ "text": "Capitaine du Vent noir" }, { "text": "Dame des Îles de Fer", "s": 8 }],
+  "actor": "Gemma Whelan",
+  "firstSeason": 2,
+  "status": [{ "s": 2, "value": "vivant" }],
+  "summary": "Fille de Balon Greyjoy, Yara commande ses propres navires et ses propres hommes. Respectée des Fer-nés, elle n’a jamais eu besoin d’un homme pour se faire obéir.",
+  "bio": [
+    {
+      "s": 2,
+      "title": "Saison 2 — La capitaine",
+      "paragraphs": [
+        "Yara ramène Theon à Pyk à cheval, sans lui dire qui elle est, et le laisse la caresser avant de se révéler à table devant leur père. L’humiliation est complète. Elle reçoit trente navires quand Theon n’en a qu’un. Elle prend le Bois-aux-Loups, puis rejoint son frère à Winterfell pour lui conseiller de rentrer avant que le Nord ne l’écrase. Il refuse."
+      ]
+    },
+    {
+      "s": 3,
+      "title": "Saison 3 — Le défi",
+      "paragraphs": [
+        "Quand Ramsay envoie à Pyk une partie du corps de Theon, Balon renonce à son fils. Yara, elle, refuse de l’abandonner. Elle choisit les meilleurs tueurs des îles et part pour Fort-Terreur."
+      ]
+    },
+    {
+      "s": 4,
+      "title": "Saison 4 — Le refus de Schlingue",
+      "paragraphs": [
+        "Yara et ses hommes attaquent les chenils de Fort-Terreur. Elle trouve son frère enfermé avec les chiens. Theon refuse de la suivre et se débat. Ramsay arrive, torse nu, les chiens lâchés. Yara bat en retraite et déclare que son frère est mort."
+      ]
+    },
+    {
+      "s": 6,
+      "title": "Saison 6 — Le trône de sel",
+      "paragraphs": [
+        "Après la mort de Balon, Theon revient et soutient la candidature de Yara à l’assemblée des capitaines. Euron, revenu d’exil, l’emporte en promettant d’épouser Daenerys. Yara et Theon s’enfuient avec les meilleurs navires et proposent leur flotte à Daenerys, qui accepte en exigeant la fin des pillages."
+      ]
+    },
+    {
+      "s": 7,
+      "title": "Saison 7 — La captive",
+      "paragraphs": [
+        "En route vers Dorne avec Ellaria et ses filles, la flotte de Yara est détruite par Euron. Prisonnière, elle est exhibée dans les rues de Port-Réal, une hache sous la gorge, pendant que son frère a sauté à l’eau."
+      ]
+    },
+    {
+      "s": 8,
+      "title": "Saison 8 — La dame des Îles",
+      "paragraphs": [
+        "Theon la libère des cales d’Euron. Elle rentre reprendre les Îles de Fer pendant que son frère part se battre pour les Stark. Après la guerre, elle siège au conseil qui choisit le nouveau roi et accepte de se soumettre à Bran."
+      ]
+    }
+  ],
+  "keyMoments": [
+    { "s": 2, "title": "Le cheval", "text": "Elle ridiculise Theon avant de se révéler.", "place": "pyk" },
+    { "s": 4, "title": "Les chenils", "text": "Elle tente de sauver son frère de Fort-Terreur.", "place": "fort-terreur" },
+    { "s": 6, "title": "L’assemblée", "text": "Elle perd le trône de sel face à Euron.", "place": "pyk" },
+    { "s": 6, "title": "L’alliance", "text": "Elle offre sa flotte à Daenerys.", "place": "meereen" },
+    { "s": 7, "title": "La défaite en mer", "text": "Euron détruit sa flotte et la capture.", "place": "peyredragon" }
+  ],
+  "relations": [
+    { "to": "euron-greyjoy", "type": "ennemi", "label": "Son oncle, qui lui a pris le trône", "s": 6 },
+    { "to": "daenerys-targaryen", "type": "allie", "label": "La reine à qui elle a offert sa flotte", "s": 6 },
+    { "to": "ramsay-bolton", "type": "ennemi", "label": "Le geôlier de son frère", "s": 4 }
+  ],
+  "places": [
+    { "place": "pyk", "seasons": [2, 3, 6, 8] },
+    { "place": "winterfell", "seasons": [2] },
+    { "place": "fort-terreur", "seasons": [4] },
+    { "place": "meereen", "seasons": [6] },
+    { "place": "peyredragon", "seasons": [7] },
+    { "place": "port-real", "seasons": [7, 8] }
+  ],
+  "codex": ["fer-nes", "dieu-noye"],
+  "booksVsShow": {
+    "s": 2,
+    "paragraphs": [
+      "Dans les romans, elle s’appelle Asha Greyjoy ; la série l’a renommée Yara pour éviter la confusion avec Osha. Son arc y suit des chemins différents, notamment aux côtés de Stannis dans le Nord."
+    ]
+  },
+  "portrait": "images/personnages/yara-greyjoy.webp",
+  "sources": [{ "label": "Wiki of Westeros — Yara Greyjoy", "url": "https://gameofthrones.fandom.com/wiki/Yara_Greyjoy" }]
+}

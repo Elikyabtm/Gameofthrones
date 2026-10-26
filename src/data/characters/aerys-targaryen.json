@@ -1,0 +1,54 @@
+{
+  "slug": "aerys-targaryen",
+  "name": "Aerys Targaryen",
+  "short": "Aerys",
+  "aliases": [{ "text": "le Roi Fou" }, { "text": "Aerys II" }],
+  "house": "targaryen",
+  "region": "Les Terres de la Couronne",
+  "camp": "westeros",
+  "allegiances": [{ "to": "targaryen" }],
+  "origin": "port-real",
+  "titles": [{ "text": "Roi des Andals et des Premiers Hommes" }],
+  "actor": "David Rintoul",
+  "firstSeason": 1,
+  "status": [{ "s": 1, "value": "mort", "note": "Tué par Jaime Lannister lors du sac de Port-Réal" }],
+  "summary": "Dernier roi Targaryen à régner à Port-Réal, Aerys a sombré dans la folie et l’obsession du feu. Sa chute, quinze ans avant le début de l’histoire, a donné le trône à Robert Baratheon.",
+  "bio": [
+    {
+      "s": 1,
+      "title": "Saison 1 — Le roi fou",
+      "paragraphs": [
+        "On parle d’Aerys comme d’une ombre. Il a fait brûler vifs le père et le frère aîné d’Eddard Stark, venus réclamer justice, ce qui a déclenché la Rébellion. Pendant le sac de la capitale, il a été tué par un chevalier de sa propre garde, Jaime Lannister, qui y a gagné le surnom de Régicide."
+      ]
+    },
+    {
+      "s": 3,
+      "title": "Saison 3 — Le récit de Jaime",
+      "paragraphs": [
+        "Dans les bains de Harrenhal, Jaime révèle à Brienne ce que personne ne savait : Aerys avait fait cacher du feu grégeois sous toute la ville et voulait la faire brûler plutôt que de la rendre. Il répétait « Brûlez-les tous ». Jaime l’a tué pour l’en empêcher."
+      ]
+    },
+    {
+      "s": 6,
+      "title": "Saison 6 — La vision",
+      "paragraphs": [
+        "Dans une vision de Bran, on aperçoit le roi fou tel que Jaime l’avait décrit, criant au milieu du feu. Son obsession hante encore la ville, et les réserves de feu grégeois qu’il a laissées n’ont pas toutes disparu."
+      ]
+    }
+  ],
+  "keyMoments": [
+    { "s": 3, "title": "« Brûlez-les tous »", "text": "Jaime révèle le projet du roi d’incendier la capitale.", "place": "harrenhal" }
+  ],
+  "relations": [
+    { "to": "rhaegar-targaryen", "type": "enfant", "label": "Son fils aîné", "inverseLabel": "Son père", "s": 1 },
+    { "to": "viserys-targaryen", "type": "enfant", "label": "Son fils cadet", "inverseLabel": "Son père", "s": 1 },
+    { "to": "daenerys-targaryen", "type": "enfant", "label": "Sa fille, née après sa mort", "inverseLabel": "Son père", "s": 1 }
+  ],
+  "places": [
+    { "place": "port-real", "seasons": [1, 6] },
+    { "place": "harrenhal", "seasons": [3] }
+  ],
+  "codex": ["rebellion", "dragons"],
+  "portrait": "images/personnages/aerys-targaryen.webp",
+  "sources": [{ "label": "Wiki of Westeros — Aerys II Targaryen", "url": "https://gameofthrones.fandom.com/wiki/Aerys_II_Targaryen" }]
+}

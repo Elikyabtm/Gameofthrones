@@ -1,0 +1,112 @@
+{
+  "slug": "jaqen-hghar",
+  "name": "Jaqen H’ghar",
+  "short": "Jaqen",
+  "aliases": [
+    {
+      "text": "l’homme de Lorath"
+    },
+    {
+      "text": "l’homme bienveillant",
+      "s": 5
+    }
+  ],
+  "house": null,
+  "region": "Braavos",
+  "camp": "essos",
+  "allegiances": [],
+  "origin": "lorath",
+  "titles": [],
+  "actor": "Tom Wlaschiha",
+  "firstSeason": 2,
+  "status": [
+    {
+      "s": 2,
+      "value": "vivant"
+    }
+  ],
+  "summary": "Prisonnier enchaîné dans une charrette en route vers le Mur, Jaqen H’ghar parle de lui à la troisième personne et ne semble rien craindre. Il paie toujours ses dettes, à sa façon.",
+  "bio": [
+    {
+      "s": 2,
+      "title": "Saison 2 — Les trois morts",
+      "paragraphs": [
+        "Arya sauve Jaqen et deux autres prisonniers d’un incendie. En échange, il lui doit trois vies : elle n’a qu’à prononcer un nom. Il tue d’abord un tortionnaire de Harrenhal, puis un autre soldat. Pour le troisième nom, Arya choisit… Jaqen lui-même, et ne l’annule que s’il l’aide à s’évader. Il tue les gardes, puis lui donne une pièce de fer et un mot de passe, « Valar morghulis », avant de changer de visage sous ses yeux."
+      ]
+    },
+    {
+      "s": 5,
+      "title": "Saison 5 — La Maison du Noir et du Blanc",
+      "paragraphs": [
+        "À Braavos, un vieil homme ouvre la porte du temple à Arya, puis prend le visage de Jaqen. Il devient son maître, lui enseigne le service du Dieu Multiface et lui pose sans cesse la même question : qui es-tu ? Une fille doit devenir personne."
+      ]
+    },
+    {
+      "s": 6,
+      "title": "Saison 6 — Personne",
+      "paragraphs": [
+        "Jaqen éprouve Arya, la laisse aveugle, puis lui rend la vue. Quand elle refuse un contrat, il envoie la Gamine la tuer. Arya revient victorieuse et déclare qu’elle est Arya Stark ; Jaqen la laisse partir, presque avec fierté."
+      ]
+    }
+  ],
+  "keyMoments": [
+    {
+      "s": 2,
+      "title": "Valar morghulis",
+      "text": "Il donne à Arya une pièce de fer et un mot de passe.",
+      "place": "harrenhal"
+    },
+    {
+      "s": 5,
+      "title": "Le visage",
+      "text": "Il accueille Arya au temple sous un autre visage.",
+      "place": "braavos"
+    }
+  ],
+  "relations": [
+    {
+      "to": "la-gamine",
+      "type": "allie",
+      "label": "Sa servante au temple",
+      "s": 5
+    },
+    {
+      "to": "tywin-lannister",
+      "type": "autre",
+      "label": "Le seigneur de l’armée où il s’est enrôlé",
+      "s": 2
+    }
+  ],
+  "places": [
+    {
+      "place": "le-conflans",
+      "seasons": [
+        2
+      ]
+    },
+    {
+      "place": "harrenhal",
+      "seasons": [
+        2
+      ]
+    },
+    {
+      "place": "braavos",
+      "seasons": [
+        5,
+        6
+      ]
+    }
+  ],
+  "codex": [
+    "sans-visage",
+    "dieu-multiface"
+  ],
+  "portrait": null,
+  "sources": [
+    {
+      "label": "Wiki of Westeros — Jaqen H’ghar",
+      "url": "https://gameofthrones.fandom.com/wiki/Jaqen_H%27ghar"
+    }
+  ]
+}

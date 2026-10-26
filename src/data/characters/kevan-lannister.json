@@ -1,0 +1,126 @@
+{
+  "slug": "kevan-lannister",
+  "name": "Kevan Lannister",
+  "short": "Kevan",
+  "aliases": [],
+  "house": "lannister",
+  "region": "L’Ouest",
+  "camp": "westeros",
+  "allegiances": [
+    {
+      "to": "lannister"
+    }
+  ],
+  "origin": "castral-roc",
+  "titles": [
+    {
+      "text": "Main du Roi",
+      "s": 6
+    }
+  ],
+  "actor": "Ian Gelder",
+  "firstSeason": 1,
+  "status": [
+    {
+      "s": 1,
+      "value": "vivant"
+    },
+    {
+      "s": 6,
+      "value": "mort",
+      "note": "Tué dans l’explosion du grand septuor de Baelor"
+    }
+  ],
+  "summary": "Frère cadet de Tywin, Kevan est le plus fidèle soutien du chef de la maison Lannister. Loyal et compétent, il ne cherche jamais la lumière.",
+  "bio": [
+    {
+      "s": 1,
+      "title": "Saison 1 — Le bras droit",
+      "paragraphs": [
+        "Kevan siège au conseil de guerre de son frère dans le Conflans. Il exécute les ordres de Tywin sans les discuter, et c’est lui qui apporte les mauvaises nouvelles."
+      ]
+    },
+    {
+      "s": 5,
+      "title": "Saison 5 — Le refus",
+      "paragraphs": [
+        "Après la mort de Tywin, Kevan refuse de servir sous les ordres de Cersei et retourne à Castral Roc. Il revient quand sa nièce est arrêtée par la Foi, pour tenir le royaume en son absence."
+      ]
+    },
+    {
+      "s": 6,
+      "title": "Saison 6 — La dernière charge",
+      "paragraphs": [
+        "Nommé Main du Roi par Tommen, Kevan tente de sauver ce qui peut l’être entre la couronne et la Foi militante, où son fils Lancel s’est engagé. Il meurt avec lui, avec les Tyrell et le Grand Moineau, quand le feu grégeois de Cersei détruit le grand septuor."
+      ]
+    }
+  ],
+  "keyMoments": [
+    {
+      "s": 5,
+      "title": "Le refus de servir",
+      "text": "Il quitte Port-Réal plutôt que de servir Cersei.",
+      "place": "port-real"
+    },
+    {
+      "s": 6,
+      "title": "Le septuor",
+      "text": "Il meurt dans l’explosion du grand septuor.",
+      "place": "port-real"
+    }
+  ],
+  "relations": [
+    {
+      "to": "lancel-lannister",
+      "type": "enfant",
+      "label": "Son fils",
+      "inverseLabel": "Son père",
+      "s": 1
+    },
+    {
+      "to": "cersei-lannister",
+      "type": "autre",
+      "label": "Sa nièce",
+      "inverseLabel": "Son oncle",
+      "s": 1
+    },
+    {
+      "to": "jaime-lannister",
+      "type": "autre",
+      "label": "Son neveu",
+      "inverseLabel": "Son oncle",
+      "s": 1
+    },
+    {
+      "to": "tommen-baratheon",
+      "type": "suzerain",
+      "label": "Le roi qu’il sert",
+      "inverseLabel": "Sa Main",
+      "s": 6
+    }
+  ],
+  "places": [
+    {
+      "place": "le-conflans",
+      "seasons": [
+        1
+      ]
+    },
+    {
+      "place": "port-real",
+      "seasons": [
+        5,
+        6
+      ]
+    }
+  ],
+  "codex": [],
+  "portrait": null,
+  "sources": [
+    {
+      "label": "Wiki of Westeros — Kevan Lannister",
+      "url": "https://gameofthrones.fandom.com/wiki/Kevan_Lannister"
+    }
+  ],
+  "_doute": "Présence de Kevan dans les saisons 2 à 4 à vérifier (rôle muet ou absent)."
+}

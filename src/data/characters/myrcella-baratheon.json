@@ -1,0 +1,41 @@
+{
+  "slug": "myrcella-baratheon",
+  "name": "Myrcella Baratheon",
+  "short": "Myrcella",
+  "aliases": [],
+  "house": "baratheon",
+  "region": "Les Terres de la Couronne",
+  "camp": "westeros",
+  "allegiances": [{ "to": "baratheon" }],
+  "origin": "port-real",
+  "titles": [{ "text": "Princesse" }],
+  "actor": "Aimee Richardson, puis Nell Tiger Free",
+  "firstSeason": 1,
+  "status": [
+    { "s": 1, "value": "vivant" },
+    { "s": 5, "value": "mort", "note": "Empoisonnée par Ellaria Sand sur le navire du retour" }
+  ],
+  "summary": "Fille de la reine Cersei, Myrcella est douce et réservée. Elle devient très tôt un enjeu des alliances entre grandes maisons.",
+  "bio": [
+    { "s": 1, "title": "Saison 1 — La princesse", "paragraphs": ["Myrcella accompagne la cour à Winterfell. Elle grandit à Port-Réal à l’abri des querelles, protégée par sa mère, qui voit en elle le seul enfant à lui ressembler en douceur."] },
+    { "s": 2, "title": "Saison 2 — Le départ", "paragraphs": ["Pour s’assurer la neutralité de Dorne, Tyrion promet Myrcella au jeune Trystane Martell. Cersei, furieuse, assiste impuissante au départ de sa fille, qui embarque pour le sud sous les huées d’une foule en colère."] },
+    { "s": 5, "title": "Saison 5 — Dorne", "paragraphs": ["Dans les Jardins Aquatiques de Lancehélion, Myrcella vit heureuse et amoureuse de Trystane. Elle refuse d’abord de suivre Jaime venu la ramener. Le prince Doran autorise finalement son départ. Sur le navire, elle dit à Jaime qu’elle sait qu’il est son père, et qu’elle en est heureuse. Quelques instants plus tard, elle meurt dans ses bras, empoisonnée par le baiser d’adieu d’Ellaria Sand."] }
+  ],
+  "keyMoments": [
+    { "s": 2, "title": "L’exil doré", "text": "Elle part pour Dorne, fiancée à Trystane Martell.", "place": "port-real" },
+    { "s": 5, "title": "« Je sais »", "text": "Elle reconnaît Jaime comme son père, juste avant de mourir.", "place": "jardins-aquatiques" }
+  ],
+  "relations": [
+    { "to": "tommen-baratheon", "type": "fratrie", "label": "Son petit frère", "s": 1 },
+    { "to": "trystane-martell", "type": "amour", "label": "Son fiancé", "s": 5 },
+    { "to": "ellaria-sand", "type": "ennemi", "label": "Celle qui l’a empoisonnée", "s": 5 }
+  ],
+  "places": [
+    { "place": "winterfell", "seasons": [1] },
+    { "place": "port-real", "seasons": [1, 2] },
+    { "place": "jardins-aquatiques", "seasons": [5] }
+  ],
+  "codex": [],
+  "portrait": "images/personnages/myrcella-baratheon.webp",
+  "sources": [{ "label": "Wiki of Westeros — Myrcella Baratheon", "url": "https://gameofthrones.fandom.com/wiki/Myrcella_Baratheon" }]
+}

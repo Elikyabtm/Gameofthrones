@@ -1,0 +1,139 @@
+{
+  "slug": "daenerys-targaryen",
+  "name": "Daenerys Targaryen",
+  "short": "Daenerys",
+  "principal": true,
+  "aliases": [
+    { "text": "Daenerys Typhon-Née" },
+    { "text": "Khaleesi", "s": 1 },
+    { "text": "la Mère des Dragons", "s": 1 },
+    { "text": "Briseuse de Chaînes", "s": 3 }
+  ],
+  "house": "targaryen",
+  "region": "Essos",
+  "camp": "essos",
+  "allegiances": [{ "to": "targaryen" }],
+  "origin": "peyredragon",
+  "titles": [
+    { "text": "Princesse" },
+    { "text": "Khaleesi de la mer Dothrak", "s": 1 },
+    { "text": "Reine de Meereen", "s": 4 },
+    { "text": "Reine des Andals, des Rhoynar et des Premiers Hommes", "s": 6 }
+  ],
+  "actor": "Emilia Clarke",
+  "firstSeason": 1,
+  "status": [
+    { "s": 1, "value": "vivant" },
+    { "s": 8, "value": "mort", "note": "Poignardée par Jon Snow dans la salle du trône en ruines" }
+  ],
+  "summary": "Dernière fille du roi Aerys, née en exil sur l’île de Peyredragon, Daenerys a grandi de ville en ville avec son frère Viserys. Au début de l’histoire, elle n’est encore qu’une monnaie d’échange dans les projets de ce dernier.",
+  "bio": [
+    {
+      "s": 1,
+      "title": "Saison 1 — La khaleesi",
+      "paragraphs": [
+        "À Pentos, chez le magistre Illyrio, Viserys vend sa sœur au khal Drogo contre la promesse d’une armée. Le jour des noces, on offre à Daenerys trois œufs de dragon pétrifiés. Elle part avec le khalasar dans la mer Dothrak, d’abord terrifiée, puis peu à peu maîtresse de sa vie : elle apprend à monter, à parler dothraki, à se faire respecter de son mari, et prend sous sa protection un exilé de Westeros, Jorah Mormont.",
+        "À Vaes Dothrak, enceinte, elle mange un cœur d’étalon cru devant les prêtresses. Viserys, qui menace sa sœur et l’enfant, reçoit de Drogo la « couronne d’or » qu’il réclamait : de l’or fondu sur la tête. Après une tentative d’assassinat ordonnée par Robert Baratheon, Drogo promet de traverser la mer. Mais blessé, il tombe malade ; Daenerys confie sa vie à la guérisseuse Mirri Maz Duur, qui la trahit. Elle perd son enfant, puis son mari. Sur le bûcher funéraire de Drogo, elle entre dans les flammes avec ses œufs. Au matin, elle en sort indemne, avec trois dragons."
+      ]
+    },
+    {
+      "s": 2,
+      "title": "Saison 2 — Qarth",
+      "paragraphs": [
+        "Avec ce qui reste du khalasar, Daenerys traverse le désert Rouge et arrive à Qarth, dont les marchands lui ouvrent les portes. Xaro Xhoan Daxos lui promet des navires ; le sorcier Pyat Pree lui vole ses dragons. Elle les retrouve dans la Maison des Éternels, résiste aux visions qui lui montrent le Trône de Fer sous la neige et Drogo vivant, puis ordonne à ses dragons de brûler le sorcier. Elle enferme Xaro, qui l’a trahie, dans sa propre chambre forte vide."
+      ]
+    },
+    {
+      "s": 3,
+      "title": "Saison 3 — Briseuse de chaînes",
+      "paragraphs": [
+        "À Astapor, Daenerys achète l’armée des Immaculés en échange d’un dragon, sous les yeux de l’interprète Missandei. Une fois les soldats à elle, elle ordonne en valyrien qu’on tue les maîtres, libère tous les esclaves et rend le dragon inutile au marchand en le faisant cracher le feu. À Yunkaï, elle gagne les Puînés et leur capitaine, Daario Naharis. Les esclaves libérés l’acclament comme leur mère."
+      ]
+    },
+    {
+      "s": 4,
+      "title": "Saison 4 — La reine de Meereen",
+      "paragraphs": [
+        "Daenerys prend Meereen et fait crucifier cent soixante-trois maîtres, autant que d’enfants esclaves cloués sur la route. Elle décide de rester pour apprendre à gouverner. Elle découvre que Jorah l’espionnait pour Robert au début de leur voyage et le chasse. Quand un de ses dragons tue un enfant, elle enchaîne les deux autres sous la pyramide."
+      ]
+    },
+    {
+      "s": 5,
+      "title": "Saison 5 — L’arène",
+      "paragraphs": [
+        "Les Fils de la Harpie assassinent ses soldats dans les rues. Pour apaiser la ville, Daenerys rouvre les arènes et accepte d’épouser Hizdahr zo Loraq, un noble meereenien. Elle accueille Tyrion Lannister, amené par Jorah, et en fait son conseiller. Lors de la réouverture des arènes, les Fils de la Harpie attaquent : Drogon descend du ciel, et Daenerys s’envole sur son dos pour la première fois. Elle atterrit loin dans la mer Dothrak, où un khalasar l’encercle."
+      ]
+    },
+    {
+      "s": 6,
+      "title": "Saison 6 — Le feu",
+      "paragraphs": [
+        "Prisonnière à Vaes Dothrak, Daenerys est conduite devant les khals, qui veulent la reléguer parmi les veuves. Elle met le feu au temple et en sort vivante, devant les Dothraki qui s’agenouillent. De retour à Meereen avec une armée, elle brise le siège des maîtres avec ses trois dragons. Elle fait de Tyrion sa Main, s’allie aux Greyjoy, aux Tyrell et aux Martell, et prend la mer vers Westeros."
+      ]
+    },
+    {
+      "s": 7,
+      "title": "Saison 7 — Peyredragon",
+      "paragraphs": [
+        "Daenerys débarque à Peyredragon, la forteresse de ses ancêtres. Ses alliés sont détruits les uns après les autres, et elle choisit enfin de faire la guerre avec ses dragons : elle anéantit un convoi Lannister. Jon Snow vient lui demander de l’aide contre les morts. Elle finit par le croire, vole à son secours au-delà du Mur et y perd Viserion, que le Roi de la Nuit relève. Elle s’engage dans la guerre du Nord et devient l’amante de Jon."
+      ]
+    },
+    {
+      "s": 8,
+      "title": "Saison 8 — Les cloches",
+      "paragraphs": [
+        "Au Nord, Daenerys est accueillie avec froideur. Elle apprend que Jon est Aegon Targaryen, l’héritier légitime du trône. La victoire contre les morts lui coûte Jorah, puis la guerre contre Cersei lui coûte Rhaegal et Missandei. Devant Port-Réal, les cloches de la reddition sonnent ; Daenerys brûle quand même la ville et ses habitants. Devant le trône enfin à sa portée, elle parle à Jon de libérer le monde entier. Il la tue. Drogon fait fondre le trône et emporte son corps."
+      ]
+    }
+  ],
+  "keyMoments": [
+    { "s": 1, "title": "Le bûcher", "text": "Elle entre dans les flammes et en sort avec trois dragons.", "place": "mer-dothrak" },
+    { "s": 2, "title": "La Maison des Éternels", "text": "Elle récupère ses dragons et brûle le sorcier qui les avait volés.", "place": "qarth" },
+    { "s": 3, "title": "Dracarys", "text": "Elle libère les Immaculés et brûle les maîtres d’Astapor.", "place": "astapor" },
+    { "s": 5, "title": "Le premier vol", "text": "Elle s’envole sur Drogon depuis l’arène de Meereen.", "place": "meereen" },
+    { "s": 6, "title": "Le temple des khals", "text": "Elle brûle les khals et soumet les Dothraki.", "place": "vaes-dothrak" },
+    { "s": 7, "title": "Peyredragon", "text": "Elle pose le pied sur la terre de ses ancêtres.", "place": "peyredragon" },
+    { "s": 8, "title": "Les cloches", "text": "Elle brûle Port-Réal alors que la ville s’est rendue.", "place": "port-real" }
+  ],
+  "relations": [
+    { "to": "khal-drogo", "type": "conjoint", "label": "Son époux, son soleil étoilé", "s": 1 },
+    { "to": "jorah-mormont", "type": "serviteur", "label": "Son conseiller le plus fidèle", "inverseLabel": "Sa reine", "s": 1 },
+    { "to": "illyrio-mopatis", "type": "autre", "label": "Le magistre qui l’a hébergée", "s": 1 },
+    { "to": "mirri-maz-duur", "type": "ennemi", "label": "La guérisseuse qui l’a trahie", "s": 1 },
+    { "to": "missandei", "type": "serviteur", "label": "Sa conseillère et amie", "inverseLabel": "Sa reine", "s": 3 },
+    { "to": "ver-gris", "type": "serviteur", "label": "Le commandant de son armée", "inverseLabel": "Sa reine", "s": 3 },
+    { "to": "barristan-selmy", "type": "serviteur", "label": "Son Lord Commandant", "inverseLabel": "Sa reine", "s": 3 },
+    { "to": "xaro-xhoan-daxos", "type": "ennemi", "label": "Le marchand qui l’a trahie", "s": 2 },
+    { "to": "pyat-pree", "type": "ennemi", "label": "Le sorcier qui lui a volé ses dragons", "s": 2 },
+    { "to": "kraznys-mo-nakloz", "type": "ennemi", "label": "Le maître qu’elle a brûlé", "s": 3 },
+    { "to": "daario-naharis", "type": "amour", "label": "Son amant", "s": 4 },
+    { "to": "hizdahr-zo-loraq", "type": "conjoint", "label": "Son époux de raison", "s": 5 },
+    { "to": "aemon-targaryen", "type": "autre", "label": "Son arrière-grand-oncle, qu’elle n’a jamais connu", "inverseLabel": "Sa lointaine petite-nièce", "s": 5 }
+  ],
+  "places": [
+    { "place": "pentos", "seasons": [1] },
+    { "place": "mer-dothrak", "seasons": [1, 5, 6] },
+    { "place": "vaes-dothrak", "seasons": [1, 6] },
+    { "place": "desert-rouge", "seasons": [2] },
+    { "place": "qarth", "seasons": [2] },
+    { "place": "astapor", "seasons": [3] },
+    { "place": "yunkai", "seasons": [3] },
+    { "place": "meereen", "seasons": [4, 5, 6] },
+    { "place": "peyredragon", "seasons": [7] },
+    { "place": "au-dela-du-mur", "seasons": [7] },
+    { "place": "winterfell", "seasons": [8] },
+    { "place": "port-real", "seasons": [7, 8] }
+  ],
+  "codex": ["dragons", "dothrakis", "immacules", "haut-valyrien", "valyriens"],
+  "booksVsShow": {
+    "s": 1,
+    "paragraphs": [
+      "Dans les romans, Daenerys n’a que treize ans au début de l’histoire, et ses yeux sont violets. La série l’a vieillie et a simplifié son parcours en Essos, notamment à Qarth, où le récit des livres est plus mystérieux et ne contient ni le vol des dragons par Pyat Pree ni la chambre forte de Xaro."
+    ]
+  },
+  "portrait": "images/personnages/daenerys-targaryen.webp",
+  "sources": [
+    { "label": "Wiki of Westeros — Daenerys Targaryen", "url": "https://gameofthrones.fandom.com/wiki/Daenerys_Targaryen" },
+    { "label": "A Wiki of Ice and Fire — Daenerys Targaryen", "url": "https://awoiaf.westeros.org/index.php/Daenerys_Targaryen" }
+  ]
+}

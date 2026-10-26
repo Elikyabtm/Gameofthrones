@@ -1,0 +1,47 @@
+{
+  "slug": "viserys-targaryen",
+  "name": "Viserys Targaryen",
+  "short": "Viserys",
+  "aliases": [{ "text": "le Roi Gueux" }],
+  "house": "targaryen",
+  "region": "Essos",
+  "camp": "essos",
+  "allegiances": [{ "to": "targaryen" }],
+  "origin": "port-real",
+  "titles": [{ "text": "Prétendant au Trône de Fer" }],
+  "actor": "Harry Lloyd",
+  "firstSeason": 1,
+  "status": [
+    { "s": 1, "value": "vivant" },
+    { "s": 1, "value": "mort", "note": "Couronné d’or fondu par Khal Drogo à Vaes Dothrak" }
+  ],
+  "summary": "Fils du roi Aerys, exilé en Essos depuis l’enfance, Viserys se considère comme le roi légitime des Sept Couronnes. Il est prêt à tout pour reprendre le trône de son père, y compris à vendre sa sœur.",
+  "bio": [
+    {
+      "s": 1,
+      "title": "Saison 1 — Le roi sans couronne",
+      "paragraphs": [
+        "Viserys a passé sa vie à fuir de ville en ville, vivant de la charité de marchands qui spéculent sur son nom. À Pentos, avec l’aide du magistre Illyrio, il marie sa sœur Daenerys au khal Drogo en échange de la promesse de quarante mille cavaliers. Il la menace de « réveiller le dragon » quand elle lui désobéit.",
+        "Dans la mer Dothrak, Viserys ne comprend ni la langue ni les usages de ceux dont il attend une armée. Il voit sa sœur gagner le respect qu’on lui refuse. À Vaes Dothrak, ivre, il tire l’épée dans la cité sacrée et menace Daenerys et l’enfant qu’elle porte si Drogo ne lui donne pas sa couronne. Drogo fait fondre sa ceinture d’or et la lui verse sur la tête. Daenerys constate, impassible, qu’il n’était pas un dragon."
+      ]
+    }
+  ],
+  "keyMoments": [
+    { "s": 1, "title": "Le marché de Pentos", "text": "Il vend sa sœur au khal Drogo contre une armée.", "place": "pentos" },
+    { "s": 1, "title": "La couronne d’or", "text": "Drogo lui verse de l’or fondu sur la tête.", "place": "vaes-dothrak" }
+  ],
+  "relations": [
+    { "to": "daenerys-targaryen", "type": "fratrie", "label": "Sa petite sœur, qu’il tyrannise", "s": 1 },
+    { "to": "illyrio-mopatis", "type": "allie", "label": "Son hôte et protecteur", "s": 1 },
+    { "to": "khal-drogo", "type": "ennemi", "label": "Le khal qui l’a tué", "s": 1 },
+    { "to": "jorah-mormont", "type": "autre", "label": "Le chevalier exilé qui le méprise", "s": 1 }
+  ],
+  "places": [
+    { "place": "pentos", "seasons": [1] },
+    { "place": "mer-dothrak", "seasons": [1] },
+    { "place": "vaes-dothrak", "seasons": [1] }
+  ],
+  "codex": ["valyriens", "dothrakis"],
+  "portrait": "images/personnages/viserys-targaryen.webp",
+  "sources": [{ "label": "Wiki of Westeros — Viserys Targaryen", "url": "https://gameofthrones.fandom.com/wiki/Viserys_Targaryen" }]
+}

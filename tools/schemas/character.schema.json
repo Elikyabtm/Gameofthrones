@@ -47,19 +47,28 @@
       "type": "string"
     },
     "camp": {
-      "enum": ["westeros", "essos", "au-dela-du-mur"]
+      "enum": [
+        "westeros",
+        "essos",
+        "au-dela-du-mur"
+      ]
     },
     "allegiances": {
       "type": "array",
       "items": {
         "type": "object",
-        "required": ["to"],
+        "required": [
+          "to"
+        ],
         "additionalProperties": false,
         "properties": {
           "to": {
             "$ref": "common#/$defs/slug"
           },
           "s": {
+            "$ref": "common#/$defs/season"
+          },
+          "until": {
             "$ref": "common#/$defs/season"
           }
         }
@@ -92,14 +101,22 @@
       "minItems": 1,
       "items": {
         "type": "object",
-        "required": ["s", "value"],
+        "required": [
+          "s",
+          "value"
+        ],
         "additionalProperties": false,
         "properties": {
           "s": {
             "$ref": "common#/$defs/season"
           },
           "value": {
-            "enum": ["vivant", "mort", "inconnu", "ressuscite"]
+            "enum": [
+              "vivant",
+              "mort",
+              "inconnu",
+              "ressuscite"
+            ]
           },
           "note": {
             "type": "string"
@@ -124,7 +141,11 @@
       "type": "array",
       "items": {
         "type": "object",
-        "required": ["s", "title", "text"],
+        "required": [
+          "s",
+          "title",
+          "text"
+        ],
         "additionalProperties": false,
         "properties": {
           "s": {
@@ -146,7 +167,10 @@
       "type": "array",
       "items": {
         "type": "object",
-        "required": ["to", "type"],
+        "required": [
+          "to",
+          "type"
+        ],
         "additionalProperties": false,
         "properties": {
           "to": {
@@ -189,7 +213,10 @@
       "minItems": 1,
       "items": {
         "type": "object",
-        "required": ["place", "seasons"],
+        "required": [
+          "place",
+          "seasons"
+        ],
         "additionalProperties": false,
         "properties": {
           "place": {
@@ -213,7 +240,9 @@
     },
     "booksVsShow": {
       "type": "object",
-      "required": ["paragraphs"],
+      "required": [
+        "paragraphs"
+      ],
       "additionalProperties": false,
       "properties": {
         "s": {

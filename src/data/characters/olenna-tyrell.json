@@ -1,0 +1,92 @@
+{
+  "slug": "olenna-tyrell",
+  "name": "Olenna Tyrell",
+  "short": "Olenna",
+  "principal": true,
+  "aliases": [{ "text": "la Reine des Épines" }, { "text": "Olenna Redwyne" }],
+  "house": "tyrell",
+  "region": "Le Bief",
+  "camp": "westeros",
+  "allegiances": [{ "to": "tyrell" }],
+  "origin": "hautjardin",
+  "titles": [{ "text": "Dame douairière de Hautjardin" }],
+  "actor": "Diana Rigg",
+  "firstSeason": 3,
+  "status": [
+    { "s": 3, "value": "vivant" },
+    { "s": 7, "value": "mort", "note": "A bu le poison offert par Jaime Lannister à Hautjardin" }
+  ],
+  "summary": "Matriarche de la maison Tyrell, née Redwyne, Olenna est la vraie tête politique de sa famille. Son esprit est aussi vif que sa langue, et elle ne supporte pas les imbéciles.",
+  "quote": { "text": "Dites à Cersei que c’était moi.", "s": 7 },
+  "bio": [
+    {
+      "s": 3,
+      "title": "Saison 3 — La grand-mère",
+      "paragraphs": [
+        "Olenna arrive à Port-Réal avec sa petite-fille Margaery, promise au roi Joffrey. Elle fait venir Sansa Stark pour lui demander, entre deux gâteaux au citron, ce que vaut vraiment ce roi. Sansa, terrifiée, finit par avouer que Joffrey est un monstre. Olenna en tire ses conclusions et imagine de marier Sansa à Loras pour s’emparer du Nord.",
+        "Face à Tywin Lannister, Olenna trouve un adversaire à sa mesure. Elle le combat à coups de sous-entendus et de vieilles histoires sur sa famille. Elle perd la partie quand Tywin menace d’envoyer Loras dans la Garde Royale, ce qui éteindrait la lignée : Margaery épousera Joffrey, Loras épousera Cersei."
+      ]
+    },
+    {
+      "s": 4,
+      "title": "Saison 4 — Le mariage pourpre",
+      "paragraphs": [
+        "Olenna assiste au mariage de Margaery et Joffrey et prend le temps de redresser le collier de Sansa. Le roi s’effondre, empoisonné, au milieu du festin. Peu après, à l’abri d’un jardin, Olenna laisse entendre à Margaery qu’elle ne laisserait jamais sa petite-fille épouser un tel monstre. Elle repart pour Hautjardin en lui conseillant de séduire Tommen."
+      ]
+    },
+    {
+      "s": 5,
+      "title": "Saison 5 — Le Grand Moineau",
+      "paragraphs": [
+        "Quand la Foi militante arrête Loras puis Margaery, Olenna revient en hâte à Port-Réal. Elle affronte le Grand Moineau, qui ne craint ni l’argent ni la menace, puis rappelle à Cersei qu’elle tient la moitié des vivres de la capitale. Elle conclut un arrangement avec Littlefinger, qui lui livre une information compromettante sur la reine."
+      ]
+    },
+    {
+      "s": 6,
+      "title": "Saison 6 — La ruine",
+      "paragraphs": [
+        "Olenna voit s’effondrer tous ses plans : Margaery semble convertie à la Foi, et Cersei refuse une alliance contre le Grand Moineau. Le jour du procès, le grand septuor explose avec son fils Mace, sa petite-fille et son petit-fils. Olenna se rend à Dorne et s’allie à Ellaria Sand et à Varys pour rejoindre Daenerys : elle ne veut plus qu’une chose, la vengeance."
+      ]
+    },
+    {
+      "s": 7,
+      "title": "Saison 7 — La dernière coupe",
+      "paragraphs": [
+        "Olenna conseille à Daenerys d’être un dragon plutôt qu’une brebis, et de ne pas trop écouter Tyrion. Pendant que les Immaculés prennent Castral Roc, Jaime s’empare de Hautjardin. Il lui offre une mort sans douleur, dans une coupe. Olenna la boit d’un trait, puis lui avoue qu’elle a fait empoisonner Joffrey, et lui demande de le dire à Cersei."
+      ]
+    }
+  ],
+  "keyMoments": [
+    { "s": 3, "title": "Les gâteaux au citron", "text": "Elle obtient de Sansa la vérité sur Joffrey.", "place": "port-real" },
+    { "s": 3, "title": "Face à Tywin", "text": "Elle croise le fer verbal avec le seigneur de Castral Roc.", "place": "port-real" },
+    { "s": 4, "title": "Le collier", "text": "Elle ajuste le collier de Sansa le jour du mariage.", "place": "port-real" },
+    { "s": 6, "title": "L’alliance de la vengeance", "text": "Elle rejoint Ellaria et Varys pour rallier Daenerys.", "place": "lancehelion" },
+    { "s": 7, "title": "L’aveu", "text": "Elle boit le poison et révèle qui a tué Joffrey.", "place": "hautjardin" }
+  ],
+  "relations": [
+    { "to": "mace-tyrell", "type": "enfant", "label": "Son fils, qu’elle juge peu brillant", "inverseLabel": "Sa mère", "s": 3 },
+    { "to": "margaery-tyrell", "type": "autre", "label": "Sa petite-fille préférée", "inverseLabel": "Sa grand-mère", "s": 3 },
+    { "to": "loras-tyrell", "type": "autre", "label": "Son petit-fils", "inverseLabel": "Sa grand-mère", "s": 3 },
+    { "to": "sansa-stark", "type": "allie", "label": "La jeune fille qu’elle a voulu sauver", "s": 3 },
+    { "to": "petyr-baelish", "type": "allie", "label": "Son complice dans l’ombre", "s": 4 },
+    { "to": "grand-moineau", "type": "ennemi", "label": "L’homme qui a arrêté ses petits-enfants", "s": 5 },
+    { "to": "ellaria-sand", "type": "allie", "label": "Son alliée contre les Lannister", "s": 6 },
+    { "to": "varys", "type": "allie", "label": "Son allié dans le camp de Daenerys", "s": 6 },
+    { "to": "daenerys-targaryen", "type": "allie", "label": "La reine qu’elle a choisie", "s": 6 }
+  ],
+  "places": [
+    { "place": "port-real", "seasons": [3, 4, 5, 6] },
+    { "place": "lancehelion", "seasons": [6] },
+    { "place": "peyredragon", "seasons": [7] },
+    { "place": "hautjardin", "seasons": [7] }
+  ],
+  "codex": [],
+  "booksVsShow": {
+    "s": 4,
+    "paragraphs": [
+      "Dans les romans, Olenna est aussi soupçonnée de l’empoisonnement de Joffrey, mais elle ne l’avoue jamais. Sa mort face à Jaime, l’une de ses scènes les plus célèbres, est une invention de la série."
+    ]
+  },
+  "portrait": "images/personnages/olenna-tyrell.webp",
+  "sources": [{ "label": "Wiki of Westeros — Olenna Tyrell", "url": "https://gameofthrones.fandom.com/wiki/Olenna_Tyrell" }]
+}

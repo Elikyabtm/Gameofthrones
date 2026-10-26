@@ -1,0 +1,38 @@
+{
+  "slug": "tycho-nestoris",
+  "name": "Tycho Nestoris",
+  "short": "Tycho",
+  "aliases": [],
+  "house": null,
+  "region": "Braavos",
+  "camp": "essos",
+  "allegiances": [],
+  "origin": "braavos",
+  "titles": [{ "text": "Représentant de la Banque de Fer" }],
+  "actor": "Mark Gatiss",
+  "firstSeason": 4,
+  "status": [{ "s": 4, "value": "vivant" }],
+  "summary": "Représentant de la Banque de Fer de Braavos, Tycho Nestoris parle de chiffres comme d’autres parlent de batailles. La Banque, dit-il, ne prête pas aux rois : elle prête aux royaumes.",
+  "bio": [
+    { "s": 4, "title": "Saison 4 — Le prêt", "paragraphs": ["Tycho reçoit Stannis Baratheon et Davos dans la grande salle de la Banque de Fer. Il refuse d’abord un prêt à un roi sans armée, puis Davos lui démontre que la couronne Lannister ne remboursera jamais ses dettes, et que Stannis, lui, paie toujours les siennes. La Banque accorde l’argent."] },
+    { "s": 5, "title": "Saison 5 — Les créances", "paragraphs": ["Cersei envoie Mace Tyrell à Braavos pour renégocier la dette de la couronne. Tycho l’écoute avec une politesse glacée : la Banque n’oublie rien, et elle sait déjà que la couronne Lannister paie mal."] },
+    { "s": 7, "title": "Saison 7 — La reine solvable", "paragraphs": ["Tycho se rend à Port-Réal. Cersei rembourse la dette en totalité grâce à l’or de Hautjardin. Satisfait, il lui laisse entendre que la Banque pourrait financer d’autres projets, comme l’achat d’une armée de mercenaires."] }
+  ],
+  "keyMoments": [
+    { "s": 4, "title": "La Banque de Fer", "text": "Il accorde un prêt à Stannis sur les arguments de Davos.", "place": "braavos" },
+    { "s": 7, "title": "La dette payée", "text": "Cersei solde la dette de la couronne.", "place": "port-real" }
+  ],
+  "relations": [
+    { "to": "stannis-baratheon", "type": "autre", "label": "Le roi à qui la Banque a prêté", "s": 4 },
+    { "to": "davos-mervault", "type": "autre", "label": "L’homme qui a convaincu la Banque", "s": 4 },
+    { "to": "cersei-lannister", "type": "autre", "label": "La reine débitrice", "s": 7 },
+    { "to": "mace-tyrell", "type": "autre", "label": "L’envoyé de la couronne", "s": 5 }
+  ],
+  "places": [
+    { "place": "braavos", "seasons": [4, 5] },
+    { "place": "port-real", "seasons": [7] }
+  ],
+  "codex": ["braaviens"],
+  "portrait": null,
+  "sources": [{ "label": "Wiki of Westeros — Tycho Nestoris", "url": "https://gameofthrones.fandom.com/wiki/Tycho_Nestoris" }]
+}

@@ -1,0 +1,65 @@
+{
+  "slug": "robert-baratheon",
+  "name": "Robert Baratheon",
+  "short": "Robert",
+  "principal": true,
+  "aliases": [{ "text": "l’Usurpateur" }],
+  "house": "baratheon",
+  "region": "Les Terres de l’Orage",
+  "camp": "westeros",
+  "allegiances": [{ "to": "baratheon" }],
+  "origin": "accalmie",
+  "titles": [{ "text": "Roi des Andals et des Premiers Hommes" }, { "text": "Protecteur du royaume" }],
+  "actor": "Mark Addy",
+  "firstSeason": 1,
+  "status": [
+    { "s": 1, "value": "vivant" },
+    { "s": 1, "value": "mort", "note": "Éventré par un sanglier à la chasse, ivre, avec la complicité de son écuyer" }
+  ],
+  "summary": "Vainqueur de la Rébellion qui a renversé les Targaryen, Robert règne depuis dix-sept ans sur les Sept Couronnes. Grand guerrier devenu roi sans goût pour le pouvoir, il boit, chasse et regrette sa jeunesse.",
+  "bio": [
+    {
+      "s": 1,
+      "title": "Saison 1 — Le roi fatigué",
+      "paragraphs": [
+        "Robert arrive à Winterfell avec toute sa cour, ventru et bruyant, pour retrouver Eddard Stark, son ami de jeunesse. Il descend d’abord dans les cryptes, devant la tombe de Lyanna, la femme qu’il aimait et qu’il n’a jamais épousée. Puis il demande à Eddard de devenir sa Main, et propose d’unir leurs familles en fiançant Sansa à son fils Joffrey.",
+        "À Port-Réal, Robert laisse le gouvernement à son Conseil et les dettes s’accumulent. Il se montre plus vivant quand il raconte ses batailles, comme celle du Trident où il a tué le prince Rhaegar d’un coup de masse, que quand il siège sur le trône. Il méprise sa femme Cersei, qui le lui rend bien, et ne voit pas ce qui se trame sous ses yeux. Quand il apprend que Daenerys Targaryen attend un enfant, il ordonne de la faire assassiner, ce qui le brouille avec Eddard.",
+        "Lors d’une chasse, ivre de vin fort que lui sert son écuyer Lancel sur ordre de la reine, il est éventré par un sanglier. Sur son lit de mort, il dicte son testament à Eddard, qui y glisse « l’héritier légitime » au lieu du nom de Joffrey."
+      ]
+    }
+  ],
+  "keyMoments": [
+    { "s": 1, "title": "La tombe de Lyanna", "text": "Il se recueille dans les cryptes de Winterfell devant celle qu’il aimait.", "place": "winterfell" },
+    { "s": 1, "title": "L’ordre d’assassinat", "text": "Il veut faire tuer Daenerys et son enfant à naître.", "place": "port-real" },
+    { "s": 1, "title": "Le sanglier", "text": "Il est mortellement blessé lors d’une chasse.", "place": "port-real" }
+  ],
+  "relations": [
+    { "to": "stannis-baratheon", "type": "fratrie", "label": "Son frère cadet", "s": 1 },
+    { "to": "renly-baratheon", "type": "fratrie", "label": "Son plus jeune frère", "s": 1 },
+    { "to": "joffrey-baratheon", "type": "enfant", "label": "Son fils et héritier, selon la loi", "inverseLabel": "Son père selon la loi", "s": 1 },
+    { "to": "myrcella-baratheon", "type": "enfant", "label": "Sa fille, selon la loi", "inverseLabel": "Son père selon la loi", "s": 1 },
+    { "to": "tommen-baratheon", "type": "enfant", "label": "Son fils cadet, selon la loi", "inverseLabel": "Son père selon la loi", "s": 1 },
+    { "to": "gendry", "type": "enfant", "label": "Son fils naturel", "inverseLabel": "Son père, qu’il n’a jamais connu", "s": 1 },
+    { "to": "lancel-lannister", "type": "serviteur", "label": "Son écuyer", "inverseLabel": "Le roi qu’il sert", "s": 1 },
+    { "to": "barristan-selmy", "type": "serviteur", "label": "Son Lord Commandant", "inverseLabel": "Le roi qu’il sert", "s": 1 },
+    { "to": "rhaegar-targaryen", "type": "ennemi", "label": "Le prince qu’il a tué au Trident", "inverseLabel": "L’homme qui l’a tué", "s": 1 },
+    { "to": "daenerys-targaryen", "type": "ennemi", "label": "L’héritière qu’il a voulu faire tuer", "s": 1 },
+    { "to": "aerys-targaryen", "type": "ennemi", "label": "Le roi qu’il a renversé", "s": 1 }
+  ],
+  "places": [
+    { "place": "winterfell", "seasons": [1] },
+    { "place": "port-real", "seasons": [1] }
+  ],
+  "codex": ["foi-des-sept", "garde-royale", "rebellion"],
+  "booksVsShow": {
+    "s": 1,
+    "paragraphs": [
+      "La série a ajouté plusieurs scènes absentes des romans, comme la conversation entre Robert et Cersei sur leur mariage, ou celle où Robert et Jaime évoquent leurs premières batailles. Elles donnent au roi une mélancolie que les livres ne montrent que par les souvenirs d’Eddard."
+    ]
+  },
+  "portrait": "images/personnages/robert-baratheon.webp",
+  "sources": [
+    { "label": "Wiki of Westeros — Robert Baratheon", "url": "https://gameofthrones.fandom.com/wiki/Robert_Baratheon" },
+    { "label": "A Wiki of Ice and Fire — Robert I Baratheon", "url": "https://awoiaf.westeros.org/index.php/Robert_I_Baratheon" }
+  ]
+}

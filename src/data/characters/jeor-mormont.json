@@ -1,0 +1,40 @@
+{
+  "slug": "jeor-mormont",
+  "name": "Jeor Mormont",
+  "short": "Jeor",
+  "aliases": [{ "text": "le Vieil Ours" }],
+  "house": "mormont",
+  "region": "Le Mur",
+  "camp": "westeros",
+  "allegiances": [{ "to": "mormont" }],
+  "origin": "ile-aux-ours",
+  "titles": [{ "text": "Lord Commandant de la Garde de Nuit" }],
+  "actor": "James Cosmo",
+  "firstSeason": 1,
+  "status": [
+    { "s": 1, "value": "vivant" },
+    { "s": 3, "value": "mort", "note": "Poignardé lors de la mutinerie chez Craster" }
+  ],
+  "summary": "Lord Commandant de la Garde de Nuit, Jeor Mormont a laissé l’île aux Ours à son fils pour prendre le noir. Bourru et lucide, il voit venir des dangers que le Sud refuse d’entendre.",
+  "bio": [
+    { "s": 1, "title": "Saison 1 — Le Vieil Ours", "paragraphs": ["Mormont accueille à Châteaunoir des recrues de plus en plus misérables, et ne s’en cache pas. Il remarque Jon Snow, le fait son intendant et le met à l’épreuve. Quand des patrouilleurs morts se relèvent et que l’un d’eux l’attaque dans ses quartiers, Jon lui sauve la vie en brûlant la créature. Mormont lui offre en remerciement Grand-Griffe, l’épée d’acier valyrien de sa famille, que son fils déshonoré a laissée derrière lui."] },
+    { "s": 2, "title": "Saison 2 — L’expédition", "paragraphs": ["Mormont mène trois cents frères au-delà du Mur pour comprendre ce qui se prépare. Il s’arrête chez Craster, dont il tolère les coutumes en échange d’informations, et sermonne Jon quand celui-ci découvre ce que Craster fait de ses fils. Il établit son camp sur le Poing des Premiers Hommes."] },
+    { "s": 3, "title": "Saison 3 — La mutinerie", "paragraphs": ["Après l’attaque des morts sur le Poing, Mormont ramène les survivants chez Craster. Affamés et humiliés, plusieurs frères se révoltent. Mormont est poignardé dans le dos par l’un de ses hommes."] }
+  ],
+  "keyMoments": [
+    { "s": 1, "title": "Grand-Griffe", "text": "Il offre à Jon l’épée de sa famille.", "place": "chateaunoir" },
+    { "s": 3, "title": "La mutinerie", "text": "Il est tué par ses propres frères chez Craster.", "place": "au-dela-du-mur" }
+  ],
+  "relations": [
+    { "to": "jorah-mormont", "type": "enfant", "label": "Son fils, exilé", "inverseLabel": "Son père", "s": 1 },
+    { "to": "craster", "type": "autre", "label": "Le sauvageon qui l’héberge", "s": 2 },
+    { "to": "samwell-tarly", "type": "autre", "label": "L’intendant de mestre Aemon", "s": 2 }
+  ],
+  "places": [
+    { "place": "chateaunoir", "seasons": [1] },
+    { "place": "au-dela-du-mur", "seasons": [2, 3] }
+  ],
+  "codex": ["garde-de-nuit"],
+  "portrait": null,
+  "sources": [{ "label": "Wiki of Westeros — Jeor Mormont", "url": "https://gameofthrones.fandom.com/wiki/Jeor_Mormont" }]
+}

@@ -1,0 +1,42 @@
+{
+  "slug": "shireen-baratheon",
+  "name": "Shireen Baratheon",
+  "short": "Shireen",
+  "aliases": [],
+  "house": "baratheon",
+  "region": "Peyredragon",
+  "camp": "westeros",
+  "allegiances": [{ "to": "baratheon" }],
+  "origin": "peyredragon",
+  "titles": [{ "text": "Princesse" }],
+  "actor": "Kerry Ingram",
+  "firstSeason": 3,
+  "status": [
+    { "s": 3, "value": "vivant" },
+    { "s": 5, "value": "mort", "note": "Brûlée vive en sacrifice au Maître de la Lumière" }
+  ],
+  "summary": "Fille unique de Stannis et de Selyse, Shireen porte sur le visage les cicatrices d’une maladie d’enfance, la léprose grise. Tenue à l’écart, elle trouve refuge dans les livres.",
+  "bio": [
+    { "s": 3, "title": "Saison 3 — La prisonnière des livres", "paragraphs": ["Isolée dans sa chambre de Peyredragon, Shireen rend visite à Davos dans les cachots et lui apprend à lire. Elle chante, pose des questions et se lie d’amitié avec Gendry quand il passe par l’île."] },
+    { "s": 4, "title": "Saison 4 — L’amie de Davos", "paragraphs": ["Shireen continue d’instruire Davos, qui lui rend son affection. C’est en lisant avec elle qu’il trouve l’idée qui sauvera la cause de Stannis : demander de l’aide à la Banque de Fer."] },
+    { "s": 5, "title": "Saison 5 — Le bûcher", "paragraphs": ["Au Mur, Shireen apprend à lire à Gilly, raconte à son père comment il l’a sauvée de sa maladie, et reçoit de lui une rare marque de tendresse. Sur la route de Winterfell, bloqué par la neige, Stannis cède à Melisandre. Shireen, qui croit retrouver Davos, est conduite au bûcher et brûlée vive devant l’armée."] }
+  ],
+  "keyMoments": [
+    { "s": 3, "title": "Les leçons de lecture", "text": "Elle apprend à lire à Davos dans les cachots.", "place": "peyredragon" },
+    { "s": 5, "title": "Le cerf de bois", "text": "Davos lui sculpte un cerf, qu’il retrouvera dans les cendres.", "place": "chateaunoir" },
+    { "s": 5, "title": "Le sacrifice", "text": "Elle est brûlée vive sur ordre de son père.", "place": "winterfell" }
+  ],
+  "relations": [
+    { "to": "davos-mervault", "type": "eleve", "label": "Son ami, à qui elle apprend à lire", "inverseLabel": "La petite princesse qui lui apprend à lire", "s": 3 },
+    { "to": "melisandre", "type": "ennemi", "label": "Celle qui a réclamé son sacrifice", "s": 5 },
+    { "to": "gilly", "type": "allie", "label": "Son élève au Mur", "s": 5 }
+  ],
+  "places": [
+    { "place": "peyredragon", "seasons": [3, 4] },
+    { "place": "chateaunoir", "seasons": [5] },
+    { "place": "winterfell", "seasons": [5] }
+  ],
+  "codex": ["maitre-de-la-lumiere"],
+  "portrait": "images/personnages/shireen-baratheon.webp",
+  "sources": [{ "label": "Wiki of Westeros — Shireen Baratheon", "url": "https://gameofthrones.fandom.com/wiki/Shireen_Baratheon" }]
+}

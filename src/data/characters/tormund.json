@@ -1,0 +1,90 @@
+{
+  "slug": "tormund",
+  "name": "Tormund",
+  "short": "Tormund",
+  "principal": true,
+  "aliases": [{ "text": "Tormund Fléau-d’Ogres" }],
+  "house": null,
+  "region": "Au-delà du Mur",
+  "camp": "au-dela-du-mur",
+  "allegiances": [],
+  "origin": "au-dela-du-mur",
+  "titles": [{ "text": "Chef de guerre du Peuple libre" }],
+  "actor": "Kristofer Hivju",
+  "firstSeason": 3,
+  "status": [{ "s": 3, "value": "vivant" }],
+  "summary": "Chef de guerre du Peuple libre, Tormund est un colosse roux qui rit fort, boit sec et raconte des histoires invraisemblables sur lui-même. Il suit Mance Rayder parce qu’il l’a choisi.",
+  "bio": [
+    {
+      "s": 3,
+      "title": "Saison 3 — Le lieutenant de Mance",
+      "paragraphs": [
+        "Tormund reçoit Jon Snow dans le camp de Mance Rayder avec une franche méfiance et une curiosité amusée. Il se vante d’avoir tué un géant et d’avoir eu des enfants avec une ourse, et se moque de la timidité de Jon avec Ygritte. Il conduit le groupe qui escalade le Mur, une ascension vertigineuse sur la glace, et passe au sud avec Jon, Ygritte et les autres pillards.",
+        "Quand Jon refuse de tuer un vieil homme et s’enfuit, Tormund comprend qu’il a été trompé. Il ne le pardonnera pas de sitôt."
+      ]
+    },
+    {
+      "s": 4,
+      "title": "Saison 4 — L’assaut",
+      "paragraphs": [
+        "Tormund et les Thenns ravagent les villages au sud du Mur, puis attaquent Châteaunoir par le sud pendant que l’armée de Mance frappe de l’autre côté. Il combat furieusement dans la cour avant d’être criblé de flèches et capturé. Jon lui fait remettre des soins ; Tormund, enchaîné, lui conseille de brûler Ygritte au nord du Mur, là où elle était chez elle."
+      ]
+    },
+    {
+      "s": 5,
+      "title": "Saison 5 — Durlieu",
+      "paragraphs": [
+        "Prisonnier de la Garde, Tormund écoute Jon, devenu Lord Commandant, lui proposer de faire passer son peuple au sud du Mur avant l’arrivée des morts. Il accepte de l’accompagner à Durlieu pour convaincre les clans. Il y affronte la colère des siens, puis l’attaque de l’armée des morts. Il fuit avec les survivants et les milliers de sauvageons que la Garde laisse finalement entrer."
+      ]
+    },
+    {
+      "s": 6,
+      "title": "Saison 6 — Le frère d’armes",
+      "paragraphs": [
+        "À Châteaunoir, Tormund aide Davos et les fidèles de Jon à reprendre le château après l’assassinat du Lord Commandant. Il assiste à son retour à la vie. Il rencontre Brienne de Torth et ne la quitte plus des yeux, à son grand embarras. Il mène les guerriers du Peuple libre à la bataille des Bâtards, pour reprendre Winterfell à Ramsay Bolton."
+      ]
+    },
+    {
+      "s": 7,
+      "title": "Saison 7 — Fort-Levant",
+      "paragraphs": [
+        "Tormund garde le Mur avec le Peuple libre, à Fort-Levant-de-la-Mer. Il participe à l’expédition de Jon au-delà du Mur pour capturer un mort, et survit de justesse quand l’armée des morts les encercle sur un lac gelé. À Fort-Levant, il voit le Roi de la Nuit abattre une portion du Mur avec un dragon mort."
+      ]
+    },
+    {
+      "s": 8,
+      "title": "Saison 8 — Le retour au Nord",
+      "paragraphs": [
+        "Tormund survit à l’effondrement du Mur et rejoint Winterfell pour la Longue Nuit. Après la victoire, il voit Brienne choisir Jaime. Il repart vers le nord, puis retrouve Jon au Mur à la fin de la guerre et l’emmène vers les terres libres, où l’on n’a jamais eu de rois."
+      ]
+    }
+  ],
+  "keyMoments": [
+    { "s": 3, "title": "L’ascension du Mur", "text": "Il mène l’escalade de la muraille de glace.", "place": "chateaunoir" },
+    { "s": 4, "title": "L’assaut de Châteaunoir", "text": "Il est capturé après une bataille furieuse.", "place": "chateaunoir" },
+    { "s": 5, "title": "Durlieu", "text": "Il voit les morts se lever avec Jon.", "place": "durlieu" },
+    { "s": 6, "title": "La bataille des Bâtards", "text": "Le Peuple libre combat pour Jon à Winterfell.", "place": "winterfell" },
+    { "s": 8, "title": "Vers le nord", "text": "Il emmène Jon au-delà du Mur.", "place": "au-dela-du-mur" }
+  ],
+  "relations": [
+    { "to": "ygritte", "type": "allie", "label": "Sa compagne de pillage", "s": 3 },
+    { "to": "mance-rayder", "type": "suzerain", "label": "Son roi, qu’il a choisi", "inverseLabel": "Son chef de guerre", "s": 3 },
+    { "to": "brienne-de-torth", "type": "autre", "label": "La guerrière qu’il admire en silence… ou presque", "inverseLabel": "Le sauvageon qui la regarde un peu trop", "s": 6 },
+    { "to": "davos-mervault", "type": "allie", "label": "Son allié à Châteaunoir", "s": 6 }
+  ],
+  "places": [
+    { "place": "au-dela-du-mur", "seasons": [3, 7, 8] },
+    { "place": "chateaunoir", "seasons": [3, 4, 5, 6] },
+    { "place": "durlieu", "seasons": [5] },
+    { "place": "winterfell", "seasons": [6, 8] }
+  ],
+  "codex": ["peuple-libre", "geants", "marcheurs-blancs"],
+  "booksVsShow": {
+    "s": 3,
+    "paragraphs": [
+      "Dans les romans, Tormund est plus âgé et ses titres sont encore plus extravagants. Plusieurs de ses répliques de la série viennent d’ailleurs du personnage du livre, tandis que son attirance pour Brienne est une invention des scénaristes."
+    ]
+  },
+  "portrait": null,
+  "sources": [{ "label": "Wiki of Westeros — Tormund", "url": "https://gameofthrones.fandom.com/wiki/Tormund" }]
+}

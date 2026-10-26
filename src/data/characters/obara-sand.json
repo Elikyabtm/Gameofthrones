@@ -1,0 +1,41 @@
+{
+  "slug": "obara-sand",
+  "name": "Obara Sand",
+  "short": "Obara",
+  "aliases": [{ "text": "Aspic des Sables" }],
+  "house": "martell",
+  "region": "Dorne",
+  "camp": "westeros",
+  "allegiances": [{ "to": "martell" }],
+  "origin": "lancehelion",
+  "titles": [],
+  "actor": "Keisha Castle-Hughes",
+  "firstSeason": 5,
+  "status": [
+    { "s": 5, "value": "vivant" },
+    { "s": 7, "value": "mort", "note": "Tuée par Euron Greyjoy lors de l’attaque de la flotte" }
+  ],
+  "summary": "Fille aînée d’Oberyn, Obara est une guerrière franche qui se bat à la lance. Elle a choisi très jeune de suivre son père plutôt que sa mère.",
+  "bio": [
+    { "s": 5, "title": "Saison 5 — La lance", "paragraphs": ["Obara raconte comment son père lui a laissé choisir entre les larmes de sa mère et une lance : elle a pris la lance. Elle participe avec ses sœurs à la tentative d’enlèvement de Myrcella et se retrouve en prison."] },
+    { "s": 6, "title": "Saison 6 — Le coup d’État", "paragraphs": ["Obara monte à bord du navire de Trystane avec Nymeria et le tue d’un coup de lance. Les Aspics des Sables prennent le pouvoir avec Ellaria."] },
+    { "s": 7, "title": "Saison 7 — La flotte en feu", "paragraphs": ["En mer avec Yara Greyjoy, Obara affronte l’attaque nocturne d’Euron. Elle se bat jusqu’au bout et meurt transpercée par sa propre lance."] }
+  ],
+  "keyMoments": [
+    { "s": 6, "title": "Le navire", "text": "Elle tue Trystane Martell.", "place": "port-real" },
+    { "s": 7, "title": "La dernière lance", "text": "Elle meurt face à Euron.", "place": "peyredragon" }
+  ],
+  "relations": [
+    { "to": "nymeria-sand", "type": "fratrie", "label": "Sa sœur", "s": 5 },
+    { "to": "tyene-sand", "type": "fratrie", "label": "Sa demi-sœur", "s": 5 },
+    { "to": "euron-greyjoy", "type": "ennemi", "label": "Son assassin", "s": 7 }
+  ],
+  "places": [
+    { "place": "jardins-aquatiques", "seasons": [5] },
+    { "place": "port-real", "seasons": [6] },
+    { "place": "peyredragon", "seasons": [7] }
+  ],
+  "codex": ["dorniens"],
+  "portrait": "images/personnages/obara-sand.webp",
+  "sources": [{ "label": "Wiki of Westeros — Obara Sand", "url": "https://gameofthrones.fandom.com/wiki/Obara_Sand" }]
+}
